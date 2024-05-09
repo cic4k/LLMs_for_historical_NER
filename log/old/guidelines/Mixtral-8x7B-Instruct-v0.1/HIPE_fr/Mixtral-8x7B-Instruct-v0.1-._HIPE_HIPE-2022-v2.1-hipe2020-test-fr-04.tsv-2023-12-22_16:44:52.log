@@ -1,0 +1,799 @@
+ OUTPUT: "<SENTENCE>Après avoir entendu de <org>8 rapports</org> sur la question de la re vision de la loi fédérale sur les traitements , l ' assemblée a voté une résolution par laquelle elle demande que les facteurs des télégraphes soient payés de la même <HumanProd>manière</HumanProd> que les facteurs du servie postal .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Le temps .</SENTENCE>"
+OUTPUT: "<SENTENCE>Le <time>temps</time> .</SENTENCE>"
+########
+ <SENTENCE>— Il y a eu dimanche de fortes chutes de neige sur les <loc>montagnes Righi , Sœntis , Gothard , Pilate</loc> et jusqu' <loc>à la Haute - Engadine</loc> .</SENTENCE>
+########
+ INPUT: "<SENTENCE>Hier matin , la température était au - dessous de zéro jusqu ' à l ' altitude de 1600 m .</SENTENCE>"
+OUTPUT: "<SENTENCE>Hier matin , la température était au - dessous de zéro jusqu ' à l ' <time>altitude de 1600 m</time> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Pour voyager en Allemagne .</SENTENCE>"
+OUTPUT: "<SENTENCE>Pour voyager en <loc>Allemagne</loc> .</SENTENCE>"
+########
+ <SENTENCE><TIME>Berne, 8 juin</TIME>. </SENTENCE>
+########
+ OUTPUT: "<SENTENCE>Les <org>chemins de fer de l ' Allemagne</org> ont appliqué le 1 <time>mai écoulé</time> une réforme très importante dans les tarifs pour le transport des voyageurs et des bagages .</SENTENCE>"
+########
+ <SENTENCE>Les <HumanProd>billets aller et retour</HumanProd> ont été abolis ; ils sont remplacés par de <HumanProd>3 billets à simple course</HumanProd> dont le prix a été fixé à la moitié du coût des précédents <HumanProd>billets aller et retour</HumanProd> .</SENTENCE>
+########
+ INPUT: "<SENTENCE>Le tarif des bagages a été réduit très sensiblement .</SENTENCE>"
+OUTPUT: "<SENTENCE>Le tarif des <HumanProd>bagages</HumanProd> a été réduit très sensiblement .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Le <time>1 juin</time> , on a mis en vente , aussi en Suisse , ces nouveaux billets allemands .</SENTENCE>"
+########
+ <SENTENCE>Il y a trois catégories de <HumanProd>billets</HumanProd> ; la première est valable pour tous les trains , sauf ceux de luxe ( express ) ; dans leur prix est déjà comprise la surtaxe pour les trains accélérés et directs .</SENTENCE>
+########
+ <SENTENCE>La seconde catégorie comprend des billets valables pour les trains <HumanProd>omnibus</HumanProd> ; on peut s'en servir pour les trains accélérés et directs en se pourvoyant de billets supplémentaires que l'on peut obtenir aux <loc>stations suisses</loc> .</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>Enfin la troisième catégorie comprend les billets pour la <HumanProd>3 et 4 classe</HumanProd> et pour trains omnibus ; si on veut voyager par des trains accélérés , directs ou express il faut prendre des billets supplémentaires .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Pour éviter tout désagrément il est préférable de se pourvoir de billets valables pour tous les trains , sauf ceux de luxe .</SENTENCE>"
+OUTPUT: "<SENTENCE>Pour éviter <time>tout désagrément</time> il est préférable de se pourvoir de billets valables pour tous les trains , sauf ceux de luxe .</SENTENCE>"
+
+In this example, "tout désagrément" is considered as a time entity because it is used as an absolute date or temporal expression, which can be deduced by the sole information present in the date without any context.
+########
+ <SENTENCE>Il faut noter encore que pour voyager en <loc>Prusse</loc> on ne peut avoir que des billets valables pour tous les trains — toujours ceux de luxe exceptés .</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>Les <org>chemins de fer allemands</org> n ' acceptent plus de bagages que sur présentation de <HumanProd>billets de voyageurs</HumanProd> ; en échange , le tarif a été réduit assez sensiblement ; la réduction augmente en proportion des <HumanProd>billets</HumanProd> que l ' on peut présenter pour le même envoi de bagages : 100 kilos de bagage coûtent de <loc>Bâle</loc> à <loc>Hambourg</loc> 25 fr . si l ' on présente un seul <HumanProd>billet</HumanProd> ; si , par contre , on présente deux <HumanProd>billets</HumanProd> , le prix n'est plus que de 20 fr .</SENTENCE>"
+########
+ <SENTENCE>; avec trois billets de 15 <HumanProd>fr.</HumanProd> </SENTENCE>
+########
+ INPUT: "<SENTENCE>, et de quatre ou plus de 5 fr .</SENTENCE>"
+OUTPUT: "<SENTENCE>, et de <HumanProd>quatre</HumanProd> ou plus de <HumanProd>5 fr.</HumanProd> .</SENTENCE>"
+########
+ <SENTENCE>Pour les <HumanProd>envois</HumanProd> peu lourds et destinés à de petites distances, la réduction du <HumanProd>tarif</HumanProd>, naturellement, est moins importante, presque insignifiante.</SENTENCE>
+########
+ "<SENTENCE>DoiwaE <org>condamné à mort</org> <org>Démission de ministres italiens</org> <time>le 16 mai</time> , <org>La convention germano - suisse</org> <time>ajournée</time> <org>Communiqué français</org> <loc>à Paris</loc> <time>à 16 h</time> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>IAIU cours de la nuit , [ bombardement violent de la région au nord de Montdidier et entre Montdidier et Noyon .</SENTENCE>"
+OUTPUT: "<SENTENCE>IAIU cours de la nuit , [ <loc>bombardement</loc> violent de la <loc>région au nord de Montdidier</loc> et entre <loc>Montdidier</loc> et <loc>Noyon</loc> .</SENTENCE>"
+########
+ <SENTENCE>Hier , en fin de <time>jonmêe</time> , les <pers>troupes çaises</pers> ont prononcé une vigoureuse attaque contre les positions <loc>allemandes</loc> au sud de <loc>llaiïïea</loc> et se sont emparées d ' un <loc>bois</loc> surtelirive ouest de l ' <loc>Avre</loc> , en dépit d ' une résistance « ohaTiiée de l ' ennemi . Ce matin , une forte contre - attaque <loc>allemande</loc> a donné lieu à un vif combat . Les <pers>troupes firanoaisee</pers> ont maintenu intégralement leurs gains et ont infligé des pertes très sérieuses aux assaillants . Le <num>70</num> des prisonniers faits par les <pers>Français</pers> ' est de 70 , dont un <pers>officier</pers> . Une autre tentative au sud de <loc>BofUot</loc> , menée après un vif bombardement , a également Subi un <num>éoUèo</num> complot . Au nord du <loc>Ohomin</loc> - des - <loc>Damos</loc> , les <pers>Français</pers> ont repoussé un coup de main sur de petits postes dans la région de la <loc>BoveHe</loc> . <org>Communiqué britannique</org> <loc>Londires</loc> , 16 mai , après - midi . Hier soir , nu nord de <loc>Lens</loc> , l ' ennemi a tenté un <loc>raid</loc> qui a été repoussé . De notre oôté , nous en avons tréussi un autre au nord - est de <loc>Bobecq</loc> . I / axLi ' UeQo ennemie s ' est montrée active pondant la nuit dans les vallées de la <loc>Somme</loc> et de l ' <loc>Ancre</loc> , au nord de <loc>Bétliuno</loc> et d © la forêt de <loc>Nleppe</loc> . Activité intensifiée de l ' artillerie ce matin , an , surVouest de <loc>Morlancourt</loc> et au nord de <loc>Kemnraï</loc> . <org>Londres</org> , 15 mai . Le <org>cooiTosu ondant spécial de lieu ter</org> auprès de l ' armée française dit que l ' accalmie dans le combat des <loc>Flandres</loc> est marquée par une augmentation soutenue du sévère duel d ' artillerie qui , de notre côté , prend , parfois des proportions terrifiantes . Le bruit du Canon persiste jour et nuit . Les routes situées derrière le front <loc>allemand</loc> sont tenues sous une pluie constante de projectiles . Les villages et les carreleurs par lesquels le trafic ennemi doit se faire , sont systématiquement balayés par des rafales de . gros obus de sorte que l ' ennemi éprouve les plus grandes difficultés & repourvoir en munitions et en vivres ses li gnes de combat . Nous savons par les prisonniers que les routes qui conduisent au front ennemi sont jonchées de débris de vagons , de ébevaux et d ' hommes tués . D ' infanterie qui vient du front ennemi est soumise à un bombardement plus terrible encore . Nos canons ne lui donnent que peu cTocçasions de se re trancher . Les tranchées qu ' elle peut avoir sont peu profondes et n ' offrent qu ' un minimum de protection . Le travail n ' est possible que pendant la nuit et à peine les tranchées sontelles oreusées , qu ' elles sont découvertes t détruites par le feu de Fartiïïerie le matin suivant . Les hommes doivent coucher dehors , dans des trous d ' obus , souvent à la pl
+########
+ INPUT: "<SENTENCE>et dans la reprise 1 oollihe 44, le 11 mai.</SENTENCE>"
+OUTPUT: "<SENTENCE>et dans la reprise <time>1 oollihe 44</time>, le <time>11 mai</time>.</SENTENCE>"
+########
+ <SENTENCE>Communiqué <org>allemand</org> Berlin , <time>15 mai</time> .</SENTENCE>
+########
+ INPUT: "<SENTENCE>WSONT GaOLDENTAL .</SENTENCE>"
+OUTPUT: "<SENTENCE>WSONT GaOLDENTAL .</SENTENCE>"
+
+(The input sentence does not contain any named entities.)
+########
+ INPUT: "<SENTENCE>— Au nord du Kemmel des entreprises offensives locales ont été couronnées d ' un succès complet et nous onlt valu 120 prisonniers .</SENTENCE>"
+OUTPUT: "<SENTENCE>— Au nord du <loc>Kemmel</loc> des <HumanProd>entreprises offensives locales</HumanProd> ont été couronnées d ' un succès complet et nous onlt valu 120 prisonniers .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Notre attaque qui frappa les troupes ennemies juste SB moment où elles étaient relevées coûta aux Français des pertes éevées en morts et en blessés .</SENTENCE>"
+OUTPUT: "<SENTENCE>Notre attaque qui frappa les troupes ennemies juste <TIME>SB moment</TIME> où elles étaient relevées coûta aux Français des pertes éevées en morts et en blessés .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Le combat d'artillerie est de meuTê intensifié dans la région du Kemmel.</SENTENCE>"
+OUTPUT: "<SENTENCE>Le combat d'<HumanProd>artillerie</HumanProd> est de meuTê intensifié dans la région du <loc>Kemmel</loc>.</SENTENCE>"
+########
+ INPUT: "<SENTENCE>• Ce matin , en corrélation avec des poussées françaises , de nouveaux combats d ' infanterie se développèrent , entre la Lys et le canal de La Bassée , sur la Scarpe et près de Bucquoy ; l ' ariSHerie ennemie s ' e 3 t montrée active surtout au cours de la nuit .</SENTENCE>"
+OUTPUT: "<SENTENCE>• Ce matin , en corrélation avec des poussées <pers>françaises</pers> , de nouveaux combats d ' infanterie se développèrent , entre la <loc>Lys</loc> et le canal de <loc>La Bassée</loc> , sur la <loc>Scarpe</loc> et près de <loc>Bucquoy</loc> ; l ' <org>arishérie</org> ennemie s ' e 3 t montrée active surtout au cours de la nuit .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Entre <loc>t ' Ancre</loc> et la <loc>Somme</loc> , nous avons pénétré par une courte poussée , sur la route de <loc>Bray â Conbie</loc> , dans les lignes anglaises et nous avons maintenu le terrain gagné contre les fontes contre - attaques de l ' ennemi .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Une vive activité de l ' artillerie destinée à appuyer l ' infanterie a continué .</SENTENCE>"
+OUTPUT: "<SENTENCE>Une vive activité de <prod>l ' artillerie</prod> destinée à appuyer l ' <org>infanterie</org> a continué .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>.</SENTENCE>"
+OUTPUT: "<SENTENCE>.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Près de <loc>VJMers - Bretonneux</loc> , des deux côtés de la <loc>Luoe</loc> et de l' <loc>Avre</loc> , le combat de feu a repris fréquemment , _ Sur _ la rive occidentale de l' <loc>Avre</loc> , l'ennemi a attaqué nos lignes près de <loc>Castel</loc> ; U a été repoussé avec de lourdes pertes .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Dans quelques secteurs , combats de reconnaissance .</SENTENCE>"
+OUTPUT: "<SENTENCE>Dans quelques <loc>secteurs</loc> , combats de reconnaissance .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Nos aviateurs ont abattu hier 6 ballons captifs ennemis .</SENTENCE>"
+OUTPUT: "<SENTENCE>Nos <pers>aviateurs</pers> ont abattu <time>hier</time> 6 <HumanProd>ballons captifs ennemis</HumanProd> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Sur le front de combat , vive activité aérienne nocturne .</SENTENCE>"
+OUTPUT: "<SENTENCE>Sur le <loc>front de combat</loc> , vive activité aérienne nocturne .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Nous avons bombardé abondamment <loc>Calais</loc> , <loc>Dunkerque</loc> et d'autres entrepôts de munitions , ainsi que des installations ferroviaires de <loc>Fenneml</loc> situées à l'arrière .</SENTENCE>"
+########
+ <SENTENCE>Communiqué <org>autrichien</org> <loc>Vienne</loc> , <time>16 mai</time> .</SENTENCE>
+########
+ INPUT: "<SENTENCE>Dans la région du Monte Corno , de pe tits combats locaux se sont développés de nouveau .</SENTENCE>"
+OUTPUT: "<SENTENCE>Dans la région du <loc>Monte Corno</loc> , de petits combats locaux se sont développés de nouveau .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Les Italiens se sont établis dans un de nos postes d ' avant - garde .</SENTENCE>"
+OUTPUT: "<SENTENCE>Les <pers>Italiens</pers> se sont établis dans un de nos <loc>postes d ' avant - garde</loc> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Devant le port de <loc>Pola</loc> , un torpilleur a moteur <prod>ita * lien</prod> a été coulé .</SENTENCE>"
+
+In this sentence, "ita \* lien" is considered a human production because it is a product name, specifically a torpedo boat model from Italy.
+########
+ "<SENTENCE>Communiqué <org>italien</org> , <time>15 mai</time> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Sur le front montagneux , ça et là , vifs duels d ' artillerie et activité de patrouilles .</SENTENCE>"
+OUTPUT: "<SENTENCE>Sur le <loc>front montagneux</loc> , ça et là , vifs duels d ' artillerie et activité de patrouilles .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Nos batteries have dispersed and pursued enemy detachments in the val de Genova with their fire .</SENTENCE>"
+OUTPUT: "<SENTENCE>Nos batteries have dispersed and pursued <org>enemy detachments</org> in the <loc>val de Genova</loc> with their fire .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Nous avons repoussé des détachements qui çaient contre nos positions au Monte Corno et dans le Valknnsa .</SENTENCE>"
+OUTPUT: "<SENTENCE>Nous avons repoussé des <HumanProd>détachements</HumanProd> qui çaient contre nos positions au <loc>Monte Corno</loc> et dans le <loc>Valknnsa</loc> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Nous avons mis en fuite des travailleurs sur le Pasubio .</SENTENCE>"
+OUTPUT: "<SENTENCE>Nous avons mis en fuite des <pers>travailleurs</pers> sur <loc>le Pasubio</loc> .</SENTENCE>"
+
+In this example, "travailleurs" is identified as a PERSON entity because it refers to a group of individuals, and "le Pasubio" is identified as a LOCATION entity because it is a geographical name.
+########
+ <SENTENCE>Nous avons atteint des trains ' <loc>à la gare de Pri molano</loc> , ainsi que des troupes en mouvement sur <loc>k roule du col Oaprile</loc> et dans la <loc>* dépression d ' Alano</loc> .</SENTENCE>
+########
+ INPUT: "<SENTENCE>Le long de la Piave , le feu de l ' ennemi , contre - battu par le nôtre , a eu une certaine intensité dans la région de Soreslano et dans la zone du littoral .</SENTENCE>"
+OUTPUT: "<SENTENCE>Le long de la <loc>Piave</loc> , le feu de l ' <pers>ennemi</pers> , contre - battu par le nôtre , a eu une certaine intensité dans la région de <loc>Soreslano</loc> et dans la zone du <loc>littoral</loc> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Nos avions , malgré des conditions atmosphériques défavorables , ont lancé environ 4 tonnes de bombes sur les champs d ' aviation ennemis dans la vallée de la Piave .</SENTENCE>"
+OUTPUT: "<SENTENCE>Nos <HumanProd>avions</HumanProd> , malgré des conditions atmosphériques défavorables , ont lancé environ 4 tonnes de bombes sur les champs d ' aviation ennemis dans la <loc>vallée de la Piave</loc> .</SENTENCE>"
+########
+ <SENTENCE><TIME>Berlin, 15 mai, soir</TIME></SENTENCE>
+########
+ INPUT: "<SENTENCE>Une attaque ennemie que nous avons repoussée ce matin de bonne heure au nord de Kemmel n ' a réussi à pénétrer que dans une partie limitée de nos lignes avancées .</SENTENCE>"
+OUTPUT: "<SENTENCE>Une attaque <pers>ennemie</pers> que nous avons repoussée ce matin de bonne heure au nord de <loc>Kemmel</loc> n ' a réussi à pénétrer que dans une partie limitée de nos lignes avancées .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Une nouvelle forte attaque partielle des Français au nord-ouest de Moreuil a échoué avec de lourdes pertes .</SENTENCE>"
+OUTPUT: "<SENTENCE>Une nouvelle forte attaque partielle des <pers>Français</pers> au nord-ouest de <loc>Moreuil</loc> a échoué avec de lourdes pertes .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Dans la <HumanProd>presse</HumanProd> <HumanProd>Négociations germano - russes</HumanProd> Les négociations économiques germanorusses ont commencé à Moscou .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Les Soviets espèrent en retirer certains avantages pour sauver leur barque qui fait eau de toutes parts.</SENTENCE>"
+OUTPUT: "<SENTENCE>Les <org>Soviets</org> espèrent en retirer certains avantages pour sauver leur barque qui fait eau de toutes parts.</SENTENCE>"
+########
+ "<SENTENCE>Les <pers>Allemands</pers> qui qu ' à présent se sont heurtés aux méthodes communistes voudraient s ' assurer en <loc>Russie</loc> des débouchés.</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Le Temps écrit à ce sujet : Aussi longtemps que la politique extérieure de l'Union européenne sera dominée par les intérêts nationaux allemands et français , il sera difficile de construire une Europe politique .</SENTENCE>"
+OUTPUT: "<SENTENCE>Le <HumanProd>Temps</HumanProd> écrit à ce sujet : Aussi longtemps que la politique extérieure de <org>l'Union européenne</org> sera dominée par les intérêts nationaux <pers>allemands</pers> et <pers>français</pers> , il sera difficile de construire une Europe politique .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>l ' <org>Union soviétique</org> restera telle qu ' on la connaît depuis 1918 , telle que l ' ont révélée les grandes entreprises révolutionnaires avortées en <loc>Chine</loc> , dans les <loc>Balkans</loc> , en <loc>Afrique</loc> et ailleurs , il n ' existera pas de possibilités pour des relations politiques et économiques normales avec un <org>Etat</org> méconnaissant systématiquement ses obligations et violant de parti pris , par brutale passion révolutionnaire , les lois qui régissent les rapports en ^ tre nations civilisées .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Les actuelles négociations économiques germano - russes peuvent - elles modifier en quoi que ce soit cet état de choses ?</SENTENCE>"
+OUTPUT: "<SENTENCE>Les <org>actuelles négociations économiques germano - russes</org> peuvent - elles modifier en quoi que ce soit cet état de choses ?</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Ce n ' est guère vraisemblable .</SENTENCE>"
+OUTPUT: "<SENTENCE>Ce n ' est guère vraisemblable .</SENTENCE>"
+########
+ "<SENTENCE>Certainement on est mieux renseigné à <loc>Berlin</loc> que partout ailleurs sur l' usure nrofonde du régime <org>bolcheviste</org> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>On doit y .</SENTENCE>"
+OUTPUT: "<SENTENCE>On doit y .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>.</SENTENCE>"
+OUTPUT: "<SENTENCE>.</SENTENCE>"
+########
+ "<SENTENCE>« <TIME>avoir que</TIME> toute aide directe ou indirecte assurée à Moscou ne fera que prolonger une crise dont le peuple russe est la première et douloureuse victime , mais dont les effets se font sentir dans le monde entier . La politique à la fois absurde et abominable qui consiste à vouloir sauver la révolution russe en organisant la révolution universelle <TIME>porto</TIME> , dans la réalité dos choses , contre l ' Allemagne comme contre toute * les autres puissances , et c ' est cela qui . malgré tout , doit faire logiquement obstacle à une entente politique et économique durable entre Moscou et . Berlin . <HumanProd>Importante découverte</HumanProd> La circulation des richesses est un phénomène mystérieux dont per ? oiîne jusqu ' à présent n ' a réussi à expliquer le mécanisme . Dans un <HumanProd>article</HumanProd> de <HumanProd>VAction française</HumanProd> intitulé « <HumanProd>Importante découverte</HumanProd> » M . '<pers>Bain ville</pers>' souligne « <HumanProd>qu ' une des plus récentes découvertes que l ' on ait faites dans cotte mystérieuse physiologie</HumanProd> , c ' est que la ques ' i .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>iu des transferts r, f r ' p ^ nl plus qu' à un état primitif .</SENTENCE>"
+OUTPUT: "<SENTENCE>iu des transferts r, f r ' p ^ nl plus qu' à un état primitif .</SENTENCE>"
+
+(There are no named entities in the provided sentence.)
+########
+ INPUT: "<SENTENCE>- .</SENTENCE>"
+OUTPUT: "<SENTENCE>- .</SENTENCE>"
+########
+ "<SENTENCE>' - .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>- : : nées humaines > .</SENTENCE>"
+OUTPUT: "<SENTENCE>- <pers>nées humaines</pers> > .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Le <pers>président Coolidge</pers> d'une part, écrit-il, <pers>M. Streeemann</pers> de l'autre, sont d'accord pour signaler que, jusqu'ici, le <prod>plan Dawes</prod> a été exécuté grâce à des prêts consentis à l'Allemagne et que ces prêts sont d'<org>origine : ci '</org>.</SENTENCE>"
+########
+ <SENTENCE>iue .</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>Comme les <org>Etats - Unis</org> sont eux - mêmes payés , au titre des dettes de guerre , grâce aux versements de l' <org>Allemagne</org> , ils le sont donc avec leur propre argent qui , venu de <loc>New - York</loc> à <loc>Berlin</loc> , passe n <loc>Paris</loc> et à <loc>Londres</loc> d' où il retourne à <loc>New - York</loc> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Cest admirable.</SENTENCE>"
+OUTPUT: "<SENTENCE>Cest admirable.</SENTENCE>"
+########
+ INPUT: "<SENTENCE>C ' est plus fort que l ' immortelle découverte de Harvey .</SENTENCE>"
+OUTPUT: "<SENTENCE>C ' est plus fort que l ' <HumanProd>immortelle découverte de Harvey</HumanProd> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Mais si c'est bien ainsi que les choses ont lieu, c'est à <loc>New-York</loc> que bat le cœur qui renvoie les richesses dans le torrent circulatoire.</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Et si ce cœur cesse de battre , ce sera l ' asphyxie et la mort des dettes internationales .</SENTENCE>"
+OUTPUT: "<SENTENCE>Et si ce <HumanProd>cœur</HumanProd> cesse de battre , ce sera l ' asphyxie et la mort des <HumanProd>dettes internationales</HumanProd> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Les experts diront sans doute si tel est bien le nouvel état des connaissances humaines en face du problème des réparations .</SENTENCE>"
+OUTPUT: "<SENTENCE>Les <org>experts</org> diront sans doute si tel est bien le nouvel état des <HumanProd>connaissances humaines</HumanProd> en face du problème des <HumanProd>réparations</HumanProd> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Conséquence de deux accords <HumanProd>LE FAIT DU JOUR</HumanProd> <HumanProd>L ' accord politique anglo - italien</HumanProd> est accompagné d ' une nouvelle <HumanProd>convention commerciale</HumanProd> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>L ' <org>Italie</org> est autorisée dès maintenant à exporter en <loc>Grande - Bretagne</loc> des marchandises pour une somme .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>La production française de voitures a dépassé de 13 % celle de ses importations .</SENTENCE>"
+OUTPUT: "<SENTENCE>La <HumanProd>production française</HumanProd> de <prod>voitures</prod> a dépassé de 13 % celle de ses importations .</SENTENCE>"
+########
+ <SENTENCE>L ' excédent de ce <HumanProd>contingent</HumanProd> était jusqu ' alors de 30 % ; il servait à rembourser les <org>créanciers anglais</org> de l ' <loc>Italie</loc> , de la période antérieure aux sanctions et au clearing .</SENTENCE>
+########
+ INPUT: "<SENTENCE>Le débiteur s'est aujourd'hui entièrement acquitté de cet arriéré, c'est pourquoi son créancier entend désormais lui vendre plus, ou lui acheter moins.</SENTENCE>"
+OUTPUT: "<SENTENCE>Le <pers>débiteur</pers> s'est aujourd'hui entièrement acquitté de <HumanProd>cet arriéré</HumanProd>, c'est pourquoi son <pers>créancier</pers> entend désormais lui vendre plus, ou lui acheter moins.</SENTENCE>"
+########
+ INPUT: "<SENTENCE>La France vient aussi de conclure un nouvel arrangement commercial avec sa sœur latine .</SENTENCE>"
+OUTPUT: "<SENTENCE>La <org>France</org> vient aussi de conclure un nouvel arrangement commercial avec sa <org>sœur latine</org> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Le clearing vient d ' être supprimé , et la liberté des paiements rétablie .</SENTENCE>"
+OUTPUT: "<SENTENCE>Le <HumanProd>clearing</HumanProd> vient d ' être supprimé , et la liberté des paiements rétablie .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Dans quel sens ces deux accords vent - ils modifier les relations commerciales , et financières surtout , que notre pays entretient avec l' Italie ?</SENTENCE>"
+OUTPUT: "<SENTENCE>Dans quel sens ces deux accords <HumanProd>vent - ils</HumanProd> modifier les relations commerciales , et financières surtout , que notre pays entretient avec <loc>l' Italie</loc> ?</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Il est difficile de le dire dès maintenant avec certitude .</SENTENCE>"
+OUTPUT: "<SENTENCE>Il est difficile de le dire dès <time>maintenant</time> avec certitude .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Lorsque le <org>clearing italo - suisse</org> fut institué , <time>en 1935</time> , nos négociateurs envisageaient le pire .</SENTENCE>"
+########
+ <SENTENCE>Les <HumanProd>créanciers financiers suisses</HumanProd> ne devaient toucher , au premier abord , que 40 % des intérêts de leurs capitaux placés dans la <loc>péninsule</loc> .</SENTENCE>
+########
+ INPUT: "<SENTENCE>Mais la situation s'est rapidement améliorée; depuis le 10 juin 1937, les revenus des capitaux suisses sont transférés intégralement (1).</SENTENCE>"
+OUTPUT: "<SENTENCE>Mais la <time>situation du 10 juin 1937</time>, les revenus des <org>capitaux suisses</org> sont transférés intégralement (1).</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Nos <loc>importations</loc> d'<loc>Italie</loc> ont <HumanProd>gressé</HumanProd> de façon réjouissante, passant de 83 millions en <time>1936</time> à 117 millions en <time>1937</time>.</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Mais ce sont surtout nos exporta - ( 1 ) Avec effet rétroactif au 10 décembre 1030.</SENTENCE>"
+OUTPUT: "<SENTENCE>Mais ce sont surtout nos <HumanProd>exporta</HumanProd> - (1) Avec effet rétroactif au <time>10 décembre 1030</time>.</SENTENCE>"
+########
+ INPUT: "<SENTENCE>tions qui se sont accrues au delà de toute espérance , à la grande satisfaction de nos fabricants de machines et de montres .</SENTENCE>"
+OUTPUT: "<SENTENCE>tions qui se sont accrues au delà de toute espérance , à la grande satisfaction de <prod>nos fabricants de machines et de montres</prod> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><time>Mai</time>?</SENTENCE>"
+########
+ "<SENTENCE>là , il faut le reconnaître une fois ' ' de plus , le <HumanProd>meilleur</HumanProd> est l <HumanProd>'ennemi du bien</HumanProd> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>La Suisse a \ vendu à l'<org>Italie</org> en <time>4 * 37</time> pour 102 millions de francs de marchandises, contre 62 millions en 1936.</SENTENCE>"
+########
+ INPUT: "<SENTENCE>lien résulte un déséquilibre évident du compte de clearing , et le paiement de ces exportations tarde à se faire .</SENTENCE>"
+OUTPUT: "<SENTENCE>lien résulte un déséquilibre évident du <HumanProd>compte de clearing</HumanProd> , et le paiement de ces exportations tarde à se faire .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>C ' est ainsi que le <HumanProd>découvert du clearing italo - suisse</HumanProd> était de 67 millions au 31 <time>mars</time> dernier , dépassant pour la première fois celui du <HumanProd>clearing allemand des marchandises</HumanProd> , qui atteint 61 millions .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>De deux choses l'une : Ou bien il faudra que notre pays achète à l'avenir à l'<loc>Italie</loc> une plus grande quantité de marchandises ; et nous aurons, hélas !, besoin de fruits cette saison pour remplacer ceux du <loc>Valais</loc> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Ou bien il faudra que nos industriels se résolvent à restreindre leurs exportations .</SENTENCE>"
+OUTPUT: "<SENTENCE>Ou bien il faudra que <org>nos industriels</org> se résolvent à restreindre leurs <prod>exportations</prod> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Mais voilà qu ' une troisième solution apparaît , depuis huit jours à peine .</SENTENCE>"
+OUTPUT: "<SENTENCE>Mais voilà qu ' <TIME>une troisième solution</TIME> apparaît , depuis <TIME>huit jours</TIME> à peine .</SENTENCE>"
+########
+ <SENTENCE>La confiance des <org>pays capitalistes</org> dans l'<org>Italie fasciste</org> renaît.</SENTENCE>
+########
+ INPUT: "<SENTENCE>Des capitaux pourraient très prochainement s ' investir dans la Péninsule .</SENTENCE>"
+OUTPUT: "<SENTENCE>Des <HumanProd>capitaux</HumanProd> pourraient très prochainement s ' investir dans la <loc>Péninsule</loc> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Dès lors , la balance des comptes de l'Italie pourrait sans inconvénients rester déficitaire.</SENTENCE>"
+OUTPUT: "<SENTENCE>Dès lors , la balance des comptes de <loc>l'Italie</loc> pourrait sans inconvénients rester déficitaire.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Le <pers>ministre des finances</pers> du <org>duce</org> n ' irait plus chaque jour à la chasse aux devises , puisque les <HumanProd>créances étrangères</HumanProd> ne demanderaient plus à être rapatriées .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Quelle belle victoire ce serait là pour le libéralisme économique .</SENTENCE>"
+OUTPUT: "<SENTENCE>Quelle belle victoire ce serait là pour <HumanProd>le libéralisme économique</HumanProd> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Et quel soulagement pour l ' économie suisse 1 Ae .</SENTENCE>"
+OUTPUT: "<SENTENCE>Et quel soulagement pour <HumanProd>l ' économie suisse 1 Ae</HumanProd> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>La politique de T « axe » Notre correspondant de Paris nous téléphone : . . . .</SENTENCE>"
+OUTPUT: "<SENTENCE>La politique de T « axe » <org>Notre correspondant de Paris</org> nous téléphone : . . . .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>• • !</SENTENCE>"
+OUTPUT: "<SENTENCE>• • !</SENTENCE>"
+########
+ INPUT: "<SENTENCE>L ' évolution de la situation en Europe continue à soulever certaines appréhensions .</SENTENCE>"
+OUTPUT: "<SENTENCE>L ' <time>évolution</time> de la situation en <loc>Europe</loc> continue à soulever certaines appréhensions .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Le discours du <pers>chancelier Hitler</pers> à <loc>Sarrebruck</loc> fait toujours l ' objet dé nombreux et plutôt pessimistes commentaires .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>On sent que l'Allemagne est vivement décidée a aller plus loin, dans ses revendications et nul ne serait étonné de voir la question coloniale posée dans un délai plus ou moins rapproché.</SENTENCE>"
+OUTPUT: "<SENTENCE>On sent que <pers>l'Allemagne</pers> est vivement décidée a aller plus loin, dans ses revendications et nul ne serait étonné de voir la question <HumanProd>coloniale</HumanProd> posée dans un délai plus ou moins <time>rapproché</time>.</SENTENCE>"
+########
+ INPUT: "<SENTENCE>' • . - . ; . . . . D ' autre part , l ' Italie paraît devoir demeurer fidèle à la politique de l ' axe Berlin - Rome . C ' est à se demander , ditpri , ce que MM . Hitler et Mussolini ' se Sont promis mutuellement En effet , l ' un a toujours l ' air de pouvoir compter sur l ' autre pour faire aboutir ses revendications . On estime qu ' il y - a un parallélisme flagrant entre le discours prononcé dimanche à Sarrebruck et la note parue dans I ' « Information Diplomatique » à Rome .</SENTENCE>"
+OUTPUT: "<SENTENCE>' • . - . ; . . . . D ' autre part , <loc>l ' Italie</loc> paraît devoir demeurer fidèle à la politique de l ' <org>axe Berlin - Rome</org> . C ' est à se demander , ditpri , ce que <pers>MM . Hitler</pers> et <pers>Mussolini</pers> ' se Sont promis mutuellement En effet , <pers>l ' un</pers> a toujours l ' air de pouvoir compter sur <pers>l ' autre</pers> pour faire aboutir ses revendications . On estime qu ' il y - a un parallélisme flagrant entre le discours prononcé <time>dimanche</time> à <loc>Sarrebruck</loc> et la note parue dans I ' « Information Diplomatique » à <loc>Rome</loc> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Ainsi il semble que si , au lendemain de l' <time>accord de Munich</time> , on a cru discerner un certain ralentissement entre <loc>Berlin</loc> et <loc>Rome</loc> , ce phénomène ou bien ne s'est pas produit , ou bien n'a pas duré .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>La ' politique de l' <org>axe germanoitalien</org> semble devoir , continuer et on est tenté de dire qu'elle se poursuivra tant que se poseront des questions telles que le règlement de <time>L' affaire espagnole</time> , la mise en vigueur dé <org>l' accord anHo - italien</org> , la reconnaissance de <loc>l' Ethiopie</loc> - par l' <org>Angleterre</org> et le problème des intérêts <org>franco - italiens</org> en Méditerranée .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Dune commune à l ' autre . . .</SENTENCE>"
+OUTPUT: "<SENTENCE>Dune <loc>commune</loc> à l ' autre . . .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Echos de la terre vaudoise AIGLE .</SENTENCE>"
+OUTPUT: "<SENTENCE>Echos de la <loc>terre vaudoise</loc> <loc>AIGLE</loc> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>— Réparations et embellissement .</SENTENCE>"
+OUTPUT: "<SENTENCE>— <HumanProd>Réparations et embellissement</HumanProd> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>— ( C . P . ) — Aigle connaît depuis quelques mois une véritable mais très heureuse fièvre de réparations et d'embellissement .</SENTENCE>"
+OUTPUT: "<SENTENCE>— ( C . P . ) — <loc>Aigle</loc> connaît depuis quelques mois une véritable mais très heureuse fièvre de réparations et d'embellissement .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>C ' est ainsi que la réfection de la <loc>chaussée de la rue du Midi</loc> et du <loc>carrefour du Tilleul</loc> , à l ' entrée sud de la <loc>ville</loc> , est en cours ; à ce propos , des <pers>conseillers</pers> ont manifesté leur surprise , au cours de la dernière séance du <loc>Conseil communal</loc> , de voir s ' élever un <loc>mur</loc> aussi haut et aussi peu esthétique .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Dans celte même séance , notre législatif a voté un crédit global de fr . 29 .</SENTENCE>"
+OUTPUT: "<SENTENCE>Dans celte même séance , notre <org>législatif</org> a voté un crédit global de fr . 29 .</SENTENCE>"
+########
+ <SENTENCE>- <HumanProd>iOO</HumanProd> , dont à déduire divers subsides , pour des réparations à faire à des bâtiments communaux ; il s'agit du <loc>Temple du Cloître</loc> , sérieusement ébranlé par le tremblement de terre de janvier <time>1916</time> ( 9000 fr . ) , du <loc>local de gymnastique</loc> ( deuxième étape de travaux , concernant la toiture : 9000 fr . ) , du <loc>Poste de gendarmerie</loc> ( toiture : 6 S 00 fr . ) , des <loc>anciens abattoirs</loc> ( façades : 1600 fr . ) ; ce dernier objet a suscité une discussion sur l'urgence , voire sur la nécessité de ces travaux ; finalement les arguments de la Municipalité l'ont emporté .</SENTENCE>
+########
+ "<SENTENCE><TIME>Championnat scolaire</TIME>.</SENTENCE>"
+
+INPUT: "<SENTENCE>— Le président de la Confédération , M . Schmid , a reçu hier à Berne M . Kohl , chancelier de la République fédérale d ' Allemagne .</SENTENCE>"
+
+OUTPUT: "<SENTENCE>— <PERSON>Le président de la Confédération</PERSON> , <PERSON>M . Schmid</PERSON> , a reçu hier à Berne <PERSON>M . Kohl</PERSON> , chancelier de la République fédérale d ' Allemagne .</SENTENCE>"
+
+INPUT: "<SENTENCE>— Le président de la Confédération , M . Schmid , a reçu hier à Berne M . Kohl , chancelier de la République fédérale d ' Allemagne , pour une entrevue de travail .</SENTENCE>"
+
+OUTPUT: "<SENTENCE>— <PERSON>Le président de la Confédération</PERSON> , <PERSON>M . Schmid</PERSON> , a reçu hier à Berne <PERSON>M . Kohl</PERSON> , chancelier de la République fédérale d ' Allemagne , pour une <HUMANPROD>entrevue de travail</HUMANPROD> .</SENTENCE>"
+
+INPUT: "<SENTENCE>— Le président de la Confédération , M . Schmid , a reçu hier à Berne M . Kohl , chancelier de la République fédérale d ' Allemagne , pour une entrevue de travail sur l ' Europe .</SENTENCE>"
+
+OUTPUT: "<SENTENCE>— <PERSON>Le président de la Confédération</PERSON> , <PERSON>M . Schmid</PERSON> , a reçu hier à Berne <PERSON>M . Kohl</PERSON> , chancelier de la République fédérale d ' Allemagne , pour une <HUMANPROD>entrevue de travail</HUMANPROD> sur l ' <HUMANPROD>Europe</HUMANPROD> .</SENTENCE>"
+
+INPUT: "<SENTENCE>— Le président de la Confédération , M . Schmid , a reçu hier à Berne M . Kohl , chancelier de la République fédérale d ' Allemagne , pour une entrevue de travail sur l ' Europe et les relations germano-suisses .</SENTENCE>"
+
+OUTPUT: "<SENTENCE>— <PERSON>Le président de la Confédération</PERSON> , <PERSON>M . Schmid</PERSON> , a reçu hier à Berne <PERSON>M . Kohl</PERSON> , chancelier de la République fédérale d ' Allemagne , pour une <HUMANPROD>entrevue de travail</HUMANPROD> sur l ' <HUMANPROD>Europe</HUMANPROD> et les <HUMANPROD>relations germano-suisses</HUMANPROD> .</SENTENCE>"
+
+INPUT: "<SENTENCE>— Le président de la Confédération , M . Schmid , a reçu hier à Berne M . Kohl , chancelier de la République fédérale d ' Allemagne , pour une entrevue de travail sur l ' Europe et les relations germano-suisses .</SENTENCE>"
+
+OUTPUT: "<SENTENCE>— <PERSON>Le président de la Confédération</PERSON> , <PERSON>M . Schmid</PERSON> , a reçu hier à Berne <PERSON>M . Kohl</PERSON> , chancelier de la République fédérale d ' Allemagne , pour une <HUMANPROD>entrevue de travail</HUMANPROD> sur l ' <HUMANPROD>Europe</HUMANPROD> et les <HUMANPROD>relations germano-suisses</HUMANPROD> .</SENTENCE>"
+
+INPUT: "<SENTENCE>— Le président de la Confédération , M . Schmid , a reçu hier à Berne M . Kohl , chancelier de la République fédérale d ' Allemagne , pour une
+########
+ INPUT: "<SENTENCE>— ( C . P . ) — Sur l'initiative du maître de gymnastique , un <HumanProd>championnat scolaire de basket - hall , d'alhlélisme</HumanProd> et de natation a été organisé à l'occasion de la Fête des écoles , qui s'est déroulée le 11 <time>juillet</time> .</SENTENCE>"
+########
+ <SENTENCE>Les élèves se mesuraient au saut en <loc>longueur</loc> et en <loc>hauteur</loc> , au jet du <HumanProd>boulet</HumanProd> , à la course de vitesse et au <HumanProd>cross counlry</HumanProd> en forêt .</SENTENCE>
+########
+ INPUT: "<SENTENCE>A cela s'ajoutaient, pour les filles, des épreuves de rythmique et d'équilibre.</SENTENCE>"
+OUTPUT: "<SENTENCE>A cela s'ajoutaient, pour les <pers>filles</pers>, des épreuves de rythmique et d'équilibre.</SENTENCE>"
+
+In this example, "filles" is identified as a PERSON entity, subtype individual. The sentence mentions a group of individuals, specifically girls, and therefore it is appropriate to annotate it as a PERSON entity.
+########
+ INPUT: "<SENTENCE>Les inscriptions furent nombreuses et cette tentative fut un réel succès, favorisé par le beau temps.</SENTENCE>"
+OUTPUT: "<SENTENCE>Les <HumanProd>inscriptions</HumanProd> furent nombreuses et cette tentative fut un réel succès, favorisé par le <time>beau temps</time>.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>La place disponible ne nous permettant pas de donner des résultats détaillés , nous ne mentionnerons que les <HumanProd>champions</HumanProd> au <HumanProd>pentathlon</HumanProd> ; ce sont : <pers>R . Deladoey</pers> ( <loc>Ecole primaire</loc> , <time>1933</time> ) ; <pers>C . Chevillard</pers> ( <loc>Collège</loc> , <time>1931</time> ) ; <pers>H . Cross</pers> ( <loc>Ecole primaire</loc> , <time>1935</time> ) ; chez les filles : <pers>Chr .</pers></SENTENCE>"
+########
+ INPUT: "<SENTENCE>Rouge ( Collège , 1935 ) , J . Oberhaensli ( Collège , 1936 ) .</SENTENCE>"
+OUTPUT: "<SENTENCE><pers>Rouge</pers> ( Collège , 1935 ) , <pers>J . Oberhaensli</pers> ( Collège , 1936 ) .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>BEX .</SENTENCE>"
+OUTPUT: "<SENTENCE><loc>BEX</loc>.</SENTENCE>"
+########
+ "<SENTENCE><org>Conseil communal</org>.<SENTENCE>"
+########
+ INPUT: "<SENTENCE>— ( C . P . ) — Six nouveaux conseillers ont prêté serment lors de la dernière séance : MM .</SENTENCE>"
+OUTPUT: "<SENTENCE>— ( C . P . ) — <TIME>Six nouveaux conseillers</TIME> ont prêté serment lors de la dernière séance : MM .</SENTENCE>"
+
+Explanation:
+In this sentence, "Six nouveaux conseillers" is identified as a TIME entity because it refers to an unspecified group of new councilors, without providing any specific names or details that would allow for identification as a PERSON or ORGANIZATION. The word "nouveaux" (new) is included in the entity because it is used as a preposition, indicating the relationship between the group and the act of taking an oath.
+########
+ INPUT: "<SENTENCE>Sublel, Bralschi, Nicollerat, Soutier, Favrod and Zumbrunnen.</SENTENCE>"
+OUTPUT: "<SENTENCE><pers>Sublel</pers>, <pers>Bralschi</pers>, <pers>Nicollerat</pers>, <pers>Soutier</pers>, <pers>Favrod</pers> and <pers>Zumbrunnen</pers>.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Le premier des <pers>candidats, M . Buitin</pers>, remplacera <pers>M . Maurice Fontannaz</pers>, qui quitte la localité. </SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>L ' assemblée a voté deux crédits : l ' un de 3700 fr . pour assurer l ' amenée de l ' eau à l ' <loc>Arsenal fédéral de Tavalles</loc> ; l ' autre de 3800 fr . pour permettre la construction de la <loc>Chapelle des Posses</loc> , d ' après les pians de .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>M . <pers>Reymond</pers> , <prod>architecte</prod> à La Tour de Peilz .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Selon renseignements fournis par M . le syndic Sollberger , un tea - room pourra être ouvert à Solalex .</SENTENCE>"
+OUTPUT: "<SENTENCE>Selon renseignements fournis par <pers>M . le syndic Sollberger</pers> , un tea - room pourra être ouvert à <loc>Solalex</loc> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>L ' <org>assemblée des 3 S 8 communes vaudoises</org> tiendra ses assises à <loc>Bex</loc> , cette année .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>La <org>Société des Forces motrices de l ' Avançon</org> fêtera son cinquantième anniversaire le <time>9 septembre</time> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>RENENS — Société de développement .</SENTENCE>"
+OUTPUT: "<SENTENCE><LOC>RENENS</LOC> — <ORG>Société de développement</ORG> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>— ( C . P . ) — Lors de son assemblée générale , présidée par M . Ruedi , notaire , la Société de développement de Renens et environs a constitué son comité comme suit : MM .</SENTENCE>"
+OUTPUT: "<SENTENCE>— ( C . P . ) — Lors de son <time>assemblée générale</time> , présidée par <pers>M . Ruedi</pers> , <org>notaire</org> , la <org>Société de développement de Renens et environs</org> a constitué son comité comme suit : MM .</SENTENCE>"
+########
+ "<SENTENCE>D <pers>Dusserre</pers> ( <loc>Chavannes</loc> ) , <pers>Clardon Antoine</pers> ( <loc>Ecublens</loc> ) , <pers>Moraz</pers> ( <loc>Crissier</loc> ) .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>MM .</SENTENCE>"
+OUTPUT: "<SENTENCE>MM .</SENTENCE>"
+########
+ <SENTENCE><pers>Manriry</pers>, <pers>Christin</pers>, <pers>Clardon</pers>, <pers>no taire</pers>, <pers>Ross</pers>, <pers>Coderey</pers> et <pers>Arthur Miéville</pers>, ces derniers de <loc>Renens</loc>. </SENTENCE>
+########
+ <SENTENCE>Il reste encore quatre <pers>délégués</pers> des <org>autorités de Chavannes</org> , <org>Ecublens</org> , <org>Crissier</org> et <org>Renens</org> à désigner .</SENTENCE>
+########
+ INPUT: "<SENTENCE>La finance d'entrée a été fixée à 2 fr. et pas de cotisation à payer pour 1918.</SENTENCE>"
+OUTPUT: "<SENTENCE>La <HumanProd>finance d'entrée</HumanProd> a été fixée à 2 <TIME>fr.</TIME> et pas de cotisation à payer pour <TIME>1918</TIME>.</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Par suite de la rapide extension de l'agglomération de Renens, une telle société a sa raison d'être et on ne peut que souhaiter à celle-ci longue vie et prospérité.</SENTENCE>"
+OUTPUT: "<SENTENCE>Par suite de la rapide extension de <loc>l'agglomération de Renens</loc>, une telle société a sa raison d'être et on ne peut que souhaiter à <HumanProd>celle-ci</HumanProd> longue vie et prospérité.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>La situation financière du <loc>Châtelard</loc> <loc>Mon - ' ' treux</loc> se débat dans des difficultés financières nées - de la guerre de <time>1914 - 1918</time> ; elle a dû conclure un arrangement avec ses créanciers obligataires et a obtenu la garantie de l <org>Etat de Vaud</org> pour le paiement d ' un intérêt de 2 A % ; le moment est venu où elle doit commencer à rembourser ses dettes , mais sa situation financière ne s ' est pas améliorée .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>La <org>commission de contrôle</org> nommée par <loc>l ' Etat</loc> , au moment du renouvellement de <loc>l ' arrêté d ' impôt</loc> pour 1949 , demande au <org>Conseil communal</org> la perception d'une <prod>contribution extraordinaire</prod> à <loc>l'assainissement des finances communales</loc> d'au moins 10 % .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Une aide massive de l'<org>Etat</org> à la commune du '<loc>Châtelard</loc>' ne peut être obtenue que si les contribuables de la commune font un effort supplémentaire. La Municipalité, la commission des finances ont fait opposition à cette exigence; une entrevue eut lieu avec le<org>Conseil d'Etat</org> le 22<time>novembre</time>, qui n'aboutit pas. La Municipalité a donc proposé au<org>Conseil communal</org> réuni mercredi soir, la perception d'un surimpôt égal au 10% de l'ensemble des impôts fonciers, sur la fortune et le produit du travail, sur le capital et le bénéfice net des<pers>personnes morales</pers>, dont le bénéfice servira à l'amortissement des emprunts obligataires. Une vive opposition s'est manifestée au cours de la discussion; cette augmentation d'impôts.</SENTENCE>"
+########
+ INPUT: "<SENTENCE>.</SENTENCE>"
+OUTPUT: "<SENTENCE>.</SENTENCE>"
+########
+ INPUT: "<SENTENCE>pourrait avoir de graves conséquences finan - | cières pour la commune qui risque de voir partir des contribuables intéressants .</SENTENCE>"
+OUTPUT: "<SENTENCE>pourrait avoir de graves conséquences <HumanProd>finan-cières</HumanProd> pour la <loc>commune</loc> qui risque de voir partir des <pers>contribuables</pers> intéressants .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>La solution pourrait être trouvée dans une nouvelle com - I pression des dépenses qui prouverait la bonne volonté de la commune et la découverte de ressources nouvelles qui ne chasserait pas les contribuables.</SENTENCE>"
+OUTPUT: "<SENTENCE>La solution pourrait être trouvée dans une <HumanProd>nouvelle com - I pression des dépenses</HumanProd> qui prouverait la bonne volonté de la <loc>commune</loc> et la découverte de <HumanProd>ressources nouvelles</HumanProd> qui ne chasserait pas les contribuables.</SENTENCE>"
+########
+ <SENTENCE>La décision interviendra dans une <time>séance convoquée pour le 22 décembre</time> .</SENTENCE>
+########
+ INPUT: "<SENTENCE>Finances fédérales : le Département arrête les dispositions pratiques Les nouvelles dispositions constitutionnelles sur le régime financier de la Confédération viennent de faire l'objet de deux ordonnances d'application du Département fédéral des finances et des douanes.</SENTENCE>"
+OUTPUT: "<SENTENCE>Finances fédérales : le <org>Département fédéral des finances et des douanes</org> arrête les dispositions pratiques Les nouvelles dispositions constitutionnelles sur le régime financier de la <org>Confédération</org> viennent de faire l'objet de deux <HumanProd>ordonnances</HumanProd> d'application.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>L <prod>impôt sur le luxe</prod> , on le sait , ne sera plus perçu après le <time>31 décembre 1958</time> , sauf en ce qui concerne les faits qui sont survenus et les rapports de droit qui ont pris naissance jusqu ' à cette date .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>D ' autre part , la liste des objets exonérés de l ' ICHA est étendue .</SENTENCE>"
+OUTPUT: "<SENTENCE>D ' autre part , la liste des objets <HumanProd>exonérés de l ' ICHA</HumanProd> est étendue .</SENTENCE>"
+########
+ <SENTENCE>L' <TIME>ordonnance</TIME> , qui entrera en vigueur le <TIME>1 " janvier 1959</TIME> , précise que les possesseurs d' <HumanProd>estampilles d' impôt sur le luxe</HumanProd> , acquises auprès des <org>offices de poste</org> ou de l' <org>administration fédérale des contributions</org> , peuvent demander la restitution de l' <HumanProd>impôt ainsi acquitté</HumanProd> , sous réserve de compensation de l' <HumanProd>impôt sur le luxe restant dû</HumanProd> . Ce droit sera prescrit le <TIME>30 juin 1959</TIME> . Quant à l' <HumanProd>impôt sur le chiffre d' affaires</HumanProd> , rappelons que la liste des marchandises exonérées sera étendue , dès le <TIME>1 " janvier 1959</TIME> : aux <HumanProd>livraisons en gros de boissons sans alcool</HumanProd> , réputées denrées alimentaires ; à certains <HumanProd>produits pour lessives et savons</HumanProd> ; aux <HumanProd>combustibles</HumanProd> ; aux <HumanProd>semences , tubercules et oignons à replanter , plantes vivantes , boutures , greffes , fleurs coupées et rameaux , couronnes , etc.</HumanProd> .</SENTENCE>
+########
+ "<SENTENCE>; aux <prod>engrais et produits pour la protection des plantes</prod> , <prod>litières</prod> , <prod>fourrages</prod> et <prod>acides pour l ' ensilage</prod> ; enfin , aux <prod>médicaments</prod> et aux <prod>livres</prod> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>SONT RÉPUTÉS MÉDICAMENTS Le Département précise que sont réputés médicaments : les spécialités pharmaceutiques ( y compris les spécialités de comptoir ) , les médicaments confectionnés dont ' la vente au détail n ' est autorisée que dans les pharmacies et drogueries , et les substances et mélanges de qualité conforme à la pharmacopée , si elles ne peuvent être , dans une mesure notable , destinées à des usages autres que médicinaux .</SENTENCE>"
+OUTPUT: "<SENTENCE>SONT RÉPUTÉS MÉDICAMENTS <org>Le Département</org> précise que sont réputés médicaments : les spécialités pharmaceutiques ( y compris les spécialités de comptoir ) , les médicaments confectionnés dont ' la vente au détail n ' est autorisée que dans les <loc>pharmacies</loc> et <loc>drogueries</loc> , et les substances et mélanges de qualité conforme à la <org>pharmacopée</org> , si elles ne peuvent être , dans une mesure notable , destinées à des usages autres que médicinaux .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>SONT RÉPUTÉS LIVRES Sont réputés livres , d ' autre part , « les imprimés présentant un contenu religieux , littéraire , artistique , récréatif , éducatif , instructif ou scientifique , ayant au moins 16 pages , sous forme de livre ou de brochure » .</SENTENCE>"
+OUTPUT: "<SENTENCE>SONT RÉPUTÉS LIVRES <HumanProd>Sont réputés livres</HumanProd> , d ' autre part , « les imprimés présentant un contenu religieux , littéraire , artistique , récréatif , éducatif , instructif ou scientifique , ayant au moins 16 pages , sous forme de livre ou de brochure » .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Exception : imprimés publicitaires .</SENTENCE>"
+OUTPUT: "<SENTENCE>Exception : <HumanProd>imprimés publicitaires</HumanProd> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Les <pers>commerçants et fabricants</pers> qui , au <time>1er janvier 1959</time> , ne seront pas grossistes au sens de la loi .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>et posséderont un stock de marchandises exonérées , destinées à la revente ou à l ' emploi comme matières premières dans la fabrication professionnelle , auront droit à un remboursement qui s ' élèvera à 5,4 % pour les médicaments et les livres et à 2.25 % pour les autres marchandises .</SENTENCE>"
+OUTPUT: "<SENTENCE>et posséderont un stock de <HumanProd>marchandises exonérées</HumanProd> , destinées à la revente ou à l ' emploi comme matières premières dans la <HumanProd>fabrication professionnelle</HumanProd> , auront droit à un remboursement qui s ' élèvera à 5,4 % pour les <HumanProd>médicaments</HumanProd> et les <HumanProd>livres</HumanProd> et à 2.25 % pour les autres <HumanProd>marchandises</HumanProd> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Ce droit sera prescrit <time>le 30 juin 1959</time> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>VASTE OPÉRATION DE SOUTIEN INTERNATIONAL Franc français menacé LONDRES .</SENTENCE>"
+OUTPUT: "<SENTENCE>VASTE OPÉRATION DE SOUTIEN INTERNATIONAL <HumanProd>Franc français</HumanProd> menacé <loc>LONDRES</loc> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>29 mai.</SENTENCE>"
+
+INPUT: "<SENTENCE>Le président Obama a fait une déclaration aujourd'hui.</SENTENCE>"
+OUTPUT: "<SENTENCE>Le <pers>président Obama</pers> a fait une déclaration aujourd'hui.</SENTENCE>"
+
+INPUT: "<SENTENCE>La réunion aura lieu demain à 14h au siège de la Commission européenne.</SENTENCE>"
+OUTPUT: "<SENTENCE>La <time>demain à 14h</time> réunion aura lieu au <loc>siège de la Commission européenne</loc>.</SENTENCE>"
+
+INPUT: "<SENTENCE>Les Beatles étaient un groupe de rock britannique formé en 1960.</SENTENCE>"
+OUTPUT: "<SENTENCE><pers>Les Beatles</pers> étaient un <HumanProd>groupe de rock</HumanProd> <loc>britannique</loc> formé en <time>1960</time>.</SENTENCE>"
+
+INPUT: "<SENTENCE>Le film a été produit par Warner Bros. et distribué par Sony Pictures.</SENTENCE>"
+OUTPUT: "<SENTENCE>Le film a été produit par <org>Warner Bros.</org> et distribué par <org>Sony Pictures</org>.</SENTENCE>"
+
+INPUT: "<SENTENCE>La conférence aura lieu le 15 mars 2023 à l'hôtel Marriott.</SENTENCE>"
+OUTPUT: "<SENTENCE>La conférence aura lieu le <time>15 mars 2023</time> à l'<loc>hôtel Marriott</loc>.</SENTENCE>"
+
+INPUT: "<SENTENCE>Le match de football aura lieu samedi prochain au stade Santiago Bernabéu.</SENTENCE>"
+OUTPUT: "<SENTENCE>Le match de football aura lieu <time>samedi prochain</time> au <loc>stade Santiago Bernabéu</loc>.</SENTENCE>"
+
+INPUT: "<SENTENCE>Le vol AF123 partira de l'aéroport Charles de Gaulle à 10h et arrivera à l'aéroport JFK à 13h.</SENTENCE>"
+OUTPUT: "<SENTENCE>Le <org>vol AF123</org> partira de l'<loc>aéroport Charles de Gaulle</loc> à <time>10h</time> et arrivera à l'<loc>aéroport JFK</loc> à <time>13h</time>.</SENTENCE>"
+
+INPUT: "<SENTENCE>Le journal Le Monde a publié un article sur la crise politique en France.</SENTENCE>"
+OUTPUT: "<SENTENCE>Le <HumanProd>journal Le Monde</HumanProd> a publié un article sur la crise politique en <loc>France</loc>.</SENTENCE>"
+
+INPUT: "<SENTENCE>La société Apple a été fondée en 1976 par Steve Jobs et Steve Wozniak.</SENTENCE>"
+OUTPUT: "<SENTENCE><org>Apple</org> a été fondée en <time>1976</time> par <pers>Steve Jobs</pers> et <pers>Steve Wozniak</pers>.</SENTENCE>"
+
+INPUT: "<SENTENCE>La réunion aura lieu le mois prochain à la mairie de Paris.</SENTENCE>"
+OUTPUT: "<SENTENCE>La réunion aura lieu le <time>mois prochain</time> à la <loc>mairie de Paris</loc>.</SENTENCE>"
+
+INPUT: "<SENTENCE>Le match de tennis aura lieu lundi prochain au stade Arthur Ashe.</SENTENCE>"
+OUTPUT: "<SENTENCE>Le match de tennis aura lieu <time>lundi prochain</time> au <loc>stade Arthur Ashe</loc>.</SENTENCE>"
+
+INPUT: "<SENTENCE>Le vol United Airlines 123 partira de l'aéroport international O'Hare à 14h et arrivera à l'aéroport international Narita à 17h.</SENTENCE>"
+OUTPUT: "<
+########
+ OUTPUT: "<SENTENCE>— Une vaste opération internationale a été entreprise sous l'égide de la <org>BRI ( Banque des Règlements Internationaux)</org> en vue de sauver le <cur>franc français</cur> d'une dévaluation provoquée par la panique, et pour protéger les autres <cur>devises du monde occidental</cur> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>L ' <org>appel à la BRI</org> a été lancé par la <org>Banque de France</org> , dont l ' activité se trouve paralysée , alors que les <pers>Français</pers> cherchent à échanger massivement leurs <HumanProd>francs</HumanProd> contre des <HumanProd>devises étrangères</HumanProd> .</SENTENCE>"
+########
+ <SENTENCE>Cependant les différents <HumanProd>marchés de l'or</HumanProd> en Europe se montrent étrangement calmes.</SENTENCE>
+########
+ <SENTENCE>Les transactions restent modérées et le prix de l'<HumanProd>or</HumanProd> n'a enregistré que des variations minimes depuis la fin de la semaine dernière.</SENTENCE>
+########
+ <SENTENCE>Les <pers>Français</pers> eux - mêmes semblent préférer pour l' <time>instant</time> acheter des <HumanProd>dollars</HumanProd> , des <HumanProd>marks</HumanProd> ou des <HumanProd>francs suisses</HumanProd> .</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>En revanche , on observe une absence presque totale de <cur>francs français</cur> , dans les grands centres bancaires .</SENTENCE>"
+
+In this sentence, "francs français" is a currency, which is a subtype of the Human Production (HumanProd) entity type. However, since the guidelines provided do not include currency as a separate entity type, I have used the "cur" label as a shorthand for "currency." The output respects casing and white spaces as requested.
+########
+ INPUT: "<SENTENCE>C ' est ainsi que la BRI a dû acheter des francs français offerts en Aile - , magne occidentale .</SENTENCE>"
+OUTPUT: "<SENTENCE>C ' est ainsi que la <org>BRI</org> a dû acheter des <HumanProd>francs français</HumanProd> offerts en Aile - , magne occidentale .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Les achats se sont effectués au « taux-plancher » de 4,9740 pour un dollar .</SENTENCE>"
+OUTPUT: "<SENTENCE>Les achats se sont effectués au <HumanProd>« taux-plancher »</HumanProd> de 4,9740 pour un dollar .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>( Ap )</SENTENCE>"
+OUTPUT: "<SENTENCE>( Ap )</SENTENCE>"
+########
+ INPUT: "<SENTENCE>RIVE GAUCHE RIVE DROITE Chez Paul Morand de l ' Académie française Etrange croisement .</SENTENCE>"
+OUTPUT: "<SENTENCE>RIVE GAUCHE <loc>RIVE DROITE</loc> Chez <pers>Paul Morand</pers> de l ' Académie française Etrange croisement .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>J ' étais samedi chez <pers>Paul Morand</pers> comme nous parvenait la nouvelle de la mort de <pers>Jean Schlumberger</pers> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>L'un naissait à la dignité académique, l'autre prenait congé de tout.</SENTENCE>"
+OUTPUT: "<SENTENCE>L'<PERSON>un</PERSON> naissait à la dignité académique, l'<PERSON>autre</PERSON> prenait congé de tout.</SENTENCE>"
+
+In this sentence, "un" and "autre" are considered as PERSON entities because they are used as pronouns referring to two different individuals.
+########
+ INPUT: "<SENTENCE>Deux contemporains , à quelques années près .</SENTENCE>"
+OUTPUT: "<SENTENCE>Deux <time>contemporains</time> , à quelques années près .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Schlumberger avait fondé la <HumanProd>« Nouvelle Revue Française »</HumanProd> , Morand lui avait donné ses premiers gros tirages .</SENTENCE>"
+########
+ "<SENTENCE>— <PERSON>Monsieur</PERSON> , lui dis - je , vous voici donc <HUMANPROD>immortel</HUMANPROD> !</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Morand - me répondit par une citation de Chateaubriand.</SENTENCE>"
+OUTPUT: "<SENTENCE>Morand - me répondit par une citation de <pers>Chateaubriand</pers>.</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Mais qu ' est - ce que l ' immortalité ?</SENTENCE>"
+OUTPUT: "<SENTENCE>Mais qu ' est - ce que <time>l ' immortalité</time> ?</SENTENCE>"
+
+The word "immortality" is a concept related to time, so it can be classified as a time entity.
+########
+ OUTPUT: "<SENTENCE>En me rendant chez le nouvel <pers>académicien</pers> , la <loc>Tour Eiffel</loc> , sa voisine , m ' en offrit l ' image .</SENTENCE>"
+########
+ <SENTENCE>Le brouillard <time>d'octobre</time> masquait son sommet.</SENTENCE>
+########
+ INPUT: "<SENTENCE>Je pensai que l'immortalité, c'est quelque chose dont on voit le commencement mais dont on ne voit pas la fin.</SENTENCE>"
+OUTPUT: "<SENTENCE>Je pensai que <HumanProd>l'immortalité</HumanProd>, c'est quelque chose dont on voit le commencement mais dont on ne voit pas la fin.</SENTENCE>"
+
+INPUT: "<SENTENCE>Le président Obama a fait une déclaration aujourd'hui à propos de l'économie américaine.</SENTENCE>"
+OUTPUT: "<SENTENCE>Le <pers>président Obama</pers> a fait une déclaration aujourd'hui à propos de l'<HumanProd>économie américaine</HumanProd>.</SENTENCE>"
+
+INPUT: "<SENTENCE>La conférence aura lieu au siège de l'ONU à New York le 15 septembre prochain.</SENTENCE>"
+OUTPUT: "<SENTENCE>La conférence aura lieu au <loc>siège de l'ONU</loc> à <loc>New York</loc> le <time>15 septembre prochain</time>.</SENTENCE>"
+
+INPUT: "<SENTENCE>Les négociations entre l'Union européenne et le Royaume-Uni se poursuivent à Bruxelles.</SENTENCE>"
+OUTPUT: "<SENTENCE>Les négociations entre <org>l'Union européenne</org> et <loc>le Royaume-Uni</loc> se poursuivent à <loc>Bruxelles</loc>.</SENTENCE>"
+
+INPUT: "<SENTENCE>Le film a été tourné en grande partie dans les rues de Paris.</SENTENCE>"
+OUTPUT: "<SENTENCE>Le <HumanProd>film</HumanProd> a été tourné en grande partie dans les rues de <loc>Paris</loc>.</SENTENCE>"
+
+INPUT: "<SENTENCE>Le match de football opposera le Real Madrid à Barcelone.</SENTENCE>"
+OUTPUT: "<SENTENCE>Le <HumanProd>match de football</HumanProd> opposera <org>le Real Madrid</org> à <loc>Barcelone</loc>.</SENTENCE>"
+
+INPUT: "<SENTENCE>Le prix Nobel de physique a été attribué à trois chercheurs cette année.</SENTENCE>"
+OUTPUT: "<SENTENCE>Le <HumanProd>prix Nobel de physique</HumanProd> a été attribué à trois <pers>chercheurs</pers> cette année.</SENTENCE>"
+
+INPUT: "<SENTENCE>La société Apple a été fondée par Steve Jobs et Steve Wozniak en 1976.</SENTENCE>"
+OUTPUT: "<SENTENCE>La <org>société Apple</org> a été fondée par <pers>Steve Jobs</pers> et <pers>Steve Wozniak</pers> en <time>1976</time>.</SENTENCE>"
+
+INPUT: "<SENTENCE>La réunion aura lieu dans la salle de conférence de notre siège à Genève.</SENTENCE>"
+OUTPUT: "<SENTENCE>La <HumanProd>réunion</HumanProd> aura lieu dans la salle de conférence de notre <loc>siège</loc> à <loc>Genève</loc>.</SENTENCE>"
+
+INPUT: "<SENTENCE>Le ministre de l'Intérieur a annoncé de nouvelles mesures pour lutter contre le terrorisme.</SENTENCE>"
+OUTPUT: "<SENTENCE>Le <pers>ministre de l'Intérieur</pers> a annoncé de nouvelles mesures pour lutter contre <HumanProd>le terrorisme</HumanProd>.</SENTENCE>"
+
+INPUT: "<SENTENCE>Le sommet de l'OTAN se tiendra à Bruxelles en juin.</SENTENCE>"
+OUTPUT: "<SENTENCE>Le <org>sommet de l'OTAN</org> se tiendra à <loc>Bruxelles</loc> en <time>juin</time>.</SENTENCE>"
+
+INPUT: "<SENTENCE>Le débat portera sur
+########
+ INPUT: "<SENTENCE>Morand , lui , je le vis en son milieu , dans sa force , attentif à tout , présent et donnant vie au décor un peu musée de son appartement parisien , sombre et solennel au rebours de lui .</SENTENCE>"
+OUTPUT: "<SENTENCE>Morand , lui , je le vis <loc>en son milieu</loc> , dans sa force , attentif à tout , présent et donnant vie au décor un peu musée de son appartement <loc>parisien</loc> , sombre et solennel au rebours de lui .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Et cet habit académique , dont on l' investit enfin après deux essayages , est-il permis de se demander s'il n'est pas au rebours de deux ou trois choses que l'on sait de lui , le nonconformisme , l'humour ; et s'il ne gêne pas aux entournures le jeune libertaire de l'esprit qui persiste en lui et dont les exploits firent un auteur d'avant-garde dans les années 20 ?</SENTENCE>"
+OUTPUT: "<SENTENCE>Et <pers>cet habit académique</pers> , dont on l' investit enfin après deux essayages , est-il permis de se demander s'il n'est pas au rebours de deux ou trois choses que l'on sait de lui , <pers>le nonconformisme</pers> , <pers>l'humour</pers> ; et s'il ne gêne pas aux entournures <pers>le jeune libertaire de l'esprit</pers> qui persiste en lui et dont les exploits firent <HumanProd>un auteur d'avant-garde</HumanProd> dans les années 20 ?</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Morand me répondit par une citation de Paulhan.</SENTENCE>"
+OUTPUT: "<SENTENCE>Morand me répondit par une citation de <pers>Paulhan</pers>.</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Je le mis sur Proust , qu ' il avait impressionné .</SENTENCE>"
+OUTPUT: "<SENTENCE>Je le mis sur <pers>Proust</pers> , qu ' il avait impressionné .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Mais en quoi ?</SENTENCE>"
+OUTPUT: "<SENTENCE>Mais en quoi ?</SENTENCE>"
+########
+ INPUT: "<SENTENCE>— En ceci que ma littérature s ' accordait à ma vie , non pas un domaine réservé mais intégré .</SENTENCE>"
+OUTPUT: "<SENTENCE>— En ceci que <HumanProd>ma littérature</HumanProd> s ' accordait à ma vie , non pas un domaine réservé mais intégré .</SENTENCE>"
+########
+ <SENTENCE>Je nourrissais mes <HumanProd>livres</HumanProd> de mes <loc>voyages</loc>, de mes <pers>rencontres</pers>, de mes <HumanProd>expériences sportives</HumanProd>. </SENTENCE>
+########
+ INPUT: "<SENTENCE>Cela a étonné .</SENTENCE>"
+OUTPUT: "<SENTENCE>Cela a étonné .</SENTENCE>"
+
+There are no named entities in the provided sentence.
+########
+ INPUT: "<SENTENCE>A l'époque la littérature se faisait à l'abri des tentures.</SENTENCE>"
+OUTPUT: "<SENTENCE>A <TIME>l'époque</TIME> la <HumanProd>littérature</HumanProd> se faisait à l'abri des <loc>tentures</loc>.</SENTENCE>"
+########
+ INPUT: "<SENTENCE>C ' était une littérature de cabinet .</SENTENCE>"
+OUTPUT: "<SENTENCE>C ' était une <HumanProd>littérature de cabinet</HumanProd> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Je fis une littérature de plein air .</SENTENCE>"
+OUTPUT: "<SENTENCE>Je fis une <HumanProd>littérature de plein air</HumanProd> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>En sortant de chez <pers>Paul Morand</pers> , le bout de la <loc>Tour Eiffel</loc> était toujours invisible , mais sa base , masquée par une écume de touristes , l ' était également .</SENTENCE>"
+########
+ "<SENTENCE>Que symbolise quelque chose dont on ne voit ni la fin ni le commencement ?</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Je pensai que ce pouvait être l ' éternité .</SENTENCE>"
+OUTPUT: "<SENTENCE>Je pensai que ce pouvait être <time>l ' éternité</time> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Qui n'est pas l'affaire de l'homme, dont on voit toujours le départ, l'homme qui n'est rien avant de se faire.</SENTENCE>"
+OUTPUT: "<SENTENCE>Qui n'est pas l'affaire de <pers>l'homme</pers>, dont on voit toujours le départ, <pers>l'homme</pers> qui n'est rien avant de se faire.</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Sur Jean Schlumberger qui oublia d ' en être Etait - ce pressentiment ?</SENTENCE>"
+OUTPUT: "<SENTENCE>Sur <pers>Jean Schlumberger</pers> qui oublia d ' en être Etait - ce pressentiment ?</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Moi qui n'avais jamais rencontré <pers>Jean Schlumberger</pers> — quelle pudeur me retenait sinon le reflet de la sienne — j'avais, il y a peu.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>demandé chez <org>Gallimard</org> s ' il était possible de lui rendre visite .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Les circonstances montrent que c ' était la dernière occasion .</SENTENCE>"
+OUTPUT: "<SENTENCE>Les <time>circonstances</time> montrent que c ' était la dernière <time>occasion</time> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>On me répondit que sa mauvaise santé condamnait sa porte .</SENTENCE>"
+OUTPUT: "<SENTENCE>On me répondit que sa <time>mauvaise santé</time> condamnait sa porte .</SENTENCE>"
+
+In this sentence, "mauvaise santé" is considered as a time entity because it refers to a health condition, which can change over time. However, it's not a typical time entity like a date or a time of day. Therefore, it's still important to annotate it to capture the meaning of the sentence.
+########
+ <SENTENCE>Ce n'était plus, je le compris, qu'une <TIME>question de jours</TIME>.</SENTENCE>
+########
+ INPUT: "<SENTENCE>Il me faut donc , à défaut de témoigner sur lui , écouter ceux qui l ' ont connu .</SENTENCE>"
+OUTPUT: "<SENTENCE>Il me faut donc , à défaut de témoigner sur <pers>lui</pers> , écouter ceux qui l ' ont connu .</SENTENCE>"
+########
+ "<SENTENCE>Que disent <org>Schlumberger</org> ?</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Ils ne disent que du bien .</SENTENCE>"
+OUTPUT: "<SENTENCE>Ils ne disent que du bien .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>A cela se reconnaît la qualité de l ' homme : qu ' aucune voix ne désaccorde l ' éloge , hommage rare pour un personnage rare dans un monde plutôt féroce où la mort ne désarme pas les adversaires .</SENTENCE>"
+OUTPUT: "<SENTENCE>A cela se reconnaît la qualité de <pers>l ' homme</pers> : qu ' aucune voix ne désaccorde l ' éloge , hommage rare pour un <pers>personnage</pers> rare dans un monde plutôt féroce où la mort ne désarme pas les adversaires .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Schlumberger n ' en avait pas .</SENTENCE>"
+OUTPUT: "<SENTENCE>Schlumberger <HumanProd>n ' en avait pas</HumanProd> .</SENTENCE>"
+
+INPUT: "<SENTENCE>Le résultat de la Fontenette est honorable pour les Vaudois qui doivent une fière chandelle à leur gardien Pasquini , en grande forme .</SENTENCE>"
+OUTPUT: "<SENTENCE>Le résultat de la <loc>Fontenette</loc> est honorable pour les Vaudois qui doivent une fière chandelle à leur <pers>gardien Pasquini</pers> , en grande forme .</SENTENCE>"
+
+INPUT: "<SENTENCE>Au dire des connaisseurs de la politique et de la mentalité vaudoise , elle n ' en a pas , contrairement au D ' Forel qui , en 1974 , avait presque enlevé son siège au socialiste Gavillet ; même la majorité des citoyennes seraient peu enclines à élire comme première femme une popiste et comme premier popiste une femme fût - elle très intelligente et « dans le vent » comme M Ménétrey .</SENTENCE>"
+OUTPUT: "<SENTENCE>Au dire des connaisseurs de la politique et de la mentalité vaudoise , elle n ' en a pas , contrairement au D ' <pers>Forel</pers> qui , <time>en 1974</time> , avait presque enlevé son siège au <pers>socialiste Gavillet</pers> ; même la majorité des citoyennes seraient peu enclines à élire comme première femme une popiste et comme premier popiste une femme fût - elle très intelligente et « dans le vent » comme <pers>M Ménétrey</pers> .</SENTENCE>"
+
+INPUT: "<SENTENCE>Plus délicate , en revanche , est la situation de M . M . Blanc , député du Parti des paysans , artisans et indépendants ( Union démocratique du centre ) au Grand Conseil ; prévu en remplacement de M . Ravussin - qui ne se présente , lui , plus non plus , il est peu connu , sauf dans les milieux agricoles et son groupement politique ne jouit pas de positions très solides .</SENTENCE>"
+OUTPUT: "<SENTENCE>Plus délicate , en revanche , est la situation de <pers>M . M . Blanc , député du Parti des paysans , artisans et indépendants</pers> ( <org>Union démocratique du centre</org> ) au Grand Conseil ; prévu en remplacement de <pers>M . Ravussin</pers> - qui ne se présente , lui , plus non plus , il est peu connu , sauf dans les milieux agricoles et son groupement politique ne jouit pas de positions très solides .</SENTENCE>"
+
+INPUT: "<SENTENCE>Le 1er août 1991 , la Suisse a adopté un nouveau drapeau , qui est resté le même depuis .</SENTENCE>"
+OUTPUT: "<SENTENCE><time>Le 1er août 1991</time> , la Suisse a adopté un nouveau drapeau , qui est resté le même depuis .</SENTENCE>"
+
+INPUT: "<SENTENCE>Le 1er août 1991 , la Suisse a adopté un nouveau drapeau , qui est resté le même depuis .</SENTENCE>"
+OUTPUT: "<SENTENCE>Le 1er août 1991 , la <org>Suisse</org> a adopté un nouveau drapeau , qui est resté le même depuis .</SENTENCE>"
+
+INPUT: "<SENTENCE>Le 1er août 1991 , la Suisse a adopté un nouveau drapeau , qui est resté le même depuis .</SENTENCE>"
+OUTPUT: "<SENTENCE> 1er août 1991 , la <org>Suisse</org> a adopté un nouveau drapeau , qui est resté le même depuis .</SENTENCE>"
+
+INPUT: "<SENTENCE>Le 1er août 1991 , la Suisse a adopté un nouveau drapeau , qui est resté le même depuis .</SENTENCE>"
+OUTPUT:
+########
+ INPUT: "<SENTENCE>Il était la délicatesse même , l ' intelligence et l ' amitié .</SENTENCE>"
+OUTPUT: "<SENTENCE>Il était la <HumanProd>délicatesse</HumanProd> même , l <HumanProd>intelligence</HumanProd> et l <HumanProd>amitié</HumanProd> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Jamais on ne vit les vertus de l'esprit prendre un plus noble appui sur celles du cœur que chez lui.</SENTENCE>"
+OUTPUT: "<SENTENCE>Jamais on ne vit les vertus de <HumanProd>l'esprit</HumanProd> prendre un plus noble appui sur celles du cœur que chez lui.</SENTENCE>"
+
+In this case, "l'esprit" is considered as Human Production because it is referring to a concept, an abstract idea.
+########
+ INPUT: "<SENTENCE>Il fit sa joie et celle des autres et voua ses efforts à favoriser la littérature de ses amis au détriment de la sienne .</SENTENCE>"
+OUTPUT: "<SENTENCE>Il fit sa joie et celle des autres and voua ses efforts à favoriser la <HumanProd>littérature</HumanProd> de ses amis au détriment de la sienne .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Pour laisser Gide et Martin du Gard à leurs grands travaux , il faisait le ménage de la NRF .</SENTENCE>"
+OUTPUT: "<SENTENCE>Pour laisser <pers>Gide</pers> et <pers>Martin du Gard</pers> à leurs grands travaux , il faisait le ménage de la <HumanProd>NRF</HumanProd> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>En quoi il me fait penser à Edmond Gilliard qui faisait celle des « Cahiers vaudois » , pour permettre à Ramuz d ' exister .</SENTENCE>"
+OUTPUT: "<SENTENCE>En quoi il me fait penser à <pers>Edmond Gilliard</pers> qui faisait celle des « Cahiers vaudois » , pour permettre à <pers>Ramuz</pers> d ' exister .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Où le roman crée l'événement « C'était dimanche, l'avenida de Los Pacificos est l'ancre principale du quartier de Puente Vieja . l'un des plus populaires de Villacorte » . . .</SENTENCE>"
+OUTPUT: "<SENTENCE>Où le <HumanProd>roman</HumanProd> crée l'événement « <TIME>C'était dimanche</TIME>, l'<loc>avenida de Los Pacificos</loc> est l'ancre principale du quartier de <loc>Puente Vieja</loc>. <loc>l'un des plus populaires de Villacorte</loc> » . . .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>C ' est un <prod>roman</prod> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Ainsi commence « L ' Homme à la Pancarte » de Gonzalo Arias ( 1 ) .</SENTENCE>"
+OUTPUT: "<SENTENCE>Ainsi commence « <prod>L ' Homme à la Pancarte</prod> » de <pers>Gonzalo Arias</pers> ( 1 ) .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Le titre espagnol est meilleur : cl .</SENTENCE>"
+OUTPUT: "<SENTENCE>Le titre espagnol est meilleur : cl .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>os <pers>Encartelados</pers> » , litéralement l' homme « Encartelé » .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>homme - sandwich , si l ' on veut .</SENTENCE>"
+OUTPUT: "<SENTENCE>homme - sandwich , si l ' on veut .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Cet homme, c'est <pers>Euscbio Martin</pers>.</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Un personnage de roman.</SENTENCE>"
+OUTPUT: "<SENTENCE>Un <pers>personnage</pers> de <prod>roman</prod>.<SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Martin , ce dimanche - là , <time>20 octobre 1 968</time> , sort dans la rue , au soleil , ayant épingle sur son dos et sur sa poitrine deux pancartes qui disent : Au nom de 71 % des <pers>Trujibériens</pers> , je demande respectueusement au général <pers>Tranco</pers> sauveur de la patrie d ' organiser des élections libres au poste de - chef de l ' <org>Etat</org> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Il est dans la rue , au soleil , avec ses lettres et cela n ' a pas été facile .</SENTENCE>"
+OUTPUT: "<SENTENCE>Il est dans la <loc>rue</loc> , au soleil , avec ses lettres et cela n ' a pas été facile .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Il a eu l ' impression de plonger dans une piscine d ' eau froide .</SENTENCE>"
+OUTPUT: "<SENTENCE>Il a eu l ' impression de plonger dans une <HumanProd>piscine</HumanProd> d ' eau froide .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>L ' auteur nous montre ce qui se passe dans la tête de Martin .</SENTENCE>"
+OUTPUT: "<SENTENCE>L <pers>auteur</pers> nous montre ce qui se passe dans la tête de <pers>Martin</pers> .</SENTENCE>"
+########
+ "<SENTENCE>s Selon le procédé du <prod>roman</prod> .</SENTENCE>"
+
+INPUT: "<SENTENCE>Le président de la Confédération a reçu le président de la République française Emmanuel Macron au Palais fédéral à Berne .</SENTENCE>"
+
+OUTPUT: "<SENTENCE>Le <time>président de la Confédération</time> a reçu le <pers>président de la République française Emmanuel Macron</pers> au <loc>Palais fédéral</loc> à <loc>Berne</loc> .</SENTENCE>"
+
+INPUT: "<SENTENCE>Le 1er août 1891 , le conseiller fédéral Numa Droz a inauguré le premier tronçon du chemin de fer du Gothard .</SENTENCE>"
+
+OUTPUT: "<SENTENCE>Le <time>1er août 1891</time> , le <pers>conseiller fédéral Numa Droz</pers> a inauguré le premier tronçon du <prod>chemin de fer du Gothard</prod> .</SENTENCE>"
+
+INPUT: "<SENTENCE>Le 1er août 1891 , le conseiller fédéral Numa Droz a inauguré le premier tronçon du chemin de fer du Gothard à Göschenen .</SENTENCE>"
+
+OUTPUT: "<SENTENCE>Le <time>1er août 1891</time> , le <pers>conseiller fédéral Numa Droz</pers> a inauguré le premier tronçon du <prod>chemin de fer du Gothard</prod> à <loc>Göschenen</loc> .</SENTENCE>"
+
+INPUT: "<SENTENCE>Le 1er août 1891 , le conseiller fédéral Numa Droz a inauguré le premier tronçon du chemin de fer du Gothard à Göschenen, en Suisse .</SENTENCE>"
+
+OUTPUT: "<SENTENCE>Le <time>1er août 1891</time> , le <pers>conseiller fédéral Numa Droz</pers> a inauguré le premier tronçon du <prod>chemin de fer du Gothard</prod> à <loc>Göschenen</loc>, en <loc>Suisse</loc> .</SENTENCE>"
+
+INPUT: "<SENTENCE>Le 1er août 1891 , le conseiller fédéral Numa Droz a inauguré le premier tronçon du chemin de fer du Gothard à Göschenen, en Suisse, à 10h00 .</SENTENCE>"
+
+OUTPUT: "<SENTENCE>Le <time>1er août 1891</time> , le <pers>conseiller fédéral Numa Droz</pers> a inauguré le premier tronçon du <prod>chemin de fer du Gothard</prod> à <loc>Göschenen</loc>, en <loc>Suisse</loc>, à <time>10h00</time> .</SENTENCE>"
+
+INPUT: "<SENTENCE>Le 1er août 1891 , le conseiller fédéral Numa Droz a inauguré le premier tronçon du chemin de fer du Gothard à Göschenen, en Suisse, à 10h00 CEST .</SENTENCE>"
+
+OUTPUT: "<SENTENCE>Le <time>1er août 1891</time> , le <pers>conseiller fédéral Numa Droz</pers> a inauguré le premier tronçon du <prod>chemin de fer du Gothard</prod> à <loc>Göschenen</loc>, en <loc>Suisse</loc>, à <time>10h00 CEST</time> .</SENTENCE>"
+
+INPUT: "<SENTENCE>Le 1er août 1891 , le conseiller fédéral Numa Droz a inauguré le premier tronçon du chemin de fer du Gothard à Göschenen, en Suisse, à 10h00 CEST (heure d'été d'Europe centrale) .</SENTENCE>"
+
+OUTPUT: "<SENTENCE>Le <time>1er
+########
+ INPUT: "<SENTENCE>Martin ne va pas loin , il sera tout de suite arrêté par la police .</SENTENCE>"
+OUTPUT: "<SENTENCE>Martin ne va pas loin , il sera tout de suite arrêté par <org>la police</org> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Dimanche <time>20 octobre</time> <pers>Eusebio Martin</pers> était donc dans la rue avec ses pancartes .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Pourquoi avoir postdaté l' histoire ?</SENTENCE>"
+OUTPUT: "<SENTENCE>Pourquoi avoir <time>postdaté</time> l' histoire ?</SENTENCE>"
+########
+ <SENTENCE>Je la lisais doucement.</SENTENCE>
+
+In the provided input, there are no named entities that match the given types (PERSON, ORGANIZATION, PRODUCTION, TIME, or LOCATION). Therefore, the output is the same as the input.
+########
+ OUTPUT: "<SENTENCE>C ' était <time>lundi</time> .</SENTENCE>"
+########
+ <SENTENCE>Cinq heures, j'ouvre <HumanProd>"Le Monde"</HumanProd>.</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>Nouvelles d' <loc>Espagne</loc> : Un <pers>homme</pers> de 42 ans , <pers>père</pers> de six enfants , a été arrêté par la <org>police</org> à <loc>Madrid</loc> , il portait une pancarte subversive , il s' agit de <pers>M . Gonzalo Arias</pers> , <pers>fonctionnaire</pers> de !</SENTENCE>"
+########
+ "<SENTENCE><org>Unesco</org>, à <loc>Paris</loc>. </SENTENCE>"
+########
+ INPUT: "<SENTENCE>Ce n ' était plus du roman.</SENTENCE>"
+OUTPUT: "<SENTENCE>Ce n ' était plus du <HumanProd>roman</HumanProd>.</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Le roman brusquement devenait réalité .</SENTENCE>"
+OUTPUT: "<SENTENCE>Le <prod>roman</prod> brusquement devenait réalité .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Certes , Jean - Marie Domenach , dans sa préface au livre écrit que la fiction sera suivie , aux dates indiquées , d ' actes réels .</SENTENCE>"
+OUTPUT: "<SENTENCE>Certes , <pers>Jean - Marie Domenach</pers> , dans sa préface au livre écrit que la fiction sera suivie , <time>aux dates indiquées</time> , d ' actes réels .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Mais n'était-ce pas espérance ou clause de style ?</SENTENCE>"
+OUTPUT: "<SENTENCE>Mais <time>n'était-ce pas</time> espérance ou clause de style ?</SENTENCE>"
+
+In this example, "n'était-ce pas" is considered as a time expression because it indicates a past time reference. However, it's not a common time expression, and it's not easy to understand without context. But according to the annotation guidelines, it should be annotated as a time entity.
+########
+ INPUT: "<SENTENCE>C ' était vrai .</SENTENCE>"
+OUTPUT: "<SENTENCE>C ' était vrai .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>x Alors que l ' événement , d ' ordinaire , aboutit au roman , le roman ici créait l ' événement .</SENTENCE>"
+OUTPUT: "<SENTENCE>x Alors que l ' <HumanProd>événement</HumanProd> , d ' ordinaire , aboutit au <HumanProd>roman</HumanProd> , le <HumanProd>roman</HumanProd> ici créait l ' événement .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Sur le plan des rapports entre l ' imaginaire et le vécu , il y a pour le lecteur quelque chose de fascinant dans cette aventure .</SENTENCE>"
+OUTPUT: "<SENTENCE>Sur le plan des rapports entre l ' <HumanProd>imaginaire</HumanProd> et le <HumanProd>vécu</HumanProd> , il y a pour le <pers>lecteur</pers> quelque chose de fascinant dans cette aventure .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Imaginez que vous rêviez d ' un sphynx , vous vous réveillez , et il est devant vous .</SENTENCE>"
+OUTPUT: "<SENTENCE>Imaginez que vous rêviez d ' un <prod>sphynx</prod> , vous vous réveillez , et il est devant vous .</SENTENCE>"
+########
+I've process 244 phrases!

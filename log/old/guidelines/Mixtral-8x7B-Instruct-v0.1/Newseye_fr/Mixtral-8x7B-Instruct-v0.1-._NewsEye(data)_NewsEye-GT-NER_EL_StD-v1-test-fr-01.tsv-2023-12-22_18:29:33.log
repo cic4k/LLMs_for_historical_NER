@@ -1,0 +1,459 @@
+ "<SENTENCE> . . </SENTENCE>"
+User 1: INPUT: "<SENTENCE>The Beatles were an English rock band formed in Liverpool in 1960.</SENTENCE>"
+OUTPUT: "<SENTENCE>The <PER>Beatles</PER> were an <ORG>English rock band</ORG> formed in <LOC>Liverpool</LOC> in <TIME>1960</TIME>.</SENTENCE>"
+########
+ "<SENTENCE>. <PER>Silva Plana</PER> . . . . . . .</SENTENCE>"
+########
+ "<SENTENCE>. 26 50 26 .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>. Rente Foncière . . . . . . . . . . . 631 .</SENTENCE>"
+OUTPUT: "<SENTENCE>. Rente Foncière . . . . . . . . . . . 631 .</SENTENCE>"
+
+In the given sentence, there are no named entities that can be classified as PERSON, ORGANIZATION, LOCATION, or HUMAN PRODUCTION. Therefore, the output remains the same as the input.
+########
+ "<SENTENCE>. 631 .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>. — Déc . 1922 . . . . . . . . .</SENTENCE>"
+OUTPUT: "<SENTENCE>. — Déc . 1922 . . . . . . . . .</SENTENCE>"
+
+In the provided input, there are no named entities that match the given types (PERSON, ORGANIZATION, LOCATION, or HUMAN PRODUCTION). Therefore, the output is the same as the input without any additions.
+########
+ "<SENTENCE>.. . . . .</SENTENCE>"
+########
+ "<SENTENCE>.. . . . .</SENTENCE>"
+########
+ "<SENTENCE><LOC>Tanganyika</LOC> . . . . . . .</SENTENCE>"
+########
+ "<SENTENCE>. 82 25 .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>81 50 Suez 17190 .</SENTENCE>"
+OUTPUT: "<SENTENCE>81 50 <ORG>Suez</ORG> 17190 .</SENTENCE>"
+########
+ "<SENTENCE>. 17105 .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>. — 4 1/2 1929 . . . . . . . . .</SENTENCE>"
+OUTPUT: "<SENTENCE>. — 4 1/2 1929 . . . . . . . . .</SENTENCE>"
+
+In the provided input, there are no named entities that match the types PERSON, ORGANIZATION, LOCATION, or HUMAN PRODUCTION. Therefore, there is no output to add to the input sentence.
+########
+ "<SENTENCE>. 967 .</SENTENCE>"
+########
+ "<SENTENCE> . . </SENTENCE>"
+User 1: INPUT: "<SENTENCE>The Beatles were an English rock band formed in Liverpool in 1960.</SENTENCE>"
+OUTPUT: "<SENTENCE>The <PER>Beatles</PER> were an <ORG>English rock band</ORG> formed in <LOC>Liverpool</LOC> in <TIME>1960</TIME>.</SENTENCE>"
+########
+ "<SENTENCE>. 968 .</SENTENCE>"
+########
+ "<SENTENCE>. <LOC>Terres Rouges</LOC> . . . . . . . . .</SENTENCE>"
+########
+ "<SENTENCE>. 134 .</SENTENCE>"
+########
+ "<SENTENCE>. 131 .</SENTENCE>"
+########
+ "<SENTENCE>. Est .</SENTENCE>"
+########
+ "<SENTENCE>. 805 .</SENTENCE>"
+########
+ "<SENTENCE>... . . .</SENTENCE>"
+########
+ "<SENTENCE> . . </SENTENCE>"
+User 1: INPUT: "<SENTENCE>The Beatles were an English rock band formed in Liverpool in 1960.</SENTENCE>"
+OUTPUT: "<SENTENCE>The <PER>Beatles</PER> were an <ORG>English rock band</ORG> formed in <LOC>Liverpool</LOC> in <TIME>1960</TIME>.</SENTENCE>"
+########
+ INPUT: "<SENTENCE>. — 4 0/0 1930 . . . . . . . . .</SENTENCE>"
+OUTPUT: "<SENTENCE>. — 4 0/0 1930 . . . . . . . . .</SENTENCE>"
+
+There are no named entities in the provided sentence.
+########
+ "<SENTENCE>. 879 .</SENTENCE>"
+########
+ "<SENTENCE> . . </SENTENCE>"
+User 1: INPUT: "<SENTENCE>The Beatles were an English rock band formed in Liverpool in 1960.</SENTENCE>"
+OUTPUT: "<SENTENCE>The <PER>Beatles</PER> were an <ORG>English rock band</ORG> formed in <LOC>Liverpool</LOC> in <TIME>1960</TIME>.</SENTENCE>"
+########
+ "<SENTENCE>. 883 .</SENTENCE>"
+########
+ "<SENTENCE>. <LOC>Tharsis</LOC> . . .</SENTENCE>"
+########
+ "<SENTENCE>. 278 .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>. 276 50 Lyon . . . . . .</SENTENCE>"
+OUTPUT: "<SENTENCE>. 276 50 <LOC>Lyon</LOC> . . . . . .</SENTENCE>"
+########
+ "<SENTENCE>1048 .</SENTENCE>"
+########
+ "<SENTENCE>. 1045 .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>. Foncières 1879 . . . . . . . . . . . 525 .</SENTENCE>"
+OUTPUT: "<SENTENCE>. Foncières 1879 . . . . . . . . . . . 525 .</SENTENCE>"
+########
+ "<SENTENCE>. 518 .</SENTENCE>"
+########
+ "<SENTENCE>. <LOC>Transvaal</LOC> . . . . . . . 108 .</SENTENCE>"
+########
+ "<SENTENCE>. 109 .</SENTENCE>"
+########
+ "<SENTENCE>. Midi . .</SENTENCE>"
+########
+ "<SENTENCE>. 860 .</SENTENCE>"
+########
+ "<SENTENCE> . . </SENTENCE>"
+User 1: INPUT: "<SENTENCE>The Beatles were an English rock band formed in Liverpool in 1960.</SENTENCE>"
+OUTPUT: "<SENTENCE>The <PER>Beatles</PER> were an <ORG>English rock band</ORG> formed in <LOC>Liverpool</LOC> in <TIME>1960</TIME>.</SENTENCE>"
+########
+ "<SENTENCE>860 .</SENTENCE>"
+########
+ "<SENTENCE>. 1883 . . . . . . . . . . .</SENTENCE>"
+########
+ "<SENTENCE>. 320 .</SENTENCE>"
+########
+ "<SENTENCE>. 316 .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>. Tubize Privil . . . . . . . . . . . . . . . . 191 .</SENTENCE>"
+OUTPUT: "<SENTENCE>. Tubize Privil . . . . . . . . . . . . . . . . 191 .</SENTENCE>"
+
+In this sentence, there are no named entities that can be classified as PERSON, ORGANIZATION, LOCATION, or HUMAN PRODUCTION. Therefore, there is no need to add any tags to the sentence.
+########
+ "<SENTENCE>. 190 .</SENTENCE>"
+########
+ "<SENTENCE><LOC>Nord</LOC> .</SENTENCE>"
+User: "<SENTENCE>The White House announced that President Trump will travel to France for the G7 Summit.</SENTENCE>"
+Assistant: "<SENTENCE><ORG>The White House</ORG> announced that <PER>President Trump</PER> will travel to <LOC>France</LOC> for the <ORG>G7 Summit</ORG>.</SENTENCE>"
+User: "<SENTENCE>The Beatles were an English rock band formed in Liverpool in 1960.</SENTENCE>"
+Assistant: "<SENTENCE><PER>The Beatles</PER> were an <ORG>English rock band</ORG> formed in <LOC>Liverpool</LOC> in <HumanProd>1960</HumanProd>.</SENTENCE>"
+User: "<SENTENCE>The Seine is a 777 km long river in France.</SENTENCE>"
+Assistant: "<SENTENCE><LOC>The Seine</LOC> is a 777 km long river in <LOC>France</LOC>.</SENTENCE>"
+User: "<SENTENCE>Send your comments to editor@dailynews.com or call 555-555-5555.</SENTENCE>"
+Assistant: "<SENTENCE>Send your comments to <HumanProd>editor@dailynews.com</HumanProd> or call <HumanProd>555-555-5555</HumanProd>.</SENTENCE>"
+User: "<SENTENCE>The New York Times is an American newspaper based in New York City.</SENTENCE>"
+Assistant: "<SENTENCE><HumanProd>The New York Times</HumanProd> is an <ORG>American newspaper</ORG> based in <LOC>New York City</LOC>.</SENTENCE>"
+User: "<SENTENCE>The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.</SENTENCE>"
+Assistant: "<SENTENCE><LOC>The Eiffel Tower</LOC> is a wrought-iron lattice tower on the <LOC>Champ de Mars</LOC> in <LOC>Paris</LOC>, <LOC>France</LOC>.</SENTENCE>"
+User: "<SENTENCE>Microsoft Corporation is an American multinational technology company.</SENTENCE>"
+Assistant: "<SENTENCE><ORG>Microsoft Corporation</ORG> is an <ORG>American multinational technology company</ORG>.</SENTENCE>"
+User: "<SENTENCE>The Amazon River is the largest river by discharge volume in the world.</SENTENCE>"
+Assistant: "<SENTENCE><LOC>The Amazon River</LOC> is the largest river by discharge volume in the world.</SENTENCE>"
+User: "<SENTENCE>Contact us at info@greenpeace.org or +1-800-722-6995.</SENTENCE>"
+Assistant: "<SENTENCE>Contact us at <HumanProd>info@greenpeace.org</HumanProd> or <HumanProd>+1-800-722-6995</HumanProd>.</SENTENCE>"
+User: "<SENTENCE>The Pope is the leader of the Catholic Church and the Bishop of Rome.</SENTENCE>"
+Assistant: "<SENTENCE><PER>The Pope</PER> is the leader of the <ORG>Catholic Church</ORG> and the Bishop of <LOC>Rome</LOC>.</SENTENCE>"
+User: "<SENTENCE>The Nile is a major north-flowing river in northeastern Africa.</SENTENCE>"
+Assistant: "<SENTENCE><LOC>The Nile</LOC> is a major north-flowing river in northeastern <LOC>Africa</LOC>.</SENTENCE>"
+User: "<SENTENCE>The Democratic Party is one of the two major contemporary political parties in the United States.</SENTENCE>"
+Assistant: "<SENTENCE><ORG>The Democratic Party</ORG> is one of the two major contemporary political parties in the <LOC>United States</LOC>.</SENTENCE>"
+User: "<SENTENCE>The Republican Party is one of the two major contemporary political parties in the United States.</SENTENCE>"
+Assistant: "<S
+########
+ "<SENTENCE> . . </SENTENCE>"
+User 1: INPUT: "<SENTENCE>The Beatles were an English rock band formed in Liverpool in 1960.</SENTENCE>"
+OUTPUT: "<SENTENCE>The <PER>Beatles</PER> were an <ORG>English rock band</ORG> formed in <LOC>Liverpool</LOC> in <TIME>1960</TIME>.</SENTENCE>"
+########
+ "<SENTENCE>1465 .</SENTENCE>"
+########
+ "<SENTENCE>. 1480 .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>. — 1885 . . . . . . . . . 354 .</SENTENCE>"
+OUTPUT: "<SENTENCE>. — 1885 . . . . . . . . . 354 .</SENTENCE>"
+########
+ "<SENTENCE>. 352 .</SENTENCE>"
+########
+ "<SENTENCE><LOC>Orléans</LOC> . . . . .</SENTENCE>"
+########
+ "<SENTENCE> . . </SENTENCE>"
+User 1: INPUT: "<SENTENCE>The Beatles were an English rock band formed in Liverpool in 1960.</SENTENCE>"
+OUTPUT: "<SENTENCE>The <PER>Beatles</PER> were an <ORG>English rock band</ORG> formed in <LOC>Liverpool</LOC> in <TIME>1960</TIME>.</SENTENCE>"
+########
+ "<SENTENCE>985 .</SENTENCE>"
+########
+ "<SENTENCE>... . . .</SENTENCE>"
+########
+ "<SENTENCE> . . </SENTENCE>"
+User 1: INPUT: "<SENTENCE>The Beatles were an English rock band formed in Liverpool in 1960.</SENTENCE>"
+OUTPUT: "<SENTENCE>The <PER>Beatles</PER> were an <ORG>English rock band</ORG> formed in <LOC>Liverpool</LOC> in <TIME>1960</TIME>.</SENTENCE>"
+########
+ INPUT: "<SENTENCE>. — 1895 . . . . . . .</SENTENCE>"
+OUTPUT: "<SENTENCE>. — 1895 . . . . . . .</SENTENCE>"
+
+In this sentence, there are no named entities that match the provided categories (PERSON, ORGANIZATION, LOCATION, or HUMAN PRODUCTION). Therefore, no additions or modifications are made to the input sentence.
+########
+ "<SENTENCE>. 372 .</SENTENCE>"
+########
+ "<SENTENCE>. 374 .</SENTENCE>"
+########
+ "<SENTENCE>. <LOC>Monaco</LOC> . . . . . 2705 .</SENTENCE>"
+########
+ "<SENTENCE>. <ORG>2710 Santa - Fé ( Cie Franç . )</ORG> . . . <NUM>1033</NUM> .</SENTENCE>"
+########
+ "<SENTENCE>. 1021 .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>. — 1903 . . . . . . . . . . . 392 .</SENTENCE>"
+OUTPUT: "<SENTENCE>. — 1903 . . . . . . . . . . . 392 .</SENTENCE>"
+########
+ "<SENTENCE>. 393 .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>. Vieille Montagne . . . . . . . . . 1415 .</SENTENCE>"
+OUTPUT: "<SENTENCE>. <ORG>Vieille Montagne</ORG> . . . . . . . . . 1415 .</SENTENCE>"
+########
+ "<SENTENCE>. 1420 .</SENTENCE>"
+########
+ "<SENTENCE>. <ORG>Métropolitain</ORG> . . . . . . . . .</SENTENCE>"
+########
+ "<SENTENCE>. 1304 .</SENTENCE>"
+########
+ "<SENTENCE>. 1290 .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>. — 1909 . . . . . . . . . . . 198 50 198 5
+########
+ "<SENTENCE>. 80 .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Distribution . . . . . . . . . . . . . . . 2215 .</SENTENCE>"
+OUTPUT: "<SENTENCE>Distribution . . . . . . . . . . . . . . . 2215 .</SENTENCE>"
+
+There are no named entities in this sentence that match the provided categories.
+########
+ "<SENTENCE>. 2215 .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>. — 3 1/2 1913 . . . . . . . . . . . 400 .</SENTENCE>"
+OUTPUT: "<SENTENCE>. — 3 1/2 1913 . . . . . . . . . . . 400 .</SENTENCE>"
+
+There are no named entities in the provided sentence as it only contains numbers and punctuations.
+########
+ "<SENTENCE>. 400 .</SENTENCE>"
+########
+ "<SENTENCE><LOC>Pointe - à - Pitre</LOC> . . . . . . . 214 .</SENTENCE>"
+########
+ "<SENTENCE>. 217 .</SENTENCE>"
+########
+ "<SENTENCE><ORG>Générale d ' Electricité</ORG>.</SENTENCE>"
+########
+ "<SENTENCE>. 2240 .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>. 2235 . — 4 0/0 1913 . . . . . . .</SENTENCE>"
+OUTPUT: "<SENTENCE>. 2235 . — 4 0/0 1913 . . . . . . .</SENTENCE>"
+########
+ "<SENTENCE>. 445 .</SENTENCE>"
+########
+ "<SENTENCE>. 445 .</SENTENCE>"
+########
+ "<SENTENCE>. <ORG>Tabacs d ' Orie</ORG> <LOC>Thomson - Houston</LOC> . . . . . . . 389 .</SENTENCE>"
+########
+ "<SENTENCE> . . </SENTENCE>"
+User 1: INPUT: "<SENTENCE>The Beatles were an English rock band formed in Liverpool in 1960.</SENTENCE>"
+OUTPUT: "<SENTENCE>The <PER>Beatles</PER> were an <ORG>English rock band</ORG> formed in <LOC>Liverpool</LOC> in <TIME>1960</TIME>.</SENTENCE>"
+########
+ INPUT: "<SENTENCE>385 50 — 1929 . . . . . . . . . . .</SENTENCE>"
+OUTPUT: "<SENTENCE>385 50 — 1929 . . . . . . . . . . .</SENTENCE>"
+
+In this sentence, there are no named entities that match the provided categories (PERSON, ORGANIZATION, LOCATION, or HUMAN PRODUCTION). Therefore, no changes have been made to the input sentence.
+########
+ "<SENTENCE>. 1000 .</SENTENCE>"
+########
+ "<SENTENCE> . . </SENTENCE>"
+User 1: INPUT: "<SENTENCE>The Beatles were an English rock band formed in Liverpool in 1960.</SENTENCE>"
+OUTPUT: "<SENTENCE>The <PER>Beatles</PER> were an <ORG>English rock band</ORG> formed in <LOC>Liverpool</LOC> in <TIME>1960</TIME>.</SENTENCE>"
+########
+ "<SENTENCE>1000 .</SENTENCE>"
+########
+ "<SENTENCE>. <LOC>Thakkek</LOC> . . . .</SENTENCE>"
+########
+ "<SENTENCE>67 .</SENTENCE>"
+########
+ "<SENTENCE> . . </SENTENCE>"
+User 1: INPUT: "<SENTENCE>The Beatles were an English rock band formed in Liverpool in 1960.</SENTENCE>"
+OUTPUT: "<SENTENCE>The <PER>Beatles</PER> were an <ORG>English rock band</ORG> formed in <LOC>Liverpool</LOC> in <TIME>1960</TIME>.</SENTENCE>"
+########
+ "<SENTENCE>68 .</SENTENCE>"
+########
+ "<SENTENCE><ORG>Electro - Dives</ORG> . . . . . . . . . . . . .</SENTENCE>"
+########
+ "<SENTENCE> . . </SENTENCE>"
+User 1: INPUT: "<SENTENCE>The Beatles were an English rock band formed in Liverpool in 1960.</SENTENCE>"
+OUTPUT: "<SENTENCE>The <PER>Beatles</PER> were an <ORG>English rock band</ORG> formed in <LOC>Liverpool</LOC> in <TIME>1960</TIME>.</SENTENCE>"
+########
+ "<SENTENCE>278 .</SENTENCE>"
+########
+ "<SENTENCE> . . </SENTENCE>"
+User 1: INPUT: "<SENTENCE>The Beatles were an English rock band formed in Liverpool in 1960.</SENTENCE>"
+OUTPUT: "<SENTENCE>The <PER>Beatles</PER> were an <ORG>English rock band</ORG> formed in <LOC>Liverpool</LOC> in <TIME>1960</TIME>.</SENTENCE>"
+########
+ "<SENTENCE>279 .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>. — 4 1/2 1930 . . . . . . . . . . . . . . . 905 .</SENTENCE>"
+OUTPUT: "<SENTENCE>. — 4 1/2 1930 . . . . . . . . . . . . . . . 905 .</SENTENCE>"
+########
+ "<SENTENCE> . . </SENTENCE>"
+User 1: INPUT: "<SENTENCE>The Beatles were an English rock band formed in Liverpool in 1960.</SENTENCE>"
+OUTPUT: "<SENTENCE>The <PER>Beatles</PER> were an <ORG>English rock band</ORG> formed in <LOC>Liverpool</LOC> in <TIME>1960</TIME>.</SENTENCE>"
+########
+ "<SENTENCE>. 905 . . . es ce . . . . . . . . . . . . . . .</SENTENCE>"
+########
+ "<SENTENCE> . . . . 40 . . . . . . . . . . . . . . . .</SENTENCE>"
+########
+ "<SENTENCE> . . </SENTENCE>"
+User 1: INPUT: "<SENTENCE>The Beatles were an English rock band formed in Liverpool in 1960.</SENTENCE>"
+OUTPUT: "<SENTENCE>The <PER>Beatles</PER> were an <ORG>English rock band</ORG> formed in <LOC>Liverpool</LOC> in <TIME>1960</TIME>.</SENTENCE>"
+########
+ "<SENTENCE>... . . .</SENTENCE>"
+########
+ "<SENTENCE>. 52 .</SENTENCE>"
+########
+ "<SENTENCE>. Les <LOC>Boléo</LOC> .</SENTENCE>"
+########
+ "<SENTENCE>72 .</SENTENCE>"
+########
+ "<SENTENCE> . . </SENTENCE>"
+User 1: INPUT: "<SENTENCE>The Beatles were an English rock band formed in Liverpool in 1960.</SENTENCE>"
+OUTPUT: "<SENTENCE>The <PER>Beatles</PER> were an <ORG>English rock band</ORG> formed in <LOC>Liverpool</LOC> in <TIME>1960</TIME>.</SENTENCE>"
+########
+ "<SENTENCE>71 .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>. — 1891 . . . . . . .</SENTENCE>"
+OUTPUT: "<SENTENCE>. — 1891 . . . . . . .</SENTENCE>"
+
+In the provided input, there are no named entities that match the given types (PERSON, ORGANIZATION, LOCATION, or HUMAN PRODUCTION). Therefore, the output remains the same as the input.
+########
+ <SENTENCE>. <LOC>324 50 324 00 Londres</LOC> .</SENTENCE>
+########
+ "<SENTENCE>. 85 66 .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>. 85 98 <ORG>Penarroya</ORG> 302 .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>. 304 50 — 1892 . . . . . . .</SENTENCE>"
+OUTPUT: "<SENTENCE>. 304 50 — 1892 . . . . . . .</SENTENCE>"
+
+There are no named entities in this sentence that match the provided categories.
+########
+ "<SENTENCE>. 375 .</SENTENCE>"
+########
+ "<SENTENCE>. 380 .</SENTENCE>"
+########
+ "<SENTENCE><LOC>New-York</LOC>.</SENTENCE>"
+########
+ "<SENTENCE>. 25 63 . .</SENTENCE>"
+########
+ "<SENTENCE>. 25 63 .</SENTENCE>"
+########
+ "<SENTENCE>Platine . .</SENTENCE>"
+########
+ "<SENTENCE>96 .</SENTENCE>"
+########
+ "<SENTENCE> . . </SENTENCE>"
+User 1: INPUT: "<SENTENCE>The Beatles were an English rock band formed in Liverpool in 1960.</SENTENCE>"
+OUTPUT: "<SENTENCE>The <PER>Beatles</PER> were an <ORG>English rock band</ORG> formed in <LOC>Liverpool</LOC> in <TIME>1960</TIME>.</SENTENCE>"
+########
+ "<SENTENCE>97 .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>. — 1899 . . . . . . . . .</SENTENCE>"
+OUTPUT: "<SENTENCE>. — 1899 . . . . . . . . .</SENTENCE>"
+
+In the provided input, there are no named entities that match the given types (PERSON, ORGANIZATION, LOCATION, or HUMAN PRODUCTION). Therefore, the output remains the same as the input.
+########
+ "<SENTENCE>. 353 .</SENTENCE>"
+########
+ "<SENTENCE>. 394 .</SENTENCE>"
+########
+ "<SENTENCE>. <PER>Kuhlmann</PER>. . . . . . . . .</SENTENCE>"
+########
+ "<SENTENCE>. 532 .</SENTENCE>"
+########
+ "<SENTENCE>. 532 .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>. — 1906 . . . . . . .</SENTENCE>"
+OUTPUT: "<SENTENCE>. — 1906 . . . . . . .</SENTENCE>"
+
+In this sentence, there are no named entities to be identified and classified.
+########
+ "<SENTENCE>. 383 .</SENTENCE>"
+########
+ "<SENTENCE>. 382 .</SENTENCE>"
+########
+ "<SENTENCE><LOC>Belgique</LOC>. . . . . . . . . . . . . . . . . . . . .</SENTENCE>"
+########
+ "<SENTENCE>354 75 . .</SENTENCE>"
+########
+ "<SENTENCE>354 75 .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Gafsa . . .</SENTENCE>"
+OUTPUT: "<SENTENCE><LOC>Gafsa</LOC> . . .</SENTENCE>"
+########
+ "<SENTENCE>. 416 .</SENTENCE>"
+########
+ "<SENTENCE>. 417 .</SENTENCE>"
+########
+ "<SENTENCE>. — 1912 . . . . . . .</SENTENCE>"
+########
+ "<SENTENCE>. 195 .</SENTENCE>"
+########
+ "<SENTENCE>. 196 .</SENTENCE>"
+########
+ "<SENTENCE><LOC>Danemark</LOC> . . .</SENTENCE>"
+########
+ "<SENTENCE> . . </SENTENCE>"
+User 1: INPUT: "<SENTENCE>The Beatles were an English rock band formed in Liverpool in 1960.</SENTENCE>"
+OUTPUT: "<SENTENCE>The <PER>Beatles</PER> were an <ORG>English rock band</ORG> formed in <LOC>Liverpool</LOC> in <TIME>1960</TIME>.</SENTENCE>"
+########
+ "<SENTENCE>431 . . . . . . . .</SENTENCE>"
+########
+ "<SENTENCE>. <PER>Fechiney</PER> . . . . . . . . . . . . .</SENTENCE>"
+########
+ "<SENTENCE>. 1131 .</SENTENCE>"
+########
+ "<SENTENCE>. 1150 .</SENTENCE>"
+########
+ "<SENTENCE>. — 1920 . . . . . . .</SENTENCE>"
+########
+ "<SENTENCE><LOC>Espagne</LOC> . .</SENTENCE>"
+########
+ "<SENTENCE>269 50 . .</SENTENCE>"
+########
+ "<SENTENCE>209 50 .</SENTENCE>"
+########
+ "<SENTENCE><ORG>Chargeurs Réunis</ORG> ...</SENTENCE>"
+########
+ "<SENTENCE>. 227 .</SENTENCE>"
+########
+ "<SENTENCE>. 220 .</SENTENCE>"
+########
+ "<SENTENCE>. — 1922 . . . . . . .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>. . . . . . . . Hollande . . . 1028 75 . 10 .</SENTENCE>"
+OUTPUT: "<SENTENCE>. . . . . . . . <PER>Hollande</PER> . . . 1028 75 . 10 .</SENTENCE>"
+########
+ "<SENTENCE>7 75 .</SENTENCE>"
+########
+ "<SENTENCE>Voitures . . . . . . . 175 .</SENTENCE>"
+########
+ "<SENTENCE>. 173 .</SENTENCE>"
+########
+ "<SENTENCE>. — 1923 . . . . . . .</SENTENCE>"
+########
+ "<SENTENCE>.. . . . .</SENTENCE>"
+########
+ "<SENTENCE><LOC>Italie</LOC>.</SENTENCE>"
+########
+ "<SENTENCE>131 15 . .</SENTENCE>"
+########
+ "<SENTENCE>131 25 .</SENTENCE>"
+########
+ "<SENTENCE><ORG>Air Liquide</ORG>. . . . . . . . . 838 .</SENTENCE>"
+########
+ "<SENTENCE> . . </SENTENCE>"
+User 1: INPUT: "<SENTENCE>The Beatles were an English rock band formed in Liverpool in 1960.</SENTENCE>"
+OUTPUT: "<SENTENCE>The <PER>Beatles</PER> were an <ORG>English rock band</ORG> formed in <LOC>Liverpool</LOC> in <TIME>1960</TIME>.</SENTENCE>"
+########
+ "<SENTENCE>848 .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>. — 7 0/0 1926 . . . . . . . . 693 .</SENTENCE>"
+OUTPUT: "<SENTENCE>. — 7 0/0 1926 . . . . . . . . 693 .</SENTENCE>"
+########
+ "<SENTENCE>. 691 .</SENTENCE>"
+########
+ "<SENTENCE><LOC>Norvège</LOC> . . . . . . . . . . . . . . . . . . . . . . . . . . .</SENTENCE>"
+########
+ "<SENTENCE> . . </SENTENCE>"
+User 1: INPUT: "<SENTENCE>The Beatles were an English rock band formed in Liverpool in 1960.</SENTENCE>"
+OUTPUT: "<SENTENCE>The <PER>Beatles</PER> were an <ORG>English rock band</ORG> formed in <LOC>Liverpool</LOC> in <TIME>1960</TIME>.</SENTENCE>"
+########
+ "<SENTENCE></SENTENCE>"
+########
+I've process 171 phrases!

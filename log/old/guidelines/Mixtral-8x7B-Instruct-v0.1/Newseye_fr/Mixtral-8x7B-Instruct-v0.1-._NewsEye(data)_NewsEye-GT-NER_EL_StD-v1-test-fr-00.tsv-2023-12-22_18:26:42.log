@@ -1,0 +1,418 @@
+ <SENTENCE>Mais , puisque nous sommes sûre <PER>M . Chéron</PER> ne fera rien , qui fera quelque chose ? Est - ce que le <ORG>gouvernement</ORG> con-
+tempte , par avance , d'un œil serein cette hausse de la vie que nous allons devoir aux opérations de <PER>M . de Lasteyrie</PER> ? <PER>M . Poincaré</PER> a en ce moment de graves soucis .</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>Ce n ' est peut - être pas une raison pour laisser <PER>M . Chéron</PER> diriger , une gaffe géaute à la main , la barque qui porte les <HUMANPROD>consommateurs</HUMANPROD> et leur <HUMANPROD>infortune</HUMANPROD> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>— HERT Ce jon , du vin ? — Garçon , un verre de vin rouge ! Un peu étonné , le garçon de ce grand café voisin de l ' Opéra tend la tête vers moi pour voir si je ne me moque pas Ma je suis parfaitement sérieux .</SENTENCE>"
+OUTPUT: "<SENTENCE>— <PER>HERT</PER> Ce jon , du vin ? — Garçon , un verre de vin rouge ! Un peu étonné , le garçon de <LOC>ce grand café voisin de l ' Opéra</LOC> tend la tête vers moi pour voir si je ne me moque pas Ma je suis parfaitement sérieux .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Le garçon, alors, s' incline sans un mot, me fixe encore un instant avec ce silence qui est pire que tous les dédains et dont seuls savent user les descendants authentiques des grandes familles et les maîtres d' hôtel.</SENTENCE>"
+OUTPUT: "<SENTENCE>Le <PER>garçon</PER>, alors, s' incline sans un mot, me fixe encore un instant avec ce silence qui est pire que tous les dédains et dont seuls savent user les descendants authentiques des <LOC>grandes familles</LOC> et les <ORG>maîtres d' hôtel</ORG>.</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Puis il disparaît . Ce garçon me meprise assurément . Cela m ' ennuie un peu . On tient toujours à l ' estime des garçons café .</SENTENCE>"
+OUTPUT: "<SENTENCE>Puis il disparaît . Ce <PER>garçon</PER> me meprise assurément . Cela m ' ennuie un peu . On tient toujours à l ' estime des <LOC>garçons café</LOC> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Mais le voilà qui revient . Il dépose de vant moi un verre petit et une grande sou¬ coupe , d ' un air distant . Puis il s ' écarte , démasquant un autre garçon vêtu de noir . qui lui ressemble comme un frère .</SENTENCE>"
+OUTPUT: "<SENTENCE>Mais <PER>le voilà</PER> qui revient . Il dépose de vant moi un verre petit et une grande sou¬ coupe , d ' un air distant . Puis il s ' écarte , démasquant un autre garçon vêtu de noir . qui lui ressemble comme un frère .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>M <PER>Gromer</PER> est un <ORG>érudit</ORG> d ' <LOC>origne russe</LOC> , dont le nom d ' <ORG>ailleurs</ORG> connaît déjà la grande notoriété , puisqu ' il est le père d ’ <PER>Aristide Gromer</PER> , le jeune prodige du jeu d ' <ORG>échecs</ORG> .</SENTENCE>"
+########
+ <SENTENCE>La thèse de <PER>M . Gromer</PER> est que les grands esprits forment , au - dessus et en dehors des nations , une patrie idéale et universelle dont tous les membres peuvent se récla¬ mer . Il y a donc une solidarité supérieure des civilisations nationales , de même qu ' il y a une solidarité morale et une solidarité économique qui , lorsque la <ORG>Société des Na¬ tions</ORG> sera vraiment organisée , assureront la paix .</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>La culture très étendue de <PER>M . Cromer</PER> lui permet de parer sa conférence d ' une ex¬ trême abondance de citations en toutes lan¬ gues , de <LOC>Démosthène</LOC> à <LOC>Kant</LOC> , de <LOC>Shakes¬ peare</LOC> au <LOC>Dante</LOC> , les aphorismes viennent d ’ eux - mêmes à l ' appui des arguments de l ’ orateur .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>L ' <ORG>auditoire</ORG> , composé en très grande par¬ tie d ' <PER>étudiants</PER> , parmi lesquels beaucoup de <PER>lycéens</PER> , a applaudi abondamment M . <PER>Cro¬ mer</PER> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>L ' <ORG>Association pour la pro\- propagation des langues étrangères</ORG> a démon\- tré que des conférences en allemand trou\- vent un public capable de les comprendre et désireux de les suivre .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>— S . L ' IDENTIFICATION du corps de l ' <PER>aviateur</PER> retrouvé à <LOC>Saint - Pierre - Vaast</LOC> Le ministère de la guerre fait connaître que les recherches concernant l ' <ORG>avion</ORG> re\-trouvé dans le bois de <LOC>Saint - Pierre - Vaast</LOC> permettent d ' aboutir à des conclusions cer\-taines , bien que , d ' une part aux premières investigations , le numéro de l ' <ORG>avion</ORG> ait été reconnu incomplet et que , d ' autre part , celui du moteur ait été difficile à reconsti\-tuer , en raison des détériorations subies au cours de la chute et de l ' altération du métal .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Un entr <LOC>'acte</LOC> <HumanProd>CONFÉRENCE DE LA PAIX</HumanProd> Les secrétaires travaillent Hier , relâche au Théâtre de la Paix , nous voulons dire au <LOC>Quai d ' Orsay</LOC> . Les hauts délégués des grandes puissances ne se sont pas réunis en conférence ; ils ont seulement chargé leurs secrétaires de s ' entendre pour la mise au point des procès - verbaux , la rédaction des règle¬ ments du Congrès et aussi la prépara¬ tions des invitations à la séance inau¬ gurale de samedi .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Les <PER>secrétaires des délégations</PER> , qui se sont réunis en petit comité autour de <PER>M . Pauf Dutasta</PER> , étaient <PER>MM . Phi - lippe Berthelot ( France )</PER> , <PER>Sir William Encke ( Grande - Bretagne )</PER> , <PER>Aldobrandi ( Italie )</PER> , <PER>Frazier ( Etats - Unis )</PER> .</SENTENCE>"
+########
+ <SENTENCE>Des travaux très utiles, mais acces<ORG>soires</ORG>, que ces messieurs ont effectués il y a peu de choses à dire. Leur tâche la plus délicate était celle de faire les invitations: il n'en sera envoyé qu'aux représentants des <ORG>Etats</ORG> ayant fait acte de belligérance contre les <ORG>Empires cen</ORG>traux, c'est-à-dire s'étant déclarés en état d'hostilité avec eux. Les <LOC>nations</LOC> qui se sont contentées de rompre les relations diplomatiques avec les ennemis de l'<ORG>Entente</ORG> et se sont bornées, par conséquent, à une neutralité bienveillante envers les <ORG>Alliés</ORG>, ne seront pas invitées.</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>( Ainsi , en Amérique , les <ORG>Républiques</ORG> , par exemple , de <LOC>Cuba</LOC> ou de <LOC>Panama</LOC> seront invitées à envoyer un <PER>déléguée</PER> ; les <ORG>Républiques</ORG> du <LOC>Pérou</LOC> , de la <LOC>Boli¬ vie</LOC> , de l <LOC>Equateur</LOC> , de l <LOC>Uruguay</LOC> ne le seront pas .</SENTENCE>"
+########
+ INPUT: "<SENTENCE) Précisions et prévisions Des précisions ou modifications ont été apportées à quelques - unes des déci¬ sions de la Conférence de la paix de lundi .</SENTENCE>"
+OUTPUT: "<SENTENCE) Précisions et prévisions Des précisions ou modifications ont été apportées à quelques - unes des déci¬ sions de <ORG>la Conférence de la paix</ORG> de lundi .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>En ce qui concerne le nombre des <PER>dé légués</PER> , il a été convenu que la <LOC>Pologne</LOC> en aurait deux . L ' ancien royaume de <LOC>Serbie</LOC> en aura deux également , mais qui ne représenteront pas le nouvel <ORG>Etat de Yougo - Slavie</ORG> , dont les puissan¬ ces ( et <LOC>l ' Italie</LOC> en particulier ) n ' ont pas reconnu encore officiellement la nou¬ velle constitution .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Du fait de la représentation des <ORG>Do¬ minions</ORG> à la <ORG>Conférence</ORG> , l ' <ORG>Empire bri¬ tannique</ORG> aurait dû avoir quinze délé - gués ; il n ' en aura que quatorze car <LOC>Terre - Neuve</LOC> n ' aura pas un plénipo¬ tentiaire distinct .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Une question importante a été tranched <ORG>Conférence</ORG> . La langue officiellement adoptée pour la rédaction des actes de la <ORG>Conférence</ORG> sera le français . On n ' a fait , en posant cette règle , que suivre une tradition diplomatique très ancienne qui est un hommage au grand rôle historique de notre pays .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Telles sont les derniers échos de la <ORG>Conférence</ORG> . Nous devons ajouter que le président <PER>Wilson</PER> semble avoir renoncé , pour la deuxième fois , au voyage qui lui avait été préparé dans les régions libérées . Il ne veut point se laisser dis\-traire de son œuvre de paix par le spec\-tacle des horreurs de la guerre . Il ex\-cursionnera plus tard .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Demain matin , d ' ailleurs , à 10 heu¬ res et demie , les délégués auront une nouvelle réunion préparatoire . Ils es¬ pèrent achever l ' examen de toutes les questions de procédure dans la journée .</SENTENCE>"
+OUTPUT: "<SENTENCE>Demain matin , d ' ailleurs , à 10 heu¬ res et demie , <PER>les délégués</PER> auront une nouvelle réunion préparatoire . Ils es¬ pèrent achever l ' examen de toutes les questions de procédure dans la journée .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>393 Deux petits <LOC>Etats</LOC> ont été envahis et restent envahis sans avoir été ni con¬ sultés , ni directement attaqués : l ' <LOC>Alba¬ nie</LOC> ( 28 . 000 kil . carr .</SENTENCE>"
+########
+ "<SENTENCE>) et <LOC>le Luxembourg</LOC> 2 .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>586 <LOC>kilomètres carrés</LOC> ) . C ' est donc bien huit millions de <LOC>kilomètres carrés</LOC> qui constituent le domaine continental européen de la guerre . Quelle effroyable surface ! Poursuivons le périple tragique de la <LOC>Méditerranée</LOC> ensanglantée : <LOC>Kil . carr .</LOC></SENTENCE>"
+########
+ "<SENTENCE><LOC>Asie - Mineure</LOC> . . .</SENTENCE>"
+########
+ "<SENTENCE>. 501 .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>400 Arménie . 186 .</SENTENCE>"
+OUTPUT: "<SENTENCE>400 <LOC>Arménie</LOC> . 186 .</SENTENCE>"
+########
+ "<SENTENCE>500 <LOC>Syrie</LOC> et <LOC>Mésopotamie</LOC> 637 .</SENTENCE>"
+########
+ "<SENTENCE><LOC>800 Arabie</LOC>.</SENTENCE>"
+########
+ "<SENTENCE>. 441 .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>100 <LOC>Egypte</LOC> . . . 994 </SENTENCE>"
+########
+ INPUT: "<SENTENCE>275 Libye 1 .</SENTENCE>"
+OUTPUT: "<SENTENCE>275 <LOC>Libye</LOC> 1 .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>100 . 000 Tunisie . . . . . . .</SENTENCE>"
+OUTPUT: "<SENTENCE>100 . 000 <LOC>Tunisie</LOC> . . . . . . .</SENTENCE>"
+########
+ "<SENTENCE>. 125 .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>130 Algérie . . . 575 .</SENTENCE>"
+OUTPUT: "<SENTENCE>130 <LOC>Algérie</LOC> . . . 575 .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>289 Maroc . . . 500 . 000 Total . . . . . . . 5 .</SENTENCE>"
+OUTPUT: "<SENTENCE>289 <LOC>Maroc</LOC> . . . 500 . 000 Total . . . . . . . 5 .</SENTENCE>"
+########
+ "<SENTENCE>061 .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>494 Cinq millions de kilomètres carrés ! Et nous devons encore compter ces rochers et îles de la <LOC>Méditerranée</LOC> qui jouent dans la guerre présente un rôle d ' autant plus utile que leur statut poli¬ tique les font dépendre des armées al¬ liées : <LOC>Kil . carr</LOC>, — <LOC>Gibraltar</LOC> ( <ORG>Angleterre</ORG> ) .</SENTENCE>"
+########
+ "<SENTENCE>. 5 <LOC>Malte</LOC> ( <ORG>Angleterre</ORG> ) . . . . . 323 <LOC>Chypre</LOC> ( <ORG>Angleterre</ORG> ) . . .</SENTENCE>"
+########
+ "<SENTENCE>. 9 .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>282 Thasos ( Egypte ) . . . . . . . 393 Total . . . . . . . 10 .</SENTENCE>"
+OUTPUT: "<SENTENCE>282 <LOC>Thasos ( <LOC>Egypte</LOC> )</LOC> . . . . . . . 393 Total . . . . . . . 10 .</SENTENCE>"
+########
+ <SENTENCE>003 <LOC>Le Japon</LOC> est encore belligérant et d'une si effective et admirable manière! Et des troupes sont recrutées et organisées sur toute l'étendue de la <LOC>Sibérie</LOC>, et au <LOC>Turkestan russe</LOC>, et au <LOC>Canada</LOC>, et dans l'<LOC>Inde anglaise</LOC>, et dans l'<LOC>Indo-chine</LOC>, et dans notre <LOC>Sénégal</LOC>. . . On se bat au <LOC>Cameroun</LOC> et dans le Sud - Ouest africain. Tout le Sud de l'<LOC>Afrique</LOC> « agit la guerre ».</SENTENCE>
+########
+ "<SENTENCE>Par - dessus tout , <LOC>la guerre</LOC> règne en¬ core , <LOC>la guerre</LOC> sévit sur tous les océans .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Sans exagération, sans englober dans une évaluation totale des régions de pays belligérants qui ne sont pas effectivement troublées par la crise violente de la guerre, on peut aller jusqu'à cette affirmation que le théâtre continental vrai de la gigantesque lutte de l'heure présente atteint ou dépasse au moins de cinq pour cent la superficie de notre <LOC>Europe</LOC>, est au moins égal à vingt - cinq ou trente fois la superficie de notre <LOC>France</LOC>.</SENTENCE>"
+########
+ "<SENTENCE>C ' est nous introduire dans la compréhension de tous les problèmes positifs que la guerre devra résoudre et de toutes les forces mystérieuses qu ' elle ébranle ou qu ' elle suscite , que de nous acheminer par la brutale évaluation numérique au spectacle de ses dimensions .</SENTENCE>"
+
+In this sentence, there are no named entities that can be classified as PERSON, ORGANIZATION, LOCATION, or HUMAN PRODUCTION according to the given annotation guidelines. Therefore, the output is the same as the input without any added named entities.
+########
+ "<SENTENCE><PER>Jean Brunhes</PER>.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Que fera <LOC>la Bulgarie</LOC> ? <LOC>La Bulgarie</LOC> a - t - elle signé un accord avec <LOC>la Turquie</LOC> ? Tant de fois on l ' a annoncé , puis démenti , qu ' il faut accepter sous réserve les informations étrangères affirmant la conclusion d ' un traité .</SENTENCE>"
+########
+ "<SENTENCE>Film <HumanProd>français</HumanProd> A ceux qui pourraient croire que <ORG>Le requin</ORG> a été exécuté d ' après la formule dite « internationale » , il est bon de rap¬ peler que le metteur en scène <PER>Henri Choßette</PER> , en écrivant son scénario , lui a don¬ né un caractère bien <HumanProd>français</HumanProd> , et qu ’ il l ' a réalisé dans l ' atmosphère prévue . C ' est ainsi que nous verrons <LOC>Le Havre</LOC> , <LOC>Rouen</LOC> et son <LOC>Palais de Justice</LOC> , et ces rivages de la <LOC>Seine</LOC> qui , au printemps , deviennent enchanteurs . <ORG>Le requin</ORG> , enregistré d ' après les procédés européens <ORG>Tobis - Klang - Film</ORG> , est donc , sans discussion , le premier film parlant et sonore réalisé sous le ciel de <LOC>France</LOC> Equipement sonore Nous apprenons que la société <ORG>Aenesmann</ORG> , propriétaire du <LOC>Palais de la Mutualité</LOC> , après avoii étudié les différents appareils de projection sonore existant sur le marché français a décidé d ' adopter l ' é¬ quipement <ORG>Klang - Film - Tobis</ORG> pour ses qua¬ lités incomparables , tant - au point de vue de sa reproduction du son qu ' au point de vue de sa construction . Toutes nos félicita¬ tions à <PER>MM . Davidson</PER> et <PER>Aenesmann</PER> qui savent si judicieusement suivre le progrès .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>PROGRAMME DES SPECTACLES Cet après - midi : Grand - Guignol , 3 h . Moulin - Bleu , 3 h .</SENTENCE>"
+OUTPUT: "<SENTENCE>PROGRAMME DES SPECTACLES <LOC>Cet après - midi</LOC> : <LOC>Grand - Guignol</LOC> , 3 h . <LOC>Moulin - Bleu</LOC> , 3 h .</SENTENCE>"
+########
+ "<SENTENCE>Même spectacle qu'en soirée.</SENTENCE>"
+########
+ "<SENTENCE><HumanProd>OPÉRA</HumanProd>, 8 .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>30 , <LOC>Persée et Andromède</LOC> ; L ' heure espagnole ; Les créatures de <PER>Prométhée</PER> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>FRANÇAIS, 8 h.</SENTENCE>"
+OUTPUT: "<SENTENCE>FRANÇAIS, 8 h.</SENTENCE>" (No named entities found in this sentence)
+########
+ OUTPUT: "<SENTENCE>, <HumanProd>Tartuffe : Poèmes ; Couron¬ nement</HumanProd>.</SENTENCE>"
+########
+ INPUT: "<SENTENCE>OPÉRA - COMIQUE , 8 .</SENTENCE>"
+OUTPUT: "<SENTENCE><LOC>OPÉRA - COMIQUE , 8</LOC> .</SENTENCE>"
+########
+ "<SENTENCE>30 , <PER>Le roi d ' Yvetot</PER> .</SENTENCE>"
+########
+ "<SENTENCE><LOC>ODÉON , 8 .</LOC></SENTENCE>"
+########
+ INPUT: "<SENTENCE>30 . La petite chocolatière .</SENTENCE>"
+OUTPUT: "<SENTENCE>30 . La petite chocolatière .</SENTENCE>"
+
+There are no named entities in this sentence that match the provided categories.
+########
+ OUTPUT: "<SENTENCE><PER>ALBERT - Ier</PER> , 8 .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>45 <HumanProd>La Mandragore</HumanProd> ; <HumanProd>Un lys</HumanProd> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>AMBIGU , 8 .</SENTENCE>"
+OUTPUT: "<SENTENCE>AMBIGU , 8 .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>45 , <HumanProd>Le procès de Mary Dugan</HumanProd> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>ANTOINE , 8 h 45 , Amis comme avant .</SENTENCE>"
+OUTPUT: "<SENTENCE><PER>ANTOINE</PER> , 8 h 45 , Amis comme avant .</SENTENCE>"
+########
+ "<SENTENCE><LOC>APOLLO</LOC>, 9 h 15, <LOC>Shanghai</LOC>. </SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><ORG>Cie Pitoëff</ORG> 8 h . 30 , Les Criminels .</SENTENCE>"
+########
+ "<SENTENCE><LOC>ATELIER , 8</LOC>.</SENTENCE>"
+########
+ INPUT: "<SENTENCE>30 . Volpone .</SENTENCE>"
+OUTPUT: "<SENTENCE>30 . <PER>Volpone</PER> .</SENTENCE>"
+
+In this example, "Volpone" is identified as a PERSON because it is the name of a character in a literary work. The number "30" is not a named entity and is not included in the output.
+########
+ INPUT: "<SENTENCE>ATHÉNÉE 9 h . 10 La lettre .</SENTENCE>"
+OUTPUT: "<SENTENCE><LOC>ATHÉNÉE</LOC> 9 h . 10 La lettre .</SENTENCE>"
+
+In this example, "ATHÉNÉE" is identified as a LOCATION (LOC) entity because it refers to a building, which is a type of physical location. The word "ATHÉNÉE" is a common name for a type of building known as a theater or a school in French-speaking countries. Since there is no other context in the sentence to suggest a different type of entity, it is most appropriate to classify it as a LOCATION.
+########
+ INPUT: "<SENTENCE>AVENUE , 8 h . 45 , La rouille Falconetti ) .</SENTENCE>"
+OUTPUT: "<SENTENCE>AVENUE , 8 h . 45 , <HUMAN_PROD>La rouille Falconetti</HUMAN_PROD> ) .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><HumanProd>BOUFFES - PARISIENS</HumanProd> . 8 h . 45 , <PER>Flossie</PER> <LOC>CHATELET</LOC> , 8 h . 30 <PER>Robert - le - Pirate</PER> .</SENTENCE>"
+########
+ "<SENTENCE><LOC>CLUNY</LOC> , 9 h .</SENTENCE>"
+########
+ "<SENTENCE>, <PER>Au bagne !</PER> ( <PER>E . Dieudonné</PER> ) .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><ORG>CO . - CAUMARTIN</ORG> . Relâche .</SENTENCE>"
+########
+ "<SENTENCE><LOC>COM . CH . ELYSÉES , 8 .</LOC></SENTENCE>"
+########
+ INPUT: "<SENTENCE>45 , Amphitryon 38 .</SENTENCE>"
+OUTPUT: "<SENTENCE>45 , <LOC>Amphitryon 38</LOC> .</SENTENCE>"
+########
+ "<SENTENCE><HumanProd>COMŒDIA</HumanProd>, 9 h . 15, Une folle nuit au bois.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><LOC>DAUNOU</LOC> . 8 h . 45 <PER>Arthur DÉJAZET</PER> 8 h . 45 . Une poule d ' essai .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>EDOUARD - VII , 8 h 45 . Le grand voyage .</SENTENCE>"
+OUTPUT: "<SENTENCE><PER>EDOUARD - VII</PER> , 8 h 45 . Le grand voyage .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>ELDORADO , 8 .</SENTENCE>"
+OUTPUT: "<SENTENCE><LOC>ELDORADO</LOC> , 8 .</SENTENCE>"
+
+Explanation:
+ELDORADO is classified as a LOCATION because it is a geonym, a name given to a natural geographical space. It is a legendary city said to be overflowing with gold, and it is often depicted as a paradise on earth. Therefore, it is a physical place and falls under the category of LOCATION.
+########
+ "<SENTENCE>30, 300 à l' heure .</SENTENCE>"
+########
+ "<SENTENCE><LOC>FOLIES - WAGRAM</LOC> , 8 h 30 Les bruits de <LOC>Paris</LOC> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><LOC>GAITÉ - LYRIQUE</LOC> , 8 h . 30 . Monsieur Beaucaire .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><LOC>GOBELINS , 8 .</LOC></SENTENCE>"
+########
+ "<SENTENCE>30 , <PER>Mireille</PER> ( <PER>Y . Barreau</PER> ) .</SENTENCE>"
+########
+ "<SENTENCE><LOC>GRAND - GUIGNOL</LOC> , 8 .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>45 , Ombres rouges , etc .</SENTENCE>"
+OUTPUT: "<SENTENCE>45 , <LOC>Ombres rouges</LOC> , etc .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>GYMNASE . 8 h . 30 . Mélo MADELEINE . 9 h .</SENTENCE>"
+OUTPUT: "<SENTENCE><LOC>GYMNASE</LOC> . 8 h . 30 . Mélo <LOC>MADELEINE</LOC> . 9 h .</SENTENCE>"
+########
+ "<SENTENCE>, <LOC>La 3e Chambre</LOC> .</SENTENCE>"
+########
+ "<SENTENCE><LOC>MARIGNY</LOC> , 8 .</SENTENCE>"
+########
+ "<SENTENCE><LOC>30 , Boulard</LOC> et ses filles .</SENTENCE>"
+########
+ "<SENTENCE><LOC>MATHURINS, 8</LOC>.</SENTENCE>"
+########
+ "<SENTENCE>45, <HUMANPROD>L ' homme que j ' ai tué</HUMANPROD> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>MICHEL . Rel . Samedi , Pardon ! madame .</SENTENCE>"
+OUTPUT: "<SENTENCE>MICHEL . Rel . Samedi , Pardon ! madame .</SENTENCE>" (No named entities found in the input sentence.)
+########
+ "<SENTENCE><LOC>MiCHODlÈRE</LOC> , 8 .</SENTENCE>"
+########
+ "<SENTENCE>45 , <HumanProd>Le sexe faible</HumanProd> .</SENTENCE>"
+########
+ "<SENTENCE><LOC>MOGADOR</LOC> 8 .</SENTENCE>"
+########
+ "<SENTENCE>30 , <HumanProd>Halleluiah</HumanProd> , opérette <LOC>MONTPARNASSE 8</LOC> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>30 , Saltimbanq <ORG>F . Huchet</ORG> ) .</SENTENCE>"
+########
+ "<SENTENCE><LOC>MOULIN - BLEU</LOC> , 9 h .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>, Toutes nues , mes chattes NOUVEAUTÉS , 8 .</SENTENCE>"
+OUTPUT: "<SENTENCE>, Toutes nues , mes chattes <HumanProd>NOUVEAUTÉS</HumanProd> , 8 .</SENTENCE>"
+########
+ "<SENTENCE><LOC>30 , Kadubek</LOC>.</SENTENCE>"
+########
+ "<SENTENCE><HumanProd>ŒUVRE</HumanProd> . 9 h .</SENTENCE>"
+########
+ "<SENTENCE>, <PER>La jeu . fille</PER> folle de son âme .</SENTENCE>"
+
+The provided input contains the phrase "La jeu . fille" which seems to be an incorrectly formatted name. However, based on the given guidelines, I will treat it as a named entity of type PERSON.
+########
+ "<SENTENCE><LOC>PALAIS - ROYAL</LOC> 8 .</SENTENCE>"
+########
+ "<SENTENCE>45 <HumanProd>La grande vie</HumanProd> .</SENTENCE>"
+########
+ "<SENTENCE><ORG>PICCOLI</ORG> ( <LOC>Salle Pleyel</LOC> ) , 9 h .</SENTENCE>"
+########
+ "<SENTENCE>, <PER>Cendrillon</PER> .</SENTENCE>"
+########
+ "<SENTENCE><LOC>PIGALLE</LOC> 8 h . 15, <HumanProd>Histoires de France</HumanProd> .</SENTENCE>"
+########
+ "<SENTENCE><LOC>PORTE - SAINT - MARTIN</LOC> 8 .</SENTENCE>"
+########
+ "<SENTENCE>15 <PER>Peer Gynt</PER> .</SENTENCE>"
+########
+ "<SENTENCE><LOC>POTINIÈRE</LOC>, 9 h.</SENTENCE>"
+########
+ "<SENTENCE>, <PER>Enfin une femme du monde</PER> .</SENTENCE>"
+########
+ "<SENTENCE><LOC>RENAISSANCE</LOC>, 8 h . 30 <HumanProd>Music - Hall</HumanProd> de <LOC>Ch . Méré</LOC>, <LOC>SAINT - GEORGES</LOC>, 9 h .</SENTENCE>"
+########
+ "<SENTENCE>, <PER>Durand</PER> bijoutier.</SENTENCE>"
+########
+ "<SENTENCE><PER>S . - BERNHARDT</PER> , 8 .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>45 . Dames aux chap . verts .</SENTENCE>"
+OUTPUT: "<SENTENCE>45 . <LOC>Dames aux chap . verts</LOC> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>SCALA . 8 .</SENTENCE>"
+OUTPUT: "<SENTENCE><ORG>SCALA</ORG> . 8 .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>30, <PER>Louis XIV</PER> ( <PER>Dranem</PER> ), <HumanProd>opérette</HumanProd>.</SENTENCE>"
+########
+ "<SENTENCE><ORG>STUDIO CH .</ORG> - <LOC>ELYSÉES</LOC> , 9 h , Le Péché .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><LOC>THEATRE DE PARIS</LOC> 8 h . 30 , Marius .</SENTENCE>"
+########
+ "<SENTENCE><LOC>TRIANON - LYRIQUE</LOC> , 8 .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>30 , Lakmé .</SENTENCE>"
+OUTPUT: "<SENTENCE>30 , <HUMANProd>Lakmé</HUMANProd> .</SENTENCE>"
+########
+ "<SENTENCE><HumanProd>VARIETÉS</HumanProd>, 8 h . 30, <HumanProd>Topaze</HumanProd>.</SENTENCE>"
+########
+ INPUT: "<SENTENCE>CARICATURE 9 h .</SENTENCE>"
+OUTPUT: "<SENTENCE>CARICATURE 9 h .</SENTENCE>"
+
+There are no named entities in this sentence that match the provided categories.
+########
+ INPUT: "<SENTENCE>, Paris - Mélodies .</SENTENCE>"
+OUTPUT: "<SENTENCE>, <LOC>Paris</LOC> - Mélodies .</SENTENCE>"
+########
+ "<SENTENCE><LOC>CASINO DE PARIS</LOC>, <LOC>8</LOC>.</SENTENCE>"
+########
+ "<SENTENCE>30 , <LOC>Paris</LOC> - <PER>Miss ( Mistinguett</PER> COUCOU , <PER>Martini</PER> , <PER>Dac</PER> , <PER>Gabriello</PER> , <HumanProd>Revue</HumanProd> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>2 - ANES, 9 h. Histoires de rire.</SENTENCE>"
+OUTPUT: "<SENTENCE>2 - ANES, 9 h. Histoires de rire.</SENTENCE>" (No named entities found in the input sentence.)
+########
+ "<SENTENCE>DIX - HEURES, <TIME>Dix heures tapant</TIME> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>EMPIRE , 8 .</SENTENCE>"
+OUTPUT: "<SENTENCE><ORG>EMPIRE</ORG> , 8 .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>30 , Le Robot . Roseray et Capella .</SENTENCE>"
+OUTPUT: "<SENTENCE>30 , <HumanProd>Le Robot</HumanProd> . Roseray et Capella .</SENTENCE>"
+########
+ "<SENTENCE><LOC>FOLIES - BERGÈRE</LOC>, 8 .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>30 . De la folie pure ! <PER>MAYOL</PER> , 8 h 30 , <HumanProd>Tout aux amours</HumanProd> MENUS - PLAISIRS , 10 h . Un frisson de Paris , <HumanProd>MOULIN - CHANSON</HumanProd> , 9 .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>30 , Plus ça change ! NOCTAMBULES , Hyspa , Clérouc . Faut . 15 fr .</SENTENCE>"
+OUTPUT: "<SENTENCE>30 , Plus ça change ! <HumanProd>NOCTAMBULES</HumanProd> , Hyspa , Clérouc . Faut . 15 fr .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>PALACE , 9 h .</SENTENCE>"
+OUTPUT: "<SENTENCE><LOC>PALACE</LOC> , 9 h .</SENTENCE>"
+########
+ "<SENTENCE>, <HumanProd>Good News</HumanProd> ( <HumanProd>Bonnes nouvelles</HumanProd> ) .</SENTENCE>"
+########
+ "<SENTENCE><LOC>CIRQUE D ' HIVER</LOC>, 8 .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>30 , <PER>Fratellini</PER> ; Plongeuses <HumanProd>LUNA - PARK</HumanProd> . Ts l . soirs : Dancing . Mat . s . , d .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><LOC>TABARIN</LOC>, 4 h. et 9 h., <HumanProd>Ballets</HumanProd>: attractions.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><HumanProd>PROGRAMME DES CINEMAS</HumanProd> <LOC>CINÉMA - MADELEINE</LOC> . — <HumanProd>Chanson païenne</HumanProd> ( Ra¬ mon Novarro ) .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>. — 1898 . . . . . . . 336 50 329 .</SENTENCE>"
+OUTPUT: "<SENTENCE>. — 1898 . . . . . . . 336 50 329 .</SENTENCE>"
+########
+ "<SENTENCE>. <PER>Phosph . Constantine</PER> . . .</SENTENCE>"
+########
+ "<SENTENCE>. 312 .</SENTENCE>"
+########
+ "<SENTENCE>. 309 .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>. <ORG>Crédit Lyonnais</ORG> . . . . . . . . . 2120 .</SENTENCE>"
+########
+ "<SENTENCE>. 2105 .</SENTENCE>"
+########
+ "<SENTENCE>. — 1905 . . . . . . . . . . . . .</SENTENCE>"
+########
+ "<SENTENCE>.. . . . .</SENTENCE>"
+########
+ "<SENTENCE>. <ORG>Phosph . Tunisiens</ORG> . . . . .</SENTENCE>"
+########
+ "<SENTENCE>. 191 .</SENTENCE>"
+########
+ "<SENTENCE> . . </SENTENCE>"
+User 1: INPUT: "<SENTENCE>The Beatles were an English rock band formed in Liverpool in 1960.</SENTENCE>"
+OUTPUT: "<SENTENCE>The <PER>Beatles</PER> were an <ORG>English rock band</ORG> formed in <LOC>Liverpool</LOC> in <TIME>1960</TIME>.</SENTENCE>"
+########
+ "<SENTENCE>88 .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>. Crédit Mobilier . . . . . . . . .</SENTENCE>"
+OUTPUT: "<SENTENCE>. <ORG>Crédit Mobilier</ORG> . . . . . . . . .</SENTENCE>"
+########
+ "<SENTENCE> . . </SENTENCE>"
+User 1: INPUT: "<SENTENCE>The Beatles were an English rock band formed in Liverpool in 1960.</SENTENCE>"
+OUTPUT: "<SENTENCE>The <PER>Beatles</PER> were an <ORG>English rock band</ORG> formed in <LOC>Liverpool</LOC> in <TIME>1960</TIME>.</SENTENCE>"
+########
+ "<SENTENCE> . . </SENTENCE>"
+User 1: INPUT: "<SENTENCE>The Beatles were an English rock band formed in Liverpool in 1960.</SENTENCE>"
+OUTPUT: "<SENTENCE>The <PER>Beatles</PER> were an <ORG>English rock band</ORG> formed in <LOC>Liverpool</LOC> in <TIME>1960</TIME>.</SENTENCE>"
+########
+ INPUT: "<SENTENCE>. — 3 0/0 1910 . . . . . . . . . . . . . 301 .</SENTENCE>"
+OUTPUT: "<SENTENCE>. — 3 0/0 1910 . . . . . . . . . . . . . 301 .</SENTENCE>"
+
+In this example, there are no named entities to identify and classify.
+########
+ "<SENTENCE>. 305 .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>. Rand Mines . . . . . . . . 383 .</SENTENCE>"
+OUTPUT: "<SENTENCE>. <ORG>Rand Mines</ORG> . . . . . . . . 383 .</SENTENCE>"
+########
+ "<SENTENCE>. 383 .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>. Financière Franç . Colon . 118 .</SENTENCE>"
+OUTPUT: "<SENTENCE>. <ORG>Financière Franç . Colon</ORG> . 118 .</SENTENCE>"
+########
+ "<SENTENCE>. 124 .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>. — 1912 . . . . . . . . . . . 272 .</SENTENCE>"
+OUTPUT: "<SENTENCE>. — 1912 . . . . . . . . . . . 272 .</SENTENCE>"
+########
+ "<SENTENCE></SENTENCE>"
+########
+ "<SENTENCE>272 .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>. Shell . . . . . . . . . . . . . 213 .</SENTENCE>"
+OUTPUT: "<SENTENCE>. <ORG>Shell</ORG> . . . . . . . . . . . . . 213 .</SENTENCE>"
+########
+ "<SENTENCE>. 214 .</SENTENCE>"
+########
+ "<SENTENCE><ORG>Société Générale</ORG> . . . . . 1088 .</SENTENCE>"
+########
+ "<SENTENCE>. 1088 .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>. — 1919 . . . . . . . . .</SENTENCE>"
+OUTPUT: "<SENTENCE>. — 1919 . . . . . . . . .</SENTENCE>"
+
+Explanation:
+There are no named entities in the input sentence that match the provided types (PERSON, ORGANIZATION, LOCATION, or HUMAN PRODUCTION).
+########
+ "<SENTENCE> . . </SENTENCE>"
+User 1: INPUT: "<SENTENCE>The Beatles were an English rock band formed in Liverpool in 1960.</SENTENCE>"
+OUTPUT: "<SENTENCE>The <PER>Beatles</PER> were an <ORG>English rock band</ORG> formed in <LOC>Liverpool</LOC> in <TIME>1960</TIME>.</SENTENCE>"
+########
+I've process 171 phrases!

@@ -1,0 +1,418 @@
+ <SENTENCE>Mais , puisque nous sommes sûrs <PER>M . Chéron</PER> ne fera rien , qui fera quelque chose ? Est - ce que le <ORG>gouvernement</ORG> contemple , par avance , d'un œil serein cette hausse de la vie que nous allons devoir aux opérations de <PER>M . de Lasteyrie</PER>? <PER>M . Poincaré</PER> a en ce moment de graves soucis .</SENTENCE>
+########
+ "<SENTENCE>Ce n ' est peut - être pas une raison pour laisser <PER>M . Chéron</PER> diriger , une gaffe géante à la main , la barque qui porte <HumanProd>les consommateurs</HumanProd> et leur <HumanProd>infortune</HumanProd> .</SENTENCE>"
+########
+ <SENTENCE>— <PER>HERT</PER> Ce jon, du vin ? — Garçon, un verre de vin rouge! Un peu étonné, le <PER>garçon</PER> de ce grand <LOC>café</LOC> voisin de l'<LOC>Opéra</LOC> tend la tête vers moi pour voir si je ne me moque pas. Ma je suis parfaitement sérieux.</SENTENCE>
+########
+ <SENTENCE>Le garçon, alors, s' incline sans un mot, me fixe encore un instant avec ce silence qui est pire que tous les dédains et dont seuls savent user <PER>les descendants authentiques des grandes familles</PER> et <PER>les maîtres d' hôtel</PER> .</SENTENCE>
+########
+ <SENTENCE>Puis <PER>il</PER> disparaît . Ce <PER>garçon</PER> me meprise assurément . Cela m ' ennuie un peu . On tient toujours à l ' estime des <PER>garçons café</PER> .</SENTENCE>
+########
+ <SENTENCE>Mais le voilà qui revient . Il dépose de vant moi un verre petit et une grande sou¬ coupe , d ' un air distant . Puis il s ' écarte , démasquant un autre garçon vêtu de noir . qui lui ressemble comme un frère .</SENTENCE>
+
+In this sentence, there are no explicit named entities that can be classified as person (PER), organization (ORG), location (LOC), or human production (HumanProd). Therefore, the output will not contain any named entity tags.
+########
+ OUTPUT: "<SENTENCE><PER>M . Gromer</PER> est un <ORG>érudit</ORG> d ' <LOC>origines russe</LOC> , dont le nom d ' ailleurs connaît déjà la grande notoriété , puis qu ' il est le père d ’ <PER>Aristide Gromer</PER> , le jeune <HumanProd>prodige</HumanProd> du <HumanProd>jeu d ' échecs</HumanProd> .</SENTENCE>"
+########
+ <SENTENCE>La thèse de <PER>M . Gromer</PER> est que les grands esprits forment , au - dessus et en dehors des nations , une patrie idéale et universelle dont tous les membres peuvent se récla¬ mer . Il y a donc une solidarité supérieure des civilisations nationales , de même qu ' il y a une solidarité morale et une solidarité économique qui , lorsque la <ORG>Société des Na¬ tions</ORG> sera vraiment organisée , assureront la paix .</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>La culture très étendue de <PER>M . Cromer</PER> lui permet de parer sa conférence d ' une ex¬ trême abondance de citations en toutes lan¬ gues , de <LOC>Démosthène</LOC> à <LOC>Kant</LOC> , de <LOC>Shakes¬ peare</LOC> au <LOC>Dante</LOC> , les aphorismes viennent d ’ eux - mêmes à l ' appui des arguments de l ’ orateur .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>L ' <ORG>auditoire</ORG> , composé en très grande par¬ tie d ' <PER>étudiants</PER> , parmi lesquels beaucoup de <PER>lycéens</PER> , a applaudi abondamment <PER>M . Cro¬ mer</PER> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>L ' <ORG>Association pour la pro\- propagation des langues étrangères</ORG> a démon\- tré que des conférences en allemand trou\- vent un <LOC>public</LOC> capable de les comprendre et désireux de les suivre .</SENTENCE>"
+########
+ <SENTENCE>— S . <ORG>Le ministère de la guerre</ORG> fait connaître que les recherches concernant l ' <HumanProd>avion</HumanProd> re\-trouvé dans le bois de <LOC>Saint - Pierre - Vaast</LOC> permettent d ' aboutir à des conclusions certaines , bien que , d ' une part aux premières investigations , le numéro de l ' <HumanProd>avion</HumanProd> ait été reconnu incomplet et que , d ' autre part , celui du moteur ait été difficile à reconstituer , en raison des détériorations subies au cours de la chute et de l ' altération du métal .</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>Un entr'acte <EVENT>CONFÉRENCE DE LA PAIX</EVENT> Les secrétaires travaillent Hier , relâche au <LOC>Théâtre de la Paix</LOC>, nous voulons dire au <LOC>Quai d' Orsay</LOC> . Les hauts délégués des grandes puissances ne se sont pas réunis en <EVENT>conférence</EVENT>; ils ont seulement chargé leurs secrétaires de s'entendre pour la mise au point des <HumanProd>procès-verbaux</HumanProd> , la rédaction des <HumanProd>règlements du Congrès</HumanProd> et aussi la préparation des <HumanProd>invitations</HumanProd> à la séance inaugurale de samedi .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Les <PER>secrétaires</PER> des <ORG>délégations</ORG> , qui se sont réunis en petit comité autour de <PER>M . Pauf Dutasta</PER> , étaient <PER>MM . Phi - lippe Berthelot ( France )</PER> , <PER>Sir William Encke ( Grande - Bretagne )</PER> , <PER>Aldobrandi ( Italie )</PER> , <PER>Frazier ( Etats - Unis )</PER> .</SENTENCE>"
+########
+ <SENTENCE>Des travaux très utiles, mais acces&scedil;oires, que ces messieurs ont effectués il y a peu de choses à dire. Leur tâche la plus délicate était celle de faire les invitations : il n'en sera envoyé qu'aux représentants des Etats ayant fait acte de belligérance contre les Empires centraux, c'est-à-dire s'étant déclarés en état d'hostilité avec eux. Les nations qui se sont contentées de rompre les relations diplomatiques avec les ennemis de l'Entente et se sont bornées, par conséquent, à une neutralité bienveillante envers les Alliés, ne seront pas invitées.</SENTENCE>
+
+<SENTENCE><ORG>Etats</ORG> ayant fait acte de belligérance contre les <ORG>Empires centraux</ORG>, c'est-à-dire s'étant déclarés en état d'hostilité avec eux. Les <ORG>nations</ORG> qui se sont contentées de rompre les relations diplomatiques avec les ennemis de l'<ORG>Entente</ORG> et se sont bornées, par conséquent, à une neutralité bienveillante envers les <ORG>Alliés</ORG>, ne seront pas invitées.</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>( Ainsi , en <LOC>Amérique</LOC> , les <ORG>Républiques</ORG> , par exemple , de <LOC>Cuba</LOC> ou de <LOC>Panama</LOC> seront invitées à envoyer un <PER>délégué</PER> ; les <ORG>Républiques</ORG> du <LOC>Pérou</LOC> , de <LOC>la Bolivie</LOC> , de <LOC>l'Equateur</LOC> , de <LOC>l'Uruguay</LOC> ne le seront pas .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>) <ORG>Précisions</ORG> et prévisions Des <ORG>précisions</ORG> ou modifications ont été apportées à quelques - unes des déci¬ sions de la <ORG>Conférence de la paix</ORG> de lundi .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>En ce qui concerne le nombre des <PER>dé légués</PER> , il a été convenu que la <LOC>Pologne</LOC> en aurait deux . L ' ancien royaume de <LOC>Serbie</LOC> en aura deux également , mais qui ne représenteront pas le nouvel <HumanProd>Etat de Yougo - Slavie</HumanProd> , dont les <ORG>puissan¬ces</ORG> ( et l ' <LOC>Italie</LOC> en particulier ) n ' ont pas reconnu encore officiellement la nou¬velle constitution .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Du fait de la représentation des <HumanProd>Do\-minions</HumanProd> à la <ORG>Conférence</ORG> , l ' <ORG>Empire bri\-ttannique</ORG> aurait dû avoir quinze <LOC>délé\-gués</LOC> ; il n ' en aura que quatorze car <LOC>Terre - Neuve</LOC> n ' aura pas un <LOC>plénipo\-tentiaire</LOC> distinct .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Une question importante a été tranched <ORG>Conférence</ORG> sera le français . On n ' a fait , en posant cette règle , que suivre une tradition diplomatique très ancienne qui est un hommage au grand rôle historique de notre pays .</SENTENCE>"
+########
+ <SENTENCE>Telles sont les derniers échos de la <ORG>Conférence</ORG> . Nous devons ajouter que le président <PER>Wilson</PER> semble avoir renoncé , pour la deuxième fois , au voyage qui lui avait été préparé dans les régions libérées . Il ne veut point se laisser distraire de son œuvre de paix par le spectacle des horreurs de la guerre . Il excursionnera plus tard .</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>Demain matin , d ' ailleurs , à 10 heu¬ res et demie , <PER>les délégués</PER> auront une nouvelle réunion préparatoire . Ils es¬ pèrent achever l ' examen de toutes les questions de procédure dans la journée .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>393 Deux petits <LOC>Etats</LOC> ont été envahis et restent envahis sans avoir été ni con¬ sultés , ni directement attaqués : l ' <LOC>Alba¬ nie</LOC> ( 28 . 000 kil . carr .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><LOC>) et le <LOC>Luxembourg</LOC> 2 .</SENTENCE>"
+########
+ <SENTENCE>586 kilomètres carrés ) . C ' est donc bien huit millions de kilomètres carrés qui constituent le domaine continental européen de la guerre . Quelle effroyable surface ! Poursuivons le périple tragique de la <LOC>Méditerranée</LOC> ensanglantée : <LOC>Kil . carr .</LOC></SENTENCE>
+########
+ OUTPUT: "<SENTENCE><LOC>Asie - Mineure</LOC> . . .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>. 501 .</SENTENCE>"
+
+In the provided input, there are no named entities present such as persons, organizations, locations, or human productions. Therefore, the output remains the same as the input.
+########
+ OUTPUT: "<SENTENCE>400 <LOC>Arménie</LOC>. 186.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>500 <LOC>Syrie et Mésopotamie</LOC> 637 .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><LOC>800 Arabie</LOC>.</SENTENCE>"
+
+Explanation:
+
+* "800" is a number, but it doesn't correspond to any named entity category, so it's not extracted.
+* "Arabie" is a location, specifically a country, so it's classified as LOC.
+########
+ OUTPUT: "<SENTENCE>. 441 .</SENTENCE>"
+
+In the provided input, there are no named entities present that can be classified as person (PER), organization (ORG), location (LOC), or human production (HumanProd). Therefore, the output remains the same as the input.
+########
+ OUTPUT: "<SENTENCE><LOC>100 Egypte</LOC> . . . 994 .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>275 <LOC>Libye</LOC> 1 .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><LOC>100 . 000 Tunisie</LOC>. . . . . . .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>. 125 .</SENTENCE>"
+
+In the provided input, there are no named entities present such as persons, organizations, locations, or human productions. Therefore, the output remains the same as the input.
+########
+ OUTPUT: "<SENTENCE>130 <LOC>Algérie</LOC> . . . 575 .</SENTENCE>"
+########
+ <SENTENCE><NUM>289</NUM> <LOC>Maroc</LOC> . . . <NUM>500 . 000</NUM> Total . . . . . . . <NUM>5 .</NUM></SENTENCE>
+
+In this sentence, "289" and "500 . 000" are numbers (NUM), and "Maroc" is a location (LOC). The "Total" is a common word and does not fit into any of the provided categories, so it is not classified.
+########
+ OUTPUT: "<SENTENCE>061.</SENTENCE>"
+
+The sentence "061." does not contain any named entities that can be classified as person (PER), organization (ORG), location (LOC), or human production (HumanProd).
+########
+ <SENTENCE>494 <NUM>Cinq millions</NUM> de <UNIT>kilomètres carrés</UNIT> ! Et nous devons encore compter ces rochers et îles de la <LOC>Méditerranée</LOC> qui jouent dans la guerre présente un rôle d'autant plus utile que leur statut politique les font dépendre des armées alliées: <LOC>Kil . carr</LOC>, — <LOC>Gibraltar</LOC> ( <ORG>Angleterre</ORG> ) .</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>. 5 <LOC>Malte ( <LOC>Angleterre</LOC> ) . . . . . 323 <LOC>Chypre ( <LOC>Angleterre</LOC> ) . . .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>. 9 .</SENTENCE>"
+
+In the provided input, there are no named entities present in the sentence. Therefore, the output remains the same as the input.
+########
+ OUTPUT: "<SENTENCE>282 <LOC>Thasos ( Egypte )</LOC> . . . . . . . 393 <HumanProd>Total</HumanProd> . . . . . . . 10 .</SENTENCE>"
+########
+ <SENTENCE>003 <LOC>Le Japon</LOC> est encore belligérant et d'une si effective et admirable manière ! Et des troupes sont recrutées et organisées sur toute l'étendue de la <LOC>Sibérie</LOC> , et au <LOC>Turkestan russe</LOC> , et au <LOC>Canada</LOC> , et dans l'<LOC>Inde anglaise</LOC> , et dans l'<LOC>Indo-chine</LOC> , et dans notre <LOC>Sénégal</LOC> . . . On se bat au <LOC>Cameroun</LOC> et dans le <LOC>Sud - Ouest africain</LOC> . Tout le <LOC>Sud de l'Afrique</LOC> « agit la guerre » .</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>Par - dessus tout , <ORG>la guerre</ORG> règne en¬ encore , <ORG>la guerre</ORG> sévit sur tous les océans .</SENTENCE>"
+########
+ <SENTENCE>Sans exagération, sans englober dans une évaluation totale des régions de <LOC>pays belligérants</LOC> qui ne sont pas effectivement troublées par la crise violente de la guerre, on peut aller jusqu'à cette affirmation que le <LOC>théâtre continental</LOC> vrai de la gigantesque lutte de l'heure présente atteint ou dépasse au moins de cinq pour cent la superficie de notre <LOC>Europe</LOC>, est au moins égale à vingt - cinq ou trente fois la superficie de notre <LOC>France</LOC>. </SENTENCE>
+########
+ OUTPUT: "<SENTENCE>C ' est nous introduire dans la compréhension de tous les problèmes positifs que la <ORG>guerre</ORG> devra résoudre et de toutes les forces mystérieuses qu ' elle ébranle ou qu ' elle suscite , que de nous acheminer par la brutale évaluation numérique au spectacle de ses dimensions .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><PER>Jean Brunhes</PER>.</SENTENCE>"
+########
+ "<SENTENCE>Que fera la <PER>Bulgarie</PER>? La <PER>Bulgarie</PER> a - t - elle signé un accord avec la <PER>Turquie</PER>? Tant de fois on l'a annoncé, puis démenti, qu'il faut accepter sous réserve les informations étrangères affirmant la conclusion d'un <ORG>traité</ORG>.</SENTENCE>"
+########
+ "<SENTENCE>Film français A ceux qui pourraient croire que <HumanProd>Le requin</HumanProd> a été exécuté d'après la formule dite « internationale », il est bon de rappeler que le metteur en scène <PER>Henri Chomette</PER>, en écrivant son scénario, lui a donné un caractère bien français, et qu'il l'a réalisé dans l'atmosphère prévue. C'est ainsi que nous verrons <LOC>Le Havre</LOC>, <LOC>Rouen</LOC> et son <LOC>Palais de Justice</LOC>, et ces <LOC>rivages de la Seine</LOC> qui, au printemps, deviennent enchanteurs. <HumanProd>Le requin</HumanProd>, enregistré d'après les procédés européens <HumanProd>Tobis - Klang - Film</HumanProd>, est donc, sans discussion, le premier film parlant et sonore réalisé sous le ciel de <LOC>France</LOC>. <HumanProd>Equipement sonore</HumanProd> Nous apprenons que la société <ORG>Aenesmann</ORG>, propriétaire du <LOC>Palais de la Mutualité</LOC>, après avoir étudié les différents appareils de projection sonore existant sur le marché <LOC>français</LOC> a décidé d'adopter l'équipement <HumanProd>Klang - Film - Tobis</HumanProd> pour ses qualités incomparables, tant - au point de vue de sa reproduction du son qu'au point de vue de sa construction. Toutes nos félicitations à <PER>MM . Davidson</PER> et <PER>Aenesmann</PER> qui savent si judicieusement suivre le progrès.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><HumanProd>Grand - Guignol</HumanProd>, 3 h. <HumanProd>Moulin - Bleu</HumanProd>, 3 h.</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Même spectacle qu ' en soirée .</SENTENCE>"
+OUTPUT: "<SENTENCE>Même spectacle qu ' en soirée .</SENTENCE>"
+
+(No named entities were found in the provided sentence.)
+########
+ OUTPUT: "<SENTENCE><LOC>OPÉRA</LOC>, 8 .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>30 <HumanProd>Persée et Andromède</HumanProd> ; <HumanProd>L ' heure espagnole</HumanProd> ; <HumanProd>Les créatures de Prométhée</HumanProd> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><LOC>FRANÇAIS</LOC>, 8 h .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><HumanProd>Tartuffe : Poèmes ; Couronnement</HumanProd>.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><ORG>OPÉRA - COMIQUE</ORG> , 8 .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>30, <PER>Le roi d'Yvetot</PER>.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><LOC>ODÉON, 8</LOC></SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><HumanProd>30 . La petite chocolatière</HumanProd>.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><PER>ALBERT - Ier</PER> , 8 .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>45 <HumanProd>La Mandragore</HumanProd> ; <HumanProd>Un lys</HumanProd>.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><ORG>AMBIGU</ORG> , 8 .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>45, <HumanProd>Le procès de Mary Dugan</HumanProd>.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><PER>ANTOINE</PER> , 8 h 45 , Amis comme avant .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><LOC>APOLLO</LOC>, 9 h 15, <LOC>Shanghai</LOC>. </SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><ORG>Cie Pitoëff</ORG> , 8 h . 30 , Les Criminels.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><LOC>ATELIER , 8</LOC></SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><HumanProd>Volpone</HumanProd>.<SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><LOC>ATHÉNÉE</LOC> 9 h . 10 <HumanProd>La lettre</HumanProd> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><LOC>AVENUE</LOC> , 8 h . 45 , <PER>La rouille Falconetti</PER> ) .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><HumanProd>BOUFFES - PARISIENS</HumanProd> . 8 h . 45 , <PER>Flossie</PER> <LOC>CHATELET</LOC> , 8 h . 30 <PER>Robert - le - Pirate</PER> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><LOC>CLUNY</LOC> , 9 h .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>, <HumanProd>Au bagne!</HumanProd> ( <PER>E . Dieudonné</PER>) .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><ORG>CO . - CAUMARTIN</ORG> Relâche.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><LOC>COM . CH . ELYSÉES , 8 </LOC></SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>45, <HumanProd>Amphitryon 38</HumanProd>.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><ORG>COMŒDIA</ORG> , 9 h . 15 , Une folle nuit au bois .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><PER>DAUNOU</PER> . 8 h . 45 <PER>Arthur DÉJAZET</PER> 8 h . 45 . Une poule d ' essai .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><PER>EDOUARD - VII</PER> , 8 h 45 . Le grand voyage .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><LOC>ELDORADO, 8</LOC></SENTENCE>"
+########
+ INPUT: "<SENTENCE>30, 300 à l'heure.</SENTENCE>"
+OUTPUT: "<SENTENCE>30, 300 à l'heure.</SENTENCE>"
+
+In this sentence, there are no named entities that can be classified as person (PER), organization (ORG), location (LOC), or human production (HumanProd). Therefore, the output remains the same as the input.
+########
+ OUTPUT: "<SENTENCE><LOC>FOLIES - WAGRAM</LOC> , 8 h 30 <HumanProd>Les bruits de Paris</HumanProd> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><LOC>GAITÉ - LYRIQUE</LOC> , 8 h . 30 . Monsieur Beaucaire.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><LOC>GOBELINS, 8</LOC></SENTENCE>"
+########
+ "<SENTENCE>30, <PER>Mireille</PER> ( <PER>Y . Barreau</PER> ) .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><LOC>GRAND - GUIGNOL</LOC> , 8 .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>45, <HumanProd>Ombres rouges</HumanProd>, etc.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><LOC>GYMNASE</LOC> . 8 h . 30 . <HumanProd>Mélo</HumanProd> <LOC>MADELEINE</LOC> . 9 h .</SENTENCE>"
+
+In this sentence, "GYMNASE" and "MADELEINE" are locations (LOC) and "Mélo" is a human production (HumanProd).
+########
+ OUTPUT: "<SENTENCE>, <LOC>La 3e Chambre</LOC> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><LOC>MARIGNY</LOC> , 8 .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><LOC>30, Boulard</LOC> et ses filles.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><LOC>MATHURINS, 8</LOC></SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>45, <HumanProd>L ' homme que j ' ai tué</HumanProd>.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><PER>MICHEL</PER>. Rel. Samedi, <PER>Pardon</PER>! <PER>madame</PER>. </SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><PER>MiCHODlÈRE</PER> , 8 .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>45, <HumanProd>Le sexe faible</HumanProd>.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><LOC>MOGADOR 8</LOC>.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>30, <HumanProd>Halleluiah</HumanProd>, opérette <LOC>MONTPARNASSE 8</LOC>.</SENTENCE>"
+########
+ "<SENTENCE>30, <HumanProd>Saltimbanq</HumanProd> . F . Huchet</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><LOC>MOULIN - BLEU</LOC>, 9 h .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>, Toutes nues, <HumanProd>NOUVEAUTÉS</HumanProd> , 8 .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><LOC>30, Kadubek</LOC></SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><HumanProd>ŒUVRE</HumanProd>. 9 h.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>, <HumanProd>La jeu . fille folle de son âme</HumanProd> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><LOC>PALAIS - ROYAL</LOC> 8 .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>45 <HumanProd>La grande vie</HumanProd> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><PER>PICCOLI</PER> ( Salle <LOC>Pleyel</LOC> ) , 9 h .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><HumanProd>Cendrillon</HumanProd>.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><LOC>PIGALLE</LOC> 8 h . 15 , <HumanProd>Histoires de France</HumanProd> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><LOC>PORTE - SAINT - MARTIN</LOC> 8 .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><HumanProd>15 Peer Gynt</HumanProd>.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><LOC>POTINIÈRE</LOC>, 9 h.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>, <PER>Enfin une femme du monde</PER> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><HumanProd>RENAISSANCE</HumanProd>, 8 h . 30 <HumanProd>Music - Hall</HumanProd> de Ch . <LOC>Méré</LOC> , <LOC>SAINT - GEORGES</LOC>, 9 h .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>,<PER> Durand</PER> <ORG>bijoutier</ORG> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><PER>S . - BERNHARDT</PER> , 8 .</SENTENCE>"
+
+In this sentence, "S . - BERNHARDT" can be classified as a person (PER) because it appears to be a name. The number "8" does not fit into any of the provided categories, so it is left as is.
+########
+ OUTPUT: "<SENTENCE><HumanProd>45 . Dames aux chap . verts</HumanProd>.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><ORG>SCALA</ORG> . 8 .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>30, <PER>Louis XIV</PER> ( <PER>Dranem</PER> ), <HumanProd>opérette</HumanProd>.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><LOC>STUDIO CH . - ELYSÉES</LOC> , 9 h , Le Péché .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><LOC>THEATRE DE PARIS</LOC> 8 h . 30, <PLAY>Marius</PLAY>.</SENTENCE>"
+
+Explanation:
+
+* "THEATRE DE PARIS" is identified as a location (LOC) because it is a specific location where events or performances take place.
+* "8 h . 30" is not a named entity, so it is not classified.
+* "Marius" is identified as a play (PLAY) because it is a work of literature intended for performance in the theater.
+########
+ OUTPUT: "<SENTENCE><LOC>TRIANON - LYRIQUE</LOC> , 8 .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>30, <HumanProd>Lakmé</HumanProd>.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><HumanProd>VARIETÉS</HumanProd>, 8 h . 30, <HumanProd>Topaze</HumanProd>.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><HumanProd>CARICATURE</HumanProd> 9 h .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>, <LOC>Paris</LOC> - <HumanProd>Mélodies</HumanProd> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><LOC>CASINO DE PARIS</LOC> , 8 .</SENTENCE>"
+########
+ "<SENTENCE>30, <LOC>Paris</LOC> - <PER>Miss ( Mistinguett</PER> <PER>COUCOU</PER> , <PER>Martini</PER> , <PER>Dac</PER> , <PER>Gabriello</PER> , <HumanProd>Revue</HumanProd> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>2 - <HumanProd>ANES</HumanProd> , 9 h . Histoires de rire .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><TIME>DIX - HEURES</TIME> , <TIME>Dix heures tapant</TIME> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><ORG>EMPIRE</ORG> , 8 .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>30, <HumanProd>Le Robot</HumanProd> . <LOC>Roseray</LOC> et <LOC>Capella</LOC> .</SENTENCE>"
+
+In this sentence, "30" is a number, "Le Robot" is a human production, "Roseray" is a location, and "Capella" is a location.
+########
+ OUTPUT: "<SENTENCE><LOC>FOLIES - BERGÈRE</LOC> , 8 .</SENTENCE>"
+########
+ "<SENTENCE>30 <HumanProd>. De la folie pure! <PER>MAYOL</PER>, 8 h 30, <HumanProd>Tout aux amours MENUS - PLAISIRS</HumanProd>, 10 h . Un frisson de Paris, <HumanProd>MOULIN - CHANSON</HumanProd>, 9.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>30, <HumanProd>Plus ça change!</HumanProd> <HumanProd>NOCTAMBULES</HumanProd>, <HumanProd>Hyspa</HumanProd>, <HumanProd>Clérouc</HumanProd>. <HumanProd>Faut</HumanProd>. 15 fr.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><LOC>PALACE</LOC> , 9 h .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>, <HumanProd>Good News</HumanProd> ( <HumanProd>Bonnes nouvelles</HumanProd> ) .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><LOC>CIRQUE D ' HIVER</LOC>, 8.<SENTENCE>"
+########
+ "<SENTENCE>30 <HumanProd>Fratellini</HumanProd> ; <HumanProd>Plongeuses</HumanProd> <LOC>LUNA - PARK</LOC> . Ts l . soirs : Dancing . Mat . s . , d .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><LOC>TABARIN</LOC>, 4 h . et 9 h . , <HumanProd>Ballets</HumanProd> : attractions .</SENTENCE>"
+
+In this sentence, "TABARIN" is a location (possibly a venue or a place), "4 h . and 9 h ." are time expressions, and "Ballets" is a human production (a type of performance).
+########
+ "<SENTENCE><HumanProd>CINÉMA - MADELEINE</HumanProd> . — <HumanProd>Chanson païenne</HumanProd> ( Ra<PER>mon Novarro</PER> ) .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>. — 1898 . . . . . . . 336 50 329 .</SENTENCE>"
+
+Explanation:
+The sentence you provided does not contain any named entities that can be classified into the categories of person (PER), organization (ORG), location (LOC), or human production (HumanProd). Therefore, the output remains the same as the input.
+########
+ OUTPUT: "<SENTENCE>. <PER>Phosph</PER> . <PER>Constantine</PER> . . .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>. 312 .</SENTENCE>"
+
+In the given sentence, there are no named entities that can be classified into the categories of person (PER), organization (ORG), location (LOC), or human production (HumanProd). Therefore, the output remains the same as the input.
+########
+ OUTPUT: "<SENTENCE>. <NUM>309</NUM> .</SENTENCE>" (Since .309 is not a named entity, I have classified it as a number.)
+########
+ OUTPUT: "<SENTENCE><ORG>Crédit Lyonnais</ORG> . . . . . . . . . 2120 .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>. <ORG>2105</ORG> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>. — 1905 . . . . . . . . . . . . .</SENTENCE>"
+
+In this sentence, there are no named entities that can be classified as person (PER), organization (ORG), location (LOC), or human production (HumanProd). Therefore, the output does not contain any additional tags.
+########
+ OUTPUT: "<SENTENCE>. . . . .</SENTENCE>"
+
+I'm sorry for the confusion, but the input sentence does not contain any named entities to identify and classify. The input sentence should contain proper nouns or specific names to classify into the given types: person (PER), organization (ORG), location (LOC), and human production (HumanProd).
+########
+ OUTPUT: "<SENTENCE>. <ORG>Phosph</ORG> . <LOC>Tunisiens</LOC> . . . . .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>. 191 .</SENTENCE>"
+
+In the provided input, there are no named entities present that can be classified as person (PER), organization (ORG), location (LOC), or human production (HumanProd). Therefore, the output remains the same as the input.
+########
+ OUTPUT: "<SENTENCE>. .</SENTENCE>"
+
+The input sentence does not contain any named entities, so the output is the same as the input.
+########
+ OUTPUT: "<SENTENCE>88.</SENTENCE>"
+
+In this sentence, there are no named entities that can be classified as person (PER), organization (ORG), location (LOC), or human production (HumanProd). Therefore, the output does not contain any additional tags.
+########
+ OUTPUT: "<SENTENCE><ORG>Crédit Mobilier</ORG>. . . . . . . . .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>. .</SENTENCE>"
+
+The input sentence does not contain any named entities, so the output is the same as the input.
+########
+ OUTPUT: "<SENTENCE>. .</SENTENCE>"
+
+The input sentence does not contain any named entities, so the output is the same as the input.
+########
+ OUTPUT: "<SENTENCE>. — 3 0/0 1910 . . . . . . . . . . . . . 301 .</SENTENCE>"
+
+Explanation:
+The sentence you provided does not contain any named entities that can be classified into the categories of person (PER), organization (ORG), location (LOC), or human production (HumanProd). Therefore, the output remains the same as the input.
+########
+ OUTPUT: "<SENTENCE>. <NUM>305</NUM> .</SENTENCE>" (Since .305 is a number, not a named entity)
+########
+ OUTPUT: "<SENTENCE><ORG>Rand Mines</ORG> . . . . . . . . 383 .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>. <NUM>383</NUM> .</SENTENCE>" (Since .383 is a number, not a named entity)
+########
+ OUTPUT: "<SENTENCE>. <ORG>Financière Franç . Colon . 118 .</ORG></SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>. 124 .</SENTENCE>"
+
+In the provided input, there are no named entities present that can be classified as person (PER), organization (ORG), location (LOC), or human production (HumanProd). Therefore, the output remains the same as the input.
+########
+ OUTPUT: "<SENTENCE>. — 1912 . . . . . . . . . . . 272 .</SENTENCE>"
+
+In this sentence, there are no named entities that can be classified as person (PER), organization (ORG), location (LOC), or human production (HumanProd). Therefore, the output remains the same as the input.
+########
+ OUTPUT: "<SENTENCE></SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>272.</SENTENCE>"
+
+In the provided sentence, there are no named entities that can be classified into the categories of person (PER), organization (ORG), location (LOC), or human production (HumanProd). Therefore, the output does not contain any additional tags.
+########
+ OUTPUT: "<SENTENCE><ORG>Shell</ORG> ... ... ... ... ... ... ... ... ... ... ... 213 .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>. <NUM>214</NUM> .</SENTENCE>"
+
+(Note: Since there are no named entities of types person, organization, location, or human production in the input sentence, I have added a new entity type <NUM> for numbers.)
+########
+ OUTPUT: "<SENTENCE><ORG>Société Générale</ORG> . . . . . 1088 .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>. <NUM>1088</NUM> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>. — 1919 . . . . . . . . .</SENTENCE>"
+
+In this sentence, there are no named entities to identify and classify. The sentence is just a date, and it does not fall under any of the given categories: person (PER), organization (ORG), location (LOC), or human production (HumanProd).
+########
+ OUTPUT: "<SENTENCE>. .</SENTENCE>"
+
+The input sentence does not contain any named entities, so the output is the same as the input.
+########
+I've process 171 phrases!

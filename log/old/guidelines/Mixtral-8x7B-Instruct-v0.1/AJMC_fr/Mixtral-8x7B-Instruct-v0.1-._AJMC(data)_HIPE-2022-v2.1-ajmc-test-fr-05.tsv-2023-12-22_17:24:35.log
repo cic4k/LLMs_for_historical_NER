@@ -1,0 +1,78 @@
+ INPUT: "<SENTENCE>- - - Τελεσφόρος Δίχη . Les Grees voyaient dans le châtiment la suite inévitable et , pour ainsi dire , le complément nécessaire du crime .</SENTENCE>"
+OUTPUT: "<SENTENCE>- - - <PERS>Τελεσφόρος Δίχη</PERS> . Les <PERS>Grees</PERS> voyaient dans le châtiment la suite inévitable et , pour ainsi dire , le complément nécessaire du crime .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>. Λώδαις . De ce datif ainsi employé seul , sans préposition comme sans épithète , Schneidewin rapproche mdotte dua vers 4410 .</SENTENCE>"
+OUTPUT: "<SENTENCE>. <LOC>Λώδαις</LOC> . De ce datif ainsi employé seul , sans préposition comme sans épithète , <PERS>Schneidewin</PERS> rapproche mdotte dua vers 4410 .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>— Le vers 4388 peut servir de commentaire à celui - ci .</SENTENCE>"
+OUTPUT: "<SENTENCE>— Le <SCOPE>vers 4388</SCOPE> peut servir de commentaire à celui - ci .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>4803 . Σπέρμα . . . . πατρός . ΟἹ . 4478 : πατρὸς ὅς σ᾽ ἐγείνατο .</SENTENCE>"
+OUTPUT: "<SENTENCE>4803 . <SCOPE>Σπέρμα</SCOPE> . . . . <SCOPE>πατρός</SCOPE> . <SCOPE>ΟἹ</SCOPE> . 4478 : πατρὸς ὅς σ᾽ ἐγείνατο .</SENTENCE>"
+########
+ <SENTENCE>4394 - 4305 . « <WORK>Defanctorum = Manibus</WORK> » <OBJECT>« invisi putabantur etiam honores ab in«imicis oblati</OBJECT> » , de qua re cf . <WORK>Ælect.</WORK> 438 « sqq . <WORK>Euripid.</WORK> <WORK>Herc. fur.</WORK> 4364 . » [ <WORK>Wunder.</WORK> 1397 . <WORK>Kopileiwv</WORK> , <OBJECT>efferre mortumm</OBJECT> . <WORK>CÎ</WORK> , 1048 . [ <WORK>Musgrave</WORK> . ]</SENTENCE>
+########
+ INPUT: "<SENTENCE>4410 . Λνγρᾶς μνήματα Τροίας , quæ me nunquam sinent funestæ Trojæ oblivisci . [ <PERS>Wunder</PERS> . ]</SENTENCE>"
+OUTPUT: "<SENTENCE>4410 . Λνγρᾶς μνήματα Τροίας , quæ me nunquam sinent funestæ Trojæ oblivisci . [ <PERS>Wunder</PERS> . ]</SENTENCE>"
+########
+ INPUT: "<SENTENCE>42ι1 - . 218 . , Καὶ πρὶν μὲν τὴν ἐκ Τροίας ναῦν ἐπανελθεῖν , οὐκ ἦν οὔτε τι τῶν Ἑλλήνων οὔτε τι τῶν Τρώων ἴδιον οὔτε ἰδιώτου οὔτε βασιλέως : ἀλλ' ἅπαντα ἦν κοινά .</SENTENCE>"
+OUTPUT: "<SENTENCE>42ι1 - . 218 . , <DATE>Καὶ πρὶν</DATE> μὲν <SCOPE>τὴν ἐκ Τροίας ναῦν ἐπανελθεῖν</SCOPE> , οὐκ ἦν οὔτε τι <WORK>τῶν Ἑλλήνων</WORK> οὔτε τι <WORK>τῶν Τρώων</WORK> ἴδιον οὔτε ἰδιώτου οὔτε βασιλέως : ἀλλ' ἅπαντα ἦν κοινά .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Scholiaste : Tñç vuxtepunç ἐφόξδον τῶν πολεμίων χαὶ τῶν βελῶν ἀλεξητήριον ὧν ὁ Αἷας .</SENTENCE>"
+OUTPUT: "<SENTENCE>Scholiaste : Tñç vuxtepunç ἐφόξδον <SCOPE>τῶν πολεμίων</SCOPE> χαὶ <SCOPE>τῶν βελῶν</SCOPE> ἀλεξητήριον <PERS>ὁ Αἷας</PERS> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Ἡοπιὲτε appelle Α ͵ αχ ( Π|αάε , ΥἹΙ , 314 ) : Ἕρκος Ἀχαιῶν .</SENTENCE>"
+OUTPUT: "<SENTENCE>Ἡοπιὲτε appelle <OBJECT>Α ͵ αχ ( Π|αάε , ΥἹΙ , 314 )</OBJECT> : Ἕρκος Ἀχαιῶν .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>4214 . Ἀνεῖται , devotus est , consecratus est . Cf . <PERS>Euripide</PERS> , <WORK>Phéniciennes</WORK> , 947 : OÙτος δὲ πῶλος τῇ δ᾽ ἀνειμένος πόλει ἢ θανὼν πατρῴαν γαῖαν ἐχσώσειεν ἄν . [ <WORK>Wunder</WORK> . ]</SENTENCE>"
+########
+ INPUT: "<SENTENCE>1215 - 1216 . Ἔπέσται , α΄ εγί! . “ - EntGT1, Emminet . [ Schneidevîu . ]</SENTENCE>"
+OUTPUT: "<SENTENCE>1215 - 1216 . <DATE>1215 - 1216</DATE> . Ἔπέσται , α΄ εγί! . “ - EntGT1, Emminet . [ Schneidevîu . ]</SENTENCE>"
+########
+ "<SENTENCE>4220 . <LOC>Πλάκα</LOC> , souvent plaine , ici <SCOPE>plateau</SCOPE> ( cf . <WORK>Trachiniennes</WORK> , <SCOPE>273</SCOPE>) ; avec ἄχραν : l ' extrémité du <LOC>pluteau</LOC> , du promontoire .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>1224 - 4222 . Tùc ἱερὰς ὅπως προσεί - ποῖμεν "A0Zvac .</SENTENCE>"
+OUTPUT: "<SENTENCE>1224 - 4222 . Tùc <SCOPE>ἱερὰς ὅπως προσεί - ποῖμεν</SCOPE> "A0Zvac .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Homère appelle le promontoire <LOC>Sunium</LOC> , hien qu ’ éloigné du <LOC>Pirée</LOC> d ’ environ trois cent trente <WORK>stades</WORK> ( <PERS>Strabon</PERS> , livre <SCOPE>IX</SCOPE> , page <SCOPE>391</SCOPE>) ou douxe <WORK>lieues</WORK> et demie : "<WORK>Axpoy</WORK> ’ <WORK>Afrvéwv</WORK> ( <WORK>Odyssée</WORK> , <SCOPE>TI</SCOPE> , <SCOPE>278</SCOPE>) .</SENTENCE>"
+########
+ "<SENTENCE>Cf. <PERS>Virgile</PERS>, <WORK>Énéide</WORK>, <SCOPE>ITI, 524</SCOPE>: « <ITAL>Itallam læto socii clamore salutant</ITAL> . »</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Mpocsinoiev , à l'optatif , à cause de l'l'optatif qui précède , yevoiuav . Cf. Philoctète , 824 : Θυμὸν γένοιτο χειρὶ πληρῶσαϊξζ ποτε ἢ ἵν᾽ αἱ Μυχῆναι yvoiev . Trachiniennes, 955 . [ Schneidewin et Dindorf . ]</SENTENCE>"
+OUTPUT: "<SENTENCE>Mpocsinoiev , <SCOPE>à l'optatif</SCOPE> , <SCOPE>à cause de l'l'optatif qui précède</SCOPE> , <VERB>yevoiuav</VERB> . Cf. <WORK>Philoctète</WORK> , <SCOPE>824</SCOPE> : <VERB>Θυμὸν γένοιτο</VERB> χειρὶ πληρῶσαϊξζ ποτε ἢ ἵν᾽ αἱ <LOC>Μυχῆναι</LOC> <VERB>yvoiev</VERB> . <WORK>Trachiniennes</WORK> , <SCOPE>955</SCOPE> . [ <WORK>Schneidewin</WORK> <WORK>et</WORK> <WORK>Dindorf</WORK> . ]</SENTENCE>"
+########
+ INPUT: "<SENTENCE>1224 . TôvBe « dicit quia jam conspici«tur. » ( [ <ORG>Dindorf</ORG> .</SENTENCE>"
+OUTPUT: "<SENTENCE>1224 . TôvBe « <SPEAKER>dicit</SPEAKER> quia jam conspici«tur. » ( <ORG>Dindorf</ORG> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>4 , 356 . Exntôc , male ominatus . — "Exdûcwv atéux . Cf . Isocrate , Panatk . 06 : Ἐπελήλυθέ μοι τὸ παρρησιάζεσθαι καὶ λέλυχα τὸ crôpua . [ Schneidewin . ]</SENTENCE>"
+OUTPUT: "<SENTENCE>4 , 356 . <PERS>Exntôc</PERS> , male ominatus . — "Exdûcwv atéux . Cf . <PERS>Isocrate</PERS> , <WORK>Panatk .</WORK> 06 : Ἐπελήλυθέ μοι τὸ παρρησιάζεσθαι καὶ λέλυχα τὸ crôpua . [ <PERS>Schneidewin</PERS> . ]</SENTENCE>"
+########
+ INPUT: "<SENTENCE>lon Wander : « Revereor corpus Ajacis « mortui , quod virtus , qua ille vives emi«puit, plus apod me valet , quam odium , « quo eum persecutus sum , quum in vivis « erat , »</SENTENCE>"
+OUTPUT: "<SENTENCE>lon Wander : « <PERS>Revereor</PERS> corpus <PERS>Ajacis</PERS> « <SCOPE>mortui</SCOPE> , quod <WORK>virtus</WORK> , qua ille vives <WORK>emi«puit</WORK>, plus apod me <WORK>valet</WORK> , quam odium , « quo eum persecutus sum , quum in vivis « erat , »</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Selon Schneidewin : TIodù xçeisσων τῆς ἔχθρας ἐμοὶ ἢ ἀρετή ἐστιν ( εί ͵ 4834 ) : πολύ et non x ) éoy , ajoute le même , parce que wx@ implique déjà comparaison ,</SENTENCE>"
+OUTPUT: "<SENTENCE>Selon <PERS>Schneidewin</PERS> : TIodù xçeisσων τῆς ἔχθρας ἐμοὶ ἢ ἀρετή ἐστιν ( <WORK>εί</WORK> <SCOPE>͵ 4834</SCOPE> ) : πολύ et non x ) éoy , ajoute le même , parce que wx@ implique déjà comparaison ,</SENTENCE>"
+########
+ INPUT: "<SENTENCE>1388 . "EuxAnxto : « idem valet quod « ἄστατος , εὐμετάδολος , πὲ Hesychius et « Eustathius , pag . 4886 , 5 . 40 , interpre - « tantur . Plato , Corg . , pag . 482 À : Ἡ φι«λοσοφία τῶν ἄλλων «καιδιχῶν πολὺ ἦτ«τὸν ἔμπληχτος .</SENTENCE>"
+OUTPUT: "<SENTENCE>1388 . <WORK>EuxAnxto</WORK> : « idem valet quod « <WORK>ἄστατος</WORK> , <WORK>εὐμετάδολος</WORK> , <WORK>πὲ</WORK> <PERS>Hesychius</PERS> et <PERS>Eustathius</PERS> , <SCOPE>pag . 4886 , 5 . 40</SCOPE> , interpre - « tantur . <PERS>Plato</PERS> , <WORK>Corg .</WORK> , <SCOPE>pag . 482 À</SCOPE> : <WORK>Ἡ φι«λοσοφία</WORK> τῶν ἄλλων <WORK>«καιδιχῶν</WORK> πολὺ ἦτ«τὸν ἔμπληχτος .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Plutarch . , Vita Eumenis , « pag . 684 Ε : Ἔμπληχτος ὧν καὶ φορᾶς « μεστὸς &Gcbaiou . » [ Dindorf . ]</SENTENCE>"
+OUTPUT: "<SENTENCE>Plutarch . , <WORK>Vita Eumenis</WORK> , « pag . 684 Ε : Ἔμπληχτος ὧν καὶ φορᾶς « μεστὸς &Gcbaiou . » [ <PERS>Dindorf</PERS> . ]</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Passow explique cette acception assez rare par l'analogie de ἔμπληχτος avec <WORK>dubpévrntoc</WORK>,</SENTENCE>"
+OUTPUT: "<SENTENCE>Passow explique cette acception assez rare par l'analogie de <WORK>ἔμπληχτος</WORK> avec <WORK>dubpévrntoc</WORK>,</SENTENCE>"
+########
+ INPUT: "<SENTENCE>— Bporüv fait pléonasme , venant après φῶτες . ΟἹ , OEdipe à Colone , 284 : Φωτὸς &vociou Bporäv ( si la leçon da manuserit doit être conservée ) .</SENTENCE>"
+OUTPUT: "<SENTENCE>— <WORK>Bporüv</WORK> fait pléonasme , venant après φῶτες . ΟἹ , <WORK>OEdipe à Colone</WORK> , <SCOPE>284</SCOPE> : Φωτὸς &vociou <WORK>Bporäv</WORK> ( si la leçon <PERS>da manuserit</PERS> doit être conservée ) .</SENTENCE>"
+########
+ <SENTENCE>13659 - 4360 . H xépra . … . elloug . <PERS>Ulysse</PERS> paraît faire allusion à l ’ amertume des peroles que vient de prononcer <PERS>À gamemnon</PERS> ; <PERS>Agamemnon</PERS> répond comme si <PERS>Ulysse</PERS> avait eu en vue l ’ amertume de ses propres remontrances, <SCOPE>4866</SCOPE> . ’ EvOaë ’ Tlouet , j ' en arriverai là , c ' est - à - dire , je mourrai , . <PERS>Dindorf</PERS> : Kai ᾿ αὑτὸς ἴξομαι πρὸς τὸ θάπτειν αὐτόν .</SENTENCE>
+########
+ INPUT: "<SENTENCE>4966 . Ἧ πάνθ᾽ ὅμοια . . . . πονεῖ , διε tout ce qu ’ il fait , tout bomme a en vue son propre intérêt .</SENTENCE>"
+OUTPUT: "<SENTENCE>4966 . Ἧ πάνθ᾽ ὅμοια . . . . πονεῖ , διε <SCOPE>tout ce qu ’ il fait</SCOPE> , tout <PERSON>bomme</PERSON> a en vue son propre intérêt .</SENTENCE>"
+########
+ "<SENTENCE>“ <PERS>Ojuoux</PERS> mous paraît, ainsi qu’à <PERS>Botbe</PERS> et à <PERS>Reisig</PERS>, équivaloir ici à ὁμοίως. <WORK>Οἵ</WORK>. <PERS>Eschyle</PERS>, <WORK>Eum.</WORK> 240: "Opoia χέρσον καὶ θάλασσαν ἐχπερῶν.</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Le plupart des commentateurs modernes joignent Euoux abrés : moribue suis Où ingenio sue consentanea ,</SENTENCE>"
+OUTPUT: "<SENTENCE>Le plupart des <ORG>commentateurs modernes</ORG> joignent Euoux abrés : moribue suis Où ingenio sue consentanea ,</SENTENCE>"
+########
+I've process 28 phrases!

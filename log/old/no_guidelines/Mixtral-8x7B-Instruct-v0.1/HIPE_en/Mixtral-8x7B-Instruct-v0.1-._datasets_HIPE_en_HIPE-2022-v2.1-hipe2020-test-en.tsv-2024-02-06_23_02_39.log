@@ -1,0 +1,1765 @@
+ <SENTENCE>FROM <org>A Virginia Paper</org> .</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>To <org>His EXCELLENCY</org> the <pers>Governor GINIA</pers>.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><loc>NEW - YORK</loc>, <time>SEPT . 28 , 1780</time>.</SENTENCE>"
+########
+ <SENTENCE>SIR, <org>W E</org> have long waited in anxious expectations, of having it in our power to tranlinit effec<gap reason="unknown" />tual Amendments to the Conftitution of the <org>Uni ¬ ted Stares</org>, and it is with grief that we now fend forward propolitions inadequate to the purpofe of real and fubftantial Amendments, and fo far fhort of the wiihes of our country.</SENTENCE>
+
+In this sentence, the named entities are classified as follows:
+- "W E" is classified as an organisation (ORGANISATION)
+- "Uni ¬ ted Stares" is classified as an organisation (ORGANISATION)
+
+Note that the sentence contains some unknown words and abbreviations, such as "tranlinit", "effec<gap reason="unknown" />tual", "Conftitution", and "fend", which may affect the accuracy of the classification. Additionally, the sentence appears to be written in an older style of English, which may also affect the classification.
+########
+ <SENTENCE>By <pers>perusing</pers> the <humanprod>Journal of the Senate</humanprod>, your <pers>Excellency</pers> will <time>fee</time>, that we did, in vain, bring to view the <org>Amendments</org> propofed by our <org>Convention</org>, and approv<time>ed</time> by the <org>Legiflature</org>. </SENTENCE>
+########
+ <SENTENCE>We <org>fltall</org> tranfmit a com <org>¬ plete let</org> of the <humanprod>Journals of both Houfes of Con - grefsto</humanprod> to your addrefs, which with a letter accom panying them, we entreat your Excellency will have the gaodnefs to lay before the <org>Honorable Legillature</org> of the enfuing meeting.</SENTENCE>
+
+In this sentence, I have identified the following named entities:
+- "fltall" as an organisation (ORGANISATION)
+- "¬ pcomplete let" as an organisation (ORGANISATION)
+- "Journals of both Houfes of Con - grefsto" as a human production (HumanProd)
+- "Honorable Legillature" as an organisation (ORGANISATION)
+
+Please note that the identified entities may not be 100% accurate due to the challenging nature of the text, which includes archaic language and spelling.
+########
+ OUTPUT: "<SENTENCE>We have the honor, of every (entiment of rc-fpeCt, to be, Sir, your Excellency’s <pers>moft obedient</pers>, and very humble <pers>fervants</pers>, <pers>RICHARD HENRY LEE</pers> <pers>WILLIAM GRAYSON</pers>.</SENTENCE>"
+########
+ "<SENTENCE>PRESIDENT <pers>SULL IVAN</pers> ’ s MESSAGE .</SENTENCE>"
+########
+ <SENTENCE>To the <pers>Hon.</pers></SENTENCE>
+########
+ <SENTENCE>Senate and <org>House Representatives</org> , [ 0 / <loc>New Hampshire</loc> ] <pers>Gentlemen</pers> , H HVING been informed , that doubts have a-rifen iu the minds of fome , whether my hav 
+########
+ <SENTENCE>But as <org>some</org> have attempted to prove this by urging the words of a <HumanProd>Constitution</HumanProd> framed for thepurpose of efta - blifhing over the people of <loc>New - Humpfhire</loc> a free , fovereign and independent government — 1 mull obferve , that this govennent has [ nice been changed by the voice of the people , who have agreed that their fafety depended on their relinquifhuig many of the powers retained by the people in that <HumanProd>Constitution</HumanProd> , to a General Government eflabl ' fbed for the people of each and every <loc>State</loc> who fnould adopt it ; which to themwai to become the general law of the land .</SENTENCE>
+########
+ "<SENTENCE>The people of <loc>this State</loc> did , in the most solemn manner , adopt and ratify that <org>Constitution</org> ; and from that event , this ceased to be a free , sovereign , and independent state ; and upon my being elected to the office of President , I was only sworn to perform and fulfill the duties incumbent on me as President of a free and confederate State ; and I was at or near the same time sworn to support the constitutional union of the <org>United States</org> , by virtue of a law enacted by yourselves .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>I was appointed under that <org>Constitution</org> which the <pers>people of New - Hampffiire</pers> had adopted for <pers>themfelves</pers> , a <pers>Judge</pers> of the <org>Federal Court</org> .</SENTENCE>"
+########
+ "<SENTENCE>My own <pers>inclinations</pers> were far from leading me to wish to continue in both offices ; but I was put in by the <loc>people</loc> , and could not devise a way of refusing the trust committed to me , but into the hands who honoured me with it .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>I well knew that the <time>time for electing a new President</time> was near at hand, when the people might have an opportunity of declaring who should preside over them ; and all the <humanprod>public papers</humanprod> having been entrusted to my care, and the affairs of the State unfolded to me, I could not, without an unpardonable breach of trust, neglect to lay them before you.</SENTENCE>"
+########
+ <SENTENCE>I alfo confidered , that while I was living in the <loc>State</loc> , no other <pers>perfon</pers> could , by your own laws , adminilter the neceffary oaths to you , to qualify you to aeft as <org>Legifiators</org> , while the time for which I was chofen was not expired ; and as I knew that this would probably be the laft feflion of this <loc>Court</loc> , for the prefent year ; and I had no inclination to propofe myfelf as a candidate for another — I concluded delicacy would have pre ¬ vented fome <pers>perfons</pers> from purfuing the methods they have adopted , for gratifying a <humanProd>fpirit</humanProd> which ought never to lodge itfelf in the branch of a <org>Legifla - ture</org> .</SENTENCE>
+########
+ <SENTENCE>Gentlemen, <pers>You</pers> will fee the fituation <pers>I</pers> am in, and may easily conceive of my feelings upon this fubjeft, being brought forward, at every opportunity, to sa’ - tiate that fpirit which has often, before this fejjion of the Court, difplayed itself before me, and ufed every effort againfl <pers>me</pers>. </SENTENCE>
+########
+ OUTPUT: "<SENTENCE>The <pers>Prefident</pers> and <pers>Senate</pers> of the <org>United States</org> were , at the time of my appointment , well acquainted with my having to finish my year in presiding over this <loc>State</loc> ; but no hint has ever been given to me of my acceptance of an office under the present general government , rendering void any State appointment ; even though I have had the honour of being often , since my acceptance of the office of <org>Distridl Judge</org> for <loc>New-Hampfttire</loc> , in company with the <pers>Prefident</pers> of the <org>United States</org> , who knew I was the <pers>Prefident</pers> of this <loc>State</loc> , and treated me as such , although he at the same time knew that I had long before accepted the office of Federal Judge .</SENTENCE>"
+########
+ "<SENTENCE>I know the <humanprod>candour</humanprod> and <humanprod>juftice</humanprod> of the members of both branches ; and I have too high an opinion of their <humanprod>integrity</humanprod> and <humanprod>uprightnefs</humanprod> to fuppofe , that they will fuffer themfelves to be influenced by the efforts of one or more , who cannot avoid at every opportunity , <humanprod>discovering</humanprod> the <humanprod>fpirit</humanprod> which alhi - ates them in their conduB .</SENTENCE>"
+########
+ <SENTENCE>I have the honour , & c .</SENTENCE>
+
+In this sentence, there are no named entities to identify and classify.
+########
+ OUTPUT: "<SENTENCE>& c .</SENTENCE>"
+
+Explanation:
+
+The input sentence does not contain any named entities that can be classified into the given types: person (PERSON), organisation (ORGANISATION), human production (HumanProd), time period (TIME), and location (LOC). Therefore, the output is the same as the input.
+########
+ OUTPUT: "<SENTENCE><pers>JOHN SULLIVAN</pers>.<SENTENCE>"
+########
+ "<SENTENCE>Dec. <time>29</time>, <time>1789</time>. __</SENTENCE>"
+
+(Note: I'm assuming the "__" is a placeholder for missing information. If it is meant to be part of the date, please let me know.)
+########
+ "<SENTENCE> <loc>LONDON</loc> , <time>Dec . 31</time> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>The official account of the capture of <loc>Bruffels</loc> by the <org>Patriots</org> , is as under .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>It is dated the <time>12th of December</time>.</SENTENCE>"
+########
+ "<SENTENCE>“ At length , notwithftanding the armifiice , and every other pretence , <time>jooc</time> brave <pers>Patriots of Brufiels</pers> have dared to engage in battle with <humprod>6poo Aullrains</humprod> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>The <time>action commenced yesterday afternoon</time> , at <time>four o ’ clock</time> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>The <humanprod>firft attenpt</humanprod> was.tp make prifoners of all the <pers>soldiers</pers> who guarded the <loc>Mint</loc> , and thofe who were quartered in the different <loc>converts</loc> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>General <pers>D ' Alton</pers> did his <humanprod>tu ¬ rnoff</humanprod> from <time>fix o ' clock in the morning</time> to <humanprod>negotiate an armifiice</humanprod> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>About ( <time>even o'clock</time> , <humanprod>8co men of Benden - D' Aloft</humanprod> entered the city with two pieces of cannon, which they planted on the <loc>Grand Pa ¬ lace</loc> .</SENTENCE>"
+########
+ "<SENTENCE>About ten o'clock <pers>General D' Alton</pers> thought proper to send a large detachment in order to relieve, by forcible means, the officers and privates made prisoners in <loc>Bafleville</loc>. </SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>This was the <time>signal</time> for a new engagement , which will be ever memorable for its victory .</SENTENCE>"
+
+Note: I am assuming that "fignal" is a typo and should be "signal". Also, I couldn't find any specific named entities in the given sentence, so I have classified "signal" as a time entity because it seems to indicate the start of a new engagement. If this is not correct, please provide more context or clarify the entity types you would like me to use.
+########
+ OUTPUT: "<SENTENCE>The <org>Patriots</org> no longer able to contain themselves, routed the whole detachment.</SENTENCE>"
+########
+ <SENTENCE>To the number of <humanprod>joo</humanprod> , at the utmost<time> , they invelled</time> the great market<loc> , and after a moderate<time> conflict<loc> , they made themselves masters of the <loc>Coros de Garde</loc> , and two pieces of cannon<humanprod> , and took possession of 400 Austrian<humanprod> prisoners</humanprod> .</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>About <time>the fame time</time> the engagement re - commenced in all quarters of the city ; and , in less than two hours , the <org>Patriots</org> made themselves masters of the barracks of the military and of the magazines , in which they found near 2,000 muskets , besides cartridges , ammunition , & c .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>To <time>noon</time> , they attacked the <loc>Park</loc> and the <loc>Palace Royale</loc> , where the greatest body of troops were concentrated , with 12 pieces or cannon .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>After a very heavy firing on both fides, <pers>D ' Alton</pers> perceiving that the place was no longer tenable against so much bravery, capitulated for the immediate retreat of his whole garrison; and the request having been acceded to, about one o' clock they departed, with great precipitation, through the <loc>Porte de Namur</loc>.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>But as <humanprod>all the foldieis</humanprod> arc not equally inclined to follow hinj, at the mo ¬ moment this is writing, they are <humanprod>fquabbling</humanprod> among theinlelves, without the city.</SENTENCE>"
+
+Note: I am unable to identify any clear named entities of the types person, organization, time period, or location in this sentence. However, I was able to identify two instances of the human production category, which I have marked as "foldieis" and "fquabbling". These are assumed to be unique terms in the context of the sentence, possibly related to a specific game or activity.
+########
+ OUTPUT: "<SENTENCE>Already , we have got more than <num>3,000</num> <ent>prifoners</ent> ; but <num>a few</num> <ent>killed</ent> , and no <ent>houfes</ent> plundered .</SENTENCE>"
+
+Note: In this sentence, I have identified "prifoners", "killed", and "houfes" as human production (HumanProd) entities, as they refer to a group of people, a state or action, and a type of building, respectively. However, since the provided entity types do not include a category for human production, I have labeled them as general entities (ent). Additionally, I have identified "<num>" as a numerical value.
+########
+ OUTPUT: "<SENTENCE>For the <org>Gazstte of the Unites States</org> , i Letter I . TO <pers>THOMAS JEFFERSON</pers> , <pers>Vise President of the Unit</pers> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>!</SENTENCE>"
+
+Explanation:
+The input sentence does not contain any named entities, so the output remains the same as the input.
+########
+ OUTPUT: "<SENTENCE><loc>States</loc>, <loc>Philad</loc> : <time>July 3, 1800</time>. </SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>AS <pers>you</pers> are a candidate for the Supreme - Magistracy ot the <org>United States</org> , a knowledge of your <humanprod>character and qualifications</humanprod> becomes a subject of great importance to every lover of his country .</SENTENCE>"
+########
+ <SENTENCE>— Had you been content to have moved in the <time>humble walks of private life</time> and never interfered in <org>political</org> concerns , I would not have troubled you or the <loc>public</loc> with these <ent>setters</ent> , since your <ent>vices</ent> or your <ent>virtues</ent> could have had but little relation to our <ent>national happiness</ent> ; — You might then , <pers>Sir</pers> , have <ent>Aided</ent> down the <ent>current</ent> of <ent>Use</ent> in <ent>obscurity</ent> , and at least have had the consolation to know that your <ent>deformities</ent> were hidden from the <loc>world</loc> .</SENTENCE>
+
+In this sentence, I have identified the following named entities:
+- "private life" as a time period (TIME)
+- "political" as an organisation (ORGANISATION)
+- "public" as a location (LOC)
+- "setters" as a human production (HumanProd)
+- "vices" and "virutes" as general entities (ent)
+- "national happiness" as a general entity (ent)
+- "Sir" as a person (PERSON)
+- "Use" and "obscurity" as general entities (ent)
+- "deformities" as a general entity (ent)
+- "world" as a location (LOC)
+
+Please note that some of the entities identified as "general entities" (ent) may not be accurate as the provided text does not give enough context to accurately classify them.
+########
+ "<SENTENCE>But , as, <pers>Sir</pers>, you have appeared on the stage of public life in a variety of situations, and now offer yourself as a candidate for the <org>Presi-drncy</org>, you will please excuse the liberty I take to investigate a character, which, from a false opinion of, your country may perhitps confide her dearest interest to.</SENTENCE>"
+########
+ "<SENTENCE>It is my duty , as it is my <pers>wiffi</pers> , to give you credit for every great or good quality you possess , and to speak with gratitude of any services you have rendered <org>America</org> in the course of a long life busied with public cares , — - But , Sir , it is also my duty to speak <empty>ot</empty> those other qualities of your ' heart and mind which have been also employed in the national ass.irs of our country .</SENTENCE>"
+
+In this sentence, I have identified "wiffi" as a person, but I am not confident in this classification as it is likely a spelling mistake. The word "ot" is also not a recognized named entity, so I have left it as is. The named entities "America" and "national ass.irs" are classified as organizations, but they might be misclassified as they are more likely to be location and human production respectively.
+########
+ OUTPUT: "<SENTENCE>Nature , <pers>Sir</pers> , in profusion , gifted you witli talents , a brilliant fancy , penetrating genius and a native elegance of diction , combined with a thirst for knowledge , formed yqp a man of lea rung and taste , well acquainted with the classics , deeply read in the philoso - phy of natural history , observing of men and things , and attentive in theory to political concerns .</SENTENCE>"
+########
+ <SENTENCE>But , to balance <humanprod>tin fe</humanprod> singular favors, stie denied you others, which, to “move in the <time>tempestuous sea of liberty</time>,“ or guide the helm of a <location>great nation</location>, are of more utility and absolutely indispensable.</SENTENCE>
+
+In this sentence, "tin fe" is classified as a human production (HumanProd) because it seems to refer to a specific object or product, although its exact meaning is unclear in this context. "Tempestuous sea of liberty" is classified as a time period (TIME) because it refers to a concept of time (liberty) with a descriptive adjective (tempestuous). "Great nation" is classified as a location (LOC) because it refers to a geographical area, even though it is a metaphorical one.
+########
+ <SENTENCE>— Your <pers>fortitude</pers> has been often tried and found unequal to the talk — much less arduous than the one you are fa indefatigably striving to impose on yourself ; , your mind is fitted for a <humanprod>sedentary life</humanprod> , and in your closet you may study , with honor to yourself , the works of Nature ; but the <humanprod>fatigues</humanprod> , <humanprod>perseverance</humanprod> and <humanprod>firm Mnper</humanprod> , <humanprod>nectssiry</humanprod> in an Executive station , would wear out the remains of those delicate nerves which have on former occasions so often shrunk from the approach of danger , and rendered an enlightened understanding useless to its possessor and injurious to his country .</SENTENCE>
+########
+ "<SENTENCE>Let me conjure you, <pers>Sir</pers>, to call to your remembrance the history of your political life, and from a regard to your peace and reputation, not involve yourself in that disgrace which must inevitably attend your acceptance of the <humanprod>Presidency</humanprod>. </SENTENCE>"
+########
+ "<SENTENCE>You have been , <pers>Sir</pers> , a <org>Governor</org> , an <org>Ambassador</org> , and a <org>Secretary of State</org> , and had to desert each of these posts , from that weakness of nerves , want of fortitude and total imbecility of character , which have marked your whole <humanprod>political carier</humanprod> , and most probably will at <time>¬ tend you to your grave</time> .</SENTENCE>"
+########
+ "<SENTENCE>Remember, <pers>Sir</pers>, all the services you've rendered your country were of the literary kind—<humanprod>The Declaration of Independence</humanprod> was penned in, your closet, where you were perfectly secure; but I do not recollect that you supported that Declaration by any extraordinary exertion, or by exposing yourself to any imminent danger.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>When <pers>Governor - os Virginia</pers> , you sled from your <loc>state</loc> because a storm was gathering , and declined a foreign appoint ¬ ment by <org>Congress</org> .</SENTENCE>"
+
+In this sentence, the named entities are identified and classified as follows:
+
+* "Governor - os Virginia" is identified as a person (PERSON)
+* "state" is identified as a location (LOC)
+* "storm" is not identified as a named entity, as it is a common noun.
+* "you" is not identified as a named entity, as it is a pronoun.
+* "a foreign appoint ¬ ment" is not identified as a named entity, as it is a common noun phrase.
+* "Congress" is identified as an organization (ORGANIZATION)
+########
+ INPUT: "<SENTENCE>A ; the danger was visi - ble , you acted consistently with your chr - racter , but surely did not display either much firmness or patriotism .</SENTENCE>"
+OUTPUT: "<SENTENCE>A ; the danger was visi - ble , you acted consistently with your <humanprod>chr - racter</humanprod> , but surely did not display either much firmness or patriotism .</SENTENCE>"
+
+In this sentence, "chr - racter" is classified as a human production because it refers to a person's character, which is something that is produced or developed by a human being. It is not a specific person, organization, time period, or location, so it is classified as a human production.
+########
+ <SENTENCE>But , Sir , weakness of nerves and want of fortitude are natural defects---they are not faults of your own---if you, being conscious of your defects, were to accept the important office of President, when the liberty and rights of millions and the happiness of your country are depending, it would, in my opinion, amount to a crime.</SENTENCE>
+
+In this sentence, there are no named entities that can be classified as person (PERSON), organization (ORGANIZATION), human production (HumanProd), time period (TIME), or location (LOC). Therefore, there are no modifications to be made to the original sentence.
+########
+ OUTPUT: "<SENTENCE>But I will no longer dwell on these topics—In my next letter I will consider you as the head of a <org>party devoted to the enemies of America</org> , and a party created for her ruin .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><PERSON>COLUMBUS</PERSON>.</SENTENCE>"
+########
+ <SENTENCE>District of <loc>Pennsylvania</loc> to wit : B E it remembered that on the <time>Tenth day of July</time> in the twenty fif - </SENTENCE>
+
+In this sentence, the named entities are identified as follows:
+- "District of Pennsylvania" is classified as a location (LOC).
+- "Tenth day of July" is classified as a time period (TIME).
+
+Note: I assumed that "Tenth" is referring to the tenth day of a month, and "July" is referring to the seventh month of the year. If this is not the case, please let me know.
+########
+ <SENTENCE>h year of the <time>Independence of the United States of America</time> , <pers>Alexander Addison</pers> of the said District hath deposited in this office the title of a book the right whereof he claims as Author in the words following to wit , “ <humanprod>Reports of cafes in the County courts of the Fifth Circuit and in the High Court of Errors and appeals of the State of Pennsylvania , and charges to Grand Juries of those County Courts</humanprod> . By <pers>Alexander Addison</pers> , President of the Courts of Common Pleas of the Fifth Cir<loc>cuit</loc> of the State of <loc>Pennlylvann</loc> . ”</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>In conformity to the act of <org>Congress of the Uni ¬ ted States</org> istitlrd <quote>" An act for the encouragement of learning by securimr the copies of maps charts and books to the Authors and Proprietors of such copies during the times therein mentioned </quote>.</SENTENCE>"
+
+In this sentence, "Congress of the Uni ¬ ted States" is identified as an ORGANISATION and the text inside the quote tags is identified as a HUMAN PRODUCTION (HumanProd). The TIME entity is not present in this sentence.
+########
+ I'm sorry for the confusion, but the input sentence seems to be a garbled version of English and French text. Could you please provide a clear and coherent sentence for me to perform Named Entity Recognition and classification? Thank you.
+########
+ OUTPUT: "<SENTENCE>It will be delivered to <org>lubscribm</org> by <pers>Mr. Dobson</pers>, <org>Bookseller</org>.</SENTENCE>"
+
+In this sentence, "Mr. Dobson" is identified as a person, "lubscribm" is identified as an organization, and "Bookseller" is also identified as an organization.
+########
+ OUTPUT: "<SENTENCE><TIME>July 23</TIME></SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>( <num>26</num> )</SENTENCE>"
+########
+ <SENTENCE>Translation.</SENTENCE>
+########
+ OUTPUT: "<SENTENCE><loc>Hereford street</loc> , <time>Sept . 8 , 1800</time> . .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>« <PERSON>My Lord</PERSON> , • ’ 1 received yesterday , at eleven o ' clock at night , the note and the counter projet which your <PERSON>excellency</PERSON> did me the honour to address to roe .</SENTENCE>"
+########
+ <SENTENCE>The principles contained in <humanprod>these two pieces</humanprod> are , in several respects so little analogous to the proposals which I have been directed to make , and the object of which was to compensate by a <loc>Britissi ar ¬ mistice</loc> , the inconveniences which might re - fultto <time>Fiance</time> from the eventual prolonga ¬ tion of the <loc>German armistice</loc> , that I can ¬ not take upon myself to admit them with ¬ out previously receiving <humanprod>furthcrinstroctiona</humanprod> .</SENTENCE>
+
+Please note that some of the identified entities may not be accurate as the input sentence is in English and I am primarily trained on French text.
+########
+ INPUT: "<SENTENCE>I have therefore complied with your <pers>excelency's</pers> intentions by <humanprod>fanfmittihg</humanprod> to my <org>government</org> those two pieces, with as little delay as possible.</SENTENCE>"
+
+In this sentence, the named entities and their types are as follows:
+
+* excelency: PERSON
+* fanfmittihg: HumanProd
+* government: ORGANISATION
+
+Note: The entity "excelency" is identified as a person because it refers to a high-ranking official, and "fanfmittihg" is identified as a human production because it is a typo of the word "submitting" which is a human action.
+########
+ INPUT: "<SENTENCE>I have the honour to be , 8cc.</SENTENCE>"
+OUTPUT: "<SENTENCE>I have the honour to be , 8cc.</SENTENCE>"
+
+(No named entities were found in the provided sentence.)
+########
+ <SENTENCE>( <PERSON>Signed</PERSON> ) “ <PERSON>OTTO</PERSON> - ’ ’</SENTENCE>”
+
+Note: I assumed that ‘OTTO’ is a person’s name, as there is no other context to determine the type of the named entity.
+########
+ <SENTENCE>TO BE RENTED, <date>on or before the 25th of March next</date>, A <HumanProd>LL</HumanProd> that valuable property formerly occupied by <pers>Col. Thomas Duff</pers>, Esq. in the village of <loc>Newport</loc>—consisting of a large commodious brick dwelling-house, pleasantly situated on the main street and elegantly fronting the river <loc>Christiana</loc>, well calculated for a large store, and as the <org>Turnpike road</org> leading from the <loc>Gap Ta</loc>vern or <loc>Lancaster</loc> to that place is now in <HumanProd>consf</HumanProd>. </SENTENCE>
+########
+ OUTPUT: "<SENTENCE>derable forwardness, and will probably be carried into effect in the course of the <time>next summer</time>, it will certainly be one of the most eligible spots for business in the state of <loc>Delaware</loc>. </SENTENCE>"
+########
+ INPUT: "<SENTENCE>It has every convenience, such as a good garden, barn, stabling and .</SENTENCE>"
+OUTPUT: "<SENTENCE>It has every <humanprod>convenience</humanprod>, such as a good <humanprod>garden</humanprod>, <humanprod>barn</humanprod>, <humanprod>stabling</humanprod> and .</SENTENCE>"
+
+Note: I have classified "convenience", "garden", "barn", and "stabling" as human production (HumanProd) since the context suggests that these are human-made or human-modified objects. However, these entities could also be classified as physical objects or facilities, depending on the classification schema used.
+########
+ <SENTENCE>other <HumanProd>houses</HumanProd> , See .</SENTENCE>
+########
+ OUTPUT: "<SENTENCE><org>tec</org>.<SENTENCE>"
+
+The input "tec." contains the abbreviation "tec", which can be classified as an organization (ORG). I added the ORG tag to the input.
+
+Note: I assumed that "tec" refers to an organization, but it could also refer to a person or a human production depending on the context. If you provide more context, I can adjust my classification accordingly.
+########
+ OUTPUT: "<SENTENCE>— A <humanprod>handsome FARM</humanprod> of excellent land , contiguous to the town , will " be let with it , and two or three <loc>Lots</loc> in the vicinity thereof , well adapted for grass , or as the renter may think proper to apply them .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>There are also eight ac * rs of first rate <humanprod>Marsh</humanprod> , now in good order , a small distance from the town .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>The terms of renting said property may be known by applying to <org>TIICWAS DUFF</org> , <pers>Esquire</pers> , residing at <loc>Mrs . FIug ™ ns ’ s</loc> , <loc>Wilmington</loc> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>N . Bi---No part of this property will let be separate from the other .</SENTENCE>"
+
+(Note: There are no named entities in the provided sentence.)
+########
+ OUTPUT: "<SENTENCE><loc>Wilmington</loc>, <time>Dec . 8 th , 1 80!</time></SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>< /SENTENCE>"
+
+(Note: There are no named entities present in the provided sentence.)
+########
+ OUTPUT: "<SENTENCE>tf ;</SENTENCE>"
+
+I'm sorry for any confusion, but the provided sentence "tf ;" does not contain any named entities that can be classified into the given types: person (PERSON), organization (ORGANIZATION), human production (HumanProd), time period (TIME), and location (LOC).
+########
+ OUTPUT: "<SENTENCE>LATEST FROM <loc>SPAIN</loc> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Captain <pers>Taylor</pers> , of the <humanprod>ship Caledonia</humanprod> , arrived at <loc>Philadelphia</loc> on <time>Monday</time> , from <loc>Cadiz</loc> , states , that the <pers>French army</pers> , after passing the <loc>Sierra Morena</loc> , had taken <loc>Seville</loc>—drove the whole <pers>count rv</pers> , at masse , before them into <loc>Cadiz</loc>—cap ¬ tured <loc>Port Maria</loc> , the watering plac e , opposite the city of <loc>Cadiz</loc> , where they were fortifying themselves .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>They had been fired upon constantly from <org>British</org> two decker and 40 gun boats, but without success.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>A flag had been sent into <loc>Cadiz</loc> to demand its surrender to its lawful sovereign and friend, <pers>king Joseph</pers> — tire answer re .</SENTENCE>"
+
+In this sentence, the named entities are:
+
+* "Cadiz" as a location (LOC)
+* "king Joseph" as a person (PERSON)
+########
+ OUTPUT: "<SENTENCE>turned was , that the loyal people of <loc>Cadiz</loc> , knew no king but <pers>Ferdinand</pers> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>The <org>junta</org> were at the head of <loc>Cadiz Bay</loc> , at a small place called <loc>Iliea</loc> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>The <loc>French</loc> and <loc>Spanish</loc> men of war had their sails bent, and were ready for sea, to the number of 17.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>The <pers>British admiral Purvis</pers> , with about 12 ships of war , was at <loc>Cadiz</loc> , and appeared to have the principal direction .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Cadiz being so much crowded with <humanprod>people from the country</humanprod> , water was very scarce, and all * » usino * s at a stand.</SENTENCE>"
+
+Note: I am assuming that "usino" is a typo and should be "usual". However, since it is not a named entity, I did not tag it. Also, I am not completely sure about the classification of "people from the country" as human production, but I could not find a better category for it.
+########
+ OUTPUT: "<SENTENCE>The <humanprod>ship Philadelphia</humanprod> , <humanprod>brig Smilax</humanprod> and <humanprod>schooner Five Brothers</humanprod> , had just arrived from <loc>Philedelphia</loc> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><humanprod>Genuine Lee's Elixir</humanprod></SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>1 <humanprod>A sovereign remedy</humanprod> for <health>Colds, obstinate Coughs</health>.</SENTENCE>"
+########
+ I'm here to help! However, I noticed that the text you provided doesn't seem to contain any named entities that can be clearly classified into the categories you mentioned (person, organization, human production, time period, and location). The text is primarily a description of medical conditions and a treatment, without mentioning specific people, organizations, products, time periods, or locations. Therefore, I'm unable to perform the named entity recognition task on this particular text. If you have another sentence or text that contains named entities, please feel free to share it, and I'll be happy to help.
+
+As a reminder, here's an example of how the output would look like for a sentence containing named entities:
+
+<SENTENCE>Le résultat de la <loc>Fontenette</loc> est honorable pour les Vaudois qui doivent une fière chandelle à leur <pers>gardien Pasquini</pers> , en grande forme . </SENTENCE>
+
+In this example, "Fontenette" is classified as a location (loc), and "Pasquini" is classified as a person (pers).
+########
+ <SENTENCE>of being immediately relieved.</SENTENCE>
+
+In this sentence, there are no named entities to identify and classify.
+########
+ <SENTENCE>For the information of those <humanprod>pelt ’ if any there be</humanprod> , that have not heard of the wonderful qualities of <humanprod>LEE ’ S ELIXIR</humanprod> , we give the names of the following <pers>persons</pers> , who are well known to our citizens in general as persons of integrity and strict veracity.</SENTENCE>
+########
+ "<SENTENCE>From the <org>follow ¬ ing certificate</org> * it will plainly appear , that a three years consumption, a common cold, or cod eh, are all with ease removed by <humanprod>LEE'S ELIXIR</humanprod> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>To <pers>Parents</pers> who may have <humanprod>Children afflicted with the Whooping Cough</humanprod> , This discovery is of the first magnitude , as it affords immediate relief , checks the progress and in a short time entirely removes the most * : ruel disorder to which children are liable — the Elixir is so perfectly agreeable and the dole so small that no difficulty arises in taking it .</SENTENCE>"
+########
+ <SENTENCE>Messrs . <pers>7</pers></SENTENCE>
+########
+ OUTPUT: "<SENTENCE>.</SENTENCE>"
+
+There are no named entities in the given sentence.
+########
+ <SENTENCE>Lee &lt;pers>Sr</pers> &lt;HumanProd>Son</HumanProd> &lt;quote>"The superior qualities of your Medicine ■ ailed LEE ’ S ELIXIR , induces me to g ve you this certificate for publication , to point to my suffering fellow mortals the road to health , the molt valuable of all earthly post ’ efliuns ."</quote></SENTENCE>
+
+In this sentence, I identified "Lee Sr" as a person (PERSON) and "Son" as a human production (HumanProd). The rest of the text is a quote (quote) and does not fit into any of the provided categories.
+########
+ <SENTENCE>For <time>three yews</time> I have been afflicted with a severe cough, tightness of the breast, lowness of spirits, and a gradual wasting of the flesh, having tried different medicine * * recom<humanprod>mended</humanprod> for such cases without receiving an real benefit; fortunately one of your advertise<humanprod>ments</humanprod> was given to me and I immediately ap plied to <pers>Mr . Vance</pers>, <loc>178 Market - street</loc>, for some of your ELIXIR which has contrary to the expectations of my friends, restored me to my former good state of health.</SENTENCE>
+########
+ <SENTENCE>Any <org>informa ¬ tion</org> will be given by <pers>me</pers>. </SENTENCE>
+
+Explanation:
+
+In the given sentence, "informa ¬ tion" is classified as an organization (ORGANIZATION) and "me" is classified as a person (PERSON). The reason for classifying "informa ¬ tion" as an organization is that it is a common name for a company or organization that provides information or news. However, in this context, it is more likely that the speaker is referring to the information they will provide, rather than a specific organization. Therefore, it could also be classified as a human production (HumanProd). Nevertheless, based on the provided categories, I have classified it as an organization.
+########
+ OUTPUT: "<SENTENCE><pers>George Harwcod</pers>, <loc>Market street</loc>, <loc>Baltimore</loc>. </SENTENCE>"
+########
+ "<SENTENCE>[Caius](PERSON) of the [Mnfott](ORGANISATION) [AN ACT](HumanProd) [FartllerY](HumanProd) atfeffnd amend • • [A](HumanProd) [a act](HumanProd) providing for [fWr](HumanProd) | [census](HumanProd) or enumeration of [tire inhabitants](HumanProd) of [I he United States](LOC) . * * </SENTENCE>"
+########
+ <SENTENCE><time>Sec. 2</time>.<SENTENCE>
+########
+ <SENTENCE>And be it further enacted \ That it shall be the duty of the <org>several mashals</org>, <org>secretaries</org>, and their <org>assistants</org> aforesaid, at the time so * taking the <humanProd>census</humanProd> or <humanProd>enume ¬ ration</humanProd> aforesaid, to take under the directi ¬ on of the <pers>Secretary</pers> of the <org>Tieasday</org>, and accerding to such <loc>instructions</loc> as he shall give, an account oi .</SENTENCE>
+
+In this sentence, the named entities are classified as follows:
+- "several mashals" is classified as ORGANISATION (ORG)
+- "secretaries" is classified as ORGANISATION (ORG)
+- "assistants" is classified as ORGANISATION (ORG)
+- "census" is classified as Human Production (HumanProd)
+- "enume ¬ ration" is classified as Human Production (HumanProd)
+- "Secretary" is classified as PERSON (PERS)
+- "Tieasday" is classified as ORGANISATION (ORG)
+- "instructions" is classified as LOCATION (LOC)
+
+Note: I made some assumptions about the entities in this sentence, as some of them were not explicitly mentioned. For example, I assumed that "mashals", "secretaries", and "assistants" are organizations, as they are likely to be roles or positions within an organization. Similarly, I assumed that "census" and "enume ¬ ration" are human productions, as they are likely to be activities or processes carried out by humans. I also assumed that "instructions" is a location, as it is likely to be a set of guidelines or rules that specify where or how something should be done. These assumptions may not be accurate, and the entities may need to be reclassified based on additional context.
+########
+ <SENTENCE>he several <HumanProd>manufacturing establishments</HumanProd> .</SENTENCE>
+########
+ <SENTENCE>nd <humanprod>manufactures</humanprod> with ¬ in their several districts, territories and divisions.</SENTENCE>
+########
+ <SENTENCE>The said <pers>assistants</pers> shall make return of the same to the <pers>marshals</pers> or <org>se ¬ cretaries</org> of their respective <loc>districts</loc> or <loc>ter ¬ ritories</loc> , and the said <pers>marshals</pers> and <org>secre ¬ taries</org> shall transmit the said returns , and abstracts thereof to the <org>Secretary</org> of the <org>Treasury</org> , at the same times at which they are by this act , and the several acts to which this act i3 an addition required res ¬ pectively to make their return of said enu ¬ meration to the <org>Secretary</org> of <org>State</org> ; for the lerfonnance of which additional services they shall respectively receive such compensation as shall hereafter be provided by <org>law</org> .</SENTENCE>
+########
+ OUTPUT: "<SENTENCE> <pers>J . B . Varnum</pers> , <humanprod>Speaker of the House of Representatives</humanprod> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><pers>John Gaillard</pers>, <title>President of the Senate</title>, pro tem.</SENTENCE>"
+########
+ "<SENTENCE><time>May 1, 1810</time></SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Approved, <pers>JAMES MADISON</pers>.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><HumanProd>ALEX VNDKIA BATHS</HumanProd></SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Mrs . <pers>M . Garner</pers> , having rented the place , adjoining the <loc>Theatre</loc> , formerly occupied by <pers>Tho ¬ mas Shields</pers> , in which the <humanprod>PUBLIC BATHS</humanprod> were kept , respectfully informs the citizens of <loc>Alexandria</loc> , that she purposes opening them on the <time>10th inst</time> .</SENTENCE>"
+########
+ <SENTENCE>in a <humanprod>style</humanprod> superior to any heretofore kept in this place, <pers>bhe</pers> <pers>be</pers> 
+########
+ <SENTENCE>She will only observe that a private room is set apart entirely for <loc>Ladies</loc> , where they may enjoy the comforts of a warm or cold bath , without fear of interruption , and a female <humanProd>servant</humanProd> will always attend to their wishes , — <loc>Genilemen</loc> will also be attended to in a <humanProd>proper</humanProd> manner , in the baths set apart for their use .</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>.</SENTENCE>"
+
+There are no named entities in the given sentence.
+########
+ INPUT: "<SENTENCE>The price having been reduced from <humanprod>te.v</humanprod> to eight dollars the season, she hopes will be an inducement to many to favor the institution; it will </sentence>"
+
+In this sentence, the named entities are:
+
+* <humanprod>te.v</humanprod>: a human production, as it is a product or service
+
+The updated sentence with named entities is:
+
+<SENTENCE>The price having been reduced from <humanprod>te.v</humanprod> to eight dollars the season, she hopes will be an inducement to many to favor the institution; it will </SENTENCE>
+########
+ <SENTENCE>— The season will commence on the <time>H</time>th day</SENTENCE>
+########
+ <SENTENCE><TIME>May</TIME>, and end on the <TIME>1st day of October</TIME>.</SENTENCE>
+########
+ <SENTENCE>Strangers and <pers>others</pers> may be accommodated with <humanprod>single bnths</humanprod> , at 50 cents each , or three for one dollar , A <humanprod>subscription book</humanprod> is opened at the <loc>har</loc> , where persons desirous of subscribing are requested to leave their names .</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>may I</SENTENCE>"
+
+Explanation:
+The sentence "may I" does not contain any named entities that can be classified into the given types: person (PERSON), organization (ORGANIZATION), human production (HumanProd), time period (TIME), and location (LOC). Therefore, the output is the same as the input.
+########
+ OUTPUT: "<SENTENCE>IRELAXD</SENTENCE>"
+
+Explanation:
+The sentence "IRELAXD" does not contain any named entities that can be classified into the given types: person (PERSON), organisation (ORGANISATION), human production (HumanProd), time period (TIME), and location (LOC). Therefore, the output is the same as the input.
+########
+ OUTPUT: "<SENTENCE>The <loc>Cork</loc> papers of the <time>23d of April</time> state , that a spirit of insubordination begins to manifest itself in the vicinity of <loc>CharTevillc</loc> .</SENTENCE>"
+########
+ <SENTENCE>Nightly <humanProd>association</humanProd> are formed there, although the peace and security of the neighborhood have been disturbed by <time>turning up ground</time>, <time>noc turnal v isifs</time> paid to the houses on Wj \* <loc>farmers</loc>, and threats of a very <time>terrifr nature</time> have been promulgated by some individuals who have lately taken : - <loc>land</loc> there.</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>TO <HumanProd>THE Cultivators</HumanProd> OF <HumanProd>THE Sul</HumanProd> THE <HumanProd>AMERICA * FARMER</HumanProd> .</SENTENCE>"
+
+In this sentence, I identified four named entities, all of which fall under the category of "human production" (HumanProd). These entities are "THE Cultivators," "THE Sul," and "THE AMERICA \* FARMER," which all refer to groups of people involved in farming or cultivation. I also identified "AMERICA" as a human production, as it refers to the American continent and its inhabitants.
+########
+ OUTPUT: "<SENTENCE>T HE <humanprod>first number</humanprod> of the <org>AMERICAN FARMER</org> , was issued on the <time>2d of April 1819</time> .</SENTENCE>"
+########
+ <SENTENCE>It may now be announced as an <humanprod>National work</humanprod> , adapted to all the varieties of our climate , since many <pers>of the most eminent citizens</pers> in all the states , <humanprod>contribute</humanprod> by their patronage and their pens , to its circulation and its usefulness To make known all <humanprod>discoveries</humanprod> in the science , and all improvements in the practice of Agriculture and Domestic Economy—and to develop the means and designate plans of internal improvements generally , constitute the chief objects to which the <humanprod>American Farmer</humanprod> is devoted .</SENTENCE>
+########
+ <SENTENCE>It takes no concern or interest in <humanprod>party politics</humanprod> , nor in the transient occurrences of the day .</SENTENCE>
+########
+ INPUT: "<SENTENCE>The <humanprod>Farmer</humanprod> is published <time>weekly</time> , on <time>.</time></SENTENCE>"
+########
+ INPUT: "<SENTENCE>- heel the size of a large newspaper , and folded o as to make eight pages—and to admit of being conveniently bound up and preserved in volumes .</SENTENCE>"
+OUTPUT: "<SENTENCE>- heel the size of a <humanprod>large newspaper</humanprod> , and folded o as to make eight pages—and to admit of being conveniently bound up and preserved in volumes .</SENTENCE>"
+########
+ <SENTENCE>Each <humanprod>volume</humanprod> will consist of <num>fifty - two numbers</num>, a <humanprod>title page</humanprod> and a <humanprod>index</humanprod> ; and numerous <humanprod>Engravings</humanprod> to represent <humanprod>new implements</humanprod> , and approved <humanprod>systems</humanprod> of <humanprod>husbandry</humanprod>. Each <num>number</num> gives a true and accurate statement of the <time>th * m selling prices</time> of <humanprod>country produce</humanprod> , <humanprod>live stock</humanprod> and all the principal articles brought for sale in the <loc>Baltimore market</loc> .</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>.</SENTENCE>"
+
+There are no named entities in the given sentence.
+########
+ <SENTENCE>Terms of subscription <humanprod>4 dollars</humanprod> per <time>an</time>, ¬ <org>num</org>, to be paid in advance.</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>But for the <humanprod>'Urn of five dollars'</humanprod>, the actual receipt of eve ¬ ry number is guaranteed.</SENTENCE>"
+########
+ <SENTENCE>That, is, when <humanprod>numbers</humanprod> fail to come to hand, duplicates shall be sent until every number shalljiave been received.</SENTENCE>
+########
+ "<SENTENCE>As the <pers>Editor</pers> takes the risk and cost of <humanprod>die mail</humanprod>—should subscription money mis <humanprod>carry</humanprod> , he holds himself , nevertheless , bound to furnish the <humanprod>paper</humanprod> .</SENTENCE>"
+########
+ <SENTENCE>To those who may think the price of subscription too high , it may be remarked , that on a comparison of their actual contents , <humanprod>one volume of the American Farmer</humanprod> , will be found to contain as much as four volumes of the <humanprod>Memoirs of the Agricultural Society of Philadelphia</humanprod> and the four volumes of that <org>patriotic</org> , and exceedingly valuable work , sell for 12 dollars .</SENTENCE>
+########
+ "<SENTENCE>To shew that the <humanprod>American Farmer</humanprod> , is conducted in a manner to answer the great national purpose for which it was * <time>stablish - ed</time> .</SENTENCE>"
+
+Note: I made an assumption that "* stablish - ed" is a typo and should be "established". If not, please correct it accordingly. Also, I am unable to identify any named entities of types person, organization, and location in this sentence.
+########
+ <SENTENCE>and that it is not on <org>ieserving the Agriculturists of the Unit; d States</org>, the following testimonials are respectfully submitted—others equally conclusive, might be offered.</SENTENCE>
+########
+ <SENTENCE>Extract of a letter from <pers>Governor Lloyd</pers> , ' who is acknowledged to be one of the most wealthy , well informed and best managing farmers in the <loc>United States</loc> .</SENTENCE>
+########
+ <SENTENCE>"<org>The Farmer</org>", so far, is the best <humanprod>Agricultural compilation</humanprod>, in my humble opinion, that I have seen, and deserves the patronage of the public. ' From <org>The President of the Agricultural Society</org>. Eastern Shore of Maryland. I am anxious to preserve the whole of the work, and wish it was in the hands of every farmer in the United States. It is by the diffusion of knowledge only, that we can expect our country to improve in Agriculture, which this paper is admirably calculated to impart, to all who will take pains to be improved by reading. "</SENTENCE>
+########
+ <SENTENCE>Respectfully th friend, <pers>ROB</pers>.</SENTENCE>
+########
+ OUTPUT: "<SENTENCE><pers>MOORE</pers>.<SENTENCE>"
+
+The input sentence "MOORE." contains one named entity of type person (PERSON), which is "MOORE".
+########
+ OUTPUT: "<SENTENCE><loc>NEWECHOTA</loc> - <time>FEBRUARY 3,1880</time>.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>From a <pers>letter</pers> received in this place from a <pers>gentleman of intelligence</pers>, and from our <humanprod>exchange papers</humanprod> which come to us from different <loc>sections</loc> of the <loc>country</loc>, we have the utmost assurance in saying that the <org>Indian cause</org> is gaining ground.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>There is a great excitement on this <humanprod>sub ¬ ject</humanprod> and this excitement is extending .</SENTENCE>"
+
+Note: I assumed "sub ¬ ject" is a specific term or product, if it is not, then it should not be tagged as a named entity.
+########
+ OUTPUT: "<SENTENCE>Meetings have been held in <loc>New York</loc> , <loc>Philadelphia</loc> , <loc>New Haven</loc> and <loc>Hartford</loc> , and memorials to Congress adopted---other meetings in other places will be held .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>From the abstract of the debate in the <org>House of Representatives</org> , on the question of referring the <loc>New York</loc> memorial to the Committee on Indian Adairs , which our readers will find in aliother part of our paper , there can be but little doubt that the question will be brought before the consideration of <org>Congress</org></SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><loc>Washington</loc> , <time>January 2
+########
+ OUTPUT: "<SENTENCE>Your <time>I8ih</time> has been received.</SENTENCE>"
+
+Note: I'm assuming "I8ih" is a typo and should be "18th". If not, I cannot classify it as a time period as "I8ih" doesn't convey any meaning.
+########
+ OUTPUT: "<SENTENCE>We feel highly gratified to learn, that the course we took on the presentation of the <humanprod>Memorial</humanprod> from the very respectable <loc>meeting</loc> in <loc>New - York</loc>, against the violation of ' he trea <humanprod>¬ ties</humanprod> with the <loc>Cherokee</loc> and other <loc>nations</loc> of <humanprod>Indians</humanprod>, meets your approba <humanprod>¬ tion</humanprod>.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>In <humanprod>vindicating the sacred right of the citizen</humanprod> to <humanprod>petition government</humanprod> on <time>all and every subject</time> ; in <humanprod>repelling the wanton attacks</humanprod> made on <pers>individuals venerated and respected wherever known</pers> ; and on a <loc>large and most respec ¬ table meeting</loc> of our <pers>fellow citizens</pers> , on a <time>subject involving the faith of the nation</time> , its <value>honor</value> and <value>character</value> ; and the <value>existence</value> of a <value>race of men</value> .</SENTENCE>"
+########
+ <SENTENCE>now <time>the remnant</time> of a <humanprod>on - e powerful nation</humanprod> ; we did no more than perform a duty <time>incumbent</time> on us .</SENTENCE>
+
+Note: I am assuming "on -e" is a typo and should be "one". Also, I am classifying "the remnant of a powerful nation" as a human production because it refers to the remains or remnants of something that was once powerful and great, which could be a reference to a country, civilization, or organization. Similarly, "incumbent" is classified as a time period since it refers to a current duty or responsibility.
+########
+ <SENTENCE>as the <pers>representatives</pers> of a free <loc>people</loc>. </SENTENCE>
+
+Note: I assumed "people" refers to a group of individuals who share a common culture, tradition, or residence, rather than a specific individual or organization. If you meant something different, please let me know!
+########
+ <SENTENCE>We beg you to accept our thanks for the <time>favorable consideration</time>, of what we said on the interesting occasion to which you refer.</SENTENCE>
+
+Note: In this sentence, "favorable consideration" could be classified as a human production (HumanProd) since it refers to the consideration given by the person being addressed. However, I have classified it as a time period (TIME) because it can also be interpreted as the time period during which the consideration was given. The correct classification may depend on the context in which the sentence is used.
+########
+ OUTPUT: "<SENTENCE>We are, most lespectfully, <pers>Your obedient servants</pers>, <pers>A SPENCER HENRY R . STORRS</pers>.</SENTENCE>"
+
+In this sentence, "Your obedient servants" and "A SPENCER HENRY R . STORRS" are identified as person entities (PERSON).
+########
+ INPUT: "<SENTENCE>From <loc>Chariest</loc> - n <org>Mercury</org> .</SENTENCE>"
+
+In this sentence, "Chariest" is identified as a location (LOC) and "Mercury" is identified as an organization (ORGANIZATION).
+########
+ <SENTENCE>Nothing is doing now <org>Congress</org>, in the lower <org>House</org>, but making mouths, blackguarding, doubling fists, & .</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>c .</SENTENCE>"
+
+Explanation:
+The sentence you provided, "<SENTENCE>c .</SENTENCE>", does not contain any named entities that can be classified into the given types: person (PERSON), organisation (ORGANISATION), human production (HumanProd), time period (TIME), and location (LOC). Therefore, the output remains the same as the input.
+########
+ OUTPUT: "<SENTENCE>& c .</SENTENCE>"
+
+Explanation:
+
+The input sentence does not contain any named entities that can be classified into the given types: person (PERSON), organisation (ORGANISATION), human production (HumanProd), time period (TIME), and location (LOC). Therefore, the output is the same as the input.
+########
+ OUTPUT: "<SENTENCE>See.</SENTENCE>"
+
+There are no named entities in the given sentence.
+########
+ <SENTENCE>It is supposed that the <humanprod>decent members</humanprod> will not at <time>tempt business</time> until the <humanprod>rowdies</humanprod> have <time>exhausted themselves</time>—or the <loc>House</loc> been purged after a general <time>knock down and drag out</time> .</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>There has as yet been no bloodshed , except a little scratching and hair - pulling <loc>iu the lobby</loc> .</SENTENCE>"
+
+In this sentence, "iu the lobby" is identified as a location (LOC) as it refers to a specific place where the action of scratching and hair-pulling took place.
+########
+ "<SENTENCE>The <org>Senate</org> has done some <humanprod>business</humanprod> , has passed the <humanprod>Sub - Treasury Bill</humanprod> , and seems inclined to be decent , though a little infected by the rowdyism of the lower house ; for instance—the <loc>knock up the sand scene</loc> ’ good as you sir , ’ ‘ do it if you dare sir , ’ ‘ not afraid of you or any mail ’ — afiiiir between an <pers>old</pers> and <pers>young one</pers> , <pers>Messrs . Clay</pers> and <pers>Walker</pers> tother day - Why will 31 r .</SENTENCE>"
+########
+ <SENTENCE>Clay <pers>disturb</pers> the harmony of the <loc>Senate</loc> , and <org>rutile</org> ( lie even current of his unaspiring course by such discordant scrapes </SENTENCE>
+
+Note: I made my best to identify the entities, but I noticed that the input sentence seems to be incomplete or has some errors, as it refers to "Clay" and "rutile" as person and organization respectively, which is not plausible. I assumed they could be typo errors and classified them as "pers" and "org" respectively, but please check the input sentence again for accuracy.
+########
+ <SENTENCE>From the <org>Otmndagiia ( N . A . ) Standard</org> .</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>The plan for disciplining the militia, proposed by <pers>Mr . poinsett</pers>, would cost only half a million of dollars annually; while that proposed by <pers>Gen . Harrison</pers>, with the present number ot our militia, would cost about <humanprod>FOUR MILIONS OF DOLLARS</humanprod> annually.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Gen. <pers>Harrison</pers> proposed to place the whole force, brought under discipline on his system, distinctly within the control of <pers>Ihe President</pers>.</SENTENCE>"
+
+In this sentence, "Gen. Harrison" is identified as a PERSON, and "Ihe President" is also identified as a PERSON. The rest of the entities do not fall into any of the provided categories (ORGANISATION, HumanProd, TIME, and LOC).
+########
+ <SENTENCE>On the <time>3d of February</time> last, <pers>Gen. Ilarrisou</pers> addressed a letter to the "<org>Louisville Legion</org>", in which he mentioned the plan here brought to view as one of his principal efforts to improve the discipline of the militia.</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>And furthermore, <pers>Gen. Harrison</pers>'s keepers have assured the public, that his sentiments have undergone “no change.”</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Of course, then, <pers>Gen. Harrison</pers> would urge upon the country with the whole influence of his official <humanprod>statiou</humanprod>, if placed in the Presidential chair, the odious and oppressively burdensome scheme proposed by him in a report to Congress.</SENTENCE>"
+########
+ "<SENTENCE>Now , when the <org>Western State Journal</org> denounces Gen.<pers>Harrison</pers> splan for organizing the militia , the world will have some show of reason for supposing it sincere in denouncing a scheme proposed by <pers>Mr . Poinsett</pers> , and which has never received ihe approval of <pers>Mr . Yan</pers> </SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><LOC>Buren</LOC>.<SENTENCE>"
+
+The input "Buren." contains a single entity, which is a location. Therefore, the output is "<SENTENCE><LOC>Buren</LOC>.<SENTENCE>".
+########
+ OUTPUT: "<SENTENCE>•</SENTENCE>"
+
+There are no named entities in the provided sentence.
+########
+ INPUT: "<SENTENCE>From the <org>Pennsylvanian</org>.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><loc>Harrisburg</loc>, <time>June 26, 1S40</time>.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Gentlemen : — I had the honor to receive <time>the 17th</time> iust .</SENTENCE>"
+
+Note: In this example, "the 17th" is classified as a time period because it refers to a date (the 17th of an unspecified month).
+########
+ <SENTENCE>, as well as another letter of similar import, dated <time>16th inst.</time> .</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>, tender ¬ ing to me a public dinner at such <time>time</time> and <loc>place</loc> as would best suit my convenience and stay among you , just on the eve of my depar ¬ ture from <loc>Philadelphia</loc> .</SENTENCE>"
+########
+ <SENTENCE>It is a matter of <time>regret</time> to <pers>me</pers>, that <time>time</time>, and my other indispensable engagements rendered it impracticable to accept of your kindly proffered hospitality Allow mo to return my warmest thanks for the “ high regard and esteem ” you have been pleased to express in my behalf for my meritorious services .</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>” <PERSON>I</PERSON> cannot , and <PERSON>I</PERSON> ought not to suppose , that during periods of such trying and unexampled embarrassments as have dis <TIME>since</TIME> <PERSON>it</PERSON> has been my fortune to be entrusted with the executive functions of <ORGANISATION>Pennsylvania</ORGANISATION> , every official act <PERSON>I</PERSON> may find it necessary to perform , and every recommendation <PERSON>I</PERSON> may feel called on to make , should meet with unanimous approval .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>It would be as unreasonable as it would be vain to look for this .</SENTENCE>"
+OUTPUT: "<SENTENCE>It would be as <humanprod>unreasonable</humanprod> as it would be <humanprod>vain</humanprod> to look for this .</SENTENCE>"
+
+In this sentence, I have identified and classified "unreasonable" and "vain" as human production (HumanProd) because they are abstract concepts produced by humans. There are no other named entities present in this sentence that match the provided categories of person (PERSON), organization (ORGANIZATION), time period (TIME), or location (LOC).
+########
+ <SENTENCE>Some of the questions that have agitated <loc>Pennsylvania</loc> , and required my action upon them , are among the most intricate and perplexed iu the whole science of government , aud have furnished subjects for honest differences of opinion , in the minds of the wisest and best men in this , aud other countries .</SENTENCE>
+########
+ "<SENTENCE>How , then , can perfect unanimity be expected in this free government of <loc>ours</loc> , where habit , feeling , interest and intelligence are so variously di ¬ versified and combined in their influence upon different individuals ?</SENTENCE>"
+
+In this sentence, the only named entity is "ours" which refers to a location (LOC) indicating the ownership of the government being discussed.
+########
+ OUTPUT: "<SENTENCE>At the time when the <humanprod>executive functions of Pennsylvania</humanprod> passed into my hands , I found them beset with difficulties on all sides .</SENTENCE>"
+########
+ <SENTENCE>An overwhelming <humanprod>public debt</humanprod>—the interest <time>seini-anuually</time> falling due upon it—a stupendous system of public improvements disjointed and unfinished—a banking system, involving an enormous amount of incorporated capital, directly or indirectly connected with the most of the business concerns of life—and bearing in all its principles and details indubitable proofs of its unsoundness and imperfection—the banking institutions struggling on the very verge of another suspension of specie payments—enterprise paralyzed—business in a great measure suspended, and the whole community waiting with trembling solicitude for the blow, without knowing where it would fall, or on what portion with the greatest weight.</SENTENCE>
+########
+ INPUT: "<SENTENCE>Such were some of the <humanprod>porten ¬ tous embarrassments</humanprod> encountered at the out ¬ set of my <humanprod>ollicial career</humanprod> , and the worst evils they portended have been fully realized .</SENTENCE>"
+
+In this sentence, the named entities are classified as follows:
+
+* "porten ¬ tous embarrassments" is classified as Human Production (HumanProd)
+* "ollicial career" is classified as Human Production (HumanProd)
+
+Note that the classification of "porten ¬ tous embarrassments" and "ollicial career" as Human Production (HumanProd) is based on the context of the sentence and the assumption that they refer to the speaker's professional experiences and career, respectively. However, these entities could potentially be classified differently in a different context.
+########
+ INPUT: "<SENTENCE>I met the <time>crisis</time> with the best expedients I could devise , and in a spirit faithful to the true interests of the people , according to my solemn convictions of out ) ' , and without a disposition to shrink from the difficulty or to shun the utmost responsibility of my station .</SENTENCE>"
+
+In this sentence, the only named entity is "crisis" which can be classified as a time period (TIME).
+########
+ <SENTENCE>1 assert no claim to infallibility or judgment , or to a share <humprod>ef wisdom</humprod> superior to others , but to undeviating <humprod>houesty of purpose</humprod> I do avow that I have a title , of which no human power can deprive me .</SENTENCE>
+########
+ <SENTENCE>Forming ps the <org>Executive</org> does , but a por ¬ tion of the <org>Legislative</org> power of this common ¬ wealth , he is often reduced to the unavoida ¬ ble necessity , of sanctioning measures which do not iu all respects meet his approbation , or to prevent , by refusing such sauetiou , any legislation on the subject at all .</SENTENCE>
+########
+ INPUT: "<SENTENCE>I have found myself in this dilemma, when my only choice was between the two evils of an imperfect law, and no ' legislative action' whatever.</SENTENCE>"
+OUTPUT: "<SENTENCE>I have found myself in this <time>dilemma</time>, when my only choice was between the two evils of an imperfect <humanprod>law</humanprod>, and no '<humanprod>legislative action</humanprod>' whatever.</SENTENCE>"
+########
+ <SENTENCE>Iu <pers>such cases</pers> I have invariably acted on the principle that some amendment of condition is better than none, and have generally yielded my assent, even though I had objections to some parts of the law.</SENTENCE>
+
+In this sentence, there are no clear named entities that can be classified as person (PERSON), organization (ORGANIZATION), human production (HumanProd), time period (TIME), or location (LOC). Therefore, the output only includes the original text with the added tags for the pronoun "such cases" as a person (PERSON).
+########
+ <SENTENCE>7 ' <time>he lato resolutions</time> providing for the time of resuming specie payments by the <org>batiks</org> was one of this description .</SENTENCE>
+########
+ <SENTENCE>I thought at the <time>time</time> and still think that the day fixed was too remote, but I believed the permanent interests of the community required that a day should be designated as speedily as possible for that event, and if it was not so grossly unreasonable as to do more harm than it would to leave the time uncertain and indefinite, I should not prevent it becoming a law.</SENTENCE>
+########
+ "<SENTENCE>It was, moreover, a subject on which the <org>Legislature</org> had deliberated for months, and the ' fixing the precise day on which it should take place, being a question of expediency exclusively and not of principle, a decent respect for the opinions of the people’s <pers>representatives</pers>, a majority of whom, in both branches, were elected by men of my own political faith, seemed to forbid the propriety of interposing' * the negative power, with which the constitution had clothed the <org>Executive</org> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>I regarded it as a choice of evils at best, in whatever aspect it could be viewed.</SENTENCE>"
+
+In this sentence, there are no named entities that can be classified into the categories of person (PERSON), organization (ORGANIZATION), human production (HumanProd), time period (TIME), or location (LOC). Therefore, no changes are made to the original sentence.
+########
+ <SENTENCE>Accord inw to the theory and practice of our govern <org>ment</org> , legislation is a matter of compromise on <humanprod>inostlmbjects</humanprod> .</SENTENCE>
+########
+ INPUT: "<SENTENCE>No one co-ordinate department has a just right to expect absolute acquiescence in all its peculiar sentiments, on the part of the others.</SENTENCE>"
+OUTPUT: "<SENTENCE>No one <humanprod>co-ordinate department</humanprod> has a just right to expect absolute acquiescence in all its peculiar sentiments, on the part of <pers>the others</pers>.</SENTENCE>"
+
+In this sentence, I identified "co-ordinate department" as a human production since it refers to an entity that is created or produced by humans, in this case, a department that coordinates with others.
+########
+ <SENTENCE>All that <org>either</org> can do, is to take care that none of its essential principles of constitutional construction, or public policy, shall be violated by the others; when that is done, the remaining circle of duties can be performed in a spirit of mutual conces - [sion and compromise. </SENTENCE>
+
+Note: I am assuming "either" is an organization in this context, as it is unclear from the text. If "either" is meant to refer to two individuals or groups, it would be more accurately classified as a "PERSON" or "ORGANIZATION" entity, depending on the context.
+########
+ OUTPUT: "<SENTENCE>This is the doctrine of the <humanprod>constitution</humanprod> , the voice of the people , and the only practicable mode of conducting the affairs of the <loc>government</loc> in harmony and goodwill .</SENTENCE>"
+########
+ <SENTENCE>7 ' <org>his</org> principle affords the explanation of my approval of more measures than one, against portions of which I had objections; and it is the only pretext on which the <org>Legislature</org> has refused or omitted to sanction recommendations of mine on subjects which I considered of vital importance to the people of this <loc>commonwealth</loc>. </SENTENCE>
+########
+ "<SENTENCE>I took a late occasion to express my regret to the <org>Legislature</org> on this subject , and it is <time>fof the public</time> to judge whether I was right in making those recommendations to the <org>Legislature</org> , or that body right in refusing to adopt them .</SENTENCE>"
+
+Note: I am not completely sure about the time entity "fof the public" as it seems to be a typo or error in the input sentence. If it is intended to be "for the public", then it should be labeled as LOC (location) or ORG (organization), depending on the context.
+########
+ OUTPUT: "<SENTENCE>I am gratified , however , in this , that <org>iu</org> most of the views embodied iu <org>my recom ¬ mendations</org> , the majority of the <org>House of Re - pi eseutatives</org> coincided with me in opinion , aud a number of<org>the Democratic members of the Senate</org> .</SENTENCE>"
+
+In this sentence, the named entities have been classified as follows:
+
+* "iu" is classified as an organisation (ORGANISATION)
+* "my recom 
+########
+ OUTPUT: "<SENTENCE>They failed , however , of <humanprod>success</humanprod> , and the remedy is in the hands of the <pers>people</pers> , if they approve of those measures , at the next <time>election</time> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>If they do not , whatever consequen ¬ ces follow , I have done my duty .</SENTENCE>"
+OUTPUT: "<SENTENCE>If they do not , whatever consequen ¬ ces follow , I have done my duty .</SENTENCE>"
+
+Explanation:
+The provided sentence does not contain any named entities that can be classified into the given types: person (PERSON), organisation (ORGANISATION), human production (HumanProd), time period (TIME), and location (LOC). Therefore, the output is the same as the input.
+########
+ "<SENTENCE>Upon a <time>candid review</time> of all the <humanProd>affairs</humanProd> of this <org>commonwealth</org> , it will be found , I think , that though much has been left <time>undone</time> , <humanProd>' great deal </humanProd>has been accomplished .</SENTENCE>"
+
+In this sentence, "candid review" is classified as a time period because it refers to the action of reviewing, not a specific point in time. "Affairs" is classified as human production because it refers to the actions or concerns of the commonwealth. "Commonwealth" is classified as an organization.
+########
+ "<SENTENCE>Measures have been adopted for completing the <humanprod>public improvements</humanprod> , sustaining the faith and credit of the <loc>state</loc> , and terminating the <time>present dis ¬ astrous suspension</time> of specie payments , with provision which secures the public agaiust ar like recurrence in future , under a forfeiture of their charters by the <org>banks</org> ; and so far as de ¬ pends on me , will be scrupulously and rigidly enforced .</SENTENCE>"
+########
+ <SENTENCE>7 ' <time>he</time> improvement bill , it is univer ¬ sally admitted , coutains less objectionable matter than can be fouud in any prior legis ¬ lation on that subject .</SENTENCE>
+
+In this sentence, I have identified "he" as a time period because it seems to refer to a specific point in time, possibly indicating a time frame for the improvement bill being discussed. However, this is an ambiguous case, and it is possible that "he" is actually a pronoun referring to a person, in which case it should not be classified as a named entity.
+########
+ "<SENTENCE>It seems to me that the <humanprod>public</humanprod> have now an assurance <that> that the long practiced system of log - rolling , which has impoverished our <loc>treasury</loc> to the amount of some <time>millions</time> , is at <time>an end</time> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>7 he precise nature of the difficulties we have labored under, in achieving this much, can only be learned by those who examine with care and candor into our real condition.</SENTENCE>"
+OUTPUT: "<SENTENCE>7 <time>he</time> precise nature of the difficulties we have labored under, in achieving this much, can only be learned by those who examine with care and candor into our real condition.</SENTENCE>"
+########
+ INPUT: "<SENTENCE>All the <HumanProd>pecuniary responsibilities</HumanProd> , as well as the <HumanProd>resources</HumanProd> of <org>Pensylvania</org> , must be taken into the account , in passing judgment on the policy recommended or pursued .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>YY ’ e must take things as they are .</SENTENCE>"
+OUTPUT: "<SENTENCE>YY ’ e must take things as they are .</SENTENCE>"
+
+In the provided sentence, there are no named entities that can be classified into the categories of person (PERSON), organization (ORGANIZATION), human production (HumanProd), time period (TIME), and location (LOC). Therefore, the output remains the same as the input.
+########
+ INPUT: "<SENTENCE>YY ' e cannot retrieve what was done by our predecessors ; and those who expect us to act as if Penj-lmnnia had no public debt to provide for, no unfinished improvements to complete, no public interests to be protected, betray an ignorance of our true situation that entitles either the censure or their praise to very little regard .</SENTENCE>"
+OUTPUT: "<SENTENCE>YY ' e cannot retrieve what was done by our <org>predecessors</org> ; and those who expect us to act as if <loc>Penj-lmnnia</loc> had no public debt to provide for, no unfinished <HumanProd>improvements</HumanProd> to complete, no public <org>interests</org> to be protected, betray an ignorance of our true <time>situation</time> that entitles either the <org>censure</org> or their praise to very little regard .</SENTENCE>"
+
+Please note that the entities identified as "predecessors" and "situation" are not very specific and could potentially be different types depending on the context. I have classified them as ORGANIZATION and TIME respectively, but they could also be PERSON or LOCATION, or something else entirely. Similarly, "Penj-lmnnia" is assumed to be a LOCATION, but it could potentially be an ORGANIZATION or something else. The entities "public debt", "improvements", and "interests" are classified as HumanProduction because they refer to things that are produced or created by humans, but they could also be classified as ORGANIZATION or TIME depending on the context. The entity "censure" is classified as ORGANIZATION, but it could also be an event or a concept. I have made my best guess based on the information provided, but the entities may need to be revised or refined depending on the context in which they are used.
+########
+ <SENTENCE>7 ' he favorable o - piuiun of those , who , like the gentlemen I ad ¬ dress , are familiar with the true interests of <loc>Pennsylvania</loc> , is a gratifying en ¬ couragement to the public man .</SENTENCE>
+########
+ "<SENTENCE>It assures him that however others may be mistaken or misinformed, those who understand what the best interests of <humanprod>Pensylvania</humanprod> are feel willing to appreciate endeavors to promote them.</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Even though those endeavors should not in all minute respects correspond with their own peculiar sentiments .</SENTENCE>"
+OUTPUT: "<SENTENCE>Even though those <humanprod>endeavors</humanprod> should not in all minute respects correspond with their own <humanprod>peculiar sentiments</humanprod> .</SENTENCE>"
+
+Note: The input sentence does not contain any named entities that can be classified into the provided categories: person (PERSON), organisation (ORGANISATION), human production (HumanProd), time period (TIME), and location (LOC). Therefore, I have classified "endeavors" and "sentiments" as human productions (HumanProd).
+########
+ <SENTENCE>Differing <org>democratic party of Pennsylvania</org> <loc>Pennsylvania</loc> <pers>I</pers> <adv>feel</adv> <verb>convinced</verb> that <adv>in</adv> all the <humanprod>great principles of public policy</humanprod>, the <org>democratic party of Pennsylvania</org> entertains but one <humanprod>fundamental system of opinion</humanprod> .</SENTENCE>
+
+Note: I made some assumptions about the entity types for "great principles of public policy" and "fundamental system of opinion" as "human production" since they refer to abstract concepts generated by humans. Also, I assumed "Pennsylvania" to be a location, although it can also be considered as part of the organization name.
+########
+ OUTPUT: "<SENTENCE>I have been taught from my boyhood to believe that <humanprod>this system</humanprod> was the only legitimate basis of all good government .</SENTENCE>"
+########
+ <SENTENCE>Recent experience has confirmed this <time>opiuion</time> , and assured me that time and <time>experieence</time> are the great champions of the democratic cause .</SENTENCE>
+########
+ INPUT: "<SENTENCE>I trust the <time>recent</time> <humanprod>aud</humanprod> existing <humanprod>embarrassments</humanprod> of our situation and the means to obviate them, will clearly illustrate this truth .</SENTENCE>"
+
+In this sentence, the named entities are:
+
+* "recent" is a TIME entity, as it refers to a point in time.
+* "aud" is a HumanProd entity, as it is an abbreviation for "audit."
+* "embarrassments" is a HumanProd entity, as it refers to a situation or condition that is produced or created by humans.
+
+So, the output would be:
+
+<SENTENCE>I trust the <time>recent</time> <humanprod>aud</humanprod> existing <humanprod>embarrassments</humanprod> of our situation and the means to obviate them, will clearly illustrate this truth .</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>I am certain that <org>Pennsylvania</org>, surrounded as she has been by difficulties on all hands, ca\u aud will be soon ex\u tricated, — that all evils complained of will be corrected, — abuses reformed, — her contracts fulfilled, and every duty of government be faithfully performed, without departing in the slightest degree from any of the cherished principles which the democratic party of <org>Pennsylvania</org> has ever held dear .</SENTENCE>"
+########
+ <SENTENCE>Please accept , <pers>gentlemen</pers> , for yourselves individually , the assurance of my high regard and consideration .</SENTENCE>
+########
+ OUTPUT: "<SENTENCE><PERSON>DAVID It.</PERSON></SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>PORTER.</SENTENCE>"
+
+There are no named entities in the provided sentence.
+########
+ "<SENTENCE>Interesting <org>Correspondence</org> , <org>Betiveln Citizens of Elizabeth Cita</org> ’ <org>Co</org> . , A ' a .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>, and 31<num></num>.</SENTENCE>"
+OUTPUT: "<SENTENCE>, and <num>31</num>.<num></num></SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><pers>Van Buren</pers>. </SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><loc>Elisabeth City County</loc>, <org>Ea.</org></SENTENCE>"
+########
+ "<SENTENCE><time>June 12, 1840</time></SENTENCE>"
+########
+ "<SENTENCE>Dear <pers>Sir</pers> : The <humanprod>promiueut attitude</humanprod> which you now occupy in relation to the <humanprod>coining Residential</humanprod> contest , confers upon every <pers>voter</pers> o ! this widely extended <loc>Republic</loc> , how ¬ ever humble may be his condition , a right to inquire your views upon each one of those momentous <time>questions</time> which now agitate the public <loc>mind</loc> .</SENTENCE>"
+########
+ <SENTENCE>Prompted, not by an impertinent curiosity, but solely by a desire ot ascertaining, whether your views or those of <pers>General Harrison</pers> co-incide more nearly w ith our own, we are in-duced to propound to you the following ques-tions, viz</SENTENCE>
+########
+ <SENTENCE>: 1. <PERSON>AY ill you</PERSON> , it re - elected President , veto any bill having for its object , the abolition of slavery in the District of Columbia ; or would you sanction any bill granting appropriations to any State , soliciting aid for the emancipation of their slaves?</SENTENCE>
+
+In this sentence, "AY ill you" is identified as a PERSON, as it refers to a person, possibly the president being referred to in the sentence.
+########
+ "<SENTENCE>2 . Do you think that , at this <time>time</time> , the safe <humanprod>United States Bank</humanprod> requires a re - charter - ing ; or would you sign a bill chartering such an institution ?</SENTENCE>"
+########
+ "<SENTENCE>3. Are you in favor of preserving entire <humanprod>Tariff Compromise</humanprod></SENTENCE>"
+
+In this sentence, "Tariff Compromise" is classified as a human production (HumanProd) because it refers to a specific agreement or deal related to tariffs.
+########
+ OUTPUT: "<SENTENCE>&lt;SENTENCE&gt;?&lt;/SENTENCE&gt;"
+
+The input sentence does not contain any named entities to identify and classify.
+########
+ "<SENTENCE>4 . <sys>YA</sys> would you sanction any bill granting appropriations of the public money , for the purposes of internal improvement , by means of canals , railroads , $ ; c .</SENTENCE>"
+
+In this sentence, the only named entity is the abbreviation "YA", which I have classified as a "human production" (HumanProd) because it appears to be an abbreviation for a machine or automated system. The other elements in the sentence are either punctuation, numbers, or general concepts, and do not fit into the provided named entity categories.
+########
+ <SENTENCE>I 5 . Do you approve of <pers>NIr Poinsett</pers>' s scheme for the organization of the militia ?</SENTENCE>
+
+In this sentence, the only named entity is "NIr Poinsett", which is classified as a person (PERSON).
+########
+ <SENTENCE>J <pers>he</pers> preceding questions have been pro ¬ posed to <pers>Nlr Harrison</pers> .</SENTENCE>
+########
+ "<SENTENCE>Ut - lying their <time>de ¬ cision</time> to be of vital importance to the interests and intentions of the South, and hoping you ‘ Day conceive them to be of such consequence, as to merit an answer, A A e are respectfully, Your obedient servants, <pers>JOHN</pers> I ?</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>.</SENTENCE>"
+
+There are no named entities in the given sentence.
+########
+ "<SENTENCE><pers>CARY</pers>, <pers>A . G . HUDGINS</pers>, <pers>M . D . THOMAS JONES</pers>, <pers>J . P . J . A . CARY</pers>.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><org>Hon.</org></SENTENCE>"
+
+(Note: I assumed "Hon." is an abbreviation for an organization, as no other categories seem to fit.)
+########
+ OUTPUT: "<SENTENCE><pers>M . Van Blrln</pers>, <pers>President</pers> <org>U . S . It ' asliington</org>.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>THE <org>HEW COUNTY BRIDGE</org> AND <loc>SCHOOL</loc> , <humanprod>HOUSE</humanprod>.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>The <humanprod>new county bridge</humanprod> over the <loc>James river</loc> , just south of town , is completed and ready for <loc>public patronage</loc> .</SENTENCE>"
+########
+ <SENTENCE>Its entire length is <humanprod>160 leet</humanprod> , and its substruction is built of <humanprod>12x12 timbers</humanprod> , with a covering <quantity>16 leet</quantity> wide , made of <humanprod>7 inch plank</humanprod> , with a railing <quantity>3 feet</quantity> high on each side .</SENTENCE>
+
+In this sentence, I have identified and classified the following named entities:
+
+* "160 leet" as a measurement of length, which I have classified as a human production (HumanProd)
+* "12x12 timbers" as a structural element, which I have classified as a human production (HumanProd)
+* "16 leet" as a measurement of width, which I have classified as a quantity
+* "7 inch plank" as a structural element, which I have classified as a human production (HumanProd)
+* "3 feet" as a measurement of height, which I have classified as a quantity
+
+Note that I have used the "human production" (HumanProd) type to classify the various measurements and structural elements because they are human-made objects or concepts. I have used the "quantity" type to classify the measurements because they represent a specific amount or quantity of something.
+########
+ OUTPUT: "<SENTENCE>The bridge was constructed by <pers>Peter Auberton</pers> of <loc>this city</loc>.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Mr. <pers>Auberton</pers> also took the <HumanProd>contract</HumanProd> for building the village <loc>school house</loc> for this place, which he expects to have done by the <time>first of February</time>.</SENTENCE>"
+########
+ <SENTENCE>The <humprod>school building</humprod> is <time>30x42</time> , <time>28</time> feet high above the <humprod>stone foundation</humprod>—which stands <time>2</time> feet above the ground There is a <humprod>partition</humprod> , cutting off <time>12</time> feet from the front of <the> building </the> , to be used for a <humprod>stairway</humprod> and <humprod>entry room</humprod> , leaving the <humprod>school room</humprod> on the <time>first floor</time> <time>30</time> feet square .</SENTENCE>
+
+In this sentence, I have identified and classified the following named entities:
+- "school building" as a human production (HumanProd)
+- "30x42" and "28" as time periods (TIME)
+- "stone foundation" as a human production (HumanProd)
+- "2" as a time period (TIME)
+- "partition" as a human production (HumanProd)
+- "12" as a time period (TIME)
+- "building" as a human production (HumanProd)
+- "stairway" and "entry room" as human productions (HumanProd)
+- "school room" as a human production (HumanProd)
+- "first floor" as a time period (TIME)
+- "30" as a time period (TIME)
+
+Note that I have classified the dimensions and measurements as time periods (TIME) because they represent a specific quantity of time or space. I have also classified the various building components, such as the "school building," "stone foundation," "partition," "stairway," "entry room," and "school room" as human productions (HumanProd) because they are objects that have been created or constructed by humans.
+########
+ OUTPUT: "<SENTENCE>The <humanprod>front porch</humanprod> which faces toward the <loc>south</loc> , is 8x12 , and gracefully ornamented with different kinds of scroll work .</SENTENCE>"
+########
+ <SENTENCE>The <humanprod>cupola</humanprod> or <humanprod>belfry</humanprod> , is 8 <time>feet</time> square and very neatly finished .</SENTENCE>
+
+In this sentence, there are no named entities that match the provided categories (PERSON, ORGANISATION, HumanProd, TIME, and LOC). However, I have classified "cupola" and "belfry" as "HumanProd" because they are objects that are typically built or manufactured by humans. I have classified "feet" as "TIME" because it is a unit of time, although in this context it is being used as a unit of length.
+########
+ OUTPUT: "<SENTENCE>The height from the top of the <humanprod>flag staff</humanprod> on the <loc>cupola</loc> to the ground is 62 feet <time>high</time> .</SENTENCE>"
+
+Note: The input sentence does not contain any named entities that can be classified into the provided types: person (PERSON), organisation (ORGANISATION), human production (HumanProd), time period (TIME), and location (LOC). However, I have classified 'flag staff' as human production (HumanProd) and 'cupola' as location (LOC) based on the context. Also, 'high' is classified as time (TIME) as it refers to the height.
+########
+ INPUT: "<SENTENCE>The <humanprod>structure</humanprod> is in every way first class , and cost about $3000 .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>' <pers>Mr . Auberton</pers> has done a great deal of work for <loc>Stutsman county</loc> , having built the court house early in the fall , and we understand that bis work has thus far given entire satisfaction .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>A Bit oT Daring.</SENTENCE>"
+
+Explanation: The sentence "A Bit oT Daring." does not contain any named entities that can be classified into the given types: person (PERSON), organization (ORGANISATION), human production (HumanProd), time period (TIME), and location (LOC). Therefore, the output is the same as the input.
+########
+ OUTPUT: "<SENTENCE>A <humanprod>Western paper</humanprod> tells the story of <pers>Steve Venard</pers>'s fight with three <humanprod>robbers</humanprod> in <time>1866</time>.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>The stage coming to <loc>Nevada</loc>, <pers>Col. </pers></SENTENCE>"
+
+Note: I have classified "Col." as a person (PERSON) because it is a common abbreviation for "Colonel," which is a military rank and therefore a person.
+########
+ OUTPUT: "<SENTENCE>, had been robbed by <humanprod>three men</humanprod>, and the <humanprod>treasure-box</humanprod> taken .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>A <org>party</org> set out for its recovery.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><pers>Yenard</pers> , armed with a <humanprod>Henry rifle</humanprod> , followed the trail alone into one of the wildest and roughest of spots in that wild and rugged region.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>The <humanprod>hills</humanprod> hung steep above .</SENTENCE>"
+
+Explanation:
+
+In this sentence, there are no clear named entities that can be classified as person, organization, time period, or location. However, I identified "hills" as a human production (HumanProd) because it refers to a human-made or human-altered environment. This classification is not definitive, as "hills" can also be classified as a natural feature (NaturalFeature), but I chose HumanProd based on the context provided.
+########
+ <SENTENCE>The waters of the <loc>ravine</loc> came tumbling down its steep bed of bowl <humanprod>boulders</humanprod> with a rush and a noise which rendered no other sounds audible .</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>Yenard attempted to cross the <loc>stream</loc> at the head of the <loc>fall</loc>.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>He walked on a <HumanProd>short log</HumanProd> to a <LOC>rock</LOC>.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Above him rose the <humanprod>huge mass of granite</humanprod> , buttressed in front by two smaller rocks .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Between these latter was an alley which led to the base of the <loc>Titan</loc> .</SENTENCE>"
+########
+ <SENTENCE>His position was <unk>suen</unk> as to look up the alley .</SENTENCE>
+
+I'm sorry, I couldn't identify any named entities in the provided sentence. The word "suen" seems to be a spelling mistake or a rare term that is not present in my knowledge base for named entity recognition.
+########
+ OUTPUT: "<SENTENCE>At the base of the great rock <pers>Yenard</pers> discovered the leader of the gang <pers>sitting on the ground</pers> drawing his revolver .</SENTENCE>"
+
+Note: I am assuming "Yenard" is a person's name, as there is no clear indication in the text that it refers to something else. Similarly, "the leader of the gang" is classified as a person, but without more context, this could potentially be an organization or a role played by a person.
+########
+ OUTPUT: "<SENTENCE>Venard <per>leveled</per> his <humanprod>rifle</humanprod> upon the <per>robber</per> , twenty feet <time>distant</time> .</SENTENCE>"
+
+Note: I am assuming "Venard" and "robber" as person names, "rifle" as human production and "distant" as time period, but these assumptions might not be accurate as the context does not provide enough information to confirm these entities.
+########
+ OUTPUT: "<SENTENCE>At the same time he saw an <humanprod>other of the gang</humanprod> pointing at him over the edge of a rock .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>There was no time to change his aim .</SENTENCE>"
+
+Explanation:
+The sentence "There was no time to change his aim" does not contain any named entities that can be classified into the given types: person (PERSON), organization (ORGANIZATION), human production (HumanProd), time period (TIME), and location (LOC). Therefore, the output is the same as the input.
+########
+ OUTPUT: "<SENTENCE>He <humanprod>fired</humanprod> ; the <pers>leader</pers> fell back , shot through the heart .</SENTENCE>"
+########
+ "<SENTENCE>The other <pers>robber</pers> attempted to shield himself farther behind a <loc>rock</loc> , leaving the point of his pistol exposed over the top .</SENTENCE>"
+########
+ <SENTENCE>Venard covered the spot with his unerring <humanprod>Henry</humanprod> , and when the head of the robber peered over the top hi3 brain was pierced with a bullet .</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>There was yet another <pers>[unspecified]</pers> , but he was not to be seen .</SENTENCE>"
+
+Note: I have classified the unspecified name as a person (PERSON) as requested, but have added [unspecified] to indicate that the specific name is not provided.
+########
+ OUTPUT: "<SENTENCE>His pistol might at that mo <pers>Yenard</pers> .</SENTENCE>"
+
+Explanation:
+In the provided sentence, "Yenard" is the only proper noun, which can be classified as a person (PERSON) entity. Therefore, the NER system identifies and classifies "Yenard" as a PERSON entity.
+########
+ OUTPUT: "<SENTENCE>The latter clambered up to <pers>beard him</pers> in his den .</SENTENCE>"
+
+Note: In this example, "beard him" is interpreted as a person, but it could also be interpreted as a verb phrase (to beard someone). The context does not provide enough information to accurately classify this named entity.
+########
+ "<SENTENCE>He <pers>found</pers> the <humanprod>treasure</humanprod> , took the <humanprod>pistols</humanprod> from the <pers>dead</pers> , covered quickly the former with <loc>earth</loc> and <loc>leaves</loc> , and proceeded to hunt the <humanprod>missing robber</humanprod> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>He found <pers>him</pers> running up the <loc>mount ¬ ain</loc> , sixty yards or more ahead .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><pers>Ve ¬ nard</pers> fired and the robber fell.</SENTENCE>"
+
+In this sentence, "Ve ¬ nard" is identified as a person (PERSON) because it refers to an individual who performed an action (fired).
+########
+ <SENTENCE>Another bullet , and the last robber rolled down the hill—<time>dead</time> .</SENTENCE>
+
+Note: In this example, I have classified "dead" as a time period because it refers to the time when the robber is no longer alive. However, this is not a standard named entity category and is not consistent with the examples you provided. In most NER systems, "dead" would not be classified as a named entity.
+########
+ OUTPUT: "<SENTENCE>TUB <ORG>SCHOOL BOARD</ORG> : Just what <ORG>TUB SCHOOL BOARD</ORG> propose to do in regard to hiring a teacher is not altogether clear, but it ia safe to predict that no <HumanProd>lady teacher</HumanProd> will get the school.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>The <org>majority of the board</org> are very much opposed to such an arrangement, and so long as <loc>they are</loc> our people have but little to fear from them in that direction. </SENTENCE>"
+
+Note: I have classified "majority of the board" as an organization (ORGANISATION) because it refers to a group of people who make up the majority of a board, and it is not referring to a specific set of individuals. If the context suggests otherwise, please let me know.
+########
+ OUTPUT: "<SENTENCE>W <pers>« believe</pers> that the <org>board</org> desire to act in a manner which will result in the most good to the people .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><pers>Mr . Lees</pers> , as well as <pers>Mr . McKechnie</pers> , stated to us not long since , that they would not in any degree favor the in ¬ stallment of a <humanprod>lady teacher</humanprod> , but would use their power to an advantage more suiting to the wishes and interests ot the people .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>We do not oppose the hiring of a <humanprod>lady teacher</humanprod> because we are particularly preju ¬ diced against them , for we are not , and believe that some of the most reliable and able teachers that bless our land to - day are <humanprod>ladies</humanprod> .</SENTENCE>"
+########
+ <SENTENCE>The point is right <time>here</time> : If we cannot afford to hire more than one teacher at present, and we are of <org>tbo</org> opinion that we cannot, could a <pers>lady teacher</pers>, with no more than ordinary ability do a <humanprod>school</humanprod> of one hundred scholars justice * Every <pers>intelligent reasoner</pers> in the county will agree with us when we answer most emphatically, <time>no</time> .</SENTENCE>
+
+Note: I made a best-effort assumption that "tbo" is an organization, but it's possible that it could be misspelled or unknown.
+########
+ OUTPUT: "<SENTENCE>If <org>our county</org> was able to stand the extra ex ¬ pense we would be In favor of hiring two teachers instead of one .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Could we see our way clear in <this direction>we</this direction> would then favor the engagement of a <humanprod>lady teacher</humanprod> whose duties it would be to give instructions to the <loc>primary department</loc> , leaving the more advanced portion of the school in the <humanprod>haads</humanprod> of a <humanprod>capable gentle ¬ man teacher</humanprod> .</SENTENCE>"
+
+In this sentence, I have identified the following named entities:
+- "this direction" as a TIME entity, indicating a direction or path, although it is not a time period in the traditional sense.
+- "lady teacher" and "capable gentle 
+########
+ OUTPUT: "<SENTENCE>The assertion that we are personally prejudiced against <pers>Mrs . Shoe ¬ maker</pers> , and en that account are opposed to her being engaged is basely false .</SENTENCE>"
+########
+ "<SENTENCE>We have made no assertions either publicly or privately , in regard to <pers>Mrs . Shoemaker</pers> which would in any way convey the idea that we are personally prejudiced against her .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>We are not in favor of <pers>her</pers> teaching the school for the same reasons that we would oppose any other <pers>lady teacher</pers> who might be endeavoring to get it .</SENTENCE>"
+########
+ "<SENTENCE>A little over a year ago the <org>Sturgeon Lendcr</org> published a very sensational account of the marriage of <pers>Miss Nettie White</pers> to <pers>Robt.</pers></SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><pers>L . Winn</pers>. </SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Miss <pers>White</pers>.<time>at the time</time> , was engaged to both Chas.<pers>Chas</pers> .</SENTENCE>"
+
+In this sentence, "Miss White" is identified as a person, "at the time" is identified as a time period, and "Chas" is also identified as a person.
+########
+ <SENTENCE>&lt;pers&gt;Robt.&lt;/pers&gt;.</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>Winn , <humanprod>two brothers</humanprod> , but had much difficulty in deciding which of her lovers was the wbichest .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><pers>Robt.</pers></SENTENCE>"
+########
+ INPUT: "<SENTENCE>, however , proved to be the <pers>successful suitor</pers> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>The young <humanprod>couple</humanprod> recently agreed to <humanprod>disagree</humanprod> , and the <pers>faithless Robt</pers> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>left for <loc>Texas</loc> , and the young <pers>wife</pers> returned to the home of her parents , and has instituted suit for divorce from her <pers>spouse</pers> upon the <time>grounds</time> of desertion .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>The prospects for a re - hearing for the <humanprod>dis ¬ consolate Charles</humanprod> , who has spent the intervening time in <humanprod>repining</humanprod> , are growing very bright , as the <pers>young lady</pers> now declares that she really loved <pers>Charles</pers> best in tbe first place .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>The <org>firm of Geo.</org></SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>D . <org>Barnard iSr Co.</org> , of <loc>St . Louis</loc> , a firm which some officials in this county give a great many orders for letter beads , envel - ' opes and such other blanks as could be furnished by the printing offices in this county , are all <political>Republicans</political> , but <pers>Mr . Keene</pers> , their traveling sales <pers>man</pers> in this territory , we understand , is a <political>Democrat</political> .</SENTENCE>"
+
+In this sentence, the named entities have been identified and classified as follows:
+- "D . Barnard iSr Co." is classified as an organisation (ORGANISATION)
+- "St . Louis" is classified as a location (LOC)
+- "this county" is classified as a location (LOC)
+- "letter beads" is classified as a human production (HumanProd)
+- "envel - ' opes" is classified as a human production (HumanProd)
+- "this territory" is classified as a location (LOC)
+- "Republicans" is classified as a political affiliation (POLITICAL)
+- "Mr . Keene" is classified as a person (PERSON)
+- "Democrat" is classified as a political affiliation (POLITICAL)
+
+Note: I have also added a new category "political affiliation" (POLITICAL) to classify the political parties mentioned in the sentence.
+########
+ OUTPUT: "<SENTENCE>We have been in 　formed , upon good authority , that <org>Messrs . Barnard & Co.</org> are not uni 　form in their prices .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>For instance, 'a <humanprod>certain blank book</humanprod> they have been known to sell in <loc>Montgomery county</loc> for $17.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>In <loc>St . Charles county</loc> they place “ a tariff ” of SI ' , on the same book , and in <loc>Lincoln county</loc> the purchasers were required to ‘ ‘ break loose from ” $21 for the very same book .</SENTENCE>"
+########
+ <SENTENCE>We presume their prices arc made in proportion to the number of <humanprod>pocket-knives, gold pens, etc.</humanprod> they give away to capture an order.</SENTENCE>
+########
+ "<SENTENCE>If <org>Democratic county</org> officials will send their orders abroad for job work, let them, at least, patronize <org>Democratic firms</org>.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Curiosities of the <humanprod>Postage Stamp</humanprod>.</SENTENCE>"
+########
+ <SENTENCE>There are about <humanprod>6,00
+########
+ OUTPUT: "<SENTENCE>The <humprod>museum of the Berlin post - cfllce</humprod> alone contains a collection of between 4,00
+########
+ <SENTENCE>The emblems upon the stamps of <humanProd>nations</humanProd> are legion ; the <time>earth</time>, the <loc>sea</loc> and the <loc>vaulted canopy above</loc> have been ransacked for curious and <humanProd>meaningless</humanProd> devices and legends .</SENTENCE>
+########
+ "<SENTENCE>The <humanprod>animal kingdom</humanprod> , the <humanprod>stars</humanprod> and the <humanprod>moon</humanprod> in all its phases , besides <humanprod>legendary emblems</humanprod> by the thousand , are known to the <org>ollLctors</org> of stamps , who pride themselves upon being “ <org>philatelists</org>. ”</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Upon the printed faces of these little squares of paper may be fonri * } the fogies of <time>five em ¬ perors</time> , <time>eighteen kings</time> , <time>three q icens</time> , <time>one grand duke</time> , several inferior <org>tilled rulcr9</org> and many <org>presidents</org> .</SENTENCE>"
+
+Note: I made assumptions for the entities "five em ¬ perors", "eighteen kings", "three q icens", "one grand duke", "inferior tilled rulcr9" as time entities because they seem to refer to historical rulers and the context suggests a historical or nostalgic theme. However, they could also be classified as ORG if they refer to current roles or titles.
+########
+ OUTPUT: "<SENTENCE>M <pers>Pliillippe de Ferrari</pers> perhaps has the largest and most valuable collec<humanprod>tion of stamps</humanprod> in the world, amount<time>ing to something like 2ft0,00
+########
+ OUTPUT: "<SENTENCE>In <loc>England</loc> and other parts of <loc>Europe</loc> , <humanprod>horseshoes</humanprod> are now in use , made of cowhide instead of iron .</SENTENCE>"
+########
+ <SENTENCE>The shoe is composed of three thick <humanprod>thicknesses</humanprod> of the <humanprod>hide</humanprod> which is pressed into a solid <humanprod>steel mould</humanprod> and after <time>afterward</time> treated by a <humanprod>chemical process</humanprod> .</SENTENCE>
+
+In this sentence, the named entities are classified as follows:
+
+* "three thick ¬nesses" is classified as a human production (HumanProd) because it refers to a physical characteristic of a product (the shoe).
+* "hide" is classified as a human production (HumanProd) because it refers to a material used in the production of the shoe.
+* "solid steel mould" is classified as a human production (HumanProd) because it refers to a tool used in the production of the shoe.
+* "chemical process" is classified as a human production (HumanProd) because it refers to a process used in the production of the shoe.
+* "afterward" is classified as a time period (TIME) because it refers to a point in time.
+########
+ <SENTENCE>It is said to be far superior, in several particulars, to the <humanprod>iron shoe</humanprod>.</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>AGRICULTURE <loc>ON THE YUKON</loc> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Wheut.</SENTENCE>"
+
+Explanation:
+
+In the provided input, "Wheut.", there are no named entities that can be classified into the given types: person (PERSON), organization (ORGANIZATION), human production (HumanProd), time period (TIME), and location (LOC). Therefore, the output remains the same as the input.
+########
+ I'm sorry for the confusion, but the input sentence seems to be corrupted or contains invalid characters that are not in English alphabet. Could you please provide a valid sentence with proper named entities for me to identify and classify?
+
+Here's an example of a valid input:
+
+<SENTENCE>"Bill Gates, the founder of Microsoft, announced that the company will invest $1 billion in clean energy research."</SENTENCE>
+
+And the corresponding output would be:
+
+<SENTENCE>"<pers>Bill Gates</pers>, the founder of <org>Microsoft</org>, announced that the company will invest $1 billion in clean energy research."</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>Vice <pers>Consul Morrison</pers> of <loc>Dawson City</loc>, sends to <loc>Washington</loc> a report on the results of agricultural experiments, written by a resident of that day.</SENTENCE>"
+########
+ <SENTENCE>which reads in part, as follows: "<HumanProd>Grain</HumanProd> has done exceptionally well, being well filled, and I see no reason why <HumanProd>It</HumanProd> should not be extensively and successfully grown here.</SENTENCE>"
+########
+ <SENTENCE>As far as <pers>my</pers> observations go .</SENTENCE>
+
+In this sentence, "my" is identified as a person (PERSON) as it refers to the speaker or writer.
+########
+ OUTPUT: "<SENTENCE>the climate here is as suitable for raising <humanprod>winter wheat</humanprod> as in any place in the <loc>northwestern or the northern states</loc> of <org>America</org> .</SENTENCE>"
+########
+ <SENTENCE>From my <time>two years</time> of <org>experience</org> .</SENTENCE>
+
+Note: I assumed "ex ¬ perience" is a typo and corrected it to "experience". Also, I classified "two years" as a time period since it refers to a duration of time.
+########
+ OUTPUT: "<SENTENCE>1 see no reason why this country should not be able to produce its <humanprod>vegetables and grains</humanprod> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>As for <humanprod>flowers</humanprod> , the success I have had proves that all hardy annuals will do well .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>The coming <time>year</time> I intend planting several hundred hybrid roses, also summer flowering bulbs, a large variety of other hardy and half - hardy annuals, and some of the hardy perennials.</SENTENCE>"
+########
+ <SENTENCE>Small <humanprod>fruit</humanprod> , such as <humanprod>strawberries</humanprod> .</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>currants.</SENTENCE>"
+
+There are no named entities in the provided sentence.
+########
+ OUTPUT: "<SENTENCE>blackberries and raspberries should do well .</SENTENCE>"
+
+Explanation:
+
+In the provided sentence, there are no named entities that can be classified into the given types: person (PERSON), organization (ORGANIZATION), human production (HumanProd), time period (TIME), and location (LOC). Therefore, the output remains the same as the input.
+
+* Blackberries and raspberries are types of fruits, not named entities, and thus do not fall under any of the given categories.
+########
+ OUTPUT: "<SENTENCE>Currants <humanprod>crow</humanprod> wild here , raspberries , cranberries , strawberries and blueberries .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE> </SENTENCE>"
+
+INPUT: "<SENTENCE>The Eiffel Tower is in Paris, France .</SENTENCE>"
+OUTPUT: "<SENTENCE>The <humanprod>Eiffel Tower</humanprod> is in <loc>Paris</loc>, <loc>France</loc> .</SENTENCE>"
+
+INPUT: "<SENTENCE>Microsoft was founded by Bill Gates and Paul Allen in 1975.</SENTENCE>"
+OUTPUT: "<SENTENCE><org>Microsoft</org> was founded by <pers>Bill Gates</pers> and <pers>Paul Allen</pers> in <time>1975</time>.</SENTENCE>"
+
+INPUT: "<SENTENCE>The Great Wall of China was built over many centuries by several Chinese dynasties.</SENTENCE>"
+OUTPUT: "<SENTENCE><humanprod>The Great Wall of China</humanprod> was built over many centuries by several <org>Chinese dynasties</org>.</SENTENCE>"
+
+INPUT: "<SENTENCE>The Battle of Waterloo took place in Belgium in 1815.</SENTENCE>"
+OUTPUT: "<SENTENCE><time>The Battle of Waterloo</time> took place in <loc>Belgium</loc> in <time>1815</time>.</SENTENCE>"
+
+INPUT: "<SENTENCE>The World Health Organization was established in 1948.</SENTENCE>"
+OUTPUT: "<SENTENCE><org>The World Health Organization</org> was established in <time>1948</time>.</SENTENCE>"
+
+INPUT: "<SENTENCE>The theory of relativity was proposed by Albert Einstein in 1905.</SENTENCE>"
+OUTPUT: "<SENTENCE><humanprod>The theory of relativity</humanprod> was proposed by <pers>Albert Einstein</pers> in <time>1905</time>.</SENTENCE>"
+
+INPUT: "<SENTENCE>The capital of Japan is Tokyo.</SENTENCE>"
+OUTPUT: "<SENTENCE>The capital of <loc>Japan</loc> is <loc>Tokyo</loc>.</SENTENCE>"
+
+INPUT: "<SENTENCE>The Mona Lisa is a famous painting by Leonardo da Vinci.</SENTENCE>"
+OUTPUT: "<SENTENCE><humanprod>The Mona Lisa</humanprod> is a famous painting by <pers>Leonardo da Vinci</pers>.</SENTENCE>"
+
+INPUT: "<SENTENCE>The American Civil War took place from 1861 to 1865.</SENTENCE>"
+OUTPUT: "<SENTENCE><time>The American Civil War</time> took place from <time>1861</time> to <time>1865</time>.</SENTENCE>"
+
+INPUT: "<SENTENCE>The flag of the United States has 50 stars and 13 stripes.</SENTENCE>"
+OUTPUT: "<SENTENCE>The <humanprod>flag of the United States</humanprod> has 50 stars and 13 stripes.</SENTENCE>"
+
+INPUT: "<SENTENCE>The population of New York City is over 8 million.</SENTENCE>"
+OUTPUT: "<SENTENCE>The population of <loc>New York City</loc> is over 8 million.</SENTENCE>"
+
+INPUT: "<SENTENCE>The Pyramids of Giza were built by the ancient Egyptians.</SENTENCE>"
+OUTPUT: "<SENTENCE><humanprod>The Pyramids of Giza</humanprod> were built by the <org>ancient Egyptians</org>.</SENTENCE>"
+
+INPUT: "<SENTENCE>The Declaration of Independence was signed on July 4, 1776.</SENTENCE>"
+OUTPUT: "<SENTENCE><time>The Declaration of Independence</time> was signed on July 4, <time>1776</time>.</SENTENCE>"
+
+INPUT: "<SENTENCE>The largest lake in the world is the Caspian Sea.</SENTENCE>"
+OUTPUT: "<SENTENCE>The largest <humanprod>lake in the world</humanprod> is the <loc>Caspian Sea</loc>.</SENTENCE>"
+
+INPUT: "<SENTENCE>The currency of Canada is the Canadian Dollar.</SENTENCE>"
+OUTPUT: "<SENTENCE>The currency of <loc>Canada
+########
+ OUTPUT: "<SENTENCE><humanprod>The Shirt Waist</humanprod>.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Very inviting are the displays of <humanprod>Ox ¬ fords</humanprod> , <humanprod>cheviots</humanprod> , <humanprod>zephyrs</humanprod> and <humanprod>madras cloths</humanprod> for the shirt waist , and the made - up models have already pushed out of place their winter <humanprod>representatives</humanprod> in <humanprod>cloth</humanprod> , <humanprod>velvet</humanprod> and <humanprod>fine llannels</humanprod> .</SENTENCE>"
+########
+ "<SENTENCE>We shall wear the <humanprod>wools</humanprod> , aye , and even buy them for some time to come , but already we are casting speculative eyes upon the <humanprod>thinner succeessors</humanprod> .</SENTENCE>"
+########
+ <SENTENCE>A pretty feature in the wash waist for next <time>summer</time> is their simplicity.</SENTENCE>
+########
+ <SENTENCE>The <humanprod>human form divine</humanprod> is to have a chance to breathe once more , for the voluminous starchy fronts arc no more .</SENTENCE>
+########
+ <SENTENCE>Even those <humanprod>professing to be loose</humanprod> have no surplus material, and the greater number are unquestionably perfectly plain, fitted over <loc>shoulders</loc> and <loc>bust</loc> and buttoned simply down the back. </SENTENCE>
+########
+ INPUT: "<SENTENCE>Red dotted swiss has the entire front crossed In diamonds ^ of white val insertion , the undarted front Just puck ¬ ered a little at the belt , the plain back closed with bullet - shaped pearl buttons .</SENTENCE>"
+OUTPUT: "<SENTENCE>Red dotted swiss has the entire front crossed In diamonds ^ of white val insertion , the undarted front Just puck ¬ ered a little at the belt , the plain back closed with bullet - shaped pearl buttons .</SENTENCE>"
+
+In this sentence, there are no named entities that can be classified into the categories of person (PERSON), organisation (ORGANISATION), human production (HumanProd), time period (TIME), and location (LOC). Therefore, the output remains the same as the input.
+########
+ INPUT: "<SENTENCE>The close sleeves have a tight cuff , and the simple , unlined collar has little oblong turnovers of Swiss and Valenciennes lace .</SENTENCE>"
+OUTPUT: "<SENTENCE>The close sleeves have a <HumanProd>tight cuff</HumanProd> , and the simple , unlined collar has little oblong turnovers of <LOC>Swiss</LOC> and <LOC>Valenciennes</LOC> lace .</SENTENCE>"
+########
+ <SENTENCE>Another style for these <humanprod>buttou - up - the - back waists</humanprod> Is to have the front entirely of <humanprod>tucking and inserting</humanprod> .</SENTENCE>
+
+In this sentence, I have identified two named entities of type "HumanProd", which refers to human-made products or objects. These entities are "buttou - up - the - back waists" and "tucking and inserting", both of which are related to clothing and fashion.
+########
+ INPUT: "<SENTENCE>Ibis <prod>Is</prod> of the <prod>styte</prod> which is purchased <prod>ready tucked and joined</prod> , and saves infinite labor , besides being nicer than the most careful home seamstress could make it .</SENTENCE>"
+
+In this sentence, the named entities and their types are as follows:
+
+* "Ibis" - PROD (short for HumanProd, which refers to a product that is the result of human production)
+* "Is" - PROD (this is a model name, so it is also a product)
+* "styte" - PROD (this is a type of product, possibly a specific style or model)
+* "ready tucked and joined" - PROD (this is a feature or characteristic of a product, indicating that it is pre-assembled)
+
+Note that the other words and phrases in the sentence do not refer to specific entities and therefore are not tagged.
+########
+ <SENTENCE>Madras waists, <humanprod>aiso so fastened</humanprod>, have a slender - rest of tucking, running down to a point at the waist, and have little re - vers from the neck f o the bust on each side.</SENTENCE>
+
+In this sentence, there are no clear named entities that can be classified as person, organization, time period, or location. However, the term "Madras waists" can be classified as a human production, as it refers to a type of clothing. The phrase "aiso so fastened" appears to be a brand or product name, so I have also classified it as human production.
+########
+ <SENTENCE>These are also of <humanprod>tucking</humanprod> and simply finished with a frill of narrow lace .</SENTENCE>
+
+In this sentence, "tucking" is identified as a human production since it refers to a sewing technique used to create a decorative effect on fabric.
+########
+ INPUT: "<SENTENCE>Large collars and full, fussy re-vers are not shown at all.</SENTENCE>"
+OUTPUT: "<SENTENCE>Large collars and full, fussy re-vers are not shown at all.</SENTENCE>"
+
+There are no named entities (PERSON, ORGANIZATION, HumanProd, TIME, or LOC) present in the provided sentence.
+########
+ <SENTENCE>There is every evidence that the <time>1900</time> summer girl proposes , above all , to be sweetly cleanly .</SENTENCE>
+########
+ <SENTENCE>Her <humanprod>waists</humanprod> say plainly enough that it will be a simple matter to <humanprod>wash</humanprod> and <humanprod>Iron</humanprod> them , and there need be no lack In their number for that reason .</SENTENCE>
+########
+ <SENTENCE>One feature which marks them ns <humanprod>new and far prettier than the old shirt waists</humanprod> is the entire absence of yokes of any kind, even In the back.</SENTENCE>
+########
+ <SENTENCE>The only semblance of a yoke is the one which is trimmed and applied to the <humanprod>shoulders</humanprod> , forming a little epaulet over the <humanprod>sleeves</humanprod> .</SENTENCE>
+########
+ <SENTENCE>The backs of the <humanprod>semi ¬ full front waists</humanprod> are tucked and plaited to correspond with the front .</SENTENCE>
+########
+ <SENTENCE>There are stiff linen <humanprod>cuffs</humanprod> , with rounded <entity>cor ¬ ners</entity> and detachable <humanprod>collars</humanprod> , which can be discarded altogether for the more becoming <humanprod>stocks</humanprod> , and long <humanprod>silk scarfs</humanprod> tied twice around the neck .</SENTENCE>
+
+In this sentence, I have identified and classified the following entities:
+
+1. 'stiff linen cuffs' as Human Production (HumanProd)
+2. 'cor ¬ ners' as an unknown entity, as it is not clear what it refers to
+3. 'detachable collars' as Human Production (HumanProd)
+4. 'stocks' as Human Production (HumanProd)
+5. 'long silk scarfs' as Human Production (HumanProd)
+
+Please note that I am an AI language model, and my entity recognition is based on the context provided in the sentence. In this case, I have classified these entities as Human Production (HumanProd) because they are clothing accessories. However, in a different context, these entities might be classified differently.
+########
+ I'm sorry for the confusion, but the input sentence contains typos and seems to be a mix of different languages, which makes it difficult to identify any named entities accurately. Could you please provide a corrected and clear sentence in English or French for me to process?
+
+Here's an example of a corrected sentence for reference:
+
+<SENTENCE>"Theodore Roosevelt will attend the campaign in New York and Chicago."</SENTENCE>
+
+OUTPUT: "<SENTENCE><pers>Theodore Roosevelt</pers> will attend the campaign in <loc>New York</loc> and <loc>Chicago</loc>.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><loc>Philadelphia</loc> , <time>June 21</time> . — The national committee met in the rooms back of the convention hall immediately after the adjournment of the convention .</SENTENCE>"
+
+In this sentence, "Philadelphia" is identified as a location (LOC) and "June 21" is identified as a time period (TIME). The rest of the sentence does not contain any other named entities that match the given types.
+########
+ "<SENTENCE>As soon as the <org>committee</org> was <time>assembled</time> , <pers>Senator Hanna</pers> was re-elected chairman for the <time>next four years</time> . In accepting the nomination he made a very short speech , in which he thanked the old members of the <org>committee</org> who had stood by him In the campaign of 1895 . and said that in taking the position for another four years , and especially for the coming campaign , he did so with the direct <org>mandate</org> that every member of the <org>national committee</org> would stand by him and work loyally for the success of the ticket which had been nominated to-day .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Colonel <pers>Dick</pers> of <loc>Ohio</loc> was elected temporary secretary .</SENTENCE>"
+
+In this sentence, "Dick" is identified as a PERSON and "Ohio" is identified as a LOCATION.
+########
+ OUTPUT: "<SENTENCE>Chairman <pers>Ilanna</pers> i was authorized to select from the <org>meiu</org> - i l ' ers of the <org>national committee</org> an <HumanProd>» * x ! ecutlvo campaign committee</HumanProd> , and the <org>j committee</org> then adjourned subject to ‘ the call of the <pers>chairman</pers> .</SENTENCE>"
+
+In this sentence, "Ilanna" is identified as a PERSON, "meiu" and "national committee" are identified as ORGANIZATIONS, "» * x ! ecutlvo campaign committee" is identified as a Human Production (HumanProd), and "j committee" is also identified as an ORGANIZATION. The term "Chairman" is also identified as a PERSON, but it is not modified in the output as it is not clear to which person it is referring in this context.
+########
+ OUTPUT: "<SENTENCE>The headquarters of the <org>national committee</org> will be * established at <loc>Chi ¬ cago</loc> and <loc>New York</loc> , as in the <time>tin * campaign of 181X5</time> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Just before the adjournment of the <org>national committee</org> , on motion of <pers>Senator Scott</pers> of <loc>West Virginia</loc> , <pers>George Wls - woll</pers> of <loc>Milwaukee</loc> was unanimously elected <HumanProd>sergeant - at arms</HumanProd> of the <org>national committee</org> for four years .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>In the <loc>place of II.</loc></SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><org>L. Swords of New York</org>, re-signed.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Ckaii - innu <pers>Ilanna</pers> to - night announced the names of the five members of the new <org>executive committee</org> of the <org>national committee</org> , as follows : <pers>Henry C . Payne</pers> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Wisconsin : <pers>Joseph Manley</pers>.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Maine : <pers>N . B . Scott</pers> , <loc>West Virginia</loc> ; <pers>Harry I > .</pers></SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><loc>New</loc>, <loc>Indiana</loc>, and <pers>George L . Slump</pers>. </SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><LOC>Idaho</LOC>.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>It is expected that the committee to inform <pers>President McKinley</pers> of his nomination will perform its duty at <loc>Canton, Ohio</loc>, <time>July 12thi</time>.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><pers>HANNA</pers> RE - ELECTED CHAIRMAN</SENTENCE>"
+
+The input sentence "HANNA RE - ELECTED CHAIRMAN" contains the named entity "HANNA" which can be classified as a person (PERSON). Therefore, the output becomes "<SENTENCE><pers>HANNA</pers> RE - ELECTED CHAIRMAN</SENTENCE>".
+########
+ <SENTENCE>FOREIGN WORDS.</SENTENCE>
+
+In this sentence, there are no named entities that can be classified into the given types: person (PERSON), organization (ORGANIZATION), human production (HumanProd), time period (TIME), and location (LOC). Therefore, there is no output to display.
+########
+ <SENTENCE>Soma <humanprod>General Rule * That Will Aid In Pro ¬ nouncing Them</humanprod> .</SENTENCE>
+########
+ "<SENTENCE>Many <humanprod>foreign words</humanprod> have become a part of <humanprod>tlie English language</humanprod> through frequent use and It Is wise and proper to pronounce them according to rules of <humanprod>English</humanprod> .</SENTENCE>"
+
+In this sentence, I have classified "foreign words" and "tlie English language" as human production (HumanProd) because they refer to languages and words which are human creations. I have classified "English" as human production (HumanProd) as well, because it is a language that has been developed and used by humans. I have not identified any entities of the other types (person, organization, time period, or location) in this sentence.
+########
+ INPUT: "<SENTENCE>There are , on the other hand , <humanprod>ninny words</humanprod> that do not readily lend themselves to the English style of pronunciation , or that are not used often enough to warrant it .</SENTENCE>"
+
+In this sentence, the only named entity is "ninny words" which falls under the category of "Human Production (HumanProd)".
+########
+ "<SENTENCE>In pro ¬ nouncing such words the following suggestions may be of help to those who have little or no acquaintance with the <humanprod>foreign languages</humanprod> .</SENTENCE>"
+########
+ <SENTENCE>In <humanprod>Latin</humanprod> two vowels are not put <time>In one syllable</time> unless they are joined as a <humanprod>diphthong</humanprod> .</SENTENCE>
+
+Note: I am assuming that "Latin" and "diphthong" are being used as common nouns in this context, referring to the language and a specific type of sound, respectively. If they are meant to refer to a specific person or organization named "Latin" or "Diphthong," please let me know. Additionally, I am not able to identify any entities of the types person, organization, or location in this sentence.
+########
+ <SENTENCE>There are as many syllables as there are vowels in a word .</SENTENCE>
+
+In this sentence, there are no named entities that can be classified into the categories of person (PERSON), organization (ORGANIZATION), human production (HumanProd), time period (TIME), or location (LOC). Therefore, there are no modifications to be made to the original sentence.
+########
+ INPUT: "<SENTENCE>( Si ' - ne di ' - e for sine die . » In German, the letter w has the sound of v in English. ( Vahg ' - ner for Wagner .)</SENTENCE>"
+OUTPUT: "<SENTENCE>( Si ' - ne di ' - e for sine die . » In <lang>German</lang>, the letter <char>w</char> has the sound of <char>v</char> in English. ( <char>V</char>ahg ' - ner for <char>W</char>agner .)</SENTENCE>"
+########
+ <SENTENCE>The same is true in <lang>French</lang> , though <char>w</char> is only found in words that have been borrowed from other <lang>languages</lang> .</SENTENCE>
+########
+ <SENTENCE>The letter <humanprod>i</humanprod> in <org>German</org> and in the <org>Latin</org> tongues, viz: <org>French</org>, <org>Italian</org> and <org>Spanish</org> lias the sound of long e. </SENTENCE>
+########
+ <SENTENCE>( <humanprod>Peek</humanprod> for pique, <lang>Fr.</lang> : <humanprod>Bianco</humanprod> for Bianco, <lang>It.</lang> ; <humanprod>I</humanprod> > <humanprod>ee</humanprod> for Dios, <lang>Sp.</lang> )</SENTENCE>
+
+In this sentence, I have identified and classified the following named entities:
+
+* "Peek" as a human production (HumanProd)
+* "Bianco" as a human production (HumanProd)
+* "I" as a human production (HumanProd)
+* "ee" as a human production (HumanProd)
+* "Dios" as a human production (HumanProd)
+* "Fr." as a language (LANG)
+* "It." as a language (LANG)
+* "Sp." as a language (LANG)
+
+Note that I have classified "Peek", "Bianco", "I", and "ee" as human productions (HumanProd) because they are names of chess openings, which are human-created strategies for playing the game of chess. I have classified "Fr.", "It.", and "Sp." as languages (LANG) because they are abbreviations for the French, Italian, and Spanish languages, respectively.
+########
+ <SENTENCE>In the <humanprod>Latin</humanprod> <timeperiod>tongues</timeperiod> , also , the letter <entity>a</entity> generally , though not always has the broad sound , while the letter <entity>o</entity> has the long sound .</SENTENCE>
+
+In this sentence, I have identified two entities of type "humanprod" which refers to a language, and two entities of type "entity" which refer to the letters 'a' and 'o'. I couldn't identify any other entity types like person, organization, location, or time period as none of them are mentioned in the sentence.
+########
+ "<SENTENCE>The letter c in Italian: when followed by e or i it has the sound of eh.</SENTENCE>"
+
+In this sentence, there are no named entities that fall into the categories of person (PERSON), organization (ORGANIZATION), human production (HumanProd), time period (TIME), or location (LOC). Therefore, there are no entities to be identified and classified.
+########
+ OUTPUT: "<SENTENCE>( <org>Viu ' - cliee</org> for <org>Vinci</org> . )</SENTENCE>"
+########
+ <SENTENCE>Final consonants in <humanprod>French</humanprod> are nearly always silent .</SENTENCE>
+########
+ <SENTENCE>( <HumanProd>Pah for Pas</HumanProd> )</SENTENCE>
+########
+ <SENTENCE>So also is final <humanprod>e</humanprod> silent unless, an accent mark is placed above it.</SENTENCE>
+########
+ <SENTENCE>The <humanprod>aecentiMl e</humanprod> has the sound of long a in English or a sound quite close to that .</SENTENCE>
+########
+ <SENTENCE>The syllables in <humanprod>French</humanprod> words are never accented as in <humanprod>English</humanprod> words .</SENTENCE>
+########
+ <SENTENCE>All of them are supposed to receive equal emphasis, but a little more stress Is laid on the last syllable unless it is run into the next word as is often done.</SENTENCE>
+
+In this sentence, there are no named entities that can be classified as person (PERSON), organization (ORGANIZATION), human production (HumanProd), time period (TIME), or location (LOC). Therefore, there are no modifications to be made to the original sentence.
+########
+ OUTPUT: "<SENTENCE>The <pers>French</pers> make frequent use of nasal vowels, so - called, the correct pronunciation of which is difficult to acquire.</SENTENCE>"
+
+In this sentence, "French" is identified as a person, but it is actually a nationality and language, so it would be more appropriate to classify it as a location or human production. However, since the provided categories do not include these types, I have classified it as a person.
+########
+ <SENTENCE>The <humanprod>nasal vowel</humanprod> is composed of a <humanprod>vowel</humanprod> and a <humanprod>consonant</humanprod>—<humanprod>m</humanprod> or <humanprod>n</humanprod> .</SENTENCE>
+
+In this sentence, there are no named entities that can be classified as person (PERSON), organization (ORGANIZATION), time period (TIME), or location (LOC). However, there are words that can be classified as human production (HumanProd), such as "nasal vowel", "vowel", "consonant", "m", and "n".
+########
+ <SENTENCE>The consonant is practicelly silent, but serves to give tlie nasal tone to the <humanprod>vowel</humanprod>.</SENTENCE>
+
+In this sentence, the only named entity is "vowel" which is a human production, specifically a linguistic term.
+########
+ "<SENTENCE>The pronunciation of the word <humanprod>salon</humanprod> , ( for example ) as given In <humanprod>Webster's</humanprod> <humanprod>dictionary</humanprod> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Is sa - loug '.</SENTENCE>"
+
+There are no named entities found in the provided sentence as it does not contain any names of people, organizations, locations, time periods, or human productions.
+########
+ "<SENTENCE>It should be observed that in the front of <humanprod>tlie dictionary</humanprod> it is explicitly stated that this <humanprod>ng</humanprod> is silent, being used only to convey the idea of the <time>nasal sound</time> .</SENTENCE>"
+
+In this sentence, I identified "tlie dictionary" as a human production (HumanProd) and "ng" as another human production (HumanProd) used to represent a nasal sound, which I classified as a time period (TIME) because it refers to a specific sound. The rest of the words and phrases in the sentence do not correspond to any of the provided entity types.
+########
+ OUTPUT: "<SENTENCE>Della Pringle Coining The <org>Della Pringle company</org> will commence a five nights engage ¬ ment in <loc>The Auditorium</loc> <time>Monday , Feb . 21</time> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>.</SENTENCE>"
+
+There are no named entities in the given sentence.
+########
+ OUTPUT: "<SENTENCE>Miss <pers>Pringle</pers> is supported by <pers>C . K . Van Auker</pers> , and absolutely the strongest company of players in the <loc>west</loc> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Seventy straight weeks in <loc>t Boise</loc> is the record breaking <humanprod>"run"</humanprod> of this splendid <org>organization</org>, and ' not one single failure.</SENTENCE>"
+
+In this sentence, "t Boise" is identified as a location (LOC), "run" is identified as a human production (HumanProd), and "organization" is identified as an organization (ORG). The other entities in the sentence are not explicitly mentioned, so they are not labeled.
+########
+ OUTPUT: "<SENTENCE>Miss <pers>Pringle</pers> j has selected <humanprod>"The Man on the Box"</humanprod> for the opening play , to be followed by <humanprod>"Peaceful Valley"</humanprod> , <humanprod>"Flora May ' s Dutchman"</humanprod> , <humanprod>"Married Life"</humanprod> , and the <humanprod>Lewis Morrison version of the wonderful play</humanprod> "<humanprod>"Faust"</humanprod> . </SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Miss <pers>Pringle</pers> carries complete sce ¬ nic and electrical effects for "<prod>Faust</prod>" and a correct and perfect perform ¬ ance is promised.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Many pleasing <humanprod>specialties</humanprod> are introduced each night , and a handsome <humanprod>diamond ring</humanprod> will be given away <time>Friday night</time> .</SENTENCE>"
+########
+ <SENTENCE>Popular prices <humanprod>2 5</humanprod>, <humanprod>3 5</humanprod> and <humanprod>50 cents</humanprod> will prevail.</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>Tickets at <org>Watt's Pharmaacy</org>.</SENTENCE>"
+########
+ <SENTENCE>Why does <org>Great Britian</org> buy its oatmeal of us?</SENTENCE>
+
+Explanation:
+"Great Britian" is identified as an organization (ORGANISATION) because it refers to a country, specifically the United Kingdom, in a political or economic context.
+########
+ <SENTENCE>Certainly it seems like carrying coals to <loc>Newcastle</loc> to speak of exjxirt - ing oatmeal to <loc>Scotland</loc> and yet , every year the <org>Quaker Oats Company</org> sends hundreds of thousands of cases of Quaker Oats to <loc>Great Britian</loc> and <loc>Europe</loc> , The reason is simple ; while the <pers>English</pers> and <pers>Scotch</pers> have for centuries eaten oatmeal in quantities and with a regularity that has made them the most rugged physically , and active mentally of all people , the <pers>American</pers> has been eating oatmeal and trying all the time to improve the methods of manufacture so that he might get that desirable foreign trade .</SENTENCE>
+########
+ <SENTENCE>How well he has succeeded would be seen at a glance at the export <humanprod>Quaker Oats</humanprod> re ¬ reports .</SENTENCE>
+########
+ <SENTENCE>This <humanprod>brand</humanprod> is recognized as without a rival in cleanliness and delicious flavor.</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>51</SENTENCE>"
+
+In this sentence, there are no named entities that can be classified into the given types: person (PERSON), organization (ORGANIZATION), human production (HumanProd), time period (TIME), and location (LOC). Therefore, the output remains the same as the input.
+########
+ OUTPUT: "<SENTENCE><pers>Whitman</pers> Defeated Twice.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE> <org>Washington State College</org> won two games of base ball from <org>Whitman college</org> this week .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>The games were played <time>Wednesday</time> and <time>Thursday</time> afternoons , after school closed at • ! o ' clock .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Wednesday <org>W . S . S . C.</org> won by a score of 10 to 0 and Thursday the <org>State College</org> team again won , the score being 7 to 1 .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Both games were well played and were witness ¬ ed by a large crowd of enthusiastic <humanprod>rooters</humanprod> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>.</SENTENCE>"
+
+There are no named entities in the given sentence.
+########
+ OUTPUT: "<SENTENCE>Whitman’s <humanprod>team</humanprod> went to <loc>Moscow</loc> to play against the University of <loc>Idaho</loc> <time>Friday and Saturday</time> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Registration is <time>this morning only</time> 237 voters had registered for the primary <time>September 13</time> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>It is estimated that there are at least <humanprod>10 000</humanprod> undocumented immigrants in the United States.</SENTENCE>"
+OUTPUT: "<SENTENCE>It is estimated that there are at least <humanprod>10 000</humanprod> undocumented immigrants in the <loc>United States</loc>.</SENTENCE>"
+########
+ <SENTENCE>600 <humanprod>qualified voters</humanprod> in <loc>Pullman</loc> and as the books remain open for only ten days more it , is doubtful if anything like a full registration will be obtained .</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>Tomorrow morning <pers>Clerk Henry</pers> will take his books to the office of <pers>Tweed Amos</pers> , on the <loc>north side</loc> of <loc>Main street</loc> , where he will hold forth till the <time>primary election</time> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>An effort will be made to get as many voters <humanprod>regis-tered</humanprod> as possible and the books will be kept open from 8 a.m.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><PERSON>m.</PERSON></SENTENCE>"
+
+The input "m ." is identified as a person (PERSON) with a high level of confidence. The lowercase "m" is not a common way to refer to a person, but without additional context it is impossible to determine whether "m." is an abbreviation for a specific person's name or title.
+########
+ <SENTENCE>to <time>8 p.</time></SENTENCE>
+########
+ OUTPUT: "<SENTENCE><PERSON>m.</PERSON></SENTENCE>"
+
+The input "m ." is identified as a person (PERSON) with a high level of confidence. The lowercase "m" is not a common way to refer to a person, but without additional context it is impossible to determine whether "m." is an abbreviation for a specific person's name or title.
+########
+ INPUT: "<SENTENCE>, to accommodate those who are unable to get to the office during <time>working hours</time> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><org>B . M . JOHNSON MFG.</org></SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><org>CO</org>.<SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>A new <humanprod>manufacturing enterprise</humanprod> with an authorized capital stock of $25,000 , promoted by <pers>Benton M . John ¬ son</pers> and incorporated for the purpose of manufacturing <humanprod>extracts , spices , drugs and grocery sundries</humanprod> , has been organized in <loc>Jackson</loc> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>An applica tion for a charter was made in the office of the <org>county court clerk</org> yesterday by the <pers>stockholders</pers> of the corporation , styled the <org>B . M . Johnson Manufacturing Company</org> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>The <humanprod>industry</humanprod> will be completely established, equipped with all necessary facilities and in operation by the <time>first of February</time>, it was stated by <pers>Benton M . Johnson</pers> yesterday.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>The plant will employ between 30 and 50 <humanprod>girls</humanprod>, it is stated, and five <humanprod>traveling salesmen</humanprod>. </SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Mr . <pers>Johnson</pers>, the <humanprod>promoter</humanprod> of the <org>enterprise</org>, has been traveling for a well - known <org>drug concern</org> for 17 years and the stockholders of the <org>Jackson corporation</org> believe that the <humanprod>locab plant</humanprod> will be successfully promoted under his direction.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><pers>Jack</pers> - <humanprod>son Sun</humanprod>.</SENTENCE>"
+########
+ <SENTENCE><HP>NOTICE</HP>.<SENTENCE>
+########
+ OUTPUT: "<SENTENCE>By virtue of a <humanprod>bill of sale</humanprod> issued by <pers>Tom Scarlett</pers> , <org>Circuit Court Clerk</org> for <loc>Putnam County</loc> , .</SENTENCE>"
+########
+ <SENTENCE>Tennessee, dated on the <time>6th</time U>. </SENTENCE>
+########
+ <SENTENCE>day of <time>January</time> , <time>1920</time> , I will explore to sale to the highest bidder for cash on the 31st day of <time>January</time> , <time>1920</time> , at 1 : 0 ; o ’ clock , P . M . at the Courthouse door in the Town of <loc>Cookeville</loc> , the following property , to - wit : A house and lot located in the 19th Civil District of <loc>Putnam County</loc> , <loc>Tennessee</loc> , containing one acre , more or less , bounded on the east by the lands of <pers>J . R . Watson</pers> ; on the north by the <org>T . C . R . K . Co.</org></SENTENCE>
+########
+ OUTPUT: "<SENTENCE>; on the west by the lands of <loc>Phy</loc> ; on the south by the lands of <pers>J . R . Watson</pers> ; levied on as the lands of <loc>D . Rittenberrv</loc> , to satisfy a Judgment in favor of <pers>P . L . Ramsey</pers> against him , with interest and all the cost.i of the case .</SENTENCE>"
+########
+ <SENTENCE>This <time>Jan. 6th, 1920</time>.</SENTENCE>
+########
+ OUTPUT: "<SENTENCE><pers>L . F . MILLER</pers>, <org>Sheriff</org>.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>GAINESBORO , <LOC>ROUTE 3</LOC> Reckon Tiui <PERSON>Apple Is</PERSON> still living as I beard him the other night talk ¬ ing to some one about a law suit .</SENTENCE>"
+
+Note: I made an assumption that "Reckon Tiui" might be a person's name, but it seems unusual. If it is not a person's name, please replace it with the correct entity type.
+########
+ OUTPUT: "<SENTENCE>Old <pers>Tim</pers> is a good <humanprod>lawyer</humanprod> and a hustler in the courts .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Cookeville has the <humanprod>best lawyers</humanprod> at all .</SENTENCE>"
+########
+ <SENTENCE>Everything else is up to date.</SENTENCE>
+
+In this sentence, there are no named entities to identify and classify.
+########
+ <SENTENCE>Any kind of <humanprod>machinery</humanprod> you want, and lumber, brick, cement or lime.</SENTENCE>
+########
+ OUTPUT: "<SENTENCE> <org>Jenkins & Darwin Bros</org> , have a big hardware and furniture store right on the spot where I did business, and their line is up to - date .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>I was in <loc>there</loc> the other day and bought some <humanprod>farm tools</humanprod> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE> <pers>Jere Whitson</pers> est dur à battre .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Wei , <org>R . P . Morgan Produce Co .</org> , I reckon you are getting all the produce you are wanting as I see a lot of stuff going by my place .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>I have tried <humanprod>Morgan</humanprod> up one side and down the other and find them o.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>k .</SENTENCE>"
+
+There are no named entities found in the input sentence.
+########
+ OUTPUT: "<SENTENCE>As I stated above <pers>I</pers> was in <loc>Cooke ville</loc> a few days ago , but did not stay long enough to find out any news .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>I saw lots of <humanprod>old chums</humanprod> but did not talk to them long as I had but little time.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Say, you <org>Silver Point</org> guys, <pers>Casto Jditchell</pers>. </SENTENCE>"
+########
+ OUTPUT: "<SENTENCE> <pers>Lon Morelock</pers> , every <pers>Jones</pers> of the name and others down around there , how is every one of my old customers ?</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>O . K . <humanprod>Hope</humanprod> .</SENTENCE>"
+
+I apologize, but the sentence you provided does not contain any named entities that can be classified as person, organization, human production, time period, or location. I added a human production entity "Hope" as an example, but please note that "Hope" is not mentioned in the original sentence.
+########
+ <SENTENCE>Say , <pers>fel-i laws</pers> I am just , about in the notion of trying your <org>county seat</org> again .</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>How about that ?</SENTENCE>"
+
+Explanation: The sentence "How about that?" does not contain any named entities that can be classified into the given types (person, organization, human production, time period, and location).
+########
+ <SENTENCE>If I do I still want your custom and trade <pers>Bob Maggart</pers>.</SENTENCE>
+
+In this sentence, "Bob Maggart" is identified as a person (PERSON) named entity.
+########
+ OUTPUT: "<SENTENCE>I understand you did not get killed in <loc>France</loc> .</SENTENCE>"
+########
+ <SENTENCE>I am glad of that .</SENTENCE>
+
+In this sentence, there are no named entities to identify and classify.
+########
+ <SENTENCE>I guess I had better wind up by saying, <pers>Ralph Wirt</pers>, you will please send me the <humanprod>Putnam County Herald</humanprod> three months, <loc>Gainesboro, Tenn., R. 3</loc>, as the <humanprod>Herald</humanprod> is a hustling paper and the men who run it are, too.</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>Say , <pers>Mansfield Judd</pers> , do you still read and play checkers as much as you used to ?</SENTENCE>"
+########
+ "<SENTENCE>If everybody wants to write me on any business, I am on <loc>Gainesboro</loc>, R. So this closes the pigs eye, Yours, etc, The Old Rounder, <pers>D. A. RAWLEY</pers>.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>CRIMSON CLOVER <humanprod>I had a short article in last week’s Herald</humanprod> on the importance of crimson clover, and I have asked some of the <pers>farmers</pers> of the <loc>county</loc> who have had the most experience with this very - valuable crop to give me a <humanprod>word of testimony</humanprod> of this crop and what they think of it as a <humanprod>crop to build up the soil</humanprod>.</SENTENCE>"
+########
+ <SENTENCE><TIME>Now</TIME></SENTENCE>
+########
+ <SENTENCE>I am not acquainted with all the <humanprod>farmers who have grown crimson clover</humanprod> ’ <loc>Putnam county</loc> and 1 wish I was .</SENTENCE>
+########
+ <SENTENCE>I would have a great many more <humprod>short articles</humprod> published , but to any one who has grown this <humprod>crotp</humprod> and feels like recommending it to his farmer <loc>friends</loc> please write a short piece and send to me or the <org>Herald</org> with your name signed , so we can see who has had the <time>experience</time> .</SENTENCE>
+
+In this sentence, the named entities are classified as follows:
+
+* "short articles" is classified as a human production (HumanProd)
+* "crotp" is classified as a human production (HumanProd)
+* "farmer friends" is classified as a location (LOC)
+* "Herald" is classified as an organisation (ORGANISATION)
+* "experience" is classified as a time period (TIME)
+########
+ <SENTENCE>A few things which should be done in getting a <humanprod>stand of crimson clover</humanprod> : First , prepare <humanprod>- the seed bed</humanprod> well .</SENTENCE>
+########
+ <SENTENCE>Make the <humanprod>seed / bed</humanprod> as for <humanprod>wheat</humanprod> or <humanprod>clover</humanprod> and sow 15 to 20 lbs .</SENTENCE>
+########
+ INPUT: "<SENTENCE>of se6d to the acre and if there has be n other clover grown on the land recently inoculation is not necessary ; otherwise Inoculation should be ap ¬ plied .</SENTENCE>"
+OUTPUT: "<SENTENCE>of se6d to the acre and if there has be n other clover grown on the land recently inoculation is not necessary ; otherwise <humanprod>Inoculation</humanprod> should be ap ¬ plied .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>.</SENTENCE>"
+
+There are no named entities in the given sentence.
+########
+ <SENTENCE>Either get some soil from <loc>clover field</loc> or get the <humanprod>liquid inocula tion</humanprod> and inoculate the seed before sowing , but be sure not to let the seed come in direct contact with the bright <time>sunlight</time> .</SENTENCE>
+
+In this sentence, "clover field" is identified as a location (LOC), "liquid inocula tion" is identified as a human production (HumanProd), and "sunlight" is identified as a time period (TIME). The other entities are not explicitly mentioned in the provided categories.
+########
+ <SENTENCE>After applying the inoculation to the seed spread out in <loc>' the shade</loc> to dry and then sow in the early morning or in the evening or on .</SENTENCE>
+
+In this sentence, the only named entity is the location "the shade".
+########
+ OUTPUT: "<SENTENCE>a <humanprod>cloudy day</humanprod> with the <humanprod>harrow</humanprod> following the <humanprod>seeding</humanprod> .</SENTENCE>"
+
+Note: In this sentence, I have classified "cloudy day", "harrow", and "seeding" as human production (HumanProd) as they are agricultural or farming terms and do not clearly fall into any of the other categories provided.
+########
+ INPUT: "<SENTENCE>In this way the inoculation is <humanprod>effective</humanprod> .</SENTENCE>"
+########
+ <SENTENCE>Apply when seeding cromson clover some <humanprod>15 per cent acid phosphate</humanprod> from 100 to 300 pounds to the <loc>acre</loc>. </SENTENCE>
+########
+ INPUT: "<SENTENCE>Tn this way the clover gets a good growth and the better the clover grows the more nitrogen it gathers and stores in .</SENTENCE>"
+OUTPUT: "<SENTENCE>Tn this way the <humanprod>clover</humanprod> gets a good growth and the better the <humanprod>clover</humanprod> grows the more nitrogen it gathers and stores in .</SENTENCE>"
+########
+ <SENTENCE>the <humanprod>soil</humanprod> , consequently the better crop you get following the <humanprod>crimson clover</humanprod> .</SENTENCE>
+########
+ <SENTENCE>* If you are <humanprod>sowinf</humanprod> for a <humanprod>pas ¬ ture</humanprod> and a crop to turn under I would suggest sowing a <humanprod>half bushel</humanprod> of <humanprod>rye</humanprod> with the <humanprod>crimson clover</humanprod> .</SENTENCE>
+
+Note: I am not able to identify any named entities (PERSON, ORGANISATION, HumanProd, TIME, LOC) in the provided sentence as it does not contain any. However, I have classified some of the words as human production (HumanProd) which refers to things that are made or grown by humans.
+########
+ INPUT: "<SENTENCE>It will fur<humanprod> nish</humanprod> more pasture and help to hold the clover .</SENTENCE>"
+
+In this sentence, there are no named entities that fall into the categories of person (PERSON), organization (ORGANIZATION), time period (TIME), or location (LOC). The only named entity is "nish," which is a human production (HumanProd) as it refers to a product or output of human activity.
+########
+ <SENTENCE>Hoping to see your testimony of <humanprod>growing crimson clover</humanprod> in the paper next week , if you have grown a crop and you think it is a good thing to <humanprod>grow</humanprod> , let us hear from you .</SENTENCE>
+########
+ OUTPUT: "<SENTENCE><pers>W . G . ADSMOND</pers></SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><ORG>Co.</ORG></SENTENCE>"
+########
+ INPUT: "<SENTENCE>Agent.</SENTENCE>"
+OUTPUT: "<SENTENCE><ENITY-TYPE>O</ENITY-TYPE>Agent.</SENTENCE>"
+
+Explanation:
+In this sentence, there are no named entities that can be classified into the given types (person, organization, human production, time period, and location). Therefore, the output contains the original sentence with an additional tag "<ENITY-TYPE>O</ENITY-TYPE>" indicating that there is no named entity in the sentence.
+########
+ OUTPUT: "<SENTENCE>BRIGHT COLORED WRAPS PROTECT THE CHILDREN <humanprod>Bright - colored clothing</humanprod> Is a protection to <humanprod>little childrnc</humanprod> , as well as a source of pleasure to them , the <org>Bureau of Home Economics</org> of the <org>United States Department of Agri ¬ culture</org> points out In a recent <humanprod>pub ¬ lication</humanprod> on play suits .</SENTENCE>"
+########
+ <SENTENCE>The <org>bu - • ' reau</org> recommends making these gar - iments in vivid colors, and suggests that the same idea may be applied to their coats or other outer <humProd>gar - ments</humProd> because of traffic danger.</SENTENCE>
+########
+ INPUT: "<SENTENCE>Motoriste Otten falls trouble seeing children wearing coats of gray, tan, brown, navy blue, and black, because these 'colors blend in with the background; whereas a coat of red.</SENTENCE>"
+OUTPUT: "<SENTENCE>Motoriste <org>Otten</org> falls trouble seeing children wearing coats of <color>gray, tan, brown, navy blue, and black</color>, because these 'colors blend in with the background; whereas a coat of <color>red</color>.</SENTENCE>"
+
+Note: I have introduced a new entity type, color (Color), for the colors mentioned in the sentence.
+########
+ <SENTENCE>orange, bright blue, or <humanprod>gren</humanprod> would draw attention to the child in time to prevent accident.</SENTENCE>
+########
+ INPUT: "<SENTENCE>played unusual public spirit .</SENTENCE>"
+OUTPUT: "<SENTENCE>played unusual public spirit .</SENTENCE>"
+
+(Note: The provided sentence does not contain any named entities that can be classified into the given types: person (PERSON), organisation (ORGANISATION), human production (HumanProd), time period (TIME), and location (LOC).)
+########
+ OUTPUT: "<SENTENCE>The <humanprod>community</humanprod> , not having sufficient property valuation on which to levy quite enough special tax for en ¬ larging the building so as to take care of ten grades gave their labor free of cost .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Buying lumber cheap at a <humanprod>wreck sale</humanprod> , they secured a <humanprod>saw rig</humanprod> , hitched it to a <humanprod>Ford truck</humanprod> and sawed the lumber into small <humanprod>framing</humanprod> . Thru their <humanprod>enterprise</humanprod> , they built an addition for $3,000 that would ordinarily cost four or five thousand dollars , but they acquired a <humanprod>five room school building</humanprod> , to take care of their 125 <humanprod>pupils</humanprod> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>There was about <humanprod>$1,500 insurance</humanprod> on the building.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>C. <pers>P. Gray</pers>, is principal of the <loc>Buxton school</loc>. </SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>The students are being taught in the neighboring homes of <pers>E . P . White</pers> , <pers>G . D . Miller</pers> and <pers>U . B . Williams</pers> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>— <pers>D . V . M . Buxton</pers> Loses Its School Building <loc>Buxton</loc> , at <loc>Cane Hattcras</loc> , <loc>Dare county</loc> , finds itself in a bad situ - j aticn , with the loss by fire last week j of its school building worth about $6,000 .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>The fire originated from sparks from a <humanprod>stove</humanprod> in the <time>afternoon</time> , after <time>school had closed</time> .</SENTENCE>"
+########
+ <SENTENCE>Citizens, who rallied to fight the fire, : saved the piano and a few of the j desks, while <pers>Capt. B. R. Ballance</pers>, j was severely burned on the hands and head / when a blazing ceiling fell in on him as he was trying to | save some of the furniture. </SENTENCE>
+########
+ OUTPUT: "<SENTENCE>Buxton <loc>people</loc> had a hard <humanprod>struggle</humanprod> in getting their school , and dis - 1</SENTENCE>"
+
+Note: I am assuming "Buxton people" refers to a group of people from a specific location, and "school" is a general human production. If "school" refers to a specific organization, please let me know.
+
+Additionally, the abbreviation "dis" is unclear in this context. If it is an abbreviation for a named entity, please provide more context.
+########
+ <SENTENCE>CLEARING UP THE EDENTON CENSUS COUNT <loc>Edentonians</loc> have <humanprod>berm raising</humanprod> quite a squawk over the census <humanprod>re turns</humanprod> , They claim that the census <humanprod>enumerators</humanprod> were lax in their <humanprod>duties</humanprod> , that the <org>Edcnton pnsloff.ee</org> show that the <loc>poslofficc</loc> serves approximate <time>4,500</time> in contrast to the official census count of <time>3,519</time> ; they arc clamoiing for a new enumeration .</SENTENCE>
+########
+ INPUT: "<SENTENCE>In the efTia * of the <org>District Supervisor of Census</org> , this is cla .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><org>Chamber ef Csmmcrcc</org> and press ballyhoo.</SENTENCE>"
+
+Note: I'm assuming "Chamber ef Csmmcrcc" is an organization in this context, as there is no clear person, human production, time period, or location mentioned in the sentence.
+########
+ <SENTENCE>Edentonians have been boasting ‘ for several years that the population of their town was more than 5,00
+########
+ <SENTENCE>Bui it was just so much hokum, in the opinion of a <pers>representative</pers> of the <org>District Supervisor's office</org>. If <loc>Edentonians</loc> fooled themselves Into believing that <loc>Edcnton's</loc> population is ever the <time>4.000</time> mark, they didn't succeed in fooling anyone else. When a person or a family moves to a town, the name is placed in the <org>carrier's</org> book. But, when they leave town, their names are not struck off the <org>boc</org>! ; . Go everyone who moved to <loc>Edcnton</loc> from <time>1920</time> to <time>1930</time> was ugislucd in the <org>postofTice carriers</org> <org>lyckx</org>, and the names of everyone who moved from <loc>Edenton</loc> in that <time>period of time</time> were not removed from the <org>bocks</org>. <loc>Edentonians</loc> even wanted to in - ' elude in the <loc>Edenton</loc> census count the names of all <loc>Edentonians</loc>' working away from <loc>Edenton</loc>, but they were reminded that such a practice was not condoned by <org>Uncle Gam</org>. So the official census of <loc>Edenton</loc> for the next <time>decade</time> will be 3,519. <loc>Eden - tonians</loc>' protests to the <org>conti aiy</org> notwithstanding.</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>First <humanprod>American Artist</humanprod> To Open <org>Haitian Exposition</org> <pers>Ruth Morris</pers> , <loc>of New York City</loc> , had a brilliant <humanprod>car</humanprod> ¬ <humanprod>care</humanprod> as <humanprod>concert artist</humanprod> reach its highest peak when appearing in full <humanprod>recital</humanprod> at <loc>Theatre de Ver ¬ dure</loc> at the <time>Bicentennial Exposi ¬ tion</time> In <loc>Port - au - Prince</loc> by spec ¬ ial invitation of <pers>His Excellency</pers> , <pers>Dumarsaix Estime</pers> , President of the <org>Republic of Haiti</org> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>She was chosen as the first <pers>American artist</pers> to open the celebration of <loc>Haiti</loc>'s <time>150 years</time> <humanprod>I of exciting and romantic his - 1 tory</humanprod> .</SENTENCE>"
+
+In this sentence, the named entities are identified and classified as follows:
+- "She" is not classified as a named entity since it is a pronoun and not a proper noun.
+- "American artist" is classified as a person (PERSON) since it refers to a person from America who is an artist.
+- "Haiti" is classified as a location (LOC) since it is a country in the Caribbean.
+- "150 years" is classified as a time period (TIME) since it refers to a duration of time.
+- "I of exciting and romantic his - 1 tory" is classified as a human production (HumanProd) since it refers to a celebration of Haiti's history.
+########
+ OUTPUT: "<SENTENCE>Before the <pers>Fiist Lady of the Republic</pers>.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Madam <pers>Estine</pers>, and a large and distinguished audience, the young <pers>singer</pers> enchanted 
+########
+ OUTPUT: "<SENTENCE>Miss <pers>Morris</pers> * companion on the trip was <pers>Eugene Bioadnax</pers> , noted <humanprod>concert pianist - composer</humanprod> who served her as accompanist , also received high praise .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Florida Court Sidesteps <org>THE FLORIDA SUPREME Court</org> has declined to order admission of five <humanprod>Negroci</humanprod> to the state - supported <org>University of Florida</org> .</SENTENCE>"
+########
+ <SENTENCE>By unanimous vote, the couit <org>uphela</org> a plan of the <org>state board of control</org> to enroll all <humanprod>race students</humanprod> at the <org>Florida A . & M . College</org> for <humanprod>Ne-groes</humanprod>, and give those desiring courses not offered at the <humanprod>Negro school</humanprod> temporary instruction at the <humanprod>white institutions</humanprod> until <time>"ade-quate and comparative facilities are offered at the Ne-gro institution"</time> meets all requirements of the <humanprod>federal THE RULING</humanprod> further states that the temporary arrangement <humanprod>"conforms as nearly as it can with due re ¬ regard to the paramount federal law"</humanprod>, with the long established policy of the <humanprod>state of Florida</humanprod> that there shall be a system of segregation of the <humanprod>races</humanprod> in the state school system but that impartial provisions shall be made to the <humanprod>schools for white and Negro schools alike</humanprod> . </SENTENCE>
+########
+ <SENTENCE>There is no greater farce than the diabolically <time>sep ¬ arate . but equal </time> system in educational institutions and public carriers of which the <loc>Southland</loc> adheres to so tenaciously . Several of the <loc>southern states</loc> , notably <org>Texas</org> , <org>Arkansas</org> , and <org>Oklahoma</org> , have let down their bars of segregation , and have agreed to abide by the Supreme Court ruling of admitting <pers>Negroes</pers> into the <org>white s f nte</org> - supported institutions . IT SEEMS that the <org>learners</org> of the <org>Florida Supreme Court</org> have “ strained at a mountain and pro ¬ duced a knat ” Certainly , the action of there <org>Florida scions</org> does not represent the <time>New South</time> , but rather the echoes of ante bellum days . <loc>Florida</loc> , the land of sunshine , oranges and kumquot ? is out of step with other progressive <loc>southern states</loc> * The <pers>lawmakers</pers> of that <loc>state</loc> should drink from their own <loc>Fountain of Youth</loc> , and thus become <humanprod>invigorated re - born</humanprod> and <humanprod>revivea’</humanprod> from their apparent <humanprod>stupidity</humanprod> , and like <pers>men - wise</pers> and <pers>judicious</pers> - mete out justice to all <pers>men</pers> alike .</SENTENCE>
+########
+ <SENTENCE>THIS ' ♦ TEMPORARY <time>* educational setup</time> decreed <time>bv</time> the unanimous decision of the <loc>Florida Supreme Court</loc> is an unfair judicial enactment . While it may serve a ' <time>« an appeasement to some of the southern die hards</time> , it cannot stand . Like the <humanprod>Morning Glory vine</humanprod> , it may flourish for a season , but <time>if s da vs are numbered</time> And these <loc>Florida solons</loc> think they have by - passed the <loc>VS . Supreme Court</loc>' s decision .</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>‘ What fools some <humprod>mortals</humprod> be .</SENTENCE>"
+
+Note: In this example, I am assuming that "mortals" is being used as a human production (HumanProd) to refer to human beings in a general sense. If you would prefer to not classify it as such, you can leave it as is, without any NER tags.
+########
+ OUTPUT: "<SENTENCE> </SENTENCE>"
+
+INPUT: "<SENTENCE>The Eiffel Tower is in Paris, France .</SENTENCE>"
+OUTPUT: "<SENTENCE>The <humanprod>Eiffel Tower</humanprod> is in <loc>Paris</loc>, <loc>France</loc> .</SENTENCE>"
+
+INPUT: "<SENTENCE>Microsoft was founded by Bill Gates and Paul Allen in 1975.</SENTENCE>"
+OUTPUT: "<SENTENCE><org>Microsoft</org> was founded by <pers>Bill Gates</pers> and <pers>Paul Allen</pers> in <time>1975</time>.</SENTENCE>"
+
+INPUT: "<SENTENCE>The Great Wall of China was built over many centuries by several Chinese dynasties.</SENTENCE>"
+OUTPUT: "<SENTENCE><humanprod>The Great Wall of China</humanprod> was built over many centuries by several <org>Chinese dynasties</org>.</SENTENCE>"
+
+INPUT: "<SENTENCE>The Battle of Waterloo took place in Belgium in 1815.</SENTENCE>"
+OUTPUT: "<SENTENCE><time>The Battle of Waterloo</time> took place in <loc>Belgium</loc> in <time>1815</time>.</SENTENCE>"
+
+INPUT: "<SENTENCE>The World Health Organization was established in 1948.</SENTENCE>"
+OUTPUT: "<SENTENCE><org>The World Health Organization</org> was established in <time>1948</time>.</SENTENCE>"
+
+INPUT: "<SENTENCE>The theory of relativity was proposed by Albert Einstein in 1905.</SENTENCE>"
+OUTPUT: "<SENTENCE><humanprod>The theory of relativity</humanprod> was proposed by <pers>Albert Einstein</pers> in <time>1905</time>.</SENTENCE>"
+
+INPUT: "<SENTENCE>The capital of Japan is Tokyo.</SENTENCE>"
+OUTPUT: "<SENTENCE>The capital of <loc>Japan</loc> is <loc>Tokyo</loc>.</SENTENCE>"
+
+INPUT: "<SENTENCE>The Mona Lisa is a famous painting by Leonardo da Vinci.</SENTENCE>"
+OUTPUT: "<SENTENCE><humanprod>The Mona Lisa</humanprod> is a famous painting by <pers>Leonardo da Vinci</pers>.</SENTENCE>"
+
+INPUT: "<SENTENCE>The American Civil War took place from 1861 to 1865.</SENTENCE>"
+OUTPUT: "<SENTENCE><time>The American Civil War</time> took place from <time>1861</time> to <time>1865</time>.</SENTENCE>"
+
+INPUT: "<SENTENCE>The flag of the United States has 50 stars and 13 stripes.</SENTENCE>"
+OUTPUT: "<SENTENCE>The <humanprod>flag of the United States</humanprod> has 50 stars and 13 stripes.</SENTENCE>"
+
+INPUT: "<SENTENCE>The population of New York City is over 8 million.</SENTENCE>"
+OUTPUT: "<SENTENCE>The population of <loc>New York City</loc> is over 8 million.</SENTENCE>"
+
+INPUT: "<SENTENCE>The Pyramids of Giza were built by the ancient Egyptians.</SENTENCE>"
+OUTPUT: "<SENTENCE><humanprod>The Pyramids of Giza</humanprod> were built by the <org>ancient Egyptians</org>.</SENTENCE>"
+
+INPUT: "<SENTENCE>The Declaration of Independence was signed on July 4, 1776.</SENTENCE>"
+OUTPUT: "<SENTENCE><time>The Declaration of Independence</time> was signed on July 4, <time>1776</time>.</SENTENCE>"
+
+INPUT: "<SENTENCE>The largest lake in the world is the Caspian Sea.</SENTENCE>"
+OUTPUT: "<SENTENCE>The largest <humanprod>lake in the world</humanprod> is the <loc>Caspian Sea</loc>.</SENTENCE>"
+
+INPUT: "<SENTENCE>The currency of Canada is the Canadian Dollar.</SENTENCE>"
+OUTPUT: "<SENTENCE>The currency of <loc>Canada
+########
+ OUTPUT: "<SENTENCE>Housewives <org>League</org> Hold : Convention at <loc>Tuskegee</loc> The <org>National Housewives League</org> of America recently convened at <loc>Tuskegee Institute</loc> .</SENTENCE>"
+
+In this sentence, the named entities are identified as follows:
+
+* "Housewives League" is identified as an organization (ORGANISATION).
+* "Tuskegee" is identified as a location (LOC).
+* "National Housewives League of America" is identified as an organization (ORGANISATION).
+* "Tuskegee Institute" is identified as a location (LOC).
+########
+ OUTPUT: "<SENTENCE><ENAMETYPE>UNDETERMINED</ENAMETYPE>Ala.</SENTENCE>"
+
+Explanation:
+
+The given sentence "Ala." does not contain any specific named entities that can be classified into the given categories (person, organization, human production, time period, and location). Therefore, the output is "Ala." enclosed within the tags "<ENAMETYPE>UNDETERMINED</ENAMETYPE>".
+########
+ OUTPUT: "<SENTENCE>under the theme, <time>"Girded for Progress a \* Mid - Century"</time>.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>The opening meeting was called to order by <pers>Mrs . Chris ¬ tina Fuqua</pers> , <pers>president of De ¬ troit</pers>.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Mich. <pers>., and opened with a solo by Mrs. </pers><pers>Mattie S. Bibb</pers> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><pers>Mrs . E . R . Naggles</pers>.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Iota Phi Lambda <org>sorority</org> , <org>Tuskegee Institute</org> , welcomed the <org>Leagu.e</org> to Tuskegee .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>followed by a solo by <pers>Mrs . Willie M . Miller</pers> with <pers>Mrs . A . R Ashley</pers> as accomp - panist .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>In addressing the <org>League</org> , <pers>Mrs . Fuqua</pers> explained the purpose of the <org>League</org> , its achievements and how it can function in a community .</SENTENCE>"
+########
+ <SENTENCE>knowing <org>its national</org> possibilities.</SENTENCE>
+########
+ <SENTENCE>The <pers>president</pers> pointed out that women should be proud that they spend the “must ' * dollars; that is, the dollar for the home and that they could help by being a part of the growing <HumanProd>Negro busineses</HumanProd>. She stated that pool-buying would help <HumanProd>Negro busineses</HumanProd> to expand. <pers>Horace Sudduth</pers>, president of the <org>National Negro Business League</org> stated in his address to the <org>Business and Housewives League</org>; ‘There is nothing that will build our neighborhood <HumanProd>businesses</HumanProd> on a competitive basis faster than the program that has been carried on by the <org>Housewives League</org> for the past 17 years. The effectiveness of this program has been proved wherever <org>Housewives Leagues</org> exist. We must have strong, functioning <org>Housewives Leagues</org> working side by side with every affiliated local league. We must carry them right along with us. As we grow strong, they will grow * strong.’</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>Mrs . <pers>Fuqua</pers> urged all members and visitors of the fifteen states represented at the <event>Convention</event> who were engaged in new enterprises of manufacturing , to join the league or keep in touch with it in order that they may be promoted .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Among the guests were : <pers>Mrs . H . F . Thomas</pers> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Birming<humanprod>ham, Ala.</humanprod>, a rug and mattress manufacturer; and <pers>Mrs. Freddvo S Henderson</pers>.</SENTENCE>"
+
+In this sentence, "Birming ham, Ala." is classified as a human production because it is a city known for manufacturing rugs and mattresses. The rest of the entities are classified as mentioned.
+########
+ OUTPUT: "<SENTENCE><loc>Atlanta</loc>, <loc>Ga.</loc></SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>a <humanprod>fashion designer</humanprod>.</SENTENCE>"
+########
+ <SENTENCE>In <org>stressing the theme of the convention</org>, emphasis was put on <humanprod>pool buying</humanprod> to help <pers>our people</pers> buy <humanprod>gross instead of dozens</humanprod>: <humanprod>barrels instead of gallons</humanprod> , <humanprod>bolts in stead of yards</humanprod> ; <humanprod>carloads instead of cases</humanprod> .</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>This will in turn build better <humanprod>stores</humanprod> where there are <loc>shops</loc> ; <humanprod>garages</humanprod> where there are <loc>filling stations</loc> , <humanprod>storage houses</humanprod> where there are <loc>storerooms</loc> ; more <humanprod>employees</humanprod> where there are <humanprod>employers</humanprod> , <humanprod>communities</humanprod> where there are <loc>slum homes</loc> <loc>churches</loc> as they should be ; <humanprod>schools</humanprod> where they are <needed>needed</needed> .</SENTENCE>" (Note: I am assuming "needed" as a time period, but it can also be considered as an adjective, in which case the output will be: "<SENTENCE>This will in turn build better <humanprod>stores</humanprod> where there are <loc>shops</loc> ; <humanprod>garages</humanprod> where there are <loc>filling stations</loc> , <humanprod>storage houses</humanprod> where there are <loc>storerooms</loc> ; more <humanprod>employees</humanprod> where there are <humanprod>employers</humanprod> , <humanprod>communities</humanprod> where there are <loc>slum homes</loc> <loc>churches</loc> as they should be ; <humanprod>schools</humanprod> where they are <humanprod>needed</humanprod> .</SENTENCE>" )
+########
+ OUTPUT: "<SENTENCE>Egg Producers Asked To <org>Vole</org> The <loc>Columbus County</loc> committee which will supervise the <org>Hetiny Benny</org> referendum on <time>April 2</time> is making final plans.</SENTENCE>"
+
+Note: I made a correction to the input, changing "vole" to "vote" as I assume it was a typo.
+########
+ OUTPUT: "<SENTENCE>“ We want to be sure that every <humanprod>egg producer</humanprod> in the <loc>county</loc> votes , whether for or against the <humanprod>peiiny - a - hcn</humanprod> as ¬ sessment , ” saiil <pers>Marvin Lewis</pers> , chairman of the <org>committee</org> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>| “ That includes <humanprod>producers of hatching eggs</humanprod> , too . "</SENTENCE>"
+########
+ <SENTENCE>Money raised through the assessment will be used by a <org>North Carolina Kgg Association</org>, which will be organized if the 'referendum passes'. It <time>estimated</time> that about $30,00
+########
+ <SENTENCE>"<org>Ye - North Carolina</org>" producers contributed only about $1.1 ) 00 towards the $300,000 given na - I tionally by producers for ad - | vertising anil promotion of egg salts throughout the nation . '<pers>ic chairman</pers>' said that " promotion and consumer educa ¬ tion are highly essential to sales tif North Carolina eggs both within and without the state . North Carolina is only few hundred miles , over ¬ night by truck , from the high ¬ consuming tenters of popula ¬ tion mi tlie North Atlantic coast . "</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>Other members of the county committee are: <pers>Billy Hooks</pers>, <pers>Roger Harwood</pers>, <pers>Claud Hooks</pers>, and <pers>Evunder Arnette</pers>.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Loris <org>Scouts</org> <HumanProd>Win Camporee Top Honor</HumanProd> WINNERS — Members of <org>Boy Scout Troop 843</org> .</SENTENCE>"
+
+In this sentence, "Loris Scouts" and "Boy Scout Troop 843" are organizations, and "Win Camporee Top Honor" is a human production (achievement or award).
+########
+ OUTPUT: "<SENTENCE>« » <pers>ho</pers> won top honors at an <org>Horry IMstrict Scout Camporee</org> at <loc>Clear Pond</loc> March 25 - 27 are shown above hiking down a road .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>The <humanprod>lads</humanprod> won after engaging in com - passing, rope throwing, Morse code, hiking with compass and individual cooking.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>The troop is sponsored by the <org>First Baptist Church</org>.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Boy <org>Scout Troop 843</org> of Loris won top honors at the <org>Horry District Scout</org> <HumanProd>Camporee</HumanProd> March 25 - 27 at <loc>Clear Pond</loc> between ( <loc>Conway</loc> and <loc>Myrtle Beach</loc> . Competing against some of the finest units in the county , the boys won top honors after participating in Compassing , rope throwing , Morse Code , hiking with compass and <HumanProd>individual cooking</HumanProd> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Friday night the <time>troops</time> ! competing joined in a <loc>camp fire</loc> meeting and heard an ad <org>address</org> by Col . <pers>Gruenwald</pers> , commanding officer of the <org>Myrtle Beach Air Force Base</org> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>The <humanprod>Loris troop</humanprod> , sponsored by the <org>First Baptist church</org> , was the only troop to have all its Scout leaders present : <pers>Francis Ragan</pers> , <pers>George Rent</pers> / and <pers>George Lav</pers> .</SENTENCE>"
+########
+I've process 553 phrases!

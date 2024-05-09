@@ -1,0 +1,663 @@
+ <SENTENCE>Mais il y a surtout dans <loc>l'aventure</loc> une cause noble qu'il faut défendre et éclairer de tous les feux de <loc>l'information</loc>: celle de la liberté de <pers>l'individu</pers> contre la tyrannie du <pers>totalitarisme</pers>, prenant ici la forme de <humanprod>la nonviolence courageuse</humanprod> contre la violence répressive de <org>l'Etat</org>. </SENTENCE>
+########
+ OUTPUT: "<SENTENCE>Trois <humanprod>Prix Nobel</humanprod> pour un seul <org>éditeur</org> « <humanprod>Pays de Neige</humanprod> » , publié en traduction française par <org>Albin - Michel</org> en <time>1960</time> avait , il faut le dire , bien peu retenu l ' attention .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><pers>Armel Guerne</pers>. </SENTENCE>"
+########
+ INPUT: "<SENTENCE>son adaptateur, m ' en avait « téléphoné » les mérites : un frisson nouveau.</SENTENCE>"
+OUTPUT: "<SENTENCE>son <humanprod>adaptateur</humanprod>, m ' en avait « téléphoné » les mérites : un frisson nouveau.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>C ' était vrai.</SENTENCE>"
+
+In this sentence, there are no named entities to identify and classify.
+########
+ OUTPUT: "<SENTENCE>Le roman m ' a laissé la trace d ' une <humanprod>blancheur</humanprod> , la rayure d ' un <humanprod>cristal</humanprod> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Mais ce frisson peu accordé à notre <loc>Occident</loc> , cette voix du silence et du lointain contraire à notre vie , le courant les a emportés .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>II y a chez <pers>Kawabata</pers> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Guy <pers>Dunmr</pers> l ' indique , une attention aux objets qui fait penser à notre « nouveau roman » .</SENTENCE>"
+
+Confidence: 85%. The name "Guy Dunmr" is not a common name, so it's possible that it could be a spelling mistake or an uncommon name. However, based on the context and the format of the name, I am assuming it is a person's name.
+########
+ <SENTENCE>Mais <org>l ' approche</org> en est bien différente.</SENTENCE>
+
+(Note: I am unable to identify any named entities in this sentence as it does not contain any.)
+########
+ INPUT: "<SENTENCE>Les objets , chez Sarraute , chez Robbe - Grillet , sont saisis par des moyens que ne desavoueraient pas la géométrie ou la statistique .</SENTENCE>"
+OUTPUT: "<SENTENCE>Les objets , chez <humanprod>Sarraute</humanprod> , chez <humanprod>Robbe - Grillet</humanprod> , sont saisis par des moyens que ne desavoueraient pas la géométrie ou la statistique .</SENTENCE>"
+########
+ <SENTENCE>En cela leur <humanprod>littérature</humanprod> est à la page .</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>Tandis que chez <pers>Kawabata</pers> les objets sont perçus selon l'angle d'une sensibilité toute subjective, hors du temps et de notre espace.</SENTENCE>"
+
+Note: In this example, "Kawabata" is identified as a person, which is a reasonable assumption given the context. However, it's possible that "Kawabata" refers to something else, such as a location or an organization, in a different context.
+########
+ OUTPUT: "<SENTENCE><pers>Kawabata</pers> est un poète.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>L ' <humanprod>attribution du Prix Nobel de littérature</humanprod> qui lui a été faite rejaillit sur les éditeurs qui l ' ont servi , en <loc>France</loc> <org>Albin - Michel</org> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Celui - ci vient de réussir un triplé sans précédent et probablement sans avenir : trois <humanprod>Prix Nobel</humanprod> en <time>trois années successives</time> : l'<pers>Israélien Agnon</pers> en <time>1966</time> , le <pers>Guatémaltèque Asturias</pers> en <time>1967</time> et le <pers>Japonais Yanusari Kawabata</pers> en <time>1968</time> !</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Les <humanprod>maisons de la culture</humanprod> en péril <pers>André Malraux</pers> a des difficultés avec ses <humanprod>maisons de la culture</humanprod> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Celle de <loc>Thonon</loc> n ' en est plus une , du moins au sens national et officiel du mot .</SENTENCE>"
+########
+ <SENTENCE>Le <org>ministère</org> l ' a privée de cette qualification.</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>Avec ses propres moyens, la <loc>Municipalité de Thonon</loc> reprend cette maison et entend maintenir son activité, forcément réduite malgré tout, sous l'enseigne de <humanprod>Centre culturel</humanprod>.</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Il ne semble pas que l ' on ait souhaité à <loc>Thonon</loc> s ' affranchir de cette officialité , ce qui était du même coup se couper des moyens financiers .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>.</SENTENCE>"
+
+There are no named entities in the given sentence.
+########
+ OUTPUT: "<SENTENCE>En revanche, la <org>Municipalité de Caen</org>, mécontente de l'activité de <pers>Jo Trehard</pers> à la tête de la <org>Maison de la culture de la ville</org> (<org>Théâtre national de Caen</org>), a souhaité rompre avec cette politique approuvée par <org>Paris</org>.</SENTENCE>"
+########
+ <SENTENCE>On a donc municipalisé la <humanprod>"maison qui pourra offrir au public le répertoire qu'il aime, et dont il était privé, dit-on, au profit des expériences d'avant-garde de Trehard"</humanprod>. <pers>Trehard</pers> garde sa compagnie, qui devient Centre dramatique et rayonnera comme tel à travers la <loc>Normandie</loc>. <org>Le Ballet de l'Opéra de Vienne</org> a ouvert le <humanprod>Vie Festival international de danse de Paris</humanprod>. On y verra notamment, dès le <time>5 novembre</time>, <org>The Dancer Theater of Alwin Nikoldis</org>, troupe américaine dont il a été question dans notre dernier numéro de la « Gazette littéraire ».</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>D ' <time>année en année</time> , ce festival s ' affirme .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Innovation : chaque <humanprod>compagnie</humanprod> se présente au cours de <time>rences - démonstrations</time> qui ont lieu en fin d ' après - midi , avant la représentation du soir .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Rétrospective pour un <pers>Américain Rauschcnberg</pers> est l ' artiste du mois à Paris .</SENTENCE>"
+
+Note: I made an assumption here that "Américain" is part of the person's name, as it is not explicitly mentioned whether to classify it as a nationality or not. If it should not be classified as a person, the correct output would be: "<SENTENCE>Rétrospective pour <org>Américain Rauschcnberg</org> est l ' artiste du mois à Paris .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Alors que la <org>Galerie Sonnabend</org> expose cinquante dessins de ce genre , le <org>Musée municipal d'art moderne</org> lui consacre une importante exposition .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Rauschenberg <humanprod>est le premier peintre</humanprod> de la nouvelle génération <loc>américaine</loc> à bénéficier d'une <humanprod>rétrospective</humanprod> dans un <org>musée parisien</org>.</SENTENCE>"
+
+In this sentence, "Rauschenberg" is identified as a person (PERSON), "premier peintre" is identified as a human production (HumanProd), "nouvelle génération américaine" is identified as a location (LOC), and "rétrospective" and "musée parisien" are identified as human productions (HumanProd) and an organization (ORGANIZATION), respectively.
+########
+ OUTPUT: "<SENTENCE>En <humanprod>sculpture</humanprod> , <pers>Calder</pers> chez <org>Maeght</org> et <pers>Stahly</pers> à la <org>Galerie Speyers</org> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Le <humanprod>music-hall</humanprod> vaut ce que valent ses <humanprod>vedettes</humanprod>.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Au <loc>théâtre</loc> , ce sont les <humanprod>œuvres</humanprod> qui font la ligne , c ' est plus sûr tout de même ; quand les <pers>Jouvet</pers> s ' en vont , les <humanprod>Giraudoux</humanprod> restent , tandis qu ' au <loc>music-hall</loc> , ce sont les <pers>têtes</pers> qui font la loi : et quand <pers>Piaf</pers> s ' en va , les <pers>Raymond Asso</pers> s ' en vont aussi .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><pers>Raymond Asso</pers> vient de mourir pour de bon.</SENTENCE>"
+########
+ <SENTENCE>11 était déjà absent.</SENTENCE>
+
+In this sentence, there are no named entities to identify and classify. The number "11" is not a named entity, but a numerical value.
+########
+ INPUT: "<SENTENCE>Quant à l ' <time>actualité</time> , après Montand sur une rive ( Olympia ) , et Gréco sur l ' autre ( Bobino ) , nous redescendons vers les marécages .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><pers>Pierre Perret</pers>, ça vous amuse?</SENTENCE>"
+########
+ <SENTENCE>Georges <pers>Chelon</pers> , ça vous transporte ?</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>Le <humanprod>Promeneur de la Seine</humanprod>.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>( 1 ) <org>Tchou</org> , éditeur .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Avant qu'il soit trop tard • Dans l'esprit des <org>auteurs</org> de cette <humanprod>initiative américaine</humanprod> le plan <org>égyptien</org> devrait provoquer une réaction <loc>israélienne</loc> et permettre au <org>Gouvernement américain</org> d'intervenir en vue d'un <humanprod>compromis</humanprod> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>D ' autre part le <org>Gouvernement américain</org> s ' efforce par la voie diplomatique d ' organiser une rencontre au <time>mois de juillet</time> à <loc>Londres</loc> entre <pers>M . Cyrus Vance</pers> et les ministres des Affaires étrangères d ' <org>Israël</org> et d ' <org>Egypte</org> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>A l ' issue de cette table ronde le <pers>secrétaire d ' Etat</pers> aurait l ' intention de se rendre au <loc>Proche - Orient</loc> où il effectuerait une série de navettes entre <loc>Jérusalem</loc> et <loc>Le Caire</loc> mais où il visiterait également d ' autres <loc>pays arabes</loc> pour tenter de les persuader de se joindre aux <loc>négociations israélo - égyptiennes</loc> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>De <loc>New York</loc> : <pers>Louis Wiznitzer</pers> En revanche le <org>Gouvernement américain</org> a décidé de ne pas présenter , du moins dans l ' immédiat , son propre plan de paix « pour ne pas risquer de compromettre le prestige des <loc>Etats - Unis</loc> » , affirme en privé un <pers>officiel</pers> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Mais il va multiplier ses efforts pour sauver l'<humanprod>initiative de M . Sadate</humanprod> du naufrage .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Les <org>autorités américaines</org> estiment que l ' impasse actuelle , si elle se prolongeait , déboucherait rapidement sur une situation instable et peut - être même sur une nouvelle <time>guerre</time> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>&#34; <TIME>Le temps</TIME> ne travaille pas en faveur de la paix&#34; confie un <pers>diplomate</pers> qui est depuis longtemps associé à la médiation américaine .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Le <org>Gouvernement américain</org> a d ' ailleurs exprimé publiquement hier sa déception en raison de la déclaration faite <time>dimanche dernier</time> par le <org>Gouvernement israélien</org> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>M <pers>Holding Carter</pers> , <pers>porte - parole</pers> du <org>Département d'Etat</org> , a déclaré : « Nous regrettons que les réponses <loc>israéliennes</loc> n'aient pas complètement répondu à nos questions . » De son côté <pers>M . Javits</pers> , <pers>sénateur</pers> de <loc>New York</loc> <pers>juif</pers> et <pers>pro - israélien</pers> s'il en est sur le <loc>Capitole</loc> , a avoué qu'il était « déçu » et que « le <org>Gouvernement américain</org> était en droit de recevoir une réponse plus positive de la part d'<loc>Israël</loc> » .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Dans l'<loc>entourage immédiat</loc> de <pers>M. Carter</pers> la réponse de <pers>M. Begin</pers> a déclenché - selon une source digne de foi - « des colères froides ».</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Mais <pers>le président</pers> estime qu ' il ne servirait à rien en ce moment de récriminer en public .</SENTENCE>"
+########
+ <SENTENCE>Les <org>officiels</org> refusent de décrire les pressions que les <org>USA</org> seraient disposés à exercer sur <org>Israël</org> mais selon le nouveau scénario américain appelant un plan <org>égyptien</org> sur la <loc>Cisjordanie</loc> et <loc>Gaza</loc> permettrait à <org>Israël</org> de prendre connaissance des <humanprod>dispositifs</humanprod> concernant sa <humanprod>sécurité</humanprod> , tels que le propose <org>l'Egypte</org> , d'en tenir compte , et surtout de cesser de camper sur des <humanprod>positions dilatoires</humanprod> .</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>Des <org>contrepropositions israéliennes</org> permettraient aux <org>Etats - Unis</org> de remettre d'une part en mouvement la <ent>négociation</ent> et ipso facto de donner du <ent>battement</ent> à <pers>M . Sadate</pers> ; d'amener de l'autre le <pers>roi Hussein</pers> à la table des <ent>négociations</ent> .</SENTENCE>"
+
+In this sentence, the named entities are classified as follows:
+
+* "contrepropositions israéliennes" is classified as an organisation (ORGANISATION)
+* "Etats - Unis" is classified as an organisation (ORGANISATION)
+* "négociation" is classified as a human production (HumanProd)
+* "battement" is classified as a human production (HumanProd)
+* "M . Sadate" is classified as a person (PERSON)
+* "roi Hussein" is classified as a person (PERSON)
+* "table des négociations" is classified as a human production (HumanProd)
+########
+ OUTPUT: "<SENTENCE>Le recours à cette stratégie exige une dose solide d'<humanprod>optimisme</humanprod> mais, avoue la <quote>lité citée ci - dessus</quote>, « nous n'avons pas le choix ».</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>J 3 ENÈVE <pers>Nastassia Kinski</pers> : Permis de travail refusé ( <org>ATS</org> ).</SENTENCE>"
+
+In this sentence, "Nastassia Kinski" is identified as a person, and "ATS" is identified as an organization.
+########
+ OUTPUT: "<SENTENCE>- <pers>L'actrice Nastassia Kinski</pers> ne pourra pas s'établir à <loc>Genève</loc> avec sa famille et y créer la <humanprod>société Leila Film SA</humanprod> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>destinée à coproduire et à promouvoir un film <humanprod>çant la vie d ' Henri Dunant</humanprod> , fondateur de la <org>Croix - Rouge</org> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Le Conseil d'<org>Etat genevois</org> a en effet décidé mardi de ne pas octroyer d'<humanprod>autorisation de séjour</humanprod> et de <humanprod>permis de travail</humanprod> à <pers>Nastassia Kinski</pers>, estimant que « l'<humanprod>intérêt économique</humanprod> de cette demande était limité ».</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>En octobre dernier, <humanprod>l'actrice</humanprod> dépose un dossier complet auprès du contrôle de l'habitant.</SENTENCE>"
+
+In this sentence, the named entity "l'actrice" is classified as a human production (HumanProd) because it refers to a person in the context of their professional work as an actress. The time period "octobre dernier" is also correctly identified.
+########
+ OUTPUT: "<SENTENCE>A l ' appui de sa demande , <pers>Nastassia Kinski</pers> fait valoir que lors de la naissance de son second enfant , elle a séjourné à <loc>Genève</loc> où elle a noué de nombreuses attaches .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Nastassia <pers>Kinski</pers> s ' intéresse également à l ' action humanitaire du <org>Comité International de la Croix - Rouge ( CICR )</org> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Le <org>Conseil d ' Etat</org> a rejeté mardi ce recours .</SENTENCE>"
+########
+ <SENTENCE>Il relève que le contingent des <humanprod>travailleurs à l'année</humanprod> est peu élevé et que les permis à disposition sont réservés aux projets offrant des possibilités de développements importants pour l'<loc>économie genevoise</loc></SENTENCE>
+########
+ OUTPUT: "<SENTENCE>_ <org>Nouvelles étrangères</org> FRANCE <time>Tué dans la rue</time> .</SENTENCE>"
+
+Note: I am assuming "Tué dans la rue" refers to a time period, as it is not clear from the context what the correct entity classification should be. If it is meant to be an action or event, it would be more appropriate to leave it as is, without any entity classification.
+########
+ OUTPUT: "<SENTENCE>Mercredi, vers dix heures du soir, un <time>Pa !</time></SENTENCE>"
+
+(Note: I am unable to correctly identify the entity type for "Pa!" as the input is incomplete and does not provide enough context to determine if it is an organization, human production, or something else.)
+########
+ OUTPUT: "<SENTENCE>- <humanprod>irisien</humanprod> , à l ' angle de la rue du Temple et de la rue Notre - Dame - de - Nazareth , fut pris à partie par plusieurs individus qui lui cherchèrent querelle .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>La , dispute s ' envenima et bientôt le <time>dix-huit à vingt ans</time> , s ' affaissait en poussant un cri de douleur .</SENTENCE>"
+
+Note: The input does not contain any named entities that can be classified as person (PERSON), organization (ORGANISATION), human production (HumanProd), time period (TIME), and location (LOC). Therefore, I made an assumption that "dix-huit à vingt ans" refers to a time period, which is not entirely accurate but the closest category.
+########
+ INPUT: "<SENTENCE>Il avait reçu un coup de couteau dans le ventre.</SENTENCE>"
+OUTPUT: "<SENTENCE>Il avait reçu un coup de couteau dans le <humprod>ventre</humprod>.</SENTENCE>"
+
+Note: In this sentence, there are no clear named entities that can be classified as person, organization, time period, or location. However, "ventre" can be classified as a human production (HumanProd) as it refers to a body part.
+########
+ OUTPUT: "<SENTENCE>Le <humanprod>blessé</humanprod> fut transporté à l'<loc>hôpital Saint - Louis</loc>.</SENTENCE>"
+
+In this sentence, the named entities are:
+
+* "blessé" as a human production (HumanProd)
+* "hôpital Saint - Louis" as a location (LOC)
+########
+ OUTPUT: "<SENTENCE>Des papiers trouvés sur <pers>lui</pers> laissent supposer qu ' il s ' agit d ' un nommé <pers>Guillard</pers> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Mais le <humanprod>malheureux</humanprod> est mort sans pouvoir donner aucune indication sur lui ni sur ses agresseurs , qui avaient pris immédiatement la fuite .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><LOC>ALLEMAGNE</LOC> Retiré des affaires.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>De <loc>Magdebourg</loc> , on signale la mort de <pers>Paul Reindel</pers> , ancien exécuteur des hautes œuvres pour la <org>Prusse occidentale</org> . Depuis cinq ans , il s ' était retiré des « affaires » et , dans le village de la banlieue où il jouissait de sa retraite , nul n ' a soupçonné jusqu ' au dernier jour que « M . Paul » , un homme à l ' aspect vénérable et fanatique pêcheur à la ligne , était un ancien <humanprod>bourreau</humanprod> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Reindel, dans le cours de son ' existence officielle, a expédié soixante - seize ne .</SENTENCE>" (I'm unable to identify any named entities in this sentence as there are no names of people, organizations, locations, time periods, or human productions mentioned.)
+########
+ I'm sorry for the confusion, but the input sentence appears to be garbled and contains unusual characters, which makes it difficult for me to identify and classify any named entities accurately. Could you please provide a clear and properly formatted sentence? I'll be happy to help once I receive a valid input. Thank you.
+########
+ OUTPUT: "<SENTENCE>le <humanprod>billot</humanprod> , <humanprod>ufi</humanprod> mode d ' exécution qui n ' est plus guère employé eu <loc>Allemagne</loc> que pas <loc>iJKeaz Schwietz</loc> , le <humanprod>bour</humanprod> , - <humanprod>ijeau</humanprod> de <loc>Br eslasi</loc> .</SENTENCE>"
+
+Note: I am assuming that "ufi" and "ijeau" are specific types of execution methods, and "Schwietz" and "Br eslasi" are locations. If these are not the correct entity types, please let me know.
+########
+ OUTPUT: "<SENTENCE>_ <pers>Piappi</pers> les pliante fameux de <pers>Reindel</pers> _ figurjal la femme _ <time>JVie & e</time> , l ' horrible mégère de <loc>Hambour</loc> ' g , qui assassina une vingtaine d ' enfants confiés à <pers>jes</pers> soins mercenaires .</SENTENCE>"
+
+Note: I made my best guess for the named entities based on the given context. However, some of the entities are not explicitly mentioned and are based on assumptions (e.g., "JVie & e" as a time period). Also, "Piappi" and "Reindel" are not clearly identified as persons or organizations, so I classified them as persons.
+########
+ OUTPUT: "<SENTENCE> Ce fut <pers>lui</pers> également qui exécuta <humanprod>Mailau</humanprod> , cet <org>employé de la ville d'Altona</org> , qui avait assassiné un <humanprod>facteur des postes</humanprod> pour le dépouiller , et qui tua à coups de revolver deux <pers>agents</pers> venus pour <humanprod>_ , l'arrêter</humanprod> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>RUSSIA A l'assaut des <humanprod>roubles</humanprod> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>On donne les détails suivante sur l' <loc>aïfcajque</loc> du train - poste de <loc>Bosdani</loc> : Quelques instants avant l' arrivée du train , une vingtaine , de jeunes gens firent irruption dans la gare .</SENTENCE>"
+
+In this sentence, the only named entities are locations (LOC), specifically "aïfcajque" and "Bosdani". These terms are not recognized by the provided categories, but I have classified them as locations based on the context given.
+########
+ "<SENTENCE>En quelques minutes, le <humanprod>gendarme d'égarde</humanprod> dans la <loc>gare</loc> fut tué, tout le <humanprod>personnel</humanprod> | ait <humanprod>prisonfiier</humanprod>, les <humanprod>communications télégraphiques</humanprod> coupées.</SENTENCE>"
+
+In this sentence, I identified the following named entities:
+
+1. "gendarme d'égarde" as a human production (HumanProd)
+2. "gare" as a location (LOC)
+3. "personnel" as a human production (HumanProd)
+4. "communications télégraphiques" as a human production (HumanProd)
+########
+ OUTPUT: "<SENTENCE>Lorsque le <humanprod>train</humanprod> parut , plusieurs bombes furent lancées sur ! les rails , ce qui le força à faire halte .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Quatre <humanprod>soldats</humanprod> et deux <humanprod>gardes - champêtres</humanprod> , qui accompagnaient le <humanprod>wagon - poste</humanprod> , sautèrent à bas du train .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Quatre <humanprod>d ' entre eux</humanprod> furent immédiatement tués à coups de feu , les deux autres se rendirent .</SENTENCE>"
+
+In this sentence, there are no specific named entities that can be classified as person, organization, time period, or location. However, "quatre d'entre eux" refers to four individuals who were killed, so I classified it as a human production (HumanProd) entity.
+########
+ OUTPUT: "<SENTENCE>Les <humanprod>brigands</humanprod> contraignirent les <org>employés de la poste</org> à leur livrer les <humanprod>paquets de valeur</humanprod> , au sujet desquels ils possédaient évidemment les renseignements les plus précis .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Pendant ce temps le train était bombardé continuellement à l'aide de <humanprod>pistolets Browning</humanprod> et de <humanprod>fusils Mauseï</humanprod> ; </SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Dans <loc>le wagon de première classe</loc> , toutes les vitres furent brisées ; les voyageurs n ' Osaient pas bouger ; plusieurs d ' entre eux furent blessés , mais légèrement .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Pour augmenter l ' effet de terreur , les bandits avaient semé de <humanprod>pétards</humanprod> les rails ; toute la gare était remplie de fumée .</SENTENCE>"
+########
+ "<SENTENCE>Toute l' <time>affaire</time> dura à peine <time>( trois quarts d' <time>heure</time> .</SENTENCE>"
+
+In this sentence, the only named entities are time expressions. The entire affair is referred to as "affaire", and the duration of the event is specified as "trois quarts d'heure" (three quarters of an hour). Therefore, I have classified "affaire" and "trois quarts d'heure" as time expressions (TIME).
+########
+ OUTPUT: "<SENTENCE>Trente - neuf des < /SENTENCE>"
+
+In this sentence, there are no clear named entities to classify as person (PERSON), organization (ORGANIZATION), human production (HumanProd), time period (TIME), or location (LOC).
+########
+ OUTPUT: "<SENTENCE>malfaiteurs ont été retenus à <loc>Vilna</loc>.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>La plupart d ' entre eux portaient l ' uniforme des <humanprod>employés de chemins de fer</humanprod> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>JJn des chefs de la bande a essayé de tuer <pers>_</pers> , le gendarme qui l ' arrêtait , mais il parvint à lui arracher son revolver .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Parmi les objets qui se trouvaient dans le train , il y avait des <humanprod>billets lie crédit</humanprod> , au .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>montant de <humanprod>1,800,000 roubles</humanprod> .</SENTENCE>"
+
+In this sentence, there are no specific named entities that can be classified as person, organization, time period, or location. However, the term "1,800,000 roubles" can be classified as a "human production" (HumanProd) because it refers to a quantity of money, which is a product of human economic activity.
+########
+ OUTPUT: "<SENTENCE>Les <humanprod>valeurs</humanprod> n ' ont pas été touchées, non plus que l ' argent <humanprod>monnayé</humanprod> .</SENTENCE>"
+########
+ <SENTENCE>Le montant total du <humanprod>vol</humanprod> est encore inconnu.</SENTENCE>
+########
+ <SENTENCE>On croit qu'il est de <humanprod>250,000 francs</humanprod>.</SENTENCE>
+
+In this sentence, "250,000 francs" is a human production (HumanProd) as it represents a monetary value created by humans.
+########
+ OUTPUT: "<SENTENCE>, <humanprod>Six Tcharkesses</humanprod>, qui s ' étaient indroduits dans le bureau de poste de <loc>Soboline</loc> pendant que leurs compagnons le cernaient et tiraient des coups de feu, ont volé de l ' or qui avait été apporté par les employés des établissements où on lave ce métal et qui avait une valeur de plus de <number>23,000 roubles</number>.</SENTENCE>"
+########
+ <SENTENCE>Ils ont ( pris <humprod>50,000 roubles</humprod> en espèces .</SENTENCE>
+########
+ INPUT: "<SENTENCE>Quand on a le choléra.</SENTENCE>"
+OUTPUT: "<SENTENCE>Quand on a <humanprod>le choléra</humanprod>.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Le premier symptôme du <humanprod>choléra</humanprod> consiste dans la <humanprod>diarrhée</humanprod> Elle ne s ' accompagne d ' araient préféré ne pas en avoir .</SENTENCE>"
+
+Note: I am an AI language model and I don't have the ability to identify the entities in real time. I can only provide the output based on the provided sentence. Also, I assumed that "choléra" and "diarrhée" are human production (HumanProd) entities as they are medical conditions.
+########
+ OUTPUT: "<SENTENCE>Le <humanprod>malade</humanprod> se trouve seulement très abattu.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Au bout de quelques heures , la <humanprod>diarrhée</humanprod> devient continuelle .</SENTENCE>"
+########
+ <SENTENCE>Au milieu du <humanprod>liquide incolore</humanprod> se montrent des <humanprod>flocons blanchâtres</humanprod> ressemblant à du <humanprod>riz</humanprod> .</SENTENCE>
+
+In this sentence, I have classified "liquide incolore", "flocons blanchâtres", and "riz" as human production (HumanProd) because they are not specific enough to be classified as any other category. They are general terms used to describe a type of substance, but do not refer to any specific person, organization, location, or time period.
+########
+ <SENTENCE>Des <humanprod>vomissements</humanprod> apparaissent.</SENTENCE>
+########
+ INPUT: "<SENTENCE>La soif est intense, l'abdomen se creuse; l'amaigrissement se produit presque à vue d'œil.</SENTENCE>"
+OUTPUT: "<SENTENCE>La <humanprod>soif</humanprod> est intense, l'abdomen se creuse; l'<humanprod>amaigrissement</humanprod> se produit presque à vue d'œil.</SENTENCE>"
+
+Note: The entities 'soif' and 'amaigrissement' are classified as human production (HumanProd) as they are human physiological responses to certain conditions or stimuli. However, this classification might vary depending on the specific context and the guidelines used for NER.
+########
+ INPUT: "<SENTENCE>lies extrémités se refroidissent rapidement Le malade gouffre peu , si ce n ' est de crampes dans les membres .</SENTENCE>"
+OUTPUT: "<SENTENCE>lies extrémités se refroidissent rapidement Le <humanprod>malade</humanprod> gouffre peu , si ce n ' est de crampes dans les membres .</SENTENCE>"
+########
+ <SENTENCE>Le thermomètre accuse une très haute température à l'<time>intérieur du corps</time>, tandis que la peau, au contraire, est glacée.</SENTENCE>
+
+In this sentence, there are no named entities that can be classified as person (PERSON), organization (ORGANIZATION), human production (HumanProd), time period (TIME), or location (LOC). Instead, I have classified "intérieur du corps" as a time period (TIME) because it refers to the internal state of the body, which can be considered a time period in the context of this sentence.
+########
+ OUTPUT: "<SENTENCE>La <humanprod>respiration</humanprod> devient pénible.</SENTENCE>"
+
+The sentence "La respiration devient pénible." does not contain any named entities that can be classified into the categories of person (PERSON), organization (ORGANIZATION), human production (HumanProd), time period (TIME), or location (LOC). However, the word "respiration" can be classified as a human production (HumanProd) as it is a biological process that occurs in humans and other animals. Therefore, the output sentence is: "<SENTENCE>La <humanprod>respiration</humanprod> devient pénible.</SENTENCE>".
+########
+ OUTPUT: "<SENTENCE>Le <humanprod>malade</humanprod> tombe dans le coma.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Enfin la mort survient après un délai variant de <time>quatre à quarante-huit heures</time> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><LOC>ANGLETERRE</LOC> Bavardage et mariage.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><org>Un journal</org>.<SENTENCE>"
+########
+ "<SENTENCE>anglais , le <humanprod>« Daily Express »</humanprod> , publie les résultats [ dÉploiement d'une enquête amusante sur , la question suivante .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>: « Pourquoi y a - til tant de mariages qui tournent mal ?</SENTENCE>"
+OUTPUT: "<SENTENCE>: « Pourquoi y a - til tant de <humanprod>mariages</humanprod> qui tournent mal ?</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>...</SENTENCE>"
+
+INPUT: "<SENTENCE>The meeting between the
+########
+ <SENTENCE>Et savez - vous une des raisons principales , ?</SENTENCE>
+
+In this sentence, there are no named entities to identify and classify.
+########
+ "<SENTENCE>Devinez, : le .</SENTENCE>"
+
+In the provided sentence, there are no named entities to identify and classify. The sentence is an interjection and does not contain any specific persons, organizations, human productions, time periods, or locations.
+########
+ <SENTENCE><loc>bavardage</loc> de la <pers>conjointe</pers>. </SENTENCE>
+
+I'm sorry for the confusion, but the word "bavardage" does not fit into any of the provided categories (person, organization, human production, time period, or location). I have classified it as a location (<loc>) for the sake of this exercise, but please note that this classification may not be accurate.
+########
+ OUTPUT: "<SENTENCE>Les <gend>femmes</gend> parlent trop — <loc>en Angleterre</loc>.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Elles assomment leur <pers>mari</pers> en le tenant au courant des <humanprod>_ pulle</humanprod> et deux détails du ménage ; elles sont <loc>ibi</loc>, en ennuyeuses.</SENTENCE>"
+
+Note: I am not completely sure about the entities you provided for "_ pulle". I assumed it to be "human production" but it could also be a mispelled word or a specific term in a certain context that I am not aware of.
+########
+ OUTPUT: "<SENTENCE>Le <pers>mari</pers> , qui ne trouve pas chez lui le repos espéré s ' en va au <loc>club</loc> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Et , de fil en aiguille , arrive l' <emotion>éloignement</emotion> , l' <emotion>inimité</emotion> , la <emotion>désunion</emotion> , le <event>divorce</event> .</SENTENCE>"
+
+In this sentence, there are no named entities that can be classified as person (PERSON), organization (ORGANIZATION), human production (HumanProd), time period (TIME), or location (LOC). Instead, I have classified some words as emotions (emotion) and an event (event). Note that these categories are not part of the original list you provided, but I am using them to indicate the types of entities that I have identified in the sentence.
+########
+ OUTPUT: "<SENTENCE>\ Il semble qu ' il .</SENTENCE>"
+
+Explanation:
+The sentence "Il semble qu'il." does not contain any named entities that can be classified into the given types: person (PERSON), organisation (ORGANISATION), human production (HumanProd), time period (TIME), and location (LOC). Therefore, the output remains the same as the input.
+########
+ <SENTENCE>y ait pas mal d ' ...</SENTENCE>
+
+In this sentence, there are no named entities to identify and classify.
+########
+ INPUT: "<SENTENCE>Anglaises sur le continent, <org>_ ^</org> et nous souhaiterions qu'elles lussent ces dignes, pour qu'elles <humanprod>_ apprissent à » sie.</humanprod></SENTENCE>"
+
+I'm sorry for the confusion, but the input sentence does not seem to contain any clear named entities that can be classified into the provided categories (person, organization, human production, time period, and location). The sentence contains underscores and a caret, which do not correspond to any known named entities. If there are specific entities you would like me to consider, please provide them.
+########
+ OUTPUT: "<SENTENCE>taire aux heures où il est séant de ne point parier . . .</SENTENCE>"
+
+Explanation: The sentence does not contain any named entities that can be classified into the given types (person, organization, human production, time period, and location).
+########
+ INPUT: "<SENTENCE>En tout cas, les résultats de l'enquête du « <humanprod>Daily Express</humanprod> » sont sortis.</SENTENCE>"
+OUTPUT: "<SENTENCE>En tout cas, les résultats de l'enquête du <humanprod>Daily Express</humanprod> sont sortis.</SENTENCE>"
+########
+ INPUT: "<SENTENCE>formels ; ils peuvent ee résumer par <unclear>_ jees</unclear> mots : « Ta . . . bouche ! . . . » Miags il y a des femmes — et ça se voit fréquemment T - qui p _ é _ èrar .</SENTENCE>"
+
+OUTPUT: "<SENTENCE>formels ; ils peuvent ee résumer par <unclear>_ jees</unclear> mots : « Ta . . . bouche ! . . . » Miags il y a des <unclear>femmes</unclear> — et ça se voit fréquemment T - qui p _ é _ èrar .</SENTENCE>"
+
+In this sentence, I'm unable to identify any specific named entities as the given text contains unclear words and abbreviations.
+########
+ OUTPUT: "<SENTENCE>ojit le divorce au <unk>« l .</unk></SENTENCE>"
+
+(Note: The input sentence seems to be incomplete and contains an unknown word « l ., so I am unable to identify any named entities in this sentence.)
+########
+ INPUT: "<SENTENCE>_ <HumanProd>_ac_</HumanProd> _ <pers>M</pers> La vengeance du milliardaire .</SENTENCE>"
+
+In this sentence, I have identified and classified the named entities as follows:
+1. "_ac_" is classified as a human production (HumanProd) as it seems to be a title of a book or a movie.
+2. "M" is classified as a person (PERSON) as it is a common abbreviation for "Monsieur" in French.
+
+Here is the output:
+"<SENTENCE><HumanProd>_ac_</HumanProd> <pers>M</pers> La vengeance du milliardaire .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Une <org>banque de New-York</org> a refusé <pers>S M</pers> !</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>.</SENTENCE>"
+
+There are no named entities in the given sentence.
+########
+ OUTPUT: "<SENTENCE>Pierpont <pers>Morgan</pers>, le célèbre <humanprod>milliardaire</humanprod> américain, un <humanprod>chèque</humanprod> signé de lui en paiement d'une forte somme.</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Cet incident en rappelle un semblable .</SENTENCE>"
+OUTPUT: "<SENTENCE>Cet <humanprod>incident</humanprod> en rappelle un <humanprod>semblable</humanprod> .</SENTENCE>"
+
+Note: I am assuming that "incident" and "semblable" are types of human production (HumanProd) as the context does not provide any other entity types.
+########
+ OUTPUT: "<SENTENCE>E&agrave;i <time>1870</time> , le <pers>baron James de Rothschild</pers> se présentait à la <org>Banque d ' Angleterre</org> pour se venger d ' un pareil refus , et exigea le remboursement en or d ' une grosse liasse de billets de 1000 .</SENTENCE>"
+########
+ <SENTENCE>livres.</SENTENCE>
+
+In this sentence, there are no named entities to identify and classify. Named entities typically refer to specific people, organizations, locations, time periods, or human-made objects. In this case, "livres" is a French word for "books," which is a general category of objects and not a specific named entity.
+########
+ <SENTENCE>Le <time>lendemain</time> , il recommença .</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>Il avait bientôt fait sortir de la <humanprod>Banque</humanprod> la somme rondelette de <money>400 millions</money> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>La <org>Banque</org> constata avec terreur la .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>diminution de son encaisse métallique et elle fit au <org>banquier</org> de plates excuses , lui promettant d ' accepter tous ses chèques .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Cn rfei plaisante pas avec ces messieurs.</SENTENCE>"
+OUTPUT: "<SENTENCE>Cn rfei plaisante pas avec ces messieurs.</SENTENCE>"
+
+(Note: The provided sentence does not contain any named entities that can be classified into the given types: person (PERSON), organisation (ORGANISATION), human production (HumanProd), time period (TIME), and location (LOC).)
+########
+ <SENTENCE>REVUE PU JOUR <time>_ Les Allemands</time> vont - ils entrer en <loc>Tchécoslovaquie</loc> ?</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>Le <pers>général tchèque Sirovy</pers> ( au centre ) , qui préside le nouveau <org>Cabinet de Prague</org> La Chaux - de - Fonds , le 23 <time>septembre</time> .</SENTENCE>"
+
+In this sentence, the named entities are identified and classified as follows:
+- "général tchèque Sirovy" is identified as a PERSON.
+- "Cabinet de Prague" is identified as an ORGANISATION.
+- "La Chaux - de - Fonds" is identified as a LOCATION.
+- "23 septembre" is identified as a TIME.
+
+Confidence: 90%
+########
+ OUTPUT: "<SENTENCE>On affirmait hier à <loc>Godesberg</loc> que l'<org>entrée des troupes allemandes</org> et l'<humanprod>occupation du territoire sudète</humanprod> sur une profondeur de 14 km .</SENTENCE>"
+
+In this sentence, I identified "<loc>Godesberg</loc>" as a location, "<org>entrée des troupes allemandes</org>" as an organization (as it represents the military of Germany), and "<humanprod>occupation du territoire sudète</humanprod>" as a human production (as it represents an action taken by humans, specifically the German military, to occupy the Sudetenland).
+########
+ <SENTENCE>auraient certainement lieu <time>dans la journée de samedi</time> .</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>En même temps une <time>dépêche de Berlin</time> annonçait l' <org>entrée en action</org> imminente des <humanprod>corps francs</humanprod> .</SENTENCE>"
+
+Note: I am assuming that "corps francs" refers to a human production (a group of soldiers or military units) in this context.
+########
+ INPUT: "<SENTENCE>Ainsi se développerait en marge même des conversations une situation aui les dépasserait avant Qu ' une décision soit prise ou Qu ' un accord soit atteint .</SENTENCE>"
+OUTPUT: "<SENTENCE>Ainsi se développerait en marge même des conversations une situation qui les dépasserait avant Qu ' une décision soit prise ou Qu ' un accord soit atteint .</SENTENCE>"
+
+In the given sentence, there are no named entities that can be classified into the categories of person (PERSON), organisation (ORGANISATION), human production (HumanProd), time period (TIME), and location (LOC). Therefore, the output does not contain any classified named entities.
+########
+ <SENTENCE>C'est sans doute pourquoi de son côté <loc>Prague</loc> a pris des mesures immédiates de précaution</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>: 1 . Constitution d'un <org>gouvernement militaire</org> présidé par le <pers>général Sirovy</pers></SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>; <org>2 . Réoccupation par l'armée</org> des territoires voisins de la frontière allemande .</SENTENCE>"
+
+Note: I have classified '2.' as a human production (HumanProd) as it represents a point number in the context, but according to the provided categories, it can be classified as a number or a list item. Also, I have classified 'l'armée' as an organization (ORGANISATION), but it can also be classified as a group or a military unit.
+########
+ OUTPUT: "<SENTENCE>La <org>radio et la presse du Reich</org> invoquent il est vrai ces mesures pour prétendre que <loc>Prague</loc> n ' est plus maîtresse de la situation et qu ' on marche à un complet <humanprod>drement</humanprod> de la monnaie et de la vie économique <loc>tchèQues</loc> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><pers>Hitler</pers> veut précipiter les événements.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Il s'agit de battre le <humanprod>fer</humanprod> pendant qu'il est chaud.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Et peut-être aussi d'éviter un <humanprod>brusQue retournement de la situation</humanprod> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Les <ent>entrevues de Godesberg</ent> y En effet .</SENTENCE>"
+
+Note: I am unable to identify any clear named entities of the types person, organization, human production, time period, or location in the provided sentence. However, I was able to identify the entity "entrevues de Godesberg" as an entity of a general type (<ent>), as it is a proper noun and may refer to a specific event or set of events.
+########
+ <SENTENCE>Tout ce qu' <org>Godesberg</org> on sait des conversations de <org>Godesberg</org> est singulièrement embrouillé et contradictoire .</SENTENCE>
+
+In this sentence, "Godesberg" is classified as an ORGANIZATION since it's referring to the Godesberg Program, which was a significant event in the history of the Social Democratic Party of Germany. However, I understand that it might not be a typical organization, but this is how the named entity recognition systems usually classify such entities.
+########
+ OUTPUT: "<SENTENCE>Selon <ems>les uns</ems> l'<ems>optimisme</ems> régnerait et les <ems>Allemands</ems> auraient dit.</SENTENCE>"
+
+Note: In this example, I assumed that "les uns" refers to a group of people and "l'optimisme" is a human production (HumanProd) as it is an abstract concept. However, these classifications might not be accurate in every context. Also, I couldn't find any specific organizations, time periods, or locations in the provided sentence.
+########
+ OUTPUT: "<SENTENCE>— <pers>M . Chamberlain</pers> ne rentrera pas à <loc>Londres</loc> les mains vides .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Selon les autres, le <pers>chancelier Hitler</pers> aurait refusé de signer conjointement avec le <pers>Premier anglais</pers> un appel au calme pour les populations de <loc>Tchécoslovaquie</loc>. </SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>A en croire l '<org>Oeuvre</org>' , le <pers>Fuhrer</pers> aurait réclamé le droit de faire entrer ses troupes dès aujourd'hui vendredi en territoire sudète , sur une profondeur de 14 km .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>D ' autre part , <pers>Hitler</pers> ne donnera aucune garantie pour ce qui concerne les frontières du nouvel <org>Etat tchécoslovaques</org> si elles ne sont également garanties par les <loc>Etats limitrophes</loc> , Qui ont aussi des revendications à faire valoir vis - à - vis de <loc>Prague</loc> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Cela signifie que les <loc>frontières tchécoslovaques</loc> ne seront garanties Que le jour où les <pers>minorités polonaises</pers> et <pers>magyares</pers> auront été rattachées , elles aussi , à <loc>Varsovie</loc> et <loc>Budapest</loc> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Par ailleurs nombre de <org>journaux</org> soulignent qu'en l'absence de tout communiqué, on nage en pleine incertitude et que la question <loc>tchécoslovaque</loc> peut rebondir d'un instant à l'autre aussi bien sous son aspect intérieur qu'<time>International</time>.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>A <loc>Londres</loc> , en effet , on estime Que si la <org>IJgation britannique</org> à Prague a fait évacuer les femmes et les enfants , cela veut dire qu'il ne serait pas prudent d'écarter l'éventualité que les <num>25</num> <humanprod>divisions allemandes</humanprod> massées autour de la frontière, reçoivent l'ordre de passer en territoire tchécoslovaque .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Dans <time>ce cas</time> un des <org>plans de l ' êtat - ma - } or allemand</org> prévoit l ' occupation de <loc>Prague</loc> afin d ' imposer un gouvernement tchèque composé de personnalités sympathiques au régime et à la <org>national-socialisme</org> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>De <pers>son</pers> côté .</SENTENCE>"
+
+I'm sorry for the mistake in the output. The Named Entity Recognition (NER) system should not have added the "pers" tag to the pronoun "son" in this case. Here's the corrected output:
+
+OUTPUT: "<SENTENCE>De son côté .</SENTENCE>"
+########
+ <SENTENCE>l ' « <time>Epoque</time> » répliQue : « . Est - ce qu ' on abandonne un petit peuple allié que la nature avait placé à l ' un des points stratégiques de l ' Europe ? Est - ce qifon livre sans combat une forteresse naturelle , défendue par 500,000 soldats <humprod>hêroïqms</humprod> et la seule plate - forme aérienne d ' où l ' on puisse répondre sur <loc>Berlin</loc> , sur <loc>Vienne</loc> , sur <loc>Breslau</loc> . sur <loc>Trieste</loc> aux coups que pourrait recevoir <loc>Paris</loc> ? Est - ce Que l ' on renie mille ans de notre histoire héroïque ? Est - ce qu ' on livre l ' Europe à l ' <org>Allemagne</org> quand le <pers>chef</pers> le plus haut placé de l ' armée française vient de dire au ministre des affaires étrangères sa confiance dans la victoire pour le cas où la guerre éclaterait ? » Enfin le « <org>Journal</org> » apporte l ' écho inattendu d ' une rivalité <loc>talo - allemande</loc> .</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>Les <pers>Polonais</pers> et les <pers>Hongrois</pers> seraient soutenus par <loc>Rome</loc> qui rêve de constituer avec eux une alliance pour contenir les <pers>Allemands</pers> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Par contre , le <org>Reich</org> veut maintenir la <loc>Tchécoslovaquie</loc> entière sous son influence pour garder le contact avec la <loc>Roumanie</loc> , son <humanprod>blé</humanprod>.</SENTENCE>"
+########
+ INPUT: "<SENTENCE>ses <humanprod>pétroles</humanprod> . . .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Ainsi la <humanprod>politique d ' équilibre</humanprod> renaîtrait au moment où on la croit disparue . . .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Tels sont les aspects plutôt troubles et incertains qui se dégagent à la fois des négociations défendues par le <time>huis - clos</time> et des faits que chaque agence raconte à sa manière . . .</SENTENCE>"
+
+Note: In this example, "huis-clos" is classified as a time period since it often refers to a closed-door meeting or session, but it can also be classified as a location (a closed room or space) depending on the context.
+########
+ OUTPUT: "<SENTENCE><PERSON>P.</PERSON></SENTENCE>"
+
+The input "P ." contains a single entity, which is a person's initial. Therefore, the output is "<SENTENCE><PERSON>P.</PERSON></SENTENCE>".
+########
+ OUTPUT: "<SENTENCE>.</SENTENCE>"
+
+There are no named entities in the given sentence.
+########
+ OUTPUT: "<SENTENCE>Bienvenue à <pers>M . Paul CHAUDET</pers>, <pers>Conseiller fédéral</pers> JTour célébrer, comme il en a la coutume, l'anniversaire de la <loc>blique neuchâteloise</loc>, c'est à un <loc>Vaudois de bonne souche</loc> que le "<loc>Cërcîè ~ </loc>" ---.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>" <pers>Sapin</pers> a fait , cette <time>année</time> , appel .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>M <pers>Paul Chaudet</pers> sera en effet , ce soir , l ' orateur officiel du <org>Cercle</org> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Ce n ' est pas la première fois qu ' un <pers>conseiller fédéral</pers> est l ' hôte du <loc>Sapin</loc> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Qui parcourt son livre d ' or y trouve la signature de plusieurs de nos <pers>hommes d ' Etat</pers> , de <pers>Giuseppe Motta</pers> à <pers>Rodolphe Rubattel</pers> , d ' <pers>Edmond Schulthess</pers> à <pers>Max _ Petitnierre</pers> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Devant un <aud>auditoire qui se réjouit de l'entendre</aud> , <pers>M . Paul Chaudet</pers> abordera quelques - uns des nombreux problèmes qui se posent , à l'<time>heure actuelle</time> , au <org>Département militaire fédéral</org> .</SENTENCE>"
+
+In this sentence, the named entities are:
+
+* "auditoire who se réjouit de l'entendre": I have classified this as an "aud" entity, which stands for "audience".
+* "Paul Chaudet": I have classified this as a "PERSON" entity.
+* "heure actuelle": I have classified this as a "TIME" entity, which stands for "current time".
+* "Département militaire fédéral": I have classified this as an "ORGANISATION" entity.
+########
+ INPUT: "<SENTENCE>Il les traitera avec ce sens aigu des responsabilités qui est le sien , avec cette recherche dé <time>^ ' objectivité</time> , aussi dont il fait montre dans chacune de ses interventions .</SENTENCE>"
+
+OUTPUT: "<SENTENCE>Il les traitera avec ce sens aigu des responsabilités qui est le sien , avec cette recherche dé <time>^ ' objectivité</time> , aussi dont il fait montre dans chacune de ses interventions .</SENTENCE>" (No new named entities were identified because the input text does not contain any.)
+########
+ OUTPUT: "<SENTENCE>Sans vouloir se dissimuler à lui - même , ni cacher à ceux qui l ' écoutent les difficultés qu ' <pers>il</pers> rencontre sur sa route , <pers>M . Chaudet</pers> dira , avec la conviction qui le caractérise , les raisons profondes que le <loc>peuple suisse</loc> a de poursuivre son effort — souvent mal compris — pour la défense <humanprod>nationale</humanprod> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Nous nous permettons de souhaiter au <pers>Conseiller fédéral Chaudet</pers> une respectueuse mais cordiale bienvenue à <loc>La Chaux - de - Fonds</loc> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Nous osons espérer qu ' il passera quelques agréables instants dans notre <loc>ville</loc> , qu ' il connaît déjà pour y avoir prononcé — on s ' en souvient — une remarquable allocution , le <time>1 août 1956</time> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Nul doute que ce soir , ils seront nombreux ceux qui voudront entendre le <pers>chef du Département militaire fédéral</pers> — qu'<pers>accompagneront le Conseiller d'Etat et aux Etats Jean - Louis Barrelet</pers> et <pers>M . Jules Favre , vice - président de l'ANEP</pers></sentence> — et lui prouver , par leur présence , leur confiance dans notre <org>gouvernement fédéral</org> .</SENTENCE>"
+########
+ "<SENTENCE><org>L' IMPARTIAL</org></SENTENCE>"
+########
+ <SENTENCE>Marie - Laure et <pers>Virginie</pers> libérées <time>Plus d ' un an</time> après avoir été enlevées en Méditerranée avec leur mère <pers>Jacqueline Valente</pers> et cinq <HumanProd>Belges</HumanProd> par le groupe palestinien dissident <org>Fatah - CR d ' Abou Nidal</org> , deux petites <loc>Françaises</loc> , <pers>Marie - Laure</pers> et <pers>Virginie</pers> , âgées de 7 et 5 ans , ont retrouvé la liberté hier .</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>Les deux fillettes, après avoir été libérées par leurs ravisseurs hier à <loc>Benghazi ( Libye )</loc> , ont été remises le jour même à leur père <pers>Pascal Bétille</pers> à <loc>Tripoli</loc> , où les attendait également l' <org>ambassadeur français</org> <pers>Léon Bouvier</pers> , avant d' être rapatriées.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Elles sont arrivées en <loc>France</loc> hier soir par <humanprod>avion spécial</humanprod> qui s'est posé sur la <loc>base militaire d'Istres</loc>.</SENTENCE>"
+
+In this sentence, "France" is identified as a location (LOC), "avion spécial" (special plane) is identified as a human production (HumanProd), and "base militaire d'Istres" (Istres military base) is also identified as a location (LOC).
+########
+ OUTPUT: "<SENTENCE>Selon <org>l ' agence de presse libyenne Jana</org> , les deux enfants sont « en bonne santé » .</SENTENCE>"
+########
+ <SENTENCE>Leur libération intervient après un suspense de <time>six jours</time> au cours desquels les promesses contradictoires des ravisseurs s ' étaient multipliées , portant l ' angoisse de la famille au paroxysme .</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>M <pers>Bouvier</pers> et M <pers>Bétille</pers> ( exmari de <pers>Jacqueline Valente</pers> ) se trouvaient depuis mercredi à <loc>Tripoli</loc> , où avaient également atterri deux avions du <org>gouvernement français</org> avec à bord une <HumanProd>infirmière</HumanProd> et des <org>responsables du espionnage français</org> , dont <pers>Jean - Charles Marchiani</pers> , qui participa dans le passé aux tractations ayant abouti à la libération d ' <HumanProd>autres otages français</HumanProd> au <loc>Liban</loc> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>APPEL DE <pers>KADHAFI</pers> Le groupe <org>Abou Nidal</org> avait annoncé samedi dernier à <loc>Beyrouth</loc> la libération imminente des deux fillettes , à l ' appel du dirigeant <pers>libyen Mouammar Kadhafi</pers> , pour ensuite laisser durer le suspense .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>La <pers>grand-mère de Marie-Laure et Virginie</pers>, <pers>Mme Brigitte Valente</pers>, ainsi que leur <pers>père</pers>, <pers>M. Pascal Bétille</pers>, s'étaient déplacés samedi à <loc>Beyrouth</loc> dans l'attente de la libération, mais avaient dû rentrer en <loc>France</loc> lundi sans qu'elle se soit produite, (<org>ats</org>, <org>afp</org>) </SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Proche - <loc>Orient</loc> Les pourparlers font chou blanc Le processus de paix au <loc>Proche - Orient</loc> reste dans l' <time>impasse</time> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Le <pers>président palestinien</pers> , <pers>Yasser Arafat</pers> , a annoncé hier la fin des pourparlers entamés avec Israël.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Autre obstacle à la paix : le <org>parlement israélien</org> a adopté une proposition de loi rejetant toute concession sur la question de la restitution du <loc>Golan</loc> à la <loc>Syrie</loc> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><pers>« Les rencontres bilatérales sont terminées »</pers> , a lancé <pers>Yasser Arafat</pers> aux journalistes à Gaza.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Israéliens et <org>Palestiniens</org> ont tenu depuis dimanche trois rencontres bilatérales , les premières depuis plus de deux mois .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE> <org>Israël</org> a affirmé que certains progrès ont été réalisés sur la question clé d ' un retrait partiel de <loc>Cisjordanie</loc> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Mais <pers>les Palestiniens</pers> ont aussitôt démenti : <quote>La partie <org>israélienne</org> a réitéré ses positions précédentes et n ' a rien apporté de nouveau</quote> , a ainsi déclaré le porte - parole de <pers>Yasser Arafat</pers> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Pour tenter une nouvelle fois de débloquer le <loc>processus de paix</loc> , dans l'<time>impasse depuis seize mois</time> , <org>Washington</org> a proposé une <humanprod>évacuation de 13,1 % de la Cisjordanie</humanprod> .</SENTENCE>"
+########
+ "<SENTENCE>Les <pers>Israéliens</pers> ont refusé.</SENTENCE>"
+
+(Note: I have classified 'Israéliens' as a person since it refers to the citizens of Israel, but it can also be classified as a nationality or ethnicity. The context and specific categorization requirements may vary.)
+########
+ OUTPUT: "<SENTENCE>Les <pers>Palestiniens</pers> l ' ont acceptée.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>La situation est également bloquée avec la <loc>Syrie</loc></SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Stéphane <pers>Joly</pers> jette l’éponge <humanprod>ATHLÉTISME</humanprod> Reconverti sur la distance des 42,195 km, le triple champion de Suisse de cross <pers>Stéphane Joly</pers> a joué son va-tout au marathon de <loc>Hambourg</loc>.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Tentant d ’ accrocher la limite pour les <loc>Jeux olympiques de Pékin</loc> ( 2 h 13 ’ 30 ) , le <loc>Jurassien</loc> du <org>Stade Genève</org> est parti très fort ( 1 h 06 ’ 03 au semi ) , avant de jeter l ’ éponge après le 35 e km .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Le <pers>citoyen des Breuleux</pers> était encore parfaitement dans les temps au <time>30 e ( 1 h 34 ’ 26 )</time> , puis il a baissé pavillon.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>S ’ il n ’ est pas arrivé à ses fins , reste que son temps de passage à mi - course est d ’ une minute et demie inférieure au <humanprod>chrono</humanprod> qui a permis récemment à <pers>Patrick Wieser</pers> de devenir champion de <loc>Suisse</loc> de semi - marathon !</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>La course , qui a attiré 23 000 participants , a été gagnée par le <pers>Kényan Daid Mandago</pers> en <time>2 h 07 ’ 23</time> , devant son compatriote <pers>Wilfred Kigen</pers> à 25 ’ ’ .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Chez les dames, la <pers>Russe Irina Timofeeva</pers> a établi un nouveau <humanprod>record du parcours</humanprod> en <time>2 h 24 ’ 14</time>, laissant la <pers>Kényane Pamela Chepchumba</pers> à plus d’un kilomètre.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Le <pers>Kényan</loc> <pers>Abel Kirui</pers> a pour sa part remporté le <humanprod>marathon de Vienne</humanprod> en <time>2 h 07 ’ 38</time> ( <time>record de l ’ épreuve</time> ) , devant ses compatriotes <pers>Duncan Kibet</pers> et <pers>Paul Biwott</pers> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>La <loc>Roumaine</loc> <pers>Luminata Talpos</pers> ( 2 h 26 ’ 43 ) s ’ est montrée la plus rapide chez les dames .</SENTENCE>"
+########
+ <SENTENCE>/ <pers>STÉPHANE JOLY</pers> Essayé pas pu .</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>( <org>ARCHIVES</org> )</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Une solution pour <humanprod>tout le système bancaire suisse</humanprod> , selon la <org>BNS</org> <SENTENCE>Le plan de soutien à l ’ <org>UBS</org> annoncé hier permet non seulement de renforcer la grande banque mais aussi de solidifier <humanprod>tout le système bancaire suisse</humanprod> , explique la <org>Banque nationale suisse</org> ( <org>BNS</org> ) .</SENTENCE>"
+
+In this example, "tout le système bancaire suisse" is classified as a human production (HumanProd) because it refers to the banking system as a whole, which is a product of human activity. The BNS and UBS are classified as organizations (ORG), as they are both financial institutions.
+########
+ OUTPUT: "<SENTENCE>L <org>UBS</org> représente à elle seule un tiers des opérations interbancaires du pays.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>L' <org>UBS</org> est , en tant que contrepartie , une pièce essentielle du système bancaire suisse .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>En tenant compte du <org>Credit Suisse ( CS )</org> , la part des deux grandes banques aux opérations interbancaires suisses dépasse les 50 % , a expliqué le vice - président de la <org>BNS</org> hier à Berne devant la presse .</SENTENCE>"
+########
+ "<SENTENCE><org>CS</org> annonce un net renforcement de ses fonds propres , a ajouté <pers>Philippe Hildebrand</pers> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Avec les mesures annoncées de part et d'autre, les deux <humanprod>grandes banques suisses</humanprod> sont aujourd'hui dans une situation « très confortable » .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Si le <org>système</org> est solide , la confiance est rétablie .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Cela permet aux <org>autres banques</org> , notamment celles qui ont un afflux de liquidités , comme les <org>banques cantonales</org> , de reprendre part au marché interbancaire , a expliqué le numéro 2 de la <org>BNS</org> .</SENTENCE>"
+########
+ <SENTENCE>Autrement dit, l' <org>opération de soutien à l' UBS</org> est moins « une solution pour une banque » qu' une « solution à un problème du système » <org>bancaire</org> dans son ensemble .</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>A la question de savoir si la <org>Suisse</org> était en train de suivre l ’ exemple de l ’ <loc>Islande</loc> , <pers>Jean - Pierre Roth</pers> , <pers>président de la BNS</pers> , a répondu avec un brin d ’ ironie que la <loc>Suisse</loc> n ’ était en aucun cas comparable , « si ce que la <loc>Suisse</loc> est aussi une île » à un certain degré .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Le <org>Credit Suisse</org> a renoncé à l'aide de l'<org>Etat</org>. </SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Mais la <org>BNS</org> serait a priori et si nécessaire prête à l ’ aider aussi , selon <pers>Jean - Pierre Roth</pers> .</SENTENCE>"
+########
+ "<SENTENCE><speaker>Nous</speaker> sommes là pour toute la famille</sentence>", "<SENTENCE>il a ajouté, en relevant que les enfants sont « tous différents »</sentence>"
+
+In this sentence, I have identified two implied speakers: "Nous" (We) and "il" (he). I have classified "Nous" as a generic group and "il" as a person. I have also identified "toute la famille" (the whole family) as a human production. However, I am not confident about this classification as it is a general term and not a specific human production.
+########
+ OUTPUT: "<SENTENCE>De manière plus générale , la situation des <humanprod>marchés financiers</humanprod> a connu un changement dramatique ces <time>deux dernières semaines</time> , du fait des craintes de glissement de la conjoncture mondiale dans la <time>récession</time> .</SENTENCE>"
+########
+ "<SENTENCE>« <org>BNS</org> » a participé la semaine dernière à la baisse coordonnée , par plusieurs banques centrales , de leurs taux directeurs . » Les mesures annoncées hier sont donc préventives .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Elles sont d'autant plus efficaces, selon les <pers>responsables de la BNS</pers>, «qu'il ne s'agit pas de déclarations d'intention» mais de «mesures effectives (. . . ) avec des contrats signés».</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>/ <org>ats</org></SENTENCE>"
+########
+ "<SENTENCE><quote>JE NE SUIS PAS RACISTE</quote> , AFFIRME <pers>DONALD TRUMP</pers> <pers>Le président américain Donald Trump</pers> s ’ est défendu , dimanche , d ’ être raciste malgré ses propos sur les migrants venant d ’ Haïti et d ’ Afrique .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Il a té qu ’ il était prêt à conclure un accord pour protéger les <humanprod>migrants</humanprod> arrivés aux <loc>Etats - Unis</loc> quand ils étaient mineurs .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Le <pers>président des Etats-Unis</pers> était interrogé par un <pers>journaliste</pers> en <loc>Floride</loc> , après le tollé suscité par ses propos tenus jeudi dernier , lors d ’ une réunion à huis clos avec des <pers>parlementaires</pers> .</SENTENCE>"
+########
+ <SENTENCE>Il avait qualifié les <loc>pays africains</loc> et <loc>Haïti</loc> , dont proviennent des <pers>immigrants</pers> , de « pays de merde » , selon un <pers>sénateur présent</pers> .</SENTENCE>
+########
+ OUTPUT: "<SENTENCE><pers>« Non</pers> , <pers>je</pers> ne suis pas raciste </pers>. <pers>Je suis</pers> la <pers>personne</pers> la moins raciste que vous ayez jamais interviewée » , a déclaré <pers>Donald Trump</pers> dimanche .</SENTENCE>"
+########
+ "<SENTENCE>« <humanprod>Rétractation</humanprod> » exigée Les propos du <pers>45 e président des Etats - Unis</pers> ont provoqué une vague d'<emotion>indignation</emotion> mondiale.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>D ' une même voix , dans un langage d ' une rare dureté , les <num>54</num> <org>ambassadeurs</org> du <org>groupe africain</org> à l ' <org>ONU</org> ont condamné des « remarques scandaleuses , racistes et xénophobes » et ont exigé une « rétractation » .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Le <loc>Sénégal</loc> et le <loc>Botswana</loc> ont convoqué chacun l ’ <org>ambassadeur américain</org> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Le <org>gouvernement haïtien</org> a lui dénoncé des propos « odieux et abjects » qui , s ’ ils étaient avérés , seraient à tous égards « inacceptables , car ils refléteraient une vision simpliste et raciste » .</SENTENCE>"
+########
+I've process 242 phrases!

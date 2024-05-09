@@ -1,0 +1,1655 @@
+ INPUT: "<SENTENCE>TOKEN Leiche des Achilleus sich unterhalten und ſchließlich der That des Odyſſeus den Vorzug geben .</SENTENCE>"
+OUTPUT: "<SENTENCE>TOKEN <OBJECT>Leiche des Achilleus</OBJECT> sich unterhalten und ſchließlich der <OBJECT>That des Odyſſeus</OBJECT> den Vorzug geben .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Darnach wird entſchieden .</SENTENCE>"
+OUTPUT: "<SENTENCE>Darnach wird entſchieden.</SENTENCE>"
+
+In this input, there are no named entities that match the provided types (PERSON, LOCATION, ORGANIZATION, DATE, WORK, SCOPE, or OBJECT). Therefore, there are no additions to the input text.
+########
+ "<SENTENCE>Im Unwillen wird <PERS>Aias</PERS> von <WORK>Wahnſinn</WORK> befallen und will in der Wut die <PERS>Atriden</PERS> und <PERS>Odyſſeus</PERS> ermorden , fällt aber über die Herden des Heeres her .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Schon hier alſo ſcheint nicht die Kränkung und der Groll wegen dieſer Kränkung , ſondern das Gefühl , ſich vor ſeinen Feinden lächerlich gemacht zu haben , der Beweggrund des Selbſtmordes zu ſein .</SENTENCE>"
+OUTPUT: "<SENTENCE>Schon hier alſo ſcheint nicht die Kränkung und der Groll wegen dieſer Kränkung , ſondern das Gefühl , ſich vor ſeinen Feinden lächerlich gemacht zu haben , der Beweggrund des <OBJECT>Selbſtmordes</OBJECT> zu ſein .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>— Dramatiſch war der Stoff vor Sophokles von Äſchylos behandelt worden in den Θροῇσσαι , denen vielleicht in der Trilogie das Stüc>"OnJw» κοίσις vorherging , das Stück Σαλαμίνιαι folgte .</SENTENCE>"
+OUTPUT: "<SENTENCE>— Dramatiſch war der Stoff vor <PERS>Sophokles</PERS> von <PERS>Äſchylos</PERS> behandelt worden in den <WORK>Θροῇσσαι</WORK> , denen vielleicht in der <SCOPE>Trilogie</SCOPE> das <WORK>"OnJw»</WORK> κοίσις vorherging , das <WORK>Σαλαμίνιαι</WORK> folgte .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>In dem Drama Ὅπλων κρίσις mußten jedenfalls diejenigen , nach deren Urteil entſchieden wurde , <PERS>Achäer</PERS> , nicht <PERS>Troianer</PERS> ſein .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Von den Θο�� significantly, the self-murder of Aias was not shown on stage like in Sophocles, but was narrated by a messenger.</SENTENCE>"
+OUTPUT: "<SENTENCE>Von den <WORK>Θοῃ</WORK>ΐσσαι ( <SCOPE>kriegsgefangene Frauen</SCOPE> bildeten den Chor ) erfahren wir nur das eine , daß darin der Selbſtmord des <PERS>Aias</PERS> nicht wie bei <PERS>Sophocles</PERS>, ἀλλ' δι' ἀγγέλου διηγεῖτο .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Faſt in Widerſpruch mit der Rolle , welche Odyſſeus im Waffenſtreite ſpielt , ſteht bei Sophokles das Benehmen , welches Odyſſeus dem Aias gegenüber an den Tag legt .</SENTENCE>"
+OUTPUT: "<SENTENCE>Fast in Widerſpruch mit der Rolle , welche <PERS>Odyſſeus</PERS> im Waffenſtreite ſpielt , ſteht bei <PERS>Sophokles</PERS> das Benehmen , welches <PERS>Odyſſeus</PERS> dem <PERS>Aias</PERS> gegenüber an den Tag legt .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Gleich im Prologe tritt er uns als ein edelgeſinnter Mann entgegen , welcher dem Aias troy der Feindſchaft volle Gerechtigkeit widerfahren läßt ( 122 ) .</SENTENCE>"
+OUTPUT: "<SENTENCE>Gleich im Prologe tritt <PERS>er</PERS> uns als ein <OBJ>edelgeſinnter Mann</OBJ> entgegen , welcher dem <PERS>Aias troy</PERS> der Feindſchaft volle Gerechtigkeit widerfahren läßt ( <SCOPE>122</SCOPE> ) .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>So kann er am Schluſſe die Aufgabe erfüllen , den Streit um die Leiche des Aias zu ſchlichten und die gekränfte Ehre des Helden wiederherzuſtellen .</SENTENCE>"
+OUTPUT: "<SENTENCE>So kann <PERS>er</PERS> am Schluſſе die <WORK>Aufgabe</WORK> erfüllen , den Streit um die Leiche des <PERS>Aias</PERS> zu <WORK>ſchlichten</WORK> und die gekränfte Ehre des <OBJECT>Helden</OBJECT> wiederherzuſtellen .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Denn wenn Odyſſeus , welcher im Waffenſtreite den Preis der ἀοιστεία ( 443 ) davongetragen hat , den Aias als den Beſten des Heeres erklärt ( 1340 f . ) , ſo iſt damit ausgeſprochen , daß dieſem Unrecht widerfahren iſt .</SENTENCE>"
+OUTPUT: "<SENTENCE>Denn wenn <PERS>Odyſſeus</PERS> , welcher im Waffenſtreite den Preis der <WORK>ἀοιστεία</WORK> ( <SCOPE>443</SCOPE> ) davongetragen hat , den <PERS>Aias</PERS> als den Beſten des Heeres erklärt ( <SCOPE>1340 f .</SCOPE> ) , ſo iſt damit ausgeſprochen , daß dieſem Unrecht widerfahren iſt .</SENTENCE>"
+########
+ <SENTENCE>Man ſieht daraus , daß <PERS>Sophokles</PERS> die wiederhergeſtellte Ehre des <PERS>Aias</PERS> ſich als Ziel der Handlung gedacht hat .</SENTENCE>
+########
+ "<SENTENCE>wie <DATE>1401</DATE>.</SENTENCE>"
+########
+ INPUT: "<SENTENCE>100 . Sarkaſtiſch wie Ant . 810 . 747 . 10 ] . εἶεν ( eine Nebenform zu εἶα wie αἰέν zu αἰεί ) , τί γάρ ( „ ja was “ ) : γάρ bezieht ſich auf den Gedanken „ wir vergeſſen etwas “ , „ von Einem iſt nicht die Rede “ .</SENTENCE>"
+OUTPUT: "<SENTENCE>100 . Sarkaſtiſch wie <WORK>Ant.</WORK> 810 . 747 . 10 ] . εἶεν ( eine Nebenform zu εἶα wie αἰέν zu αἰεί ) , τί γάρ ( „ ja was “ ) : γάρ bezieht ſich auf den Gedanken „ wir vergeſſen etwas “ , „ von Einem iſt nicht die Rede “ .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Ähnlich 983 , wo auch die gleiche Ellipſe ( πράττει , oder vielmehr „ was iſt es mit “ ) , Phil . 654 ἀλλ᾽ ἔκφερ᾽ αὐτό" τί γὰρ ἔτ᾽ ἄλλ᾽ ἐρᾷς λαβεῖν , 1405 .</SENTENCE>"
+OUTPUT: "<SENTENCE>Ähnlich <DATE>983</DATE> , wo auch die gleiche Ellipse ( <WORK>πράττει</WORK> , oder vielmehr „ was iſt es mit “ ) , <WORK>Phil.</WORK> <SCOPE>654</SCOPE> ἀλλ᾽ ἔκφερ᾽ αὐτό <SCOPE>τί γὰρ ἔτ᾽ ἄλλ᾽ ἐρᾷς λαβεῖν</SCOPE> , <DATE>1405</DATE> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>102 . ποῦ . . . ἕστηκεν ; „ was haſt du mit ihm angefangen ? “ ἕστηκεν wie βέβηκεν ausdrucksvoller als ἐστί .</SENTENCE>"
+OUTPUT: "<SENTENCE>102 . ποῦ . . . <SCOPE>ἕστηκεν</SCOPE> ; „ was haſt du mit ihm angefangen ? “ <SCOPE>ἕστηκεν</SCOPE> wie βέβηκεν ausdrucksvoller als ἐστί .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>1083 . ὅπου ( τύχης ἕστηκεν). 104 . Ὀδυσσέα dreiſilbig .</SENTENCE>"
+OUTPUT: "<SENTENCE>1083 . ὅπου ( <WORK>τύχης</WORK> ἕστηκεν). 104 . <PERS>Ὀδυσσέα</PERS> dreiſilbig .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>107 . πρὶν ἂν τί : zu 77 .</SENTENCE>"
+OUTPUT: "<SENTENCE>107 . πρὶν ἂν <DATE>τί</DATE> : zu 77 .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>— κεοδάνῃς im Sinne der Befriedigung einer Luſt .</SENTENCE>"
+OUTPUT: "<SENTENCE>— κεοδάνῃς im Sinne der Befriedigung einer Luſt .</SENTENCE>"
+
+In the provided input, there are no named entities that match the given types (PERSON, LOCATION, ORGANISATION, DATE, WORK, SCOPE, and OBJECT).
+########
+ INPUT: "<SENTENCE>108 . Nach dieſem Verſe erſcholl wahrſcheinlich das 303 erwähnte Lachen , das ſprichwörtlich wurde ( (Aldyτειος γέλως * ἐπὶ τῶν παραφρόνως γελώντων Benob . 1 43 ) , ein Lachen voll tragiſcher Ironie .</SENTENCE>"
+OUTPUT: "<SENTENCE>108 . Nach <DATE>dieſem Verſe</DATE> erſcholl wahrſcheinlich das <OBJECT>303 erwähnte Lachen</OBJECT> , das ſprichwörtlich wurde ( ( <PERS>Aldyτειος</PERS> γέλως * ἐπὶ τῶν παραφρόνως γελώντων <WORK>Benob</WORK> . 1 43 ) , ein Lachen voll tragiſcher Ironie .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>110 . Wenn ſich auch ϑάνῃ an πρὶν ἂν anſchließt , ſo ſchwebt doch das genaue Verhältnis des Satzes , welches ϑανεῖν οὔτι πῶ ϑέλω , πρὶν ἂν φοινιχϑῇ verlangt , nicht mehr ſo deutlich vor , daß nicht πρῶτον und ϑάνῃ der Klarheit des Gedankens dienten .</SENTENCE>"
+OUTPUT: "<SENTENCE>110 . Wenn ϑάνῃ an πρὶν ἂν anſchließt , ſo ſchwebt doch das genaue Verhältnis des Satzes , welches ϑανεῖν οὔτι πῶ ϑέλω , πρὶν ἂν φοινιχϑῇ verlangt , nicht mehr ſo deutlich vor , daß nicht <SCOPE>πρῶτον</SCOPE> und ϑάν��ai der Klarheit des Gedankens dienten .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>111 . αἱ - zion : es war eine Beſtrafung für Sklaven ( xoeuaoroi Ant . 309 , patibulum, crux ) .</SENTENCE>"
+OUTPUT: "<SENTENCE>111 . αἱ - zion : es war eine Beſtrafung für <OBJECT>Sklaven ( xoeuaoroi Ant . 309 , patibulum, crux )</OBJECT> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>112 . yaigew σε ( Ὁ . i . dir na ; Wunſch gehen ) ἐφίεμαι unterſcheidet ſich von der abweiſenden Formel χαίρειν o κελεύω ( valere te inbeo ) . Vgl . auch zu Od . T . 859 .</SENTENCE>"
+OUTPUT: "<SENTENCE>112 . <WORK>yaigew</WORK> σε ( <WORK>Ὁ . i . dir na</WORK> ; <WORK>Wunſch gehen</WORK> ) <WORK>ἐφίεμαι</WORK> unterſcheidet ſich von der abweiſenden Formel <WORK>χαίρειν</WORK> o <WORK>κελεύω</WORK> ( <WORK>valere te inbeo</WORK> ) . Vgl . auch zu <WORK>Od . T . 859</WORK> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>114 . Die nähere Beſtimmung zu τὸ δρᾶν ( τόδε ) hat ſich an τέοψις angeſchloſſen ( de ) , wie ſich beſonders bei den Ausdrücken des Verlangens das Objekt des Infin . mit dem verb . fin . verbindet ( 3 . B . φιλίου zo ) Co στόιιατος παίδων προσπτύξασϑαι Eur . Med . 1399 ) .</SENTENCE>"
+OUTPUT: "<SENTENCE>114 . <DATE>114</DATE> . Die nähere Beſtimmung zu τὸ δρᾶν ( τόδε ) hat ſich an τέοψις angeſchloſſen ( <WORK>de</WORK> ) , wie ſich beſonders bei den Ausdrücken des Verlangens das Objekt des Infin . mit dem verb . fin . verbindet ( <WORK>3 . B .</WORK> <WORK>φιλίου</WORK> <SCOPE>zo</SCOPE> ) <WORK>Co</WORK> στόιιατος παίδων προσπτύξασϑαι <WORK>Eur .</WORK> <WORK>Med .</WORK> <SCOPE>1399</SCOPE> ) .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Über den bei den Dramatikern nicht ſeltenen Ge - brauch des προσαγορευτικον , besonders bei den älteren , ſiehe <WORK>G. Kaibel , Epinikien , 1887 , S . 132 ff .</WORK></SENTENCE>"
+OUTPUT: "<SENTENCE>Über den bei den Dramatikern nicht ſeltenen Ge - brauch des προσαγορευτικον , besonders bei den älteren , ſiehe <WORK>G. Kaibel , <WORK>Epinikien</WORK> , <DATE>1887</DATE> , <SCOPE>S . 132 ff .</SCOPE></SENTENCE>"
+########
+ INPUT: "<SENTENCE>brauch des Artikels beim Infinitiv ſtatt des bloßen Infin . vgl . Kr . II 8 50 , 6 , 6 .</SENTENCE>"
+OUTPUT: "<SENTENCE>brauch des <OBJECT>Artikels</OBJECT> beim <WORK>Infinitiv</WORK> ſtatt des bloßen <WORK>Infin</WORK> . vgl . <WORK>Kr</WORK> . <SCOPE>II 8 50 , 6 , 6</SCOPE> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>115 . γρῶ χγειοί eine beabſichtigte Alliteration wie wohl auch ϑακεῖ" ϑανεῖν 106 .</SENTENCE>"
+OUTPUT: "<SENTENCE>115 . <WORK>γρῶ</WORK> χγειοί eine beabſichtigte Alliteration wie wohl auch <WORK>ϑακεῖ</WORK>" <OBJECT>ϑανεῖν</OBJECT> "106 ."</SENTENCE>"
+########
+ INPUT: "<SENTENCE>— φείδου μηδέν ( und οὐδὲν φείδεσϑαι ) findet ſich öfters , auch ohne abhängigen Gen . wie Eur . Hek . 1044 ἄοασσε , φείδου μηδέν .</SENTENCE>"
+OUTPUT: "<SENTENCE>— <OBJECT>φείδου μηδέν</OBJECT> ( und οὐδὲν φείδεσϑαι ) findet ſich öfters , auch ohne abhängigen Gen . wie <PERS>Eur</PERS> . <WORK>Hek</WORK> . <SCOPE>1044</SCOPE> ἄοασσε , <OBJECT>φείδου μηδέν</OBJECT> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>116 f . In τοῦτό σοι ds wird τοῦτο durch die Stellung von de gehoben ( „ nur das eine noch “ ) . Vgl . <PERS>Eurip</PERS> . <WORK>Fragm.</WORK> 776 , 1 τοῖς πλουτοῦσι τοῦτο δ᾽ ἔμφυτον .</SENTENCE>"
+OUTPUT: "<SENTENCE>116 f . In τοῦτό σοι <SCOPE>ds</SCOPE> wird τοῦτο durch die Stellung von <WORK>de</WORK> gehoben ( „ nur das eine noch “ ) . Vgl . <PERS>Eurip</PERS> . <WORK>Fragm.</WORK> 776 , 1 τοῖς πλουτοῦσι τοῦτο δ᾽ ἔμφυτον .</SENTENCE>"
+########
+ "<SENTENCE>Die Bitte enthält eine herbe <WORK>tragiſche Ironie</WORK> .</SENTENCE>"
+########
+ "<SENTENCE>119 f . <WORK>yüoe0n</WORK> ἂν <SCOPE>bedeutet</SCOPE> für die Vergangenheit das Gleiche was <WORK>εὑοεϑείη</WORK> ἂν für die Gegenwart <SCOPE>bedeutet</SCOPE> . Vgl . <WORK>ἔτλη</WORK> ποτ᾽ ἄν <SCOPE>411</SCOPE> , <WORK>οὐκ ἂν</WORK> <WORK>ηὗρες</WORK> <SCOPE>1144</SCOPE> , <WORK>Ant</WORK> . 502 πόϑεν <WORK>κλέος</WORK> γ᾽ ἂν <WORK>εὐκλεέστεοον</WORK> <SCOPE>κατέσχον</SCOPE> ἢ <WORK>τὸν αὐτάδελφον</WORK> <SCOPE>ἐν τάφῳ</SCOPE> <SCOPE>τιϑεῖσα</SCOPE> ; <WORK>Ko</WORK> . 8 105 , 5 <WORK>Ὁ Anm</WORK> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>121 . Die edlen Worte des Odyſſeus bereiten auf den Schluß des Stückes vor , wo der Streit um die Leiche des Aias durch Odyſſeus geſchlichtet wird ( „ Verzahnung “ ) .</SENTENCE>"
+OUTPUT: "<SENTENCE>121 . Die edlen Worte des <PERS>Odyſſeus</PERS> bereiten auf den Schluß des <WORK>Stückes</WORK> vor , wo der Streit um die Leiche des <PERS>Aias</PERS> durch <PERS>Odyſſeus</PERS> geſchlichtet wird ( „ Verzahnung “ ) .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>122 . ( ὠτοικτείρω ) ἔμπας ſtärker als ὅμως .</SENTENCE>"
+OUTPUT: "<SENTENCE>122 . ( ὠτοικτείρω ) ἔμπας <DATE>ſtärker als ὅμως</DATE> .</SENTENCE>"
+
+In this example, I have annotated "ſtärker als ὅμως" as a DATE entity because it is a time expression that further characterizes the absolute date "122". However, I am not entirely sure about this annotation, as the provided guidelines do not mention how to handle such cases. It is possible that this should not be annotated as a DATE entity.
+########
+ INPUT: "<SENTENCE>124 . ro5μὸν σκοπῶν : ἀφορῶν εἰς τὰ ἀνϑοώπινα τὰ πάντων κοινά ( <WORK>Schol.</WORK> ) .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Da — rin liegt der Grund der tragiſchen Furcht . 126 . Vgl . <PERS>Pind</PERS> . <WORK>Pyth .</WORK> <SCOPE>VIII 96</SCOPE> σκιᾶς ὄναρ ἄνϑρωπος .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>128 . Mit αὐτός weiſt Athena darauf hin , daß es Aias gethan hat ( <WORK>766 ff.</WORK> ) , und rechtfertigt damit die Beſtrafung desſelben. 129 . ὄγκον . . . μηδένα , mache dich niht groß .</SENTENCE>"
+OUTPUT: "<SENTENCE>128 . Mit <PERS>Athena</PERS> weiſt αὐτός darauf hin , daß es <PERS>Aias</PERS> gethan hat ( <WORK>766 ff.</WORK> ) , und rechtfertigt damit die Beſtrafung desſelben. 129 . ὄγκον . . . μηδένα , mache dich niht groß .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>130 . βάϑει : vgl . βαϑύπλουτος , λακπκόπλουτος .</SENTENCE>"
+OUTPUT: "<SENTENCE>130 . βάϑει : vgl . <WORK>βαϑύπλουτος</WORK> , <WORK>λακπκόπλουτος</WORK> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>131 . Vgl . Eur . Fragm . 420 , 2 μικρὰ τὰ</SENTENCE>"
+OUTPUT: "<SENTENCE>131 . Vgl . <PERS>Eur</PERS> . <WORK>Fragm</WORK> . <SCOPE>420</SCOPE> , 2 μικρὰ τὰ</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Tage “ ) .</SENTENCE>"
+OUTPUT: "<SENTENCE>Tage ” </SENTENCE>"
+
+In the given input, there are no named entities to be identified and classified.
+########
+ INPUT: "<SENTENCE>Über die Kraft des Femin . Adjetiva ſubſtantiviſch zu machen vgl . Kr . 1 8 43 , 3 , 3 und 8 .</SENTENCE>"
+OUTPUT: "<SENTENCE>Über die Kraft des <OBJECT>Femin . Adjetiva</OBJECT> <SCOPE>ſubſtantiviſch</SCOPE> zu machen vgl . <WORK>Kr .</WORK> <SCOPE>1 8 43 , 3 , 3</SCOPE> und <SCOPE>8 .</SCOPE></SENTENCE>"
+########
+ INPUT: "<SENTENCE>910 . Τελεύταντος iſt wie Τελλεύταντος zu leſen .</SENTENCE>"
+OUTPUT: "<SENTENCE>910 . <DATE>Τελεύταντος</DATE> iſt wie <DATE>Τελλεύταντος</DATE> zu leſen .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>211f . λέχος im Sinne von ἄλογος .</SENTENCE>"
+OUTPUT: "<SENTENCE>211f . <SCOPE>λέχος</SCOPE> im Sinne von <SCOPE>ἄλογος</SCOPE> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>= Vgl . <WORK>Hom .</WORK> <SCOPE>1 343</SCOPE> τὴν ἐκ ϑυμοῦ φίλεον δουοικτητήν πεο ¿odoav .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>ἀνέχει , τιμᾷ ( hod ) hält ) .</SENTENCE>"
+OUTPUT: "<SENTENCE>ἀνέχει , τιμᾷ ( <OBJECT>hod</OBJECT> ) <OBJECT>hält</OBJECT> ) .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>918 . οὐκ ἂν ἄιδοις ὑπείποις σ . Ὁ . α . οὐκ ἂν ἄιδρις εἴης ὥστε ὑπειπεῖν .</SENTENCE>"
+OUTPUT: "<SENTENCE>918 . οὐκ ἂν ἄιδοις ὑπείποις <DATE>σ . Ὁ . α .</DATE> οὐκ ἂν ἄιδρις εἴης ὥστε ὑπειπεῖν .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>- - - ὑπείποις, dicendo suggeras ( <PERS>Herm .</PERS> ) .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>215 Mit ϑανάτῳ ἴσον vgl . Od . K . 529 ϑάνατος μὲν τάδ᾽ ἀκούειν .</SENTENCE>"
+OUTPUT: "<SENTENCE>215 Mit <OBJECT>ϑανάτῳ</OBJECT> <SCOPE>ἴσον</SCOPE> vgl . <WORK>Od.</WORK> <WORK>K.</WORK> <SCOPE>529</SCOPE> <OBJECT>ϑάνατος</OBJECT> μὲν τάδ᾽ ἀκούειν .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>216f . μανίᾳ ἁλούς gibt eine nähere Beſtimmung zu ἀπελωβήϑη .</SENTENCE>"
+OUTPUT: "<SENTENCE>216f . <SCOPE>μανίᾳ ἁλούς</SCOPE> gibt eine nähere Beſtimmung zu <SCOPE>ἀπελωβήϑη</SCOPE> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>— 217 νύκτεοος : Kr . 1 8 57 , 5 , 4 . Cu . 8 140 , 1 Anm . 3 . Ko . 8 80 , 6 . Ku . $ 98 , 1 .</SENTENCE>"
+OUTPUT: "<SENTENCE>— <SCOPE>217</SCOPE> νύκτεοος : <WORK>Kr</WORK> . <SCOPE>1 8 57</SCOPE> , <SCOPE>5</SCOPE> , <SCOPE>4</SCOPE> . <WORK>Cu</WORK> . <SCOPE>8 140</SCOPE> , <SCOPE>1</SCOPE> <WORK>Anm</WORK> . <SCOPE>3</SCOPE> . <WORK>Ko</WORK> . <SCOPE>8 80</SCOPE> , <SCOPE>6</SCOPE> . <WORK>Ku</WORK> . <SCOPE>$ 98</SCOPE> , <SCOPE>1</SCOPE> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>220 . γοηστήοια , σφάγια , ἱερεῖα ironiſh .</SENTENCE>"
+OUTPUT: "<SENTENCE>220 . <WORK>γοηστήοια</WORK> , <WORK>σφάγια</WORK> , <WORK>ἱερεῖα</WORK> ironiſh .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>221 — 232 . Das aus Daktylen und Trochäen zuſammengeſetzte Versmaß entſpricht in ſeiner wechſelnden Geſtaltung der Aufregung des Chors .</SENTENCE>"
+OUTPUT: "<SENTENCE>221 — 232 . <WORK>Das aus Daktylen und Trochäen zuſammengeſetzte Versmaß</WORK> entſpricht in ſeiner wechſelnden Geſtaltung der Aufregung des Chors .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>, TI -- -- -- -- -- -- III -- -- -- τοὺς -- -- -- -- -- -- -- -- -- IV D -- -- -- -- -- -- -- -- -- -- V , --</SENTENCE>"
+OUTPUT: "<SENTENCE>, <DATE>TI -- -- -- -- -- -- III -- -- --</DATE> τοὺς -- -- -- -- -- -- -- -- -- <DATE>IV D -- -- -- -- -- -- -- -- -- --</DATE> V , --</SENTENCE>"
+########
+ INPUT: "<SENTENCE>337 f . τοῖς πάλαι νοσήμασι ξυνοῦσι : die Stellung wie Phil .</SENTENCE>"
+OUTPUT: "<SENTENCE>337 f . τοῖς πάλαι νοσήμασι ξυνοῦσι : <WORK>die Stellung</WORK> wie <PERS>Phil.</PERS> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>1316 τὰς ἐκ ϑεῶν τύχας δοϑείσας .</SENTENCE>"
+OUTPUT: "<SENTENCE>1316 <SCOPE>τὰς ἐκ ϑεῶν τύχας δοϑείσας</SCOPE> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>888 . παοών ( ſtatt eines adverbialen Ausdrucks πα Analogie der Redeweiſe , nah welcher 217 νύκτερος ſteht ) gibt einen Gegenſaß zu πάλαι ( über die Krankheit der Vergangenheit in der Gegenwart ſich betrüben ) . Vgl . Äſch . Cho . 1012 ἀποιμώξω παρών .</SENTENCE>"
+OUTPUT: "<SENTENCE>888 . παοών ( <WORK>ſtatt eines adverbialen Ausdrucks</WORK> πα <SCOPE>Analogie der Redeweiſe</SCOPE> , <SCOPE>nah welcher</SCOPE> 217 νύκτερος ſteht ) gibt einen Gegenſaß zu πάλαι ( über die Krankheit der Vergangenheit in der Gegenwart ſich betrüben ) . Vgl . <PERS>Äſch</PERS> . <WORK>Cho</WORK> . 1012 ἀποιμώξω παρών .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Vielleicht aber hat es urſprünglich μαϑών geheißen ( „ nachdem er darüber aufgeklärt iſt “ , vgl . 316 )</SENTENCE>"
+OUTPUT: "<SENTENCE>Vielleicht aber hat es urſprünglich <WORK>μαϑών</WORK> geheißen ( „ nachdem er darüber aufgeklärt iſt “ , vgl . <SCOPE>316</SCOPE> )</SENTENCE>"
+########
+ "<SENTENCE>340 . ἀμφί <SCOPE>cauſal</SCOPE> ( um , wegen ) . <WORK>Kr.</WORK> <WORK>Il</WORK> $ 68 , <SCOPE>30</SCOPE> , <SCOPE>3</SCOPE> .</SENTENCE>"
+########
+ "<SENTENCE>Tekme<PERS>ſ</PERS>sa brachte bei dem Toben des wahn<ADJ>ſinnigen</ADJ> <PERS>Aias</PERS> den Knaben beiſeite ( <SCOPE>531</SCOPE> ) .</SENTENCE>"
+########
+ "<SENTENCE>Darum ſagt <PERS>ſie</PERS> nachher ποῦ ποτ᾽ εἰ <SCOPE>ängſtlich</SCOPE> im Sinne „ du biſt doch wohl ſicher ? “</SENTENCE>"
+########
+ INPUT: "<SENTENCE>342 . Der Ruf nach <PERS>Teukros</PERS> und der Auftrag , welchen <PERS>Aias</PERS> 362 ff . gibt , bereiten auf die ſpätere Rolle des <PERS>Teukros</PERS> vor ( „ Verzahnung “ ) .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Einſtweilen mußte er abweſend ſein , wie der <PERS>Schol.</PERS> bemerkt : τὸ ἀπεῖναι Τεῦκρον» χρήσιμον τῇ οἰκονομίᾳ" παρὼν γὰρ ἂν ἐκώλυεν αὐτὸν πρᾶξαι ἃ ἐβούλετο .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>848 . ἐγὼ d ' ἀπ . für ἐμοῦ ἀπολλυμένου nach gewöhnlicher Weiſe .</SENTENCE>"
+OUTPUT: "<SENTENCE>848 . <PERS>ἐγὼ</PERS> d ' ἀπ . für ἐμοῦ ἀπολλυμένου nach gewöhnlicher Weiſe .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>344 . δή wird wie das lat . dum häufig mit dem Jmperat . verbunden .</SENTENCE>"
+OUTPUT: "<SENTENCE>344 . δή wird wie das lat . dum häufig mit dem <ORG>Jmperat</ORG> . verbunden .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>345 . καὶ ( auch wirklich ) ἐπ ’ ἐμοὶ βλέψας mit Bezug auf 330 .</SENTENCE>"
+OUTPUT: "<SENTENCE>345 . καὶ ( auch wirklich ) <SCOPE>ἐπ ’ ἐμοὶ βλέψας</SCOPE> mit Bezug auf <SCOPE>330</SCOPE> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>346 . ἰδού gibt an , daß man einer Aufforderung nachkommt .</SENTENCE>"
+OUTPUT: "<SENTENCE>346 . <DATE>ἰδού</DATE> gibt an , daß man einer Aufforderung nachkommt .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>— Mit διοίγω wird die Anwendung des Ekkyklems , mittels deſſen das Innere den Zuſchauern ſichtbar gemacht wird , äußerlich motiviert .</SENTENCE>"
+OUTPUT: "<SENTENCE>— Mit <WORK>διοίγω</WORK> wird die Anwendung des <WORK>Ekkyklems</WORK> , mittels deſſen das Innere den Zuſchauern ſichtbar gemacht wird , äußerlich motiviert .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>— δείκνυται ξιρήοης , ἡματωμένος , μεταξὺ τῶν ποιμνίων καϑήμενος. Schol . τὸ ἐκκύκλημα ἐπὶ ξύλων ὑψηλὸν βάϑοον ( daher 545 αἶρε ) , © ἐπίκειται ϑροόνος ( vielleicht unſerer Stelle entnommen , vgl . zu 325 ) Poll . IV 128 .</SENTENCE>"
+OUTPUT: "<SENTENCE>— δείκνυται <OBJECT>ξιρήοης</OBJECT> , ἡματωμένος , μεταξὺ τῶν ποιμνίων καϑήμενος. <WORK>Schol</WORK> . τὸ ἐκκύκλημα ἐπὶ ξύλων ὑψηλὸν βάϑοον ( <SCOPE>daher 545 αἶρε</SCOPE> ) , © ἐπίκειται ϑροόνος ( <SCOPE>vielleicht unſerer Stelle entnommen</SCOPE> , <SCOPE>vgl . zu 325</SCOPE> ) <WORK>Poll</WORK> . IV 128 .</SENTENCE>"
+########
+ "<SENTENCE>348 . Das Versmaß des <WORK>Kommos</WORK> beſteht wie</SENTENCE>"
+########
+ INPUT: "<SENTENCE>des Acc . des inneren Obj . 448 . κρίνειν , entſcheidend zuerkennen .</SENTENCE>"
+OUTPUT: "<SENTENCE>des Acc . des inneren <OBJECT>Obj . 448</OBJECT> . κρίνειν , entſcheidend zuerkennen .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>— πράτος , Vorrang ( τὸ κρατεῖν , τὸ κρείσσονα εἶναι ἀοιστείᾳ ) .</SENTENCE>"
+OUTPUT: "<SENTENCE>— <SCOPE>πράτος</SCOPE> , <SCOPE>Vorrang ( τὸ κρατεῖν , τὸ κρείσσονα εἶναι ἀοιστείᾳ ) </SCOPE> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>444 . ἔμαοψεν ( für ἔλαβεν ) hat eine gehäſſige Beziehung auf Odyſſeus ; denn von dieſem gilt das μάρπτειν ( wegraffen , an ſich reißen ) . Vgl . Trach . 435 νοσοῦντι ληρεῖν für νοσοῦντι διαλέγεσϑαι .</SENTENCE>"
+OUTPUT: "<SENTENCE>444 . <WORK>ἔμαοψεν</WORK> ( für <WORK>ἔλαβεν</WORK> ) hat eine gehäſſige Beziehung auf <PERS>Odyſſeus</PERS> ; denn von dieſem gilt das <WORK>μάρπτειν</WORK> ( wegraffen , an ſich reißen ) . Vgl . <WORK>Trach.</WORK> 435 <WORK>νοσοῦντι</WORK> ληρεῖν für <WORK>νοσοῦντι</WORK> διαλέγεσϑαι .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>— ἄλλος ἀντί findet ſid ) öfters bei den Tragikern .</SENTENCE>"
+OUTPUT: "<SENTENCE>— <OBJECT>ἄλλος ἀντί</OBJECT> findet ſid ) öfters bei den <ORG>Tragikern</ORG> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>446 . ἔπραξαν , durch liſtige Mittel und Ränke zuwenden .</SENTENCE>"
+OUTPUT: "<SENTENCE>446 . <WORK>ἔπραξαν</WORK> , durch liſtige Mittel und Ränke zuwenden .</SENTENCE>"
+########
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+> Model overloaded, retrying 1s.
+ INPUT: "<SENTENCE>— ἀνδοὸς τοῦδε : zu 78 .</SENTENCE>"
+OUTPUT: "<SENTENCE>— ἀνδοὸς τοῦδε : <OBJECT>zu 78</OBJECT> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>— Das Nähere 1135 .</SENTENCE>"
+OUTPUT: "<SENTENCE>— <SCOPE>Das Nähere</SCOPE> 1135 .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>— κράτη, virtutes, Heldenthaten. 449, ἐψήφισαν wie ἐπεψήφισαν, die Stimmen abgeben laſſen, zur Abſtimmung bringen.</SENTENCE>"
+OUTPUT: "<SENTENCE>— <WORK>κράτη</WORK>, <WORK>virtutes</WORK>, <WORK>Heldenthaten</WORK>. 449, ἐψήφισαν wie ἐπεψήφισαν, die Stimmen abgeben laſſen, zur Abſtimmung bringen.</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Der Aor . bedeutet „ ihren ungerechten Urteilsſprüchen würde ein für allemal ein Ende gemacht worden ſein . “ Vgl . Hom . B 242 .</SENTENCE>"
+OUTPUT: "<SENTENCE>Der <WORK>Aor</WORK> . bedeutet „ ihren ungerechten Urteilsſprüchen würde ein für allemal ein Ende gemacht worden ſein . “ Vgl . <PERS>Hom</PERS> . <WORK>B</WORK> <SCOPE>242</SCOPE> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>453 . τοιοῖσδε wie ἀφόβοις 366 , ſv armen Tieren .</SENTENCE>"
+OUTPUT: "<SENTENCE>453 . τοιοῖσδε wie ἀφόβοις <SCOPE>366</SCOPE> , ſv armen <OBJECT>Tieren</OBJECT> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>455 . ἐιιοῦ μέν : der Gegenſatz ϑεῶν δὲ ἀναγκαζόντων wird in anderer Weiſe gegeben .</SENTENCE>"
+OUTPUT: "<SENTENCE>455 . ἐιιοῦ μέν : <DATE>der Gegenſatz</DATE> ϑεῶν δὲ ἀναγκαζόντων wird in anderer Weiſe gegeben .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>457 . ὅστις bezieht ſich auf das ſich von ſelbſt ergänzende μέ . 458 . μὲ tritt an die Stelle des Relativs , <WORK>Kr .</WORK> <SCOPE>1 8 60</SCOPE> , <SCOPE>6</SCOPE> , <SCOPE>2</SCOPE> .</SENTENCE>"
+OUTPUT: "<SENTENCE>457 . <PERS>ὅστις</PERS> bezieht ſich auf das ſich von ſelbſt ergänzende <WORK>μέ</WORK> . 458 . <WORK>μὲ</WORK> tritt an die Stelle des Relativs , <WORK>Kr</WORK> . <SCOPE>1 8 60</SCOPE> , <SCOPE>6</SCOPE> , <SCOPE>2</SCOPE> .</SENTENCE>"
+
+In this example, the input sentence contains a PERSON entity "ὅστις" (which refers to an unknown individual), and two SCOPE entities "1 8 60", "6", and "2" which refer to specific sections of the work "Kr.". The output sentence includes the identified named entities delimited by <TYPE>named entity</TYPE>. The casing and white spaces in the output sentence are the same as in the input sentence.
+########
+ INPUT: "<SENTENCE>461 . μόνους λιτών niht „ allein laſſend “ , ſondern „ verlaſſend “ ( μόνους ἐμοῦ λιπών ) . Vgl . <PERS>Euripide</PERS> , <WORK>Med .</WORK> 52 πῶς σοῦ <PERS>Mήδεια</PERS> λείπεσθαι θέλει ; <WORK>Hom .</WORK> I 437</SENTENCE>"
+OUTPUT: "<SENTENCE>461 . μόνους λιτών niht „ allein laſſend “ , ſondern „ verlaſſend “ ( <SCOPE>μόνους ἐμοῦ λιπών</SCOPE> ) . Vgl . <PERS>Euripide</PERS> , <WORK>Med .</WORK> 52 πῶς <PERS>Mήδεια</PERS> λείπεσθαι θέλει ; <WORK>Hom .</WORK> I 437</SENTENCE>"
+########
+ INPUT: "<SENTENCE>πιγξ , Ns τότ᾽ ἀριζήλη φωνὴ γέver Αἰαχίδαο .</SENTENCE>"
+OUTPUT: "<SENTENCE>πιγξ , Ns τότ᾽ ἀριζήλη φωνὴ γέver <PERS>Αἰαχίδαο</PERS> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>19 . τῷ σαχεςφόρῳ , wegen des gewaltigen Schildes ( 572 ) 11 . 7 , 219 ff . , wodurch er von dem schnellfüssigen Lokrischen Aias , Oileus ’ Sohn , unterschieden wird .</SENTENCE>"
+OUTPUT: "<SENTENCE>19 . <WORK>τῷ σαχεςφόρῳ</WORK> , wegen des gewaltigen Schildes ( <SCOPE>572</SCOPE> ) <WORK>11 . 7</WORK> , <SCOPE>219 ff .</SCOPE> , wodurch er von dem schnellfüssigen Lokrischen <PERS>Aias</PERS> , <PERS>Oileus</PERS> ’ <PERS>Sohn</PERS> , unterschieden wird .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Zu dieser Ehrenwalle bildet die μάστιξ des später als μαστιγοφόρος heraustreienden wahnsinnigen Helden einen grellen Gegensatz .</SENTENCE>"
+OUTPUT: "<SENTENCE>Zu dieser Ehrenwalle bildet die <OBJECT>μάστιξ</OBJECT> des später als <OBJECT>μαστιγοφόρος</OBJECT> heraustreienden wahnsinnigen <PERS>Helden</PERS> einen grellen Gegensatz .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>21 . ὃ σκοπόν , unerklärlich , dunkel , mit Bezug auf νυχτός , vgl . 40 . Von hier an folgt Od . der Aufforderung 12 .</SENTENCE>"
+OUTPUT: "<SENTENCE>21 . <SCOPE>ὃ σκοπόν</SCOPE> , unerklärlich , dunkel , mit Bezug auf <WORK>νυχτός</WORK> , vgl . <SCOPE>40</SCOPE> . Von hier an folgt <WORK>Od</WORK> . der Aufforderung <SCOPE>12</SCOPE> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>23 . 11 . 2 , 486 ἡμεῖς δὲ κλέος οἷον ἀκούομεν “ οὐδέ τι tduer .</SENTENCE>"
+OUTPUT: "<SENTENCE>23 . 11 . 2 , 486 ἡμεῖς δὲ <DATE>κλέος οἷον ἀκούομεν</DATE> “ οὐδέ τι tduer .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>25 . γάρ gcht auf 21 πρᾶγος ἄσκοπον ἔχει περάνας zurück , indem 23 .</SENTENCE>"
+OUTPUT: "<SENTENCE>25 . γάρ <DATE>gcht</DATE> auf 21 πρᾶγος ἄσκοπον ἔχει περάνας zurück , indem 23 .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>24 zur nähern Erläuterung von εἴπερ εἴργασται τάδε ( das Folgende , Ant . 229 ) dienen .</SENTENCE>"
+OUTPUT: "<SENTENCE>24 zur nähern Erläuterung von <WORK>εἴπερ εἴργασται τάδε</WORK> ( das Folgende , <WORK>Ant.</WORK> <SCOPE>229</SCOPE> ) dienen .</SENTENCE>"
+########
+ "<SENTENCE>Man beachte das viermalige <SCOPE>γάρ</SCOPE> seit <DATE>20</DATE> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>21 . ἐκ χειρός , vonMenschenhand hingestreckt , nicht von wilden Thieren zerrissen .</SENTENCE>"
+OUTPUT: "<SENTENCE>21 . <OBJECT>vonMenschenhand</OBJECT> hingestreckt , nicht von wilden Thieren zerrissen .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Die Hirten lässt Soph . mitgemordet sein ( 231 ) , weil sie sonst den Thäter hätten verrathen können .</SENTENCE>"
+OUTPUT: "<SENTENCE>Die <PERS>Soph.</PERS> lässt <SCOPE>231</SCOPE> , weil sie sonst den <PERS>Thäter</PERS> hätten verrathen können .</SENTENCE>"
+
+In this example, "Soph." is identified as a PERSON, and "231" is identified as a SCOPE. The rest of the words are not named entities, so they are not tagged.
+########
+ INPUT: "<SENTENCE>Mit &rzıστάταις vgl . O . R . 1028 .</SENTENCE>"
+OUTPUT: "<SENTENCE>Mit <WORK> &rzıστάταις </WORK> vgl . <WORK> O . R . </WORK> <SCOPE>1028</SCOPE> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>ϑ0 . πη δῶν nedie , dieEbene durchstürmen , wie 845 διφρηλατεῖν τὸν οὐρανόν , vgl . 164 .</SENTENCE>"
+OUTPUT: "<SENTENCE>ϑ0 . πη δῶν nedie , dieEbene durchstürmen , wie <SCOPE>845</SCOPE> διφρηλατεῖν τὸν οὐρανόν , vgl . <SCOPE>164</SCOPE> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>31 . poaleı re κἀδήλωσεν , verkündet und gab danndie näheren Umstände an .</SENTENCE>"
+OUTPUT: "<SENTENCE>31 . <SCOPE>poaleı</SCOPE> re κἀδήλωσεν , verkündet und gab danndie näheren Umstände an .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Prä - sens neben Aor . , wie Ant . 406 .</SENTENCE>"
+OUTPUT: "<SENTENCE>Prä - sens <SCOPE>neben</SCOPE> Aor . , wie <PERS>Ant.</PERS> <SCOPE>406</SCOPE> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>32f . zar ’ ἴχνος ἄσσω , vgl . 6 . 20 .</SENTENCE>"
+OUTPUT: "<SENTENCE>32f . zar ’ ἴχνος ἄσσω , <SCOPE>vgl . 6 . 20 .</SCOPE></SENTENCE>"
+########
+ INPUT: "<SENTENCE>— σημαίνομαι , τεχμαίgouct,lege ich miraus , ἐξιχνο - σχοποῦμαι 997 .</SENTENCE>"
+OUTPUT: "<SENTENCE>— <SCOPE>σημαίνομαι</SCOPE> , τεχμαίgouct,lege ich miraus , ἐξιχνο - σχοποῦμαι <SCOPE>997</SCOPE> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Odysseus erkennt aus den Spuren , dass Aias der Thä - ter ist , aber den Grund des wahnsinnigen Sehlachtens und Forttreibens der Thiere erkennt er nicht ( τὰ δέ ) , bevor ihn Athene belehrt .</SENTENCE>"
+OUTPUT: "<SENTENCE>Odysseus erkennt aus den Spuren , dass <PERS>Aias</PERS> der <WORK>Thä - ter</WORK> ist , aber den Grund des wahnsinnigen <WORK>Sehlachtens</WORK> und <WORK>Forttreibens</WORK> der <OBJECT>Thiere</OBJECT> erkennt er nicht ( τὰ δέ ) , bevor ihn <PERS>Athene</PERS> belehrt .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>— χο��ùχ ἔχω U . ὅτου , ὅτου μάϑω ταῦτα , wesshalb du mir gerade recht kommst , vgl . 378 .</SENTENCE>"
+OUTPUT: "<SENTENCE>— χο��ùχ ἔχω <PERS>U</PERS> . ὅτου , ὅτου μάϑω ταῦτα , wesshalb <PERS>du</PERS> mir gerade recht kommst , vgl . <SCOPE>378</SCOPE> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Das rathlose Staunen des . Od . drückt sich in der bei den älteren Dichtern seltenen Verbindung mit dem Inf . aus , weiss nicht von wem erfahren , wie ἐν ἀπόρῳ εἶχον</SENTENCE>"
+OUTPUT: "<SENTENCE>Das rathlose Staunen des <WORK>. Od.</WORK> drückt sich in der bei den älteren Dichtern seltenen Verbindung mit dem Inf. aus, weiss nicht von wem erfahren, wie <SCOPE>ἐν ἀπόρῳ εἶχον</SCOPE></SENTENCE>"
+########
+ "<SENTENCE>tet ?</SENTENCE>"
+########
+ INPUT: "<SENTENCE>El . 377 7 ταῦτα δή με καὶ βεβούλευνται ποιεῖν ;</SENTENCE>"
+OUTPUT: "<SENTENCE>El . <SCOPE>377</SCOPE> 7 ταῦτα δή με καὶ βεβούλευνται ποιεῖν ;</SENTENCE>"
+########
+ INPUT: "<SENTENCE>45 ἐξεπράξατ᾽ <OBJECT>Laur . A</OBJECT> , ἐξέroasev <OBJECT>vulgo</OBJECT> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Schol. μὴ λέγε βούλευμα᾽ οὐ ληρεῖ ἣν βούλευμα . ἀλλὰ πρᾶγμ εἰ χατημέλησα ἐγώ .</SENTENCE>"
+OUTPUT: "<SENTENCE>Schol. <SCOPE>μὴ λέγε βούλευμα᾽ οὐ</SCOPE> <SCOPE>ληρεῖ</SCOPE> <SCOPE>ἣν βούλευμα</SCOPE> . ἀλλὰ <SCOPE>πρᾶγμ</SCOPE> <SCOPE>εἰ χατημέλησα</SCOPE> ἐγώ .</SENTENCE>"
+
+In this example, there are no named entities that can be classified as PERSON, LOCATION, ORGANISATION, DATE, WORK, or OBJECT. Therefore, the output only contains SCOPE entities that correspond to the various parts of the scholion.
+########
+ INPUT: "<SENTENCE>Da das Medium in dem hier erforderlichen Sinne ohne Beispiel ist , habe ich ἐξέπραξ᾽ ὧν geschrieben .</SENTENCE>"
+OUTPUT: "<SENTENCE>Da das Medium in dem hier erforderlichen Sinne ohne Beispiel ist , habe ich <WORK>ἐξέπραξ᾽ ὧν</WORK> geschrieben .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>46 . Nämlich ἐβουλεύσατο £ Ev ἡμῖν χεῖρα χραίνεσϑαι φόνῳ , indem Od . seine Frage ( 44 ) erweiternd wiederholt , da ihm ein so tollkühnes Woagstück kaum glaublich scheint .</SENTENCE>"
+OUTPUT: "<SENTENCE>46 . Nämlich <PERS>ἐβουλεύσατο</PERS> £ Ev <PERS>ἡμῖν</PERS> χεῖρα χραίνεσϑαι φόνῳ , indem <PERS>Od</PERS> . seine Frage ( 44 ) erweiternd wiederholt , da ihm ein so tollkühnes Woagstück kaum glaublich scheint .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>47 . δόλιος . So sehr hat der Groll wegen der Zurücksetzung das gerade Wesen des Aias verändert , dass er im Dunkel der Nacht seine Rache hinterlistig ausführen will .</SENTENCE>"
+OUTPUT: "<SENTENCE>47 . δόλιος . So sehr hat der Groll wegen der Zurücksetzung das gerade Wesen des <PERS>Aias</PERS> verändert , dass er im Dunkel der Nacht seine Rache hinterlistig ausführen will .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Und dazu μόνος ( 29 . 294 ) im trotzigen Vertrauen , seine Stärke sei im Stande , die Gesammtheit zu bewältigen .</SENTENCE>"
+OUTPUT: "<SENTENCE>Und <SCOPE>29 . 294</SCOPE> im trotzigen Vertrauen , seine Stärke sei im Stande , die Gesammtheit zu bewältigen .</SENTENCE>"
+
+In this example, there are no named entities that match the provided types (PERSON, LOCATION, ORGANIZATION, DATE, WORK, SCOPE, OBJECT) in the given sentence. The only entity present is a SCOPE, but since it is not associated with any specific work or author, it is not possible to provide a more specific annotation.
+########
+ INPUT: "<SENTENCE>49 . δισσαὶ πύλαι , die der δισσοὶ Argeidaı .</SENTENCE>"
+OUTPUT: "<SENTENCE>49 . δισσαὶ πύλαι , <SCOPE>die</SCOPE> <SCOPE>der</SCOPE> δισσοὶ <WORK>Argeidaı</WORK> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>5l . δύςφοροι γνῶμαι , Wahnbilder ( sonst δόξαι , ἡπαgines), unter deren Wucht der VerStand erliegt : 643 δύςφορος ἄτα . 441 φρένες διάστροφοι .</SENTENCE>"
+OUTPUT: "<SENTENCE>5l . <WORK>δύςφοροι γνῶμαι</WORK> , <WORK>Wahnbilder</WORK> ( sonst <WORK>δόξαι</WORK> , <WORK>ἡπαgines</WORK>), unter deren Wucht der <WORK>VerStand</WORK> erliegt : 643 <WORK>δύςφορος ἄτα</WORK> . 441 <WORK>φρένες</WORK> διάστροφοι .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>( Eine Glosse παραφόρους ‚ Irreführend.) 52 . 7 ἀνήκεστος χαὰρ ( , seine Lust , die Führer zu ermorden , wodurch er ein unheilbares Unglück gestiftet haben würde . Vgl . 272 .</SENTENCE>"
+OUTPUT: "<SENTENCE>( <SCOPE>52</SCOPE> . <SCOPE>7</SCOPE> <WORK>ἀνήκεστος χαὰρ</WORK> ( , seine Lust , die Führer zu ermorden , wodurch er ein unheilbares Unglück gestiftet haben würde . Vgl . <SCOPE>272</SCOPE> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>53 . ποῖμναι die zur Nahrung des Heeres gehaltenen Heerden ; βουκόλων φ θουρήματα , βου - χόλια , die auf Beutezügen gewonnenen und noch nnveriheilt auf der Weide waren , vgl . 146 . 175 .</SENTENCE>"
+OUTPUT: "<SENTENCE>53 . <OBJECT>ποῖμναι</OBJECT> die zur Nahrung des Heeres gehaltenen Heerden ; <OBJECT>βουκόλων φ θουρήματα</OBJECT> , <OBJECT>βου - χόλια</OBJECT> , die auf Beutezügen gewonnenen und noch nnveriheilt auf der Weide waren , vgl . <SCOPE>146 . 175</SCOPE> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Zu σύμμικτα λείας ( die gemischten Beutethiere , zu Ant . 1209 ἄσημα βοῆς , vgl. strata Mar ) tritt ἄϑαστα αἷς Grund ngebend hinzu .</SENTENCE>"
+OUTPUT: "<SENTENCE>Zu <WORK>σύμμικτα λείας</WORK> ( die gemischten Beutethiere , zu <WORK>Ant.</WORK> <SCOPE>1209</SCOPE> ἄσημα βοῆς , vgl. <WORK>strata Mar</WORK> ) tritt ἄϑαστα αἷς Grund ngebend hinzu .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>ἀγωνοϑέται .</SENTENCE>"
+OUTPUT: "<SENTENCE>ἀγωνοϑέται .</SENTENCE>"
+
+There are no named entities in the provided sentence that match the given types.
+########
+ INPUT: "<SENTENCE>573 . λυμεών Odyſſeus , wie bei ἀγωνάοχαι die Atriden vorſchweben. 574 . αὐτό ankündigend .</SENTENCE>"
+OUTPUT: "<SENTENCE>573 . λυμεών <PERS>Odyſſeus</PERS> , wie bei ἀγωνάοχαι die <PERS>Atriden</PERS> vorſchweben. 574 . αὐτό ankündigend .</SENTENCE>"
+########
+ "<SENTENCE>— ἐπώνυμον ( <OBJECT>cognominem</OBJECT> ) hier „ nach dem du <PERS>biſt</PERS> benannt“ .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>576 . ἑπτάβοιον ist aus dem Homeriſchen ἕπταβόειον ( H 220 ) nach dem Homeriſchen ἐννεάβοιος und ἑκατόμβοιος gebildet. 577 . κοινά adverbial wie Ant . 546 .</SENTENCE>"
+OUTPUT: "<SENTENCE>576 . <WORK>ἑπτάβοιον</WORK> ist aus dem Homeriſchen <WORK>ἕπταβόειον</WORK> ( <SCOPE>H 220</SCOPE> ) nach dem Homeriſchen <WORK>ἐννεάβοιος</WORK> und <WORK>ἑκατόμβοιος</WORK> gebildet. 577 . <WORK>κοινά</WORK> adverbial wie <WORK>Ant</WORK> . 546 .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>— τεϑάψεται : das dritte Fut . von einer „ unfehlbar als abgeſchloſſen bevorſtehenden Folge “ Kr . 1 8 53 , 9 , 3 .</SENTENCE>"
+OUTPUT: "<SENTENCE>— τεϑάψεται : <DATE>das dritte Fut.</DATE> von einer „ unfehlbar als abgeſchloſſen bevorſtehenden Folge “ <WORK>Kr.</WORK> . <SCOPE>1 8 53 , 9 , 3</SCOPE> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Zur Sache vgl . <WORK>Hom .</WORK> <SCOPE>Ζ 418</SCOPE> ἀλλ ἄρα μιν κατέκηε σὺν ἔντεσι δαιδαλέοισι .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Ἡ 579 . δῶμα πάκτου bedeutet auch „ bleibe draußen “ .</SENTENCE>"
+OUTPUT: "<SENTENCE>Ἡ <SCOPE>579</SCOPE> . δῶμα πάκτου bedeutet auch „ bleibe draußen “ .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>— ἐπισκήνους am Zelte , vor dem Zelte .</SENTENCE>"
+OUTPUT: "<SENTENCE>— <LOC>ἐπισκήνους</LOC> am <LOC>Zelte</LOC> , vor dem <LOC>Zelte</LOC> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Was Aias verbietet , kann natürlich Tekmeſſa doh nicht unterlaſſen .</SENTENCE>"
+OUTPUT: "<SENTENCE>Was <PERS>Aias</PERS> verbietet , kann natürlich <PERS>Tekmeſſa</PERS> doh nicht unterlaſſen .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>580 . φιλοίκτιστον ( (φιλοικτίομονὴ wie φιλόδυοτος , φιλαίακτος , φιλόϑυτος , φιλόκλαυτος , φιλόπευστος gebildet .</SENTENCE>"
+OUTPUT: "<SENTENCE>580 . φιλοίκτιστον ( (φιλοικτίομονὴ wie φιλόδυοτος , φιλαίακτος , φιλόϑυτος , φιλόκλαυτος , φιλόπευστος <OBJECT>gebildet</OBJECT> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>581 . ϑᾶσσον , ocius .</SENTENCE>"
+OUTPUT: "<SENTENCE>581 . <DATE>ϑᾶσσον</DATE> , <DATE>ocius</DATE> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>. ϑοηνεῖν wie plorare gebraucht .</SENTENCE>"
+OUTPUT: "<SENTENCE>. ϑοηνεῖν wie <WORK>plorare</WORK> gebraucht .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>— Beſprechungen waren eine beſondere Art des Heilverfahrens , vgl . <WORK>Hom .</WORK> τ 457 .</SENTENCE>"
+OUTPUT: "<SENTENCE>— <SCOPE>Beſprechungen</SCOPE> waren eine beſondere Art des Heilverfahrens , vgl . <WORK>Hom .</WORK> τ 457 .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>583 . ποοϑυμίαν , weil <PERS>Aias</PERS> ſolche Eile mit der Verſchließung des Zeltes hat .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>584 . Über ἀρέσκειν mit Acc . Kr . 1 8 48 , 8 , 2 .</SENTENCE>"
+OUTPUT: "<SENTENCE>584 . Über <WORK>ἀρέσκειν</WORK> mit Acc . <WORK>Kr.</WORK> 1 8 48 , 8 , 2 .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>586 . σωφρονεῖν , Gehorſam .</SENTENCE>"
+OUTPUT: "<SENTENCE>586 . σωφρονεῖν , <WORK>Gehorſam</WORK> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>589 . ἄγαν γε λυπεῖς ( abſolut „ läſtig ſein “ ) auch <PERS>Ant.</PERS> 573 .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Mit ye weiſt Aias darauf hin , daß er nachgerade das Allerläſtigſte vernommen habe ( nämlich πρὸς ϑεῶν ) .</SENTENCE>"
+OUTPUT: "<SENTENCE>Mit ye weiſt <PERS>Aias</PERS> darauf hin , daß er nachgerade das Allerläſtigſte vernommen habe ( nämlich <SCOPE>πρὸς ϑεῶν</SCOPE> ) .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>590 . Gozeir , praestare . 591 . εὔφημα φώνει ὃ . i . läſtere niht .</SENTENCE>"
+OUTPUT: "<SENTENCE>590 . <PERS>Gozeir</PERS> , <WORK>praestare</WORK> . 591 . εὔφημα φώνει ὃ . i . <OBJECT>läſtere</OBJECT> niht .</SENTENCE>"
+########
+ "<SENTENCE>— <OBJECT>Der Erregung</OBJECT> ,</SENTENCE>"
+########
+ INPUT: "<SENTENCE>des Zaleukos ( <WORK>Diod . XII 20</WORK> ) . Vgl . <PERS>Cic .</PERS> <WORK>de amic . 59</WORK> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>680 . ἐς τὸ» φίλον ὑπουργῶν wie Eur . Hel . 1425 ἢν σὴν εἰς ἔμ᾽ εὔνοιαν διδῷς .</SENTENCE>"
+OUTPUT: "<SENTENCE>680 . <SCOPE>ἐς τὸ» φίλον ὑπουργῶν</SCOPE> wie <PERS>Eur</PERS> . <WORK>Hel</WORK> . <SCOPE>1425</SCOPE> ἢν σὴν εἰς ἔμ᾽ εὔνοιαν διδῷς .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>— ὠφελεῖν ( αὐτόν ) .</SENTENCE>"
+OUTPUT: "<SENTENCE>— ὠφελεῖν ( αὐτόν ) .</SENTENCE>"
+
+In the provided input, there are no named entities that match the given types (PERSON, LOCATION, ORGANISATION, DATE, WORK, SCOPE, and OBJECT). Therefore, there are no additions to the input string.
+########
+ INPUT: "<SENTENCE>- - - Die angefangene Form des Gedankens , wornach ὑπουργοῦσιν ὠφελητέον folgen ſollte , wird geändert .</SENTENCE>"
+OUTPUT: "<SENTENCE>- - - <SCOPE>Die angefangene Form des Gedankens</SCOPE> , <SCOPE>wornach ὑπουργοῦσιν ὠφελητέον</SCOPE> folgen ſollte , wird geändert .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>— βουλή - σομαι mit Rückſicht auf die zukünftige Ausführung der Abſicht : zu <WORK>Öd . T.</WORK> 1077 .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>684 . ἀλλ᾽ . . . σχήσει mit Selbſtironie : „ doch um die Ausführung dieſer Grundſätze braucht man nicht bange zu ſein “ .</SENTENCE>"
+OUTPUT: "<SENTENCE>684 . ἀλλ᾽ . . . σχήσει mit <OBJ>Selbſtironie</OBJ> : „ doch um die Ausführung dieſer Grundſätze braucht man nicht bange zu ſein “ .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>687 . ταὐτὰ τάδε τιμᾶτε , τὴν αὐτὴν τήνδε τιμὴν <OBJECT>VELETE</OBJECT> ,</SENTENCE>"
+########
+ INPUT: "<SENTENCE>— τιμᾶν von dem Gewähren wie ἀτιμάζειν von dem Abſchlagen einer Bitte .</SENTENCE>"
+OUTPUT: "<SENTENCE>— <OBJECT>τιμᾶν</OBJECT> von dem <OBJECT>Gewähren</OBJECT> wie <OBJECT>ἀτιμάζειν</OBJECT> von dem <OBJECT>Abſchlagen</OBJECT> einer <OBJECT>Bitte</OBJECT> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>— μοί iſt dat . eth .</SENTENCE>"
+OUTPUT: "<SENTENCE>— μοί <OBJECT>iſt dat</OBJECT> . <OBJECT>eth</OBJECT> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>— Aias verlangt alſo auch von dem Chor ein Gebet zu den Göttern ; dem entſpricht der folgende Chorgeſang .</SENTENCE>"
+OUTPUT: "<SENTENCE>— <PERS>Aias</PERS> verlangt alſo auch von dem <PERS>Chor</PERS> ein Gebet zu den <PERS>Göttern</PERS> ; dem entſpricht der folgende <WORK>Chorgeſang</WORK> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>689 . μέλειν ( perſönlich wie El . 342 ) ἡμῶν weiſt auf die Beſtattung hin .</SENTENCE>"
+OUTPUT: "<SENTENCE>689 . μέλειν ( <WORK>perſönlich</WORK> wie <WORK>El.</WORK> <SCOPE>342</SCOPE> ) ἡμῶν weiſt auf die Beſtattung hin .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>692 . Der Doppel⸗ ſinn des legten Wortes kennzeichnet die ganze Rede .</SENTENCE>"
+OUTPUT: "<SENTENCE>692 . <OBJECT>Der Doppel⸗ ſinn</OBJECT> des legten Wortes kennzeichnet die ganze Rede .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>- - Aias geht ( links ) ab . Tekmeſſa tritt ins Zelt .</SENTENCE>"
+OUTPUT: "<SENTENCE>- - <PERS>Aias</PERS> geht ( links ) ab . <PERS>Tekmeſſa</PERS> tritt ins Zelt .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>693 - 718 zweites Staſimon.</SENTENCE>"
+OUTPUT: "<SENTENCE>693 - 718 <SCOPE>zweites Staſimon</SCOPE>.</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Die täuſchende Rede des <PERS>Aias</PERS> hat eine ergreifende Peripetie zur Folge : der Chor ſtimmt ein Jubellied an und ruft <WORK>Pan</WORK> und <WORK>Apollon</WORK> als Götter des Tanzes und der Muſik herbei , um die Freude über die glückliche und unerwartete Sinneswandlung des <PERS>Aias</PERS> zu feiern . Alsbald zeigt ſich das traurige Gegenteil .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Das Versmaß dieſes Tanzliedes ( <WORK>ὑπόρχημα</WORK> ) iſt logaödiſch :</SENTENCE>"
+OUTPUT: "<SENTENCE>Das Versmaß dieſes Tanzliedes ( <WORK>ὑπόρχημα</WORK> ) iſt logaödiſch :</SENTENCE>"
+########
+ INPUT: "<SENTENCE>251 . ἐρέσσουσιν , συντόνως κινοῦσιν , vgl . 1329 . <PERS>Phil</PERS> 1135 . <PERS>Ant</PERS> 158 μῆτιν ἐρέσσων .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>In den Gesprächen der Tekmessa und des Aias mit den salaminischen Schilfsleuten werden nautische Ausdrücke und Bilder mit Vorliebe gebraucht , vgl . 206 . 257 . 351 . <WORK>Phil.</WORK> 828 .</SENTENCE>"
+OUTPUT: "<SENTENCE>In den Gesprächen der <PERS>Tekmessa</PERS> und des <PERS>Aias</PERS> mit den <LOC>salaminischen Schilfsleuten</LOC> werden nautische Ausdrücke und Bilder mit Vorliebe gebraucht , vgl . 206 . 257 . 351 . <WORK>Phil.</WORK> 828 .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>— δικρατεῖς , zu 390 .</SENTENCE>"
+OUTPUT: "<SENTENCE>— <OBJECT>δικρατεῖς</OBJECT> , zu <SCOPE>390</SCOPE> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>254 . λιϑόλευστον Ἄρη , vgl . 230 .</SENTENCE>"
+OUTPUT: "<SENTENCE>254 . <WORK>λιϑόλευστον Ἄρη</WORK> , vgl . <SCOPE>230</SCOPE> .</SENTENCE>"
+########
+ <SENTENCE>In heroischer Zeit die gewöhnliche Art gewaltsamer Ermordung durch die tobende Menge , oder von Fürsten verhängter Strafe <SCOPE>φόνος δημόλευστος</SCOPE> , <DATE>257</DATE> . <SCOPE>121 f</SCOPE> . zu <WORK>Ant</WORK> . <SCOPE>36</SCOPE> . <PERS>Aesch</PERS> . <WORK>Ag</WORK> . <SCOPE>1599</SCOPE> <SCOPE>δημορριφεῖς λεύσιμοι ἀραΐ</SCOPE> . <SCOPE>1</SCOPE> . <SCOPE>3</SCOPE> , <SCOPE>57</SCOPE> .</SENTENCE>
+########
+ INPUT: "<SENTENCE>"Rasch hat Aias ' Toben sich gelegt , wie der Süd , welcher ohne Gewitter losstärmt .</SENTENCE>"
+OUTPUT: "<SENTENCE>"Rasch hat <PERS>Aias</PERS> ' <SCOPE>Toben</SCOPE> sich gelegt , wie der <LOC>Süd</LOC> , welcher ohne <SCOPE>Gewitter</SCOPE> losstärmt .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Unaufhörliche Leidenschaft vergleicht dagegen <PERS>Ibykos</PERS> fr . 1 , Tmit dem ὑπὸ στεροπᾶς φλέγων Θρηΐκιος Βορέας .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>255 . αἰσ᾽ ἄπλατος , ἢ μανία .</SENTENCE>"
+OUTPUT: "<SENTENCE>255 . αἰσ᾽ ἄπλατος , ἢ μανία .</SENTENCE>"
+
+Explanation:
+There are no named entities in the provided sentence that match the given types.
+########
+ INPUT: "<SENTENCE>261 . ἡ γὰρ κοινωνία τῶν ἁμαρτημάτων φέρει τινὰ παραμυϑίαν Schol .</SENTENCE>"
+OUTPUT: "<SENTENCE>261 . ἡ γὰρ κοινωνία τῶν ἁμαρτημάτων φέρει τινὰ παραμυϑίαν <WORK>Schol.</WORK> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>263 . Der Clior schlägt den schmerzhaften Zustand des Aias gering an und meint , wenn nur die Tobwuth sich gelegt habe , so können wohl die Dinge sich noch zum Guten kehren , indem Aias ’ Gemüth sich schon beruhigen werde und der Chor seine Besorgniss ( 254 ) zurücknehmen könne .</SENTENCE>"
+OUTPUT: "<SENTENCE>263 . <PERS>Der Clior</PERS> schlägt den schmerzhaften Zustand des <PERS>Aias</PERS> gering an und meint , wenn nur die <WORK>Tobwuth</WORK> sich gelegt habe , so können wohl die Dinge sich noch zum Guten kehren , indem <PERS>Aias</PERS> ’ Gemüth sich schon beruhigen werde und der <PERS>Chor</PERS> seine <WORK>Besorgniss</WORK> ( <SCOPE>254</SCOPE> ) zurücknehmen könne .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>( Mit εὐτυχεῖν vgl . <WORK>Trach .</WORK> 191 . <WORK>El .</WORK> 945 . )</SENTENCE>"
+OUTPUT: "<SENTENCE>( Mit εὐτυχεῖν vgl . <WORK>Trach .</WORK> <SCOPE>191</SCOPE> . <WORK>El .</WORK> <SCOPE>945</SCOPE> . )</SENTENCE>"
+########
+ <SENTENCE>Diesen zu raschen Ausbruch freudiger Hoffnung sucht dann <PERS>Tekmessa</PERS> durch die Betrachtung zu dämpfen, dass genau betrachtet die gemeinsame Lage des <PERS>Aias</PERS> und der Seinigen jetzt <SCOPE>doppelt unglücklich</SCOPE> sei, weil sie <SCOPE>κοινοὶ ἐν κοινοῖς λυποῦν - ται</SCOPE> <SCOPE>267</SCOPE> .</SENTENCE>
+########
+ INPUT: "<SENTENCE>Tekmessa sucht dem Chor - mit dialektischer Schärfe die rechte Ansicht der Lage klar zu machen, indem sie durch dieses Zergliedern ihres tiefen Schmerzes den Verstand zum Herrn der Gefühle zu machen sucht.</SENTENCE>"
+OUTPUT: "<SENTENCE>Tekmessa sucht dem <PERS>Chor</PERS> - mit dialektischer Schärfe die rechte Ansicht der Lage klar zu machen, indem sie durch dieses Zergliedern ihres tiefen Schmerzes den Verstand zum Herrn der Gefühle zu machen sucht.</SENTENCE>"
+########
+ INPUT: "<SENTENCE>264 . Soph . Laocoont . fr . 4 Moχϑου γὰρ οὐδεὶς τοῦ παρελθόντος λόγος .</SENTENCE>"
+OUTPUT: "<SENTENCE>264 . <PERS>Soph</PERS> . <WORK>Laocoont</WORK> . fr . 4 <WORK>Moχ�thou</WORK> γὰρ οὐδεὶς τοῦ παρελθόντος λόγος .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>nach zu ἐν βουσὶ πεσών , mit bewaffneter Hand die Heerden überfallend , während ich meine Plagegeister mir entgehen liess .</SENTENCE>"
+OUTPUT: "<SENTENCE>nach zu ἐν βουσὶ πεσών , mit bewaffneter Hand die Heerden überfallend , während ich meine <OBJECT>Plagegeister</OBJECT> mir entgehen liess .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Streng logisch wäre ὃς μεϑεὶς το��ùς ἀλάστορας , ἐν βουσὶ πεσὼν χερὶ xrA . , aber das Widersinnige der That tritt durch die Vorausstellung des pa - rataktisch gebauten Satzgliedes stärker hervor .</SENTENCE>"
+OUTPUT: "<SENTENCE>Streng logisch wäre ὃς μεϑεὶς το��ùς ἀλάστορας , ἐν βουσὶ πεσὼν χερὶ xrA . , aber das Widersinnige der That tritt durch die Vorausstellung des pa - rataktisch gebauten Satzgliedes stärker hervor .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>375 . xAvra , edle Heerden , wie bei Homer xAvr« μῆλα .</SENTENCE>"
+OUTPUT: "<SENTENCE>375 . <OBJECT>xAvra</OBJECT> , edle Heerden , wie bei <PERS>Homer</PERS> <OBJECT>xAvr« μῆλα</OBJECT> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>376 . δεύειν , vergiessen , indem die verba humectandi öfter diese Bedeutung annehmen , τέγγειν δακρύων ἄχναν Trach . 848 , ῥαΐγειν χοάς etc . , zu O . R . 1279 .</SENTENCE>"
+OUTPUT: "<SENTENCE>376 . δεύειν , vergiessen , indem die verba humectandi öfter diese Bedeutung annehmen , τέγγειν δακρύων ἄχναν <WORK>Trach .</WORK> 848 , ῥαΐγειν χοάς etc . , zu <WORK>O . R .</WORK> 1279 .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>377 . ἐξειργασμένο ἐς , τετελεσμένοις καὶ ἴασιν οὐκ ἔχουσιν Schol .</SENTENCE>"
+OUTPUT: "<SENTENCE>377 . ἐξειργασμένο ἐς , τετελεσμένοις καὶ ἴασιν οὐκ ἔχουσιν <OBJECT>Schol</OBJECT> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>378 . Wie die „ obliquen Casus von οὐδεὶς ὅστις οὐ wird οὐχ ὅπως οὐ eingeschoben , ohne die Struetur zu ändern , — οὐκ ἂν γένοιτο οὐϑαμῶς ταῦτα οὐχ ὧδε ἔχειν . Vgl . 33 . zu 0 . ( <WORK>.</WORK> 385 .</SENTENCE>"
+OUTPUT: "<SENTENCE>378 . Wie die „ obliquen Casus von οὐδεὶς ὅστις οὐ wird οὐχ ὅπως οὐ eingeschoben , ohne die Struetur zu ändern , — οὐκ ἂν γένοιτο οὐϑαμῶς ταῦτα οὐχ ὧδε ἔχειν . Vgl . <SCOPE>33</SCOPE> . zu <SCOPE>0</SCOPE> . ( <WORK>.</WORK> 385 .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>379 . πάνϑ ' δρῶν , näml . κακά nach dem Folgenden , πανοῦργε καὶ περίεργε , weil Od . der Hauptspäher des Heeres . Vgl . Phil . 1013 .</SENTENCE>"
+OUTPUT: "<SENTENCE>379 . πάνϑ ' δρῶν , näml . <DATE>κακά nach dem Folgenden</DATE> , πανοῦργε καὶ περίεργε , weil <PERS>Od.</PERS> der Hauptspäher des Heeres . Vgl . <WORK>Phil.</WORK> <SCOPE>1013</SCOPE> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>381 . xaxonıv . ἄλημα , ( (τρίμμα, περίτριμμα ) nennt Aias den stets auf listige Abenteuer bedachten Odysseus .</SENTENCE>"
+OUTPUT: "<SENTENCE>381 . xaxonıv . ἄλημα , ( (τρίμμα, περίτριμμα ) nennt <PERS>Aias</PERS> den stets auf listige Abenteuer bedachten <PERS>Odysseus</PERS> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>( Hermann erkl . squalidus erro mit Bezug auf die Verkleidung als Bettler <WORK>Od .</WORK> 4 , 242 . Allein @Anue ist auch <WORK>Ant .</WORK> 320 = τρίμμα .</SENTENCE>"
+OUTPUT: "<SENTENCE>( <PERS>Hermann</PERS> erkl . squalidus erro mit Bezug auf die Verkleidung als Bettler <WORK>Od .</WORK> 4 , 242 . Allein @Anue ist auch <WORK>Ant .</WORK> 320 = τρίμμα .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Da aber ἄλημα 390 wicederkehrt, ist hier vielleicht ze A 7 - 7μα zu lesen , wie 0 . C . 960 ὦ λῆμ᾽ ἀναιδές . Vgl . 445 . ) ᾿</SENTENCE>"
+OUTPUT: "<SENTENCE>Da aber <OBJECT>ἄλημα 390</OBJECT> wicederkehrt, ist hier vielleicht ze <SCOPE>A 7 - 7μα</SCOPE> zu lesen , wie 0 . C . <SCOPE>960</SCOPE> ὦ λῆμ᾽ ἀναιδές . Vgl . <SCOPE>445</SCOPE> . ) ᾿</SENTENCE>"
+########
+ INPUT: "<SENTENCE>989 . Lacht Odysseus jetzt, so kann er bald jammern, wenn es der Gottheit gefällt. Aias beachtet den Spruch (statt <OBJECT>ξὺν τῷ ϑεῷ</OBJECT> habe ich <OBJECT>ξύν τοι ϑεῷ</OBJECT> geschrieben: <OBJECT>σὺν ϑεῷ</OBJECT>, <OBJECT>σὺν ϑεοῖς</OBJECT> ist die übliche Formel: <ORG>O.</ORG> <DATE>148</DATE> ist ein bestimmter Gott gemeint)</SENTENCE>"
+OUTPUT: "<SENTENCE>989 . Lacht <PERS>Odysseus</PERS> jetzt, so kann er bald <OBJECT>jammern</OBJECT>, wenn es der <ORG>Gottheit</ORG><DATE>148</DATE> gefällt. <PERS>Aias</PERS> beachtet den Spruch (statt <OBJECT>ξὺν τῷ ϑεῷ</OBJECT> habe ich <OBJECT>ξύν τοι ϑεῷ</OBJECT> geschrieben: <OBJECT>σὺν ϑεῷ</OBJECT>, <OBJECT>σὺν ϑεοῖς</OBJECT> ist die übliche Formel: <ORG>O.</ORG><DATE>148</DATE> ist ein bestimmter Gott gemeint)</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Darauf mahnt ihn Tekmessa , nicht ver - messen zu reden , vgl . 127 .</SENTENCE>"
+OUTPUT: "<SENTENCE>Darauf mahnt ihn <PERS>Tekmessa</PERS> , nicht ver - messen zu reden , vgl . <SCOPE>127</SCOPE> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Gewöhnlich wird 386 dem Chore zugetheilt. Aber die Gesänge und Reden von 348 bis 430 sind symmetrisch so angeordnet , dass Aias in den Iyrischen Partien sich selbst , die Reden des Chors und der Tekmessa einander gegenseitig entspre-</SENTENCE>"
+OUTPUT: "<SENTENCE>Gewöhnlich wird <SCOPE>386</SCOPE> dem Chore zugetheilt. Aber die Gesänge und Reden von <SCOPE>348</SCOPE> bis <SCOPE>430</SCOPE> sind symmetrisch so angeordnet , dass Aias in den Iyrischen Partien sich selbst , die Reden des Chors und der Tekmessa einander gegenseitig entspre-</SENTENCE>"
+########
+ INPUT: "<SENTENCE>493 . συνηλλάχϑης , συνηρμόσϑης, γάμῳ συνεζεύχϑης .</SENTENCE>"
+OUTPUT: "<SENTENCE>493 . συνηλλάχϑης , συνηρμόσϑης, γάμῳ συνεζεύχϑης .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>495 . ἐφείς 1297 ) , ὑποχειρίαν δούς τινι τῶν ἐχϑρῶν Schol . Minder gut bezeugt ist ἀφείς , das aus 496 ver schrieben ist .</SENTENCE>"
+OUTPUT: "<SENTENCE>495 . <DATE>1297</DATE> ) , ὑποχειρίαν δούς τινι τῶν ἐχϑρῶν Schol . <SCOPE>Minder gut bezeugt ist ἀφείς , das aus 496 ver schrieben ist</SCOPE> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>496 ff . „ Denn geseizt du stirbst und lässt mich damit ( τελευτήσας S ᾿ ' ϑανώ» ) im Stiche , ohne deinen Schutz , so wird unfehlbar unser Loos Sklaverei sein . ‘‘</SENTENCE>"
+OUTPUT: "<SENTENCE>496 ff . „ Denn geseizt du stirbst und lässt mich damit ( <DATE>496</DATE> ff . ) im Stiche , ohne deinen Schutz , so wird unfehlbar unser Loos <OBJECT>Sklaverei</OBJECT> sein . ‘‘</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Mit Rücksicht gerade auf diese Besorgniss ordnet Atas 560 ff . den Teukros als Beschützer der Seinigen an .</SENTENCE>"
+OUTPUT: "<SENTENCE>Mit Rücksicht <SCOPE>gerade auf diese Besorgniss</SCOPE> ordnet <PERS>Atas</PERS> 560 ff . <PERS>den Teukros</PERS> als Beschützer der Seinigen an .</SENTENCE>"
+########
+ "<SENTENCE>Der <WORK>Conj.</WORK> bei εἰ wie <WORK>O.</WORK> <SCOPE>ἢ . 198</SCOPE> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Die Lesart ist aus Laur . A : BDindorf hat y γὰρ . . . . geschrieben , sehr ansprechend , ‘obwohl sich εἰ durch Trach . 719 Sedozret , κεῖνος εἰ σφαλήσεται, Κείνῃ σὺν δρμῇ κἀμὲ συνθαωνεῖν ἅμα ver theidigen lässt .</SENTENCE>"
+OUTPUT: "<SENTENCE>Die Lesart ist aus <LOC>Laur . A</LOC> : <PERS>BDindorf</PERS> hat y γὰρ . . . . geschrieben , sehr ansprechend , ‘obwohl sich εἰ durch <WORK>Trach .</WORK> 719 <PERS>Sedozret</PERS> , κεῖνος εἰ σφαλήσεται, Κείνῃ σὺν δρμῇ κἀμὲ συνθαωνεῖν ἅμα ver theidigen lässt .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Der Schol. erklärt ταύτῃ durch οὕτως, χατὰ τοῦτον τὸν τρόπον .</SENTENCE>"
+OUTPUT: "<SENTENCE>Der <ORG>Schol.</ORG> erklärt ταύτῃ durch οὕτως, χατὰ τοῦτον τὸν τρόπον .</SENTENCE>"
+########
+ INPUT: "<SENTENCE}( Früber hatte ich mit Sintenis red . φανῇς ( vgl . Phil . 1339 πέρσας φανῇς ) geschrieben , weil durch ἀφῇς schon antieipirt würde , was erst im Nachsatze ausgesprochen - werde wird , vgl . 513 .</SENTENCE>"
+OUTPUT: "<SENTENCE}( <PERS>Früber</PERS> hatte ich mit <PERS>Sintenis</PERS> red . φανῇς ( vgl . <WORK>Phil.</WORK> <SCOPE>1339</SCOPE> <WORK>πέρσας</WORK> φανῇς ) geschrieben , weil durch ἀφῇς schon antieipirt würde , was erst im <SCOPE>Nachsatze</SCOPE> ausgesprochen - werde wird , vgl . <SCOPE>513</SCOPE> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Allein der Gedanke ist vollkommen richtig, da die dovλεία erst eine Folge des (μόνην) ἀφεῖναι ist.</SENTENCE>"
+OUTPUT: "<SENTENCE>Allein der Gedanke ist vollkommen richtig, da <WORK>dovλεία</WORK> erst eine Folge des (<SCOPE>μόνην</SCOPE>) <WORK>ἀφεῖναι</WORK> ist.</SENTENCE>"
+########
+ INPUT: "<SENTENCE>499 . δούλιον die guten Quellen: ob δούλιον στέρξειν To . , mich in die Sklaverei fügen müssen ?</SENTENCE>"
+OUTPUT: "<SENTENCE>499 . <DATE>499</DATE> . <WORK>die guten Quellen</WORK>: ob <SCOPE>δούλιον</SCOPE> στέρξειν <PERS>To</PERS> . , mich in die Sklaverei fügen müssen ?</SENTENCE>"
+########
+ INPUT: "<SENTENCE>500 . Il . 6 , 459 ff . Καί ποτέ τις εἴπῃσιν ἰδὼν κάτα δάκρυ χέουσαν »»Ἔχτορος nde γυνή , ὃς ἀριστεύεσχε μιάχεσϑαι Τρώων ἱπποδάμων ,</SENTENCE>"
+OUTPUT: "<SENTENCE>500 . <WORK>Il</WORK> . 6 , 459 ff . Καί ποτέ τις εἴπῃσιν ἰδὼν κάτα δάκρυ χέουσαν »»<OBJECT>Ἔχτορος</OBJECT> nde γυνή , ὃς ἀριστεύεσχε μιάχεσϑαι <LOC>Τρώων</LOC> ἱπποδάμων ,</SENTENCE>"
+########
+ INPUT: "<SENTENCE>χαϑαστό - μενός μου , wie Aesch . Sieben 388 VEvsır ὀνείδει .</SENTENCE>"
+OUTPUT: "<SENTENCE>χαϑαστό - μενός μου , wie <PERS>Aesch</PERS> . <WORK>Sieben</WORK> 388 <WORK>VEvsır</WORK> ὀνείδει .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>503 . τρέφει , 644 . 0 . € . 186 .</SENTENCE>"
+OUTPUT: "<SENTENCE>503 . <OBJECT>τρέφει</OBJECT> , 644 . 0 . € . 186 .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>504 . δαίμων ἐλᾷ , N δυστυχία , wie sonst χαχοῖς , συμφοραῖς ἐλαύγεσϑαι. Vgl . 275 . 406 .</SENTENCE>"
+OUTPUT: "<SENTENCE>504 . <OBJECT>δαίμων</OBJECT> ἐλᾷ , N δυστυχία , wie sonst χαχοῖς , συμφοραῖς ἐλαύγεσϑαι. Vgl . <SCOPE>275</SCOPE> . <SCOPE>406</SCOPE> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>505 . Tekm . setzt dieses αἰσχρόν dem des Aias 473 entgegen und Aias thut indirect durch Verweisung auf Teukros 560ff . . hierauf - Bescheid .</SENTENCE>"
+OUTPUT: "<SENTENCE>505 . <PERS>Tekm.</PERS> setzt dieses αἰσχρόν dem des <PERS>Aias</PERS> 473 entgegen und <PERS>Aias</PERS> thut indirect durch Verweisung auf <PERS>Teukros</PERS> 560ff . . hierauf - Bescheid .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>507 . Vgl . 622 ſ .</SENTENCE>"
+OUTPUT: "<SENTENCE>507 . <SCOPE>Vgl</SCOPE> . <SCOPE>622</SCOPE> ſ .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>ὅτε Ἴλιον ἀμφεμάχοντο . "" Vgl . Ant . 696 ff . El . 975 ff . 501 . λόγοις ianrwv , con-</SENTENCE>"
+OUTPUT: "<SENTENCE><SCOPE>ὅτε</SCOPE> Ἴλιον ἀμφεμάχοντο . <REF>Vgl.</REF> <WORK>Ant.</WORK> 696 ff . <WORK>El.</WORK> 975 ff . 501 . <SCOPE>λόγοις</SCOPE> ianrwv , con-</SENTENCE>"
+
+In this example, "ὅτε" is annotated as a SCOPE because it refers to a specific section or portion of a work, and "Vgl." is annotated as a REF because it is an abbreviation that often anticipates scope entities such as "Vgl." (for vergleiche, meaning compare). The works "Ant." and "El." are annotated as WORK entities, and the scope references "696 ff" and "975 ff" are annotated as SCOPE entities. The word "λόγοις" is also annotated as a SCOPE entity because it refers to a specific section or portion of a work.
+########
+ INPUT: "<SENTENCE>614 . φρενὸς οἰοβώτας , seinen Sinn auf einsame Weide führend , insofern Aias wie ein krankes Weidethier von seiner Umgebung sich trennt und in seinen absonderlichen wahnsinnigen Vorstellungen herumschweift , ohne freundlicher Zurede zu „ folgen .</SENTENCE>"
+OUTPUT: "<SENTENCE>614 . φρενὸς οἰοβώτας , seinen Sinn auf einsame Weide führend , insofern <PERS>Aias</PERS> wie ein krankes Weidethier von seiner Umgebung sich trennt und in seinen absonderlichen wahnsinnigen Vorstellungen herumschweift , ohne freundlicher Zurede zu „ folgen .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Vgl . 640 . 11 . 6 , 201 Ἤτοι ὃ χὰπ πεδίον τὸ Alnıov οἷος ἀλᾶτο , Ὃν ϑυμὸν κατέδων , πάτον ἀνθρώπων ἀλε - είνων .</SENTENCE>"
+OUTPUT: "<SENTENCE>Vgl . 640 . 11 . 6 , <DATE>201</DATE> Ἤτοι ὃ χὰπ πεδίον τὸ <LOC>Alnıov</LOC> οἷος ἀλᾶτο , Ὃν ϑυμὸν κατέδων , πάτον ἀνθρώπων ἀλε - είνων .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>— Obgleich die Tobwuth vorüber ist , redet der Chor doch noch von μανία , weil Aias sich noch nicht von Rach- und Mordge-danken und geistiger Verwirrung frei machen kann .</SENTENCE>"
+OUTPUT: "<SENTENCE>— Obgleich die <WORK>Tobwuth</WORK> vorüber ist , redet der <PERS>Chor</PERS> doch noch von <WORK>μανία</WORK> , weil <PERS>Aias</PERS> sich noch nicht von <SCOPE>Rach-</SCOPE><SCOPE>und</SCOPE><SCOPE>Mordge-</SCOPE><SCOPE>danken</SCOPE> und <SCOPE>geistiger</SCOPE><SCOPE>Verwirrung</SCOPE><SCOPE>frei</SCOPE> machen kann .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>615 . εὕρηται , γεγένηται .</SENTENCE>"
+OUTPUT: "<SENTENCE>615 . εὕρηται , γεγένηται .</SENTENCE>"
+
+In this input, there are no named entities that match the provided types (PERSON, LOCATION, ORGANIZATION, DATE, WORK, SCOPE, and OBJECT). Therefore, there is no output from the NER system.
+########
+ INPUT: "<SENTENCE>616 . ἔργα χεροῖν , gleichsam ein Wort , χειρουργήματα .</SENTENCE>"
+OUTPUT: "<SENTENCE>616 . <WORK>ἔργα χεροῖν</WORK> , gleichsam ein Wort , <WORK>χειρουργήματα</WORK> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>621 . ἔπεσε , ἐν ὀλιγωρίᾳ ἐστὶ παρὰ τοῖς ᾿Ατρείδαις . Schol . Vgl . 924 .</SENTENCE>"
+OUTPUT: "<SENTENCE>621 . ἔπεσε , ἐν ὀλιγωρίᾳ ἐστὶ παρὰ <ORG>τοῖς ᾿Ατρείδαις</ORG> . Schol . Vgl . <SCOPE>924</SCOPE> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>622 . παλαιᾷ ἔντρ . ( ἐνοῦσα , 0 . C . 1362 . Vgl . 639 σύντροφος ) ἁμέρᾳ , wie 508 πολλῶν ἐτῶν κληροῦχος , d . h . πολυετής .</SENTENCE>"
+OUTPUT: "<SENTENCE>622 . <DATE>παλαιᾷ ἔντρ . ( ἐνοῦσα , 0 . C . 1362 . Vgl . 639 σύντροφος ) ἁμέρᾳ</DATE> , wie 508 πολλῶν ἐτῶν <SCOPE>κληροῦχος</SCOPE> , d . h . πολυετής .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>500 . C . 1215 αἱ μαχραὶ ἁμέραι, das lange Menschenleben, wie νέος ἡμέρα = νεότης Eur. Ion 120.</SENTENCE>"
+OUTPUT: "<SENTENCE>500 . <DATE>C . 1215</DATE> αἱ μαχραὶ ἁμέραι, das lange Menschenleben, wie <WORK>νέος ἡμέρα</WORK> = <WORK>νεότης</WORK> <WORK>Eur.</WORK> <WORK>Ion</WORK> <SCOPE>120</SCOPE>.</SENTENCE>"
+########
+ INPUT: "<SENTENCE>625 . λευκῷ τε γήραι , λευ - καίνοντε τὰς τρίχας , cano senio .</SENTENCE>"
+OUTPUT: "<SENTENCE>625 . λευκῷ τε γήραι , λευ - καίνοντε τὰς τρίχας , <DATE>cano senio</DATE> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Das handschriftliche δέ statt re wäre nur möglich , wenn ein zwei - tes Prädikat einträte , etwa λευχὰ δὲ γήραι , wie <PERS>Euripide</PERS> , <WORK>Herc . Fur.</WORK> 910 λευχὰ γήραι σώματα .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>627 . Die Mutter wird nicht ein sanftklagendes , schmelzendes Lied der Nachtigall ( <WORK>El . 147 ff .</WORK> ) anstimmen , sondern <SCOPE>αἵλινον αἴλινον</SCOPE> er - schallen lassen und im wilden Schmerz die Brust sich zerschlagen , das Haar zerraufen , vgl . <WORK>El . 88f .</WORK> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Mit αė́λινον αἴλινον wird die schmerzliche Todtenklage allgemein , dann im Gegensatze zu dem γόος ἀηδόνειος nochmals bestimmter der herbere Schmerz durch ὀξυτ . ade bezeichnet , vgl . Ant . 423 .</SENTENCE>"
+OUTPUT: "<SENTENCE>Mit <WORK>αė́λινον αἴλινον</WORK> wird die schmerzliche Todtenklage allgemein , dann im Gegensatze zu dem <WORK>γόος ἀηδόνειος</WORK> nochmals bestimmter der herbere Schmerz durch <WORK>ὀξυτ . ade</WORK> bezeichnet , vgl . <WORK>Ant .</WORK> 423 .</SENTENCE>"
+########
+ <SENTENCE>So ’ ent - steht eine bei <PERS>Sophokles</PERS> nicht sel - tene doppelte Apodosis , vgl . <SCOPE>840</SCOPE> . <SCOPE>1114</SCOPE> . <WORK>O . C</WORK> . <SCOPE>91</SCOPE> . <SCOPE>289</SCOPE> . <WORK>775</WORK> . <WORK>Phil</WORK> . <SCOPE>269</SCOPE> . <WORK>O0</WORK> . <WORK>R</WORK> . <SCOPE>338</SCOPE> . <WORK>Ant</WORK> . <SCOPE>468</SCOPE> .</SENTENCE>
+########
+ INPUT: "<SENTENCE>88 . πανύστατον , Ant . 809 νέατον φέγγος λεύσσουσαν ἀελίου .</SENTENCE>"
+OUTPUT: "<SENTENCE>88 . πανύστατον , <WORK>Ant.</WORK> 809 νέατον φέγγος λεύσσουσαν ἀελίου .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>801 . χλειναί hiess Alhen vorzugsweise seit Pindars <PERS>χλειναὶ</PERS> 4 ϑῶναι, δαιμόνιον πτολίεθρον . Vgl . 1221 .</SENTENCE>"
+OUTPUT: "<SENTENCE>801 . χλειναί hiess Alhen vorzugsweise seit <PERS>Pindars</PERS> <WORK>χλειναὶ</WORK> 4 ϑῶναι, δαιμόνιον πτολίεθρον . Vgl . 1221 .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>— τὸ σύντρ . γένος , <LOC>die Athener</LOC> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>862 . Vgl . <WORK>AITE</WORK>.</SENTENCE>"
+########
+ INPUT: "<SENTENCE>S64 . Vgl . 98 .</SENTENCE>"
+OUTPUT: "<SENTENCE>S<SCOPE>64</SCOPE> . Vgl . <SCOPE>98</SCOPE> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Im folgenden Verse aber die erste Person , vgl . zu 0 . C . 6 . 1329 .</SENTENCE>"
+OUTPUT: "<SENTENCE>Im folgenden <SCOPE>Verse</SCOPE> aber die <PERS>erste Person</PERS> , vgl . zu <WORK>0</WORK> . <WORK>C</WORK> . <SCOPE>6</SCOPE> . <SCOPE>1329</SCOPE> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>866 ff . Die beiden Hälften des Chors treffen nach vergeblichem Suchen zusammen .</SENTENCE>"
+OUTPUT: "<SENTENCE>866 ff . <SCOPE>Die beiden Hälften des Chors</SCOPE> treffen nach vergeblichem Suchen zusammen .</SENTENCE>"
+########
+ "<SENTENCE>„ <PERS>Loquuntur</PERS> singuli. Sunt haec antistrophica , atque <SCOPE>μὲ</SCOPE> in prima stropha duo primi hemichorü , sic in anlisiropha duo alterius hemichorü inter se colloquunlur : in allera siropha aulem uni secundi hemichorü unus - primi , el sic eliam in anlisiropha respondet . “ <PERS>Hermann</PERS> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>866 . Die Mühe , den A . aufzusuchen, hat zu der frühern Noth mit ihm noch neue Noth hinzugefügt, weil der Chor ihn nicht gefunden hat .</SENTENCE>"
+OUTPUT: "<SENTENCE>866 . Die Mühe , den <OBJECT>A.</OBJECT> aufzusuchen, hat zu der frühern Noth mit ihm noch neue Noth hinzugefügt, weil der Chor ihn nicht gefunden hat .</SENTENCE>"
+########
+ <SENTENCE>Die <WORK>Parechesis</WORK> , bei allen dramatischen Dichtern beliebt , malt das Lastende gehäufter nutzloser Mühe , vgl . <SCOPE>1197</SCOPE>. <PERS>Aesch</PERS> . <WORK>Pers.</WORK> <SCOPE>998</SCOPE> : δόσιν χαχὰν χακῶν χακοῖς . <WORK>0</WORK> . <WORK>R</WORK> <SCOPE>1250</SCOPE> : εἰ τέκν ἐκ τέκνων τέχοι . <PERS>Ennius</PERS> : <WORK>Ouidquam</WORK> quisquam quoiquam quod conveniat , <WORK>negel</WORK>? Vgl . zu <WORK>0</WORK> . <WORK>C</WORK> <SCOPE>658</SCOPE> .</SENTENCE>
+########
+ INPUT: "<SENTENCE>869 . d . h . οὐδεὶς τόπος ἐπιστώμένος ποιεῖ μὲ συμμαϑεῖν , kein Ort hat Kunde von Aias , so</SENTENCE>"
+OUTPUT: "<SENTENCE>869 . d . h . <LOC>οὐδεὶς τόπος</LOC> ἐπιστώμένος ποιεῖ μὲ συμμαϑεῖν , <LOC>kein Ort</LOC> hat Kunde von <PERS>Aias</PERS> , so</SENTENCE>"
+########
+ "<SENTENCE>ich <PERS>dich</PERS> ( durch meine Entfernung nach <LOC>Mysien</LOC> ) <OBJECT>verrathen</OBJECT> und <OBJECT>verkauft</OBJECT> ?</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Unterwegs war dem Teukros die Kunde von Aias &#8216; Tode zugekommen ( <DATE>999</DATE> ) : nun macht er sich Vorwürfe , dass er nicht zugegen gewesen , um die That zu verbindern , vgl . <SCOPE>1006f</SCOPE> .</SENTENCE>"
+OUTPUT: "<SENTENCE>Unterwegs war dem <PERS>Teukros</PERS> die Kunde von <PERS>Aias</PERS>' <DATE>Tode</DATE> zugekommen ( <DATE>999</DATE> ) : nun macht er sich <OBJECT>Vorwürfe</OBJECT> , dass er nicht zugegen gewesen , um die That zu verbindern , vgl . <SCOPE>1006f</SCOPE> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>( Die Lesart der Bücher 7urröAnzxas , welche Lobeck erklärt πέπραγας , habe ich mit Hermanns Emendation vertauscht, da andere Erklärungen so wenig als jene befriedigen . )</SENTENCE>"
+OUTPUT: "<SENTENCE>( Die Lesart der Bücher <WORK>7urröAnzxas</WORK> , welche <PERS>Lobeck</PERS> erklärt <WORK>πέπραγας</WORK> , habe ich mit <PERS>Hermanns</PERS> <WORK>Emendation</WORK> vertauscht, da andere Erklärungen so wenig als jene befriedigen . )</SENTENCE>"
+########
+ INPUT: "<SENTENCE>981 . Vgl . 904 .</SENTENCE>"
+OUTPUT: "<SENTENCE>981 . <SCOPE>Vgl</SCOPE> . 904 .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>985 . μόνος <PERS>kehrt</PERS> trotz τέκνον zum natürlichen Geschlecht zurück , wie φίλε τέκνον <PERS>Homer</PERS> .</SENTENCE>"
+########
+ <SENTENCE>986 . Mit <OBJECT>xev7s</OBJECT> wird der Erfolg des <WORK>ἀναρπάσαν</WORK> vorweggenommen, 5 . zu 69 . 517 . <DATE>Ant. 424</DATE> <WORK>ὄρνις</WORK> <SCOPE>x&vis εὐνῆς νεοσσῶν ὀρφανὸν βλέzreı λέχος</SCOPE> .</SENTENCE>
+########
+ INPUT: "<SENTENCE>Wie man der Löwin das Junge raubt , wenn sie vom Lager fern ist , so möchte man den allein am Zelte zurückgelassenen Eurysakes rauben und wie die zurückkehrende Löwin würden wir dann vergebens wüthen .</SENTENCE>"
+OUTPUT: "<SENTENCE>Wie man der <OBJECT>Löwin</OBJECT> das Junge raubt, wenn sie vom <LOC>Lager</LOC> fern ist, so möchte man den allein am <OBJECT>Zelte</OBJECT> zurückgelassenen <PERS>Eurysakes</PERS> rauben und wie die zurückkehrende <OBJECT>Löwin</OBJECT> würden wir dann vergebens wüthen.</SENTENCE>"
+########
+I've process 224 phrases!

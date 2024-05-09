@@ -1,0 +1,422 @@
+ OUTPUT: "<SENTENCE>60 Par leur <HumanProd>Rincacite</HumanProd> contre les <HumanProd>Hhumes</HumanProd> , <HumanProd>Coqucluche</HumanProd> , <HumanProd>Chrpn</HumanProd> et <HumanProd>Frutdions</HumanProd> de la Gorge et de la Poitrine , efficacite constatée par 50 <ORG>Médecins</ORG> des <ORG>hôpitaux</ORG> de <LOC>Paris</LOC> .</SENTENCE>"
+########
+ "<SENTENCE>3º Par leur supéricrité sur tous les <ORG>rectoraus</ORG> , supériorité reconnue par des membres de l ' <ORG>Académie de médecine</ORG> de <LOC>France</LOC> et de <ORG>Sociétés savantes</ORG> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>e e le Aa i gre e er d <PER>Iu Pare</PER> <ORG>d Corise</ORG> eme e le chimiste de la <LOC>Facuitré de Paris</LOC> , qui démontrent qu ' ils ne contiennent ni opium ni sels d ' opium , remèdes dont les dangers sont signalés par le corps médical entier .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>TTT ( sont les aires curlesiques qui recommiandent l sIROR et l PATE de <HumanProd>MERRCE BERARCIRENIEN</HumanProd> à la Connsaice des hécens , titres qu n ont été accordés à aucune préparation pectorale , soit ancienne soit nouvelle .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Chaque article doit porter la signature <PER>DELANGRENIER</PER> , <LOC>rue Richelien , 26 , Paris</LOC> .</SENTENCE>"
+########
+ "<SENTENCE>Dépôts dans toutes les <LOC>pharmacies</LOC> de <LOC>France</LOC> et de l'<LOC>Etranger</LOC> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>AVS .</SENTENCE>"
+OUTPUT: "<SENTENCE>AVS.</SENTENCE>"
+
+AVS is not annotated as it falls under the category of "Non-annotated entities" in the guidelines provided.
+########
+ OUTPUT: "<SENTENCE>AUX PORTRURS DE <ORG>RENTE FRANÇAISE</ORG> 30 Bénéfice immédiat , un an d ' intérêt envi¬ ron : soit 3 fr . de bénence par 5 fr . de rente , 5 fr . par 5 fr . de rente , 100 fr . par 100fr . de rente et ainsi de suite .</SENTENCE>"
+########
+ "<SENTENCE><ORG>LA CAISSE GÉNÉRALE DES CHEMINS DE FER</ORG> <HumanProd>AUES ESIRES SERIE C</HumanProd> , 9 a i lane .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><ORG>URIE LEMONITEURDES FONDS PUBLICS</ORG> est envoyé gratis pendant deux mois sur demande au Directeur, 16, rue du Quatre-Septembre.</SENTENCE>"
+########
+ "<SENTENCE><ORG>INDUSTRIE ET AVIS DIVERS</ORG> CAVE LAFFITTE <LOC>11 , rue Laffite . Paris</LOC> , Grands vins<HumanProd>de Bordeaux</HumanProd> .</SENTENCE>"
+########
+ "<SENTENCE>0O VOIRN RE a .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>120 , boulev . <LOC>de Courcelles</LOC> CESSIONS DE FONDS EN CRos . Trésbonne cleèl et CUDER pour seretirer , <HumanProd>MAISON DE CORSETS</HumanProd> beaux bénéfices . Prix , 25 , 000 fr . Affaire sûre .</SENTENCE>"
+########
+ "<SENTENCE><ORG>Agence de l ' Industrie</ORG> , <LOC>rue Vivienne , 17 , Paris</LOC> .</SENTENCE>"
+########
+ "<SENTENCE><ORG>CAFE</ORG> à vende en province Af .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>, 50 , 000 , pr . 35 , 000 .</SENTENCE>"
+OUTPUT: "<SENTENCE>, 50 , 000 , pr . 35 , 000 .</SENTENCE>"
+
+There are no named entities in the provided sentence as it only contains numbers and punctuation.
+########
+ "<SENTENCE>S ' ad . à <PER>M . Fic</PER> , <LOC>r . de la Victoire , 6 , à Paris</LOC> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><PER>PELLLETIER</PER>, rue de Rivoli, 116.</SENTENCE>"
+
+INPUT: "<SENTENCE>Le ministre de l'intérieur a décidé d'interdire le spectacle de Dieudonné à Nantes.</SENTENCE>"
+OUTPUT: "<SENTENCE>Le ministre de <ORG>l'intérieur</ORG> a décidé d'interdire le spectacle de <PER>Dieudonné</PER> à <LOC>Nantes</LOC>.</SENTENCE>"
+
+INPUT: "<SENTENCE>Le président de la république française est élu au suffrage universel.</SENTENCE>"
+OUTPUT: "<SENTENCE>Le président de <ORG>la république française</ORG> est élu au suffrage universel.</SENTENCE>"
+
+INPUT: "<SENTENCE>Le tour du monde en 80 jours est un roman d'aventure de Jules Verne.</SENTENCE>"
+OUTPUT: "<SENTENCE>Le tour du monde en 80 jours est un roman d'aventure de <PER>Jules Verne</PER>.</SENTENCE>"
+
+INPUT: "<SENTENCE>La Seine est un fleuve qui traverse Paris.</SENTENCE>"
+OUTPUT: "<SENTENCE>La <LOC>Seine</LOC> est un fleuve qui traverse <LOC>Paris</LOC>.</SENTENCE>"
+
+INPUT: "<SENTENCE>Le musée du Louvre est situé dans le 1er arrondissement de Paris.</SENTENCE>"
+OUTPUT: "<SENTENCE>Le <HumanProd>musée du Louvre</HumanProd> est situé dans le 1er arrondissement de <LOC>Paris</LOC>.</SENTENCE>"
+
+INPUT: "<SENTENCE>La société Apple a été fondée en 1976 par Steve Jobs et Steve Wozniak.</SENTENCE>"
+OUTPUT: "<SENTENCE>La <ORG>société Apple</ORG> a été fondée en 1976 par <PER>Steve Jobs</PER> et <PER>Steve Wozniak</PER>.</SENTENCE>"
+
+INPUT: "<SENTENCE>Le détroit de Gibraltar sépare l'Espagne et le Maroc.</SENTENCE>"
+OUTPUT: "<SENTENCE>Le <LOC>détroit de Gibraltar</LOC> sépare <LOC>l'Espagne</LOC> et <LOC>le Maroc</LOC>.</SENTENCE>"
+
+INPUT: "<SENTENCE>La NASA est une agence gouvernementale américaine responsable du programme spatial civil.</SENTENCE>"
+OUTPUT: "<SENTENCE>La <ORG>NASA</ORG> est une agence gouvernementale américaine responsable du programme spatial civil.</SENTENCE>"
+
+INPUT: "<SENTENCE>Le parc des Buttes Chaumont est un espace vert du 19e arrondissement de Paris.</SENTENCE>"
+OUTPUT: "<SENTENCE>Le <HumanProd>parc des Buttes Chaumont</HumanProd> est un espace vert du 19e arrondissement de <LOC>Paris</LOC>.</SENTENCE>"
+########
+ "<SENTENCE><LOC>PELLETIER</LOC>, <LOC>rue de Rivoli</LOC>, <LOC>116</LOC>.<SENTENCE>"
+########
+ INPUT: "<SENTENCE>MÉDECINE ET PHARMACIE GUERISON ens joursdes maladies contagieu¬ ses du sang .</SENTENCE>"
+OUTPUT: "<SENTENCE>MÉDECINE ET PHARMACIE <HUMANPROD>GUERISON</HUMANPROD> ens joursdes maladies contagieu¬ ses du sang .</SENTENCE>"
+########
+ "<SENTENCE><PER>ADOLPHE</PER>, médecin, <LOC>r. St - Martin, 10.</LOC></SENTENCE>"
+########
+ "<SENTENCE>ces du sang .</SENTENCE>"
+########
+ "<SENTENCE><PER>ADOLPHE</PER>, médecin, <LOC>r. St - Martin, 10.</LOC></SENTENCE>"
+########
+ "<SENTENCE>ces du sang .</SENTENCE>"
+########
+ "<SENTENCE><PER>ADOLPHE</PER>, médecin, <LOC>r. St - Martin, 10.</LOC></SENTENCE>"
+########
+ INPUT: "<SENTENCE>Consul, de midi à 4 h. — Traitement par correspondance.</SENTENCE>"
+OUTPUT: "<SENTENCE><LOC>Consul</LOC>, de midi à 4 h. — Traitement par <HumanProd>correspondance</HumanProd>.</SENTENCE>"
+########
+ INPUT: "<SENTENCE>VICES DU SANG maladies de la peau, des os articulaires et des organes internes, cancers, épilepsies, asthmes, etc.</SENTENCE>"
+OUTPUT: "<SENTENCE>VICES DU SANG <Non-annotated>maladies de la peau, des os articulaires et des organes internes</Non-annotated>, cancers, épilepsies, asthmes, etc.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><LOC>OA , pathe , r . d ' Amsterdam , 42</LOC> , de 3 à 5 heur . ( Affranch .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>) pathe , r . d ' Amsterdam , 42 , de 3 à 5 heure . ( Affranch .</SENTENCE>"
+OUTPUT: "<SENTENCE) pathe , r . d ' <LOC>Amsterdam</LOC> , 42 , de 3 à 5 heure . ( Affranch .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>) <HumanProd>NEVRALCIESenérison ennétinte par las pitules</HumanProd> <HumanProd>ANTI - NEVRALGIGOES</HumanProd> du <HumanProd>INJECTION PIERRE DIVINE</HumanProd> , 4 f . Guérit de suite .</SENTENCE>"
+########
+ "<SENTENCE><PER>SAMPSO</PER> , ph .</SENTENCE>"
+########
+ "<SENTENCE>, <LOC>10 , r . Rambutéan</LOC> Boc<PRODUCT> Mes flacons</PRODUCT> ; dans toutes pharm . <PRODUCT>PRESERVATIVE</PRODUCT> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>PATE PECTORALEAULATT DE POULE de J . P . Luroze . ( La boite , 1 fr . 50 ) .</SENTENCE>"
+OUTPUT: "<SENTENCE>PATE PECTORALEAULATT DE POULE de <PER>J . P . Luroze</PER> . ( La boite , 1 fr . 50 ) .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>On sait que <PER>M . Hénot</PER> , rédacteur du <HumanProd>Pays</HumanProd> , a interjeté appel dans le procès en diffamation que lui a intenté <PER>M . Naquet</PER> , et pour le jugement du<LOC>quel le tribunal correctionnel s ' est déclaré com¬ pétent</LOC> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>L ' Echo publie la note suivante : Avec toute la réserve que nous impbse le <ORG>mouvement préfectoral</ORG> non encore décidé , nous dirons seulement , sans toutefois pouvoir l ' assurer , que <PER>M . Jules Mahias</PER> , <ORG>préfet de l ' Ardnche</ORG> , passerait à une <ORG>préfecture</ORG> plus im\- <ORG>importante</ORG> , emportant les regrets de ses aumi\- <LOC>nistrés</LOC> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Nous rappelons que <PER>M . Mahias</PER> fut long< temps , à la <HumanProd>Presse</HumanProd> , un de nos confrères . C ' é¬ tait un travailleur des plus assidus , des plus persévérants ; nous ne pouvons que le féli¬ citer d ' un avancement qui prouverait que volonté et travail valent quelquefois mieux que force et . . . ordre moral .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Nous devons remercier notre <PER>confrère</PER> des sympathies qu ' il manifeste à l ' égard de <PER>M . Jules Mahias</PER> qui fut notre collabo¬ rateur et qui reste notre ami . Mais , il im¬ porte de lui faire remarquer qu ' il s ' est fait l ' écho d ' une double inexactitude .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>D ' abord <PER>M . Jules Mahias</PER> n ' a jamais été préfet de <LOC>l ' Ardèche</LOC> , mais préfet de <LOC>l ' Ariége</LOC> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Ensuite il a été compris dans le dernier mouvement préfectoral , puisqu'il est aujourd'hui <ORG>préfet des Deux - Sèvres</ORG>. Ce changement constitue un avancement puisque la préfecture des Deux - Sèvres est l'une des plus importantes de la classe à laquelle elle appartient.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Nous n ' en retenons pas moins les vœux bienveillants dont <HumanProd>l ' Echo</HumanProd> s ' est fait l ' inter¬ prète , et nous espérons que <PER>M . Jules Ma¬ hias</PER> sera bientôt appelé à appliquer les grandes qualités qu ' on lui reconnaît una - niment , à l ' administration de l ' un des grands <LOC>départements</LOC> qui avoisinent <LOC>Paris</LOC> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><LOC>TARRIS PARIS</LOC> La question d '<ORG>Orient</ORG>' commence à fati¬guer l '<HumanProd>l' opinion</HumanProd>' . '<HumanProd>L' opinion</HumanProd>' se trouve d '<ORG>ac cord</ORG>' avec '<PER>M . le prince de Bismarck</PER>' . Une fois n '<ORG>est pas coutume</ORG>' . '<PER>M . de Bismarck</PER>' ; lui aussi , est las de ces pourparlers in '<ORG>terminables</ORG>' , de ces remises multiples . Il rence assez notable . Une femme de talent , du talent le plus spirituel et le plus char　rant , ne vaut cependant pas une femme de génie , et cette souscription publique qu '<HumanProd>on ouvre</HumanProd>' lorsqu '<HumanProd>qu ' on</HumanProd>' agit de '<PER>Déjazet</PER>' de '<HumanProd>devait être</HumanProd>' une souscription nationale lorsqu '<HumanProd>qu ' il s ' agit</HumanProd>' de '<PER>George Sand</PER>' .</SENTENCE>"
+########
+ <SENTENCE>Hélas ! nous avons peu , en <LOC>France</LOC> , le respect de nos <HumanProd>gloires</HumanProd> . Quand je pense que <PER>Walter Scott</PER> a , en <LOC>Ecosse</LOC> , un monument plus beau que celui d ' un roi ; que pas un enfant , pas un passant n ' ignore le nom du grand chroniqueur des hautes terres ; qu ' il a marqué de sa griffe , signé de son nom , tous les recoins de son pays ; que jamais conquérant n ' a aussi profondément fait sien un coin du monde , et que chez nous , des gens d ' une valeur au moins égale , — <HumanProd>Scccs</HumanProd> , sont parlattement ignéres et dédai¬ gnés , il y a de quoi rendre un peu mélan¬ colique et assez amer .</SENTENCE>
+########
+ "<SENTENCE>C ' est pitié de voir la façon dont on récompense , chez nous , le <PER>talent</PER> , dont on traite le <PER>génie</PER> . Je ne parle pas seulement des <PER>grimauds de lettres</PER> qui n ' ont que des injures et des dédains étrangement placés , on l ' avouera , pour ceux qui les dominent de toute la hauteur de leur pensée . Je l ' entends aussi des gens placés pour apprécier , connaître et parler , faire connaître les <PER>hommes de talent</PER> . On me contait qu ' un jour un <PER>ministre des beaux - arts</PER> recevant <PER>M . Jules Sandeau</PER> , le jour même de la première représentation d ' une pièce de <PER>George Sand</PER> à l ' <LOC>Odéon</LOC> , dit à l ' auteur de <HumanProd>Mademoiselle de la Seiglière</HumanProd> , croyant lui adresser une grande amabilité et lui faire un beau compliment : — Ah ! monsieur Sandeau , enchanté de vous voir ! Je serai le premier , ce soir , croyez - le bien , à applaudir la pièce de ma<PER>dame votre mère</PER> ! L ' idée qu ' il se faisait de ces deux grands talents était celle - ci : <PER>George Sand</PER> est la mère de <PER>Jules Sandeau</PER> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>crie : Au rideau ! comme un spectateur impatienté . On se demande pourquoi tant de vivacité après tant de silence .</SENTENCE>"
+OUTPUT: "<SENTENCE>crie : Au rideau ! comme un <PER>spectateur</PER> impatienté . On se demande pourquoi tant de vivacité après tant de silence .</SENTENCE>"
+########
+ <SENTENCE>Nous avons refusé hier de répondre à cette question ; nous voulons l'essayer aujourd'hui . <PER>M . de Bismarck</PER> ne tient pas à ce que la paix se prolonge trop longtemps en <LOC>Europe</LOC> . La situation intérieure de <LOC>l'Allemagne</LOC>, économiquement et financièrement, n'est pas prospère . Politiquement, les feuilles officielles de <LOC>Berlin</LOC>, la Gazette de l'Allemagne du Nord à la tête, témoignent une inquiétude assez vive à propos des élections socialistes qui sont assez nombreuses . Nous ne pouvons nous empêcher de constater que le réveil du lion germanique coïncide étroitement avec le résultat peu satisfaisant des élections . <PER>M . de Bismarck</PER> a dû éprouver le besoin de détourner l'attention des affaires intérieures vers quelque question étrangère .</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>La question d' <LOC>Orient</LOC> était sous sa main ; il l' a prise .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Le but principal de ce projet si important est d ' entourer l ' instruction de garanties sé¬ rieuses en supprimant le secret dont elle est entourée actuellement et en réglant d ' une manière plus libérale les conditions de la détention préventive .</SENTENCE>"
+OUTPUT: "<SENTENCE>Le but principal de ce projet si important est d ' entourer l ' instruction de garanties sé¬ rieuses en supprimant le secret dont elle est entourée actuellement et en réglant d ' une manière plus libérale les conditions de la détention préventive .</SENTENCE>" (No named entities found in the input sentence as it only contains descriptive text and no specific names of persons, organizations, locations, or human productions.)
+########
+ OUTPUT: "<SENTENCE><ORG>Article 1er</ORG> . — Immédiatement après son arrestation , et au plus tard dans les vingt-quatre heures , l'<PER>inculpé</PER> comparaîtra devant le <ORG>juge d'instruction</ORG> . Le <ORG>juge d'instruction</ORG> constatera l'<PER>identité</PER> de l'<PER>inculpé</PER> , lui fera connaître les faits qui lui seront imputés , et il recevra ses déclarations après l'avoir averti qu'il est libre de ne pas répondre aux questions qui lui seront posées . Le <ORG>juge d'instruction</ORG> donnera avis à l'<PER>inculpé</PER> qu'il a le droit de choisir un conseil , et il lui en désignera un d'office , si l'<PER>inculpé</PER> le demande .</SENTENCE>"
+########
+ <SENTENCE>Art . 2 . — Après cette première audition , l ' <ORG>inculpé</ORG> pourra communiquer librement avec son conseil . Si le <ORG>juge</ORG> a maintenu la déten¬ tion de l ' <ORG>inculpé</ORG> , il pourra , s ' il le croit néces¬ saire , interdire cette communication . Il ren¬ dra à cette fin une ordonnance motivée , qui sera transcrite sur le registre de la <LOC>prison</LOC> .</SENTENCE>
+########
+ INPUT: "<SENTENCE>L ' interdiction ne pourra s ' étendre au delà de . . . . . . . jours à partir de la première compa¬ rution . Néanmoins , lorsque les nécessités de l ' instruction le commandent encore , le juge pourra , par une nouvelle ordonnance , pro\- longer l ' interdiction pendant une seconde pé\- riode qui ne pourra dépasser cinq jours .</SENTENCE>"
+OUTPUT: "<SENTENCE>L ' interdiction ne pourra s ' étendre au delà de . . . . . . . <NUM>jours</NUM> à partir de la première compa\- rution . Néanmoins , lorsque les nécessités de l ' instruction le commandent encore , le <PER>juge</PER> pourra , par une nouvelle ordonnance , pro\- longer l ' interdiction pendant une seconde pé\- riode qui ne pourra dépasser <NUM>cinq</NUM> jours .</SENTENCE>"
+########
+ "<SENTENCE>Après ce délai, l'<ORG>interdiction</ORG> ne pourra être maintenue que par la <ORG>chambre du conseil</ORG>.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Art . 3 . — A partir de l '<ORG>l ' inculpe</ORG>' , ou en cas d '<ORG>d ' interdiction de communiquer</ORG>' , après l '<ORG>expiration des effets de ladite ordonnance</ORG>' , le '<ORG>conseil de l '<ORG>l ' inculpé</ORG>'</ORG>' et le '<ORG>procureur de la République</ORG>' seront admis à assister à tous les interrogatoires et à toutes les '<ORG>confrontations des témoins avec les inculpés</ORG>' Pendant la période d '<ORG>d ' interdiction de communiquer</ORG>' , il pourra être procédé à des '<ORG>interrogatoires</ORG>' et à des '<ORG>confrontations</ORG>' , en présence du '<ORG>défenseur</ORG>' , mais sans '<ORG>entente préalable entre le défenseur et l '<ORG>l ' inculpé</ORG>'</ORG>' et , en cas de '<ORG>confrontation</ORG>' , sans '<ORG>communication préalable de la déposition des témoins au défenseur</ORG>' .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Dans l'un et l'autre cas, s'il y a une partie civile en cause, le conseil de la partie civile aura le même droit.</SENTENCE>"
+OUTPUT: "<SENTENCE>Dans <LOC>l'un</LOC> et <LOC>l'autre</LOC> cas, s'il y a une <PER>partie civile</PER> en cause, le conseil de la <PER>partie civile</PER> aura le même droit.</SENTENCE>"
+########
+ <SENTENCE>Art . 4 . — Le <PER>juge d ' instruction</PER> pourra en¬ tendre les <PER>témoins</PER> séparément et hors de la présence de l ' <PER>inculpé</PER> et de son conseil . En ce cas , il devra , aussitôt que possible , et au p ' us tard avant la fin de l ' <HumanProd>instrucion</HumanProd> , donner à l ' <PER>inculpé</PER> ou à son conseil communication des dépositions reçues en leur absence . L ' <PER>inculpé</PER> pourra requérir qu ' il soit procédé à une <HumanProd>confrontation</HumanProd> entre lui assisté de son conseil et les <PER>témoins</PER> entendus par le <PER>juge d ' ins¬ truction</PER> hors de sa présence . Le <PER>juge d ' ins¬ truction</PER> statuera par une ordonnance moti¬ vée , susceptible d ' opposition devant la cham¬ bre du conseil .</SENTENCE>
+########
+ <SENTENCE>Si <PER>des témoins</PER> ont été entendus par <ORG>commission rogatoire</ORG> , le <PER>prévenu</PER> , assisté de son <PER>conseil</PER> pourra requérir que les <PER>dits témoins</PER> soient interrogés dans la même forme sur les points par lui indiqués . Si la <ORG>confrontation</ORG> requise n ' a point été ordonnée , il ne pourra , à peine de nullité , être fait usage aux débats de la déposition écrite que si l ' <PER>accusé</PER> la re¬ quiert formellement .</SENTENCE>
+########
+ <SENTENCE>Art . 5 . — Avant la clôture de l'<ORG>instruction</ORG> , il sera donné communication des pièces au <ORG>conseil de l'inculpé</ORG> , sans déplacement au greffe . L'inculpé pourra demander un supplé<MENT>ment</SUPPL> d'<ORG>instruction</ORG> et l'<ORG>audition</ORG> de nouveaux témoins . En cas de refus du <ORG>juge d'instruction</ORG> , le prévenu pourra former opposition devant la <ORG>chambre du conseil</ORG> .</SENTENCE>
+########
+ "<SENTENCE>Le projet ne contient pas moins de 136 arti<ORG>cles</ORG> .</SENTENCE>"
+########
+ "<SENTENCE>Le mouvement judiciaire annoncé de¬puis plusieurs jours a paru ce matin à <ORG>l' Officiel</ORG> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Il n'occupe pas moins de huit colonnes de la feuille de M. Wittersheim et touche à tous les ressorts et à tous les départements.</SENTENCE>"
+OUTPUT: "<SENTENCE>Il n'occupe pas moins de huit colonnes de la feuille de <PER>M. Wittersheim</PER> et touche à tous les ressorts et à tous les départements.</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Il ne nous est pas possible de porter une appréciation sur des révocations dont nous ne connaissons pas les motifs, et sur le choix de magistrats nouveaux dont les noms, les antécédents, les services, nous sont tout à fait inconnus.</SENTENCE>"
+OUTPUT: "<SENTENCE>Il ne nous est pas possible de porter une appréciation sur des <ORG>révocations</ORG> dont nous ne connaissons pas les motifs, et sur le choix de <PER>magistrats</PER> nouveaux dont les noms, les antécédents, les services, nous sont tout à fait inconnus.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Il faut attendre , pour juger impartiale¬ ment l ' œuvre de <PER>M . Cazot</PER> , que nos confrè¬ res de province nous aient éclairés sur la valeur des magistrats qui arrivent et les crimes de ceux qui sortent .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Vingt - huit <ORG>procureurs</ORG> ou <ORG>substituts</ORG> sont révoqués . De ce nombre <PER>M . Robinet de Clery</PER> , <ORG>avocat général</ORG> à la <ORG>cour de cassa¬ tion</ORG> , qui est remplacé par un <ORG>conseiller</ORG> à la <ORG>cour de Riom</ORG> , <PER>M . Rivière</PER> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Signalons particulièrement la nomina<ORG>M . Ronjat</ORG> , <ORG>sénateur</ORG> , comme avocat général à la cour de cassation , et celle de <ORG>M . Tappie</ORG> , comme procureur général à <LOC>Nîmes</LOC> . Ces deux choix sont excellents et seront ratifiés par l ' opinion .</SENTENCE>"
+########
+ <SENTENCE>Et c' est au moment où l' on a demande au <PER>M.</PER> <PER>le général Campenon</PER> pour l' exécution de ce plan de campagne que s' est produit un dissentiment entre le <ORG>cabinet</ORG> et <PER>M.</PER> <PER>le général Campenon</PER> qui avait toujours été partisan de l' occupation restreinte au <LOC>Delta</LOC> . <PER>J' ai</PER> fait tous mes efforts pour conserver l' utile concours de <PER>M.</PER> <PER>le général Campenon</PER> , mais il a fallu choisir et quand le <ORG>ministre de la guerre</ORG> a déclaré que la politique qu' il vouloit suivre au <LOC>Tonkin</LOC> était dépassée et qu' à une politique nouvelle il fallait des hommes nouveaux , la séparation s' est faite mais ç' a été une séparation cordiale . Pour remplacer <PER>M.</PER> <PER>le général Campenon</PER> , le <ORG>gouvernement</ORG> a fait choix d' un <PER>général</PER> dont l' éloge n' est plus à faire et qui dira lui - même à la <ORG>Chambre</ORG> si le soin de nos intérêts en <LOC>Orient</LOC> est incom\- patible avec notre situation continentale .</SENTENCE>
+########
+ INPUT: "<SENTENCE>Affaires assez animées . Tendance à la fermeté .</SENTENCE>"
+OUTPUT: "<SENTENCE>Affaires assez animées . Tendance à la fermeté .</SENTENCE>" (No named entities found in the input sentence)
+########
+ INPUT: "<SENTENCE>mes , 564 balles vendues sur 1 , 499 offertes ; Montevideo plus fai¬ bles , 21 balles vendues sur 279 offertes ."
+OUTPUT: "<SENTENCE>mes , 564 balles vendues sur 1 , 499 offertes ; <LOC>Montevideo</LOC> plus fai¬ bles , 21 balles vendues sur 279 offertes ."
+########
+ INPUT: "<SENTENCE>Cuirs : Montevideo salés verts vaches 72 50 par 50 kilog .</SENTENCE>"
+OUTPUT: "<SENTENCE>Cuirs : Montevideo salés verts vaches 72 50 par 50 kilog .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>; Pernambuco salés verts 64 50 .</SENTENCE>"
+OUTPUT: "<SENTENCE>; <LOC>Pernambuco</LOC> salés verts 64 50 .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>( PAR FIL SPÉCIAL ) <LOC>LIVERPOOL</LOC> , 14 mars . — <HumanProd>Coton américain</HumanProd> . Le marché a été plus ferme , mais sans hausse appréciable . La demande , quoique bonne , n ' a pas produit beaucoup d ' affalres .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Surats . Ventes 10 , 000 balles . Importations 14 , 600 balles .</SENTENCE>"
+OUTPUT: "<SENTENCE><LOC>Surats</LOC> . Ventes 10 , 000 balles . Importations 14 , 600 balles .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Il y a eu d ' assez bonnes affaires , mais les qualités inférieures A terme . Prix de clôture : mars 5 57 , avril 5 61 , mai 6 01 , juin 6 05 , juillet 6 08 .</SENTENCE>"
+OUTPUT: "<SENTENCE>Il y a eu d ' assez bonnes affaires , mais les qualités inférieures A terme . Prix de clôture : <LOC>mars 5 57</LOC> , <LOC>avril 5 61</LOC> , <LOC>mai 6 01</LOC> , <LOC>juin 6 05</LOC> , <LOC>juillet 6 08</LOC> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Les offres ont été aujourd'hui de 3, 400 balles, dont 600 nouveaux et 2,900 vieux dockets.</SENTENCE>"
+OUTPUT: "<SENTENCE>Les offres ont été aujourd'hui de <NUM>3, 400</NUM> balles, dont <NUM>600</NUM> nouveaux et <NUM>2,900</NUM> vieux dockets.</SENTENCE>"
+
+In this example, there are no named entities to be classified as PERSON, ORGANIZATION, LOCATION, or HUMAN PRODUCTION. Instead, the numbers in the sentence are extracted and classified as NUM.
+########
+ INPUT: "<SENTENCE>Marché ferme et légère hausse . Les vendeurs cèdent aux prix élevés .</SENTENCE>"
+OUTPUT: "<SENTENCE>Marché <LOC>ferme</LOC> et légère hausse . Les vendeurs cèdent aux prix élevés .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>. Relevé hebdomadaire du marché sur place : ventes 54 , 000 bal\-les , spéculation 1 , 000 , exportation 5 , 000 , consommation 71 , 000 , exportation actuelle 5 , 000 , importation 124 , 000 . Stock : 1 , 047 , 000 balles .</SENTENCE>"
+########
+ "<SENTENCE>Total de l'approvisionnement visible: <NUM>3, 243, 000</NUM>.</SENTENCE>"
+########
+ INPUT: "<SENTENCE>MANCHESTER, 14 mars . — Fil. Les affaires n'ont pas été aussi bonnes qu'on s'y attendait, mais il y a tendance à la fermeté.</SENTENCE>"
+OUTPUT: "<SENTENCE>MANCHESTER, <LOC>14 mars</LOC> . — Fil. Les affaires n'ont pas été aussi bonnes qu'on s'y attendait, mais il y a tendance à la fermeté.</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Drap . Marché ferme . Bien qu ' il y ait peu d ' affaires , les déten¬ teurs ne veulent pas accepter des prix plus bas .</SENTENCE>"
+OUTPUT: "<SENTENCE>Drap . Marché ferme . Bien qu ' il y ait peu d ' affaires , <ORG>les déten¬ teurs</ORG> ne veulent pas accepter des prix plus bas .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>( DÉPÊCHE OFFICIELLE PAR CABLE AU <HumanProd>« MATIN »</HumanProd> ) <LOC>NEW - YORK</LOC> , 14 mars . — Sur place : marché régulier ici et ferme à la <LOC>Nouvelle - Orléans</LOC> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Les prix ont haussé de 1|16 à <LOC>Galveston</LOC> et de 1|8 à <LOC>Memphis</LOC> de clôture pour le Middling : Jeudi Vendr . Jeudi Vendr .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>New - York . . . . . 10 13/16 10 13/16 Mobile . . . . . . .</SENTENCE>"
+OUTPUT: "<SENTENCE>New - York . . . . . 10 13/16 10 13/16 <LOC>Mobile</LOC> . . . . . . .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>1 1 1 N . - Orléa . . . . . . . . . ½ Savannah . . . . 10 ½ 10 ½ Norfolk . . . . . . . . . . 10 5/8 10 5/8 Charleston . . . . . 10 9/16 109/16 Memph . . . . . . .</SENTENCE>"
+OUTPUT: "<SENTENCE>1 1 1 N . - <LOC>Orléa</LOC> . . . . . . . . . ½ <LOC>Savannah</LOC> . . . . 10 ½ 10 ½ <LOC>Norfolk</LOC> . . . . . . . . . . 10 5/8 10 5/8 <LOC>Charleston</LOC> . . . . . 10 9/16 109/16 <LOC>Memph</LOC> . . . . . . .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Il est délivré , de toute gare des <ORG>compagnies d ' orléans</ORG> et du <ORG>Midi</ORG> , des <HumanProd>billets</HumanProd> aller et retour de lre les <LOC>itinéraires ci - dessus</LOC> , ain i que de tout point de les <LOC>itinéraires ci - dessus</LOC> , ain i que de tout point de ces <LOC>itinéraires</LOC> pour s ' en écarter .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>CTAUNS DAIRE DA ER . — TE , aie e <LOC>Les voyageurs peuvent se rendre de Paris à Milan</LOC> par trains directs et rapides, vià <LOC>Troyes</LOC> , <LOC>Belfort</LOC> , <LOC>Belle</LOC> , <LOC>Lucerne ( Lac des 4 Cantons )</LOC> et <LOC>le Saint - Gothard dlacs Majeur</LOC> , de <LOC>Lugano</LOC> et de <LOC>Côme</LOC> ) </SENTENCE>"
+########
+ "<SENTENCE>La durée du trajet est d ' environ 20 heures.</SENTENCE>"
+########
+ "<SENTENCE>A <LOC>Milan</LOC> , les voyageurs trouvent des correspon<LOC>dances</LOC> pour toute l' <LOC>italie</LOC> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Nota . — Pendant la saison d ' hiver 1891 - 1892 , le trajel , entre <LOC>Belfort</LOC> et <LOC>Bale</LOC> , par trains rapides , RE . e e c a r e er aux gares .</SENTENCE>"
+########
+ "<SENTENCE><LOC>PERNE LE RAINSCRARI</LOC> OR DE AOURE à <LOC>Alger</LOC> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Le port de <LOC>Séville</LOC> était fermé le 13 .</SENTENCE>"
+########
+ "<SENTENCE>Très mauvais temps à <LOC>Gibraltar</LOC> le 13 , vents s .</SENTENCE>"
+########
+ "<SENTENCE>- O .</SENTENCE>"
+########
+ "<SENTENCE><LOC>Navigation</LOC> ouverte entre <LOC>Sulina</LOC> et <LOC>Toulcia</LOC> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>L ' <LOC>épave</LOC> et l ' <HumanProd>inventaire</HumanProd> du <LOC>trois - mâts</LOC> <LOC>français</LOC> <ORG>Iquique</ORG> , perdu <LOC>près Brouwershaven</LOC> , ont été vendus 9 .</SENTENCE>"
+########
+ "<SENTENCE>359 florins.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><ORG>Steamer russe</ORG> <PER>Eptitia</PER> , de <LOC>Cardif</LOC> à <LOC>Constantinople</LOC> , avec char¬ bons , a conlé au large de <LOC>Cies</LOC> , équipage à <LOC>Vigo</LOC> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Trois - mâts <ORG>anglais</ORG> <ENTITY>Glencorse</ENTITY> , de <LOC>Liverpool</LOC> à <LOC>Iquique</LOC> , aban¬ donné en mer , équipage à <LOC>Valparaiso</LOC> le 11 .</SENTENCE>"
+
+In this example, "Trois-mâts" is a type of sailing ship, and "anglais" is an adjective describing the type of sailing ship. The proper name of the ship is "Glencorse", which is classified as an entity but not specifically as a PERSON, ORGANIZATION, or LOCATION. The cities "Liverpool" and "Iquique" are locations, and "Valparaiso" is the location where the crew of the ship went after it was abandoned. The number "11" is not annotated as it is a numerical expression of time.
+########
+ INPUT: "<SENTENCE>plutôt eaine . Il y a tont les de croire qui en sera ainsi peandant queime Le stock est de 12 , 800 pipes , contre 12 , 675 hier et 15 , 500 en 1891 .</SENTENCE>"
+OUTPUT: "<SENTENCE>plutôt eaine . Il y a tont les de croire qui en sera ainsi peandant queime Le stock est de 12 , 800 <HumanProd>pipes</HumanProd> , contre 12 , 675 hier et 15 , 500 en 1891 .</SENTENCE>"
+########
+ "<SENTENCE>Circulation nulle.</SENTENCE>"
+########
+ "<SENTENCE>Circulation nulle.</SENTENCE>"
+########
+ INPUT: "<SENTENCE>SUCRES . — On ouvre faible , pour clôturer calme mais soutenu , mais les prix sont encore en baisse de 12 à 25 centimes sur hier ; le courant ouvre à 40 87 , Arès hoe la todance rte tnue an Après bourse , la tendance reste soutenue , on cote courant 41 à 41 12 , février 4 21 à 4 50 , 4 promiers 41 62 4 de mars 42 12 , 4 de mai 42 50 à 42 La circulation est de 65 , 200 sacs , contre 72 , 800 hier .</SENTENCE>"
+OUTPUT: "<SENTENCE>SUCRES . — On ouvre faible , pour clôturer calme mais soutenu , mais les prix sont encore en baisse de 12 à 25 <HumanProd>centimes</HumanProd> sur hier ; le courant ouvre à 40 87 , Arès hoe la todance rte tnue an Après bourse , la tendance reste soutenue , on cote courant 41 à 41 12 , février 4 21 à 4 50 , 4 <HumanProd>promiers</HumanProd> 41 62 4 de mars 42 12 , 4 de mai 42 50 à 42 La circulation est de 65 , 200 <HumanProd>sacs</HumanProd> , contre 72 , 800 hier .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><ORG>PAQUEBOTS LIGNES D ' AFRIQUE</ORG> Le <ORG>paq . fr . Ville - de - Belfort</ORG> ( <ORG>Compagnie Havraise - Péninsulaire</ORG> ) , venant de <LOC>Madagascar</LOC> et <LOC>Bombay</LOC> , via <LOC>Dunkerque</LOC> , est arrivé au <LOC>Havre</LOC> , le 14 janvier .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><HUMANPROD>LIGNES D ' ASIE</HUMANPROD> Le paq .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>- <ORG>poste fr.</ORG> <LOC>Sydney</LOC> ( <ORG>Messageries Maritimes</ORG> ) , est parti de <LOC>Marseille</LOC> pour <LOC>Indo - Chine</LOC> et <LOC>Japon</LOC> , le 14 <HumanProd>LIGNES</HumanProd> Le paq .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>- <ORG>poste ang Austral</ORG> ( <ORG>Orient Line</ORG> ) , en retour de Sydney sur Londres , est arrivé à <LOC>Colombo</LOC> , le 11 janvier , à 5 heures du matin .</SENTENCE>"
+########
+ "<SENTENCE>Le paq .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>- poste <ORG>ang . Cusco ( Orient Line )</ORG> , en retour de Sydney sur Londres , a quitté <LOC>Adélaïde</LOC> , le 11 jan¬ vier , à 2 heures du soir .</SENTENCE>"
+########
+ "<SENTENCE>Le paq .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>- <ORG>poste ang.</ORG> <ORG>Ophir ( Orient Line )</ORG> , allant de Londres à Sydney , a quitte <LOC>Naples</LOC> , le 14 janvier .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><ORG>LIGNES DU NORD - AMÉRIQUE</ORG> Le paq - poste <ORG>amér . Saint - Paut ( American Line )</ORG> , venant de Cherbourg , est arrive a New - York , le 13 <ORG>LIGNES DU SUD - AMÉRIQUE</ORG> Le paq . fr . <ORG>Amiral - Courbet ( Chargeurs Réunis )</ORG> , allant du Havre au Brésil et à La Plata , a quitte Bordeaux - Pauillac , le 14 janvier . Le paq .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>De son côté , l ' <ORG>Etat</ORG> cède à la <ORG>Compagnie d ' Orléans</ORG> les lignes ci - après : <LOC>Voves</LOC> à <LOC>Toury</LOC> : <LOC>Voves</LOC> à <LOC>Orléans</LOC> ; <LOC>Château-dun</LOC> à <LOC>Patay</LOC> ; <LOC>Vendôme</LOC> à <LOC>Blois</LOC> ; <LOC>Tours</LOC> à <LOC>Châteaurenault</LOC> par <LOC>Vouvray</LOC> .</SENTENCE>"
+########
+ "<SENTENCE>La <ORG>commission</ORG> a commencé hier la discus - sion générale de la nouvelle convention .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Après échange d ' observations , la commis¬ sion a décidé d ' entendre le ministre des tra¬ vaux publics et au préalable de se réunir dans une prochaine séance pour élaborer les différentes questions qui seront posées à <PER>M . Millerand</PER> .</SENTENCE>"
+########
+ "<SENTENCE>A la <LOC>Taverne du Moulin - Rouge</LOC> .</SENTENCE>"
+########
+ <SENTENCE>Rendez - vous ce soir pour la grande soi<LOC>rée de gala</LOC> : la <HumanProd>Fête des Glycines</HumanProd> . Danses et soupers avec distribution de fleurs et de jouets . Attractions . ( <HumanProd>Communiqué</HumanProd> . ) Vendez cher vos Diamants chez <PER>D . Meyer</PER> ( <ORG>expert</ORG> ) , 56 , Bd Haussmann , qui achète cher au comptant les beaux bijoux et belles perles . Gd choix bijoux d ' occasion . ( <HumanProd>Communiqué</HumanProd> . ) Pour le <LOC>Terme</LOC> .</SENTENCE>
+########
+ INPUT: "<SENTENCE>Articles de bonneterie ayant un caractère de vêtement : enfants , 30 francs ; hommes et femmes , 50 francs .</SENTENCE>"
+OUTPUT: "<SENTENCE>Articles de <ORG>bonneterie</ORG> ayant un caractère de vêtement : enfants , 30 francs ; hommes et femmes , 50 francs .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Chapellerie ( hommes ) : 25 francs .</SENTENCE>"
+OUTPUT: "<SENTENCE>Chapellerie ( hommes ) : 25 francs .</SENTENCE>"
+
+There are no named entities in this sentence that match the provided categories.
+########
+ "<SENTENCE>Chaussures : enfants <PRICE>40 francs</PRICE> ; femmes <PRICE>55 francs</PRICE> ; hommes <PRICE>75 francs</PRICE> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Costumes complets ou pardessus enfants , 100 francs : garçonnets , 150 francs ; costume hommes ( habit , redingote , jaquette ) , 275 francs ; complet veston , 250 francs .</SENTENCE>"
+OUTPUT: "<SENTENCE>Costumes complets ou pardessus <HUMANPROD>enfants</HUMANPROD> , 100 francs : <HUMANPROD>garçonnets</HUMANPROD> , 150 francs ; costume <HUMANPROD>hommes</HUMANPROD> ( habit , redingote , jaquette ) , 275 francs ; complet <HUMANPROD>veston</HUMANPROD> , 250 francs .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Pièces séparées : gilet , 35 francs ; pantalon .</SENTENCE>"
+OUTPUT: "<SENTENCE>Pièces séparées : gilet , 35 francs ; pantalon.</SENTENCE>"
+########
+ INPUT: "<SENTENCE>70 francs ; habit , smoking , redingote , jaquette , 170 francs ; veston , 145 francs .</SENTENCE>"
+OUTPUT: "<SENTENCE>70 francs ; habit , smoking , redingote , jaquette , 170 francs ; veston , 145 francs .</SENTENCE>" (No named entities found in the input sentence as it only contains a list of items and their prices.)
+########
+ INPUT: "<SENTENCE>Costumes de femmes, 300 francs; manteau, 300 francs; jupe, 150 francs: corsage, 80 francs.</SENTENCE>"
+OUTPUT: "<SENTENCE>Costumes de femmes, <HUMANPROD>300 francs</HUMANPROD>; manteau, <HUMANPROD>300 francs</HUMANPROD>; jupe, <HUMANPROD>150 francs</HUMANPROD>: corsage, <HUMANPROD>80 francs</HUMANPROD>.</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Fourrures , 150 francs ; gants , 12 francs la paire ; montre , 100 francs ; pendule , 150 francs .</SENTENCE>"
+OUTPUT: "<SENTENCE>Fourrures , 150 francs ; gants , 12 francs la paire ; montre , 100 francs ; pendule , 150 francs .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Meubles : chambre à coucher ( armoire , lit , table de nuit ) , 1 .</SENTENCE>"
+OUTPUT: "<SENTENCE>Meubles : chambre à coucher ( <LOC>armoire</LOC> , <LOC>lit</LOC> , <LOC>table de nuit</LOC> ) , 1 .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>500 francs ; salle à manger ( buffet , table , chaises ) , 1 .</SENTENCE>"
+OUTPUT: "<SENTENCE>500 francs ; <LOC>salle à manger</LOC> ( buffet , table , chaises ) , 1 .</SENTENCE>"
+########
+ "<SENTENCE>500 francs.</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Salon ( canapé , 2 fauteuils , 2 chaises ) , 1 .</SENTENCE>"
+OUTPUT: "<SENTENCE>Salon ( canapé , 2 fauteuils , 2 chaises ) , 1 .</SENTENCE>" (No named entities found in this sentence.)
+########
+ OUTPUT: "<SENTENCE>500 <LOC>LA CAMPAGNE</LOC> LLECTORALL EST OUVERTE EN <LOC>ALLEMAGNE</LOC> La répartition des partis <LOC>La campagne électorale</LOC> est ouverte en <LOC>Allemagne</LOC> . On a vu qu ' en <LOC>Wurtemberg</LOC> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>en <LOC>Bade</LOC> et en <LOC>Bavière</LOC> , les <ORG>partis bourgeois</ORG> et les <ORG>socialistes majoritaires</ORG> avaient enre¬ gistré de gros succès dans l ' ensemble . On peut prévoir qu ' à l ' <ORG>Assemblée nationale</ORG> les <ORG>socialistes indépendants</ORG> seront en nombre infiniment réduit .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Il est bon de rappeler ce que signifient les diverses étiquettes qu ' on voit apparaître dans les scrutins . Les <ORG>anciens partis alle¬ mands</ORG> ont subsisté ; nous irons même jus¬ qu ' à croire qu ' ils n ' ont pas changé de pro¬ gramme . Mais ils ont changé de nom .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Les <ORG>conservateurs</ORG> s ' appellent <ORG>parti na¬ tional allemand du peuple</ORG> . Tout en adhé¬ rant en apparence à l ' <ORG>Etat populaire</ORG> , ils veulent une <ORG>monarchie démocratique</ORG> fondée sur l ' <ORG>idée nationale</ORG> et appuvée sur les forces vives du <ORG>christianisme</ORG> . On devine ce que cela signifie : retour à l ' <LOC>empire d ' avant\-guerre</LOC> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Le <ORG>centre catholique</ORG> est devenu le <ORG>parti démocratique chrétien</ORG> . Toutefois , dans cer¬ taines régions , il a pris l ' étiquette plus op¬ portune de <ORG>libre parti allemand du peuple</ORG> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Son programme est incertain, mais - son suc\-cès indiscutable.</SENTENCE>"
+OUTPUT: "<SENTENCE>Son programme est incertain, mais - son <ORG>suc\-cès</ORG> indiscutable.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Les <ORG>nationaux - libéraux de gauche</ORG> et les <ORG>progressistes de jadis</ORG> se nomment le <ORG>parti allemand démocratique</ORG> . Il veut la <HumanProd>Répu¬ blique</HumanProd> , la limitation des armements , la <HumanProd>Société des nations</HumanProd> , la liberté des mers , tou - tes choses qui peuvent se résumer en une formule beaucoup plus simple : « Eviter à l ' Allemagne les conséquences de sa défaite .</SENTENCE>"
+########
+ "<SENTENCE>» Il s' <PER>s'</PER> est assuré l' <ORG>appui</ORG> des <PER>paysans</PER> par un <HumanProd>programme</HumanProd> agraire qui va jusqu' au <LOC>morcellement</LOC> de la <LOC>grande propriété</LOC> . Cette <ORG>conces</ORG><ORG>sion</ORG> ne saurait surprendre , puisqu' il est avant tout soutenu par le <ORG>commerce</ORG> et l' <ORG>industrie</ORG> .</SENTENCE>"
+########
+ <SENTENCE>Enfin les <ORG>socialistes</ORG> sont divisés en trois fractions unies : 1° Une droite, constituée par les anciens <ORG>social - démocrates</ORG> , sous la conduite d'<PER>Ebert</PER> , <PER>Scheidemann</PER> , <PER>Noske</PER> et <PER>Landsberg</PER> ; 2° Un centre, les indépendants oscillant avec <PER>Haase</PER> du côté des majoritaires, ou avec <PER>Ledebour</PER> du côté des <ORG>spartakistes</ORG> ; 3° Enfin une gauche, les <ORG>spartakistes</ORG> ou parti communiste d'<LOC>Allemagne</LOC> , dont les principaux chefs sont <PER>Liebknecht</PER> et <PER>Rosa Luxemburg</PER> ont comme programme : point d'<ORG>Assemblée nationale</ORG> . Quant à leurs méthodes, on en a vu un échantillon à <LOC>Berlin</LOC> .</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>VERS L ' UNITÉ POLONAISE <PER>Paderewski</PER> va prendre la présidence d ' un <ORG>conseil national</ORG> tan amai D ' après les nouvelles de <LOC>Varsovie</LOC> , la <LOC>Po\-logne</LOC> travaille résolument à réaliser un peu d ' unité . Les conférences de <LOC>Paris</LOC> , où le <ORG>conseil national</ORG> et les délégués du géné\-ral <PER>Pilsudski</PER> s ' efforcent de s ' entendre , sont le reflet de ce qui se passe en plus grand dans la nouvelle république .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Le gouvernement de <PER>MM . Morachewski</PER> et <PER>Dachinski</PER> ne représentait que le parti <ORG>social - démocrate</ORG> . Ni la <ORG>droite</ORG> , ni le parti <ORG>po¬ puliste ( centre )</ORG> , ni les autres fractions n ' y collaboraient , de sorte que des rivalités se faisaient jour , infiniment dangereuses pour un Etat que menacent à la fois les <ORG>bolche¬ viks</ORG> , les <LOC>Allemands</LOC> et les <LOC>Ukraniens</LOC> .</SENTENCE>"
+########
+ <SENTENCE>Les <ORG>alliés</ORG> ne peuvent aider efficacement la <LOC>Pologne</LOC> que si elle sait grouper toutes ses <PER>énergies</PER> . Il faut que le gouvernement de <LOC>Varsovie</LOC> représente l'<ORG>immense majorité</ORG> de la <LOC>Pologne russe</LOC> et que, d'<PER>autre</PER> part, les <ORG>gouvernements provisoires</ORG> qui se sont constitués en <LOC>Posnanie</LOC> et en <LOC>Galicie</LOC> reconnaissent sans arrière-pensée son autorité .</SENTENCE>
+########
+ "<SENTENCE>Tel est le langage que <PER>les amis des Polo　nais</PER> leur ont tenu .</SENTENCE>"
+########
+ "<SENTENCE>Mais il fallait l' <PER>autorité</PER> et le <PER>prestige</PER> <PER>personnel</PER> de <PER>Paderewski</PER> pour qu' il fût écouté .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><PER>Paderewski</PER> réclame la formation d' <ORG>un conseil national</ORG> concentrant en lui toutes les fractions politiques . Il fait tous ses efforts pour que les <PER>socialistes</PER> actuellement au pouvoir acceptent d' <ORG>en faire partie</ORG> .</SENTENCE>"
+########
+ "<SENTENCE>D ' après les dernières nouvelles, <PER>ses</PER> chan\-ces de réussite sont très sérieuses. Tout en laissant le général <PER>Pilsudski</PER> dans son rôle de chef suprême jusqu ' à la constitution dé\-finitive de la <LOC>Pologne intégrale</LOC>, <PER>Paderewski</PER> va prendre en main la charge de gouver\-ner. Il s ' appuie sur les masses populaires, qui l ' ont reçu avec enthousiasme, et l ' En\-tente ne lui ménagera pas ses encourage\-ments.</SENTENCE>"
+########
+ <SENTENCE>— Un essor nouveau a été donné à l'<ORG>hôtellerie Française</ORG> et à <LOC>Nice</LOC> en parti\-culier par <PER>M . MARTINEZ</PER> qui préside avec succès aux destinées des plus somptueux <ORG>Hôtels</ORG> de <LOC>Nice</LOC> . Sous son éminente direction sont placés le <ORG>Ruhl</ORG> , le <ORG>Royal</ORG> , le <ORG>France</ORG> , l'<ORG>Impérial</ORG> , le <ORG>Savoy</ORG> et le <ORG>restaurant du Ca\-sino Municipal de Nice</ORG> .</SENTENCE>
+########
+ <SENTENCE>Inutile d ' ajouter que tous ces établissements en ce moment au complet ont la préférence marquée de la clientèle habituée au suprême confort que <PER>MARTINEZ</PER> leur offre et qui fait le plus grand honneur à notre <ORG>Industrie Nationale</ORG> . <PER>M . MARTINEZ</PER> est propriétaire du <LOC>Carlton Hôtel de Paris</LOC> et le fondateur du magnifique Palace qui sera érigé <LOC>boulevard de la Madeleine</LOC> sous le nom bien français d ' <LOC>Hôtel de Paris</LOC> .</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>Les <ORG>bulletins de vote</OR> et les <ORG>circulaires électorales</ORG> La <ORG>Chambre</ORG> a discuté , <DATE>hier</DATE> , le projet de loi concernant l ’ envoi et la distribution des <ORG>bulletins de vote</ORG> et des <ORG>circulaires électorales</ORG> . Il s ' agit , somme toute , de pro¬ roger la loi du <DATE>20 octobre 1919</DATE> , dont le <ORG>Sénat</ORG> avait limité l ' effet à <DATE>1919</DATE> et <DATE>1920</DATE> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Quelques retouches ont cependant été ap\-<ORG>portées</ORG> à ce texte . Le <PER>rapporteur</PER> , <PER>M . J . - L . Bonnet</PER> , exposa que le projet prévoyait , en plus de cette distribution des bulletins à la <LOC>mairie</LOC> , l ' <ORG>envoi</ORG> en <ORG>franchise</ORG> à chaque <PER>élec\-teur</PER> de deux bulletins de vote de chaque liste en présence et , s ' il y a lieu , d ' une <HumanProd>cir\-culaire</HumanProd> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Pour toutes les <ORG>élections législatives</ORG> et douze jours au moins avant le jour du scru<VERB>tin</VERB> , une commission , composée de manda<VERB>taires</VERB> des listes en présence , serait cons<VERB>tuée</VERB> au chef - lieu de chaque département afin d ' assurer l ' impression et la distribu<VERB>tion</VERB> de ces bulletins et circulaires .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>M <PER>Magne</PER> proposait une disposition addi¬ tionnelle tendant à rendre obligatoire la distribution contrôlée et à domicile des <ORG>cartes d ' électeur</ORG> , pour empêcher toute fraude sur leur répartition .</SENTENCE>"
+########
+ <SENTENCE>Nos rentes sont un peu plus calmes dans l' <LOC>ensemble</LOC> , mais demeurent très soutenues . Si le <ORG>6 % 1927</ORG> fléchit à 110 , 20 ( — 1 , 70 ) , par contre , le <ORG>3 % amortissable</ORG> est très ferme de 91 , 50 à 93 , 25 . Au <ORG>groupe bancaire</ORG> , la <ORG>Banque de France</ORG> s' <ORG>attri¬ bue</ORG> 200 francs environ ; la <ORG>Banque de Paris</ORG> , 35 francs . Aux <ORG>immobilières</ORG> , avance marquée de la <ORG>Rente . lon cière</ORG> à 1 .</SENTENCE>
+########
+ <SENTENCE>359 ( +34 ) . Un peu d ' indéci¬ sion sur les transports , le <ORG>Lyon</ORG> réac¬ tionnant de 14 francs et le <ORG>Nord</ORG> , de 15 francs . Aux métallurgiques . <LOC>Dives</LOC> gagne 25 francs et , au comptant , d ' im¬ portantes avances sont enregistrées sur <LOC>Pontgibaud</LOC> ( +120 ) , sur les <ORG>Aciéries de la Marine</ORG> ( +67 ) et sur <LOC>Pont - à - Mousson</LOC> ( +60 ) .</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>Parmi les valeurs d ' <ORG>électricité</ORG> , on a consolidé les progrès antérieurs , sur la <ORG>Distribution</ORG> ( — 20 ) et sur la <ORG>Compagnie générale d ' électricité</ORG> ( — 30 ) . Marché toujours actif et ferme sur la <ORG>Thomson</ORG> ( +18 ) et surtout sur l ' <ORG>Électricité de la Seine</ORG> très demandée à 1 .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>059 ( +11 ) . Produits chimiques calmes : l ' Air liquide cependant s ' attribue 20 fr .</SENTENCE>"
+OUTPUT: "<SENTENCE>059 ( +11 ) . Produits chimiques calmes : <ORG>l ' Air liquide</ORG> cependant s ' attribue 20 fr .</SENTENCE>"
+########
+ "<SENTENCE>à 2 .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>160 . <ORG>Aux charbonnages</ORG> , <LOC>Lens</LOC> passe de 1 .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>500 à 1 .</SENTENCE>"
+OUTPUT: "<SENTENCE>500 à 1 .</SENTENCE>" (No named entities found in the input sentence)
+########
+ INPUT: "<SENTENCE>522 et Courrières s'inscrit à 1.</SENTENCE>"
+OUTPUT: "<SENTENCE>522 et <LOC>Courrières</LOC> s'inscrit à 1.</SENTENCE>"
+########
+ INPUT: "<SENTENCE>795 ( +17 ) . Enfin les sucres sont plus lourds , la Say revenant de 2 .</SENTENCE>"
+OUTPUT: "<SENTENCE>795 ( +17 ) . Enfin les sucres sont plus lourds , <ORG>la Say</ORG> revenant de 2 .</SENTENCE>"
+########
+ "<SENTENCE>080 à 2 .</SENTENCE>"
+########
+ "<SENTENCE>035 .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Parmi les valeurs <LOC>étrangères</LOC> , quelques <ORG>dégagements</ORG> sur le <LOC>Turc unifié</LOC> ( — 0 , 55 ) et sur la <ORG>Banque ottomane</ORG> ( — 20 ) . Le <LOC>Suez</LOC> a été agité entre 20 .</SENTENCE>"
+########
+ "<SENTENCE>825 et 21 .</SENTENCE>"
+########
+ "<SENTENCE>100 , pour finir à 20 .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>900 ( +75 ) . Le Rio - Tinto clôture à 5 .</SENTENCE>"
+OUTPUT: "<SENTENCE>900 ( +75 ) . <ORG>Le Rio - Tinto</ORG> clôture à 5 .</SENTENCE>"
+########
+ "<SENTENCE>825 après 5 .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>880 , contre 5 .</SENTENCE>"
+OUTPUT: "<SENTENCE>880 , contre 5 .</SENTENCE>" (No named entities found in the input sentence)
+########
+ "<SENTENCE>850 .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>En coulisse , <ORG>la De Beers</ORG> se main¬ tient à son cours précédent . Les <LOC>minès</LOC> d ' or sont en faveur . Aux <LOC>caoutchoutiè¬ res</LOC> , <LOC>Padang</LOC> gagne une trentaine de francs .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>DROITS DE SOUSCRIPTION Au parquet Négociations jusqu ' au : <ORG>Rhône - Poulenc</ORG> , c . 2 , 800 , 799 , 794 ; <ORG>Rhône - Poulenc</ORG> , c . 3 , 130 , 31 , 33 , 32 ; 18 jan¬ vier : <ORG>Electricité Paris act.</ORG></SENTENCE>"
+########
+ "<SENTENCE>, 4 .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>325 , <ORG>Electricité Paris</ORG> parts , 2 , 135 , 55 , 85 ; 21 janvier ; <ORG>Hauts Four¬ neaux de Saulnes</ORG> , 43 28 janvier <ORG>Cirages Français</ORG> , 115 ; 29 janvier : <ORG>Ti¬ ves - Lille</ORG> , 260 , ; 31 janvier <ORG>Forces trices de la Vienne</ORG> , 375 .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>En coulisse <ORG>Négociations</ORG> jusqu ' au : <LOC>15 janvier</LOC> , <LOC>Caronte</LOC> , <NUM>7</NUM> , <NUM>86</NUM> , <NUM>50</NUM> , <NUM>85</NUM> , <NUM>50</NUM> , <NUM>87</NUM> : <LOC>15 mars</LOC> , <ORG>l ' Epargne</ORG> c . <NUM>61</NUM> , <NUM>312</NUM> , <NUM>310</NUM> <HumanProd>MARCHÉS ÉTRANGERS</HumanProd> <LOC>LONDRES</LOC> <HumanProd>Fonds d ' Etat</HumanProd> ( calmes ) : <NUM>3</NUM> % <HumanProd>Français</HumanProd> , <NUM>17 1/4</NUM> ; <NUM>5</NUM> % <HumanProd>Français</HumanProd> , <NUM>21 5/8</NUM> ; <NUM>4</NUM> % <HumanProd>1917</HumanProd> , <NUM>20 1/4</NUM> ; <NUM>4</NUM> % <HumanProd>1918</HumanProd> , <NUM>20 1/4</NUM> ; <HumanProd>Consolidés</HumanProd> , <NUM>54 5/16</NUM> ; <HumanProd>Argentin</HumanProd> <NUM>4</NUM> % <HumanProd>1897</HumanProd> , <NUM>80 1/2</NUM> ; <HumanProd>Brésil</HumanProd> <NUM>1889</NUM> , <NUM>48 1/2</NUM> ; <HumanProd>Brésil Funding</HumanProd> .</SENTENCE>"
+########
+I've process 170 phrases!

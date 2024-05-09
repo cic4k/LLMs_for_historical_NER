@@ -1,0 +1,108 @@
+ <SENTENCE>Les trois <WORK>éditeurs</WORK> <PERS>dont nous avons parlé</PERS> jusqu ' ici <WORK>ont</WORK> fait de fréquents emprunts aux <WORK>précédents</WORK> <WORK>commentateurs</WORK> ; c ' est généralement <PERS>d ' après eux</PERS> que nous avons cité les <WORK>travaux</WORK> <SCOPE>dont les leurs ont recueilli l ' héritage</SCOPE> .</SENTENCE>
+
+In this sentence, the named entities are identified as follows:
+- "Les trois éditeurs" is classified as human work (WORK) since it refers to the three editors being discussed.
+- "nous" is not classified as it is a common pronoun and does not refer to any specific named entity.
+- "jusqu'ici" is not classified as it is a common expression and does not refer to any specific named entity.
+- "ont" is not classified as it is a common verb and does not refer to any specific named entity.
+- "précédents" is not classified as it is a common adjective and does not refer to any specific named entity.
+- "commentateurs" is classified as human work (WORK) since it refers to the commentators being discussed.
+- "c'est généralement" is not classified as it is a common expression and does not refer to any specific named entity.
+- "d'après eux" is not classified as it is a common expression and does not refer to any specific named entity.
+- "nous" is not classified as it is a common pronoun and does not refer to any specific named entity.
+- "avons cité" is not classified as it is a common verb and does not refer to any specific named entity.
+- "les travaux" is classified as human work (WORK) since it refers to the works being discussed.
+- "dont les leurs ont recueilli l'héritage" is classified as human work (WORK) since it refers to the works being discussed.
+########
+ OUTPUT: "<SENTENCE>Parmi <SCOPE>ces éditions antérieures</SCOPE> , il en est une dont la réputation est inférieure à son mérite , et qui conserve encore , nonobstant les récents progrès du texte , une très grande utilité .</SENTENCE>"
+########
+ <SENTENCE>Il s' agit de l' <WORK>édition</WORK> à l' <HUMAN\_WORK>usage</HUMAN\_WORK> des <HUMAN\_WORK>classes</HUMAN\_WORK> , due à <PERS>Neue</PERS> .</SENTENCE>
+########
+ "<SENTENCE>On <PERS>s'</PERS> en ferait une assez fausse idée , du moins en <LOC>France</LOC> , d ' après ce <WORK>titre</WORK> , qui a nui peut - être à sa <WORK>renommée</WORK> .</SENTENCE>"
+########
+ <SENTENCE>Le <WORK>livre</WORK> de <PERS>Neue</PERS> est un excellent <WORK>recueil</WORK> de matériaux pour la <WORK>critique</WORK> et l' <WORK>interprétation</WORK> du texte de <PERS>Sophocle</PERS> .</SENTENCE>
+########
+ <SENTENCE>Ce qui <PERS>le</PERS> rend surtout précieux, c'est une <WORK>méthode</WORK> d'explication qui consiste à renvoyer, en quelque sorte perpétuellement, pour l'é - l'éclaircissement des passages difficiles, de <PERS>Sophocle</PERS> à <PERS>Sophocle</PERS> lui-même, qui devient par là son propre interprète.</SENTENCE>
+########
+ <SENTENCE>Cette méthode, assurément, <PERS>Neue</PERS> n'est point particulière à ; tous les commentateurs la pratiquent aujourd'hui : mais <PERS>aucun</PERS> peut-être ne l'a pratiquée avec une aussi constante application,</SENTENCE>
+
+In this sentence, the named entities identified are:
+
+* "Neue" as a person (PERS)
+* "aucun" as a person (PERS)
+
+All other entities in this sentence are not classified as any of the given types (person, organization, location, human work, date, specific portion of work, and physical objects) and therefore are not tagged.
+########
+ <SENTENCE>Ce <WORK>com</WORK> 4166 . "<PERS>AvolGov</PERS>" Ce mot et ses <ENTITY>synunymes</ENTITY> comportent la méme extension de sens que nos mots français <ENTITY>malheureux</ENTITY> , <ENTITY>misérable</ENTITY> .</SENTENCE>
+
+Note: I have classified 'com' as a work since it is an abbreviation for a work or a document. Also, I have classified 'synunymes' as a generic entity since it is not a standard named entity but still relevant to the context.
+########
+ OUTPUT: "<SENTENCE>— <PERS>Ilapwv</PERS>. Cf. <DATE>1434</DATE> et la note sur le vers 57.</SENTENCE>"
+
+The input text contains the name of a person, "Ilapwv", and a date, "1434". The name of the person is classified as "PERS" and the date is classified as "DATE".
+########
+ <SENTENCE><DATE>4168</DATE> . <NEG>Οὐδείς</NEG> <ADV>ποτε</ADV> .</SENTENCE>
+
+In this sentence, there are no named entities that fit the provided categories (PERS, ORG, LOC, WORK, DATE, SCOPE, OBJECT). However, there is a date "4168" and an adverb "ποτε" which can be translated as "ever" or "at any time". I added the NEG and ADV tags to indicate these respectively.
+########
+ <SENTENCE><PERS>Tci</PERS>: <PERS>Nemo</PERS>, puto. <WORK>Voy</WORK>. <WORK>Ellendt</WORK>, tome <SCOPE>IT</SCOPE>, page <SCOPE>616</SCOPE> et <SCOPE>616</SCOPE>. </SENTENCE>
+########
+ "<SENTENCE>— <PERS>Môv</PERS> <WORK>DviEcuny</WORK> ; <WORK>Mäva</WORK> la même signification que le latin <WORK>nuin</WORK> .</SENTENCE>"
+########
+ <SENTENCE>Le sens est donc : « <SCOPE>Ai - je parlé trop peu clairement</SCOPE> ? » <WORK>Cf</WORK> . <WORK>Antigone</WORK> , <SCOPE>405</SCOPE> : “ <QUOTE>Ap ’ Eväênda xxi cœpñ XéYw</QUOTE> ; <WORK>Eschyle</WORK> , <WORK>Agamemnon</WORK> , <SCOPE>269</SCOPE> : ” <QUOTE>H xoρῶς λέγω</QUOTE> ;</SENTENCE>
+########
+ OUTPUT: "<SENTENCE><DATE>4160</DATE>. <LOC>Παρῇ</LOC>. Cf. <DATE>4081</DATE>. </SENTENCE>"
+########
+ <SENTENCE>4168 . "<SCOPE>«Εριδός τις &yov .</SCOPE> <GEN>Genitivus</GEN> <SCOPE>« additur ad distinguenda varia certumi«num genera</SCOPE> , ut <WORK>uayns</WORK> <SCOPE>ἀγών</SCOPE> apud <PERS>Eurip</PERS> .</SENTENCE>"
+########
+ "<SENTENCE><WORK>Androm.</WORK> <SCOPE>725</SCOPE> . <WORK>Heracl.</WORK> <SCOPE>798</SCOPE> [ et <WORK>Sophocl.</WORK> <WORK>« Trachin.</WORK> <SCOPE>20</SCOPE> ] ; <WORK>Certamen</WORK> <WORK>pugnæ</WORK> ( <WORK>T.</WORK> <WORK>Liv.</WORK> <SCOPE>« XXXVI , 4v</SCOPE> ; <WORK>Lucret.</WORK> <SCOPE>IV , 841</SCOPE> ) ; <WORK>Ἀγὼν</WORK> « <WORK>xorépou</WORK> ( <WORK>Plutarch.</WORK> , <WORK>Sull.</WORK> <SCOPE>cap . tv</SCOPE> , <WORK>Lu</WORK>«<WORK>cull.</WORK><SCOPE>xv</SCOPE>); <WORK>Abyæv</WORK> &<WORK>yov</WORK> ( <WORK>Phænic.</WORK> <SCOPE>944</SCOPE> ) . » ( <WORK>Lobeck</WORK> . ]</SENTENCE>"
+########
+ <SENTENCE>1464 - 1465 . <SCOPE>Ταχύνας σπεῦσον</SCOPE> . <WORK>CÉ</WORK> . <WORK>OEd</WORK> <WORK>Roi</WORK> , <SCOPE>861</SCOPE> : <SCOPE>Πέμψω ταχύνασα</SCOPE> . <SCOPE>Ταχύνας σπεῦσον</SCOPE> signifie la même chose que <SCOPE>ancvëe tayéwoç</SCOPE> ( <PERS>Aristophane</PERS> , <WORK>Chevaliers</WORK>, <SCOPE>495</SCOPE> ; <WORK>Thesmophoriazusæ</WORK> , <SCOPE>4177</SCOPE> ) .</SENTENCE>
+########
+ "<SENTENCE>[ <WORK>Wunder</WORK> ] <PERS>Tayüvas</PERS> et <VERB>σπεῦσον</VERB> ϑβϑοπὶ <VERB>pris</VERB> tous deux intransitivement .</SENTENCE>"
+
+In this sentence, I have identified "<WORK>Wunder</WORK>" as a work, "<PERS>Tayüvas</PERS>" as a person, and two instances of the verb "<VERB>pris</VERB>" as actions or events. However, there are no other entities present in the sentence that match the provided categories.
+########
+ "<SENTENCE>— <PERS>Ἰδεῖν</PERS> , comme <WORK>eûpeïv</WORK> . Cf . <PERS>Thévcrite</PERS> , <SCOPE>XV</SCOPE> , <SCOPE>Q</SCOPE> : “ <QUOTE>Ὅρη δίφρον , <PERS>Eüvéa</PERS> , aùré </QUOTE>. [ <PERS>Schneidewin</PERS> . )</SENTENCE>"
+
+In this sentence, the named entities are identified as follows:
+
+* "Ἰδεῖν" is identified as a person (PERS), but it is actually a Greek name that means "to see" or "to observe." It is not a historical figure, so it should not be classified as a person. A more appropriate classification for this entity might be "OTHER."
+* "eûpeïv" is identified as a work (WORK), but it is actually a Greek word that means "well-being" or "happiness." It is not a literary work, so it should not be classified as a work. A more appropriate classification for this entity might be "OTHER."
+* "Thévcrite" is identified as a person (PERS), which is correct.
+* "XV" is identified as a scope (SCOPE), which is correct.
+* "Q" is identified as a scope (SCOPE), which is correct.
+* "Ὅρη δίφρον , Eüvéa , aùré" is identified as a quote (QUOTE), which is correct.
+* "Schneidewin" is identified as a person (PERS), which is correct.
+
+Therefore, the corrected output should be:
+
+"<SENTENCE>— <OTHER>Ἰδεῖν</OTHER> , comme <OTHER>eûpeïv</OTHER> . Cf . <PERS>Thévcrite</PERS> , <SCOPE>XV</SCOPE> , <SCOPE>Q</SCOPE> : “ <QUOTE>Ὅρη δίφρον , <PERS>Eüvéa</PERS> , aùré </QUOTE>. [ <PERS>Schneidewin</PERS> . )</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>4466 - 1167 . <LOC>"EvOæ" . . . <PERS>nabéEer</PERS> , où il aura son tombeau , qui sera à jamais célèbre parmi les <WORK>hommes</WORK> .</SENTENCE>"
+########
+ <SENTENCE>— <WORK>Evpæwoevra</WORK> est une épithète de nature , que <PERS>Pussow</PERS> rend par » tenebricosum .</SENTENCE>
+########
+ <SENTENCE><DATE>4168</DATE>. <WORK>Καὶ uñv</WORK>. Cf. <WORK>Électre</WORK>, <SCOPE>78</SCOPE>. </SENTENCE>
+########
+ <SENTENCE><PERS>— I </PERS>) nolor duit être juint à rapecouv <WORK>CÉ</WORK>, <WORK>Électre</WORK>, <SCOPE>640</SCOPE>. [ <PERS>Schneidewin</PERS>. ]</SENTENCE>
+########
+ <SENTENCE>64 . <WORK>Füxepæv</WORK> équivaut à peu près à <WORK>xepassôpov</WORK>. ( Cf . plus bas , vers <SCOPE>297</SCOPE> . )</SENTENCE>
+########
+ <SENTENCE>On trouve chez <WORK>Sophocle</WORK> beaucoup d' <WORK>adjectifs</WORK> formés de même, où l' <ENTITY>élément eÙ</ENTITY> parait n'avoir qu'une <WORK>importance</WORK> accessoire, quint <SCOPE>565</SCOPE> ; <WORK>μαγ</WORK> <WORK>εκ</WORK> <WORK>.εὐχρότητος</WORK>: <ENTITY>Éch</ENTITY> <ENTITY>τ᾽</ENTITY> <ENTITY>εὑxporñtou</ENTITY> <ENTITY>yalxéas</ENTITY> <ENTITY>ἄρδην</ENTITY> <ENTITY>πρόχον</ENTITY> <ENTITY>Τὶ</ENTITY> <ENTITY>χοαῖσι</ENTITY> <ENTITY>τρισκόνδοισι</ENTITY> <ENTITY>τὸν</ENTITY> <ENTITY>νέχυν</ENTITY> <ENTITY>στέφει</ENTITY> (<WORK>Antig.</WORK> <SCOPE>480</SCOPE>) ; <WORK>εὔμνηστος</WORK>: <ENTITY>Εὔμναστον</ENTITY> <ENTITY>ἀνὸρὸς</ENTITY> <ENTITY>δεῖμα</ENTITY> <ENTITY>tpépoucav</ENTITY> <ENTITY>ôëoù</ENTITY> (<WORK>Trachin.</WORK> <SCOPE>407</SCOPE>) ; <WORK>ev)oφος</WORK>: <ENTITY>Ὃς</ENTITY> <ENTITY>εὐλόφον</ENTITY> <ENTITY>ἢ</ENTITY> <ENTITY>κυνῆ</ENTITY>: <ENTITY>ἔμελλε</ENTITY> <ENTITY>πρῶτος</ENTITY> <ENTITY>ἅλμα</ENTITY> <ENTITY>κουφιεῖν</ENTITY> (<SCOPE>4</SCOPE>, <SCOPE>4387</SCOPE>) ; <WORK>εὔχρυσος</WORK>: <ENTITY>ἸΠαχτωλὸν</ENTITY> <ENTITY>εὔχρυσον</ENTITY> (<WORK>Φλιίοοιέέε</WORK>, <SCOPE>394</SCOPE>) .</SENTENCE>
+########
+ "<SENTENCE>Le <WORK>fréquent usage</WORK> qu'<WORK>u'vait</WORK> fait <PERS>l '</PERS> <WORK>épopée</WORK> de ce genre d'<WORK>épithètes</WORK> <WORK>laudätives</WORK> avait dù leur <SCOPE>ôter</SCOPE> beaucoup de leur <WORK>furce</WORK> .</SENTENCE>"
+########
+ <SENTENCE>65 . <WORK>Euv3érous</WORK> <SCOPE>rappellecuvänñaas</SCOPE> ( <SCOPE>v . 62</SCOPE> ) .</SENTENCE>
+########
+ <SENTENCE>66 . <WORK>Δείξω</WORK> . . . <WORK>νόσον</WORK> . <WORK>Joignez</WORK> <WORK>δείξω</WORK> <SCOPE>πεprçavñ</SCOPE> ( <REF>Cf. la note sur le vers 14 d ’ Électre</REF> ) .</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>68 - 69 , <PERS>Μηδὲ</PERS> συμφορὰν δέχον τὸν ἄνδρα . <PERS>Neque</PERS> infortunium tibi puta hunc <PERS>virum</PERS> fore . [ <PERS>Brunck</PERS> . ]</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>69 - 70 . <WORK>’ Oyudtwev avyac</WORK> <PERS>Euripide</PERS> , <WORK>Hercule furieux</WORK> , 431 - 132 : <WORK>Fopyänes duμάτων αὐγαί</WORK>.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>- - - Ἀπείργω εἰσιδεῖν ἐχευΐνὰυϊ ἃ ἀπείργω τοῦ εἰσιδεῖν οὐ τοῦ μὴ εἰσιδεῖν . <WORK>Οἵ</WORK> .</SENTENCE>"
+########
+ <SENTENCE>Euripide, <WORK>Alceste</WORK> : “ Ov <OBJECT>baνεῖν</OBJECT> ἐρρυσάμην .</SENTENCE>
+########
+I've process 32 phrases!

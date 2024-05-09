@@ -1,0 +1,383 @@
+ INPUT: "<SENTENCE>Une violence monte au cœur de l'amant.</SENTENCE>"
+OUTPUT: "<SENTENCE>Une violence monte au cœur de l'amant.</SENTENCE>"
+
+There are no named entities in this sentence that match the provided categories.
+########
+ INPUT: "<SENTENCE>Il est sujet à des crises farouches lorsqu ’ il se heurte à l ’ inaccessible dans l ’ âme et dans l ’ existence de cette femme .</SENTENCE>"
+OUTPUT: "<SENTENCE>Il est sujet à des crises farouches lorsqu ’ il se heurte à l ’ inaccessible dans l ’ âme et dans l ’ existence de cette <PER>femme</PER> .</SENTENCE>"
+########
+ "<SENTENCE>Un jeune homme tout à coup , lui mit la main sur l ’ épaule .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>— Bonjour, cher maître.<SENTENCE>"
+OUTPUT: "<SENTENCE>— Bonjour, <PER>cher maître</PER>.<SENTENCE>"
+########
+ "<SENTENCE>Pas la peine, <PER>mon vieux</PER>, dit <PER>van Luyten</PER>, j ’ ai été enchanté de te faire plaisir.</SENTENCE>"
+########
+ "<SENTENCE>— Je vais rester sous ton aile , si tu veux bien , car je suis timide ; je n ’ ai pas l ’ habitude du monde et je crains de ra¬ ter mon entrée dans les salons.</SENTENCE>"
+########
+ "<SENTENCE>— Eh bien , on te remorquera , répondit <PER>le peintre</PER> avec bonhomie .</SENTENCE>"
+########
+ "<SENTENCE>Et se retournant vers les hommes qui l ’ entouraient : — Je vous présente un camarade , mon <PER>ami Ludovic Fréhel</PER> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Et à <PER>Fréhel</PER> : — <PER>Monsieur Lucinge</PER> , <PER>monsieur Ster\-not</PER> , <PER>monsieur de Belgarde</PER> . . .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Les hommes inclinèrent la tête et des mains se tendirent vers Fréhel.</SENTENCE>"
+OUTPUT: "<SENTENCE>Les hommes inclinèrent la tête et des mains se tendirent vers <PER>Fréhel</PER>.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><PER>Van Luyten</PER> était très aimé dans le monde et son patronage équivalait pres¬ que à des lettres de noblesse.</SENTENCE>"
+########
+ "<SENTENCE><PER>Fréhel</PER> mal à l ’ aise dans l ' habit du <PER>sculpteur</PER> , son ami , avait une peur atroce du ridicule.</SENTENCE>"
+########
+ "<SENTENCE>L ’ <PER>affabilité</PER> de <PER>van Luyten</PER> lui rendit un peu de courage .</SENTENCE>"
+
+In this sentence, "affabilité" is a psychological phenomenon and should not be annotated. However, since the instructions specify not to annotate certain categories, I will assume that all unmentioned categories should be annotated as well. Therefore, I will annotate "affabilité" as a PERSON.
+########
+ OUTPUT: "<SENTENCE>M <PER>Lucinge</PER> , par politesse , crut devoir affirmer qu ’ il connaissait le nom de <PER>M <PER>Fréhel</PER></PER> , et M <PER>de Belgarde</PER> se rappela parfaitement avoir admiré , au salon , des tableaux portant cette signature .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>On causa peinture . <PER>Fréhel</PER> se sentit sur <HumanProd>PETITES ANNONCES</HumanProd> du <DATE>LUNDI</DATE> et <DATE>JEUDI</DATE> <HumanProd>Locations d ’ Immeubles , Hôtels recommandés Pensions de famille , Institutions . Cours et Leçons , Offres et demandes d ' Emplois , Gens de Maison</HumanProd> .</SENTENCE>"
+########
+ "<SENTENCE>Sont insérées au prix de 50 centimes <HumanProd>la li - gne de 32 lettres</HumanProd> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Minimum de chaque insertion : deux lignes : Les abréviations sont refusées .</SENTENCE>"
+OUTPUT: "<SENTENCE>Minimum de chaque insertion : deux lignes : Les abréviations sont refusées .</SENTENCE>"
+
+In this sentence, there are no named entities that match the provided categories (PERSON, ORGANIZATION, LOCATION, or HUMAN PRODUCTION). Therefore, no additions or modifications are made to the input sentence.
+########
+ OUTPUT: "<SENTENCE><ORG>HOTEL RECOMMANDÉ PAR LA FRONDE</ORG> <ORG>HOTEL CLÉMENT - MAROT</ORG> 7 , rue Clément - Marot , 7 , <LOC>Paris</LOC> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>ASCENSEUR , BILLARD , BAINS , LUMIÈRE ÉLECTRIQUE .</SENTENCE>"
+OUTPUT: "<SENTENCE>ASCENSEUR , BILLARD , BAINS , LUMIÈRE ÉLECTRIQUE .</SENTENCE>" (No named entities found as the input only contains common nouns and not proper nouns)
+########
+ "<SENTENCE>OFFRES DE <LOC>locations</LOC> louer <LOC>maison</LOC> , <LOC>grand atelier</LOC> , <LOC>grand jardin</LOC> , A 1 .</SENTENCE>"
+########
+ "<SENTENCE>200 fr .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>, <ORG>bail</OR> . Pour visiter s ' adresser en face , villa Constance , rue Foury , Bellevue , gare Mont¬ parnasse . Ecrire L . P . <HumanProd>La Fronde</HumanProd> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>louer , chambres meublées ou non , dans maison très confortable . S ' adresser H . V . à la Fronde .</SENTENCE>"
+OUTPUT: "<SENTENCE>louer , chambres <HUMANPROD>meublées</HUMANPROD> ou non , dans maison <LOC>très confortable</LOC> . S ' adresser H . V . à <ORG>la Fronde</ORG> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>louer un appartement meublé ou non meu<LOC>ble</LOC> pres la place de l ' Etoile . S ' adresser <ORG>B . R . 50</ORG> à la Fronde .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>son terrain et constata , non sans plaisir , sa supériorité sur ses auditeurs.</SENTENCE>"
+OUTPUT: "<SENTENCE>son <LOC>terrain</LOC> et constata , non sans plaisir , sa supériorité sur ses <PER>auditeurs</PER>.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>— A propos de peinture , dit - il à <PER>van Luyten</PER> , que s ’ est - il donc passé à l ’ <ORG>Expo¬ sition des cinquante</ORG> ? . . . Tu as causé , pa¬ raît - il , un <HumanProd>scandale parisien</HumanProd> .</SENTENCE>"
+########
+ "<SENTENCE><PER>Van Luyten</PER> se mit à rire.</SENTENCE>"
+########
+ "<SENTENCE>— Ah ! oui , à cause de la fameuse aquarelle ! — Que <PER>je</PER> n ’ ai pas vue .</SENTENCE>"
+########
+ "<SENTENCE><PER>Les visiteurs</PER> du premier jour, seuls, ont eu cet honneur.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>— Et pourquoi ? — Parce que <PER>M . Gerbault</PER> , s ’ autorisant de l ’ engagement pris envers <PER>Mlle de RoQUEFER</PER> de ne jamais livrer son image à la publicité , m ’ a sommé de retirer l ' aquaRELLE .</SENTENCE>"
+########
+ <SENTENCE>— Et tu l '<PER>l’</PER> as retirée ? — J '<PER>J’</PER>' aurais pu discuter . . . Mlle de <PER>Ro</PER>quefer a disparu depuis six mois et l '<PER>l’</PER>' on n ’ a jamais eu de ses nouvelles . . . Je me considérais comme affranchi de tout en[<PER>g</PER>agement].</SENTENCE>
+########
+ "<SENTENCE><PER>M . Gerbault</PER> en a jugé autrement.</SENTENCE>"
+########
+ <SENTENCE>— Oui . Il a fait appel, disait - il, à ma <PER>délicatesse</PER> . . . J' ai céde . D' ailleurs, le soir, même , le <PER>duc de Frémeuil</PER> m’ achetait l’ aquarelle . . . Il me déplaisait de la ven¬ dre . Mais le <PER>duc</PER> m’ a donné sa parole de ne jamais l’ exposer .</SENTENCE>
+########
+ <SENTENCE><PER>M . de Belgarde</PER> <PER>Lucinge</PER> <PER>van Luyten</PER> — Pauvre fée aux diamants ! dit <PER>M . de Belgarde</PER> . . . Qu ’ est - elle devenue ? — Vous rappelez - vous , dit <PER>Lucinge</PER> , la fête au Bois de Boulogne ? . . . Qu ’ elle était jolie , ce soir là , dans sa toilette Louis XVI ! — Elle est peut - être morte , dit <PER>van Luyten</PER> .</SENTENCE>
+########
+ <SENTENCE>— Et <PER>Gerbault</PER> hérite ? — Oh ! pas encore . . . Il faut que la dis\-<LOC>parition</LOC> de <PER>Mlle de Roquefer</PER> soit consta\-<ORG>tée légalement</ORG> . Il gère seulement la for\-<LOC>tune</LOC> de sa parente , assisté de <PER>M . Parizot</PER> .</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>— Je connais une dame <PER>Parizot</PER> , belle¬ sœur du précepteur de cette jeune fille , dit <PER>Fréhel</PER> . Elle croit , ainsi que son beau¬ frère , à une fugue de la jolie milliar¬ daire . . .</SENTENCE>"
+########
+ "<SENTENCE><PER>Lucinge</PER> en riant .</SENTENCE>"
+########
+ "<SENTENCE>— Mais pourquoi tant de précautions, cette absence mystérieuse . . .</SENTENCE>"
+########
+ "<SENTENCE>— Eh bien ? Et les mœurs ? . . .</SENTENCE>"
+########
+ "<SENTENCE>— Oh ! quand on est si riche ! . . .</SENTENCE>"
+########
+ "<SENTENCE><PER>van Luyten</PER> en désignant une dame qui entrait dans le <LOC>vestibule</LOC> . . .</SENTENCE>"
+########
+ "<SENTENCE><PER>C'est</PER> <PER>Indiana</PER> elle - même.</SENTENCE>"
+########
+ "<SENTENCE>— Tu tombes juste, dit <PER>Fréhel</PER> qui avait pâli . . . Cette jeune femme est <LOC>créole</LOC>.</SENTENCE>"
+########
+ <SENTENCE><PER>— Tu la connais</PER> ? — Un peu . . . Eh ! c ’ est la <PER>femme</PER> du <ORG>notaire</ORG> des <LOC>Ilerschoffeim</LOC> , fit <PER>M . de Belgarde</PER> en assujétissant son monocle . . . Je reconnais le <PER>mari</PER> .</SENTENCE>
+########
+ INPUT: "<SENTENCE>— Il est moins agréable à regarder que son épouse .</SENTENCE>"
+OUTPUT: "<SENTENCE>— Il est moins agréable à regarder que <PER>son épouse</PER> .</SENTENCE>"
+########
+ "<SENTENCE><PER>C ’ était Lavinia</PER> , en effet , accompagnée de <PER>Lapointe</PER> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>D ’ un geste souverain , elle rejeta , aux mains du laquais , son manteau de brocart vert pâle garni de légers marabouts et elle apparut , très svelte , très droite , très belle dans une robe de velours rouge à la mode de la <LOC>Restauration</LOC> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>La jupe, collant sur les hanches, s'évasait gracieusement, toute unie, sans broderies ni ruches. Le corsage aux épaules tombantes, découvrant la rondeur de l'épaule, était garni d'une berthe en point de Venise, plate, prenant exactement le tour de la poitrine et rejetant vers le coude l'ampleur bouffante de la manche. Une boucle de pierreries scintillait à la ceinture de la jeune femme, fermant la ceinture de satin rubis, très étroite. Aucun autre bijou, sauf un peigne d'écaille blonde, incrusté de diamants et planté dans les coques du chignon placé très haut.</SENTENCE>"
+OUTPUT: "<SENTENCE>La jupe, collant sur les hanches, s'évasait gracieusement, toute unie, sans broderies ni ruches. Le corsage aux épaules tombantes, découvrant la rondeur de l'épaule, était garni d'une berthe en point de Venise, plate, prenant exactement le tour de la poitrine et rejetant vers le coude l'ampleur bouffante de la manche. Une <HumanProd>boucle de pierreries</HumanProd> scintillait à la ceinture de la jeune femme, fermant la ceinture de satin <HumanProd>rubis</HumanProd>, très étroite. Aucun autre <HumanProd>bijou</HumanProd>, sauf un <HumanProd>peigne d'écaille blonde</HumanProd>, incrusté de diamants et planté dans les coques du chignon placé très haut.</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Sous ses noirs bandeaux ondulés , le visage mat de la créole éclatait de beauté heureuse et d ' orgueil satisfait .</SENTENCE>"
+OUTPUT: "<SENTENCE>Sous ses noirs bandeaux ondulés , le visage mat de la <PER>créole</PER> éclatait de beauté heureuse et d ' orgueil satisfait .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Elle fit un signe à son mari .</SENTENCE>"
+OUTPUT: "<SENTENCE>Elle fit un signe à <PER>son mari</PER> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>— Allons , venez - vous ? Le notaire n ’ avait pas , lui , une mine triomphatrice .</SENTENCE>"
+OUTPUT: "<SENTENCE>— Allons , venez - vous ? Le <PER>notaire</PER> n ’ avait pas , lui , une mine triomphatrice .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Il admirait Lavinia , mais son admira¬ tion était mêlée de regret et d ’ inquié¬ tude .</SENTENCE>"
+OUTPUT: "<SENTENCE>Il admirait <PER>Lavinia</PER> , mais son admira¬ tion était mêlée de regret et d ’ inquié¬ tude .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>De regret , parce qu'il eût préféré que sa femme fut un peu moins brillante et un peu plus tendre .</SENTENCE>"
+OUTPUT: "<SENTENCE>De regret , parce qu'<PER>il</PER> eût préféré que <PER>sa femme</PER> fut un peu moins brillante et un peu plus tendre .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>D ' inquiétude , parce qne , malgré les tarifs énoncés par <ORG>Lavinia</ORG> , la splendeur de la robe rouge et du point de Venise , lui faisait craindre l ' apparition de factu¬ res exorbitantes .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Sans avoir aperçu <PER>Fréhel</PER> , le couple entra dans les salons .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Le bal commençait, entrecoupé de concert, ce qui imposait un peu de repos aux danseuses les plus intrépides. L' <ORG>orchestr</ORG>e était dissimulé dans une sorte de loggia drapée de velours bleu ancien. </SENTENCE>"
+########
+ "<SENTENCE>Au centre du salon , devant une chemi<LOC>née monumentale</LOC> , <PER>Noémi Herschoffeim</PER>, parée comme une reine , saluait ses in<PER>vités</PER> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Son père , fatigué mais rayonnant , se tenait près d ’ elle .</SENTENCE>"
+OUTPUT: "<SENTENCE>Son <PER>père</PER> , fatigué mais rayonnant , se tenait près d ’ elle .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>La jeune fille serra affectueusement la main de <PER>Lavinia</PER> : — Vous êtes belle à ravir , lui dit - elle . . .</SENTENCE>"
+########
+ "<SENTENCE>mais vous ne connaissez <PER>personne</PER> ici , il faut que je vous présente à quelques <PER>amies</PER> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Et se tournant vers un <PER>homme</PER> qui la saluait : — Voici un <PER>cavalier</PER> pour vous . . . <PER>Monsieur de Frémeuil</PER> , je vous confie <PER>Mme Lapointe</PER> . Vous me remercierez demain .</SENTENCE>"
+########
+ <SENTENCE>Ainsi , le 25 mars 1787 , le <PER>baron de Breteuil</PER> , <ORG>ministre de Paris</ORG> , voulant obtenir une place de concierge des ateliers du Roule pour un protégé , écrit au <ORG>prévôt des maréchands</ORG> et le presse de faire expédier la commission pour que le nouveau concierge puisse s'installer «aussitôt que le sieur Houdon aura évacué le logement qu'il occupe».</SENTENCE>
+########
+ "<SENTENCE><PER>Il</PER> a demandé un délai de six mois J ' ai marqué à <PER>M . le pro\-</PER><ORG>procureur du roi</ORG><PER>qu ' on pourrait l ’ accorder</PER> en ce qui concerne les magasins où sont dépo\- sés les différents objets qui composent son atelier , mais que , quant au logement , il était indispensable qu ’ il fût évacué ( 1 ) .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>De fait, et bien que le protégé du <PER>baron de Breteuil</PER> ait obtenu sa place, il ne paraît pas que <PER>Houdon</PER> ait jamais abandonné tota\- lement ses ateliers du <LOC>Roule</LOC> .</SENTENCE>"
+########
+ <SENTENCE>D ' autre part , il avait depuis quelque temps maille à partir avec le <ORG>"conservatoire de la Bibliothèque du Roi</ORG> . » Il y possédait un autre atelier , d ' abord dans la salle du rez - de - chaussée , qui s ' ouvre sur la cour par des portes - fenêtres , et à laquelle on accède par trois marches , puis dans l ' ancienne salle du Zodiaque , en même temps que le graveur <PER>Augustin de Saint - Aubin</PER> . Mais si l ' on pense que ce dernier , qui était attaché à la Bibliothèque à titre officiel ( 2 ) , fut , vers la fin de sa vie , en continuelles discussions avec le <ORG>"conservatoire</ORG>" , on pourra s ' imaginer quels furent les démêlés de <PER>Houdon</PER> qui , lui , n ' était là qu ' à titre provisoire .</SENTENCE>
+########
+ <SENTENCE>Mais le <PER>sculpteur</PER> était tenace , et « <ORG>le conservatoire de la Bibliothèque</ORG> eut beau lui signifier son congé à diverses reprises , le citer devant le juge de paix comme un locataire récalcitrant , ce fut la Bibliothèque<LOC> du Roi </LOC>qui céda . ( 1 ) » Bien mieux , il se servit de cette situation comme d ' une ingénieuse réclame ; et l ' on peut lire , dans le <HumanProd>Journal de Paris</HumanProd> du <DATE>10 mars 1778</DATE> , un avis ainsi formulé : « <PER>M . Houdon</PER> , se trouvant forcé de faire enlever incessamment tous les ouvrages qui sont dans la Bibliothèque<LOC> du Roi </LOC> , croit devoir en prévenir les amateurs , ceux en¬ tre autres qu ' il avait invités à venir voir le buste de <PER>Molière</PER> , dont il vient de terminer le modèle . . . » <PER>L ’ artiste</PER> , qui fut demeurer au <LOC>Louvre</LOC> en <DATE>1797</DATE> , puis à <ORG>l ’ Institut</ORG> , après <DATE>1803</DATE> , conserva cet atelier jusqu ' à sa mort , si l ’ on en croit la <HumanProd>Notice des objets d ' art</HumanProd> que <PER>Raoul Rochette</PER> rédigea pour servir de catalogue à sa vente après décès et sur laquelle on lit : « Cette vente se fera le lundi <DATE>15 décem¬ bre 1828</DATE> et jours suivants dans l ’ atelier de feu <PER>M . Houdon</PER> , cour de la Bibliothèque<LOC> du Roi </LOC> , rue de Richelieu , de midi à 4 heures de relevée . » A cette époque , le <HumanProd>Voltaire assis</HumanProd> avait pris place au foyer de la <ORG>Comédie - Fran¬ çaise</ORG> et , depuis <DATE>1810</DATE> , le plâtre original .</SENTENCE>
+########
+ "<SENTENCE>offert également par <PER>Mme Duvivier</PER> , était venu enrichir la <HumanProd>Bibliothèque</HumanProd> .</SENTENCE>"
+########
+ <SENTENCE>Il y est toujours conservé, loin du pu¬ blic, dans la petite salle qui fait communi¬ quer le <LOC>Cabinet des médailles</LOC> avec la <LOC>Réserve des imprimés</LOC> et la <LOC>Galerie des char¬ tes</LOC>, du côté de la <LOC>rue de Richelieu</LOC>.</SENTENCE>
+########
+ "<SENTENCE>Nous pourrions ajouter un détail encore : le socle cubique , sur lequel repose la sta\-<LOC>tue</LOC>, porte un cartel de bronze avec lcette inscription : « Cœur de <PER>Voltaire</PER> remis à la Biblothèque impériale par les héritiers du marquis de Villette , 1804 . » Mais les mauvaises langues prétendent que la statue fut descendue et le socle sou\-<LOC>levé</LOC> , il y a quelques années , et que l ' on n ' y trouva pas trace de l ' urne en plomb ren\- fermant le cœur du philosophe ! <HUMANPROD>PEDAGOGIE</HUMANPROD> Du 26 novembre 1900 Les institutrices en retraite ci - après dési\- gnées sont nommées institutrices honorai\- res : <PER>Mlle Cottereaux</PER> ( <PER>Malvina</PER> ) , à <LOC>Fontaine - les - Vervins</LOC> ( <LOC>Aisne</LOC> ; <PER>Guyot</PER> ( <PER>Palmyre</PER> ) , à <LOC>st - Quentin</LOC> ( <LOC>id .</LOC></SENTENCE>"
+########
+ "<SENTENCE>) <PER>Jacquet</PER> ( <PER>Césarine</PER> ) , à <LOC>Mondrepuis</LOC> ( <REF>id.</REF> </SENTENCE>"
+########
+ "<SENTENCE>) ; <PER>Mme Leclerre</PER> , née <PER>Caron</PER> , à <LOC>Ohis</LOC> ( id .</SENTENCE>"
+########
+ "<SENTENCE>) ; <PER>Mlles Legendre</PER> ( <PER>Marie</PER> ) , à <LOC>St - Quentin</LOC> ( id .</SENTENCE>"
+########
+ "<SENTENCE>) <PER>Rulhmann</PER> ( <PER>Rosine</PER> ) , à <LOC>Belfort</LOC> ; <PER>Mmes</PER> <PER>Grand</PER> , à <LOC>Lyon ( Rhône )</LOC> ; <PER>Lyonnet</PER> , à <LOC>Lyon ( id .</LOC></SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>) ; <PER>Mlle Beugnon</PER> ( <PER>Elisabeth</PER> ) , à <LOC>Tournus ( Saône - et - Loire )</LOC> ; <PER>Mme Misset</PER> , née <PER>Ancelle</PER> ( <PER>Marie - Anne</PER> ) , à <LOC>Châlon - sur - Saône ( id .</LOC></SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>) ; <PER>Mlle Alaux</PER> , à <LOC>Paris</LOC> ; <PER>Mmes Bordeley</PER> , née <PER>Laccarrière</PER> , à <LOC>Paris</LOC> ; <PER>Guillard</PER> , née <PER>Sourd</PER> , à <LOC>Paris</LOC> ; <PER>Mlle Guiot</PER> ( <PER>Marie</PER> ) , à <LOC>Paris</LOC> ; <PER>Mme Chavarot</PER> , née <PER>Noirel</PER> , à <LOC>Paris</LOC> ; <PER>Mlles Fleurontino</PER> , à <LOC>Serrouville</LOC> ( <LOC>Meurthe-et-Moselle</LOC> ) ; <PER>Jolas</PER> ( <PER>Anne-Marie</PER> ) , à <LOC>Villers-la-Montagne</LOC> ( id .</SENTENCE>"
+########
+ "<SENTENCE>) ; <PER>Mathelino</PER> ( <PER>Louise</PER>) , à <LOC>Saulnes</LOC> ( id .</SENTENCE>"
+########
+ "<SENTENCE>) : <PER>Moineaux</PER> ( <PER>Philomène</PER> ) , à <LOC>Beuvey</LOC> ( id .</SENTENCE>"
+########
+ "<SENTENCE>) <PER>Muller</PER> <PER>( Marie )</PER> à <LOC>Nancy</LOC> <ORG>( id .</ORG></SENTENCE>"
+########
+ "<SENTENCE>) .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Du 22 décembre 1900 <PER>Les institutrice</PER> en retraite ci - après dési¬ gnées sont nommées <HumanProd>institutrices honorai¬ res</HumanProd> : <PER>Mlles Roman</PER> ( <PER>Clémentine</PER> ) , à <LOC>Laumain ( Vaucluse )</LOC> ; <PER>Roux</PER> ( <PER>Victoire</PER> ) , à <LOC>Calrières¬ d ' Aigues ( id .</LOC></SENTENCE>"
+########
+ "<SENTENCE>) ; <PER>Lenormant</PER> ( <PER>Pauline</PER>) , à <LOC>Rouen</LOC> ( <LOC>Seine - Inférieure</LOC>) : <PER>Loron</PER> ( ) , à <LOC>Blos\-seville - Pensecours</LOC> ( <LOC>id</LOC>, ) ; <PER>Dercourt</PER> ( <PER>Eudoxie</PER>) , à <LOC>Estrées - en - Crécy</LOC> ( <LOC>Somme</LOC>) ; <PER>Chauvet</PER> ( <PER>Fé\-</PER> ( <PER>I</PER> )) , <HUMANPROD>H . Monin</HUMANPROD> . <HUMANPROD>L ' etat de Paris en 1780</HUMANPROD> . — <LOC>P ' aris</LOC> , 1889 , in - 8 .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>( 2 ) Il avait succédé à <PER>Fessard</PER> en 1778 , et y resta jusqu ' à sa mort ( 1807 ) . — <ORG>Almanach royal</ORG> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>TOCUMENTS <ORG>OFFICIELS</ORG> Sous ce titre , la Fronde publie une sé¬ rie de rapports <ORG>officiels</ORG> relatifs à l ' Expo¬ sition .</SENTENCE>"
+########
+ "<SENTENCE><ORG>Direction des services d'architecture et des promenades et plantations de la Ville de Paris</ORG>.</SENTENCE>"
+########
+ INPUT: "<SENTENCE>2º La culture des plantes de serre ; 3º La culture fruitière de plein air et forcée ; 4º La culture maraîchère de plein air et forcée ; 5º Le dessin des jardins ( éléments de planimétrie et de nivellement ) .</SENTENCE>"
+OUTPUT: "<SENTENCE>2º <HUMANPROD>La culture des plantes de serre</HUMANPROD> ; 3º <HUMANPROD>La culture fruitière de plein air et forcée</HUMANPROD> ; 4º <HUMANPROD>La culture maraîchère de plein air et forcée</HUMANPROD> ; 5º <HUMANPROD>Le dessin des jardins ( éléments de planimétrie et de nivellement )</HUMANPROD> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>L ’ enseignement théorique comprend : 1º <HUMANPROD>La culture générale</HUMANPROD> ; 2º <HUMANPROD>L ' arboriculture fruitière</HUMANPROD> ; 3º <HUMANPROD>L ' arboriculture d ’ ornement</HUMANPROD> ; 4º <HUMANPROD>La Horiculture de serres</HUMANPROD> ; 5º <HUMANPROD>La floriculture de plein air</HUMANPROD> ; 6º <HUMANPROD>La culture maraîchère et de primeurs</HUMANPROD> ; 2º <HUMANPROD>La botanique</HUMANPROD> ; 8º <HUMANPROD>Le dessin des jardins</HUMANPROD> , le lever de plan , le nivellement ; 9º <HUMANPROD>La géométrie</HUMANPROD> et les sciences naturelles appliquées ; 10º <HUMANPROD>Le français</HUMANPROD> , l ' arithmétique et la comp\- bilité .</SENTENCE>"
+########
+ "<SENTENCE>Les <PER>élèves apprentis</PER> sont recrutés chaque année par voie de concours.</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Ils doivent être Français et avoir qua¬ torze ans au moins , dix - sept ans au plus , au moment du concours .</SENTENCE>"
+OUTPUT: "<SENTENCE>Ils doivent être <LOC>Français</LOC> et avoir qua¬ torze ans au moins , dix - sept ans au plus , au moment du concours .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Cours de culture et d ' arboriculture . — La durée de ce cours est de deux années .</SENTENCE>"
+OUTPUT: "<SENTENCE>Cours de culture et d ' arboriculture . — La durée de ce <Non-annotated entities>cours</Non-annotated entities> est de deux années .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>1º année . — Cours de culture .</SENTENCE>"
+OUTPUT: "<SENTENCE>1º année . — Cours de culture .</SENTENCE>"
+
+In this sentence, there are no named entities that match the provided categories (PERSON, ORGANIZATION, LOCATION, or HUMAN PRODUCTION). Therefore, no additions are made to the input sentence.
+########
+ INPUT: "<SENTENCE>2e année . — Cours d ’ arboriculture .</SENTENCE>"
+OUTPUT: "<SENTENCE>2e année . — Cours d ’ arboriculture .</SENTENCE>"
+
+In this sentence, there are no named entities that match the provided categories (PERSON, ORGANIZATION, LOCATION, or HUMAN PRODUCTION).
+########
+ <SENTENCE>A la suite de ce cours , les <PER>auditeurs</PER> , quelle que soit leur nationalité , dont l ' assiduité et les connaissances ont été constatées par un certificat du professeur , visé par le directeur des cours , sont admis à passer l ' examen du 2e degré , à la fin duquel il est délivré trois sortes de certificats d ' aptitude , suivant les résultats des épreuves : 1º Le certificat nº 1 , équivalent à la mention « très bien » ; 2º Le certificat nº 2 , équivalent à la mention « bien » ; 3º Le certificat nº 3 , équivalent à la mention « assez bien » .</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>Le <PER>professeur d ' arboriculture</PER> de <LOC>la ville de Paris</LOC> est spécialement chargé de ce cours .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Conférences . — <ORG>Le directeur</ORG> et <ORG>le professeur - inspecteur des études</ORG> proposent chaque année , suivant les ressources mises à leur disposition et après avis conforme de <ORG>la commission de surveillance</ORG> , le nom¬bre et la date des conférences .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Ces conférences ont lieu dans les jardins du <LOC>cours</LOC> et commencent après la clôture du cours public d ' arboriculture, d ' aligne<LOC>ement</LOC> et d ' ornement . Elles sont faites par des <PER>professeurs</PER> ou des <ORG>horticulteurs</ORG> dis<LOC>tingués</LOC> proposés par le <PER>professeur - inspecteur</PER> des études et choisis par le <ORG>directeur</ORG> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Elles ont lieu le dimanche matin et du\-rent une heure au moins et deux heures au plus ; elles ont porté en 1899 et 1900 sur l'<HUMANPROD>arboriculture fruitière</HUMANPROD> et ont été faites par <PER>M . Nomblot</PER> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Les dates de conférences et les sujets traités sont portés à la connaissance du public par voie d ' affiche et par communi¬ cation à la presse <LOC>Jardins du pavillon de la Ville de Paris</LOC> Le <ORG>fleuriste municipal</ORG> <LOC>de la ville de Paris</LOC> , appelé à participer à l ' Exposition de 1900 , a été chargé d ' établir les jardinets du pavil¬ lon de la <ORG>ville</ORG> et de les orner de plantes .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Ces jardinets ont pour effet : 1º D ' encadrer de verdure l ’ extérieur du pavillon et d ’ en rehausser l ' aspect architec¬ tural .</SENTENCE>"
+OUTPUT: "<SENTENCE>Ces jardinets ont pour effet : 1º D ' encadrer de verdure l ’ extérieur du <LOC>pavillon</LOC> et d ’ en rehausser l ' aspect architec¬ tural .</SENTENCE>"
+########
+ "<SENTENCE>Dans cet ordre d ' idées , on a cherché à composer des massifs de végétaux variés de plein air , provenant des <ORG>pépinières municipales</ORG> , pour orner les abords des entrées du pavillon .</SENTENCE>"
+########
+ "<SENTENCE>2º A l'intérieur, dans le grand <LOC>hall</LOC>, où sont placées de nombreuses statues, il a été établi des parterres gazonnés, avec plates-bandes ornées de plantes décoratives de serre.</SENTENCE>"
+########
+ "<SENTENCE><PER>Léopoldine</PER> se promettait de sacrifier à cet amour celui de l ' argent, qui, jusqu'<LOC> ' alors</LOC>, avait tenu une grande place dans son existence; mais tous ses calcs avaient été déjoués par la froideur de <PER>Gaston</PER>; son mariage avec une femme belle et aimée venait encore mettre entre elle et lui le plus grand des obstacles; aussi <PER>Léopoldine</PER> prit-elle <PER>Marie</PER> en haine, et se</SENTENCE>"
+########
+ "<SENTENCE>rir; ce terrain leur est alloué non par la <ORG>couronne</ORG>, mais par le <LOC>pays</LOC>, par les <ORG>propriétaires fonciers</ORG>Les <LOC>provinces</LOC> sont, à cet effet, divisées en un très grand nombre de circonscriptions appelées <LOC>rote</LOC>, quissont méés <LOC>torp</LOC>. Ce sont ces <LOC>forps</LOC> qui constituent l'<LOC>habitation</LOC> du <PER>soldat</PER>. Le <LOC>torp</LOC> est pourvu d'une <LOC>maison</LOC> et de tous les instruments propres à la culture; le <PER>soldat</PER> reçoit tous les deux ans, des <LOC>communes</LOC> formant le <LOC>rote</LOC>, un équipement de petite tenue. Si le <LOC>torp</LOC> ne suffit pas aux besoins du <PER>soldat</PER>, le <LOC>rote</LOC> y subvient par une rente en blé. En général, il existe des arrangements entre le <PER>propriétaire</PER> réel du <LOC>domaine</LOC> sur lequel est situé le <LOC>torp</LOC> et le <PER>soldat</PER> usufruitier de ce <LOC>torp</LOC>. À la mort du <PER>soldat</PER>, le <LOC>rote</LOC> prend soin de la famille, et le <LOC>torp</LOC> passe en d'autres mains.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>» <LOC>Ici</LOC> nous trouvons quelque chose de semblable à ce qui a lieu dans les colonies militaires de <ORG>l ' Autriche</ORG> ; en temps de guerre , le <LOC>rote</LOC> est forcé de faire cultiver le <LOC>lorp</LOC> et de prendre soin de la famille du soldat , et le soldat en campagne est alors à la solde de <ORG>l ' Etat</ORG> . Des manœuvres ont lieu annuellement ; chaque régiment porte le nom de la province où il est établi .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>» <ORG>L ' armée indelta</ORG> possède de la cavalerie ainsi que de l ' infanterie . <ORG>L ' organisation</ORG> de la cavalerie repose sur un principe militaire essentiellement féodal : un certain nombre de domaines sont frappés de l ' obliga¬ tion perpétuelle de fournir un cavalier et un cheval avec équipement complet ; ces domaines portent le nom de <LOC>rustholt</LOC> . Le propriétaire du <LOC>rustholt</LOC> est obligé .</SENTENCE>"
+########
+ "<SENTENCE>de remplacer <PER>l ' homme</PER> ou <PER>le cheval</PER> , au besoin <PER>l ' un</PER> et <PER>l ' autre</PER> , en cas de mort , et de monter lui - même à cheval , s ' il ne peut fournir un remplaçant .</SENTENCE>"
+########
+ "<SENTENCE>» Le <ORG>gouvernement suédois</ORG> a résolu , à l ' aide de l ' <ORG>indelta</ORG> , une question qui a été agitée par les <ORG>écono¬ mistes</ORG> , alors que le <ORG>socialisme</ORG> ne leur avait point posé de problèmes plus graves ; les <HUMANPROD>soldats</HUMANPROD> ainsi organisés sont employés aux <LOC>travaux publics</LOC> . La <LOC>canalisation de la Suède</LOC> leur est due en partie . Naturellement , ce <HUMANPROD>travail</HUMANPROD> n ' est point gratuit ; mais le <HUMANPROD>salaire</HUMANPROD> est peu élevé et ne dépasse guère un terme moyen de 10 <CURRENCY>sous</CURRENCY> par <TIME>journée</TIME> . L ' <ORG>indelta</ORG> se compose d ' environ 34 , 000 <HUMANPROD>hommes</HUMANPROD> .</SENTENCE>"
+########
+ "<SENTENCE>La seconde partie de <ORG>l ' armée</ORG> , c ' est la <ORG>wœerfvade</ORG> ou <ORG>armée permanente</ORG> , recrutée par <ORG>enrôlemens vo┆ontaires</ORG> ; elle se compose des <ORG>corps spéciaux</ORG> qui font le service des <LOC>garnisons</LOC> , des <LOC>forteresses</LOC> et de la <LOC>cour</LOC> ; elle est peu nombreuse ; elle ne comprend que 8 , 000 hommes à peine . La troisième partie de <ORG>l ' armée</ORG> , la <ORG>bevœring</ORG> , est la plus nombreuse , car elle peut attein┆re à 130 , 000 hommes ; mais elle n ' est point perma┆nente ; elle comprend tous les <PER>Suédois</PER> âgés de 21 à 25 ans : c ' est une sorte de <ORG>réserve</ORG> qui tient de la <ORG>land┆vehr prussienne</ORG> et qui en a même originairement porté le nom . Son service consiste , en temps de paix , à se rassembler tous les ans au mois de juin et à prer┆re part à des <HumanProd>manœuvres militaires</HumanProd> dont la durée est ordinairement de 14 jours . La <ORG>bevœring</ORG> ne reçoit de solde que sous les armes .</SENTENCE>"
+########
+ "<SENTENCE>» . <ORG>L ' armée norwégienne</ORG> possède , ainsi que sa con¬ stitution l ' ordonne , une organisation à part . Elle se divise en deux parties : les forces permanentes et la <ORG>landwehr</ORG> . Les troupes permanentes forment un effec¬ tif de 14 , 000 hommes , dont quelques milliers se re¬ crutent par engagemens volontaires . La <ORG>landwehr</ORG> s ' élève à environ 9 , 000 hommes . Il existe , en outre , en <LOC>Norwége</LOC> , des gardes bourgeoises dans les villes .</SENTENCE>"
+########
+ "<SENTENCE>» <LOC>La marine</LOC> de la <LOC>Suède</LOC> est en - rapport avec son armée . Ce pays possède le fer et une partie du bois et du chanvre qui lui sont nécessaires pour les construc¬ tions . Le système de construction adopté dans la ma¬ rine <LOC>suédoise</LOC> est , de l ' avis des hommes de l ' art , très savamment combiné . <LOC>Carlscrona</LOC> , <LOC>Stockholm</LOC> et <LOC>Got¬tembourg</LOC> sont les stations de la fl tte , qui ne compte pas moins de 10 vaisseaux , 8 frégates , 8 bricks et cor¬ vettes , 6 schooners , 8 bâtimens à mortier , 22 bâtimens de transport . La partie la plus soignée du système maritime de la <LOC>Suède</LOC> , c ' est la flottille , ce sont les cha¬ loupes canonnières , dont on s ' accorde à louer la con¬ struction ingénieuse , et qui , tirant très peu d ' eau , sont parfaitement appropriées à la défense de rivages parsemés d ' iles . Le nombre deces chaloupes est de 256 .</SENTENCE>"
+########
+ "<SENTENCE>» <LOC>La flotte norwégienne</LOC> n ' a point de vaisseaux de haut - bord ; elle compte 2 frégates , 3 corvettes , 1 brirk , 5 schooners , 4 bateaux à vapeur et 132 chaloupes canonnières . » La <LOC>marine suédoise</LOC> compte 7 amiraux , 40 capitaines de vaisseau et 200 autres officiers . Le nombre des marins disponibles portés sur les contrôles est de 30 , 000 environ .</SENTENCE>"
+########
+ "<SENTENCE>La <ORG>marine norwégienne</ORG> compte 28 , 
+########
+ "<SENTENCE>Pjamais <PER>luipardonner</PER> d ' être à la fois Elle ne savait point encore comment elle se venge<SUB>GER</SUB>ait ; mais , décidée à se venger , elle résolut , avant toute chose , d ' inspirer à <PER>Gaston</PER> la plus grande con<SUB>FIANCE</SUB> . L ' ayant rencontré au théâtre quelques jours avant son mariage , elle le prit à part , et <PER>Gaston</PER> fut aussi touché qu ' étonné de l ' accent rempli de franchi<SUB>SE</SUB> avec lequel <PER>Léopoldine</PER> lui souhaita autant de bon<SUB>HEUR</SUB> que sa femme avait de beauté .</SENTENCE>"
+########
+ <SENTENCE>Après cette scène , <PER>Saugé</PER> se mit en route , et vers huit heures du soir il se trouvait sur la grande route d' <LOC>Orléans</LOC> à <LOC>Paris</LOC> , à peu de distance de <LOC>Montlhéry</LOC> , au bas de la <LOC>Butte - Rouge</LOC> , endroit fameux , autrefois par les arrestations des brigands ; il était assis dans sa charrette , le dos appuyé contre l' une des ridelles , lorsqu' il entendit une petite explosion d' arme à feu et vit une lueur devant ses yeux , la bâche de la voiture avait un petit trou fait par une chevrotine . Aux cris qu' il poussa arrivèrent plusieurs personnes et la <ORG>gendarmerie</ORG> .</SENTENCE>
+########
+ INPUT: "<SENTENCE>Saugé désigna de suite comme son agresseur Renault , sans l ' avoir vu toutefois ; car le coup était parti du côté opposé à la lumière de la voiture .</SENTENCE>"
+OUTPUT: "<SENTENCE>Saugé désigna de suite comme son <PER>agresseur</PER> <PER>Renault</PER> , sans l ' avoir vu toutefois ; car le coup était parti du côté opposé à la lumière de la voiture .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Aussitôt de retour à <LOC>la Ville - du - Bois</LOC> , on chercha <PER>Renault</PER> , que l ' on trouva ruisselant de sueur et en sabots ; on lui fit observer que ce n ' était pas avec des sabots , propres surtou.</SENTENCE>"
+########
+ <SENTENCE>comme ceux qu'<PER>il</PER> portait, qu'<PER>il</PER> avait du s'échauffer ainsi. On lui demanda ses souliers; il en apporta de vieux, hors d'usage. Sur l'observation qui lui fut faite à ce sujet, il sortit — Je vous la promets, mais n'en dites rien, si vous ne voulez pas que j'échoue! <PER>Mario</PER> trouva là l'<PER>abbé Poulain</PER> très fatigué, et enchanté d'avoir quelques semaines de congé. Il avait si chaudement servi <PER>Mario</PER>, que celui-ci l'invita à venir se reposer à <LOC>Briantes</LOC>, et ils partirent ensemble, l'abbé se faisant fête d'aller célébrer ostensiblement le mariage des deux jeunes gens.</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>Nos <PER>voyageurs</PER> se mirent en route par une <LOC>chaleur dévorante</LOC> . On était aux pre¬ miers jours de <TIME>juillet</TIME> . Le pays qu ' ils tra¬ versaient , ravagé par la guerre , n ' avait plus un arbre , plus une chaumière debout .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Par ordre du <PER>roi</PER> , les <ORG>troupes</ORG> avaient fait le <LOC>dégât autour des villes rebelles</LOC> pour af<> famer les <LOC>habitans</LOC> .</SENTENCE>"
+########
+ "<SENTENCE>— Nous traversons un incendie dit <PER>l ' abbé</PER> à <PER>Mario</PER> ; le <LOC>soleil</LOC>nous traite comme nous avons traité cette pauvre <LOC>terre</LOC> , et je crois que nos vêtemens vont prendre feu .</SENTENCE>"
+########
+ <SENTENCE>— De vrai , monsieur l' <PER>abbé</PER> , dit <PER>Clindor</PER> , qui aimait à se mêler de la conversation , on sent par ici une bien méchante odeur de brûlé ! — En effet , dit <PER>Mario</PER> , quelque maison brûle encore derrière cette colline ; ne voyez - vous pas de la fumée ? — C' <LOC>"est peu de chose</LOC>" , dit l' <PER>abbé</PER> . Quelque petite masure . J' <PER>avoue</PER> , <PER>monsieur le comte</PER> , que je suis las de tant de maux . Je haïssais les <HumanProd>huguenots</HumanProd> autrefois ; à présent qu' <HumanProd>ils sont par terre</HumanProd> , je fais comme vous , je les plains . J' <PER>ai vu</PER> l' <LOC>affaire de Privas</LOC> . Eh bien ! j' <PER>en ai assez</PER> , et je défie les plus gourmands de vengeance de n' <PER>en pas être rassasiés</PER> .</SENTENCE>
+########
+ INPUT: "<SENTENCE>— Je le crois ! dit <PER>Mario</PER> en soupirant ; mais écoutez donc ces cris , monsieur l ' abbé , il y a par là des gens en grande détresse . Allons - y voir .</SENTENCE>"
+OUTPUT: "<SENTENCE>— Je le crois ! dit <PER>Mario</PER> en soupirant ; mais écoutez donc ces cris , monsieur l ' abbé , il y a par là des gens en grande détresse . Allons - y voir .</SENTENCE>"
+########
+ <SENTENCE>Effectivement, on entendait, derrière la <LOC>colline d' où montait la fumée</LOC>, <PER>des cris</PER>, ou plutôt un seul cri prolongé, perçant, atroce en cherchant d'autres, et disparut. Il se rendit alors chez <PER>la lemme Saugé</PER>, à laquelle il dit en entrant : « <PER>Laurence</PER>, veux-tu mourir avec moi ? » Il éprouva un refus et se retira.</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>Le lendemain matin , il se rendit chez <PER>le maire</PER> pour protester de son innocence ; mais troublé bientôt et convaincu par le rapprochement de ses souliers avec les empreintes laissées par l'auteur du crime , il s'avoua l'<ORG>auteur</ORG> de la tentative de meurtre .</SENTENCE>"
+########
+ <SENTENCE>La femme <PER>Saugé</PER> était âgée de trente ans ; elle avait quelque éducation et conservait une assez bonne tenue , quoique le bruit public la désignât comme d' une conduite fort légère , ce que dénie le mari , qui , à l' audience même , défend la mémoire de sa femme . Après les aveux de <PER>Renault</PER> , qui confessait en même temps les relations intimes existant depuis quatre ans avec la femme <PER>Saugé</PER> ; celle - ci fut arrêtée et interrogée ; elle nia toutes relations adultères et sa participation au crime , et la nuit qui suivit son interrogatoire , elle mit fin à ses jours en se pendant dans la chambre de sûreté où elle était enfermée .</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>L ' <PER>accusé</PER> est un gros et fort garçon , qui pa¬ raît d ' une intelligence assez obtuse ; l ' <ORG>arme</ORG> dont il s ' est servi n ' a pas été retrouvée : c ' est un <ORG>pistolet</ORG> de salon , qu ' il avait acheté trois ou quatre mois avant son <ORG>crime</ORG> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>L ' expert armurier , interrogé sur l ' effet que peut produire le projectile lancé par cette arme , fait connaître que ces pistolets ne contiennent pas de charge de poudre , et que la petite balle n ' est chassée que par l ' explosion de la poudre fulminante de la capsule ; que cette petite balle peut atteindre à près de vingt mètres ; qu ' à quatre ou cinq mètres , elle peut entrer dans le corps et faire une blessure profonde ; mais que cette balle est si petite qu ' elle ne doit pas donner la mort , à moins qu ' elle ne touche quelque partie essentielle du corps .</SENTENCE>"
+OUTPUT: "<SENTENCE>L ' <PER>expert armurier</PER> , interrogé sur l ' effet que peut produire le projectile lancé par cette arme , fait connaître que ces pistolets ne contiennent pas de charge de poudre , et que la petite balle n ' est chassée que par l ' explosion de la poudre fulminante de la capsule ; que cette petite balle peut atteindre à près de vingt mètres ; qu ' à quatre ou cinq mètres , elle peut entrer dans le <LOC>corps</LOC> et faire une blessure profonde ; mais que cette balle est si petite qu ' elle ne doit pas donner la mort , à moins qu ' elle ne touche quelque partie essentielle du <LOC>corps</LOC> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>L ' accusation a été soutenue par <PER>M . Genreau</PER> , et la défense présentée par <PER>Me Desmarest</PER> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Le jury a apporté une réponse affirmative en écartant la préméditation et le guet - apens , et en admettant les circonstances atténuantes .</SENTENCE>"
+OUTPUT: "<SENTENCE>Le jury a apporté une réponse affirmative en écartant la <NON_ANNOTATED>préméditation</NON_ANNOTATED> et le <NON_ANNOTATED>guet - apens</NON_ANNOTATED> , et en admettant les <NON_ANNOTATED>circonstances atténuantes</NON_ANNOTATED> .</SENTENCE>"
+########
+ "<SENTENCE><ORG>Renault</ORG> a été condamné à douze ans de tra<> vaux forcés .</SENTENCE>"
+########
+ "<SENTENCE><HumanProd>( Gazette des Tribunaux </HumanProd>. </SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>) Le <ORG>tribunal correctionnel de Reims</ORG> , dans son audience du 13 février , a condamné la <PER>femme Lorinet</PER> à trois mois de prison et <PER>Nico¬ las Jesson</PER> à six mois de prison et 500 fr . d ' a¬ mende . Ces deux prévenus sont convaincus du délit de publication et de reproduction d ' u¬ ne fausse nouvelle de nature à troubler la paix publique .</SENTENCE>"
+########
+ <SENTENCE>En effet, le 14 janvier, quelques heures avant que la capitale ne fût effrayée par l'explosion des bombes homicides que des conspirateurs <LOC>italiens</LOC> jetaient sous la voiture de l'<PER>empereur</PER>, une femme annonçait à <LOC>Reims</LOC>, dans la boutique d'un coiffeur, qu'il se passerait à <LOC>Paris</LOC>, du 15 au 20 janvier, quelque chose d'assez grave pour qu'une révolution dût s'en suivre.</SENTENCE>
+########
+ "<SENTENCE>Ce propos fut répété par le <PER>coiffeur</PER> à d ' au¬ tres <PER>personnes</PER> .</SENTENCE>"
+########
+ <SENTENCE>Le lendemain, lorsque <HumanProd>le Moniteur</HumanProd> vint faire connaître qu'une conspiration avait mis en péril les jours de l'empereur, une des personnes qui avaient eu connaissance du propos tenu chez <LOC>Jesson</LOC> fut frappée de la coïncidence singulière de cette lugubre prophétie avec l'événement qui excitait partout en <LOC>France</LOC> une si vive indignation; elle s'écria: «Cette coquine de femme qui prédisait hier une révolution avait raison.» La justice en fut informée; elle sut bientôt le nom de la femme qui avait tenu le propos; mais ni cette personne ni le coiffeur ne voulurent d'abord convenir de s'être jamais rencontrés. On dut croire, devant leur insistance à nier le propos dont on leur demandait compte, qu'ils avaient intérêt à cacher la vérité; tous deux furent incarcérés.</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>La <PER>femme Lorinet</PER> reconnaît , à l ' audience , qu ' elle a continué à recevoir des communica¬ tions de son mari , <ORG>condamné politique</ORG> , aujourd ' hui détenu au <LOC>Mont - Saint - Michel</LOC> ; mais elle nie avoir tenu à son co - prévenu <PER>Jesson</PER> le propos que celui - ci lui impute .</SENTENCE>"
+########
+ "<SENTENCE>Il n'est évidemment ici question que des <Non-annotated>doctrines</Non-annotated> ; car je crois d'ailleurs et en fait que c'est calomnier notre industrie que de dire que ses représentants aient jamais réclamé une protection exagérée. J'ai assisté récemment à des meetings industriels, et jamais je n'ai vu notre industrie <Non-annotated>La vérité est qu'en présence de protectionnistes très modérés il y a une tendance à faire table rase.</Non-annotated></SENTENCE>"
+########
+ "<SENTENCE>( <ORG>Mouvement</ORG> .</SENTENCE>"
+########
+ "<SENTENCE>) <PER>M . LE COMTE DE BUTENVAL</PER> : Je demande la parole .</SENTENCE>"
+########
+ "<SENTENCE><PER>M . LE MINISTRE</PER>: p d compte d ' aucun fait existant, d ' aucun intérêt et ses principes avec une ardeur de sectaires. ( Druit .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>) <PER>M . ROUHER</PER> : C ' est un mauvais mot ; les sec¬ taires sont ceux qui demandent la dénonciation des <ORG>traités de commerce</ORG> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><PER>M . LE MINISTRE</PER> : Je n ' applique le mot à per\- <ORG>sonne</ORG> dans cette enceinte ; mais j ' ai le droit de dire qu ' il y a au dehors une école économique qui poursuit la réalisation des théories du libre\- <HumanProd>échange</HumanProd> avec une ardeur de sectaires . ( Adhésion sur quelques bancs .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>) Car elle ne tient compte ni des faits acquis . ni des intérêts créés ; ce n ' est pas là une politique que le <ORG>gouvernement</ORG> puisse accepter . ( Nouvelle adhésion .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>) Le <ORG>gouvernement</ORG> croit nécessaire de tenir le plus grand compte des faits et de consulter , avant de se prononcer , tous les hommes compétents et expérimentés . Le <ORG>cabinet actuel</ORG> ne s ' est jamais écarté durant les premiers jours de son existence encore si courte . Nous aurons plus tard l ' occa¬ sion de le démontrer de nouveau en traitant la question des <HumanProd>admissions temporaires</HumanProd> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>L ' <PER>honorable M . Michel Chevalier</PER> vous disait tout à l ' heure : Le <ORG>gouvernement</ORG> , malgré la con\- conclusión un peu libérale de ses déclarations , ne s ' est pas assez nettement prononcé , et un <ORG>cabinet</ORG> qui s ' intitule libéral doit l ' être en toute chose .</SENTENCE>"
+########
+ "<SENTENCE>Ma <PER>réponse</PER> , à ce reproche , sera très simple : Oui , nous voulons être <HumanProd>libéraux</HumanProd> en toute chose .</SENTENCE>"
+########
+ <SENTENCE>Mais en matière économique, la première liberté pour un <LOC>pays</LOC>, c'est d'être le juge et le maître du régime qui lui convient. (Très bien! trés bien!) Je ne reconnais à personne, quels que soient l'énergie et l'autorité des convictions, le droit de dire au <LOC>pays</LOC>: Nous sommes convaincus que nous avons raison; et, quand bien même vous nous donneriez tort, nous persisterons dans notre opinion que c'est vous qui êtes dans l'erreur, et nous essayerons de vous l'imposer.</SENTENCE>
+########
+ OUTPUT: "<SENTENCE><PER>M . LE COMTE DE BUTENVAL</PER>: Qui a dit cela ? <PER>M . MICHEL CHEVALIER</PER>: Mais c ' est vous qui l ' avez dit par vos décrets du 10 janvier .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><PER>S . EXC . M . BUFFET</PER>, ministre des finances: Non, nous ne soustrayons pas nos tarifs, nos décrets, au contrôle, à la critique, au blâme, à l'abrogation même, des mandataires du pays. Par conséquent, nous sommes et nous restons fidèles à nos principes.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Je reviens à une observation de l' <PER>honorable M. Michel Chevalier</PER> , reproduisant un argument de l' <PER>honorable M. de Butenval</PER> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Il y a aujourd ' hui , nous dit - on , deux tarifs , le tarif légal , délibéré , accepté , consenti , à une épo¬ que déjà ancienne , par les représentants du pays .</SENTENCE>"
+OUTPUT: "<SENTENCE>Il y a aujourd ' hui , nous dit - on , deux tarifs , <ORG>le tarif légal</ORG> , délibéré , accepté , consenti , à une épo¬ que déjà ancienne , par les représentants du <LOC>pays</LOC> .</SENTENCE>"
+########
+ "<SENTENCE>— <ORG>Cirque national</ORG> ( boulevard des Filles - du - Calvaire ) , ce soir , Exercices équestres .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>atres <HumanProd>as péjatice</HumanProd> de <HumanProd>cone du Soir</HumanProd> . — Ces à 2 heures , sans préjudice de celle du soir .</SENTENCE>"
+########
+ "<SENTENCE>— Ces matinées sont spécialement consacrées aux <ORG>en - ants</ORG> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><LOC>Casino</LOC>, 16, <LOC>rue Cadet</LOC>. — <LOC>Bal</LOC> vendredi, <LOC>diman- che</LOC> - et <LOC>lundi</LOC>. — <LOC>Bals masqués</LOC> tous les mercredis.</SENTENCE>"
+########
+ INPUT: "<SENTENCE>DIACONUN MARURN R UIRS Etude de Me TATOUCHE, avoué au Mans.</SENTENCE>"
+OUTPUT: "<SENTENCE>DIACONUN MARURN R UIRS <ORG>Etude de Me TATOUCHE</ORG>, avoué au <LOC>Mans</LOC>.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>LA BRLLE TERRE DE BRESTRATI <LOC>Bituee communes de Belle . rafée , Dumcdn Sarthe </LOC> ) située <LOC>communes de Bette , l ' uje et Dumeaut sarthe )</LOC> comprenant le Châleau de Bresteau avec les re¬ serves et 8 fermes d ' une contenance totale de 230 héctares 36 ares 47 centiares .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Mise à prix ; 400 , 000 fr .</SENTENCE>"
+OUTPUT: "<SENTENCE>Mise à prix ; 400 , 000 <ORG>fr</ORG> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Le <LOC>château de Bresteau</LOC> est situé à 2 kilomètres de la <LOC>gare de Gonneré</LOC> , station de la ligne de <LOC>Paris</LOC> à <LOC>Brest</LOC> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>L ' adjudication aura lieu <DATE>le samedi 25 janvier 18/3</DATE> , à midi , en l ' étude de <PER>Me RAGUIDEAU</PER> , <ORG>notaire</ORG> au Mans , et par le ministère de <PER>Mes RAGUIDEAU</PER> ' et <PER>CHEVEREAU</PER> , <ORG>notaires</ORG> au Mans .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>A VENDRE sur le pied d'un revenu de 3 0 0 on e du <LOC>GRANDE PROPPINTE</LOC> dans le departe<LOC>ment du Nord</LOC> . kom du chemin de fer <LOC>Loute 35</LOC> , 00 frRaNeS à 2 klom , du chemin de fer <LOC>LOUEE 35</LOC> , 00 FRANCS par bail ayant encore dix ans a courir . <LOC>brai ( Nord )</LOC> . « AMAONES ObUE - LOMBARDES </SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><ORG>OTTOMANS</ORG> MRAIN , 5 0/0 , PAGRUES D OTRITOE . Parénent gratuit des coupons à échéance de janvier .</SENTENCE>"
+########
+ "<SENTENCE><ORG>OFFICE DU COMPTANT</ORG> , 1 , rue Saint - Georges . <HumanProd>CONSEILS AUX DAMES</HumanProd> <HumanProd>PRODUITS SPECIAUX</HumanProd> <HumanProd>RECOMMANDES</HumanProd> <HumanProd>LNETE VIOLET</HumanProd> <HumanProd>RT DU SAVON ROYAL DE THRIDACE</HumanProd> <HumanProd>PARFUMEUR BREVETE</HumanProd> , <LOC>PARIS</LOC> <HumanProd>DU SAVON ROYAL DE THRIDACE</HumanProd> <HumanProd>CRÈME DE BEAUTÉ</HumanProd> <HumanProd>A BASE DE GLYCENINE ET DE BISMUTR</HumanProd> . — Fraîcheur , Véloute , Ectat au teint .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><HumanProd>EXTRAITS TRIPLES D ' ODEURS</HumanProd> PARFUMS POUR LE MOUCHOIR : <HumanProd>Rose - Blanche</HumanProd> — <HumanProd>Ess - Bouquet</HumanProd> — <HumanProd>Foin - coupé</HumanProd> <HumanProd>Jockey - Club</HumanProd> — <HumanProd>Brises - de - Violettes</HumanProd> , 8c .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>GLYCÉRINES PARFUMÉES Indispensables pour conserver la santé , la beauté , la mor bidesse de la peau PASTILLES AMBROSIAQUES AU MASTIC DE CHIO Rygiène , Fraîcheur , Sudvite de l ' haleme .</SENTENCE>"
+OUTPUT: "<SENTENCE>GLYCÉRINES PARFUMÉES Indispensables pour conserver la santé , la beauté , la mor bidesse de la peau PASTILLES AMBROSIAQUES AU MASTIC DE CHIO</SENTENCE>"
+########
+ "<SENTENCE>Dépôt dans toutes les <LOC>villes</LOC> du monde .</SENTENCE>"
+########
+ "<SENTENCE>Pour éviter la contrefacon, exiger a <ORG>LA REINE DE ABEILLES</ORG> la marque de jabrique.</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Il surgit chaque jour des Pâtes et des Sirons , dis pectoraux , qui ne sont appuyés par aucune recommandation officielle ou scientifique.</SENTENCE>"
+OUTPUT: "<SENTENCE>Il surgit chaque jour des <ORG>Pâtes et des Sirons</ORG> , dis pectoraux , qui ne sont appuyés par aucune recommandation officielle ou scientifique.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Pour éviter toute confusion et faire connaître le mérite nest de ses préparations , <PER>M . DELANGRENIER</PER> publie l ' avis suivant: II n ' existe aucune ANALOGIE entre le <HumanProd>SIROP</HumanProd> et la <HumanProd>PATE</HumanProd> de <HumanProd>NAFÉ</HumanProd> de <PER>DELANGRENIER</PER> et les autres pectoraux .</SENTENCE>"
+########
+ "<SENTENCE>ILS S ' EN DISINGUENT.</SENTENCE>"
+########
+ INPUT: "<SENTENCE>jopertan compoaien anta las enle ver r auns titiene enaiante de Linnée ) , fruit étranger qui n ' a aucun rapport avèc les remèdes pectoraux connus .</SENTENCE>"
+OUTPUT: "<SENTENCE>jopertan compoaien anta las enle ver r auns titiene enaiante de <PER>Linnée</PER> ) , fruit étranger qui n ' a aucun rapport avèc les remèdes pectoraux connus .</SENTENCE>"
+########
+I've process 170 phrases!

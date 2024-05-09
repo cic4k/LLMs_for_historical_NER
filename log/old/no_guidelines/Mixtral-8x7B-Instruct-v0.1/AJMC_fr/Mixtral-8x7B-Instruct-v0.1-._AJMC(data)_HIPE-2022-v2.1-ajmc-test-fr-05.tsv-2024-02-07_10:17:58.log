@@ -1,0 +1,82 @@
+ <SENTENCE>- - - <PERS>Τελεσφόρος</PERS> <PERS>Δίχη</PERS> . <WORK>Les Grees</WORK> voyaient dans le châtiment la suite inévitable et , pour ainsi dire , le complément nécessaire du crime .</SENTENCE>
+########
+ <SENTENCE>. <WORK>. De ce datif ainsi employé seul, sans préposition comme sans épithète, <PERS>Schneidewin</PERS> rapproche mdotte dua vers 4410.</SENTENCE>
+########
+ "<SENTENCE>— <SCOPE>Le vers 4388</SCOPE> peut servir de commentaire à celui - ci .</SENTENCE>"
+########
+ <SENTENCE>4803 . <WORK>Σπέρμα</WORK> . . . . <WORK>πατρός</WORK> . <PERS>ΟἹ</PERS> . 4478 : <WORK>πατρὸς</WORK> ὅς σ᾽ ἐγείνατο .</SENTENCE>
+########
+ <SENTENCE>4394 - 4
+########
+ OUTPUT: "<SENTENCE>4410 . <LOC>Λνγρᾶs</LOC> <SCOPE>μνήματα</SCOPE> <LOC>Τροίας</LOC> , quæ me nunquam sinent funestæ <LOC>Trojæ</LOC> oblivisci . [ <WORK>Wunder</WORK> . ]</SENTENCE>"
+########
+ "<SENTENCE><DATE>421 - 218</DATE>, Καὶ πρὶν μὲν . . . . <LOC>Αἴἷας</LOC> .</SENTENCE>"
+########
+ <SENTENCE>Scholiaste : <OBJECT>Tñç vuxtepunç</OBJECT> ἐφόξδον τῶν πολεμίων χαὶ τῶν βελῶν ἀλεξητήριον ὧν ὁ <PERS>Aἷας</PERS>.
+</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>Ἡοπιὲτε appelle Α ͵ αχ ( <PERS>Π|αάε</PERS> , <WORK>ΥἹΙ</WORK> , <SCOPE>314</SCOPE>) : <WORK>Ἕρκος Ἀχαιῶν</WORK>.</SENTENCE>"
+
+In this sentence, the named entities are identified as follows:
+
+* "Ἡοπιὲτε" is not classified as any of the given types, so it remains as it is.
+* "Α ͵ αχ" is a specific portion of work (SCOPE) with the value "314".
+* "Π|αάε" is a person (PERS).
+* "ΥἹΙ" is a work (WORK).
+* "Ἕρκος Ἀχαιῶν" is also a work (WORK).
+########
+ <SENTENCE>4214 . <WORK>Ἀνεῖται</WORK> , <WORK>devotus est</WORK> , <WORK>consecratus est</WORK> . Cf. <PERS>Euripide</PERS> , <WORK>Phéniciennes</WORK> , <SCOPE>947</SCOPE> : <SCOPE>OÙτος</SCOPE> δὲ πῶλος τῇ δ᾽ ἀνειμένος πόλει ἢ θανὼν πατρῴαν γαῖαν ἐχσώσειεν ἄν . [ <WORK>Wunder</WORK> . ]</SENTENCE>
+########
+ <SENTENCE>1215 - 1216 . <DATE>1215 - 1216</DATE> . Ἔπέσται , α΄ εγί! . “ - <WORK>EntGT1</WORK>, <WORK>Emminet</WORK> . [ <PERS>Schneidevîu</PERS> . ]</SENTENCE>
+########
+ <SENTENCE>4220 . <LOC>Πλάκα</LOC> , souvent plaine , ici <WORK>plateau</WORK> ( cf . <WORK>Trachiniennes</WORK> , <SCOPE>273</SCOPE> ) ; avec <LOC>ἄχραν</LOC> : l ' extrémité du <WORK>pluteau</WORK> , du <LOC>promontoire</LOC> .</SENTENCE>
+########
+ <SENTENCE>1224 - <DATE>4222</DATE> . Tùc <WORK>ἱερὰς</WORK> ὅπως προσεί - ποῖμεν "<OBJECT>A0Zvac</OBJECT>".</SENTENCE>
+########
+ <SENTENCE>Homère ( <PERS>) appelle le promontoire Sunium ( <LOC> ), hien qu’éloigné du Pirée ( <LOC> ) d’environ trois cent trente stades ( <SCOPE> ) : "Axpoy’ Afrvéwv ( <WORK>, <SCOPE> ) .</SENTENCE>"
+
+In this sentence, the named entities are identified as follows:
+- "Homère" is identified as a person (PERS).
+- "le promontoire Sunium" is identified as a location (LOC).
+- "Pirée" is identified as a location (LOC).
+- "trois cent trente stades" is identified as a specific portion of work (SCOPE).
+- "Odyssée" is identified as a work (WORK).
+- "TI, 278" is identified as a specific portion of work (SCOPE).
+########
+ <SENTENCE>Cf. <PERS>Virgile</PERS>, <WORK>Énéide</WORK>, <SCOPE>ITI, 524</SCOPE>: « <SCOPE>ÎItallam</SCOPE> <WORK>læto</WORK> <WORK>socii</WORK> <WORK>clamore</WORK> <WORK>salutant</WORK> . »</SENTENCE>
+########
+ <SENTENCE>Mpocsinoiev, à l' <WORK>optatif</WORK>, à cause de l' <WORK>optatif</WORK> qui précède, <WORK>yevoiuav</WORK>. Cf. <WORK>Philoctète</WORK>, 824 : <WORK>Θυμὸν</WORK> <WORK>γένοιτο</WORK> χειρὶ πληρῶσαϊξζ ποτε ἢ ἵν᾽ αἱ <WORK>Μυχῆναι</WORK> <WORK>yvoiev</WORK>. <WORK>Trachiniennes</WORK>, 955. [ <PERS>Schneidewin</PERS> et <PERS>Dindorf</PERS>. ]</SENTENCE>
+########
+ "<SENTENCE>1224 . <DATE>TôvBe</DATE> « <WORK>dicit</WORK> quia jam conspici«tur. » ( <REF>[ Dindorf . ]</REF>) </SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>4, 356. <PERS>Exntôc</PERS>, male ominatus. -- <WORK>Exdûcwv atéux</WORK>. Cf. <PERS>Isocrate</PERS>, <WORK>Panatk.</WORK> 06: Ἐπελήλυθέ μοι τὸ παρρησιάζεσθαι καὶ λέλυχα τὸ <WORK>crôpua</WORK>. [ <PERS>Schneidewin</PERS> ]</SENTENCE>"
+########
+ "<SENTENCE>lon Wander : <PERS>« Revereor</PERS> corpus <PERS>Ajacis</PERS> <SCOPE>« mortui</SCOPE> , quod <HUMANWORK>virtus</HUMANWORK> , qua ille vives <HUMANWORK>emi«puit</HUMANWORK>, plus apod me <HUMANWORK>valet</HUMANWORK> , quam odium , <SCOPE>« quo eum persecutus sum</SCOPE> , <SCOPE>quum in vivis </SCOPE><SCOPE>« erat </SCOPE>»</SENTENCE>"
+########
+ <SENTENCE>Selon <PERS>Schneidewin</PERS>: <WORK>TIodù xçeisσων</WORK> <SCOPE>τῆς ἔχθρας ἐμοὶ ἢ ἀρετή ἐστιν</SCOPE> ( <SCOPE>εί ͵ 4834</SCOPE>) : <HUMAN\_WORK>πολύ</HUMAN\_WORK> et non <WORK>x</WORK> ) <WORK>éoy</WORK> , ajoute le même , parce que <WORK>wx@</WORK> implique déjà comparaison ,</SENTENCE>
+########
+ "<SENTENCE>1388 . <WORK>EuxAnxto</WORK> : « idem valet quod <WORD>ἄστατος</WORD> , <WORD>εὐμετάδολος</WORD> , <WORK>Hesychius</WORK> et <WORK>Eustathius</WORK> , <SCOPE>pag . 4886 , 5 . 40</SCOPE> , interpre - « tantur . <PERS>Plato</PERS> , <WORK>Corg .</WORK> , <SCOPE>pag . 482</SCOPE> : <WORK>φι«λοσοφία</WORK> τῶν <WORD>ἄλλων</WORD> <WORD>«καιδιχῶν</WORD> πολὺ ἦτ«τὸν ἔμπληχτος .</SENTENCE>"
+########
+ <SENTENCE><PERS>Plutarch</PERS>. , <WORK>Vita Eumenis</WORK> , « <SCOPE>pag . 684</SCOPE> Ε : Ἔμπληχτος ὧν καὶ φορᾶς « <PHRASE>μεστὸς &Gcbaiou</PHRASE> . » [ <PERS>Dindorf</PERS> .]</SENTENCE>
+
+In this sentence, the named entities are classified as follows:
+- "Plutarch" is classified as a person (PERS).
+- "Vita Eumenis" is classified as a work (WORK).
+- "pag . 684" is classified as a scope (SCOPE).
+- "Dindorf" is classified as a person (PERS).
+
+Note that "μεστὸς &Gcbaiou" is classified as a phrase (PHRASE) because it does not fit into any of the other categories.
+########
+ "<SENTENCE>Passow explique cette acception <SCOPE>assez rare</SCOPE> par l <WORK>'</WORK>analogie de <WORD>ἔμπληχτος</WORD> avec <WORD>dubpévrntoc</WORD> ,</SENTENCE>"
+########
+ <SENTENCE>— <PERS>Bporüv</PERS> fait pléonasme , venant après φῶτες . ΟἹ , <WORK>OEdipe à Colone</WORK> , 284 : Φωτὸς &vociou <PERS>Bporäv</PERS> ( si la leçon da manuserit doit être conservée ) .</SENTENCE>
+########
+ <SENTENCE>13659 - 4360 . H xépra . … . elloug . <PERS>Ulysse</PERS> paraît faire allusion à l'amertume des peroles que vient de prononcer <PERS>À gamemnon</PERS> ; <PERS>Agamemnon</PERS> répond comme si <PERS>Ulysse</PERS> avait eu en vue l'amertume de ses propres remontrances, <SCOPE>4866</SCOPE> . <SCOPE>' EvOaë '</SCOPE> <PERS>Tlouet</PERS> , j'en arriverai là, c'est-à-dire, je mourrai, . <PERS>Dindorf</PERS> : Kai <PERS>᾿ αὑτὸς</PERS> ἴξομαι πρὸς τὸ θάπτειν αὐτόν</SENTENCE>.
+########
+ "<SENTENCE>4966 . Ἧ πάνθ᾽ ὅμοια . . . . <WORK>poneî</WORK> , <SCOPE>tout ce qu ’ il fait</SCOPE> , <HUMAN WORK>tout bomme a en vue son propre intérêt</HUMAN WORK> .</SENTENCE>"
+########
+ "<SENTENCE>« Ojuoux mous paraît, ainsi qu'à Botbe et à Reisig, équivaloir ici à <WORK>ὁμοίως</WORK>. <PERS>Οἵ</PERS>. <PERS>Eschyle</PERS>, <WORK>Eum.</WORK> 240 : "Opoia χέρσον καὶ θάλασσαν ἐχπερῶν.»</SENTENCE>"
+########
+ "<SENTENCE>Le plupart des <WORK>commentateurs modernes</WORK> joignent <PERS>Euoux</PERS> abrés : moribue suis Où ingenio sue <WORK>consentanea</WORK> ,</SENTENCE>"
+########
+I've process 28 phrases!

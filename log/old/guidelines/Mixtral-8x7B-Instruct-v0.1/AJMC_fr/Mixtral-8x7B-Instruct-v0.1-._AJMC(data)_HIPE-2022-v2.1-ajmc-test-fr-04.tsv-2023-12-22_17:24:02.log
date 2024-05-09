@@ -1,0 +1,93 @@
+ INPUT: "<SENTENCE>72 . "Anevbüvovta , retorquentem . [ Neue , Schneidewin . ] Cf . axostpéperv yépas dans OEdipe Roi , 164 .</SENTENCE>"
+OUTPUT: "<SENTENCE>72 . "<WORK>Anevbüvovta</WORK> , retorquentem . [ <PERS>Neue</PERS> , <PERS>Schneidewin</PERS> . ] Cf . <WORK>axostpéperv</WORK> <WORK>yépas</WORK> dans <WORK>OEdipe Roi</WORK> , <SCOPE>164</SCOPE> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>73 , Αἴαντα φωνῶ . Οἵ , Philoctète , 4261 : Σὺ δ᾽ , ὦ Ποίαντος παῖ , Φιλοκτήτην λέYw, || éteä0e . [ Schneidewin . ]</SENTENCE>"
+OUTPUT: "<SENTENCE>73 , <PERS>Αἴαντα</PERS> φωνῶ . Οἵ , <WORK>Philoctète</WORK> , <SCOPE>4261</SCOPE> : Σὺ δ᾽ , ὦ Ποίαντος παῖ , <PERS>Φιλοκτήτην</PERS> λέYw, || éteä0e . [ <PERS>Schneidewin</PERS> . ]</SENTENCE>"
+########
+ INPUT: "<SENTENCE>75 . Οὐ . . . . μηδέ . Schneidewin rapproche deux exemples tout pareils : Οὐ θᾶσσον οἷσεις μηδ᾽ ἀπιστήσεις ἐμοί ; ( <WORK>Trachin .</WORK> 4483 . ) Οὐχ εἰ σύ τ᾽ οἴχους σύ τε , <PERS>Κρέων</PERS> , κατὰ στέγας , ἰ καὶ μὴ τὸ μηδὲν ἄλγος εἰς μέγ᾽ οἵσετε : ( <WORK>ΟΕ ώ .</WORK> <PERS>Roi</PERS> , 637 ) .</SENTENCE>"
+########
+ <SENTENCE>Dans tous ces pussages, la négation exprimée pur <WORK>οὐ</WORK> tombe également sur les deux membres de phrase: <SCOPE>unôé</SCOPE>, <SCOPE>xai</SCOPE> uñ peuvent se résoudre en <WORK>xai</WORK> <WORK>οὐ</WORK> <WORK>μή</WORK> (<SCOPE>Cf.</SCOPE> <WORK>Trachin.</WORK> <SCOPE>978</SCOPE>: <WORK>OùÙ</WORK> μὴ . . . . ᾽ξεγερεῖς τὸν ὕπνῳ χάτοχον) qui peut lui-même être ramené à la construction pleine: <WORK>Kai</WORK> <WORK>o</WORK>) quiate (<SCOPE>s</SCOPE> <WORK>OTWS</WORK> fan - . . .</SENTENCE>
+########
+ INPUT: "<SENTENCE>466 . Φίλους ἀνιῶν , δ étant un sujet d ' affliction pour tes amis .</SENTENCE>"
+OUTPUT: "<SENTENCE>466 . Φίλους ἀνιῶν , <DATE>δ</DATE> étant un sujet d ' affliction pour tes amis .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>467 . Κοινὸς ἐν χοινοῖσι , consors inter consortes ( cf , OEd . Roi , 239 : xarvôv , c ’ est - ἀ - αἶγο χοινωνὸν ποιεῖσθαι ) .</SENTENCE>"
+OUTPUT: "<SENTENCE>467 . <SCOPE>Κοινὸς</SCOPE> ἐν <SCOPE>χοινοῖσι</SCOPE> , <SCOPE>consors</SCOPE> inter <SCOPE>consortes</SCOPE> ( cf , <WORK>OEd . Roi</WORK> , <SCOPE>239</SCOPE> : xarvôv , c ’ est - ἀ - αἶγο χοινωνὸν ποιεῖσθαι ) .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Ῥοατ le rapprochement de xocwvès et de xorvoior , cf . <WORK>Antig.</WORK> 13 : Buoïv ἀδελφοῖν ἐστερήθημεν δύο ; οὲ plus bas , dans <WORK>Antig.</WORK> 4/ax même , v . 467 : ξυμπεσὼν μόνος μόνοις ; τ . 680 : ἄφιλα παρ ’ ἀφίλοις . τ . 785 - 786 : νέας ἢ βουλὰς νέοισιν ἐγκαταζεύξας τρόποις ; V . 1288 : μόνος μόνον . <WORK>Oed.</WORK> Οοΐ . 484 : ξεῖνος ἐπὶ Lévns . <WORK>Philoct.</WORK> 435 : dv Eéva Eévov .</SENTENCE>"
+OUTPUT: "<SENTENCE>Ῥοατ le rapprochement de xocwvès et de xorvoior , cf . <WORK>Antig.</WORK> 13 : Buoïv ἀδελφοῖν ἐστερήθημεν δύο ; οὲ plus bas , dans <WORK>Antig.</WORK> 4/ax même , v . <SCOPE>467</SCOPE> : ξυμπεσὼν μόνος μόνοις ; τ . <SCOPE>680</SCOPE> : ἄφιλα παρ ’ ἀφίλοις . τ . <SCOPE>785 - 786</SCOPE> : νέας ἢ βουλὰς νέοισιν ἐγκαταζεύξας τρόποις ; V . <SCOPE>1288</SCOPE> : μόνος μόνον . <WORK>Oed.</WORK> Οοΐ . <SCOPE>484</SCOPE> : ξεῖνος ἐπὶ Lévns . <WORK>Philoct.</WORK> 435 : dv Eéva Eévov .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Trachin . 643 ; καινῷ χαινὸν ἐν πεπλώμχτι . Οξά . Roi , 858 : ἀστὸς εἰς ἀστοὺς τελῶ . Antig . 8 : φίλη μετ᾽ αὐτοῦ κείσομαι , φίλον μέτα ; v . 142 : ἴσοι πρὸς ἴσους .</SENTENCE>"
+OUTPUT: "<SENTENCE>Trachin . <SCOPE>643</SCOPE> ; καινῷ χαινὸν ἐν πεπλώμχτι . Οξά . Roi , <SCOPE>858</SCOPE> : ἀστὸς εἰς ἀστοὺς τελῶ . Antig . <SCOPE>8</SCOPE> : φίλη μετ᾽ αὐτοῦ κείσομαι , φίλον μέτα ; v . <SCOPE>142</SCOPE> : ἴσοι πρὸς ἴσους .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>460 . Ἧμεϊς ἄρ᾽ οὐ νοσοῦντες , κτλ . « Tecmessa se et Ajacem ob communionem « fortanæ in unam quasi personam con«flans, Nobis igitur , inquit , male accidit « ( &twpeo9x ) , quod non jam morbo labo«ramus ( quod Ajacis furur desiit . ) » [ Madv . ]</SENTENCE>"
+OUTPUT: "<SENTENCE>460 . Ἧμεϊς ἄρ᾽} οὐ νοσοῦντες , κτλ . « <PERS>Tecmessa</PERS> se et <PERS>Ajacem</PERS> ob communionem « fortanæ in unam quasi personam con«flans, Nobis igitur , inquit , male accidit « ( &twpeo9x ) , quod non jam morbo labo«ramus ( quod <PERS>Ajacis</PERS> furur desiit . ) » [ <PERS>Madv</PERS> . ]</SENTENCE>"
+########
+ INPUT: "<SENTENCE>272 . Olouv ciyer ' èv xaxoïç , c ' est - à - dire xaxois èv olauwv elyero . Cf , 4444 ,</SENTENCE>"
+OUTPUT: "<SENTENCE>272 . <DATE>272</DATE> . Olouv ciyer ' èv xaxoïç , c ' est - à - dire xaxois èv olauwv elyero . Cf , <DATE>4444</DATE> ,</SENTENCE>"
+########
+ <SENTENCE>276 . Il@& ; . « In multis imprimis nomina - « tivi exemplis <PERS>T& ; Gomini</PERS> quidem accom - « modatur , sed sensu tenus cum verbo « cohæret . » [ <ORG>Ellendt</ORG> , <WORK>Lexie</WORK> , <PERS>Sophocl . II</PERS> , <SCOPE>page 516</SCOPE> . ] Cf . plus bas , <SCOPE>545</SCOPE> : dv σοὶ πᾶσ᾽ ἔγωγε σώτομαι ; <WORK>ΟΕά . οὶ</WORK> , <SCOPE>4440</SCOPE> : ἀλλ᾽ ἢ γ᾽ ἐχείνον πᾶσ᾽ ἐδηλώθη φάτις .</SENTENCE>
+########
+ INPUT: "<SENTENCE>Πᾶς indique donc ici qu ’ Ajax , dans tous ses mouvements , obéit désormais au seul désespoir ,</SENTENCE>"
+OUTPUT: "<SENTENCE>Πᾶς <PERS>Ajax</PERS> , dans tous ses mouvements , obéit désormais au seul désespoir ,</SENTENCE>"
+########
+ INPUT: "<SENTENCE>— Ἐλύ\œtat, huc illuc agitur . ( Sur l ’ emploi da parfait dans le sens du présent , voy . Matthiæ, page 1016 ; cf . page 4040 , )</SENTENCE>"
+OUTPUT: "<SENTENCE>— <WORK>Ἐλύ\œtat</WORK>, huc illuc agitur . ( Sur l ’ emploi da parfait dans le sens du présent , voy . <PERS>Matthiæ</PERS>, <WORK>page 1016</WORK> ; cf . <WORK>page 4040</WORK> , )</SENTENCE>"
+########
+ The input does not contain any named entities that can be classified into the given types. Therefore, the output will be the same as the input without any additions.
+
+INPUT: "<SENTENCE>477 . ρα . Comme &p° où , nonne ; ail -</SENTENCE>"
+OUTPUT: "<SENTENCE>477 . ρα . Comme &p° où , nonne ; ail -</SENTENCE>"
+########
+ INPUT: "<SENTENCE>1083 . ’ EE oùpiav Bpanoÿoæv . Scholiaste moderne : Ilveup&tev Endovots . Cf . Eustathe, page 1462 , ligne 45 : Ὁ ἐξ οὐρίας πλοῦς καὶ πληθυντικῶς ἐξ οὐρίων , ἤγουν xveuudtwv .</SENTENCE>"
+OUTPUT: "<SENTENCE>1083 . ’ EE oùpiav Bpanoÿoæv . <PERS>Scholiaste moderne</PERS> : Ilveup&tev Endovots . Cf . <PERS>Eustathe</PERS>, <WORK>page 1462</WORK> , <SCOPE>ligne 45</SCOPE> : Ὁ ἐξ οὐρίας πλοῦς καὶ πληθυντικῶς ἐξ οὐρίων , ἤγουν xveuudtwv .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Aristide , tome I , pages 23 et 473 : ἘΣ οὐρίων θεῖν , ettome { 1 page 143 : ἜΣ οὐρίας κομίζεσθαι .</SENTENCE>"
+OUTPUT: "<SENTENCE>Aristide , <WORK>tome I</WORK> , <SCOPE>pages 23</SCOPE> et <SCOPE>473</SCOPE> : <WORK>ἘΣ</WORK> οὐρίων θεῖν , <WORK>ettome</WORK> { 1 <SCOPE>page 143</SCOPE> : <WORK>ἜΣ</WORK> οὐρίας κομίζεσθαι .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Ηϊπιέτίυ5 , Dis - cours V , chapitre 46 , et Libanius , Lettre ( 78 : Ὅταν ἡ τύχη ἐξ οὐρίων φέρηται . [ Lobeck . ] "EE oùpiwv Spayoÿsav signifie donc « après avoir navigué heureusement , joui de la prospérité . »</SENTENCE>"
+OUTPUT: "<SENTENCE>Ηϊπιέτίυ5 , <WORK>Dis - cours</WORK> V , <SCOPE>chapitre 46</SCOPE> , et <WORK>Libanius</WORK> , <WORK>Lettre</WORK> ( 78 : Ὅταν ἡ τύχη ἐξ οὐρίων φέρηται . [ <PERS>Lobeck</PERS> . ] "EE <OBJECT>oupiwv</OBJECT> <OBJECT>Spayoÿsav</OBJECT> signifie donc « après avoir navigué heureusement , joui de la prospérité . »</SENTENCE>"
+########
+ INPUT: "<SENTENCE>— Ileceiv . Infinitif aoriste marquant un événement futur : cf , <PERS>Matthiæ</PERS> , <WORK>page 1007</WORK> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Xpôve Toté , qui précède , indique assez qu ' il s ’ agit de l ’ l’avenir, D ' ailleurs , on peut interpréter aussi , avec la plupart des commentateurs : Cadere solere . [ Mais voyez NC . ]</SENTENCE>"
+OUTPUT: "<SENTENCE>Xpôve <DATE>Toté</DATE> , qui précède , indique assez qu ' il s ’ agit de l ’ <DATE>l’avenir</DATE> , D ' ailleurs , on peut interpréter aussi , avec la plupart des commentateurs : Cadere solere . [ Mais voyez <WORK>NC</WORK> . ]</SENTENCE>"
+########
+ INPUT: "<SENTENCE>4084 . Μοι : c ’ est mon avis , ou ma vo - lonté ,</SENTENCE>"
+OUTPUT: "<SENTENCE>4084 . Μοι : c ’ est mon <PERS>avis</PERS> , ou ma <SCOPE>vo - lonté</SCOPE> ,</SENTENCE>"
+########
+ INPUT: "<SENTENCE>— Aéos τι χαίριον . « Perquam apte « hoc Menelaus dicit ex Spartanorum insti«tutis, qui Timoris ædem consecraverunt « juxta triclinium Ephororum , tAv πολι«τείαν μάλιστα συνέχεσθαι φόδῳ νο«μίζοντες. <PERS>Plutarch</PERS> . , <WORK>Cleomen .</WORK> , cap . 9 . » [ <PERS>Lobeck</PERS> . ]</SENTENCE>"
+OUTPUT: "<SENTENCE>— Aéos τι χαίριον . « Perquam apte « hoc <PERS>Menelaus</PERS> dicit ex <WORK>Spartanorum</WORK> <SCOPE>insti«tutis</SCOPE>, qui <WORK>Timoris</WORK> ædem consecraverunt « juxta triclinium <WORK>Ephororum</WORK> , tAv πολι«τείαν μάλιστα συνέχεσθαι φόδῳ νο«μίζοντες. <PERS>Plutarch</PERS> . , <WORK>Cleomen .</WORK> , cap . 9 . » [ <PERS>Lobeck</PERS> . ]</SENTENCE>"
+########
+ INPUT: "<SENTENCE>1085 - 1086 . Entendez : Apôvtes & ἂν ( δρῶντες ) ἡδώμεθα , οὐχ ἀντιτείσειν αὖθις ἃ ἂν ( ἀντιτίνοντες ) λυπώμεθα .</SENTENCE>"
+OUTPUT: "<SENTENCE>1085 - 1086 . Entendez : <DATE>1085 - 1086</DATE> . <WORK>Apôvtes</WORK> & ἂν ( δρῶντες ) ἡδώμεθα , οὐχ ἀντιτείσειν αὖθις ἃ ἂν ( ἀντιτίνοντες ) λυπώμεθα .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>1088 , Alôwv . Ici fougueux . C£ . 222 .</SENTENCE>"
+OUTPUT: "<SENTENCE>1088 , <OBJECT>Alôwv</OBJECT> . Ici fougueux . <SCOPE>C£ . 222</SCOPE> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>4090 . Ἐς ταφὰς πέσης . « Tapat hie εἰ « multo magis v . 4100 ( τοῦτον ἐς ταφὰς «6fcw ) pro tépoc positam videtur vel « enallage generis , ut ita dicam , ionica , vel « potius quia luca sepulcris destinata tapaf « dici possunt , ut proseucha , ambulatio , « ταριχεία , βόσις , ἄροσις , ἐξαίρεσις , « ἔμδασις . de locis dici solent .</SENTENCE>"
+OUTPUT: "<SENTENCE>4090 . <SCOPE>Ἐς ταφὰς πέσης</SCOPE> . « Tapat hie εἰ « multo magis v . 4100 ( τοῦτον ἐς <SCOPE>ταφὰς</SCOPE> «6fcw ) pro tépoc positam videtur vel « enallage generis , ut ita dicam , ionica , vel « potius quia luca sepulcris destinata <SCOPE>tapaf</SCOPE> « dici possunt , ut proseucha , ambulatio , « ταριχεία , βόσις , ἄροσις , ἐξαίρεσις , « ἔμδασις . de locis dici solent .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Asfxvu - α« ται ἐνταῦθα ταφὴ τῶν τελευτησάντων « ( <PERS>Strab .</PERS> <SCOPE>IX , 442</SCOPE>) . C£ , id . <SCOPE>ib . 444</SCOPE> , <PERS>Ælian</PERS> , « Var . Histor , <WORK>XIT</WORK> , 24 : Es τὰς πατρῴας tapàs . » [ <PERS>Lobeck .</PERS> ]</SENTENCE>"
+########
+ INPUT: "<SENTENCE>1091 . ‘Yrogtnaac , ayant allégué d ’ abord ( littéralement , ayant posé pour base ) .</SENTENCE>"
+OUTPUT: "<SENTENCE>1091 . ‘Yrogtnaac</SENTENCE>"
+########
+ INPUT: "<SENTENCE>4095 , Οἱ δοχοῦντες , εε��ùχ qui passent pour σοφοὶ ἀνδρεῖοι , οὐ πᾶσι τοῖς ἀνθρώποις ἐπιτήδειοι .</SENTENCE>"
+OUTPUT: "<SENTENCE>4095 , <SCOPE>Οἱ δοχοῦντες</SCOPE> , εε��ùχ qui passent pour <PERS>σοφοὶ ἀνδρεῖοι</PERS> , οὐ πᾶσι τοῖς ἀνθρώποις ἐπιτήδειοι .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>4382 . Ἔψενσας ἐλπίδος . Οἵ . Τηαολὲniegnoc. 742 : El < μὴ ψευσθήσομαι ( yvounç .</SENTENCE>"
+OUTPUT: "<SENTENCE>4382 . <WORK>Ἔψενσας ἐλπίδος</WORK> . Οἵ . <WORK>Τηαολὲniegnoc</WORK>. 742 : El < μὴ ψευσθήσομαι ( yvounç .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Eschyle , Perses , 472 : Ὧ στυγνὲ δαῖμον , ὡς ἄρ᾽ ἔψενσας φρενῶν ἢ Πέρσα - .</SENTENCE>"
+OUTPUT: "<SENTENCE><PERS>Eschyle</PERS>, <WORK>Perses</WORK>, <SCOPE>472</SCOPE> : Ὧ στυγνὲ δαῖμον , ὡς ἄρ᾽ ἔψενσας φρενῶν ἢ Πέρσα - .</SENTENCE>"
+########
+ "<SENTENCE>4384 . <WORK>Παρών</WORK> . <PERS>. 113</PERS> et la nots ur le vers <SCOPE>δ7</SCOPE> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>1386 . OùmiGpovrnroc . Scholiaste : “ Ov εἰώθαμεν λέγειν ἐμόρόντητον .</SENTENCE>"
+OUTPUT: "<SENTENCE>1386 . <OBJECT>OùmiGpovrnroc</OBJECT> . <PERS>Scholiaste</PERS> : “ Ov εἰώθαμεν λέγειν ἐμόρόντητον .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>4890 . Μνήμων τ᾽ Ἐρινύς . Οἵ . Eschyle , Prométhée , δι6 : Μοῖραι τρίμορφοι μνύ,μονές τ ’ Ἐρινύες ( eἰ εεῖ - ἀ - αἶγα suivant le Scholiaste : Al μνημονεύουσαι τῶν παρ᾽ ἄνθρώκοις καχῶν καὶ ἀντιδιδοῦσαι ) .</SENTENCE>"
+OUTPUT: "<SENTENCE>4890 . Μνήμων τ᾽ Ἐρινύς . Οἵ . <PERS>Eschyle</PERS> , <WORK>Prométhée</WORK> , δι6 : <WORK>Μοῖραι τρίμορφοι</WORK> μνύ,μονές τ ’ <WORK>Ἐρινύες</WORK> ( eἰ εεῖ - ἀ - αἶγα suivant le <WORK>Scholiaste</WORK> : Al <SCOPE>μνημονεύουσαι τῶν παρ᾽ ἄνθρώκοις καχῶν καὶ ἀντιδιδοῦσαι</SCOPE> ) .</SENTENCE>"
+########
+I've process 32 phrases!

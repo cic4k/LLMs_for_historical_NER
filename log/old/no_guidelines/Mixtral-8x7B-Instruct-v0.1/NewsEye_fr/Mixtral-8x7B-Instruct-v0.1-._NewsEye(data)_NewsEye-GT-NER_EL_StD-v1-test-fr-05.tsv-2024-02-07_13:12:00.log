@@ -1,0 +1,445 @@
+ <SENTENCE>74 1/2 <LOC>Chine</LOC> 4 1/2% , 77 ; <LOC>Egypte unifiée</LOC> , 78 ; <LOC>Extérieure</LOC> , 62 1/2 ; <LOC>Italien</LOC> , 17 3/4 ; <LOC>Japon 1899</LOC> , 73 ; <LOC>Portugais 3 %</LOC> , 42 1/4 ; <LOC>Russe 1906</LOC> , 5 ; <LOC>Russe 1909</LOC> , 3 1/2 ; <LOC>Turc</LOC> , 18 3/4 .</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>Américains ( fermes ) : <ORG>Atchison common</ORG> , 232 ; <ORG>Baltimore Ohio</ORG> , 122 ; <ORG>Canadian Pacific</ORG> , 202 ; <ORG>Chicago Milwaukee</ORG> , 25 1/2 ; <ORG>Erié common</ORG> , 60 ; <ORG>Louisville Nashville</ORG> , 132 ; <ORG>New - York Central</ORG> , 175 ; <ORG>Southern Pacific</ORG> 124 ; <ORG>Pensylvania</ORG> , 80 1/2 ; <ORG>Union Pacific</ORG> , 223 .</SENTENCE>"
+########
+ <SENTENCE><ORG>Chartered</ORG>, 41/10 1/2 ; <ORG>East Rand</ORG>, 12/6 ; <ORG>Goldfields</ORG>, 45/7 1/2 ; <ORG>Randmines</ORG>, 63/9 ; <ORG>De Beers</ORG> . 9 3/4 ; <ORG>Jagersfontein</ORG>, 2 1/8 ; <ORG>Rio Tinto</ORG>, 47.</SENTENCE>
+########
+ OUTPUT: "<SENTENCE><ORG>Mexican Eagle</ORG>, <ORG>14/3</ORG> ; <ORG>Royal Dutch</ORG>, <ORG>33 1/8</ORG> ; <ORG>Shell</ORG>, <ORG>4 25/32</ORG> ; <ORG>North Caucasian</ORG>, <ORG>1/ -</ORG> ; <ORG>Russian Oil</ORG>, <ORG>1/ -</ORG> .</SENTENCE>"
+########
+ <SENTENCE><ORG>Anaconda</ORG>, 15 ; <ORG>Steel common</ORG>, 175 1/2 ; <ORG>Câble et Wireless 7 1/2 % A</ORG>, 76 1/2 ; <ORG>Malacca</ORG>, 1 5/16 ; <ORG>Kuala</ORG>, 33/1 1/2.</SENTENCE>
+########
+ <SENTENCE>Changes: Escompte <ORG>hors banque</ORG> 4 1/8 à / .</SENTENCE>
+########
+ <SENTENCE><LOC>Prêts</LOC> , 4 3/4 ; sur <LOC>Paris</LOC> , 123 , 905 ; sur <LOC>New - York</LOC> , 486 , 75 ; sur <LOC>Belgique</LOC> , 34 , 94 ; sur <LOC>Berlin</LOC> , 203 ; <LOC>Rio</LOC> sur <LOC>Londres</LOC> , 5 13 - 16 ; <LOC>Valparaiso</LOC> sur <LOC>Londres</LOC> , 39 , 81 ; <LOC>Buenos - Aires</LOC> sur <LOC>Londres</LOC> , 49705 ; <HumanProd>Argent</HumanProd> comptant , 21 1/8 ; <HumanProd>argent</HumanProd> 2 mois , 20 11/10 .</SENTENCE>
+########
+ <SENTENCE>Ayant aperçu l' <ORG>avion photo</ORG> , considéré comme proie facile , la formation des <PER>Fritz</PER> se scinde en deux , en vue d'une manœuvre d'enveloppement . Mais nos quatre patrouilles , sortant d'un nuage , s'élancent hardiment sur les « <HumanProd>Messer</HumanProd> » , deux contre le premier groupe de six , les deux autres contre le second groupe , de même importance .</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>Un contre trois Pendant - que l ' <HumanProd>avion photo</HumanProd> , plein moteur , se hâte de regagner sa base et que la D .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><PER>C.</PER></SENTENCE>"
+
+(Note: I assume the single letter "C" is being used as a person's initial. If it's not the case, the output would be "<SENTENCE>C.</SENTENCE>" with no classification.)
+########
+ <SENTENCE>A . <PER>boche</PER> assiste au spectacle afin de ne pas démo¬ lir un des siens , la bataille aérien¬ ne fait rage . Un contre trois , qua¬ tre contre douze , c ' est le tarif ha¬ bituel , non pas que l ' aviation <HumanProd>franÇaise</HumanProd> en <LOC>France</LOC> On sait que , à la suite des accu¬ sations portées contre certains par¬ lementaires par <PER>M . de Kerillis</PER> , la commission des affaires étrangères avait convoqué <PER>M . de Kerillis</PER> , mem¬ bre de cette commission , pour mer¬ credi prochain , afin qu ' il puisse ou¬ vrir devant elle ses dossiers .</SENTENCE>
+########
+ <SENTENCE>Le <PER>député de la Seine</PER> a répondu hier à <PER>M . Mistler</PER> , président de la commission , pour lui faire connaî¬ tre qu ' il n ' avait pas l ' intention de se rendre à <PER>cette convocation</PER> .</SENTENCE>
+########
+ "<SENTENCE>Je <PER>vais</PER> être , <EMPH>écrit - il</EMPH> , l ' objet de plusieurs demandes de levée de l ' <HumanProd>immunité parlementaire</HumanProd> , puisque des <HumanProd>poursuites</HumanProd> sont annoncées con¬ tre <PER>moi</PER> . Je <PER>vais</PER> avoir ainsi l ' occa¬ sion de pouvoir m ' adresser à la <ORG>Chambre entière</ORG> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Ajoutons que <PER>M . Tixier - Vignan cour</PER>, <ORG>député d ' Orthez</ORG> et auteur d'une <HumanProd>proposition de loi</HumanProd> relative à la déchéance des communistes compte profiter du débat de demain pour sommer <PER>M . de Kerillis</PER> d'aporter à la tribune la liste de ceux qu'il accuse d'<HumanProd>hitlérisme</HumanProd>, et contre lesquels il assure posséder un <HumanProd>dossier</HumanProd> susceptible d'en administrer la preuve .</SENTENCE>"
+########
+ <SENTENCE>mant l'espérance des <ORG>syndicats</ORG> de la réalisation d'une paix juste et durable, sans que cette affirmation « puisse être interprétée comme une volonté de complaisance à l'égard des <ORG>gouvernements tyranniques et totalitaires</ORG>, qui portent la responsabilité de la guerre.» La fin de certain mandat <ORG>L'autre</ORG> déclare mettre fin statutairement au mandat confié à ceux de ses membres du bureau confédéral et de la commission administrative qui se sont rendus coupables d'indiscipline syndicale en donnant « la preuve irréfutable d'une subordination totale d'une part à un <ORG>parti politique</ORG> et, d'autre part, à un <ORG>gouvernement étranger</ORG>.» Une troisième résolution a été adoptée à l'unanimité moins une voix contre et quatre abstentions.</SENTENCE>
+########
+ <SENTENCE><LOC>Bucarest</LOC> ... <LOC>A Londres</LOC> ... 0 2052 0 2053 Deux cambriolages à la Plaine - Monceau 500 . 000 francs dans une bijouterie 50 francs dans un café Un audacieux cambriolage a été commis , hier , dans le quartier de la Plaine - Monceau , dans le magasin de bijouterie - orfèvrerie que possède <PER>M . Louis Baucher</PER> , 89 , avenue de Wagram . Habitant assez loin de sa maison de commerce , celui - ci , chaque soir , avant son départ , enferme dans un coffre - fort installé dans sa boutique son argent et ses bijoux les plus précieux , parmi lesquels figurent de nombreux joyaux confiés pour réparation par des clients .</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>Or , hier matin , vers 9 heures , la <PER>conciegerge</PER> de l ' <LOC>immeuble</LOC> vint avertir <PER>M . Baucher</PER> que le <HumanProd>rideau de fer</HumanProd> de sa <HumanProd>boutique</HumanProd> était soulevé et que la <HumanProd>glace</HumanProd> de la <HumanProd>porte d ' entrée</HumanProd> paraissait brisée .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Les <ORG>voleurs</ORG> had négligé toutes les <LOC>vitrines</LOC> où n ' étaient enfermés que des <HumanProd>bi¬ joux</HumanProd> de peu de valeur and ne s ' étaient atta¬ qués qu ' au <HumanProd>coffre - fort</HumanProd> , dont ils avaient réussi à ouvrir la serrure à l ' aide d ' une <ORG>fausse clé</ORG> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Dix mille francs en argent avaient dis<ORG>paru</ORG> , ainsi que de nombreux bijoux , le tout évalué à 500 . 000 francs <HumanProd>Un café</HumanProd> proche de la bijouterie , situé au <LOC>130 de la rue de Courcelles</LOC> , a reçu , au cours de cette même nuit , la visite des cam<ORG>brioleurs</ORG> , mais le butin des voleurs fut maigre : cinquante francs et des paquets de café .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>La <ORG>police</ORG> cherche à établir , grâce aux empreintes relevées , si ce sont les mêmes <PER>malfaiteurs</PER> qui ont opéré les deux <HumanProd>cam - briolages</HumanProd> .</SENTENCE>"
+########
+ <SENTENCE>BOURSE DE <LOC>PARIS</LOC> du <DATE>vendredi 14 janvier 1927</DATE> Séance sans intérêt et surtout sans affaires . La réponse des primes n ' a apporté aucun stimulant à la cote . Les baissiers ont appuyé sur les cours pendant la première heure , mais , pas plus que les haussiers , ils n ' ont la foi et ils prennent immédiatement leur bénéfice , si minime soit - il . On ne joue plus la tendance au jour le jour ; on joue la tendance d ’ une heure à l ’ autre . Que sera la liquida¬ tion de demain ? Facile sans doute , bien que le volume des positions se soit un peu enflé depuis quelques jours .</SENTENCE>
+########
+ OUTPUT: "<SENTENCE><HumanProd>Nos rentes</HumanProd> n ' ont guère varié.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Les <ORG>changes</ORG> sont calmes, la <ORG>livre</ORG> et le <ORG>dollar</ORG> perdent leur sou quotidien.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Aux <HumanProd>valeurs d ' électricité</HumanProd> , la <ORG>Thomson</ORG> conserve son rôle de vedette .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><ORG>Say</ORG> , <ORG>Pathe</ORG> , <ORG>cuprifères</ORG> , <ORG>Mining</ORG> et <ORG>Foncier Egyptien</ORG>.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><HumanProd>Les caoutchoutières</HumanProd> sont réalisées.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Faibles à l’ouverture, les <LOC>mines d’or sud-africaines</LOC> et les <LOC>territoriales</LOC> ont bénéficié d’achats anglingais en extrême clôture.</SENTENCE>"
+
+In this sentence, "mines d'or sud-africaines" refers to the location of gold mines in South Africa, and "territoriales" is a type of security or investment, so I have classified them as LOC. The term "achats anglingais" refers to purchases made by the English, so I have classified it as LOC as well, assuming "anglais" is short for "anglais/British" in this context.
+########
+ OUTPUT: "<SENTENCE><HumanProd>Phosphatières résistantes</HumanProd></SENTENCE>"
+########
+ INPUT: "<SENTENCE>Industrielles calmes .</SENTENCE>"
+OUTPUT: "<SENTENCE>Industrielles calmes.</SENTENCE>"
+
+There are no named entities in the provided sentence that match the types person (PER), organization (ORG), location (LOC), or human production (HumanProd).
+########
+ OUTPUT: "<SENTENCE><ORG>Les pétrolières</ORG> sont bien tenues.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><LOC>Mexicains</LOC> baisse sur la tension des rapports avec <ORG>Etats - Unis</ORG> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Après Bourse . — Marché plus soutenu . <HumanProd>Livre</HumanProd> 122 .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>14.</SENTENCE>"
+
+In this sentence, there are no named entities that can be classified as person (PER), organization (ORG), location (LOC), or human production (HumanProd). Therefore, the output does not contain any additional tags.
+########
+ OUTPUT: "<SENTENCE><ORG>Air Liquide</ORG> . . . . . . . 415 .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>. <ORG>413</ORG> Au <ORG>Parquet</ORG> <ORG>Say</ORG> ord . . . . . . . . . <ORG>2310</ORG> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>. <ORG>2310 Pathé</ORG> - <HumanProd>Cinéma</HumanProd> . . . . . 544 .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>. 535 . . . 0/0 . 52 75 52 30 <LOC>Argen</LOC> .</SENTENCE>"
+
+Explanation:
+
+In the provided sentence, "Argen" is the only possible named entity. Since it is a country code for Argentina, it can be classified as a location (LOC). Therefore, the output is "<SENTENCE>. 535 . . . 0/0 . 52 75 52 30 <LOC>Argen</LOC> .</SENTENCE>".
+########
+ OUTPUT: "<SENTENCE>4 0/0 1896</SENTENCE>"
+
+In the provided input, there are no named entities that can be classified as person (PER), organization (ORG), location (LOC), or human production (HumanProd). Therefore, the output does not contain any classified named entities.
+########
+ OUTPUT: "<SENTENCE>392 .</SENTENCE>"
+
+The sentence you provided does not contain any named entities that can be classified into the categories of person (PER), organization (ORG), location (LOC), or human production (HumanProd). Therefore, the output is the same as the input.
+########
+ OUTPUT: "<SENTENCE>. 390 . . . 0/0 amortiss . 11 . 60 .</SENTENCE>"
+
+Explanation:
+The sentence you provided does not contain any named entities that can be classified into the categories of person (PER), organization (ORG), location (LOC), or human production (HumanProd). Therefore, the output is the same as the input.
+########
+ OUTPUT: "<SENTENCE>. 50/0 1929 3005 . . . 1/2 0/0 an .</SENTENCE>"
+
+Explanation:
+The sentence you provided does not contain any named entities that can be classified into the categories of person (PER), organization (ORG), location (LOC), or human production (HumanProd). Therefore, the output does not contain any named entities.
+########
+ OUTPUT: "<SENTENCE>. 67 .</SENTENCE>"
+
+In the provided input, there are no named entities present such as persons, organizations, locations, or human productions. Therefore, the output remains the same as the input.
+########
+ OUTPUT: "<SENTENCE>. 50 .</SENTENCE>"
+
+In the provided input, there are no named entities present such as persons, organizations, locations, or human productions. Therefore, the output remains the same as the input.
+########
+ OUTPUT: "<SENTENCE>. 50/0 1929 360 .</SENTENCE>"
+
+Explanation:
+The sentence you provided does not contain any named entities that can be classified into the categories of person (PER), organization (ORG), location (LOC), or human production (HumanProd). Therefore, the output is the same as the input.
+########
+ OUTPUT: "<SENTENCE>. . . .</SENTENCE>"
+
+I'm sorry for the confusion, but the input sentence does not contain any named entities to identify and classify. The input sentence should contain proper nouns or specific names to classify them into the given types: person (PER), organization (ORG), location (LOC), and human production (HumanProd).
+########
+ <SENTENCE></SENTENCE>
+########
+ OUTPUT: "<SENTENCE>45 Chne 4 0/0 392</SENTENCE>"
+
+Explanation:
+The sentence "45 Chne 4 0/0 3
+########
+ OUTPUT: "<SENTENCE>. .</SENTENCE>"
+
+The input sentence does not contain any named entities, so the output is the same as the input.
+########
+ <SENTENCE>4 0/0 1317 . . 51 25 57 35 — 5 0/h <ORG>Réors</ORG> 1175 . . 1415 .</SENTENCE>
+########
+ <SENTENCE>— Oh oui! <PER>cœur</PER> sur le front, un grand nœud blanc de clown en guise de cravate, chante à mi-voix, tout comme, de l'autre côté des bancs, une vieille à lunettes et au chapeau de rentière, coquettement ornée de jais <PER>Un comique</PER> imite, en sifflant, un feu d'artifice: — Oh! la belle rouge! De la salle on lui répond: — Oh! la belle bleue! <LOC>Sur les bancs du Prado</LOC> A l'abri des grands platanes <PER>Le visage de Clouet</PER> s'éclaire, pour une seconde, mais la chanson finie, le regard redevient désespéré et elle dit, pour elle seule, dans un mouvement <PER>Une des enfants de Marie</PER> bat la précipité des lèvres, quelques mots que personne ne perçoit.</SENTENCE>
+
+In this sentence, I have identified the following named entities:
+- "cœur" and "Une des enfants de Marie" as PER (Person),
+- "un grand nœud blanc de clown" as HumanProd (Human Production),
+- "vieille à lunettes" and "comique" as PER (Person),
+- "feu d'artifice" as HumanProd (Human Production),
+- "la belle rouge" and "la belle bleue" as HumanProd (Human Production),
+- "bancs du Prado" as LOC (Location),
+- "grands platanes" as LOC (Location),
+- "Le visage de Clouet" as PER (Person).
+
+Note that some of the entities identified as Human Production could also be classified as ORG (Organization) depending on the context.
+########
+ OUTPUT: "<SENTENCE>Autre chanson : Tout ça, c'est la faute à l'<ORG>amour</ORG>.</SENTENCE>"
+
+(Note: In this case, I have classified "amour" as an organization because it is being used as a personified entity in the song title. However, this is not a standard classification and in most cases, "amour" would be classified as a general concept rather than an organization.)
+########
+ "<SENTENCE>Alors elle se déride brusquement et rit , en plusieurs petites notes claires qui passent au - dessus de l’assistance Celle qui écrivait sans cesse confie à sa voisine : — De loin, elle [gard.</SENTENCE>"
+########
+ "<SENTENCE>la musique va finir . Mais <LOC>La jeune femme du premier rang au manteau de vison</LOC> , jusqu ’ alors muette , ses yeux brillent de nouveau à la re\- fermee , cloîtrée dans une mystérieuse prise . . .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><HumanProd>Romance sentimentale</HumanProd> : Sans nous rien dire Dans un serment L <HumanProd>amour</HumanProd> nous prend Eperdument .</SENTENCE>"
+########
+ "<SENTENCE>Un <PER>homme</PER> à <HumanProd>grosses moustaches</HumanProd> , <PER>pensée</PER> , <PER>sourit</PER> soudain imperceptible¬ ment .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Les voici revenus de leur long voyage . L ' un des mem¬ bers de la petite expédition a bien voulu nous en parler en camarade, dans l ' atmosphère si chaleureuse et dyna¬ mique du <LOC>Centre, 15, rue de Valois</LOC>. Nous avons trouvé <PER>Marc Augier</PER> occupé à plier, brosser, sécher le mâtériel de son expédition en <LOC>Laponie</LOC>.</SENTENCE>"
+########
+ <SENTENCE>— Vous repartez au <LOC>Pôle</LOC> cette fois ? — Non , <ORG>Le Centre Laïque des Au¬ berges</ORG> va utiliser mon raid de ski<> camping pour servir de thème à toute une série de conférences à tra¬ vers la <LOC>France</LOC> , données au profit des <ORG>Clubs d ’ usagers d ’ A . J .</ORG> et de <ORG>l ' Asso¬ ciation pour le tourisme populaire hivernal</ORG> , que préside notre camarade <PER>P . - O . Lapie</PER> , <PER>député</PER> de <LOC>Meurthe - et - Mo¬ selle</LOC> .</SENTENCE>
+########
+ <SENTENCE>— Dernière nuit : 37° sous 0 . Mais ne nous abusons pas, j’ai horreur du romantisme sportif: 37° sous 0 ça passe, le froid absolu n’est pas un élément de mesure. Nous avons été fort malheureux entre <LOC>Laanila</LOC> et <LOC>Vuosto</LOC>, par tempête de neige sud-sud-ouest. Nous vivions dans une humidité glacée et le soir, à l'étape, nous ressemblions à deux grosses éponges. À ce moment-là, le froid absolu était de l'ordre de 5 à 6° sous 0.</SENTENCE>
+########
+ <SENTENCE>— Cette tempête ? — Et vous allez faire ces conférences en campant ? Sans blague . . . ? — Non . Je compte , à toutes mes conférences, exposer le matériel qui m ’ a servi pour que chaque campeur des <ORG>A . J .</ORG> se rende compte du progrès technique et retienne pour son propre usage les tas « d ’ astuces » que nous avons utilisées .</SENTENCE>
+########
+ <SENTENCE>Nous en avons — momentané¬ ment tout au moins — terminé avec l ' affaire de <LOC>Carcassonne</LOC> . La conclusion est venue d ' une ma¬ nière assez inattendue : la muni¬ cipalité <LOC>carcassonnaise</LOC> a dénoncé le contrat passé pour le terrain de la <LOC>Pépinière</LOC> avec l ' <ORG>A . S . Carcas¬ sonnaise</ORG> , en invoquant la clause qui prévoyait une résiliation en cas de loyers impayés . Or la <HumanProd>finale</HumanProd> de la Coupe de <HumanProd>rugby à treize</HumanProd> reste fixée à <LOC>Toulouse</LOC> , di¬ manche prochain . La décision <LOC>carcassonnaise</LOC> est intervenue trop tard pour que l ' on puisse changer le lieu de la rencontre : les affi¬ ches sont apposées , toutes les dis¬ positions matérielles sont prises .</SENTENCE>
+########
+ <SENTENCE>— Qu ' à cela ne tienne . Je paie l'<PER>escorte</PER> <PER>Pierre Jaminet</PER> a 26 ans et est <LOC>Parisien</LOC> . A 17 ans, c'est-à-dire en 1929, il entre au <ORG>Vélo-Club de Neuilly</ORG> et dispute la course de la <HumanProd>Médaille</HumanProd> .</SENTENCE>
+########
+ <SENTENCE>lier en bois et la garniture d'étamine, répondit par télégramme <PER>Herlory</PER>. Vous pourrez revendre l'escalier après la finale, mais un <LOC>Lorrain</LOC> doit venir serrer la main à ses compatriotes. Le président l'a toujours fait, il ne faut pas perdre la coutume surtout lorsque la <LOC>Lorraine</LOC> arrive pour la première fois en finale.</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>moins ils ont pris les devants et ont mis à rude epreuve <PER>Frey</PER> , un jeune gaillard de 18 ans , qui joua quelque\- fois à la place de <PER>Nock</PER> indisponible .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><PER>F . E .</PER> L'année suivante, il signe sa lience au titre du <ORG>Club sportif international</ORG>.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Devant <PER>Peter Kane</PER> <PER>Frey</PER> a certes de la valeur en puis¬ sance . <LOC>Metz</LOC> serait toutefois handicapé par l ' absence du grand « rouquin » de <PER>Nock</PER> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Mais il est fort probable que la finale du championnat des <LOC>'treize'</LOC> , qui doit mettre en pré¬ sence <LOC>Albi</LOC> et <LOC>Villeneuve</LOC> , se dé<>oulera à <LOC>Carcassonne</LOC> le 15 mai .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><PER>Georges Bataillé</PER> abandonne Et dimanche <PER>M . Lebrun</PER> descendra les marches de l ' escalier imposé par <PER>M . Herlory</PER> , président du <ORG>F . C . Metz</ORG> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Il y a un autre travailleur dans le <ORG>team mosellan</ORG> en la personne de <PER>Rohrbacher</PER> , commis au greffe du tribunal.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Rapidement en équipe première , il est en 1932 le benjamin du « <HumanProd>team</HumanProd> » qui est champion de France des sociétés , avec <PER>Bono</PER> , <PER>No-Mais</PER> les anciens finissent par s ' user . Il est des noms qui font très bien sur une affiche , parce que l ' on est habitué à les voir ; ils paraissent au promoteur une excellente garantie de la recette .</SENTENCE>"
+########
+ <SENTENCE><PER>Muller</PER>, qui a pris part au jeu de volée — création <HumanProd>Magnher</HumanProd> — , nous a jaissé apercevoir une précision magni\- fique qu'il pourra mettre à profit dans <LOC>Carcassonnaise</LOC> se trouve redevable de plusieurs années de loyer à la municipalité. Celle-ci reprend la libre disposition de son stade, et elle l'a mis à la disposition de la <HumanProd>Ligue de rugby à treize</HumanProd>. </SENTENCE>
+########
+ <SENTENCE>Ce qu' <PER>Herlory</PER> veut . . . n'est-ce pas <PER>Gambardella</PER>? Hier soir, au <LOC>Liverpool Stadium</LOC> à <LOC>Liverpool</LOC>, <PER>Georges Bataillé</PER> a été battu, pour permettre à <PER>Fosset</PER> et <PER>Il</PER> de gagner. Il ne paraît point d'ailleurs que la décision de la <ORG>Municipalité</ORG> prenne la signification d'une expulsion pure et simple des « quinze » du terrain de la <LOC>Pépinière</LOC>. L'<ORG>A . S . Carcassonnaise</ORG> n'en est plus locataire, il n'y a plus de contrat, c'est tout. Et les choses sont très bien ainsi. Le <LOC>Stade de la Pépinière</LOC> est un terrain municipal, il doit être ouvert à tous.</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>tu en deux rounds par <PER>Peter Kane</PER>.</SENTENCE>"
+
+In this sentence, "Peter Kane" is identified as a person (PER) as it refers to a specific individual. No other named entities are present in this sentence.
+########
+ "<SENTENCE>Ce dernier trouva difficilement le moyen d ' ouvrir la garde de <PER>Bataillé</PER> au cours du premier round , mais au début de la seconde reprise , le <PER>Français</PER> eut l ' arcade sourcilière forte. Il est tout surpris de constater que le public finit par s ' en fatiguer un peu.</SENTENCE>"
+########
+ <SENTENCE>Grande première en athlétisme <LOC>samedi à Orléans</LOC> Indiquons tout de suite que la <HumanProd>Cependant que des jeunes effec¬ tuent leur ascension</HumanProd> , parfois péni¬ blement . Ils finissent par « sortir » malgré tout , et ce n ' est pas tou¬jours au début de la saison .</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>Un crochet à la ma¬choire envoya <PER>Bataillé</PER> au plancher pour sept , huit et cinq secondes . Les soigneurs jetèrent l ' éponge avant que le deuxième round soit terminé .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>LE SPORT <HumanProd>COMME IL VA</HumanProd> — A l ' occasion du <HumanProd>championnat de France féminin</HumanProd> <HumanProd>de tennis</HumanProd> <HumanProd>par équipe</HumanProd> trois matches seront joués dimanche .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Le <ORG>Comité d ' épuration des écri¬ vains combattants</ORG> a prononcé dans sa première séance les exclusions de : <PER>MM . Pierre Benoit</PER> , <PER>Paul Chack</PER> , <PER>André Demaison</PER> , <PER>Drieu La Rochelle</PER> , <PER>José Germain</PER> , <PER>François Piétri</PER> , <PER>André Salmon</PER> , <PER>Charles Tardieu</PER> , <PER>André Thérive</PER> , <PER>Jacques Boulenger</PER> , <PER>Georges Scapini</PER> , <PER>Ernest Fornairon</PER> , <PER>Etien¬ ne Rey</PER> , <PER>Jacques Roujon</PER> et <PER>Georges Suarez</PER> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>TOUS LES JEUNES GENS Ce qui fait que , sans bourse délier , <PER>le major Pulte</PER> a pu acquérir cinq des plus fameux étalons français de pur sang .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>— elle refuse d ' accepter l ' invasion Les <PER>jeunes gens</PER> qui pour des motifs divers hésitent à choisir une situation, trouveront facilement celle qui leur convient (civile ou d'<HumanProd>Etat</HumanProd>) dans le <HumanProd>Manuel des Carrères</HumanProd> No 12. Envoi gratuit. École au Foyer, <LOC>La Varenne ( Seine )</LOC>.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>— <ORG>sociale</ORG> — elle réclame le parta<ORG>ge</ORG> des terres — <ORG>religieuse</ORG> aussi — le <ORG>primat</ORG> de <LOC>Hongrie</LOC> a condamné le Ainsi la promesse du ministre serait tenue .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><PER>SERVOIX</PER>.</SENTENCE>"
+########
+ <SENTENCE>La voix des <PER>victimes</PER> Enterrés vivants <ORG>Les détaillants</ORG> doivent aider à la baisse des prix <ORG>nazisme</ORG> . Les chefs de la gauche ne <PER>Nous</PER> pourrions donner de nom¬breux autres exemples de la bar¬ barie sadique des <ORG>nazis</ORG> ; ceux que nous avons cités suffisent à donner une idée des inexpiables forfaits perpétrés dans la seule province de <LOC>Touraine</LOC> . Ils suffiront aussi , peut¬être , à faire comprendre à ceux qui n ' ont pas connu ces horreurs , l ' état d ' esprit de la population <LOC>tou¬ rangelle</LOC> , calme et équilibrée entre toutes , mais qui réclame le droit de venger ses <PER>victimes</PER> en partici¬ pant au châtiment des <ORG>criminels</ORG> .</SENTENCE>
+########
+ "<SENTENCE>C ' est à <LOC>Ligueil</LOC> , par exemple , qu ' ayant trouvé des grenades sur un forestier , ils l ' ont ramené chez lui , ont fusillé successivement , de¬ vant lui , sa femme et ses trois gos¬ ses , puis l ' ont tué à son tour après l ' avoir torturé . C ' est encore à <LOC>Ligueil</LOC> qu ' ils ont atrocement mutilé vivants deux maquisards du <ORG>32e R . I</ORG> , pris à <LOC>Verneuil</LOC> , leur coupant le nez et les oreilles ; ils les ont , ensuite , abattus d ' une décharge dans le ventre et les ont enterrés encore vi¬ vants ; ce détail est prouvé par les photos que détient le comman¬ dant de la 4e du <ORG>2e Bon</ORG> , où l ' on voit clairement qu ' ils sont morts d ' asphyxie après avoir avalé leur langue . <PER>Libéraux</PER> , <HumanProd>D ' un jour à l ' autre</HumanProd> Par suite de l ' abondance des arri¬ vages , ces derniers jours , les prix des choux , carottes , poireaux sont en baisse aux halles centrales où les détaillants peuvent les acheter au¬ dessous de la taxe .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><PER>conservateurs</PER> , <PER>monarchistes</PER> sont dé<>portés au camp sinistre de <LOC>Dachau</LOC> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>La résistance se durcit dam l'épreuve. Il faut citer au premier rang <HumanProd>la presse clandestine</HumanProd>, notamment <HumanProd>Liberté</HumanProd>, et <PER>les cheminots</PER> qui <HumanProd>NOUVELLES BREVES</HumanProd> <PER>M. Georges Grappe</PER>, qui a été arêté, a été suspendu jusqu'à décision de la justice.</SENTENCE>"
+########
+ <SENTENCE>— Sept à huit <PER>individus</PER> , qu'on croit être des <ORG>miliciens</ORG> , armés de <HumanProd>revolvers</HumanProd> et de <HumanProd>mitraillettes</HumanProd> , se sont fait remettre de l'essence au <LOC>garage Dupéroux</LOC> , à <LOC>Créteil</LOC> . Ils se sont enfuis à bord d'une <HumanProd>camionnette</HumanProd> , en direction de <LOC>Brévannes</LOC> .</SENTENCE>
+########
+ <SENTENCE>Cette situation ne doit pas etre pour <PER>les détaillants</PER> une occasion d ' augmenter leur marge bénéficiaire .</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>Les cas d ' <PER>autres membres</PER> de <ORG>l ' As¬ sociation</ORG> sont présentement à l ' étu¬ de , les dossiers sont en voie de cons¬ titution . Les décisions seront rendues publiques au fur et à mesure qu ' <PER>el¬ les</PER> seront prises . <PER>mènent</PER> dans des conditions tragi¬ ques une lutte résolue .</SENTENCE>"
+########
+ <SENTENCE> Ils ont le devoir de répercuter cette baisse dans leur prix de vente aux <PER>consommateurs</PER> et de vendre par con¬ séquent eux aussi à des prix infé¬ rieurs à la taxe .</SENTENCE>
+
+In this sentence, "consommateurs" is classified as a person (PER) because it refers to the individuals who will benefit from the price reduction. However, "consommateurs" is more commonly translated to "consumers" in English, which refers to a group or class of individuals, and not a specific individual. Therefore, it might be more appropriate to classify "consommateurs" as a location (LOC) or human production (HumanProd) in this context. Nonetheless, based on the provided entity types, I have classified it as a person (PER).
+########
+ OUTPUT: "<SENTENCE>— <PER>Serge - André Germain</PER>, artificier au <ORG>Laboratoire municipal</ORG> et son aide, <PER>Emile Bourdon</PER> : tous deux décorés de la médaille d'or du courage et du dévouement, ont trouvé la mort en service commandé. Leurs obsèques ont lieu demain, à 10 heures, à <LOC>Notre - Dame</LOC>.</SENTENCE>"
+########
+ <SENTENCE>La <LOC>Hongrie</LOC> contre le <HumanProd>fascisme</HumanProd> Au moment où , dans certains pays alliés , l ' on discute du traite¬ ment à infliger à l ' <LOC>Allemagne</LOC> <LOC>vaincue</LOC> , à l ' heure où , sans contact avec le réel , des messieurs très impor¬ tants formulent des distingos sub¬ tils , la <LOC>Touraine</LOC> , ravagée par la guerre , pillée et torturée par l ' en¬ vahisseur exécré , ne comprendrait pas que la <LOC>France</LOC> , meurtrie mais plus grande que jamais par ses ma¬ quis et ses barricades , soit écartée de ce débat .</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>Deux <PER>approvisionneurs</PER> aux <LOC>Halles</LOC> sont arrêtes <SENTENCE>Des instructions ont été données au service du <ORG>contrôle</ORG> pour surveiller spécialement les prix de détail des <HumanProd>légumes</HumanProd> dont il s ' agit et réprimer sé¬ vèrement les abus .</SENTENCE>"
+########
+ <SENTENCE>C ' est à la fin de la <LOC>Grande Guerre</LOC> qu ' un peuple qui venait de tenter en <LOC>1918</LOC> une révolution , so<PER>cialdémocrate</PER> , en <LOC>1919</LOC> une révo<PER>lu</PER> <SENTENCE>Un témoin à charge qui revient de loin Les approvisionneurs aux Halles Yves Picart et sa femme , née Gar<PER>dic</PER> , demeurant 18 , rue Berzélius , à <LOC>Paris</LOC> avaient détourné de grandes quantités de légumes du carreau des Halles au profit des <LOC>Allemands</LOC> . Ils avaient , d ' autre part , réussi à obte<PER>nir</PER> des autorités d ' occupation des cartes de collecteurs qui leur per<PER>mettaient</PER> de ramasser du ravitail<PER>le</PER> en <LOC>Seine - et - Oise</LOC> .</SENTENCE>
+########
+ OUTPUT: "<SENTENCE><ORG>Iution communiste</ORG> , que ce peuple Des points de <HumanProd>textiles</HumanProd> Réunion d ' information à <LOC>l ' Ecole des secré¬ taires de direction , 15 , rue Soufflot</LOC> , le jeudi 28 septembre , à 15 heures précises .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>s' est vu imposer le <PER>régime Horthy</PER> .</SENTENCE>"
+########
+ <SENTENCE>L ' <ORG>armée roumains</ORG> et l ' ensemble des missions militaires alliées à Bu\- <LOC>C ' est près de Ligueil</LOC> , à <LOC>Manthe\- lan</LOC> , que , sous prétexte de compli\-cité avec le maquis , les Allemands ont fusillé par derrière le régisseur , le fermier et les deux domestiques du château de Kerlerou . Par un triple miracle le fermier vit encore : se tournant au moment où les as\-<ORG>sassins</ORG> tiraient , il a reçu plusieurs balles dans le bras ; il est tombé comme les autres ; au coup de grâ\-ce , une balle a pénétré sous son œil gauche pour ressortir de l ' au\-tre côté sous l ' œil droit , tandis qu ' une autre lui traversait le maxil\-laire supérieur de part en part .</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>Le « <ORG>Bulletin municipal officiel</ORG> » publie une communication rappelant que 20 nouveaux points de <HumanProd>textiles</HumanProd> ( Nes 41 à 58 ) sont validés pour les cartes de la catégorie A . Notons que les coupons <HumanProd>47</HumanProd> et <HumanProd>48</HumanProd> valent chacun 2 points , ce qui fait bien 20 points en tout pour les numéros indiqués .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Soulèvement <PER>des patriotes italiens</PER> à <LOC>Bologne</LOC> dapest portent la lourde responsa¬ bilité de cette erreur . Mal informés , nous nous méfiions de la nation <PER>magyare</PER> . En fait , une bourgeoisie de vieille souche <ORG>allemande</ORG> , dêmeu¬ rée très attachée à ses origines , avait seule imposé , avec <PER>Andrassy</PER> , une politique germanophile .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>M . C <PER>E</PER> et <PER>Rome</PER> , 26 septembre . — Les <PER>patriotes italiens</PER> se sont soulevés à <LOC>Bologne</LOC> . Les troupes alliées ne sont plus qu ' à dix - huit kilomètres de la ville où , durant le seul mois de sep¬ tembre , 10 . 000 personnes ont été emprisonnées et 500 exécutées .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Leurs bénéfices avoués, d'après leur comptabilité, s'élevaient à <HumanProd>6 millions</HumanProd>, dont <HumanProd>un million</HumanProd> avait été glané pendant les six derniers mois de l'occupation.</SENTENCE>"
+########
+ <SENTENCE>— <NUM>Sept millions</NUM> de <HumanProd>cartes</HumanProd> ont été envoyées jusqu ' ici aux <PER>soIdats</PER> de la <ORG>VIle armée américaine</ORG> pour leur permettre de suivre l ' évolution des opérations militaires . <NUM>Deux</NUM> <HumanProd>jours</HumanProd> de <HumanProd>permission</HumanProd> à <LOC>Paris</LOC> ! L ' humour des <PER>tommies</PER> se donne libre cours et cette pièce d ' <HumanProd>artillerie</HumanProd> d ' un autre âge braquée sur l ' esplanade des <LOC>Invalides</LOC> , ne leur rap¬ pelle que de très loin les canons ultra - mo¬ de - nes dont ils se servent .</SENTENCE>
+########
+ "<SENTENCE>Douloureusement résignés, mais eon<persist>confiants</persist> quand même, ils gardent une foi inébranlable en <loc>la France</loc> et sa desti<nation></sentence>"
+########
+ OUTPUT: "<SENTENCE>L ' <ORG>Allemagne</ORG> essaie en grand , et dans une période douteuse — la guerre lui fermant tous les marchés — la célèbre intégration ver¬ ticale qui précipita <PER>Hugo Stinnes</PER> dans le gouffre .</SENTENCE>"
+########
+ <SENTENCE>Car ils savent qu'à quelques kilomètres de la capitale, à la frontière, les <PER>poilus du général</PER> <ORG>Gamelin</ORG>, les <HumanProd>aviateurs français</HumanProd> et ceux de la <ORG>R. A. F.</ORG> <HumanProd>britannique</HumanProd> se tiennent prêts à la riposte, si <PER>Hitler</PER>, trahissant une parole donnée au <LOC>Luxembourg</LOC> dès le début des hostilités, lançait ses cohortes à la conquête facile de ce petit pays sans défense.</SENTENCE>
+########
+ <SENTENCE>Des hordes de gueulards <ORG>et la radio</ORG> firent le reste, cependant que les <PER>Germains</PER> étaient copieusement informés que les frères de race enduraient d'intolérable, toutefois les <LOC>Scandinaves</LOC> y forment une minorité nombreuse, surtout dans le voisinage de la <LOC>Suède</LOC>. Dans l'ensemble une population éminemment intelligente, apte à tous les développements, sérieuse, laborieuse et fière. On se rappelle les magnifiques athlètes <LOC>finlandais</LOC>, coureurs et lanceurs de poids qui remportèrent les plus brillants succès aux divers « Marathon ».</SENTENCE>
+########
+ <SENTENCE>Car le <LOC>Luxembourg</LOC> est neutre . . . et entend le rester . Aussi le <ORG>gouvernement</ORG> , dont <PER>Son Excellence Pierre Dupong</PER> est le ministre d'Etat et <PER>M . Joseph Bech</PER> , le ministre des Affaires étrangères , s'emploie - t - il de toutes ses forces à faire respecter serupuleusement les obligations qui découlent pour le <LOC>Grand - Duché</LOC> de son statut internatio¬ nal de « neutralité non armée » .</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>Le truc du <ORG>pacte russo - allemand</ORG> , le partage de la <LOC>Pologne</LOC> parut une si mer<>Voilà cù en est le Reich . Aujourd ' hui .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><PER>Hitler</PER> , doit faire la guerre — et si ce ne sont pas les générations futures qui paieront les pots cassés , on peut , sans risque cette fois-ci , affirmer que pour la folie d'un homme , <LOC>l'Allemagne</LOC> paiera.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>LES MODÈLES D ' HIVER C ' est l ' espoir fervent qu ' entretient dans l ' âme <LOC>luxembourgeoise</LOC> l ' amour de la <ORG>Fraince</ORG> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><PER>René Leclere</PER> . <HumanProd>DU CHAPELIER " JAN "</HumanProd></SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><PER>Pierre Humbourg</PER>.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Si jamais <LOC>nation</LOC> mérita de vivre c ' est bien celle - là . Combien plus qu ' une masse incohérente , une vaste olla podrida de peuples qui ne se connais¬ sent même pas ! Un <PER>Russe</PER> de <LOC>Moscou</LOC> ou de <LOC>Pétrograd</LOC> , que sait - il d ' un <PER>Russe</PER> de <LOC>Nijni - Novgorod</LOC> , d ' un <PER>naturel</PER> du <LOC>Caucase</LOC> , d ' un <PER>Kirghize</PER> et du tas des sauvages ou demi - sauvages ? Une <HumanProd>Carrère</HumanProd> <HumanProd>CENSURÉ D ' ACTUALITÉ ET D ' AVENIR</HumanProd> J ' al pu m ' en rendre compte à plu¬ sieurs reprises dans ces cafés pitto¬ resques des faubourgs , où chaque soir l ' on se réunit autour de la table ronde sur laquelle les cruches de bière blonde voisinent avec les verres de « Grä¬ chen » et le « véritable Pernod d ' avant l ' autre guerre » , Mystérieusement pres¬ que , comme des conspirateurs , <PER>ouvriers</PER> , <PER>fonctionnaires</PER> , <PER>commerçants</PER> et <PER>avocats</PER> discutent les textes des communiqués militaires et commentent les nouvelles qu ' apporte la radio .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>La merveilleuse défense de la <PER>malheu¬ reuse nation</PER> contre les énormes masses <HumanProd>russes</HumanProd> , pourvues à foi¬ son d ' avions et d ' armements motorisés souligne encore son droit à l ' existence .</SENTENCE>"
+########
+ <SENTENCE>Tant au point de vue commercial que fiscal, la comptabilité établie d'après les nouveaux principes est devenue obligatoire, pour les <ORG>industriels</ORG>, les <ORG>administrations prívées</ORG>, les <ORG>négociants</ORG> et en général pour tous ceux qui s'occupent d'affaires, et ils sont <LOC>La lutte du faible contre le fort ? Pas même. Non, ce n'est pas l'écrasement du faible qu'il faut dire, mais l'écrasement du moins nombreux par le plus nombreux . . . du moins armé par le mieux armé!</LOC> <MONEY>PLUSIEURS MILLIONS</MONEY> Avec quelle ferveur ont-ils écouté les paroles simples et fortes du président <PER>Daladier</PER>, avec quelle joie ont-ils fêté la victoire des neufs chasseurs <ORG>français</ORG> sur les vingt- sept « <ORG>Messerschmidt</ORG> », avec quel dédain aussi ont-ils tourné le bouton du poste lorsque par hasard ils ont cru deviner — ne fût-ce qu'un court instant — la voix du traître de <LOC>Stuttgart</LOC> .</SENTENCE>
+########
+ <SENTENCE>Par contre, pour satisfaire aux demandes de tous ces <ORG>employeurs</ORG>, le nombre des <HumanProd>vrais techniciens</HumanProd> a toujours été, et aujourd'hui plus encore, considérablement insuffisant. Nul ne s'étonnera donc que ces précieux <HumanProd>collaborateurs</HumanProd> soient tant recherchés. Quel regret! Et comme il avait raison le vieux <PER>diplomate</PER>. Si les <HumanProd>peuples slaves</HumanProd> — <LOC>Pologne</LOC>, <LOC>Tchécoslovaquie</LOC>, <LOC>Bulgarie</LOC>, <LOC>Yougoslavie</LOC> s'étaient entendus au lieu de se disputer pour quelques morceaux de terre, s'ils avaient formé une fédération de 70 millions d'hommes auxquels on pouvait joindre 15 millions de <LOC>Roumains</LOC>, voire 10 millions de <LOC>Hongrois</LOC>. . .</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>Non Mobilisables</SENTENCE>"
+
+In this sentence, there are no clear named entities that can be classified as person (PER), organization (ORG), location (LOC), or human production (HumanProd). Therefore, the output does not contain any named entities.
+########
+ "<SENTENCE>Pourquoi rester oisifs ou continuer à végéter dans un emploi quelconque sans stabilité , peu rémunéré et sans avenir ? Pourquoi ne pas acquérir les connaissances particulières qui feront de vous <PER>UN</PER> ou <PER>UNE</PER> spécialiste dont la collaboration sera toujours recherchée par les employeurs ? EN 3 MOIS Vous vous êtes chamaillés , tandis que l ' ogre aiguisait son couteau dans l ' om¬ bre . . .</SENTENCE>"
+########
+ <SENTENCE>Si vous avez une instruction moyenne et un peu de volonté . vous pouvez mê¬ <PER>CENSURÉ</PER> me n ' ayant encore aucune notion de la science comptable , devenir sans aucun déplacement , sans nuire à vos occupations , un ou une spécialiste de la comptabilité fiscale : et cela grâce aux nouveaux cours par correspondance de l ' <ORG>ad</ORG> Toute puissance est faible à moins que [d ' être unie • "<PER>JAN</PER>" <LOC>EST AUX ARMÉES</LOC> , <PER>Mme Jan</PER> vous présente "<PER>Odile</PER>" <HumanProd>trés belle cape line</HumanProd> en taupéras au prix de 150 <CUR>fr</CUR> .</SENTENCE>
+
+In this sentence, the named entities are identified and classified as follows:
+- "CENSURÉ" is classified as a person (PER)
+- "ad" is classified as an organization (ORG)
+- "JAN" is classified as a person (PER)
+- "EST AUX ARMÉES" is classified as a location (LOC)
+- "Mme Jan" is classified as a person (PER)
+- "Odile" is classified as a person (PER)
+- "trés belle cape line" is classified as a human production (HumanProd)
+- "fr" is classified as a currency (CUR)
+########
+ OUTPUT: "<SENTENCE><ORG>ministration du TABLEAU FISCALET JURIDIQUE</ORG> Ecoutez là - dessus l ' esclave de Phrygie Nous l ' avons écouté heureusement , un peu tard , mais pas trop tard pour rain¬ cre . La suractivité de nos usines , sur¬ tout quant aux avions , l ' admirable orga¬ nisation de notre armée , le magnifique élan de la <LOC>Grande - Bretagne</LOC> et de ses <HumanProd>Dominions</HumanProd> d ' <LOC>Amérique</LOC> , <LOC>Asie</LOC> , <LOC>Afri¬ que</LOC> et <LOC>Australie</LOC> , doivent nous incli¬ ner à la confiance .</SENTENCE>"
+########
+ <SENTENCE>Demandez aujourd ' hui même , en découpant le bon ci - dessous , la <HumanProd>brochure explicative</HumanProd> pour devenir <HumanProd>technicien de la comptabilité fiscale</HumanProd> . Pour la recevoir sous pli cacheté , <LOC>joindre 1 fr . 50</LOC> .</SENTENCE>
+########
+ OUTPUT: "<SENTENCE><ORG>JAN</ORG> VOUS OFFRE, Madame, en une merveilleuse gamme de coloris chauds et veloutés, ses <HumanProd>"Taupéras"</HumanProd> qui sont drapés sur votre tête pour s'harmoniser avec votre visage. Prix 105 fr. et 135 fr.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><HumanProd>TABLEAU FISCAL S . N . C . F .</HumanProd> • " JAN " , VOUS OFFRE , Monsieur , <HumanProd>képis</HumanProd> , <HumanProd>calots</HumanProd> , <HumanProd>bérets</HumanProd> , <HumanProd>décorations</HumanProd> , et le <HumanProd>passe - montagne</HumanProd> qu'il vous faut au prix vraiment exeptionnel de 15 fr . <HumanProd>Chapeaux de feutre</HumanProd> " Jankee " , 75 fr . à 325 fr .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Le <ORG>Bureau de Tourisme</ORG> de la <LOC>Gare Saint - Lazare</LOC> est ouvert de 9 h . à 11 h . et de 13 h . à 18 heures .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>& <ORG>JURIDIQUE</ORG> • " <HumanProd>JAN</HumanProd> " EXPÉDIE EN PROVINCE , port et emballage : 8 fr . Franco pour militaires .</SENTENCE>"
+########
+ "<SENTENCE>65 - 67 <LOC>RUE DE LA ADRÈSSE</LOC> • <ORG>" JAN " , <HumanProd>CHAPELIER - SPÉCIALISTE</HumanProd> , 14 , <LOC>rue de Rome</LOC> , <LOC>Paris</LOC> . Téléphone : <ORG>EURope 41 - 65</ORG> . ( Terminus autobus AI .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>) <ORG>Sauf dimanches et fêtes</ORG> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><PER>J . - H . Rosny ainé</PER></SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Téléphone : <ORG>Lab . 70 - 81</ORG> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><LOC>VICTOIRE PARIS - 9e</LOC> de l ' Académie Concourt .</SENTENCE>"
+########
+ "<SENTENCE>au rapport <LOC>CHEZ L ' ENNEMI</LOC> <LOC>L ' ère des expédients</LOC> <LOC>CANTONNEMENT</LOC> Ce qui lui était matériellement impossi\-ble .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><HumanProd>Service en campagne</HumanProd>.<SENTENCE>"
+
+In this sentence, "Service en campagne" is classified as a human production because it is a title of a publication or work, which is a type of named entity. It does not fit into the categories of person, organization, or location, so the best fit is human production.
+########
+ OUTPUT: "<SENTENCE><PER>FIN DE PERME</PER> — Je prendrais bien quelque chose de chaud ! . . .</SENTENCE>"
+
+In this sentence, "FIN DE PERME" is identified as a person (PER) because it appears to be a name, although it's not a typical personal name. If it's not a person, it can be reclassified as a miscellaneous entity (MISC) or any other appropriate category based on the context.
+########
+ INPUT: "<SENTENCE>— Dire qu ' il va falloir repren¬ dre cette pesante inactivité . . .</SENTENCE>"
+OUTPUT: "<SENTENCE>— Dire qu ' il va falloir repren¬ dre cette pesante inactivité . . .</SENTENCE>"
+
+There are no named entities in the provided sentence.
+########
+ OUTPUT: "<SENTENCE>L ' affaire s ' arrangea quand même, les <PER>clients</PER> ayant d ' enthousiasme résolu de participer aux frais et le <PER>gérant</PER> ayant eu de son côté le beau geste .</SENTENCE>"
+########
+ <SENTENCE>E coin où nous sommes cantonnés en attendant les événements n'est pas spécialement drôle.</SENTENCE>
+
+In this sentence, there are no named entities that can be classified as person (PER), organization (ORG), location (LOC), or human production (HumanProd). Therefore, the output will not contain any named entities.
+########
+ OUTPUT: "<SENTENCE>L Cette nomination n'aurait dû surprendre personne. Il est su depuis longtemps que <PER>Hitler</PER>, qui ne s'en cache pas, du reste, ne comprend rien aux questions économiques. Il est donc normal qu'à un moment capital il se décharge complètement de ce fardeau sur un des trois ou quatre de ses <PER>lieutenants</PER>.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>' <PER>ÉLÉVATION d ' Hermann Goering</PER> au rang de chef suprême de l ' éco¬ nomie allemande a mis d ' abord un terme à ce flot de fausses — Une brique ? . . .</SENTENCE>"
+
+In this sentence, 'ÉLÉVATION d ' Hermann Goering' is identified as a PER (person) entity, as it refers to a specific individual, Hermann Goering, who was elevated to a certain position.
+########
+ OUTPUT: "<SENTENCE>L <PER>Mais</PER> il avait jusqu ' à présent un <PER>Mais</PER> à la prochaine « perme » , j ' en connais un qui désormais filera direc¬ tement sur <LOC>Saint - Etienne</LOC> ! <PER>Lettre</PER> à la <PER>Marraine</PER> avantage : nous y étions à peu près seuls . Or voilà - t - il pas que , depuis quelques jours , le secteur est devenu plus fréquenté que la place de l ' <LOC>Opéra</LOC> .</SENTENCE>"
+########
+ "<SENTENCE>nouvelles qui nous montraient le <PER>maître</PER> en opposition violente avec le <PER>Führer</PER> et complotant même sa chute.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><HumanProd>La Presse du Front</HumanProd> <HumanProd>Le planton de semaine</HumanProd> .</SENTENCE>"
+
+In this sentence, "La Presse du Front" is a human production (newspaper) and "Le planton de semaine" is also a human production (a weekly feature or article in the newspaper).
+########
+ OUTPUT: "<SENTENCE>Il en arrive de partout, et de toutes les couleurs: <PER>des cavaliers</PER>, <PER>des motorisés</PER>, <HumanProd>de la bifile</HumanProd>, et <PER>des mineurs</PER> et <PER>des pon<U+00E7>tonniers</PER> and <PER>des artilleurs</PER>; sans compter une section de <PER>colombophiles</PER> avec ses <ORG>oiseaux</ORG> qui obéissent au sifflet et qu' on est prié de ne pas prendre pour des <ORG>ramiers</ORG>: sinon, on sait ce qu' il en coûte.</SENTENCE>"
+########
+ "<SENTENCE>Où l'on commet une première et grossière erreur, c'est en prétendant que <PER>Goering</PER> a accepté le poste que <PER>Schacht</PER> aurait refusé. Les deux hommes sont de formation trop différente pour qu'on puisse leur fixer des tâches identiques. Le docteur <PER>Schacht</PER> est un technicien remarquable. Si l'on a vraiment souhaité avoir recours à ses lumières, l'ancien directeur de la <ORG>Reichsbank</ORG> n'a pu que proposer une refonte totale du système actuel. <PER>Goering</PER>, qui n'a rien d'un technicien et ne connaît pas grand-chose en ces matières, ne saurait être appelé à jouer un rôle aussi ambitieux. Il s'appliquera plus modestement à faire rendre le maximum audit système, en osant prendre des décisions draconiennes, en secouant l'inertie des uns, en fouettant le zèle des autres. Le personnage est fort apte à exécuter une pareille besogne, étant un être énergique, doué du don de savoir faire travailler les gens sous ses ordres et ne reculant jamais à imposer à la population les plus durs sacrifices.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>E vous écris aujourd'hui d'un « <LOC>autre part</LOC> » qui n'est d'ailleurs pas bien loin de mon « <LOC>quelque part</LOC> » précédent.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Depuis notre arrivée , chaque jour , nous apercevons , au - dessus des <ORG>lignes allemandes</ORG> , de nouvelles pancartes , surchargées d ' inscrip¬ tions <ORG>mielleuses</ORG> et <ORG>menteuses</ORG> et qui voudraient nous démoraliser .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>mée et de la flotte <ORG>japonaises</ORG> procéderont demain aux essais d ' un projectile qui , en éclatant , laissera se déployer un filet dans lequel se prendront les hélices des avions <PER>ennemis</PER> . - <HumanProd>VAUDEVILLES</HumanProd> Elle chanta jusqu ' au matin . . . Elle avait le cœur à trois mille kilomètres de là . . .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><HumanProd>NOS PETITES SCALA</HumanProd> . — 8 h . 45 : Le Coup de Jarnac <HumanProd>ELDORADO</HumanProd> . — 8 h . 30 : Les Dégourdis de la 11e .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>et je ne sais quelles étranges lueurs dans le regard et je ne sais quelle folle désespoir dans la voix . . . Qu ' est - elle devenue ? . . .</SENTENCE>"
+OUTPUT: "<SENTENCE>et je ne sais quelles étranges lueurs dans <LOC>le regard</LOC> et je ne sais quelle folle <emotion>désespoir</emotion> dans <LOC>la voix</LOC> . . . Qu ' est - elle devenue ? . . .</SENTENCE>"
+
+In this sentence, there are no named entities that can be classified as person (PER), organization (ORG), location (LOC), or human production (HumanProd). However, there are two expressions that can be classified as location (e.g., "le regard" and "la voix") and one expression that can be classified as an emotion (e.g., "désespoir").
+########
+ OUTPUT: "<SENTENCE><ORG>SIMART</ORG> Imprimeur .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><ORG>I . de la P .</ORG></SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><LOC>, 16 </LOC><LOC>rue du Croissant</LOC><LOC> . PARIS </LOC>.<LOC>.</LOC></SENTENCE>"
+
+In the provided input, there are no named entities that fall into the categories of person (PER), organization (ORG), or human production (HumanProd). Therefore, the only named entities present are locations (LOC), which include ", 16", "rue du Croissant", "PARIS", and ".", all of which are part of the address given.
+########
+ OUTPUT: "<SENTENCE><PER>TH . DEJAZET</PER> . — 8 h . 30 : Cinq femmes sur le dos .</SENTENCE>"
+########
+ <SENTENCE>Un camion <HumanProd>vide</HumanProd> quitte le port, un autre arrive, et les ouvriers — à eux quatre, ils déchargent cinq camions à l'heure! — se changent; <PER>Jacques</PER> et <PER>Gégène</PER> descendent dans la péniche: <PER>Maurice</PER> et <PER>Charlot</PER> montent sur la voiture et envoient les sacs; alors la cadence du travail devient normale.</SENTENCE>
+########
+ "<SENTENCE>Mais le <PER>chef farinier</PER> , en blouse crè — <SENTENCE>Amène !</SENTENCE>" .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>. Et <ORG>le crapaud</ORG> mord le charbon qui craque, fume . . . La <ORG>grue</ORG> chante, et, lentement, se met à valser; les <ORG>hommes</ORG> se garent . . .</SENTENCE>"
+
+Explanation:
+
+* "le crapaud" is not a proper noun, so it is classified as an organization (ORG)
+* "charbon" is a common noun for a type of fuel, so it is not classified
+* "fume" is a verb, so it is not classified
+* "grue" is a common noun for a type of crane, so it is classified as an organization (ORG)
+* "les hommes" is a plural noun for people, so it is classified as an organization (ORG)
+* "garent" is a verb, so it is not classified.
+########
+ OUTPUT: "<SENTENCE>Ils sont payés à l'heure : cinq francs! Un peu plus loin, à la hauteur des <LOC>Grands Moulins de Paris</LOC>, on « fait » un bateau de farine . . .</SENTENCE>"
+########
+ "<SENTENCE>Les planches, il y a cinq <PER>hommes</PER> dans la chaîne.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><PER>July</PER> QUATRE DES GRANDS MOULINS Le soleil de <PER>July</PER> écrase le port ; même sans rien faire on sue à grosses gouttes ! .</SENTENCE>"
+
+Note: In this example, "July" is classified as a person (PER) because it is being used as a name for the month, rather than as a temporal entity. If "July" were used to refer to the month in a different context, it would be classified as a temporal entity (TIME) instead.
+########
+ OUTPUT: "<SENTENCE>. <HumanProd>Un camion de farine</HumanProd> sort des <LOC>Grands Moulins</LOC> , descend sur le quai , tourne .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>recule, s'arrête à deux mètres du bateau; les ouvriers disposent un glissoir qui va du camion au bateau et forme, avec le sol, un angle de 45 degrés.</SENTENCE>"
+
+In this sentence, there are no named entities that can be classified as person (PER), organization (ORG), location (LOC), or human production (HumanProd). Therefore, the output does not contain any additional tags.
+########
+ <SENTENCE>On ne peut guère prétendre faire ici une analyse complète de <HumanProd>l'œuvre de Passos</HumanProd> , mais il est bon que nos lecteurs sachent qu'une des particularités du style de <PER>Passos</PER> , c'est justement d'en changer suivant le personnage , qu'il nous présente . Dans l'exemple qui nous intéresse , « <PER>Joe Williams</PER> » , <PER>Passos</PER> écrit souvent comme si c'était Joe lui-même qui parle , qui raconte , qui pense . Il « entre dans la peau de son personnage » , dirait un acteur , ce qui parfois , comme c'est le cas avec Joe , donne à son récit une naïveté , souvent une vulgarité et un style « concierge » qui peut surprendre à première vue , mais un tel récit encadré comme il l'est dans le cours du roman par les propres pensées de <PER>Passos</PER> , — qu'il intercale sous le titre général de « chambre noire » ou des « actualités » qui nous révèlent les mensonges de la presse pourrie , des bobards , des chansons militaires , du bourrage de crânes et des récits d'autres personnages qui se mêlent , se fondent ou se séparent , <PER>Passos</PER> arrive à former ce Tout si complexe qu'est la fresque énorme d'une Société qui se bat , lutte , souffre ou subit l'époque atroce de la « grande boucherie » .</SENTENCE>
+########
+ OUTPUT: "<SENTENCE><PER>JOHN DOS PASSOS</PER> est né en 1896, à <LOC>Chicago</LOC>, de famille d'origine por<LOC>tugaise</LOC>. Il fit ses études à l'Institut de <LOC>Harvard</LOC>, s'engagea en 1917 comme conducteur d'ambulance et fut affecté au 25° corps d'armée.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>J Deux <PER>hommes</PER> montent sur le ca¬ mion , envoient , les sacs . Dans la pé¬ niche , deux autres les reçoivent . . . sur l ' épaule ! Tous quatre sont de la même tail¬ le : un mètre quatre - vingts ; ils ont le torse et les pieds nus . La poussière de farine et la sueur leur a fait à chacun un masque de pâte què trouent deux yeux rougis .</SENTENCE>"
+########
+ <SENTENCE>Enfin, à une activité scientifique, de caractère universel - <PER>il</PER> appartenait à toutes les Académies du monde, et participa à tous les congrès internationaux - il ajouta des recherches pédagogiques, en particulier sur l'enseignement des sciences. Il a toujours pensé que l'histoire des sciences devrait compléter l'exposé des résultats scientifiques pour le plus grand bien de l'<HumanProd>humanisme scientifique moderne</HumanProd>. Il était le président d'une commission de réforme de l'<ORG>enseignement français</ORG>. <PER>Paul Langevin</PER> l'a dit lui-même : « L'homme de science ne doit pas se désintéresser de l'usage fait par les hommes des moyens d'action qu'il contribue de mettre à leur disposition, et qui peuvent être employés pour le bien comme pour le mal de l'espèce, pour lui servir comme pour lui nuire, pour les œuvres de guerre comme pour celles de la paix.</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>« Chacun doit se sentir , à ce point de vue , d ' autant plus proche des autres .</SENTENCE>"
+
+Explanation:
+This sentence does not contain any named entities that can be classified as person (PER), organization (ORG), location (LOC), or human production (HumanProd). Therefore, the output does not contain any entity tags.
+########
+ OUTPUT: "<SENTENCE>que les temps sont plus difficiles , et particulièrement dans les périodes de crise comme celle où nous vivons , et où s ' enfante un monde nouveau . » Cette pensée , dont l ' actualité est très vive à cette époque de la <HumanProd>bombe atomique</HumanProd> , explique aussi toute sa vie . Car le <PER>savant</PER> est sorti de son laboratoire pour participer à la vie civique comme à la lutte sociale .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Lutte contre l' <ORG>obscurantisme</ORG> dès l' <ENTITY>affaire Dreyfus</ENTITY> , lutte pour la science et la raison au sein de l' <ORG>Union rationaliste</ORG> , lutte contre le <ORG>fascisme</ORG> et contre la guerre participation au <ORG>Front Populaire</ORG> et à l' <ENTITY>action en faveur de l' Espagne républicaine</ENTITY>: <PER>Paul Langevin</PER> fut toujours présent pour défendre les causes justes et humaines.</SENTENCE>"
+
+In this sentence, I have identified and classified the following entities:
+
+* "obscurantisme" as an ORG (abstract organization) since it represents a concept or movement against enlightenment and education.
+* "affaire Dreyfus" as an EVENT (named entity type not provided in the original list, but I assumed it to be an event as it refers to a specific historical occurrence).
+* "Union rationaliste" as an ORG (organization).
+* "fascisme" as an ORG (abstract organization) since it represents a political ideology.
+* "Front Populaire" as an ORG (organization).
+* "action en faveur de l' Espagne républicaine" as an EVENT (named entity type not provided in the original list, but I assumed it to be an event as it refers to a specific historical occurrence).
+########
+ <SENTENCE>En 1940, les <ORG>nazis</ORG> vinrent l'<PER>arrêter</PER> parmi les premiers. Patriote courageux, il passa quarante jours à <LOC>la Santé</LOC> et subit de terribles interrogatoires où il eut l'honneur d'être traité d'« ennemi du <ORG>IIIe Reich</ORG> » par un colonel de la <ORG>Gestapo</ORG>. Si l'<ORG>Allemand</ORG> eut peur de faire disparaître le grand savant, en émouvant ainsi la conscience universelle, du moins le condamna-t-il à une résidence forcée dans la ville de <LOC>Troyes</LOC>. Le <PER>mariage</PER> du <PER>professeur Langevin</PER>, <PER>Paul Langevin</PER>, à l'<HumanProd>Ecole de Sèvres</HumanProd>, <PER>Jacques Solomon</PER>, son gendre, grand patriote et savant lui aussi, militant dévoué du <ORG>Parti Communiste</ORG>, « illégal » de la Résistance, fut exécuté par les <ORG>Allemands</ORG>, le 23 mai 1942. </SENTENCE>
+########
+I've process 167 phrases!

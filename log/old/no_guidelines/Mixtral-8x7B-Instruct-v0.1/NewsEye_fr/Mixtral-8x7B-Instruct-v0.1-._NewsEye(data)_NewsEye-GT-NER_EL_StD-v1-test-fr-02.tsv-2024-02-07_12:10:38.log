@@ -1,0 +1,452 @@
+ OUTPUT: "<SENTENCE><HumanProd>441 Citroën</HumanProd> <HumanProd>B . . . . . . . . . .</HumanProd> 579 .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>. <NUM>575</NUM> .</SENTENCE>" (Since .575 is a number, not a named entity)
+########
+ OUTPUT: "<SENTENCE>. — 7 0/0 1927 . . . . . . .</SENTENCE>"
+
+In this sentence, there are no named entities that can be classified as person (PER), organization (ORG), location (LOC), or human production (HumanProd). Therefore, the output remains the same as the input.
+########
+ OUTPUT: "<SENTENCE>. .</SENTENCE>"
+
+The input sentence does not contain any named entities, so the output is the same as the input.
+########
+ OUTPUT: "<SENTENCE>567.</SENTENCE>"
+
+In the provided sentence, there are no named entities that can be classified as person (PER), organization (ORG), location (LOC), or human production (HumanProd). Therefore, the output does not contain any classified named entities.
+########
+ OUTPUT: "<SENTENCE>. .</SENTENCE>"
+
+The input sentence does not contain any named entities, so the output is the same as the input.
+########
+ OUTPUT: "<SENTENCE>568.</SENTENCE>"
+
+In the provided sentence, there are no named entities that can be classified into the categories of person (PER), organization (ORG), location (LOC), or human production (HumanProd). Therefore, the output remains the same as the input.
+########
+ OUTPUT: "<SENTENCE><LOC>Bologne</LOC> Pathé jouiss . . . . . . . . . . . . . . 102 .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>. 104 .</SENTENCE>"
+
+In the provided input, there are no named entities present such as persons, organizations, locations, or human productions. Therefore, the output remains the same as the input.
+########
+ OUTPUT: "<SENTENCE>. — 4 0/0 193
+########
+ OUTPUT: "<SENTENCE>. .</SENTENCE>"
+
+The input sentence does not contain any named entities, so the output is the same as the input.
+########
+ OUTPUT: "<SENTENCE>818 .</SENTENCE>"
+
+In the provided input, there are no named entities that can be classified as person (PER), organization (ORG), location (LOC), or human production (HumanProd). Therefore, the output remains the same as the input.
+########
+ OUTPUT: "<SENTENCE>. .</SENTENCE>"
+
+The input sentence does not contain any named entities, so the output is the same as the input.
+########
+ OUTPUT: "<SENTENCE>861.</SENTENCE>"
+
+In the provided sentence, there are no named entities that can be classified as person (PER), organization (ORG), location (LOC), or human production (HumanProd). Therefore, the output does not contain any classified named entities.
+########
+ OUTPUT: "<SENTENCE><LOC>Prague</LOC>. . . . . . . . . . . . . .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>. . . .</SENTENCE>"
+
+I'm sorry for the confusion, but the input sentence does not contain any named entities to identify and classify. The input sentence should contain proper nouns or specific names to classify them into the given types: person (PER), organization (ORG), location (LOC), and human production (HumanProd).
+########
+ OUTPUT: "<SENTENCE><HumanProd>Sucrerie Say</HumanProd> . . . . . . . . . 1865 .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><NUM>1850</NUM></SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>. — 4 0/0 1931 . . . . . . . . .</SENTENCE>"
+
+In this sentence, there are no named entities that can be classified as person (PER), organization (ORG), location (LOC), or human production (HumanProd). Therefore, the output remains the same as the input.
+########
+ OUTPUT: "<SENTENCE>. <NUM>918</NUM> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>. .</SENTENCE>"
+
+The input sentence does not contain any named entities, so the output is the same as the input.
+########
+ OUTPUT: "<SENTENCE>. <NUM>922</NUM> .</SENTENCE>"
+
+(Note: Since there are no named entities of the types person, organization, location, or human production in the given sentence, I have added a new entity type <NUM> to indicate the numeric value.)
+########
+ OUTPUT: "<SENTENCE><LOC>Roumanie</LOC>.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>. . . . .</SENTENCE>"
+
+I'm sorry for the confusion, but the input sentence does not contain any named entities to identify and classify. The input sentence should contain proper nouns or specific names to classify into the given types: person (PER), organization (ORG), location (LOC), and human production (HumanProd).
+########
+ OUTPUT: "<SENTENCE>. 15 15 .</SENTENCE>"
+
+In the provided input, there are no named entities present in the sentence such as persons, organizations, locations, or human productions. Therefore, the output remains the same as the input.
+########
+ OUTPUT: "<SENTENCE><ORG>Banque Nat . Mexique</ORG> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>. 186 .</SENTENCE>"
+
+In this sentence, there are no named entities that can be classified as person (PER), organization (ORG), location (LOC), or human production (HumanProd). Therefore, the output remains the same as the input.
+########
+ OUTPUT: "<SENTENCE>. 189 <NUM>.</NUM></SENTENCE>" (Note: I'm assuming that .189 is a number followed by a period, and I've classified the period as a "NUM" entity, which stands for "numeric entity". If .189 is actually a different type of entity in your specific context, please let me know!)
+########
+ OUTPUT: "<SENTENCE>. Est 5 0/0 .</SENTENCE>"
+
+In the provided input, there are no named entities present that can be classified as person (PER), organization (ORG), location (LOC), or human production (HumanProd). Therefore, the output remains the same as the input.
+########
+ OUTPUT: "<SENTENCE>. 515 .</SENTENCE>"
+
+In the provided input, there are no named entities present such as persons, organizations, locations, or human productions. Therefore, the output remains the same as the input.
+########
+ OUTPUT: "<SENTENCE>. .</SENTENCE>"
+
+The input sentence does not contain any named entities, so the output is the same as the input.
+########
+ OUTPUT: "<SENTENCE>. 512 .</SENTENCE>"
+
+In the given sentence, there are no named entities that can be classified into the categories of person (PER), organization (ORG), location (LOC), or human production (HumanProd). Therefore, the output remains the same as the input.
+########
+ OUTPUT: "<SENTENCE><LOC>Suède</LOC>.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>. .</SENTENCE>"
+
+The input sentence does not contain any named entities, so the output is the same as the input.
+########
+ <SENTENCE>471 . . . <ORG>Ottomane</ORG> . . . . . . . 520 .</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>. <NUM>516</NUM> .</SENTENCE>"
+
+(Note: Since there are no named entities of the types person, organization, location, or human production in the input sentence, I have added a new entity type <NUM> for numbers.)
+########
+ OUTPUT: "<SENTENCE><LOC>Lyon 6 0/0</LOC></SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>463.</SENTENCE>"
+
+In this sentence, there are no named entities that can be classified as person (PER), organization (ORG), location (LOC), or human production (HumanProd). Therefore, the output does not contain any additional tags.
+########
+ OUTPUT: "<SENTENCE>. <ORG>468</ORG>.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><LOC>Suisse</LOC> . . . .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>493 . . . .</SENTENCE>"
+
+In the provided input, there are no named entities present in the sentence. Therefore, the output will not contain any classified named entities.
+########
+ OUTPUT: "<SENTENCE>493 25.</SENTENCE>"
+
+In this sentence, there are no named entities that can be classified as person (PER), organization (ORG), location (LOC), or human production (HumanProd). Therefore, the output does not contain any additional tags.
+########
+ OUTPUT: "<SENTENCE><ORG>Foncier Egyptien</ORG> . . . . . . .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>. <NUM>2165</NUM> .</SENTENCE>"
+
+(Note: Since there are no named entities of the types person, organization, location, or human production in the input sentence, I have added a new entity type <NUM> to label the number 2165.)
+########
+ <SENTENCE>. 2175 . <LOC>Nord</LOC> 5 0/0 . . . . . . . . . . . 460 . . 460 . . <LOC>Vienne</LOC> . . . <HumanProd>Wagons - Lits ord</HumanProd> . . . . . . . . . . 79 50 . 80 75 <LOC>Orléans</LOC> 6 0/0 . . . . . . . . 470 . . 471 . . . . . . . . . . . . . . . . <ORG>Central Mining</ORG> . . . . . . . . . . 1085 . . . 1086 . . <HumanProd>Bons Panama</HumanProd> . . . . 124 50 . . 125 50</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>MARDI 17 <LOC>janvier</LOC> , à 21 heures : « En marge des prétentions <LOC>italiennes</LOC> sur la <LOC>Tunisie</LOC> » par <PER>Serge MOATTI</PER> , reporter à <ORG>Radio - Tunis</ORG> , membre de la <ORG>Fédération socialiste de Tunisie</ORG> .</SENTENCE>"
+########
+ <SENTENCE>Deux nouvelles inculpations frappent le surveillant complaisant <PER>M . Hude</PER> , juge d'instruction , a in<ORG>culpé hier</ORG> le surveillant <PER>Vallet</PER> de <ORG>corruption de fonctionnaire</ORG> , faux et usa<ORG>ge de faux</ORG> . Tout d'abord , l'expert <PER>Gebelin</PER> avait établi que tous les ordres d'extraction , aussi bien ceux qui sont entièrement faux que ceux qui n'ont été que maquillés par addition d’un nom , avaient été préparés par la main du gardien de la <LOC>Souricière</LOC> .</SENTENCE>
+########
+ <SENTENCE>En particulier, l'<ORG>ordre du 2 octobre</ORG> qui permit à <PER>Pélissier</PER> de s’évader le lendemain et qui fut retrouvé le 4 à <LOC>la Santé</LOC>, est en entier de lui. Par ailleurs, le petit <ORG>carnet</ORG> saisi sur <PER>Chris­tiane Pélissier</PER> établit qu'il avait touché des sommes d'argent pour la location à la journée, de la cellule numéro 10. Plusieurs autres <PER>dames</PER>, d'ailleurs, avec leurs maris détenus, ont contribué à alimenter la caisse du geôlier « compatissant ». </SENTENCE>
+########
+ <SENTENCE>Le versement des cotisations d'<ORG>assurances sociales</ORG> pour les <PER>chauffeurs</PER> de <LOC>taxis</LOC> Le ministère du <ORG>Travail</ORG> nous com~ munique la note suivante : En application de l'<ORG>article premier</ORG>, <ORG>paragraphe 3</ORG>, du <ORG>décret - loi</ORG> du 28 <LOC>octobre</LOC> 1935, modifiant le régime des <ORG>Assurances sociales</ORG>, les <PER>conducteurs</PER> de <LOC>voitures publiques</LOC>, dont l'<ORG>exploitation</ORG> est assujettie à des <LOC>tarifs</LOC> de transport fixés par l'<ORG>autorité publique</ORG>, sont soumis au régime de l'<ORG>assurance obligatoire</ORG>, dès l'<TIME>instant</TIME> que leur rémunération n'<VERB>excède</VERB> pas le <NUM>chiffre - limite</NUM> prévu pour le bénéfice de cette <ORG>assurance</ORG>.</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>Les <HumanProd>cotisations patronale et ouvriè¬ re</HumanProd> sont dues depuis le premier <LOC>janvier 1936</LOC> .</SENTENCE>"
+########
+ <SENTENCE>Conformément à l'article 3 de l'<ORG>arrêté du 27 décembre 1935</ORG> paru au <LOC>Journal Officiel</LOC> du 29 décembre, les pourboires des intéressés, qui doivent entrer en compte pour la détermination de leur rémunération, seront évalués par des conventions collectives de travail, et, à défaut de telles conventions, par arrêtés du ministre du <ORG>Travail</ORG>.</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>L ' <ORG>unité syndicale</ORG> chez les <WORKER>travailleurs</WORKER> de l ' <GOV>Etat</GOV> Les sections de la <ORG>Fédération uni¬ fiée des travailleurs de l ' Etat</ORG> ( <WORKER>artillerie</WORKER> , <WORKER>poudreries</WORKER> , <WORKER>magasins adminis¬ stratifs</WORKER> , <WORKER>génie et aéronautique</WORKER> , <WORKER>employés et agents de maîtrise</WORKER> , <WORKER>marine militaire</WORKER> , <WORKER>arts et métiers</WORKER> ) ont tenu hier leurs assises patriculières dans les différentes salles de la <LOC>Bourse du Travail</LOC> .</SENTENCE>"
+########
+ <SENTENCE>Voici les résultats définitifs du vote par mandats que le <ORG>congrès de fusion des deux Fédérations confédérée et unitaire</ORG> avait été appelé à émettre lundi soir au sujet du <HumanProd>cumul des fonctions syndicales et des mandats politiques</HumanProd> . Contre : 287 voix ; pour : 80 voix ; abstentions : 17 voix .</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>PARTIS ET LIGUES <ORG>Groupe des étudiants radicaux</ORG> La réunion du <ORG>groupe des étudiants radicaux</ORG> de <LOC>Paris</LOC> aura lieu aujourd ' hui mercredi , à 21 heures , au café « Chez Emile » , <LOC>40 , rue Ga¬ lande</LOC> , et <LOC>10 , rue Fouarre ( angle des deux rues )</LOC> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><ORG>Fédération nationale des Libres Penseurs</ORG> <ORG>Fédération de la Seine</ORG> . — La comission spéciale d ’ unité d ’ action se réunira demain jeudi , à 21 heures , local habituel , rue de Châteaudun .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Les <PER>responsables</PER> voudront bien être présents.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><ORG>Parti radical - socialiste</ORG> Versailles . — Les <ORG>Comités radicaux¬ socialistes</ORG> de la deuxième circons¬ cription de <LOC>Versailles</LOC> , réunis à <LOC>Pois¬ sy</LOC> , ont procédé à la constitution di <ORG>la Fédération des Comités</ORG> de cette circonscription .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Le bureau élu de la <ORG>Fédération</ORG> est ainsi constitué : Président : <PER>Rougelot Henri</PER> ; Secrétaire : <PER>Durand Fernand</PER> ; Trésorier : <PER>Fourlon Pierre</PER> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Un ordre du jour a été voté décla¬ rant impossible le maintien de <ORG>ministres radicaux</ORG> dans le <ORG>gouvernement</ORG> ; et demandant au bureau du <ORG>Comité Exécutif</ORG> de proposer à la plus prochaine réunion du <ORG>Comité</ORG> le refus de toute collaboration avec le <ORG>gouvernement actuel</ORG> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Libre Pensée Nous sommes heureux d ' informer le public qu ’ une permanence de la <ORG>14e section de la Libre Pensée</ORG> est ouverte au numéro 47 de la <LOC>rue Bé Bernard ( XIVe )</LOC> , à la <HumanProd>Librairie des Travailleurs</HumanProd> .</SENTENCE>"
+########
+ <SENTENCE>Le but de <ORG>La Libre Pensée</ORG> est de dé[<ORG>evelopper</ORG>] chez tous l ’ esprit critique et l ' amour du libre examen, sans dis[<ORG>tinction</ORG>] de parti, et de grouper dans son sein ceux qui se réclament de ce haut idéal . L ’ époque que nous vivons est corrompue depuis des siècles par les croyances religieuses et leur amie dévouée <ORG>Sa Majesté l ' Argent</ORG> qui gouvernent le monde à leur seul bénéfice .</SENTENCE>
+########
+ <SENTENCE>Il est de notre devoir, pour nos enfants et pour nous-mêmes, d'arracher ce voile de l'au-delà et de mettre le monde en face de ses nécessités réelles. Chacun le peut dans son humble rôle; la <HumanProd>laïcité</HumanProd> peut nous aider. Groupons-nous pour la défendre.</SENTENCE>
+########
+ "<SENTENCE><LOC>Front populaire</LOC> <LOC>Epernay</LOC> . — Dimanche après - midi, <PER>M . Eugène Frot</PER> , ancien ministre, a donné en la <LOC>salle des fêtes d ' Epernay</LOC> ( <LOC>Marne</LOC> ) une conférence sous les auspices de la <ORG>Ligue des Droits de l ' Homme</ORG> et du <ORG>Comité du Front Populaire</ORG> . Plus de 1 .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>200 <PER>personnes</PER> y assistaient dont plusieurs <PER>élus</PER> <ORG>radicaux</ORG> et <ORG>socialistes</ORG> de la région . <PER>M . Guerry</PER> , <PER>président</PER> , assisté de <PER>MM . Morange</PER> et <PER>Guen</PER> .</SENTENCE>"
+########
+ "<SENTENCE><PER>MM . Eugène Frot</PER>, <PER>député</PER>, <PER>ancien ministre</PER>, <PER>Bossus</PER>, <PER>conseiller municipal communiste</PER> de <LOC>Paris</LOC>, <PER>et Emile Kahn</PER>, <PER>secrétaire général</PER> de <ORG>la Ligue des Droits de l'Homme</ORG>, <PER>ont pris succesivement la parole</PER> très chaleureusement applaudis.</SENTENCE>"
+########
+ <SENTENCE>La réunion se termina sans inci<LOC>dent</LOC> . Dans la nuit , un membre de la <ORG>Solidarité Française</ORG> qui avait tenté de peindre des inscriptions injurieu<LOC>ses</LOC> sur les murs de la <LOC>Salle des Fêtes</LOC> avait été surpris par la police . Il dé<PER>clara</PER> avoir été inspiré dans son geste par un discours du <PER>fils</PER> de <PER>M . Prince</PER> qu ' il avait entendu précédemment .</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>. <LOC>XIVe arr.</LOC> — Pour la constitution des <ORG>Comités de défense de la Répu¬ blique</ORG> , trois grands meetings inaugu¬ raux sont organisés par le <ORG>Front po¬ pulaire du 14e</ORG> , aujourd ' hui mercredi: 111 , rue du Château ; 115 , rue Didot , 1 , avenue de la Porte - d ' Orléans .</SENTENCE>"
+########
+ <SENTENCE><PER>Rouffianges</PER> , <PER>Biquard</PER> , <PER>Croizat</PER> , <PER>Mauvais</PER> , <PER>Paul Marcel</PER> , <PER>Graziani</PER> , <PER>Maurice Lacroix</PER> , <PER>Létrange</PER> , <PER>Mension</PER> , etc . . .</SENTENCE>
+########
+ OUTPUT: "<SENTENCE><ORG>Ligue pour le Droit au Travail et le Progrès Social</ORG> Ve arr — Une grande conférence sera donnée le vendredi 17 janvier , à 21 heures , à la <LOC>Sorbonne</LOC> , amphi<LOC>théâtre Richelieu</LOC> , par <PER>Joseph Dubois</PER> , sur « L ' Economie soviétique maî<LOC>tresse de ses destins » . <PER>Jacques Du</PER><ER>boin</ER> entretiendra ensuite les auditeurs du « Problème français » .</SENTENCE>"
+########
+ "<SENTENCE>Les cartes donnant droit aux places réservées sont à la disposition des auditeurs, au <HumanProd>« Droit au Travail »</HumanProd>, 14, rue Favart <LOC>Viroflay</LOC>. — Sous les auspices de la section locale des <HumanProd>Droits de l'Homme</HumanProd>, une grande réunion de propagande aura lieu demain jeudi, à 21 heures, à la salle <LOC>Robie</LOC>, <LOC>134, route Nav</LOC>. Où nos amis <PER>Chesneau</PER> et <PER>Ra, Martin</PER> exposeront les vérités diffusées par le <HumanProd>« Droit</HumanProd> Tous nos amis et sympathisants sont cordialement invités <LOC>Maisons-Alfort</LOC>. — L'Intersection du canton de <LOC>Charenton</LOC> organise vendredi 17 janvier, à 21 heures, une grande réunion à la mairie de <LOC>Maisons-Alfort</LOC>, salle de la <LOC>Juste paix</LOC>. Nos camarades <PER>Compain</PER> et <PER>Martin</PER> y parleront de « la révolution économique actuelle ».</SENTENCE>"
+########
+ "<SENTENCE>— « <LOC>Désordres à Pondichéry</LOC> ! Nos co¬ lonies sont - elles menacées ? Par <PER>Hitler</PER> , <PER>Mussolini</PER> ou <PER>Staline</PER> ? » Tel est le pas¬ sionnant débat qui sera ouvert après - de¬ main mardi soir , à 21 heures précises , au <LOC>Club du Faubourg</LOC> , dans la vaste salle <LOC>Wagram</LOC> , par l ' explorateur <PER>Julien Maigret</PER> , auteur de <HumanProd>Tam - Tam</HumanProd> . Et , à la même séance , <PER>M . Georges Delamare</PER> , directeur de la télé¬ vision d ’ Etat , sur : « <HumanProd>Danse</HumanProd> , <HumanProd>music - hall</HumanProd> et télévision » , avec démonstrations sensa¬ tionnelles sur la scène par les vedettes <PER>Jany Delille</PER> , de l ’ Opéra - Comique , <PER>Lily Jessua</PER> , des Concerts Classiques , les dan¬ seurs <PER>Ariel Page</PER> et <PER>Nil</PER> , l ' illusionniste <PER>The Great Marcel</PER> . En raison de l ' affluence , ouverture des portes à 20 h . 15 . <PER>L ' abbé Mahieu</PER> , du <ORG>Rassemblement universel pour la paix</ORG> , chef du mouvement wallon , vien¬ dra spécialement à Paris pour parler au <LOC>Club du Faubourg</LOC> le samedi 21 janvier , sur : « Face à <PER>Mussolini</PER> et <PER>Hitler</PER> ! » <PER>Jeudi 26</PER> , conférence par <PER>G . de la Fou¬ chardière</PER> . Adhésions et renseignements , le matin , 155 , boulevard Pereire . <LOC>Wagram 71 - 44</LOC> .</SENTENCE>"
+########
+ <SENTENCE>— Aux <ORG>instituts internationaux d ' histoi¬ re de la Révolution française et de coopé¬ ration intellectuelle</ORG> , <LOC>2 , rue Montpensier</LOC> , <PER>M . Lhéritier</PER> , <ORG>professeur à la Faculté des lettres de Dijon</ORG> , fera mercredi 18 janvier , à 17 heures , une conférence sur : « Le 14 juillet et la Révolution municipale , point de départ de la Révolution françai¬ se » .</SENTENCE>
+########
+ <SENTENCE>— Mardi <DATE>17 janvier</DATE> , à 21 heures , at <ORG>la Société « Les Amis de La Fontaine »</ORG> ( <LOC>café Céron , 2 , rue du Vieux - Colombier</LOC> ) , <PER>Mme Jane Hyrem</PER> , présidente du <ORG>Cercle « Arts et Lettres »</ORG> fera une <HumanProd>causerie</HumanProd> sur the <HumanProd>"Florian"</HumanProd> , with <HumanProd>auditions of fables</HumanProd> .</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>( <HumanProd>Entrée gratuite</HumanProd> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE)</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><HumanProd>Imprimerie de l ' Œuvre</HumanProd>, 9 . rue Louis - le Grand <LOC>Paris</LOC> Le gérant : <PER>F . POTIGNAT</PER> .</SENTENCE>"
+########
+ <SENTENCE>1 <HumanProd>L ' ŒUVRE DES JEUNES</HumanProd> <ORG>Jeunesses laiques et républicaines</ORG> <ORG>Fédération de Seine et Seine - et - Oise</ORG> . — Le bureau de la <ORG>Fédération départementale</ORG> et les membres des <HumanProd>J . L . R .</HumanProd> de <LOC>Seine et Seine - et - Oise</LOC> s ' associent avec émotion au deuil qui vient de frapper leurs amis <PER>Hélène</PER> et <PER>Jacques Solomon</PER> , fille et gendre du professeur <PER>Paul Langevin</PER> , en la per¬ sonne du <PER>docteur Solomon</PER> . l ' éminent ra diologue . Le bureau prie tous ses amis et adhérents de bien vouloir se trouver ce matin dimanche , à 11 heures , à la porte du cimetière parisien de <LOC>Pantin</LOC> , afin de présenter au professeur <PER>Langevin</PER> et à sa famille l ' hommage de leur respectueuse et douloureuse sympathie .</SENTENCE>
+########
+ <SENTENCE>Section du <LOC>Pré - Saint - Gervais</LOC> . — La réu¬ nion constitutive de la <ORG>section</ORG> aura lieu le mardi <TIME>24 courant</TIME> , <LOC>8 , rue Emile - Augier</LOC> , salle numéro 1 , sous la présidence de <PER>Just Dapoigny</PER> , <ORG>président de la Fédération de Seine et Seine - et - Oise</ORG> , assisté de <PER>Roger Habert</PER> , <ORG>responsable de la section</ORG> , <PER>Jacques Leman</PER> , <ORG>secrétaire général de la Fédération départementale</ORG> , au cours de laquelle <PER>René Berlin</PER> , <ORG>vice - président de la Fédération na¬ tionale</ORG> , traitera le sujet suivant : « <TOPIC>Le problème espagnol et la sécurité de la France</TOPIC> » . Les <PER>amis</PER> et <PER>sympathisants</PER> sont cordialement invités .</SENTENCE>
+########
+ "<SENTENCE>Les < HumanProd >demandes< /HumanProd > de < HumanProd >service< /HumanProd > ou de < HumanProd >changement< /HumanProd > d ' < LOC >adresse< /LOC > doivent nous parvenir trois jours à l ' < TIME >avance< /TIME > .< SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><ORG>LE RAIL</ORG> CHEMIN DE LA NEIGE .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>. HORAIRE SPÉCIAL ns iente 82 <HumanProd>PETITES ANNONCES</HumanProd> Attention ! On signale réapparition de cagoulards dans le quartier de <LOC>la Bourse</LOC> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><ORG>CANTE PIÉDUES</ORG> - <ORG>PESRUE PUBLICITÉ</ORG> QUOTIDIENNE 9 , Rue Louis - le - Grand <LOC>1e2226</LOC> <HumanProd>TARIF GÉNÉRAL</HumanProd> ( La ligne se compose de 38 lettres , signes ou espaces .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE)</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><HumanProd>Médecine et Hygiène</HumanProd>...</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>. <HumanProd>15 fr</HumanProd> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>( minimum 2 lignes ) <HumanProd>Villégiatures</HumanProd> ...</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>. <HumanProd>12 fr</HumanProd> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Capitaux <HumanProd>20 fr</HumanProd> . Fonds de commerce <HumanProd>.</HumanProd></SENTENCE>"
+
+In this sentence, "Capitaux" and "Fonds de commerce" are not named entities, but they seem to be related to financial transactions, so I classified them as "Human Production". The "20 fr" is a monetary value, so I also classified it as "Human Production". The period at the end of the sentence is not a named entity, but I included it for completeness.
+########
+ OUTPUT: "<SENTENCE>Toutes autres rubriques . . . 10 <ORG>fr</ORG></SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>La vie économique en l' <NUM>60</NUM> . On nous informe que <PER>Néron</PER> vient de mettre l' <ORG>embargo</ORG> sur le <HumanProd>Pétrone</HumanProd> .</SENTENCE>"
+
+In this example, "l' an 60" is classified as a numeric expression (NUM) because it refers to a year, while "Néron" is classified as a person (PER), "embargo" as an organization (ORG) since it is an act or policy, and "Pétrone" as a human production (HumanProd) because it is a type of oil or wine.
+########
+ "<SENTENCE>DEMANDES D ' EMPLOIS <ORG>Frs</ORG> <HumanProd>DACTYLOS</HumanProd> TRAVAUX mach . chez moi , <HumanProd>Px</HumanProd> mod . <HumanProd>Œ</HumanProd> . 3809 <HumanProd>Dactylographe</HumanProd> ayt machine rech . trav .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>copie à faire <PER>ch .</PER></SENTENCE>"
+
+(Note: I am assuming "ch ." is an abbreviation for a person's name, as per the provided entity types.)
+########
+ OUTPUT: "<SENTENCE><PER>moi</PER>. Px tr . bas . Ecr . : Œ . 3801 .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><PER>DIVERS ALLEMAND</PER> p . diplômé . P .</SENTENCE>"
+
+The sentence you provided contains the name "DIVERS ALLEMAND" which refers to a person (PER) with a German origin, as indicated by "ALLEMAND". The abbreviations "p." and "P." are not named entities, so I left them as is.
+########
+ "<SENTENCE><PER>mod . Lentschner</PER>, 8, <LOC>r . de la France - Mutualiste</LOC>, <LOC>Boulogne - s - S .</LOC></SENTENCE>"
+########
+ "<SENTENCE>J h. <NUM>17</NUM> ans, déb. <HumanProd>brevet élément</HumanProd>, ch. <HumanProd>emploi bur.</HumanProd></SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>, comm . ind . Ecrire: <HumanProd>Œuvre 3828</HumanProd> Vve ayt enfant, ch. trav. faç. ch.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><PER>elle</PER>.</SENTENCE>"
+
+The input sentence "elle ." contains one named entity of type person (PER), which is "elle".
+########
+ "<SENTENCE>Œ . 3829 <PER>M . 50</PER> ans, conn . négoce et courtage mar\-chandises importation, ch . emploi . Œ . 3825 <HumanProd>Dipl . Sc . Eco</HumanProd> . 30 a . ex - réd . content . Cie ass .</SENTENCE>"
+########
+ "<SENTENCE><HumanProd>auto</HumanProd>, s' occ. sec. acc. ds Sté ay. n.</SENTENCE>"
+########
+ "<SENTENCE>voit . <ORG>Œ3819</ORG> <PER>M .</PER> très dévoué , ch . empl . pour seconder di¬ rect . commerce . Bon vend . Ecrire : <ORG>Œ . 3775</ORG> Veilleur de nuit , sér . <PER>Wimber</PER> , <LOC>Dor . 60 - 25</LOC> Apprenez Anglais par <HumanProd>Anglaise</HumanProd> , 1re leçon grat .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><PER>Miss Deeds</PER> , 12, <LOC>r . Magellan</LOC> ( <LOC>M°George - V</LOC> ) <HumanProd>Jne fil</HumanProd> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>, 17 a .</SENTENCE>"
+
+In the provided input, there are no named entities present that can be classified as person (PER), organization (ORG), location (LOC), or human production (HumanProd). Therefore, the output remains the same as the input.
+########
+ OUTPUT: "<SENTENCE>, <ORG>ch . empl . manut . bur .</ORG></SENTENCE>"
+########
+ "<SENTENCE>Œ . :3814 <PER>Jeune fille</PER> ayant enseigné demande place <LOC>perm . prép . B .</LOC></SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><ORG>S .</ORG> Ecrire : <ORG>Œ . 3812</ORG> q . trans .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><PER>Jeune</PER> , <PER>dame</PER> <ORG>instr.</ORG> <ORG>capable</ORG> <ORG>sér.</ORG> <ORG>réf.</ORG> .</SENTENCE>"
+
+(Note: The abbreviations "instr.", "capable", "sér.", and "réf." are classified as organizations because they are not commonly recognized as entities in English, and the context does not provide enough information to confidently classify them as other types. If these abbreviations are specific to a certain domain or language, please provide more context for accurate classification.)
+########
+ INPUT: "<SENTENCE>, secon¬ derait commerçant ou patron . Ecr .</SENTENCE>"
+OUTPUT: "<SENTENCE>, <ORG>commerçant</ORG> ou <ORG>patron</ORG> . Ecr .</SENTENCE>"
+
+In this sentence, "commerçant" and "patron" are classified as organizations (ORG) because they refer to types of businesses or occupations rather than specific individuals or institutions.
+########
+ <SENTENCE>: Œ . 3813 <HumanProd>Ouvrier d'art et artiste peintre</HumanProd> cherche petits travaux restauration de tableaux, décoration d'intérieur ou réparations meubles de style, anciens ou modernes, laques, vernis Martin et au tampon. <PER>Christophe</PER>, 56, rue de la Montagne - Sainte - Geneviève, 5e 43 ans, peintre, par suite chôm. fréquent, rech. pet.</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>empl . bureau ou manutent .</SENTENCE>"
+
+Explanation:
+
+In the provided sentence, there are no clear named entities that can be classified as person (PER), organization (ORG), location (LOC), or human production (HumanProd). Therefore, the output remains the same as the input.
+
+1. empl: This is an abbreviation and does not fit into any of the provided categories.
+2. bureau: This is a common noun and does not fit into any of the provided categories.
+3. ou: This is a conjunction and does not fit into any of the provided categories.
+4. manutent: This is a misspelled word, and it is unclear what it is intended to mean. It does not fit into any of the provided categories.
+########
+ OUTPUT: "<SENTENCE> <ORG>Infirmière</ORG> des <ORG>Hôpitaux</ORG> pouvant donner soins et assurer garde de nuit , <LOC>Paris</LOC> et proche banlieue , cherche emploi . <ORG>Œ . 3788</ORG> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><PER>M . PAULET</PER>, 56 , <LOC>r . Mont . - Ste - Geneviève</LOC>, 5e . <ORG>ELECTRICITE</ORG> Electricien demande ts petits travaux MOITIE TROC A VOLONTE</SENTENCE>"
+########
+ "<SENTENCE><ORG>COUTURE 1re main couture</ORG>, cherche apr .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>- midi bourgeoise . <PER>Mardo</PER>, 85, <LOC>rue Saint - Dominique</LOC> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><ORG>STENO - DACTYLO</ORG> <PER>J.</PER> fil. <NUM>18</NUM> a. <NUM>18</NUM> a.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>, st .</SENTENCE>"
+
+In the provided input, there are no named entities present in the sentence. Therefore, the output remains the same as the input.
+########
+ OUTPUT: "<SENTENCE><ORG>dact.</ORG></SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>, <ORG>travx bur</ORG> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><CH>ch.</CH></SENTENCE>"
+
+(Note: I have added a new entity type <CH> for miscellaneous abbreviations.)
+########
+ OUTPUT: "<SENTENCE><LOC>pl .</LOC></SENTENCE>"
+########
+ <SENTENCE>Œ . 3820 <HumanProd>Rapide sténo - dactylo</HumanProd> ( ayant machine ) re\- cherche tous travaux heure ou réguliers .</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>S ' adresser : <HumanProd>Œuvre 3761</HumanProd> qui transmettra.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><PER>Coupeur mesure</PER>, <PER>français</PER>, 29 a.</SENTENCE>"
+
+In this sentence, "Coupeur mesure" and "français" are considered as persons (PER) because they are occupations and nationality respectively. The age "29 a." is not a named entity, so it is not included in the output.
+########
+ OUTPUT: "<SENTENCE>, réf. <LOC>Paris</LOC>, cherche pl. stable, <LOC>Paris</LOC>. Fcr.: <ORG>Œ . 3811</ORG>. </SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>C ’ est le cas pour <HumanProd>les voitures auto - mobiles</HumanProd> et c ’ est le cas pour beaucoup d ’ autres .</SENTENCE>"
+########
+ <SENTENCE>SPORTING NOTES <HumanProd>Le Cyclisme</HumanProd> Au Salon : On a inauguré hier le véritable Sa - lon du cycle, celui pour lequel nos grands fa- bricants ont résumé toute leur ten- dresse . Nous nous dirons un de ces jours ce qui a été exposé d ’ intéressant au point de vue féminin .</SENTENCE>
+########
+ OUTPUT: "<SENTENCE><PER>M . Sarcey</PER> . Sonnez , fanfares et buccins , dit le <ORG>Journal des Sports</ORG> ! Jouez , hautbois ! Résonnez musettes ! Il nous est né un nouvel ami de la vélocipédie , <PER>Sarcey</PER> lui - même , qui se sent — un peu tardivement , mais enfin ! — pour la byciclette , Sarcey des entrailles . . . d ' Oncle .</SENTENCE>"
+########
+ "<SENTENCE>Et voyez comme les légendes s'établissent : nous étions tous persuadés jusqu'ici que le <PER>étiquette du Temps</PER> avait écrit en mai 1869 dans <HumanProd>la France</HumanProd> un article où il demandait à la police de supprimer cette « excentricité absurde ».</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><HumanProd>bicyclette</HumanProd></SENTENCE>"
+########
+ "<SENTENCE>Eh bien , ce n'était qu'une légende. Une note parue hier dans les <HumanProd>Annales politiques et litté\- raires</HumanProd> que dirige , notez ce détail, <PER>M . Brisson</PER>, le gendre de <PER>M . Sarcey</PER>, dit textuellement : « Le mépris de notre Oncle pour la bicyclette est une des mille légendes que l'on a créées autour de lui. Il honore au contraire cet instrument d'une sympathie d'autant moins suspecte qu'elle est désintéressée. Ah ! s'il était de trente ans plus jeune, et s'il n'avait pas la douleur d'appartenir à la Société des « Cent kilos » , soyez sûr qu'il fendrait les airs avec la rapidité d'une gazelle ! Mais il n'est point égoïste et n'entend pas priver son prochain d'un divertissement qui lui est interdit. Je pense qu'il permettrait aux cyclistes, tant sa honte est grande, de lui passer sur le corps ! » Donc, sonnez, fanfares et buccins ! jouez haut\-bois ! résonnez musettes ! car . . .</SENTENCE>"
+########
+ "<SENTENCE>Car , il y aura , dit l’<ORG>Écriture</ORG> , plus de joie au ciel pour un pécheur converti que pour cent justes ! <PER>RAQUETTE</PER> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>COMÉDIE - PRANÇAISE <PER>M . Jacques Fenoux</PER> jouera à partir du mardi 24 le rôle de <PER>M . Sil-vain</PER> dans Athalie.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>*★ <LOC>PORTE SAINT - MARTIN</LOC> . — On annonce pot la semaine prochaine , le jour n ' est pas en¬core fixé , la première de <HumanProd>Cyrano de Bergerac</HumanProd> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Voici les <HumanProd>tableaux</HumanProd> de cette nouvelle pièce; <PER>1er acte</PER>. — Une représentation à l’<LOC>hôtel de Bourgogne</LOC>.</SENTENCE>"
+########
+ "<SENTENCE>2e <LOC>acte</LOC> . — <LOC>La rôtisserie des Portes</LOC> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>3e acte . — Le baiser de <PER>Roxane</PER> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>4e acte . — <HumanProd>Les cadets de Gascogne</HumanProd> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>5e acte . — <HumanProd>La Gazette de Cyrano</HumanProd> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>* * * A l’ <LOC>Athénée</LOC> : La première représentation de <HumanProd>Cocher , rue Boudreau</HumanProd> , n’ ’ aura pas lieu vendredi . On pense que cette pièce passera samedi prochain .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>** Au <LOC>Cirque d ' Hiver</LOC> : Ce soir, début, à cheval, du <PER>géant Wilkins</PER>.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Théâtre de la <ORG>République</ORG> : Aujourd ’ hui , première représentation de la <HumanProd>Closerie des Genéts</HumanProd> , de <PER>Frédéric Souillé</PER> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Voici la distribution : ** <LOC>De Genève</LOC> : La première représentation de <HumanProd>Sancho</HumanProd> , comédie lyrique en 5 actes , poème de <PER>M . Yves - Plessis</PER> , musique de <PER>M . Emile Jacques Dalcroze</PER> , vient d ’ avoir lieu au <LOC>Grand - Théâ¬tre</LOC> . Aux yeux des connaisseurs , <HumanProd>Sancho</HumanProd> est une très belle œuvre .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>\* <LOC>De Berlin</LOC> : Grand succès pour la pièce de <PER>M. Gan\-dillot</PER>, <HumanProd>Ferdinand le noceur</HumanProd>.</SENTENCE>"
+########
+ <SENTENCE>\* \* \* La semaine dernière, <PER>M. Marchand</PER> renouvelait une partie du programme des <HumanProd>Folies-Bergère</HumanProd>; ce soir tous les autres numéros vont être changés. <PER>La Loie Fuller</PER>, dont le succès va chaque jour grandissant, reste toujours l'étoile des <HumanProd>Folies-Bergère</HumanProd>; à côté d'elle on applaudira <PER>Lidia</PER>, la gommeuse si appréciée; <PER>Tafari</PER> et son prodigieux chien calculateur, voilà un ensemble qui promet de belles recettes aux <HumanProd>Folies-Bergère</HumanProd>. </SENTENCE>
+########
+ OUTPUT: "<SENTENCE>A L' <LOC>AMPIGU</LOC> — 5 heures précises, premier jeudi populaire de musique de chambre : <HumanProd>XIe Quatuor ( op . 95 ) Becthoven</HumanProd>. — Par le <HumanProd>Quatuor de la fondation Beethoven</HumanProd> : <PER>MM . A</PER>, <PER>Géioso1er</PER> <ORG>violon</ORG> ; <PER>A . Tracol</PER> ; <ORG>2e violon</ORG> ; <PER>P . Monteux</PER> <ORG>alto</ORG>, <PER>F . Schnéklud</PER> <ORG>violon - celle</ORG> ; <PER>César Geloso</PER> <ORG>pianiste</ORG> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><PER>Mignonne</PER> , <PER>Pierre de Ronsard</PER> . <PER>Richard Wag</PER> - <PER>ner</PER>.</SENTENCE>"
+
+Note: I am assuming that "Mignonne" and "Richard Wag-ner" are also proper names in this context, although they are not typically considered as such. If they are not meant to be proper names, the output should be:
+
+OUTPUT: "<SENTENCE>Mignonne, <PER>Pierre de Ronsard</PER> . <PER>Richard Wagner</PER>.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><PER>Victor Hugo</PER> - <PER>Richard Wagner</PER> . — <PER>Madame Paul de Lacroix</PER> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><PER>Robert Schumann</PER> Nuit étoilée,</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><PER>Elle</PER> est à toi! <PER>Robert Schumann</PER>. — <PER>M . Delaquerrière</PER>.</SENTENCE>"
+########
+ <SENTENCE>Villannelle rythmique, <PER>Théophile Gautier</PER>. <PER>Hector Berlioz</PER>. <PER>Nett</PER>. <PER>Leconte de Lisle</PER> - <PER>Gabriel Fauré</PER>. </SENTENCE>
+########
+ "<SENTENCE>FEUILLETON DE LA FRONDE DU 16 DÉCEMBRE 1897 ( 5 LÈVRES CLOSES PAR Mme DANIEL LESUEUR ( Suite ) L ' orgueil d ’ <PER>Edouard</PER> n ’ admettait pas l ' abandon complet à une femme , même à la femme qu ’ il adorait . Et celui - ci , ce <PER>Philippe</PER> , qui se livrait , qui se donnait , qui ne savait pas comment se donner assez , dût - il en souffrir ! . . . Quel ravisse¬ ment , quel attendrissement de tenir entre ses mains le bonheur d ’ un être si cher ! Comme elle l ’ aimait pour sa con¬ fiance , pour la noble témérité qui consiste à ne rien garder par devers soi en amour .</SENTENCE>"
+########
+ <SENTENCE>— L ’ immensité tendre qu ’ elle sentait en elle - même était si bien faite pour ac¬ cueillir le don merveilleux , peur abriter chaudement , profondément , le cœur candide et désarmé ! Elle glisse sa bouche contre l ' oreille de <PER>Philippe</PER> , Elle murmure — par un jeu où se plaît leur passion : — Qu ' est - ce que je suis pour toi ? — Tu es mon idole adorée .</SENTENCE>
+########
+ "<SENTENCE>Elle <PER>secoue la tête</PER> — cette <PER>tête</PER> dont la <HumanProd>fierté grave</HumanProd> se disperse en mutinerie amoureuse , et qui , les <HumanProd>cheveux</HumanProd> défaits , paraît si <HumanProd>jeune</HumanProd> dans le désordre des <HumanProd>dentelles</HumanProd> .</SENTENCE>"
+########
+ "<SENTENCE>— Qu ’ est - ce que je suis ? — <ORG>Ma passion</ORG> . . . <ORG>mon bien</ORG> . . . <ORG>mon tout</ORG> .</SENTENCE>"
+########
+ <SENTENCE>— Non . . . Non . . . Dis vite .</SENTENCE>
+
+In this sentence, there are no named entities to be identified and classified into the types: person (PER), organization (ORG), location (LOC) and human production (HumanProd). Therefore, the output will be the same as the input.
+########
+ <SENTENCE>Alors il prononce le mot qu ’ elle attend — ce mot que le respect de <PER>l'homme</PER> n ’ eût pas avoué d ' abord à lui - même , mais que <PER>Marcienne</PER> a transfiguré , dont elle a fait un suprême symbole d ’ étreinte , de communion sensuelle , de périlleuse et divine folie .</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>&#8212; Tu es ma maîtresse .</SENTENCE>"
+
+In the given sentence, there are no named entities belonging to the categories of person (PER), organization (ORG), location (LOC), or human production (HumanProd). Therefore, no tags are added to the sentence.
+########
+ "<SENTENCE>— Oui . . . Je suis ta <PER>maîtresse</PER> . . . TA <PER>MAI¬ TRESSE</PER> ! . . .</SENTENCE>"
+########
+ This sentence does not contain any names or entities that can be classified as person (PER), organization (ORG), location (LOC), or human production (HumanProd). Therefore, there is no output to provide.
+########
+ "<SENTENCE>Pour le lui redire, le jeune homme se met à genoux, délirant d'adoration: — Je suis <PER>TON</PER> <PER>AMANT</PER> ! . . .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>N ’ est - ce pas leur destinée ? L ’ exalta¬ tion de leurs sens et de leurs âmes , les puissances inconnues de vivre qui s ’ é¬ veillent en eux , et dont eux - mêmes res¬ tent éblouis , ne leur crient - elles pas que tout au monde doit être erreur excepté de telles indications , si hautement sou¬ veraines , de la nature et de 1 eur cons¬ cience — non pas de la conscience ar¬ tificielle que leur ont façonnée les mora¬ les humaines , mais du sentiment irrésis¬ tible , primordial , qui crée l ’ harmonie de leurs deux êtres .</SENTENCE>"
+
+Note: The provided sentence does not contain any named entities that can be classified into the categories of person (PER), organisation (ORG), location (LOC), or human production (HumanProd).
+########
+ OUTPUT: "<SENTENCE>Jusqu ’ à ce jour , <PER>Marcienne</PER> le croyait .</SENTENCE>"
+########
+ <SENTENCE>Elle ne se découvrait aucun <ORG>remords</ORG> .</SENTENCE>
+
+Explanation:
+In this sentence, there are no named entities that can be classified as person (PER), organisation (ORG), location (LOC), or human production (HumanProd). The word "remords" is a noun that refers to a feeling of regret or guilt for wrongdoing, but it is not a named entity. Therefore, I have classified it as an ORG entity, which is not entirely accurate but is the closest match. A more accurate classification would require additional context or information about the specific "remords" being referred to.
+########
+ INPUT: "<SENTENCE>Plusieurs fois d ' ailleurs elle s ' était dit : « Il n ' est qu ' une seule vertu absolue , la bonté . Ne pas faire souffrir , tout est là . » Et elle se plaisait à résumer la philoso - phie de son généreux cœur par cette phrase — à propos de laquelle on la ta¬ quinait dans l ' intimité ; « Mieux vaut commettre une grande faute que de commettre une petite dou¬ leur . » Mais aujourd ' hui , dans l ' enivrement du plus excessif bonheur , elle tressaille . . .</SENTENCE>"
+OUTPUT: "<SENTENCE>Plusieurs fois d ' ailleurs <PER>elle</PER> s ' était dit : « Il n ' est qu ' une seule vertu absolue , la bonté . Ne pas faire souffrir , tout est là . » Et <PER>elle</PER> se plaisait à résumer la philoso - phie de son généreux cœur par cette phrase — à propos de laquelle on la ta¬ quinait dans l ' intimité ; « Mieux vaut commettre une grande faute que de commettre une petite dou¬ leur . » Mais aujourd ' hui , dans l ' enivrement du plus excessif bonheur , <PER>elle</PER> tressaille . . .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Au fond d ’ clle - même , tout à conp , un sourd murmure de larmes . . . Elle revoit la petite figure blonde , crispée d ’ an - goisse : « Charlotte ! » Marcienne n ’ a pas prononcé le nom tout haut . Elle ne veut pas parler à Phi¬ lippe d ’ une pareille tristesse , et dont la divulgation les mettrait tous trois dans une situation si délicate .</SENTENCE>"
+OUTPUT: "<SENTENCE>Au fond d'elle-même , tout à coup , un sourd murmure de larmes . . . Elle revoit la petite figure blonde , crispée d’angoisse : « Charlotte ! » Marcienne n’a pas prononcé le nom tout haut . Elle ne veut pas parler à Philippe d’une pareille tristesse , et dont la divulgation les mettrait tous trois dans une situation si délicate .</SENTENCE>" (No named entities were mentioned in the provided sentence.)
+########
+ <SENTENCE>Mais il a senti leur splendeur d'amour s'assombrir — comme, les paupières fermées, on devine le passage d'une nuée sur le soleil.</SENTENCE>
+
+In this sentence, there are no named entities that can be classified as person (PER), organization (ORG), location (LOC), or human production (HumanProd). Therefore, the output will not contain any named entities.
+########
+ OUTPUT: "<SENTENCE><PER>Marcienne</PER>, promets - moi que tu m ’ aimeras toujours! . . .</SENTENCE>"
+
+In this sentence, "Marcienne" is identified as a person (PER). There are no other named entities present in this sentence. The other categories of named entities (organization, location, and human production) are not relevant in this context.
+
+Confidence: 90%
+########
+ <SENTENCE>Elle <PER>le</PER> regarde sans répondre, et il s’épouvante de l’amertume de son sourire.</SENTENCE>
+########
+ "<SENTENCE>— Oh ! chérie, pas ces yeux - là . . . Ils me font mal.</SENTENCE>"
+
+In this sentence, there are no named entities that can be classified as person (PER), organization (ORG), location (LOC), or human production (HumanProd). Therefore, the output will not contain any named entities.
+########
+ "<SENTENCE>Elle <PER>ne</PER> <VERB>les</VERB> <VERB>éclaire</VERB> <ADV>pas</ADV> . <SENTENCE>Elle <VERB>les</VERB> <VERB>détourne</VERB> .</SENTENCE>"
+
+In this sentence, there are no named entities that can be classified as person (PER), organization (ORG), location (LOC), or human production (HumanProd). Therefore, I have not identified any entities in the output. Instead, I have identified some pronouns (she, them), verbs (éclaire, détourne), and an adverb (pas) to show the structure of the sentence.
+########
+I've process 170 phrases!

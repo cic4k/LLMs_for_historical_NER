@@ -1,0 +1,99 @@
+ INPUT: "<SENTENCE>8856 . Οἵαν τήνδε θωύσσε . Boñv equivalaut à Olx ἐστὶν ἥδε ἡ βοὴ ἣν θωύσσει .</SENTENCE>"
+OUTPUT: "<SENTENCE>8856 . <SCOPE>Οἵαν τήνδε θωύσσε</SCOPE> . Boñv equivalaut à Olx ἐστὶν ἥδε ἡ βοὴ ἣν θωύσσει .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Ainsi doivent être expliquées un grand nombre de phrases où un démonstratif est rapproché d ' un interrogatif direct ou indirect ,</SENTENCE>"
+OUTPUT: "<SENTENCE>Ainsi doivent être expliquées un grand nombre de phrases où <DEM>un démonstratif</DEM> est rapproché d ' <INT>un interrogatif direct</INT> ou <INT>indirect</INT> ,</SENTENCE>"
+########
+ INPUT: "<SENTENCE>338 . Ilxpwv , amené par Euvouar , s ’ s’oppose, comme participe présent , à παάϑαι du vers précédent .</SENTENCE>"
+OUTPUT: "<SENTENCE>338 . Ilxpwv , amené par <PERS>Euvouar</PERS> , s ’ s’oppose, comme participe présent , à παάϑαι du vers précédent .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Voy . d ' ailleurs la note sur le vers 57 .</SENTENCE>"
+OUTPUT: "<SENTENCE>Voy . d ' ailleurs <SCOPE>la note sur le vers 57</SCOPE> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>841 . Τί ποτε μενοινᾷ ( ὁ Αἴας ) ; ποῦ</SENTENCE>"
+OUTPUT: "<SENTENCE>841 . Τί ποτε μενοινᾷ ( <PERS>ὁ Αἴας</PERS> ) ; ποῦ</SENTENCE>"
+########
+ "<SENTENCE>( <OBJECT>la palme</OBJECT> , <OBJECT>le premier rang</OBJECT> ) .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Ici donc <OBJECT>xçiγεῖν</OBJECT> représente à la fois nos deux mots français <OBJECT>juger</OBJECT> et <OBJECT>adjuger</OBJECT> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>444 . Ἄλλος ἀντ᾽ ἐμοῦ . Οἵ . ΟΕ Δ . ( οί . 488 . Κεῖ τις ἄλλος vxi ooð . ISehneidewin . </SENTENCE>"
+OUTPUT: "<SENTENCE>444 . <SCOPE>Ἄλλος ἀντ᾽ ἐμοῦ</SCOPE> . Οἵ . ΟΕ Δ . ( οί . <SCOPE>488</SCOPE> . Κεῖ τις ἄλλος vxi ooð . <PERS>ISehneidewin</PERS> . </SENTENCE>"
+########
+ INPUT: "<SENTENCE>. 446 - 446 . Φωτὶ . . . . ἔπραξαν . 11Δἐς d ' attribution réside dans le datif çœrti ; celle de machination , d ' intrigue , dans le verbe Eixpalav : d ’ où résulte le sens de procurer par une intrigue .</SENTENCE>"
+OUTPUT: "<SENTENCE>. <DATE>446 - 446</DATE> . Φωτὶ . . . . ἔπραξαν . <SCOPE>11Δἐς</SCOPE> d ' attribution réside dans le datif <PERS>çœrti</PERS> ; celle de machination , d ' intrigue , dans le verbe <WORK>Eixpalav</WORK> : d ’ où résulte le sens de procurer par une intrigue .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>— Kpam . Seholiaste : Nixnyv .</SENTENCE>"
+OUTPUT: "<SENTENCE>— <PERS>Kpam</PERS> . Seholiaste : <OBJECT>Nixnyv</OBJECT> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>448 . Γνώμης ἀπῆξαν τῆς ἐμῆς . Γνώμη , cogitatio , οὐ plutôt ici cogitatam . Wunder : « À consilio quod ceperam aberrassent . »</SENTENCE>"
+OUTPUT: "<SENTENCE>448 . <WORK>Γνώμης</WORK> ἀπῆξαν τῆς ἐμῆς . <WORK>Γνώμη</WORK> , <WORK>cogitatio</WORK> , οὐ plutôt ici <WORK>cogitatam</WORK> . Wunder : « À consilio quod ceperam aberrassent . »</SENTENCE>"
+########
+ INPUT: "<SENTENCE>449 . ’ Edrguoav . Schneidewin croit qüe — le sens de éxubmei - ζειν , mettre aux voix : K ) \érenç ψηφο» Torèc NDpéôns , dit Teucer à Ménélas , vers 41436 .</SENTENCE>"
+OUTPUT: "<SENTENCE>449 . ’ <WORK>Edrguoav</WORK> . <PERS>Schneidewin</PERS> croit qüe — le sens de <WORK>éxubmei</WORK> - ζειν , mettre aux voix : K ) \<WORK>érenç</WORK> ψηφο» <PERS>Torèc</PERS> NDpéôns , dit <PERS>Teucer</PERS> à <PERS>Ménélas</PERS> , vers 41436 .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>451 . ’ En ’ aùtoïs . Cf . vers 345 .</SENTENCE>"
+OUTPUT: "<SENTENCE>451 . ’ En ’ aùtoïs . Cf . <SCOPE>vers 345</SCOPE> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>455 . Ἐμοῦ μὲν οὐχ ἑχόντος , indépendant de ἐπεγγε ) ὥσιν , ne doit être rattaché qu ’ à éxTepeuyôres .</SENTENCE>"
+OUTPUT: "<SENTENCE>455 . <PERS>Ἐμοῦ</PERS> μὲν οὐχ ἑχόντος , indépendant de ἐπεγγε ) ὥσιν , ne doit être rattaché qu ’ à <WORK>éxTepeuyôres</WORK> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>On sait d ' ailleurs à quel puint la litote est familière aux écrivains attiques .</SENTENCE>"
+OUTPUT: "<SENTENCE>On sait d ' ailleurs à <DATE>quel puint</DATE> la litote est familière aux <PERSON>écrivains attiques</PERSON> .</SENTENCE>"
+
+In this example, the input sentence is "On sait d ' ailleurs à quel puint la litote est familière aux écrivains attiques .". The output sentence is "<SENTENCE>On sait d ' ailleurs à <DATE>quel puint</DATE> la litote est familière aux <PERSON>écrivains attiques</PERSON> .</SENTENCE>".
+
+The named entity "quel puint" is classified as a DATE because it refers to a specific point in time, even though it is not a specific calendar date. The named entity "écrivains attiques" is classified as a PERSON because it refers to a group of people, specifically writers from Attica.
+
+It is important to note that the output is the same sentence as the input, but with the identified named entities delimited by "<TYPE>named entity</TYPE>". The casing and white spaces in the input sentence are preserved in the output. Additionally, no notes or explanations are included in the output.
+########
+ INPUT: "<SENTENCE>456 - 466 . Οἵ . Électre , 696 : Ὅταν δέ τις θεῶν [ βλάπτῃ , δύναιτ᾽ ἂν οὐδ᾽ ἂν ἰσχύων quytiv . [ Schneidewin . ]</SENTENCE>"
+OUTPUT: "<SENTENCE>456 - 466 . Οἵ . <WORK>Électre</WORK> , <SCOPE>696</SCOPE> : Ὅταν δέ τις θεῶν [ βλάπτῃ , δύναιτ᾽ ἂν οὐδ᾽ ἂν ἰσχύων <OBJECT>quytiv</OBJECT> . [ <PERS>Schneidewin</PERS> . ]</SENTENCE>"
+########
+ INPUT: "<SENTENCE>468 . Μισεῖ δέ que . Voir , sur ce changement de tournure , Matthiæ , page 928 .</SENTENCE>"
+OUTPUT: "<SENTENCE>468 . Μισεῖ δέ que . <WORK>Voir</WORK> , sur ce changement de tournure , <PERS>Matthiæ</PERS> , <SCOPE>page 928</SCOPE> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>469 . Πεδία . Les tribraques formés par un seul mot sont rares chez les tragiques , partont ailleurs qu ’ au premier pied . CÉ . cependant QEd , Roi , 719 , 826 , 4496 .</SENTENCE>"
+OUTPUT: "<SENTENCE>469 . Πεδία . <WORK>Les tribraques</WORK> formés par un seul mot sont rares chez les tragiques , partont ailleurs qu ’ au premier pied . <PERS>CÉ</PERS> . cependant <PERS>QEd</PERS> , <PERS>Roi</PERS> , <SCOPE>719</SCOPE> , <SCOPE>826</SCOPE> , <SCOPE>4496</SCOPE> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>547 . Elxep . . . . narçébev . Cf . Odyssée , XVI , 300 : El ἐτεόν γ᾽ ἐμός ἐσσι xai alματος ἡμετέροιο .</SENTENCE>"
+OUTPUT: "<SENTENCE>547 . <PERS>Elxep</PERS> . . . . narçébev . Cf . <WORK>Odyssée</WORK> , <SCOPE>XVI</SCOPE> , <SCOPE>300</SCOPE> : El ἐτεόν γ᾽ ἐμός ἐσσι xai <SCOPE>alματος ἡμετέροιο</SCOPE> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>- - - Διχαίως , comme de juste , vraiment .</SENTENCE>"
+OUTPUT: "<SENTENCE>- - - Διχαίως , comme de juste , vraiment .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Tà xarpôdev , par la naissance, location analogue ἃ τανῦν , εἴς τε Περγαμον καὶ τὴν Ἐφεσίων πόλιν καὶ τὴν τοῦ Ποσειδῶνος ἱερὰ ἐκεῖσε.</SENTENCE>"
+OUTPUT: "<SENTENCE>Tà xarpôdev , par la naissance, location analogue ἃ τανῦν , εἴς <LOC>Περγαμον</LOC> καὶ <LOC>τὴν Ἐφεσίων πόλιν</LOC> καὶ <LOC>τὴν τοῦ Ποσειδῶνος ἱερὰ ἐκεῖσε</LOC>.</SENTENCE>"
+########
+ INPUT: "<SENTENCE>δ48 . Ὦμοϊς ἐν νόμοις πατρός . Eustathe ( <WORK>page 624</WORK> , <SCOPE>ligne 57</SCOPE> ) a bien interprété ce passage : Ailaç yoüv xar& Zopoxdei στερεόφρων ὠμοὺς νόμονς το��ùς ἑαντοῦ τρόπους χαλεῖ , ὡς ἀνενδότονς χαὶ στερεούς. 648 - 649 . La meilleure construction de ces deux vers , trop négligés par les commentateurs, nous paraît être la suivante : Ἀλλὰ δεῖ αὐτὸν κωλοδαμνεῖν αὐτίκα ( <SCOPE>τὴν ἑαντοῦ</SCOPE> ) φύσιν καὶ ἐξομοιοῦσθαι ( <SCOPE>αὐτὴν τῇ τοῦ πατρὸ</SCOPE> : <SCOPE>φύσει</SCOPE> ) .</SENTENCE>"
+OUTPUT: "<SENTENCE>δ48 . Ὦμοϊς ἐν νόμοις πατρός . <PERS>Eustathe</PERS> ( <WORK>page 624</WORK> , <SCOPE>ligne 57</SCOPE> ) a bien interprété ce passage : Ailaç yoüv xar& Zopoxdei στερεόφρων ὠμοὺς νόμονς το��ùς <SCOPE>ἑαντοῦ</SCOPE> τρόπους χαλεῖ , ὡς ἀνενδότονς χαὶ στερεούς. 648 - 649 . La meilleure construction de ces deux vers , trop négligés par les commentateurs, nous paraît être la suivante : Ἀλλὰ δεῖ αὐτὸν κωλοδαμνεῖν αὐτίκα ( <SCOPE>τὴν ἑαντοῦ</SCOPE> ) φύσιν καὶ ἐξομοιοῦσθαι ( <SCOPE>αὐτὴν τῇ τοῦ πατρὸ</SCOPE> : <SCOPE>φύσει</SCOPE> ) .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>[ 9 τπιογοι ἐξομοιοῦσθαι ( εἶ . ὁμοιεύμενος , chez Hérodote, I , Cxx11 ) n ’ est pas moins régulier ici que lacitif Tw ) o&auvetv , puisque Eurysacés est représenté comme domptant οἱ exerçant sa propre nature ; εἰ l ’ emploi de cette voix devant φύσιν explique l ’ ellipse de éautoù .</SENTENCE>"
+OUTPUT: "<SENTENCE>[ 9 <PERS>τπιογοι</PERS> ἐξομοιοῦσθαι ( <PERS>εἶ</PERS> . <PERS>ὁμοιεύμενος</PERS> , chez <PERS>Hérodote</PERS>, I , <SCOPE>Cxx11</SCOPE> ) n ’ est pas moins régulier ici que <WORK>lacitif Tw</WORK> ) o&auvetv , puisque <PERS>Eurysacés</PERS> est représenté comme domptant οἱ exerçant sa propre nature ; εἰ l ’ emploi de cette voix devant φύσιν explique l ’ ellipse de <PERS>éautoù</PERS> .</SENTENCE>"
+########
+ <SENTENCE>550 - 551 . Ὧ καῖ . . . . οὐ καχός . Οἱ <WORK>Iliade</WORK> , <SCOPE>VI</SCOPE> , <SCOPE>676</SCOPE> : <PERS>Zeÿ</PERS> ἄλλοι τε θεοὶ , δότε δὴ καὶ τόνδε γενέσθαι [ παῖδ᾽ ἐμὸν , ὡς καὶ ἐγώ περ , ἀριπρεπέα Τρώεσσιν , [ ὧδε βίην τ᾽ ἀγαθὸν , καὶ Ἰλίον ἶφι ἀνάσσειν XTÀ .</SENTENCE>
+########
+ INPUT: "<SENTENCE>Attius, dans Macrobe, v1, 4: « Virtati «sis par, dispar fortunis patris. »</SENTENCE>"
+OUTPUT: "<SENTENCE>Attius, dans <WORK>Macrobe</WORK>, <SCOPE>v1, 4</SCOPE>: « Virtati «sis par, dispar fortunis patris. »</SENTENCE>"
+########
+ "<SENTENCE>Virgile , <WORK>Énéide</WORK> , <SCOPE>X11</SCOPE> , 435 : « Disce , puer , <WORK>virtu<OBJECT>«tem</OBJECT></WORK> ex me verumque <WORK>laborem</WORK> , <WORK>Fortunam</WORK> «ex aliis . »</SENTENCE>"
+########
+ INPUT: "<SENTENCE>À la marge d ’ an exemplaire de Sophocle , on lit la traduction suivante de ces deux vers , due à notre ÆRacine : « O mon fils , sois un jour plas beareux que ton père ; Da reste avec honneur tu peux lui ressembler , »</SENTENCE>"
+OUTPUT: "<SENTENCE>À la marge d ’ <WORK>an exemplaire de Sophocle</WORK> , on lit la traduction suivante de ces deux vers , due à notre <PERS>ÆRacine</PERS> : « O mon fils , sois un jour plas beareux que ton père ; Da reste avec honneur tu peux lui ressembler , »</SENTENCE>"
+########
+ INPUT: "<SENTENCE>554 - 555 . ” Ev , grâce à , par suite de . … . Cf . OEd . Col . vers 19δ : Ἐν δὲ τῷ λέγειν ἢ κάκ᾽ ἂν λάθοις τὰ πλείον᾽ ἢ σωτήρια . Cf . Ellendt , I , page 694 .</SENTENCE>"
+OUTPUT: "<SENTENCE>555 . ” Ev , grâce à , par suite de . … . Cf . <WORK>OEd.</WORK> <WORK>Col.</WORK> <SCOPE>vers 19δ</SCOPE> : <SCOPE>Ἐν δὲ τῷ λέγειν ἢ κάκ᾽ ἂν λάθοις τὰ πλείον᾽ ἢ σωτήρια</SCOPE> . Cf . <PERS>Ellendt</PERS> , <WORK>I</WORK> , <SCOPE>page 694</SCOPE> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>— "Ewç . … . udOng. Schneidewin : «Sans àv , comm> : u vers 448 des Trachiniennes : Ἕως τις ἀντὶ παρθένου γυνὴ ἢ κληθῇ . »</SENTENCE>"
+OUTPUT: "<SENTENCE>— <PERS>Ewç</PERS> . … . <PERS>udOng</PERS>. <PERS>Schneidewin</PERS> : «Sans àv , comm> : u vers 448 des <WORK>Trachiniennes</WORK> : Ἕως τις ἀντὶ παρθένου γυνὴ ἢ κληθῇ . »</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Μάθυς : μάθῃς ; & Edpucaxeç ( et non comme pabr τις ) .</SENTENCE>"
+OUTPUT: "<SENTENCE>Μάθυς : μάθῃς ; & Edpucaxeç ( et non comme <PERS>pabr</PERS> τις ) .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>667 . Δεῖ σ᾽ ὅπως δείξεις , comme dai σε δεῖξαι . Οἵ , »λίϊοοί . δᾶ : Δεῖ σ᾽ ὅπως ἐχχλέψεις .</SENTENCE>"
+OUTPUT: "<SENTENCE>667 . Δεῖ σ᾽ ὅπως δείξεις , comme dai σε δεῖξαι . Οἵ , »λίϊοοί . δᾶ : Δεῖ σ᾽ ὅπως ἐχχλέψεις .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Οειῖα locution résulte , selon Schneidewin , du mélange des deux tuurπυγα Δεῖ σε δεῖξαι εἰ Ὅρα ( ου φρόντιζε ) Exwç Deiters . Selon Dindorf : «Breviter «dictum pro δεῖ σ᾽ ὁρᾶν ὅπως . </SENTENCE>"
+OUTPUT: "<SENTENCE>Οειῖα locution résulte , selon <PERS>Schneidewin</PERS> , du mélange des deux tuur<OBJECT>πυγα</OBJECT> Δεῖ σε δεῖξαι εἰ Ὅρα ( ου φρόντιζε ) Exwç Deiters . Selon <PERS>Dindorf</PERS> : «Breviter «dictum pro δεῖ σ᾽ ὁρᾶν ὅπως . </SENTENCE>"
+########
+I've process 32 phrases!

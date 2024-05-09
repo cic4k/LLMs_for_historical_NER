@@ -1,0 +1,1672 @@
+  OUTPUT: "<SENTENCE>ton bras</SENTENCE>"
+
+No named entities were found in the input sentence.
+########
+  OUTPUT: "<SENTENCE>L ’ accusatif yépæ tient ici la place de aliyuñv , régulièrement joint à aiypaLetv dans <WORK>Homère</WORK> .</SENTENCE>"
+########
+  OUTPUT: "<SENTENCE>Euripide a dit avec une égale hardiesse χεῖρας EtrxovtLoa ( <WORK>Iphig . Taur . 362</SCOPE> ) .</SENTENCE>"
+
+Here, "Euripide" is a person (PERS), "Iphig . Taur . 362" is a work (WORK) and "EtrxovtLoa" is a location (LOC).
+########
+  Sure, I can help you with that! Here's the named entity recognition for the given sentence:
+
+OUTPUT: "<SENTENCE>404 - 102 . Εἶεν . Le Scholiaste d ’ Euripide “ ( <WORK>Phéniciennes</WORK> , 849 ) explique ce mot de la manière suivante : Elev Étippnua toù μὲν Tpotépou Aoyou Anxtixdv , ἑτέρον δὲ <PERS>Lobeck</PERS> .</SENTENCE>"
+
+Here, I have identified the following named entities:
+
+* Elev Étippnua (PERS)
+* Tpotépou Aoyou Anxtixdv (WORK)
+* Lobeck (PERS)
+
+I hope this helps! Let me know if you have any further questions or if you'd like me to help with any other sentences.
+########
+  OUTPUT: "<SENTENCE>La lucution française c ' est bien y équivaut dans beaucoup de cas .</SENTENCE>"
+
+No named entities were found in this sentence.
+########
+  OUTPUT: "<SENTENCE>— Ti yap . . … . ποῦ χτλ . , et le fils de <PERS>Laërte</PERS> , où ctc .</SENTENCE>"
+########
+  Sure, I can help you with that! Here's the output for the given input:
+
+OUTPUT: "<SENTENCE>On peut se rendre compte de cette tournure très usitée , en suppléant πράττει après xi .</SENTENCE>"
+
+Here, "πράττει" is a verb, so it doesn't fit into any of the categories you mentioned. "xi" is a letter, so it doesn't fit into any category either. The rest of the sentence doesn't contain any named entities.
+########
+  Sure, I can help you with that! Here's the output for the given input:
+
+OUTPUT: "<SENTENCE>103 . Toünitpirtov xivabog . Scholiaste : Τὸ ἐξῶγες θηρίον καὶ πανοῦργον . Κίναὃος γὰρ ἡ <PERS>ἙWNNE</PERS> .</SENTENCE>"
+
+Here's a breakdown of the named entities recognized in the input sentence:
+
+* Τὸ ἐξῶγες θηρίον καὶ πανοῦργον (WORK)
+* Κίναὃος (PERS)
+* ἙWNNE (PERS)
+########
+  Sure, I can help you with that! Here's the named entity recognition for the given sentence:
+
+OUTPUT: "<SENTENCE>Ellendt interprète ἐπίτριπτος ἀ αρτὲ5 ϑυϊάλ5 : Ὁ ἐπιτριδῆναι ἀξιος . Οἵ . <PERS>Andocide</PERS> , <WORK>discours Sur les Mystères</WORK> , 1 , 99 : Ὧ σνχοφάντα χαὶ ἐπίτριπτον χίναδος . ὶ</SENTENCE>"
+
+Here are the named entities recognized in the sentence:
+
+* ἐπίτριπτος (PERS)
+* ἀ αρτὲ5 ϑυϊάλ5 (SCOPE)
+* Ὁ ἐπιτριδῆναι ἀξιος (PERS)
+* Οἵ (ORG)
+* Andocide (PERS)
+* discours Sur les Mystères (WORK)
+* 1 (SCOPE)
+* 99 (SCOPE)
+* σνχοφάντα (WORK)
+* ἐπίτριπτον χίναδος (SCOPE)
+* ὶ (SCOPE)
+########
+  Sure, I can help you with that! Here's the named entity recognition for the given sentence:
+
+OUTPUT: "<SENTENCE>407 . Ilpiv . … m ) éov . Cels revient à dire en changeant la construction , qui est toute grecque : « Que veux - tu fuire ou qu'espérestu gagner d ’ ici la ( a la fuveur de ce retard ) ? » littéralement , avant que tu aies fait quoi ? avant que tu uies gagné quui ?</SENTENCE>"
+
+Named Entities:
+
+* Ilpiv (PERS)
+* Cels (PERS)
+* Fuveur (WORK)
+* retard (SCOPE)
+* quoi (SCOPE)
+* quui (SCOPE)
+########
+  OUTPUT: "<SENTENCE>108 . Kiov ’ , pour <WORK>xiova</WORK> , et nun pour <WORK>xiow</WORK> .</SENTENCE>"
+########
+  Sure, I can help you with that! Here's the named entity recognition for the given sentence:
+
+<SENTENCE>L ' élision de [ ἦ au datiſ singulier est sinon sans exemples , du moins très rare chez les Attiques ( voy . Matthiæ , page 121 ) ; et l ’ on trouve chez Eschine , Discours contre Timurque , p . 83 : Afsavtes npècrèvxiove</SENTENCE>
+
+Named Entities:
+
+* ἦ (PERS)
+* Matthiæ (PERS)
+* Eschine (PERS)
+* Discours contre Timurque (WORK)
+* Afsavtes npècrèvxiove (SCOPE)
+
+Note: "voy." is an abbreviation for "voir" which means "see" in French. It is not a named entity.
+########
+  OUTPUT: "<SENTENCE>108 . La phruse d ’ Ajux est interrompue , après Gtéyn : , par la question de lu déesse .</SENTENCE>"
+
+Here, "Ajux" is a location (LOC), "Gtéyn" is a person (PERS), and "lu déesse" is a human work (WORK).
+########
+  OUTPUT: "<SENTENCE>consistit ( <PERS>Ellendt</PERS> ) : d ’ où les significations particulières de <WORK>sedes</WORK> , <WORK>solum</WORK> , <WORK>gradus</WORK> ; ici , <WORK>sol</WORK> .</SENTENCE>"
+########
+  OUTPUT: "<SENTENCE>— Ayy : à ) ou . « Insulæ enim pars « omnis non longe a mari distat , unde et tota « imsuls mari vicina dicitur . » [ <PERS>Linwood</PERS> . ]</SENTENCE>"
+########
+  OUTPUT: "<SENTENCE>l ’ hymne homérique à <PERS>Apollon</PERS> , v . 32 ; Lemnos , <LOC>Lcarie</LOC> , Nhodes et Cnide dans les <WORK>Perses</WORK> d ' <PERS>Eschyle</PERS> , 890 .</SENTENCE>"
+########
+  OUTPUT: "<SENTENCE>L ’ accumulation des épithètes n ’ a en soi rien de choquant , surtout dans les chœurs ."
+
+Named Entities:
+
+* None
+########
+  Here's the named entity recognition for the given sentence:
+
+<SENTENCE>136 . Schneidewin signale comme propre aux poètes la construction des verbes qui marquent une affection de l’âme avec des participes à l’accusatif ; par ex .: "Hoôrv 6 aù ) oyoüvra ( <WORK>Phil</WORK>. 1314 ) ; χαίρω σ᾽ εὑsvyoïvra ( <WORK>Rhésus</WORK>, 390 ) ; hy0eto Bauvané - vovc ( ſi . XIII , 362 ) ; ᾿ἈΑρίσταρχον στραenyouvt’ &y0opua : ( <WORK>fragment d’ Eupolis</WORK> ) .</SENTENCE>
+
+Named entities recognized:
+
+* Schneidewin (<PERS>)
+* Phil (<WORK>)
+* Rhésus (<WORK>)
+* Eupolis (<WORK>)
+########
+  OUTPUT: "<SENTENCE>440 . Ὥς ὄμμα πελείας . Scholiaste : Ἐπεὶ πεοιδεὲς τὸ ζῷον .</SENTENCE>"
+
+Here, the named entities are:
+
+* Ὥς (PERS)
+* ὄμμα (PERS)
+* πελείας (LOC)
+* Ἐπεὶ (PERS)
+* πεοιδεὲς (WORK)
+* τὸ ζῷον (OBJECT)
+########
+  OUTPUT: "<SENTENCE>ὌὌμμα δὲ πελείας, περιφραστιχῶς ἢ πέλεια ( <WORK>οἴ</WORK>. <SCOPE>Τραchim. 627</SCOPE> ) .</SENTENCE>"
+########
+  OUTPUT: "<SENTENCE>Mais Lobeck fait olserver que chez les anciens le clignement des yeux etait regardé comme un signe de crainte : il renvoie aux Physiognomoniques d ’ d’Aristote, ainsi qu ’ à Aristophane ( <WORK>Chevaliers</WORK> , 292 : Βλέπειν ἀσχαρδάμνκτον ) . Οἵ . OEdipe ἃ Οοίοπε , 729 : Ὀμμάτων φόθον .</SENTENCE>"
+
+Here, the named entities recognized are:
+
+* Lobeck (PERS)
+* Aristote (PERS)
+* Aristophane (PERS)
+* Chevaliers (WORK)
+* OEdipe (WORK)
+* Οοίοπε (SCOPE)
+* Ὀμμάτων φόθον (SCOPE)
+########
+  OUTPUT: "<SENTENCE>. ‘ “ Q ; , quemadmodum , ou ce qui revient au même en cet endroit , ëta . — <WORK>Tñç vuv phipévne vuxrég</WORK> .</SENTENCE>"
+
+Here, "Tñç vuv phipévne vuxrég" is a work, specifically a poem or a song, and therefore it should be classified as WORK.
+########
+  Sure, I can help you with that! Here's the named entity recognition for the given sentence:
+
+<SENTENCE>Tepl peut être suppléé comme intermédiaire entre ces mots et ceux dont ils dépendent , à savoir : pey& ) os Bôpu6or ( tumultes , bruits , rumeurs). Cf . plus bas , v . 998 : ὀξεῖα γάρ σου βάξις , c ' est - à - dire B4E : ; repi coù ; 222 : dvépos &yyeliav , c ’ est - à - dire ἀγγελίαν περὶ &vépoc ; Euripide , Iphigénie & Aulis , 498 : χόρης σῆς Becodtœv , c ’ est - à - dire περὶ χόρης , εἰ les autres exemples cités par Matthiæ , page 672 .</SENTENCE>
+
+Named Entities:
+
+* Tepl (PERS)
+* Bôpu6or (ORG)
+* tumultes (WORK)
+* bruits (WORK)
+* rumeurs (WORK)
+* ὀξεῖα γάρ σου βάξις (SCOPE)
+* B4E (WORK)
+* repi coù (SCOPE)
+* 222 (SCOPE)
+* dvépos &yyeliav (SCOPE)
+* ἀγγελίαν περὶ &vépoc (SCOPE)
+* Euripide (PERS)
+* Iphigénie & Aulis (WORK)
+* χόρης σῆς Becodtœv (SCOPE)
+* περὶ χόρης (SCOPE)
+* Matthiæ (PERS)
+* page 672 (SCOPE)
+########
+  OUTPUT: "<SENTENCE>443 . Μεγάλοι θόρνθοι χατέχουσ᾽ ἡμᾶς .</SENTENCE>"
+
+No named entities were found in this sentence.
+########
+  OUTPUT: "<SENTENCE>« Magnis tumultuantium clamoribus obruti « sumus , quod idem est atque magna cum vo«ciferutione nobis dictum est , » [ <WORK>Wunder</WORK> . ]</SENTENCE>"
+
+Here, "Wunder" is a work, specifically a book or a written piece, and therefore it is classified as WORK.
+########
+  Sure, I can help you with that! Here's the named entity recognition for the given sentence:
+
+OUTPUT: "<SENTENCE>443 . ’ Exl Buox ) eig . Autre complément à joindre à BôpuGor «ita ut BépuGos êni « δυσχλείᾳ pæne idem sit atque Bépu6os « Gucxiesic . Cf . <PERS>Matthiæ</PERS> , page <SCOPE>4236</SCOPE> . » [ <WORK>Wander</WORK> . ]</SENTENCE>"
+
+Here's a breakdown of the named entities and their types:
+
+* BôpuGor: LOC
+* BépuGos: PERS
+* Bépu6os: PERS
+* Gucxiesic: WORK
+* Matthiæ: PERS
+* page 4236: SCOPE
+* Wander: WORK
+########
+  Sure, I can help you with that! Here's the output for the given input:
+
+OUTPUT: "<SENTENCE>857 . Τοιαῦτα γάρ . ( <WORK>Οἱ</WORK> . 488 .</SENTENCE>"
+
+Here, "Τοιαῦτα γάρ" is a sentence that contains a named entity, "Οἱ", which is a work. The number 488 is not a named entity, so it is not highlighted.
+########
+  OUTPUT: "<SENTENCE>328 . ’ Estédyv . Eté ) dew signifie équiper pour un voyage , mettre en état de peartir , et particulièrement , mettre à flot ( <OBJECT>απ vaisseau</OBJECT> ) .</SENTENCE>"
+
+Here, the named entities recognized are:
+
+* 'Estédyv' (PERS)
+* 'Eté' (DATE)
+* 'απ vaisseau' (OBJECT)
+########
+  Sure, I can help you with that! Here's the named entity recognition for the given sentence:
+
+OUTPUT: "<SENTENCE>’ Esté ) \nv , au passif , dans le sens de je suis venue , peut être regardé comme un des nombreux emprunts faits au vocabulaire nautique par les écrivains d ’ Athènes . Cf . <WORK>Électre</WORK> , <SCOPE>404</SCOPE> .</SENTENCE>"
+
+Here, I have identified the following named entities:
+
+* 'Esté' as a person (PERS)
+* 'Athènes' as a location (LOC)
+* 'Électre' as a work (WORK)
+* '404' as a specific portion of work (SCOPE)
+########
+  OUTPUT: "<SENTENCE>33t4 . Mä ) ) ov . On peut suppléer Beuvx ἔσται υε δεινὰ λέξω .</SENTENCE>"
+
+Named Entities:
+
+* Beuvx (PERS)
+* ἔσται (WORK)
+* υε (SCOPE)
+* δεινὰ (SCOPE)
+* λέξω (WORK)
+########
+  OUTPUT: "<SENTENCE>- - - Ἢ , εἰ Ἰαϊίη , ἀπ .</SENTENCE>"
+
+No named entities were found in the input sentence.
+########
+  Sure, I can help you with that! Here's the output for the given input:
+
+OUTPUT: "<SENTENCE>— <PERS>H</PERS> oùx ne comptent dans le vers que pour une syllabe . Cf . <WORK>OEd</WORK> . <PERS>Ro</PERS> : , δδῦ . Υογ . <PERS>Matthiæ</PERS> , page 142 .</SENTENCE>"
+
+Here's a breakdown of the named entities recognized in the input sentence:
+
+* H: Person (PERS)
+* OEd: Work (WORK)
+* Ro: Person (PERS)
+* δδῦ: Specific portion of work (SCOPE)
+* Υογ: Specific portion of work (SCOPE)
+* Matthiæ: Person (PERS)
+* page 142: Specific portion of work (SCOPE)
+########
+  Sure, I can help you with that! Here's the named entity recognition for the given sentence:
+
+OUTPUT: "<SENTENCE>8856 . Οἵαν τήνδε θωύσσε . Boñv équivaut à Olx ἐστὶν ἥδε ἡ βοὴ ἣν θωύσσει .</SENTENCE>"
+
+Named Entities:
+
+* θωύσσε (PERS)
+* Boñv (ORG)
+* Olx (ORG)
+* ἡ βοὴ (WORK)
+* ἣν (SCOPE)
+* θωύσσει (SCOPE)
+########
+  Sure, I can help you with that. Here's the output for the given input:
+
+OUTPUT: "<SENTENCE>Ainsi doivent être expliquées un grand nombre de phrases où un démonstratif est rapproché d ’ un interrogatif direct ou indirect ,</SENTENCE>"
+
+Here, I have identified the following named entities:
+
+* "Ainsi" as a PERS (person)
+* "démonstratif" as a WORK (human work)
+* "interrogatif" as a WORK (human work)
+
+I hope this helps! Let me know if you have any further questions or if you'd like me to help with any other sentences.
+########
+  OUTPUT: "<SENTENCE>338 . <PERS>Ilxpwv</PERS> , amené par <PERS>Euvouar</PERS> , s ’ s’oppose , comme <SCOPE>participe présent</SCOPE> , à παάϑαι du vers précédent .</SENTENCE>"
+########
+  OUTPUT: "<SENTENCE>Voy . d ’ ailleurs la note sur le vers 57 .</SENTENCE>"
+
+No named entities were found in the input sentence.
+########
+  OUTPUT: "<SENTENCE>841 . Τί ποτε μενοινᾷ ( <PERS>Αἴας</PERS> ) ; ποῦ</SENTENCE>"
+########
+  OUTPUT: "<SENTENCE>( <OBJECT>la palme</OBJECT> , <SCOPE>le premier rang</SCOPE> ) .</SENTENCE>"
+########
+  OUTPUT: "<SENTENCE>Ici donc <WORK>xçiγeῖn</WORK> représente à la fois nos deux mots français <WORK>juger</WORK> et <WORK>adjudger</WORK> .</SENTENCE>"
+########
+  Sure, I can help you with that! Here's the named entity recognition for the given sentence:
+
+OUTPUT: "<SENTENCE>444 . Ἄλλος ἀντ᾽ ἐμοῦ . Οἵ . ΟΕ Δ . ( οί . 488 . Κεῖ τις ἄλλος vxi ooð . <PERS>ISehneidewin</PERS> . ]</SENTENCE>"
+
+Here, "ISehneidewin" is recognized as a person (PERS).
+########
+  Sure, I can help you with that! Here's the named entity recognition for the given sentence:
+
+OUTPUT: "<SENTENCE>. 446 - 446 . Φωτὶ . . . . ἔπραξαν . 11Δἐς d ' attribution réside dans le datif çœrti ; celle de machination , d ' intrigue , dans le verbe Eixpalav : d ’ où résulte le sens de procurer par une intrigue .</SENTENCE>"
+
+Named Entities:
+
+* Φωτὶ (PERS)
+* Δἐς (PERS)
+* Eixpalav (WORK)
+* çœrti (LOC)
+* machination (WORK)
+* intrigue (WORK)
+########
+  OUTPUT: "<SENTENCE>— <PERS>Kpam</PERS> . <PERS>Seholiaste</PERS> : <WORK>Nixnyv</WORK>.</SENTENCE>"
+########
+  Sure, I can help you with that! Here's the named entity recognition for the given sentence:
+
+OUTPUT: "<SENTENCE>448 . Γνώμης ἀπῆξαν τῆς ἐμῆς . Γνώμη , <WORK>cogitatio</WORK> , οὐ plutôt ici <WORK>cogitatam</WORK> . Wunder : « À consilio quod ceperam aberrassent . »</SENTENCE>"
+
+Here, I have identified the following named entities:
+
+* Γνώμη (PERS)
+* cogitatio (WORK)
+* cogitatam (SCOPE)
+* Wunder (PERS)
+* À consilio (WORK)
+* ceperam (SCOPE)
+* aberrassent (SCOPE)
+########
+  Sure, I can help you with that! Here's the named entity recognition for the given sentence:
+
+OUTPUT: "<SENTENCE>449 . ’ Edrguoav . Schneidewin croit qüe — le sens de éxubmei - ζειν , mettre aux voix : K ) \érenç ψηφο» Torèc NDpéôns , dit Teucer à Ménélas , vers 41436 .</SENTENCE>"
+
+Named Entities:
+
+* Edrguoav (PERS)
+* Schneidewin (PERS)
+* Teucer (PERS)
+* Ménélas (PERS)
+* Torèc NDpéôns (WORK)
+* ψηφο (SCOPE)
+* 41436 (SCOPE)
+########
+  OUTPUT: "<SENTENCE>451 . ’ En ’ aùtoïs . Cf . <SCOPE>vers 345</SCOPE> .</SENTENCE>"
+
+Here, the named entities recognized are:
+
+* 451: a specific portion of work (SCOPE)
+* En: a work (WORK)
+* 345: a specific portion of work (SCOPE)
+########
+  OUTPUT: "<SENTENCE>455 . Ἐμοῦ μὲν οὐχ ἑχόντος , indépendant de ἐπεγγε ) ὥσιν , ne doit être rattaché qu ’ à <WORK>exTepeuyôres</WORK> .</SENTENCE>"
+
+Here, "exTepeuyôres" is a work, so it should be tagged as WORK.
+########
+  OUTPUT: "<SENTENCE>On sait d ’ ailleurs à quel point la litote est familière aux écrivains attiques .</SENTENCE>"
+
+Here, the named entities are:
+
+* "d ' ailleurs" (LOC)
+* "litote" (WORK)
+* "écrivains attiques" (PERS)
+########
+  Sure, I can help you with that! Here's the named entity recognition for the given sentence:
+
+OUTPUT: "<SENTENCE>456 - 466 . Οἵ . <PERS>Électre</PERS> , 696 : Ὅταν δέ τις θεῶν [ βλάπτῃ , δύναιτ᾽ ἂν οὐδ᾽ ἂν ἰσχύων quytiv . [ <WORK>Scbneidewin</WORK> . ]</SENTENCE>"
+
+Here, I have identified the following named entities:
+
+* Εlectre (PERS)
+* Scbneidewin (WORK)
+########
+  Sure, I can help you with that! Here's the named entity recognition for the given sentence:
+
+OUTPUT: "<SENTENCE>468 . Μισεῖ δέ que . Voir , sur ce changement de tournure , <PERS>Matthiæ</PERS> , <SCOPE>page 928</SCOPE> .</SENTENCE>"
+
+Here, "Matthiæ" is a person (PERS), and "page 928" is a specific portion of work (SCOPE).
+########
+  Sure, I can help you with that! Here's the named entity recognition for the given sentence:
+
+OUTPUT: "<SENTENCE>469 . Πεδία . Les tribraques formés par un seul mot sont rares chez les tragiques , partont ailleurs qu ’ au premier pied . <PERS>CÉ</PERS> , <WORK>Roi</WORK> , <SCOPE>719</SCOPE> , <SCOPE>826</SCOPE> , <SCOPE>4496</SCOPE> .</SENTENCE>"
+
+Here's a breakdown of the named entities and their types:
+
+* Πεδία (location)
+* CÉ (person)
+* Roi (work)
+* 719 (specific portion of work)
+* 826 (specific portion of work)
+* 4496 (specific portion of work)
+########
+  Sure, I can help you with that! Here's the named entity recognition for the given sentence:
+
+<SENTENCE>547 . Elxep . . . . narçébev . Cf . Odyssée , XVI , 300 : El ἐτεόν γ᾽ ἐμός ἐσσι xai alματος ἡμετέροιο .</SENTENCE>
+
+* Elxep: LOC
+* Odyssée: WORK
+* XVI: SCOPE
+* 300: SCOPE
+* El: PERS
+* ἐτεόν: WORK
+* γ᾽: PERS
+* ἐμός: PERS
+* ἐσσι: WORK
+* xai: WORK
+* alματος: WORK
+* ἡμετέροιο: WORK
+
+Note that some of the named entities in the sentence are not explicitly mentioned, but can be inferred from the context. For example, "El" is inferred to be a person because it is mentioned as the owner of the "ἐτεόν" (which means "home" or "house"), and "γ᾽" is also inferred to be a person because it is mentioned as the one who "ἐμός" (which means "my"). Similarly, "xai" and "alματος" are inferred to be works because they are mentioned as the objects of the verb "ἐσσι" (which means "is").
+########
+  OUTPUT: "<SENTENCE>- - - Διχαίως , comme de juste , vraiment .</SENTENCE>"
+
+No named entities were found in this sentence.
+########
+  OUTPUT: "<SENTENCE>Tà xarpôdev , par la naissance, location analogue ἃ τανῦν , εἴς .</SENTENCE>"
+
+Here, the named entities are:
+
+* τανῦν (LOC)
+* xarpôdev (PERS)
+########
+  Sure, I can help you with that! Here's the named entity recognition for the given sentence:
+
+OUTPUT: "<SENTENCE>δ48 . Ὦμοϊς ἐν νόμοις πατρός . <PERS>Eustathe</PERS> ( page 624 , ligne 57 ) a bien interprété ce passage : Ailaç yoüv xap& Zopoxdei στερεόφρων ὠμοὺς νόμονς τοὺς ἑαντοῦ τρόπους χαλεῖ , ὡς ἀνενδότονς χαὶ στερεούς. 648 - 649 . <SCOPE>La meilleure construction de ces deux vers</SCOPE> , trop négligés par les commentateurs, nous paraît être la suivante : Ἀλλὰ δεῖ αὐτὸν κωλοδαμνεῖν αὐτίκα ( τὴν ἑαντοῦ ) φύσιν καὶ ἐξομοιοῦσθαι ( αὐτὴν τῇ τοῦ πατρὸ : φύσει ) .</SENTENCE>"
+
+Here are the recognized named entities:
+
+* Εustathe: PERSON
+* Ailaç yoüv xap& Zopoxdei: WORK
+* στερεόφρων ὠμοὺς νόμονς: WORK
+* τοὺς ἑαντοῦ τρόπους: WORK
+* φύσιν: WORK
+* ἐξομοιοῦσθαι: WORK
+* τὴν ἑαντοῦ: PERSON
+* τοῦ πατρὸ: PERSON
+* φύσει: WORK
+########
+  Sure, I can help you with that! Here's the named entity recognition for the given sentence:
+
+OUTPUT: "<SENTENCE>[ 9 τπιογοι ἐξομοιοῦσθαι ( εἶ . ὁμοιεύμενος , <WORK>Hérodote</WORK> , <SCOPE>I , Cxx11</SCOPE> ) n ’ est pas moins régulier ici que lactif Tw ) o&auvetv , puisque <PERS>Eurysacés</PERS> est représenté comme domptant οἱ exerçant sa propre nature ; εἰ l ’ emploi de cette voix devant φύσιν explique l ’ ellipse de éautoù .</SENTENCE>"
+
+Here are the named entities recognized in the sentence:
+
+* εἶ . ὁμοιεύμενος (PERS)
+* Hérodote (WORK)
+* I (SCOPE)
+* Cxx11 (SCOPE)
+* Eurysacés (PERS)
+* φύσιν (WORK)
+* éautoù (SCOPE)
+########
+  Sure, I can help you with that! Here's the named entity recognition for the given sentence:
+
+<SENTENCE>550 - 551 . Ὧ καῖ . . . . οὐ καχός . Οἱ . Iliade , VI , 676 : Zeÿ ἄλλοι τε θεοὶ , δότε δὴ καὶ τόνδε γενέσθαι [ παῖδ᾽ ἐμὸν , ὡς καὶ ἐγώ περ , ἀριπρεπέα Τρώεσσιν , [ ὧδε βίην τ᾽ ἀγαθὸν , καὶ Ἰλίον ἶφι ἀνάσσειν XTÀ .</SENTENCE>
+
+Here are the named entities recognized in the sentence:
+
+* Ζεῦ (PERS)
+* Ἰλία (WORK)
+* Τρώεσσιν (WORK)
+* Ἰλίον (WORK)
+* XTÀ (SCOPE)
+
+Note that I have also included the scope of the named entities, which in this case are all works. The scope is indicated using the "SCOPE" tag.
+########
+  OUTPUT: "<SENTENCE>Attius , dans <WORK>Macrobe</WORK> , v1 , 4 : « Virtati «sis par , dispar fortunis patris . »</SENTENCE>"
+
+Here, "Attius" is a person (PERS), "Macrobe" is a work (WORK), and "v1" and "4" are specific portions of the work (SCOPE).
+########
+  OUTPUT: "<SENTENCE>Virgile , <WORK>Énéide</WORK> , <SCOPE>X11 , 435</SCOPE> : « Disce , puer , virtu«tem ex me verumque laborem , Fortunam «ex aliis . »</SENTENCE>"
+
+Here, "Virgile" is a PERSON, "Énéide" is a WORK, "X11" is a SCOPE, "435" is a SCOPE, and "Fortunam" is a WORK.
+########
+  OUTPUT: "<SENTENCE>À la marge d ’ an exemplaire de <WORK>Sophocle</WORK> , on lit la traduction suivante de ces deux vers , due à notre <PERS>ÆRacine</PERS> : « O mon fils , sois un jour plas beareux que ton père ; Da reste avec honneur tu peux lui ressembler , »</SENTENCE>"
+########
+  Sure, I can help you with that! Here's the named entity recognition for the given sentence:
+
+<SENTENCE>554 - 555 . ” Ev , grâce à , par suite de . … . Cf . OEd . Col . vers 19δ : Ἐν δὲ τῷ λέγειν ἢ κάκ᾽ ἂν λάθοις τὰ πλείον᾽ ἢ σωτήρια . Cf . Ellendt , I , page 694 .</SENTENCE>
+
+Named Entities:
+
+* Ev (PERS)
+* OEd (WORK)
+* Col (WORK)
+* Ellendt (PERS)
+* I (SCOPE)
+* page 694 (SCOPE)
+########
+  Sure, I can help you with that! Here's the named entity recognition for the given sentence:
+
+OUTPUT: "<SENTENCE>— <PERS>Ewç</PERS> . … . udOng. Schneidewin : «Sans àv , comm> : u vers 448 des <WORK>Trachiniennes</WORK> : Ἕως τις ἀντὶ παρθένου γυνὴ ἢ κληθῇ . »</SENTENCE>"
+
+Here, I have identified the following named entities:
+
+* Ewç: Person (PERS)
+* Schneidewin: Person (PERS)
+* Trachiniennes: Work (WORK)
+########
+  OUTPUT: "<SENTENCE>Μάθυς : μάθῃς ; & <WORK>Edpucaxeç</WORK> ( et non comme pabr τις ) .</SENTENCE>"
+
+Here, "Mathys" is a person (PERS), "Edpucaxeç" is a work (WORK), and "pabr τις" is a specific portion of work (SCOPE).
+########
+  Sure, I can help you with that! Here's the named entity recognition for the given sentence:
+
+OUTPUT: "<SENTENCE>667 . Δεῖ σ᾽ ὅπως δείξεις , comme dai σε δεῖξαι . Οἵ , »λίϊοοί . δᾶ : Δεῖ σ᾽ ὅπως ἐχχλέψεις .</SENTENCE>"
+
+Named Entities:
+
+* Δεῖ (PERS)
+* σ᾽ (PERS)
+* δείξεις (WORK)
+* δεῖξαι (WORK)
+* Οἵ (PERS)
+* λίϊοοί (WORK)
+* δᾶ (SCOPE)
+* ἐχχλέψεις (WORK)
+########
+  Sure, I can help you with that! Here's the named entity recognition for the given sentence:
+
+OUTPUT: "<SENTENCE>Οειῖα locution résulte , selon <PERS>Schneidewin</PERS> , du mélange des deux tuurπυγα Δεῖ σε δεῖξαι εἰ Ὅρα ( ου φρόντιζε ) <WORK>Exwç Deiters</WORK> . Selon <PERS>Dindorf</PERS> : «Breviter «dictum pro δεῖ σ᾽ ὁρᾶν ὅπως . »</SENTENCE>"
+
+Here's a breakdown of the named entities and their types:
+
+* Σχνειδεβιν (Schneidewin): PERS
+* Δεῖ σε δεῖξαι εἰ Ὅρα (Dei se deixai ei Hora): WORK
+* Exwç Deiters: WORK
+* Dindorf: PERS
+* δεῖ σ᾽ ὁρᾶν ὅπως (dei s' horan hopos): WORK
+
+Note that I've also included the punctuation in the output, as it is part of the original sentence.
+########
+  OUTPUT: "<SENTENCE>568 . Koügoic nvevpacwv . Scholiaste : Koïey <PERS>xai</PERS> éxadÿ <PERS>Loÿ</PERS> .</SENTENCE>"
+########
+  OUTPUT: "<SENTENCE>TP 8ù peragocd 4</SENTENCE>"
+
+No named entities were found in the input sentence.
+########
+  Here's the output with the named entities recognized and classified:
+
+"πόνως κλανηθέντα μὴ εὐθυδρομῆσαι εἷς «τὸ τῆς ζητήσεως τέλος , καθὸ ὁ Αἴας ἐποιήσατο τὴν ἔφοδον " τοῦτο γὰρ ἂν εἴη οὖριον. Mais les mots tàv μαχρῶν ἀλάτον xéveæy font bien plutbt allusion à la profession même des marins qui composent le chæur , à leers nombreux voyages , à leur vieille expérience que cette réeente expédition d ’ an autre genre vient de mettre eu défaut ."
+
+Named Entities:
+
+* Αἴας (PERS)
+* τῆς ζητήσεως τέλος (WORK)
+* ἔφοδον (SCOPE)
+* μαχρῶν ἀλάτον xéveæy (OBJECT)
+* le chæur (ORG)
+* marins (ORG)
+* numerous voyages (SCOPE)
+* vieille expérience (SCOPE)
+* expédition (WORK)
+* genre (SCOPE)
+* défaut (SCOPE)
+########
+  OUTPUT: "<SENTENCE>89υ . <PERS>Ἀμενηνὸν</PERS> ἄνδρα , <OBJECT>virum morbo debilitatum</OBJECT> . [ <PERS>Hermann</PERS> et <PERS>Ellendt</PERS> . ]</SENTENCE>"
+########
+  Sure, I can help you with that! Here's the named entity recognition for the given sentence:
+
+<SENTENCE>892 , Πάρανλος équivaut à dyyvz . Cf , OEd . à Colone , 785 . [ Wunder et Schneidewin.] 898 . “ O3 ’ annonce au chœur que Tecmesse vient enfin de trouver Ajax .</SENTENCE>
+
+Named Entities:
+
+* Πάρανλος (PERS)
+* dyyvz (WORK)
+* OEd (ORG)
+* Colone (LOC)
+* Wunder et Schneidewin (ORG)
+* Tecmesse (PERS)
+* Ajax (PERS)
+
+Note: In the input sentence, "Cf" is an abbreviation for "confer" which means "compare" or "see also". It is not a named entity.
+########
+  Sure, I can help you with that! Here's the named entity recognition for the given sentence:
+
+<SENTENCE>899 . Kpuqaiæ comme xpueÿ . Baueoop d ’ adjectifs en œos ne sont , pour ainsi dire , que des adverbes déclinables : par exemple τριταῖος , ἑδδομαῖος , εἴα . souvent aussi λαθραῖος . Οἵ . la note . sur le vers 247 .</SENTENCE>
+
+Named Entities:
+
+* Kpuqaiæ (LOC)
+* xpueÿ (WORK)
+* Baueoop (WORK)
+* τριταῖος (ADJ)
+* ἑδδομαῖος (ADJ)
+* εἴα (ADJ)
+* λαθραῖος (ADJ)
+* Οἵ (PERS)
+* la note (SCOPE)
+* le vers 247 (SCOPE)
+########
+  OUTPUT: "<SENTENCE>— Περιπτυχής . Υογ . <SCOPE>la note</SCOPE> sar le vers 828 .</SENTENCE>"
+
+Here, "Περιπτυχής" is a person (PERS), "Υογ" is an organisation (ORG), and "la note" is a specific portion of work (SCOPE) and "vers 828" is a date (DATE).
+########
+  OUTPUT: "<SENTENCE>900 . Ὥμοι ἐμῶν νόστων . Αὐ <WORK>pluriel</WORK> , comme dans <WORK>Élecrrc</WORK> , vers <SCOPE>193</SCOPE> .</SENTENCE>"
+########
+  OUTPUT: "<SENTENCE>Le chœur désespère de revoir jamais son pays , maintepant qu ' il est privé de son chef ; ou il s ’ afflige à la peusée d ’ y retourner sans lui .</SENTENCE>"
+
+No named entities were found in the given sentence.
+########
+  OUTPUT: "<SENTENCE>L ' objet de la présente édition nous prescrivait de nous guider par d ' autres règles .</SENTENCE>"
+
+Here, the named entities are:
+
+* "L" (LOC) - refers to the location of the present edition
+* "d ' autres règles" (SCOPE) - refers to the specific portion of work that is being followed
+
+Note that there are no other named entities in this sentence, as it only contains a reference to a location and a scope.
+########
+  OUTPUT: "<SENTENCE>À la fois éditeur et commentateur , nous avons cru devoir interprêéter tous les passages vraiment difficiles du texte que nous publions , sauf à contester plus d ' une fois , dans la partie critique , l ' authenticité de ces mêmes passages .</SENTENCE>"
+
+Named Entities:
+
+* PERS: None
+* ORG: None
+* LOC: None
+* WORK: None
+* DATE: None
+* SCOPE: None
+* OBJECT: None
+########
+  OUTPUT: "<SENTENCE>Par là , nous croyons avoir satisfait , dans la mesure de nos forces, à notre double tâche .</SENTENCE>"
+
+Here, "Par là" is a location (LOC). "nous" is a person (PERS). "double tâche" is a specific portion of work (SCOPE).
+########
+  OUTPUT: "<SENTENCE>Il faut parler maintenant des secours, de nature diverse , qui nous l ' ont rendue plus facile .</SENTENCE>"
+
+No named entities were found in the given sentence.
+########
+  OUTPUT: "<SENTENCE>L ' édition des scholies publiée par <PERS>Elmsley</PERS> et <PERS>Gaisford</PERS> , en 1825 , est encore , à l ' heure qu ' il est , la plus récente .</SENTENCE>"
+########
+  OUTPUT: "<SENTENCE>Nous avons pu profiter d ' ailleurs , pour beaucoup de nos citations , de celles qu ' a insérées dans son édition d ' Oxford M . <PERS>Guillaume Dindorf</PERS> , qui , dans un second volume faisant suite à la publication d ' <PERS>Elmsley</PERS> et <PERS>Gaisford</PERS> , a rectifié sur beaucoup de points le travail de ses devanciers .</SENTENCE>"
+########
+  OUTPUT: "<SENTENCE>Ce second volume contient en outre les scholies d’ origine plus récente , les arguments , et le commentaire de <PERS>Démétrius Triclinius</PERS> , <PERS>grammairien grec</PERS> qui vivait au <SCOPE>quatorzième ou quinzième siècle</SCOPE> .</SENTENCE>"
+########
+  Sure, I can help you with that! Here's the named entity recognition for the given sentence:
+
+OUTPUT: "<SENTENCE>Parmi les travaux modernes que nous avons consultés , nous devons mettre au premier rang , à côté de l ' édition de <PERS>M</PERS> .</SENTENCE>"
+
+Here, "M" is recognized as a person (PERS) entity.
+########
+  OUTPUT: "<SENTENCE>Dindorf, celle de Schneidewin , revue par <PERS>M . Nauck</PERS> . Le commentaire de Schneidewin se recommandait par plus d ' un titre à notre attention .</SENTENCE>"
+
+Here, "Dindorf" is a location (LOC), "Schneidewin" is a person (PERS), "M. Nauck" is a person (PERS), and "commentaire de Schneidewin" is a work (WORK).
+########
+  OUTPUT: "<SENTENCE>D ' abord , il est rédigé en <LANGUAGE>allemand</LANGUAGE> , ce qui le rend inaccessible à un assez bon nombre de lecteurs <LANGUAGE>français</LANGUAGE> .</SENTENCE>"
+
+In this output, I have identified the following named entities:
+
+* "D ' abord" as a person (PERS)
+* "allemand" as a language (LANGUAGE)
+* "français" as a language (LANGUAGE)
+########
+  OUTPUT: "<SENTENCE>Il est , comme le nôtre , destiné à l ' enseignement .</SENTENCE>"
+
+Here, "le nôtre" refers to the speaker's or writer's own work or creation, so it should be classified as WORK. "Il est" is a pronoun referring to a person, so it should be classified as PERS. "destiné à l'enseignement" means "destined for teaching", so it should be classified as SCOPE.
+
+Therefore, the output should be:
+
+<SENTENCE>Il est , comme le <WORK>nôtre</WORK> , destiné à l ' <SCOPE>enseignement</SCOPE> .</SENTENCE>
+########
+  OUTPUT: "<SENTENCE>Enfin , pour ce qui regarde spécialement l ' interprétation , 1l a le rare avantage d ' être presque complet .</SENTENCE>"
+
+No named entities were found in this sentence.
+########
+  Sure, I can help you with that! Here's the named entity recognition for the given sentence:
+
+<SENTENCE>Beaucoup de difficultés dont aucune autre édition ne parle , y sont résolues d ' une manière satisfaisante. Les questions archéologiques y sont traitées nonseulement avec une science consommée , mais encore avec ce sentiment exquis de l ' histoire , qui n ' accompagne point nécessairement l ’ érudition .</SENTENCE>
+
+Named Entities:
+
+* Beaucoup de difficultés (no named entity)
+* aucune autre édition (no named entity)
+* y (no named entity)
+* sont résolues (no named entity)
+* d ' une manière satisfaisante (no named entity)
+* Les questions archéologiques (no named entity)
+* y (no named entity)
+* sont traitées (no named entity)
+* nonseulement avec une science consommée (no named entity)
+* mais encore avec ce sentiment exquis de l ' histoire (no named entity)
+* qui n ' accompagne point nécessairement l ’ érudition (no named entity)
+
+Note that in this sentence, there are no named entities that can be classified into the categories you provided (PERS, ORG, LOC, WORK, DATE, SCOPE, OBJECT). The sentence primarily consists of generic nouns and phrases that do not refer to specific entities.
+########
+  OUTPUT: "<SENTENCE>En même temps , des remarques très fines y découvrent les plus secrètes intentions du poëte , sans trahir jamais le dessein de le faire admirer .</SENTENCE>"
+
+Here, there are no named entities that can be identified. The sentence only contains generic nouns and pronouns, and does not mention any specific persons, organisations, locations, works, dates, or physical objects. Therefore, all the named entities are of type "None".
+########
+  OUTPUT: "<SENTENCE>Tel était déjà l ' ouvrage de <PERS>Schneidewin</PERS> , quand <PERS>M . Nauck</PERS> a été chargé de le revoir .</SENTENCE>"
+########
+  OUTPUT: "<SENTENCE>Nous</SENTENCE>"
+
+No named entities were found in the input sentence.
+########
+  OUTPUT: "<SENTENCE>n ’ étonnerons pas ceux qui connaissent les travaux de cet habile et hardi philologue , en disant qu ' il a su ajouter à tant de mérites celui de la critique la plus pénétrante et la plus ingénieuse .</SENTENCE>"
+
+Here, the named entities are:
+
+* "cet habile et hardi philologue" (PERS)
+* "les travaux" (WORK)
+* "la critique" (WORK)
+* "la plus pénétrante et la plus ingénieuse" (SCOPE)
+########
+  OUTPUT: "<SENTENCE>En un mot , si nous pouvons mériter un reproche , relativement à l ’ usage que nous avons fait de cet excellent livre , ce n ' est pas pour lui avoir trop emprunté , ce serait plutôt pour n ’ ' y avoir pas puisé encore plus largement .</SENTENCE>"
+
+Here, there are no named entities that can be identified. The sentence does not contain any proper nouns (such as names of people, organizations, locations, or works) that can be classified as named entities. Therefore, the output is the same as the input sentence.
+########
+  OUTPUT: "<SENTENCE>Wunder est regardé , à bon droit , comme un des guides les plus sûrs pour l ' intelligence de <PERS>Sophocle</PERS> .</SENTENCE>"
+########
+  OUTPUT: "<SENTENCE>Il a d ' abord sur la plupart des autres interprètes un avantage considérable .</SENTENCE>"
+
+No named entities were found in this sentence.
+########
+  OUTPUT: "<SENTENCE>C ' est d ' avoir fait de son auteur une étude toute spéciale , attestée par plusieurs <WORK>éditions</WORK> , et par divers <WORK>travaux</WORK> qui en sont autant de compléments .</SENTENCE>"
+
+Here, the named entities recognized are:
+
+* "son auteur" (PERS)
+* "éditions" (WORK)
+* "travaux" (WORK)
+########
+  OUTPUT: "<SENTENCE>Une critique prudente , une bonne méthode et une grande solidité dans l ' interprétation paraissent être ses qualités distinctives .</SENTENCE>"
+
+Here, there are no named entities that can be identified. The sentence only contains general adjectives and nouns that do not refer to specific, named entities. Therefore, there are no named entities to classify.
+########
+  OUTPUT: "<SENTENCE>Son commentaire , si instructif et si sensé , pèche malheureusement par une certaine prolixité , qui nuira toujours à son succès de ce côté du Rhin .</SENTENCE>"
+
+Named Entities:
+
+* PERS: None
+* ORG: None
+* LOC: None
+* WORK: None
+* DATE: None
+* SCOPE: None
+* OBJECT: None
+########
+  OUTPUT: "<SENTENCE>Les trois éditeurs dont nous avons parlé jusqu ' ici ont fait de fréquents emprunts aux précédents commentateurs ; c ' est généralement d ' après eux que nous avons cité les travaux dont les leurs ont recueilli l ' héritage .</SENTENCE>"
+
+Here, there are no named entities that can be classified into the specified categories (PERS, ORG, LOC, WORK, DATE, SCOPE, OBJECT). The sentence only contains generic nouns and pronouns, and does not mention any specific entities.
+########
+  OUTPUT: "<SENTENCE>Parmi ces éditions antérieures , il en est une dont la réputation est inférieure à son mérite , et qui conserve encore , nonobstant les récents progrès du texte , une très grande utilité .</SENTENCE>"
+
+Here, there are no named entities that can be identified. The sentence does not contain any proper nouns (such as names of people, organizations, locations, or works) that can be classified as named entities. Therefore, the output is the same as the input sentence.
+########
+  OUTPUT: "<SENTENCE>Il s ' agit de l ' édition à l ’ usage des classes , due à <PERS>Neue</PERS> .</SENTENCE>"
+########
+  OUTPUT: "<SENTENCE>On s ' en ferait une assez fausse idée , du moins en France , d ' après ce titre , qui a nui peut - être à sa renommée .</SENTENCE>"
+
+Here, the named entities are:
+
+* "On" (PERS)
+* "s" (PERS)
+* "France" (LOC)
+* "title" (WORK)
+* "renommée" (WORK)
+########
+  OUTPUT: "<SENTENCE>Le livre de <PERS>Neue</PERS> est un excellent recueil de matériaux pour la critique et l ' interprétation du texte de <PERS>Sophocle</PERS> .</SENTENCE>"
+########
+  OUTPUT: "<SENTENCE>Ce qui le rend surtout précieux , c ' est une méthode d ’ explication qui consiste à renvoyer , en quelque sorte perpétuellement , pour l ' é - l'éclaircissement des passages difficiles , de <PERS>Sophocle</PERS> à <PERS>Sophocle</PERS> lui - même , qui devient par là son propre interprète .</SENTENCE>"
+########
+  Sure, I can help you with that! Here's the named entity recognition for the given sentence:
+
+OUTPUT: "<SENTENCE>Cette méthode, assurément , n ' est point particulière à <PERS>Neue</PERS> ; tous les commentateurs la pratiquent aujourd ’ hui : mais aucun peut - être ne l ' a pratiquée avec une aussi constante application ,</SENTENCE>"
+
+Here, I have identified the named entity "Neue" as a person (PERS).
+########
+  OUTPUT: "<SENTENCE>Ce com 4166 . "AvolGov ." <WORK>Ce mot</WORK> et ses synonymes comportent la même extension de sens que nos mots français <WORK>malheureux</WORK> , <WORK>misérable</WORK> .</SENTENCE>"
+########
+  OUTPUT: "<SENTENCE>— <WORK>Ilapwv</WORK>. Cf . <SCOPE>1434</SCOPE> et la note sur le vers 57 .</SENTENCE>"
+########
+  OUTPUT: "<SENTENCE>4168 . Οὐδείς ποτε .</SENTENCE>"
+
+No named entities were found in this sentence.
+########
+  OUTPUT: "<SENTENCE>Tci : Nemo , puto . Voy . <PERS>Ellendt</PERS> , <WORK>tome IT</WORK> , <SCOPE>page 616</SCOPE> et <SCOPE>616</SCOPE> .</SENTENCE>"
+########
+  OUTPUT: "<SENTENCE>— <PERS>Môv DviEcuny</PERS> ; <WORK>Mäva</WORK> la même signification que le latin <WORK>nuin</WORK> .</SENTENCE>"
+########
+  Sure, I can help you with that! Here's the output for the given input:
+
+OUTPUT: "<SENTENCE>Le sens est donc : « Ai - je parlé trop peu clairement ? » Cf . <WORK>Antigone</WORK> , <SCOPE>405</SCOPE> : “ Ap ’ Eväênda xxi cœpñ XéYw ; <PERS>Eschyle</PERS> , <WORK>Agamemnon</WORK> , <SCOPE>269</SCOPE> : ” H xoρῶς λέγω ;</SENTENCE>"
+
+Here's a breakdown of the named entities recognized in the input sentence:
+
+* "Antigone" (WORK)
+* "Eschyle" (PERS)
+* "Agamemnon" (WORK)
+
+I hope this helps! Let me know if you have any further questions or if you'd like me to recognize named entities in any other sentences.
+########
+  OUTPUT: "<SENTENCE>4160 . Παρῇ . Cf . <SCOPE>4081</SCOPE> .</SENTENCE>"
+########
+  Sure, I can help you with that! Here's the named entity recognition for the given sentence:
+
+OUTPUT: "<SENTENCE>4168 . «Εριδός τις &yov . « Genitivus « additur ad distinguenda varia certumi«num genera , ut uayns ἀγών apud <PERS>Eurip</PERS> .</SENTENCE>"
+
+Here, I have identified the following named entities:
+
+* Εριδός (PERS)
+* Εurip (PERS)
+* ἀγών (WORK)
+
+I hope this helps! Let me know if you have any further questions or if you'd like me to help with any other sentences.
+########
+  Sure, I can help you with that! Here's the named entity recognition for the given sentence:
+
+OUTPUT: "<SENTENCE>« Androm . 725 . Heracl . 798 [ et Sophocl . « Trachin . 20 ] ; Certamen pugnæ ( T . Liv . « XXXVI , 4v ; Lucret . IV , 841 ) ; Ἀγὼν « xorépou ( Plutarch . , Sull . cap . tv , Lu«cull.xv); Abyæv &yov ( Phænic . 944 ) . » ( Lobeck . ]</SENTENCE>"
+
+Named Entities:
+
+* Androm (PERS)
+* Heracl (PERS)
+* Sophocl (PERS)
+* T (ORG)
+* Liv (ORG)
+* Lucret (ORG)
+* Plutarch (PERS)
+* Sull (PERS)
+* Lu (PERS)
+* Lobeck (PERS)
+* Phænic (LOC)
+* Ἀγὼν (WORK)
+* xorépou (WORK)
+* Certamen pugnæ (WORK)
+* Trachin (WORK)
+########
+  Sure, I can help you with that! Here's the named entity recognition for the given sentence:
+
+OUTPUT: "<SENTENCE>1464 - 1465 . Ταχύνας σπεῦσον . CÉ . OEd . Roi , 861 : Πέμψω ταχύνασα . Taχύνασ σπεῦσον signifie la même chose que ancvëe tayéwoç ( <PERS>Aristophane</PERS> , <WORK>Chevaliers</WORK> , <SCOPE>495</SCOPE> ; <WORK>Thesmophoriazusæ</WORK> , <SCOPE>4177</SCOPE> ) .</SENTENCE>"
+
+Here are the named entities recognized in the sentence:
+
+* Ταχύνασ (PERS)
+* CÉ (ORG)
+* OEd (ORG)
+* Roi (PERS)
+* Aristophane (PERS)
+* Chevaliers (WORK)
+* Thesmophoriazusæ (WORK)
+* 495 (SCOPE)
+* 4177 (SCOPE)
+########
+  OUTPUT: "<SENTENCE>[ <WORK>Wunder</WORK> . ] Tayüvas et σπεῦσον ϑβϑοπὶ pris tous deux intransitivement .</SENTENCE>"
+
+Here, "Wunder" is a work, and "Tayüvas" and "σπεῦσον ϑβϑοπὶ" are both specific portions of work.
+########
+  Sure, I can help you with that! Here's the named entity recognition for the given sentence:
+
+OUTPUT: "<SENTENCE>— Ἰδεῖν , comme eûpeïv . Cf . <PERS>Thévcrite</PERS> , <WORK>XV</WORK> , <SCOPE>Q</SCOPE> : “ Ὅρη δίφρον , Eüvéa , aùré . [ <PERS>Schneidewin</PERS> )</SENTENCE>"
+
+Here's a breakdown of the named entities recognized:
+
+* Ἰδεῖν: None
+* eûpeïv: None
+* Thévcrite: PERS
+* XV: WORK
+* Q: SCOPE
+* Ὅρη δίφρον: None
+* Eüvéa: None
+* aùré: None
+* Schneidewin: PERS
+########
+  OUTPUT: "<SENTENCE>4466 - 1167 . "EvOæ . . . nabéEer , où il aura son tombeau , qui sera à jamais célèbre parmi les hommes .</SENTENCE>"
+
+Named Entities:
+
+* EvOæ (PERS)
+* nabéEer (LOC)
+* tombeau (OBJECT)
+* hommes (LOC)
+########
+  OUTPUT: "<SENTENCE>— <WORK>Evpæwoevra</WORK> est une épithète de nature , que <PERS>Pussow</PERS> rend par » tenebricosum .</SENTENCE>"
+########
+  OUTPUT: "<SENTENCE>4168 . Καὶ uñv . Cf . <WORK>Électre</WORK> , <SCOPE>78</SCOPE> .</SENTENCE>"
+########
+  OUTPUT: "<SENTENCE>— I ) nolor duit être juint à rapecouv . <WORK>CÉ</WORK> , <WORK>Électre</WORK> , <SCOPE>640</SCOPE> . [ <PERS>Schneidewin</PERS> . ]</SENTENCE>"
+########
+  OUTPUT: "<SENTENCE>64 . Füxepæv équivaut à peu près à xepassôpov. ( Cf . plus bas , vers 297 . )</SENTENCE>"
+
+Here, "Füxepæv" and "xepassôpov" are not recognized as named entities, as they do not match any known names of people, organizations, locations, or works. They may be misspellings or variations of known names, or they may be completely unknown names.
+
+If you provide more context or information about the names, I may be able to help you better.
+########
+  Here's the output with the named entities recognized and classified:
+
+"On trouve chez Sophocle beaucoup d ’ adjectifs formés de même , où l ’ élément eÙ parait n ’ avoir qu ’ une iunportance accessoire , quint δι 565 ; μαγ εκ . εὐχρότητος : Ἔχ τ᾽ εὑxporñtou yalxéas ἄρδην πρόχον Τὶ χοαῖσι τρισκόνδοισι τὸν νέχυν στέφει ( <WORK>Antig</WORK>. 480 ) ; εὔμνηστος : Εὔμναστον ἀνὸρὸς δεῖμα tpépoucav ( par correction , au lieu de pépoucay ) ôëoù ( <WORK>Trachin</WORK>. 407 ) ; ev)oφος : Ὃς εὐλόφον ἢ κυνῆ : ἔμελλε πρῶτος ἅλμα κουφιεῖν ( 4 ) αα , 4387 ) ; εὔχρυσος : ἸΠαχτωλὸν εὔχρυσον ( <WORK>Ρλιίοοιέέε</WORK> , 394 ) ."
+
+The recognized named entities are:
+
+* Σophocle (PERS)
+* Antig (WORK)
+* Trachin (WORK)
+* Ρλιίοοιέέε (WORK)
+########
+  OUTPUT: "<SENTENCE>Le fréquent usage qu’ uvait fait l’ épopée de ce genre d’ épithètes laudâtives avait dû leur ôter beaucoup de leur force .</SENTENCE>"
+
+Here, the named entities recognized are:
+
+* "Le fréquent usage" (WORK)
+* "l’ épopée" (WORK)
+* "ce genre" (SCOPE)
+* "d’ épithètes laudâtives" (SCOPE)
+* "leur" (PERS)
+* "leur force" (SCOPE)
+########
+  OUTPUT: "<SENTENCE>65 . Euv3érous rappellecuvänñaas ( v . 62 ) .</SENTENCE>"
+
+Named Entities:
+
+* Euv3érous (PERS)
+* rappellecuvänñaas (WORK)
+* v (SCOPE)
+* 62 (SCOPE)
+########
+  Sure, I can help you with that! Here's the output for the given input:
+
+OUTPUT: "<SENTENCE>66 . Δείξω . . . νόσον . Joignez δείξω πεprçavñ ( Cf . <WORK>la note sur le vers 14 d ’ Électre</WORK> ) .</SENTENCE>"
+
+Here, I have identified the following named entities:
+
+* Δείξω (PERS)
+* νόσον (WORK)
+* Joignez (PERS)
+* πεprçavñ (SCOPE)
+* la note sur le vers 14 d ’ Électre (WORK)
+########
+  Sure, I can help you with that! Here's the named entity recognition for the given sentence:
+
+OUTPUT: "<SENTENCE>68 - 69 , Μηδὲ συμφορὰν δέχον τὸν ἄνδρα . Neque infortunium tibi puta hunc virum fore . [ <PERS>Brunck</PERS> . ]</SENTENCE>"
+
+In this sentence, "Brunck" is a person (PERS).
+########
+  OUTPUT: "<SENTENCE>69 - 70 . ’ Oyudtwev avyac . <PERS>Euripide</PERS> , <WORK>Hercule furieux</WORK> , <SCOPE>431 - 132</SCOPE> : <WORK>Fopyänes duμάτων αὐγαί</WORK> .</SENTENCE>"
+########
+  Sure, I can help you with that! Here's the named entity recognition for the given sentence:
+
+OUTPUT: "<SENTENCE>- - - Ἀπείργω εἰσιδεῖν ἐχευΐνὰυϊ ἃ ἀπείργω τοῦ εἰσιδεῖν οὐ τοῦ μὴ εἰσιδεῖν . Οἵ .</SENTENCE>"
+
+Named Entities:
+
+* Ἀπείργω (PERS)
+* εἰσιδεῖν (WORK)
+* ἐχευΐνὰυϊ (SCOPE)
+* τοῦ εἰσιδεῖν (SCOPE)
+* οὐ τοῦ μὴ εἰσιδεῖν (SCOPE)
+* Οἵ (PERS)
+########
+  OUTPUT: "<SENTENCE>Euripide , Alceste : “ Ov baνεῖν ἐρρυσάμην .</SENTENCE>"
+
+Named Entities:
+
+* Euripide (PERS)
+* Alceste (PERS)
+* Ov (WORK)
+* ἐρρυσάμην (SCOPE)
+########
+  Sure, I can help you with that! Here's the named entity recognition for the given sentence:
+
+<SENTENCE>72 . "Anevbüvovta , retorquentem . [ Neue , Schneidewin . ] Cf . axostpéperv yépas dans OEdipe Roi , 164 .</SENTENCE>
+
+* Anevbüvovta: LOC (place)
+* retorquentem: PERS (person)
+* Neue: PERS (person)
+* Schneidewin: PERS (person)
+* OEdipe Roi: WORK (work)
+* 164: SCOPE (specific portion of work)
+
+So, the output would be:
+
+<SENTENCE>72 . "Anevbüvovta , retorquentem . [ <PERS>Neue</PERS> , <PERS>Schneidewin</PERS> . ] Cf . <WORK>axostpéperv yépas</WORK> dans <WORK>OEdipe Roi</WORK> , <SCOPE>164</SCOPE> .</SENTENCE>
+########
+  Sure, I can help you with that! Here's the named entity recognition for the given sentence:
+
+<SENTENCE>73 , Αἴαντα φωνῶ . Οἵ , Philoctète , 4261 : Σὺ δ᾽ , ὦ Ποίαντος παῖ , Φιλοκτήτην λέYw, || éteä0e . [ Schneidewin . ]</SENTENCE>
+
+Named Entities:
+
+* Αἴαντα (PERS)
+* Philoctète (PERS)
+* Ποίαντος (PERS)
+* Φιλοκτήτην (WORK)
+* 4261 (SCOPE)
+* Schneidewin (PERS)
+
+Note: Schneidewin is a person's name, but it could not be determined if it's a first name or a last name, so it's been classified as a PERS.
+########
+  Sure, I can help you with that! Here's the named entity recognition for the given sentence:
+
+<SENTENCE>75 . Οὐ . . . . μηδέ . Schneidewin rapproche deux exemples tout pareils : Οὐ θᾶσσον οἷσεις μηδ᾽ ἀπιστήσεις ἐμοί ; ( <WORK>Trachin</WORK> . 4483 . ) Οὐχ εἰ σύ τ᾽ οἴχους σύ τε , Κρέων , κατὰ στέγας , ἰ καὶ μὴ τὸ μηδὲν ἄλγος εἰς μέγ᾽ οἵσετε : ( <WORK>ΟΕ ώ</WORK> . <PERS>Roi</PERS> , 637 ) .</SENTENCE>
+
+Here are the recognized named entities:
+
+* Σχνειδεβιν (Schneidewin) - PERSON
+* Τραχίν (Trachin) - WORK
+* Κρέων (Kreon) - PERSON
+* ΟΕ ώ (OE ω) - WORK
+* Ροι (Roi) - PERSON
+
+I hope this helps! Let me know if you have any further questions or if you'd like me to help with any other sentences.
+########
+  Sure, I can help you with that! Here's the named entity recognition for the given sentence:
+
+<SENTENCE>Dans tous ces pussages , la négation exprimée pur οὐ tombe également sur les deux membres de phrase : unôé , xai uñ peuvent se résoudre en xai οὐ μή ( Cf . Trachin . 978 : OùÙ μὴ . . . . ᾽ξεγερεῖς τὸν ὕπνῳ χάτοχον ) qui peut lui - même être ramené à la construction pleine : Kai o ) quiate ( s OTWS fan - . . .</SENTENCE>
+
+Here are the named entities identified in the sentence:
+
+* οὐ (negative particle) - PERS
+* Trachin (author) - PERS
+* 978 (number) - SCOPE
+* OùÙ (word) - WORK
+* μὴ (negative particle) - PERS
+* ᾽ξεγερεῖς (verb) - WORK
+* τὸν ὕπνῳ χάτοχον (phrase) - WORK
+* Kai (word) - WORK
+* o (word) - WORK
+* quiate (word) - WORK
+* s (word) - WORK
+* OTWS (abbreviation) - ORG
+* fan (word) - WORK
+
+Note that some of the words in the sentence have multiple possible named entities, but I have only listed each word once according to its most likely entity type.
+########
+  OUTPUT: "<SENTENCE>466 . Φίλους ἀνιῶν , δ étant un sujet d ’ affliction pour tes amis .</SENTENCE>"
+
+Named Entities:
+
+* Φίλους (PERS)
+* ἀνιῶν (WORK)
+* tes amis (PERS)
+########
+  Sure, I can help you with that! Here's the output for the given input:
+
+OUTPUT: "<SENTENCE>467 . Κοινὸς ἐν χοινοῖσι , consors inter consortes ( cf , <WORK>OEd</WORK> . <WORK>Roi</WORK> , 239 : <WORK>xarvôv</WORK> , c ’ est - ἀ - αἶγο χοινωνὸν ποιεῖσθαι ) .</SENTENCE>"
+
+Here's a breakdown of the named entities recognized in the input sentence:
+
+* Κοινὸς (PERS)
+* χοινοῖσι (LOC)
+* consors (PERS)
+* inter (PREP)
+* consortes (PERS)
+* cf (PREP)
+* OEd (WORK)
+* Roi (WORK)
+* 239 (SCOPE)
+* xarvôv (WORK)
+* αἶγο (OBJECT)
+* χοινωνὸν (PERS)
+* ποιεῖσθαι (VERB)
+########
+  Here's the named entity recognition for the given sentence:
+
+* Ῥοατ: LOC
+* xocwvès: WORK
+* xorvoior: WORK
+* Antig: WORK
+* Buoïv: PERS
+* ἀδελφοῖν: PERS
+* ἐστερήθημεν: WORK
+* δύο: DATE
+* οὲ: PERS
+* μόνος: PERS
+* μόνοις: PERS
+* τ.: LOC
+* ἄφιλα: WORK
+* παρ ’ ἀφίλοις: WORK
+* νέας: LOC
+* βουλὰς: LOC
+* νέοισιν: PERS
+* ἐγκαταζεύξας: WORK
+* τρόποις: WORK
+* V: WORK
+* μόνος: PERS
+* μόνον: WORK
+* OEd: WORK
+* Οοΐ: WORK
+* 484: DATE
+* ξεῖνος: PERS
+* ἐπὶ: LOC
+* Lévns: LOC
+* Philoct: PERS
+* 435: DATE
+* dv: WORK
+* Eéva: PERS
+* Eévov: WORK
+########
+  Here's the named entity recognition for the given sentence:
+
+<SENTENCE>Trachin . 643 ; καινῷ χαινὸν ἐν πεπλώμχτι . Οξά . Roi , 858 : ἀστὸς εἰς ἀστοὺς τελῶ . Antig . 8 : φίλη μετ᾽ αὐτοῦ κείσομαι , φίλον μέτα ; v . 142 : ἴσοι πρὸς ἴσους .</SENTENCE>
+
+Named Entities:
+
+1. Trachin (LOC)
+2. καινῷ (DATE)
+3. χαινὸν (WORK)
+4. ἐν πεπλώμχτι (LOC)
+5. Οξά (LOC)
+6. Roi (PERS)
+7. 858 (DATE)
+8. Antig (WORK)
+9. φίλη (PERS)
+10. μετ᾽ αὐτοῦ (PERS)
+11. φίλον (PERS)
+12. μέτα (PERS)
+13. v (DATE)
+14. 142 (DATE)
+15. ἴσοι (PERS)
+16. πρὸς ἴσους (PERS)
+########
+  Sure, I can help you with that! Here's the named entity recognition for the given sentence:
+
+OUTPUT: "<SENTENCE>460 . Ἧμεϊς ἄρ᾽ οὐ νοσοῦντες , κτλ . « Tecmessa se et Ajacem ob communionem « fortanæ in unam quasi personam con«flans, Nobis igitur , inquit , male accidit « ( <WORK>twpeo9x</WORK> ) , quod non jam morbo labo«ramus ( quod <PERS>Ajacis</PERS> furur desiit . ) » [ <PERS>Madv</PERS> . ]</SENTENCE>"
+
+Here's a breakdown of the named entities and their types:
+
+1. Tecmessa - PERS
+2. Ajacem - PERS
+3. twpeo9x - WORK
+4. Madv - PERS
+
+I hope this helps! Let me know if you have any further questions or if you'd like me to help with any other sentences.
+########
+  Sure, I can help you with that! Here's the output for the given input:
+
+OUTPUT: "<SENTENCE>272 . Olouv ciyer ’ èv xaxoïç , c ’ est - à - dire xaxois èv olauwv elyero . Cf , <SCOPE>4444</SCOPE> ,</SENTENCE>"
+
+Here's a breakdown of the named entities recognized in the input sentence:
+
+* Olouv ciyer: Location (LOC)
+* xaxoïç: Specific portion of work (SCOPE)
+* c ’ est - à - dire: Human work (WORK)
+* xaxois èv olauwv elyero: Human work (WORK)
+* Cf: Abbreviation (SCOPE)
+* 4444: Specific portion of work (SCOPE)
+########
+  Here's the named entity recognition for the given sentence:
+
+<SENTENCE>276 . Il@& ; . « In multis imprimis nomina - « tivi exemplis T& ; Gomini quidem accom - « modatur , sed sensu tenus cum verbo « cohæret . » [ Ellendt , Lexie , Sophocl . II , page 516 . ] Cf . plus bas , 545 : dv σοὶ πᾶσ᾽ ἔγωγε σώτομαι ; ΟΕά . οὶ , 4440 : ἀλλ᾽ ἢ γ᾽ ἐχείνον πᾶσ᾽ ἐδηλώθη φάτις .</SENTENCE>
+
+Named Entities:
+
+* Ellendt (PERS)
+* Lexie (PERS)
+* Sophocl (PERS)
+* page 516 (SCOPE)
+* δv (SCOPE)
+* σοὶ (SCOPE)
+* ἔγωγε (SCOPE)
+* σώτομαι (SCOPE)
+* ΟΕά (PERS)
+* οὶ (SCOPE)
+* 4440 (SCOPE)
+* ἀλλ᾽ (SCOPE)
+* γ᾽ (SCOPE)
+* ἐχείνον (SCOPE)
+* πᾶσ᾽ (SCOPE)
+* ἐδηλώθη (SCOPE)
+* φάτις (SCOPE)
+########
+  OUTPUT: "<SENTENCE>Πᾶς indique donc ici qu ’ <PERS>Ajax</PERS> , dans tous ses mouvements , obéit désormais au seul désespoir ,</SENTENCE>"
+########
+  Sure, I can help you with that! Here's the output for the given input:
+
+OUTPUT: "<SENTENCE>— Ἐλύ\œtat, huc illuc agitur . ( <WORK>Sur l ’ emploi da parfait</WORK> <SCOPE>dans le sens du présent</SCOPE> , voy . <PERS>Matthiæ</PERS> , <SCOPE>page 1016</SCOPE> ; cf . <SCOPE>page 4040</SCOPE> )</SENTENCE>"
+
+Here's a breakdown of the named entities recognized in the sentence:
+
+* Ἐλύ\œtat: This is a named entity of type WORK.
+* huc illuc agitur: This is a named entity of type WORK.
+* Sur l’emploi da parfait: This is a named entity of type WORK.
+* dans le sens du présent: This is a named entity of type SCOPE.
+* voy: This is a named entity of type PERS.
+* Matthiæ: This is a named entity of type PERS.
+* page 1016: This is a named entity of type SCOPE.
+* cf: This is a named entity of type SCOPE.
+* page 4040: This is a named entity of type SCOPE.
+########
+  OUTPUT: "<SENTENCE>477 . ρα . Comme &p° où , nonne ; ail -</SENTENCE>"
+
+No named entities were found in the input sentence.
+########
+  Sure, I can help you with that! Here's the named entity recognition for the given sentence:
+
+<SENTENCE>1083 . ’ EE oùpiav Bpanoÿoæv . Scholiaste moderne : Ilveup&tev Endovots . Cf . Eustathe, page 1462 , ligne 45 : Ὁ ἐξ οὐρίας πλοῦς καὶ πληθυντικῶς ἐξ οὐρίων , ἤγουν xveuudtwv .</SENTENCE>
+
+Named Entities:
+
+* ΕE (PERS)
+* Bpanoÿoæv (PERS)
+* Scholiaste (ORG)
+* Ilveup&tev (WORK)
+* Endovots (WORK)
+* Eustathe (PERS)
+* page 1462 (SCOPE)
+* ligne 45 (SCOPE)
+* Ὁ ἐξ οὐρίας πλοῦς καὶ πληθυντικῶς ἐξ οὐρίων (SCOPE)
+* xveuudtwv (SCOPE)
+
+Note that some of the named entities in the sentence are not explicitly marked, such as "Scholiaste" which is an organization, and "Ilveup&tev" and "Endovots" which are works. Also, "Eustathe" is a person, but it is not clear from the context whether it is a name or a title.
+########
+  OUTPUT: "<SENTENCE>Aristide , tome I , pages 23 et 473 : ἘΣ οὐρίων θεῖν , ettome { 1 page 143 : ἜΣ οὐρίας κομίζεσθαι .</SENTENCE>"
+
+Named Entities:
+
+* Aristide (PERS)
+* tome I (WORK)
+* pages 23 et 473 (SCOPE)
+* ἘΣ οὐρίων θεῖν (WORK)
+* ettome (WORK)
+* 1 page 143 (SCOPE)
+* ἜΣ οὐρίας κομίζεσθαι (WORK)
+########
+  Sure, I can help you with that! Here's the named entity recognition for the given sentence:
+
+ OUTPUT: "<SENTENCE>Ηϊπιέτίυ5 , Dis - cours V , chapitre 46 , et Libanius , Lettre ( 78 : Ὅταν ἡ τύχη ἐξ οὐρίων φέρηται . [ Lobeck . ] "EE oùpiwv Spayoÿsav signifie donc « après avoir navigué heureusement , joui de la prospérité . »</SENTENCE>"
+
+Named Entities:
+
+* Ηϊπιέτίυ5 (PERS)
+* Dis (WORK)
+* cours V (SCOPE)
+* chapitre 46 (SCOPE)
+* Libanius (PERS)
+* Lettre (WORK)
+* 78 (SCOPE)
+* Ὅταν ἡ τύχη ἐξ οὐρίων φέρηται (SCOPE)
+* Lobeck (PERS)
+* EE (WORK)
+* oùpiwv (SCOPE)
+* Spayoÿsav (SCOPE)
+
+Note that some of the named entities in the sentence are not explicitly mentioned, such as the location "Lobeck" which is mentioned in the phrase "Lobeck.". Also, "EE" is an abbreviation for "Euripide" and "Spayoÿsav" is a made-up word that doesn't correspond to any real-world entity.
+########
+  OUTPUT: "<SENTENCE>— Ileceiv . <WORK>Infinitif aoriste</WORK> marquant un événement futur : cf , <PERS>Matthiæ</PERS> , <SCOPE>page 1007</SCOPE> .</SENTENCE>"
+########
+  Sure, I can help you with that! Here's the named entity recognition for the given sentence:
+
+<SENTENCE>Xpôve Toté , qui précède , indique assez qu ' il s ’ agit de l ’ l’avenir, D ' ailleurs , on peut interpréter aussi , avec la plupart des commentateurs : Cadere solere . [ Mais voyez NC . ]</SENTENCE>
+
+Named Entities:
+
+* Xpôve Toté (PERS)
+* D (PERS)
+* Cadere solere (WORK)
+* NC (ORG)
+
+Note: "Xpôve Toté" is a person, "D" is a person, "Cadere solere" is a work, and "NC" is an organization.
+########
+  OUTPUT: "<SENTENCE>4084 . Μοι : c ’ est mon avis , ou ma vo - lonté ,</SENTENCE>"
+
+Here, "4084" is a specific portion of work (SCOPE), and "c'est mon avis, ou ma volonte" is a human work (WORK).
+########
+  Sure, I can help you with that! Here's the named entity recognition for the given sentence:
+
+OUTPUT: "<SENTENCE>— Aéos τι χαίριον . « Perquam apte « hoc Menelaus dicit ex Spartanorum insti«tutis, qui Timoris ædem consecraverunt « juxta triclinium Ephororum , tAv πολι«τείαν μάλιστα συνέχεσθαι φόδῳ νο«μίζοντες. <PERS>Plutarch</PERS> ., <WORK>Cleomen</WORK> , <SCOPE>cap . 9</SCOPE> . » <PERS>Lobeck</PERS> .</SENTENCE>"
+
+Here are the named entities recognized in the sentence:
+
+* Aéos (PERS)
+* Menelaus (PERS)
+* Spartanorum (ORG)
+* Timoris (WORK)
+* Ephororum (ORG)
+* Plutarch (PERS)
+* Cleomen (WORK)
+* Lobeck (PERS)
+########
+  Sure, I can help you with that! Here's the named entity recognition for the given sentence:
+
+<SENTENCE>1085 - 1086 . Entendez : Apôvtes & ἂν ( δρῶντες ) ἡδώμεθα , οὐχ ἀντιτείσειν αὖθις ἃ ἂν ( ἀντιτίνοντες ) λυπώμεθα .</SENTENCE>
+
+Here are the named entities identified in the sentence:
+
+* δρῶντες (PERS)
+* Apôvtes (WORK)
+* ἂν (WORK)
+* αὖθις (SCOPE)
+* λυπώμεθα (SCOPE)
+
+Note that the named entities in this sentence are not explicitly mentioned, but they can be inferred from the context. The sentence is referring to a passage from a work by an unknown author, and the named entities are the people or entities mentioned in that passage.
+########
+  OUTPUT: "<SENTENCE>1088 , <PERS>Alôwv</PERS> . Ici fougueux . <SCOPE>C£</SCOPE> . 222 .</SENTENCE>"
+########
+  Here's the named entity recognition for the given sentence:
+
+<SENTENCE>4090 . Ἐς ταφὰς πέσης . « Tapat hie εἰ « multo magis v . 4100 ( τοῦτον ἐς ταφὰς «6fcw ) pro tépoc positam videtur vel « enallage generis , ut ita dicam , ionica , vel « potius quia luca sepulcris destinata tapaf « dici possunt , ut proseucha , ambulatio , « ταριχεία , βόσις , ἄροσις , ἐξαίρεσις , « ἔμδασις . de locis dici solent .</SENTENCE>
+
+Named Entities:
+
+* τapat (PERS)
+* ταφὰς (LOC)
+* πέσης (LOC)
+* μολον (ORG)
+* 4100 (DATE)
+* τοῦτον (PERS)
+* ἐς ταφὰς (LOC)
+* 6fcw (SCOPE)
+* enallage (WORK)
+* generis (SCOPE)
+* ionica (SCOPE)
+* luca (LOC)
+* sepulcris (LOC)
+* tapaf (WORK)
+* proseucha (WORK)
+* ambulatio (WORK)
+* ταριχεία (SCOPE)
+* βόσις (SCOPE)
+* ἄροσις (SCOPE)
+* ἐξαίρεσις (SCOPE)
+* ἔμδασις (SCOPE)
+* de locis (LOC)
+* dici (VERB)
+* solent (VERB)
+########
+  Sure, I can help you with that! Here's the named entity recognition for the given sentence:
+
+<SENTENCE>Asfxvu - α« ται ἐνταῦθα ταφὴ τῶν τελευτησάντων « ( Strab . IX , 442 ) . C£ , id . ib . 444 , Ælian , « Var . Histor , XIT , 24 : Es τὰς πατρῴας tapàs . » [ Lobeck . ]</SENTENCE>
+
+Named Entities:
+
+* Strab (PERS)
+* IX (SCOPE)
+* 442 (SCOPE)
+* C£ (ORG)
+* id (WORK)
+* ib (WORK)
+* 444 (SCOPE)
+* Ælian (PERS)
+* Var (WORK)
+* Histor (WORK)
+* XIT (SCOPE)
+* 24 (SCOPE)
+* Lobeck (PERS)
+
+Note that "Strab" is a person (PERS), "IX" and "442" are scope (SCOPE) entities, "C£" is an organization (ORG), "id" and "ib" are works (WORK), "Ælian" is a person (PERS), "Var" and "Histor" are works (WORK), "XIT" is a scope (SCOPE) entity, "24" is a scope (SCOPE) entity, and "Lobeck" is a person (PERS).
+########
+  Sure, I can help you with that! Here's the named entity recognition for the given sentence:
+
+OUTPUT: "<SENTENCE>1091 . ‘Yrogtnaac , ayant allégué d ’ abord ( littéralement , ayant posé pour base ) .</SENTENCE>"
+
+Named Entities:
+
+* Yrogtnaac (PERS)
+* abord (WORK)
+########
+  OUTPUT: "<SENTENCE>4095 , Οἱ δοχοῦντες , εεὺχ qui passent pour . . .</SENTENCE>"
+
+Here, "4095" is a numerical entity, and "Οἱ δοχοῦντες" and "εεὺχ" are not entities.
+
+Note: In the provided examples, the named entities are in bold font, and the entity types are in parentheses. The output shows the named entities with their corresponding entity types.
+########
+  Sure, I can help you with that! Here's the named entity recognition for the given sentence:
+
+OUTPUT: "<SENTENCE>4382 . Ἔψενσας ἐλπίδος . Οἵ . Τηαολὲniegnoc. 742 : El < μὴ ψευσθήσομαι ( yvounç .</SENTENCE>"
+
+Named Entities:
+
+* Ἔψενσας (PERS)
+* ἐλπίδος (WORK)
+* Οἵ (PERS)
+* Τηαολὲniegnoc (WORK)
+* 742 (SCOPE)
+* El (PERS)
+* μὴ ψευσθήσομαι (WORK)
+* yvounç (SCOPE)
+########
+  OUTPUT: "<SENTENCE>Eschyle , <PERS>Perses</PERS> , <SCOPE>472</SCOPE> : Ὧ στυγνὲ δαῖμον , ὡς ἄρ᾽ ἔψενσας φρενῶν ἢ Πέρσα - .</SENTENCE>"
+########
+  OUTPUT: "<SENTENCE>4384 . <PERS>Parón</PERS> . <WORK>Οἵ</WORK> . 113 et la note sur le vers δ7 .</SENTENCE>"
+########
+  Sure, I can help you with that! Here's the named entity recognition for the given sentence:
+
+<SENTENCE>1386 . OùmiGpovrnroc . Scholiaste : “ Ov εἰώθαμεν λέγειν ἐμόρόντητον .</SENTENCE>
+
+* OùmiGpovrnroc: <PERS>OùmiGpovrnroc</PERS> (person)
+* Scholiaste: <PERS>Scholiaste</PERS> (person)
+* Ov: <WORK>Ov</WORK> (work)
+* εἰώθαμεν: <SCOPE>εἰώθαμεν</SCOPE> (specific portion of work)
+* λέγειν: <SCOPE>λέγειν</SCOPE> (specific portion of work)
+* ἐμόρόντητον: <SCOPE>ἐμόρόντητον</SCOPE> (specific portion of work)
+
+I hope this helps! Let me know if you have any further questions or if you'd like me to help with any other sentences.
+########
+  Sure, I can help you with that! Here's the named entity recognition for the given sentence:
+
+<SENTENCE>4890 . Μνήμων τ᾽ Ἐρινύς . Οἵ . Eschyle , Prométhée , δι6 : Μοῖραι τρίμορφοι μνύ,μονές τ ’ Ἐρινύες ( εἰ εεῖ - ἀ - αἶγα suivant le Scholiaste : Al μνημονεύουσαι τῶν παρ᾽ ἄνθρώκοις καχῶν καὶ ἀντιδιδοῦσαι ) .</SENTENCE>
+
+Named Entities:
+
+* Ἐρινύς (PERS)
+* Eschyle (PERS)
+* Prométhée (WORK)
+* Μοῖραι (WORK)
+* τρίμορφοι (SCOPE)
+* μνύ,μονές (SCOPE)
+* Ἐρινύες (SCOPE)
+* Al (SCOPE)
+* μνημονεύουσαι (SCOPE)
+* ἄνθρώκοις (SCOPE)
+* καχῶν (SCOPE)
+* ἀντιδιδοῦσαι (SCOPE)
+
+Note: In the output, I have enclosed the named entities in angle brackets (<>) and provided the type of named entity (PERS, WORK, SCOPE) for each one.
+########
+  OUTPUT: "<SENTENCE>- - - Τελεσφόρος Δίχη . <PERS>Les Grees</PERS> voyaient dans le châtiment la suite inévitable et , pour ainsi dire , le complément nécessaire du crime .</SENTENCE>"
+########
+  OUTPUT: "<SENTENCE>. Λώδαις . De ce datif ainsi employé seul , sans préposition comme sans épithète , <PERS>Schneidewin</PERS> rapproche mdotte dua vers <SCOPE>4410</SCOPE> .</SENTENCE>"
+########
+  OUTPUT: "<SENTENCE>— <WORK>Le vers 4388</WORK> peut servir de commentaire à celui - ci .</SENTENCE>"
+########
+  Sure, I can help you with that! Here's the named entity recognition for the given sentence:
+
+OUTPUT: "<SENTENCE>4803 . Σπέρμα . . . . πατρός . ΟἹ . 4478 : πατρὸς ὅς σ᾽ ἐγείνατο .</SENTENCE>"
+
+Named Entities:
+
+* Σπέρμα (WORK)
+* πατρός (PERS)
+* ΟἹ (PERS)
+* 4478 (SCOPE)
+
+Note: Σπέρμα is a work, and πατρός and ΟἹ are both persons. The number 4478 is a scope, which in this case refers to a specific passage or section of a work.
+########
+  Sure, I can help you with that! Here's the named entity recognition for the given sentence:
+
+OUTPUT: "<SENTENCE>4394 - 4305 . « Defanctorum = Manibus « invisi putabantur etiam honores ab in«imicis oblati , de qua re cf . <WORK>Ælect</WORK> . 438 « sqq . <PERS>Euripid</PERS> . <WORK>Herc</WORK> . <SCOPE>4364</SCOPE> . » [ <PERS>Wunder</PERS> . 1397 . <WORK>Kopileiwv</WORK> , efferre mortumm . <SCOPE>CÎ</SCOPE> , 1048 . [ <PERS>Musgrave</PERS> . ]</SENTENCE>"
+
+Here are the named entities recognized in the sentence:
+
+1. Ælect (WORK)
+2. Euripid (PERS)
+3. Herc (WORK)
+4. Wunder (PERS)
+5. Kopileiwv (WORK)
+6. CÎ (SCOPE)
+7. Musgrave (PERS)
+########
+  Sure, I can help you with that! Here's the named entity recognition for the given sentence:
+
+OUTPUT: "<SENTENCE>4410 . Λνγρᾶς μνήματα Τροίας , quæ me nunquam sinent funestæ Trojæ oblivisci . [ <WORK>Wunder</WORK> . ]</SENTENCE>"
+
+Here, "Λνγρᾶς" is a person (PERS), "μνήματα" is a work (WORK), "Τροίας" is a location (LOC), and "quæ me nunquam sinent funestæ Trojæ oblivisci" is a specific portion of work (SCOPE). The bracketed "[ Wunder . ]" is not a named entity.
+########
+  OUTPUT: "<SENTENCE>42ι1 - . 218 . , Καὶ πρὶν μὲν . . . . Αἴἷας .</SENTENCE>"
+
+Here, the named entities are:
+
+* Αἴἷας (PERS)
+
+Note: Αἴἷας is a proper noun and refers to a person.
+########
+  OUTPUT: "<SENTENCE>Scholiaste : Tñç vuxtepunç ἐφόξδον τῶν πολεμίων χαὶ τῶν βελῶν ἀλεξητήριον ὧν ὁ Αἷας .</SENTENCE>"
+
+Named Entities:
+
+* Αἷας (PERS)
+* Tñç (PERS)
+* vuxtepunç (WORK)
+* ἐφόξδον (SCOPE)
+* τῶν πολεμίων (SCOPE)
+* τῶν βελῶν (SCOPE)
+* ἀλεξητήριον (SCOPE)
+########
+  OUTPUT: "<SENTENCE>Ἡοπιὲτε appelle Α ͵ αχ ( Π|αάε , ΥἹΙ , 314 ) : Ἕρκος Ἀχαιῶν .</SENTENCE>"
+
+Named Entities:
+
+* Ἡοπιὲτε (PERS)
+* Α ͵ αχ (WORK)
+* Π|αάε (LOC)
+* ΥἹΙ (LOC)
+* 314 (SCOPE)
+* Ἕρκος Ἀχαιῶν (WORK)
+########
+  Sure, I can help you with that! Here's the named entity recognition for the given sentence:
+
+OUTPUT: "<SENTENCE>4214 . Ἀνεῖται , devotus est , consecratus est . Cf . <PERS>Euripide</PERS> , <WORK>Phéniciennes</WORK> , <SCOPE>947</SCOPE> : OÙtos δὲ πῶλος τῇ δ᾽ ἀνειμένος πόλει ἢ θανὼν πατρῴαν γαῖαν ἐχσώσειεν ἄν . [ <PERS>Wunder</PERS> . ]</SENTENCE>"
+
+Here are the named entities recognized in the sentence:
+
+* Ἀνεῖται (PERS)
+* Euripide (PERS)
+* Phéniciennes (WORK)
+* 947 (SCOPE)
+* Wunder (PERS)
+########
+  OUTPUT: "<SENTENCE>1215 - 1216 . Ἔπέσται , α΄ εγί! . “ - <WORK>EntGT1</WORK> , <PERS>Emminet</PERS> . [ <PERS>Schneidevîu</PERS> . ]</SENTENCE>"
+########
+  Sure, I can help you with that! Here's the named entity recognition for the given sentence:
+
+OUTPUT: "<SENTENCE>4220 . Πλάκα , souvent plaine , ici plateau ( cf . <WORK>Trachiniennes</WORK> , <SCOPE>273</SCOPE> ) ; avec ἄχραν : l ' extrémité du pluteau , du promontoire .</SENTENCE>"
+
+Here are the recognized named entities:
+
+* Πλάκα (LOC)
+* Trachiniennes (WORK)
+* 273 (SCOPE)
+########
+  Sure, I can help you with that! Here's the named entity recognition for the given sentence:
+
+OUTPUT: "<SENTENCE>1224 - 4222 . Tùc ἱερὰς ὅπως προσεί - ποῖμεν "A0Zvac .</SENTENCE>"
+
+Named Entities:
+
+* 1224 (DATE)
+* 4222 (DATE)
+* ὅπως (WORK)
+* προσεί (WORK)
+* ποῖμεν (WORK)
+* A0Zvac (SCOPE)
+########
+  Sure, I can help you with that! Here's the named entity recognition for the given sentence:
+
+OUTPUT: "<SENTENCE>Homère appelle le promontoire Sunium , hien qu ’ éloigné du Pirée d ’ environ trois cent trente stades ( <PERS>Strabon</PERS> , <WORK>livre IX</WORK> , <SCOPE>page 391</SCOPE> ) ou douxe lieues et demie : "Axpoy ’ Afrvéwv ( <WORK>Odyssée</WORK> , <SCOPE>TI</SCOPE> , 278 ) .</SENTENCE>"
+
+Here are the named entities recognized in the sentence:
+
+* <PERS>Homère</PERS>: Person
+* <PERS>Strabon</PERS>: Person
+* <WORK>Odyssée</WORK>: Work
+* <SCOPE>TI</SCOPE>: Specific portion of work (book title)
+* <SCOPE>page 391</SCOPE>: Specific portion of work (page number)
+* <SCOPE>three cent trente stades</SCOPE>: Quantity (distance)
+* <SCOPE>douxe lieues et demie</SCOPE>: Quantity (distance)
+########
+  OUTPUT: "<SENTENCE>Cf . <PERS>Virgile</PERS> , <WORK>Énéide</WORK> , <SCOPE>ITI , 524</SCOPE> : « ÎItallam læto socii clamore salutant . »</SENTENCE>"
+########
+  Sure, I can help you with that! Here's the named entity recognition for the given sentence:
+
+<SENTENCE>Mpocsinoiev , à l ’ optatif , à cause de l ’ l’optatif qui précède , yevoiuav . Cf . Philoctète , 824 : Θυμὸν γένοιτο χειρὶ πληρῶσαϊξζ ποτε ἢ ἵν᾽ αἱ Μυχῆναι yvoiev . Trachiniennes, 955 . [ Schneidewin et Dindorf . ]</SENTENCE>
+
+Here are the named entities identified in the sentence:
+
+* Mpocsinoiev (PERS)
+* Philoctète (PERS)
+* Μυχῆναι (LOC)
+* Trachiniennes (LOC)
+* Schneidewin (PERS)
+* Dindorf (PERS)
+
+Note that "Mpocsinoiev" is a person, "Philoctète" is a person, "Μυχῆναι" is a location, "Trachiniennes" is a location, "Schneidewin" is a person, and "Dindorf" is a person.
+
+I hope this helps! Let me know if you have any further questions.
+########
+  Sure, I can help you with that! Here's the named entity recognition for the given sentence:
+
+OUTPUT: "<SENTENCE>1224 . TôvBe « dicit quia jam conspici«tur. » ( <PERS>Dindorf</PERS> )</SENTENCE>"
+
+In this sentence, "Dindorf" is a person (PERS) named entity.
+########
+  Sure, I can help you with that! Here's the named entity recognition for the given sentence:
+
+<SENTENCE>4 , 356 . Exntôc , male ominatus . — "Exdûcwv atéux . Cf . Isocrate , Panatk . 06 : Ἐπελήλυθέ μοι τὸ παρρησιάζεσθαι καὶ λέλυχα τὸ crôpua . [ Schneidewin . ]</SENTENCE>
+
+Named Entities:
+
+* Exntôc (PERS)
+* Isocrate (PERS)
+* Panatk (WORK)
+* Ἐπελήλυθέ μοι (SCOPE)
+* παρρησιάζεσθαι (SCOPE)
+* λέλυχα (SCOPE)
+* crôpua (OBJECT)
+* Schneidewin (PERS)
+
+Note: The named entities recognized are based on the given sentence and the context provided. The named entities may change depending on the context and the specific task requirements.
+########
+  OUTPUT: "<SENTENCE>lon Wander : « Revereor corpus Ajacis « mortui , quod virtus , qua ille vives emi«puit, plus apod me valet , quam odium , « quo eum persecutus sum , quum in vivis « erat , »</SENTENCE>"
+
+Named Entities:
+
+* lon Wander (PERS)
+* Ajacis (PERS)
+* virtus (WORK)
+* odium (WORK)
+* persecutus (SCOPE)
+* in vivis (SCOPE)
+########
+  OUTPUT: "<SENTENCE>Selon Schneidewin : TIodù xçeisσων τῆς ἔχθρας ἐμοὶ ἢ ἀρετή ἐστιν ( <SCOPE>εί ͵ 4834</SCOPE> ) : πολύ et non x ) éoy , ajoute le même , parce que wx@ implique déjà comparaison ,</SENTENCE>"
+
+Here, the named entities recognized are:
+
+* Schneidewin (PERS)
+* TIodù (WORK)
+* ἔχθρας (WORK)
+* ἀρετή (WORK)
+* εί ͵ 4834 (SCOPE)
+* wx@ (SCOPE)
+########
+  Here's the named entity recognition for the given sentence:
+
+* 1388: <SCOPE>EuxAnxto</SCOPE>
+* idem valet quod: <WORK>ἄστατος</WORK>, <WORK>εὐμετάδολος</WORK>, <WORK>πὲ</WORK>
+* Hesychius et Eustathius: <PERS>Hesychius</PERS>, <PERS>Eustathius</PERS>
+* pag. 4886, 5. 40: <SCOPE>4886</SCOPE>, <SCOPE>5</SCOPE>, <SCOPE>40</SCOPE>
+* interpre - tantur: <WORK>interpre</WORK>, <WORK>tantur</WORK>
+* Plato, Corg.: <PERS>Plato</PERS>, <WORK>Corg</WORK>.
+* pag. 482 À: <SCOPE>482</SCOPE>, <SCOPE>À</SCOPE>
+* Ἡ φιλοσοφία τῶν ἄλλων καιδιχῶν πολὺ ἦττὸν ἔμπληχτος: <WORK>φιλοσοφία</WORK>, <WORK>καιδιχῶν</WORK>, <WORK>πολὺ</WORK>, <WORK>ἦττὸν</WORK>, <WORK>ἔμπληχτος</WORK>
+
+Note that some of the named entities in the sentence are not explicitly marked, such as "Plato" and "Corg", which are mentioned as parts of a larger work. Also, "φιλοσοφία" is recognized as a work, but it could also be considered a concept or a field of study.
+########
+  Sure, I can help you with that! Here's the named entity recognition for the given sentence:
+
+OUTPUT: "<SENTENCE>Plutarch . , <WORK>Vita Eumenis</WORK> , « pag . 684 Ε : Ἔμπληχτος ὧν καὶ φορᾶς « μεστὸς &Gcbaiou . » [ <PERS>Dindorf</PERS> ]</SENTENCE>"
+
+Here, I have identified the following named entities:
+
+* Plutarch (<PERS>Plutarch</PERS>): A person.
+* Vita Eumenis (<WORK>Vita Eumenis</WORK>): A work.
+* Dindorf (<PERS>Dindorf</PERS>): A person.
+
+I hope this helps! Let me know if you have any further questions or if you'd like me to recognize named entities in any other sentences.
+########
+  Sure, I can help you with that! Here's the named entity recognition for the given sentence:
+
+OUTPUT: "<SENTENCE>Passow explique cette acception assez rare par l ’ a - l’analogie de ἔμπληχτος avec <WORK>dubpévrntoc</WORK> ,</SENTENCE>"
+
+In this sentence, the named entities are:
+
+* Passow (PERS)
+* ἔμπληχτος (WORK)
+* dubpévrntoc (WORK)
+########
+  Sure, I can help you with that! Here's the output for the given input:
+
+OUTPUT: "<SENTENCE>— Bporüv fait pléonasme , venant après φῶτες . ΟἹ , <PERS>OEdipe</PERS> à Colone , 284 : Φωτὸς &vociou Bporäv ( si la leçon da manuserit doit être conservée ) .</SENTENCE>"
+
+Here's a breakdown of the named entities recognized in the input sentence:
+
+* Bporüv (PERS)
+* OEdipe (PERS)
+* Colone (LOC)
+* Φωτὸς (WORK)
+* Bporäv (WORK)
+* la leçon da manuserit (SCOPE)
+########
+  Okay, I'll do my best to identify and classify the named entities in the sentence you provided:
+
+OUTPUT: "<SENTENCE>13659 - 4360 . H xépra . … . elloug . <PERS>Ulysse</PERS> paraît faire allusion à l’ amertume des peroles que vient de prononcer <PERS>À gamemnon</PERS> ; <PERS>Agamemnon</PERS> répond comme si <PERS>Ulysse</PERS> avait eu en vue l’ amertume de ses propres remontrances, 4866 . ’ <WORK>EvOaë</WORK> ’ <PERS>Tlouet</PERS> , j ' en arriverai là , c ' est - à - dire , je mourrai , . <PERS>Dindorf</PERS> : Kai ᾿ αὑτὸς ἴξομαι πρὸς τὸ θάπτειν αὐτόν .</SENTENCE>"
+
+Here's a breakdown of the named entities I identified:
+
+* <PERS>Ulysse</PERS> (person)
+* <PERS>Agamemnon</PERS> (person)
+* <PERS>Tlouet</PERS> (person)
+* <WORK>EvOaë</WORK> (work)
+* <PERS>Dindorf</PERS> (person)
+
+I hope this helps! Let me know if you have any questions or need further assistance.
+########
+  OUTPUT: "<SENTENCE>4966 . Ἧ πάνθ᾽ ὅμοια . . . . πονεῖ , διε <SCOPE>tout ce qu ’ il fait</SCOPE> , <SCOPE>tout bomme</SCOPE> a en vue <SCOPE>son propre intérêt</SCOPE> .</SENTENCE>"
+########
+  Sure, I can help you with that! Here's the named entity recognition for the given sentence:
+
+<SENTENCE>"Ojuoux mous paraît, ainsi qu'à Botbe et à Reisig, équivaloir ici à ὁμοίως . Οἵ . Eschyle, Eum . 240 : "Opoia χέρσον καὶ θάλασσαν ἐχπερῶν .</SENTENCE>"
+
+* Ojuoux: PERS
+* Botbe: PERS
+* Reisig: PERS
+* Eschyle: PERS
+* Eum: WORK
+* ὁμοίως: WORK
+* Opoia: LOC
+* χέρσον: OBJECT
+* θάλασσαν: LOC
+* ἐχπερῶν: WORK
+
+Note that some of the named entities in the sentence are not explicitly mentioned, but can be inferred from the context. For example, "Eum" is a work by Eschyle, and "ὁμοίως" is a word or phrase that means "similarly" or "likewise".
+########
+  OUTPUT: "<SENTENCE>Le plupart des commentateurs modernes joignent Euoux abrés : moribue suis Où ingenio sue consentanea ,</SENTENCE>"
+
+Named Entities:
+
+* Euoux (PERS)
+* moribue (WORK)
+* ingenio (SCOPE)
+* sue (SCOPE)
+* consentanea (SCOPE)
+########
+I've process 188 phrases!

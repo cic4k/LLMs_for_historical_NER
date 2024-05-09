@@ -1,0 +1,805 @@
+ <SENTENCE><HumanProd>G R E E F E</HumanProd>. 1 .</SENTENCE>
+########
+ <SENTENCE>Le public est averti que <pers>Charlotte</pers> , <pers>née Bourgoin</pers> , <pers>femme - de Joseph Digiez</pers> , et <pers>Maurice Bourgoin</pers> , <humanprod>enfant mineur</humanprod> représenté par le <pers>sieur Jaques Charles Gicot</pers> son <pers>curateur</pers> , ont été admis par <time>arrêt du Conseil d ' Etat du 5 décembre 1797</time> , à solliciter une <humanprod>renonciation générale et absolue</humanprod> aux <humanprod>biens et aux dettes présentes et futures</humanprod> de <pers>Jean - Baptiste Bourgoin</pers> leur <pers>pe ' re</pers> , et qu ' en conséquence , les <humanprod>susdits enfans</humanprod> , duement assistés et autorisés , se présenteront par - devant <loc>la noble justice du Landeron</loc> _ , le <time>mercredi 17 janvier courant</time> , pour y porter la prédite <humanprod>renonciation</humanprod> ; assignant péremptoirement tous ceux qui estimeraient être ' fondés à s ' y opposer , à <loc>comparcutre ce jour - là en dite justice</loc> , pour hure va _ ^ pir leurs droits et alléguer leurs moyens d ' <humanprod>opposW _ | _ priS</humanprod></time> , sou 3 peine ' de forclusion .</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>X . En vertu d'un gracieux arrêt du <org>Gouvernement</org> en date du <time>3 octobre</time> , et ensuite de la direction donnée le <time>35 novembre</time> dernier .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>par l' <org>honorable cour dé justice du Val - de - Travers</org> , : le <pers>sieur Daniel Meuron</pers> , <humanprod>maïUe charpentier</humanprod> , <loc>bourgeois de Neuchatel</loc> , en sa qualité de tuteur juridiquement établi aux .</SENTENCE>"
+########
+ <SENTENCE>quatre enfants en bas âge de <pers>Frédéric - Henri Lequin de Fleurier</pers> et de <pers>Marie - Louise Meuron</pers> , qui sont nommément , ' Jouas Frédéric , Auguste , Alexandre et Louise - Rosalio Lequin , fait savoir qu ' il se présentera en dite justice le samedi <time>30 janvier</time> courant , pour y solliciter en faveur de ses susdits pupilles , une renonciation formelle et juridique aux biens et dettes présents et * futurs dudit <pers>Frédéric Henri Lequin</pers> leur père .</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>En conséquence de quoi tous ceux qui pourraient opposer à ladite renonciation , sont cités péremptoirement à se présenter en justice dudit <loc>Val de - Travers</loc> 1 © dit 30 janvier cornant , _ poar y _ seuieuir leurs durits , ( « 14 s pain » « la forclusion .</SENTENCE>"
+########
+ <SENTENCE>AVIS DIVERS.</SENTENCE>
+
+In this sentence, there are no named entities to identify and classify.
+########
+ OUTPUT: "<SENTENCE>1 .</SENTENCE>"
+
+There are no named entities in the provided sentence.
+########
+ INPUT: "<SENTENCE>Les circonstances ttu moment ont engage le Magistrat rie .</SENTENCE>"
+OUTPUT: "<SENTENCE>Les <time>ttu moment</time> ont engage le <org>Magistrat rie</org> .</SENTENCE>"
+
+Note: I made an assumption that "ttu moment" refers to a time period and "Magistrat rie" refers to an organization, as the provided context does not contain any specific named entities that can be classified into the given types.
+########
+ <SENTENCE>Neuchatel à renvoyer le tirage de <humanprod>ia première classe dix ' neuvième Loterie</humanprod> à une époque plus favorable , ce dont on aura soin d ' informer le public par des bulletins impri ' mes qui seront délivrés par les <org>Collecteurs</org> à tous les intéressés .</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>g</SENTENCE>"
+
+Explanation:
+The provided input does not contain any named entities that can be classified into the given types (person, organization, human production, time period, and location). Therefore, the output does not contain any classified named entities.
+########
+ <SENTENCE>' Tous les <pers>créanciers</pers> à la masse des biens du nommé <pers>'Jean ' </pers><pers>'Fréderic </pers>/ <pers>Stnuffer</pers> , <pers>meunier</pers> aux moulins de la <loc>Prise</loc> , sont avisés . que M . le <pers>maire</pers> a fixé la journée pour procéder aux <humanprod>collocatlons</humanprod> au <time>vendredi 16 février courant</time> , en conséquence de quoi ils sont cités à se présenter ce jour là à neuf heures <loc>"dû</loc> matin</sentence> dans <loc>'l ' hôtel - de - ville</loc> , .</sentence>
+########
+ OUTPUT: "<SENTENCE>, .</SENTENCE>"
+
+In the provided input, there are no named entities to identify and classify.
+########
+ OUTPUT: "<SENTENCE>, 37 ' Les ' <humanprod>sœurs Gendre</humanprod> ayant entiepriE, l'établissement en pâtisserie que tenoit feu Mlle .</SENTENCE>"
+
+In this sentence, "sœurs Gendre" is identified as a human production (HumanProd) because it refers to a group of sisters who have undertaken a business in pastry-making.
+########
+ OUTPUT: "<SENTENCE>Eckard <loc>à la rue des Moulins</loc> , avisent le public qu' elles le tiendront sur le même pied que ladite <pers>demoiselle Eckard</pers> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Elles osent se flatter que les <pers>p ersonnes</pers> qui voudront bien les honorer de leur confiance auront lieu d ' être satisfaites à tous égards .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>.</SENTENCE>"
+
+There are no named entities in the given sentence.
+########
+ OUTPUT: "<SENTENCE>4 . , <pers>Un bourgeois</pers> de cette ville , connu avantageusement par ses bonnes i mœurs et conduite , desireroit nouver une petite auberge a louer , ou un emplacement propre à un vendage de vin ; ou encore ' un jardin avec logement , où ! l ' on pût tenir un quilier .</SENTENCE>"
+########
+ <SENTENCE>S ' adresser au <org>bureau d ' avis</org> .</SENTENCE>
+########
+ INPUT: "<SENTENCE>' ;</SENTENCE>"
+OUTPUT: "<SENTENCE>' ;</SENTENCE>"
+
+(No named entities were found in the provided sentence.)
+########
+ OUTPUT: "<SENTENCE>5 . <time>Mercredi 7 du courant</time> , on a trouvé un paquet de toile sur lé Crêt .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>La <PERSON>personne qui l'a perdu</PERSON> apprendra au bureau d'<HumanProd>avis</HumanProd> le nom de celle - qui l'a trouvé.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>,</SENTENCE>"
+
+In the provided input, there are no named entities to identify and classify.
+########
+ OUTPUT: "<SENTENCE>6 . Oh demande une <humanprod>fille</humanprod> qui sache fane un bon <humanprod>ordinaire</humanprod> et soigner des <humanprod>enfans</humanprod> , qui aye bonne conduite .</SENTENCE>"
+########
+ <SENTENCE>Elle pourrait ' entrer en place dés à présent .</SENTENCE>
+
+In the provided sentence, there are no named entities that can be classified into the categories of person (PERSON), organization (ORGANIZATION), human production (HumanProd), time period (TIME), and location (LOC). Therefore, there is no output to display.
+########
+ OUTPUT: "<SENTENCE>S ' adr .</SENTENCE>"
+
+There are no named entities in the provided sentence.
+########
+ <SENTENCE>au <org>bureau d ' avis</org> .</SENTENCE>
+
+In this sentence, "bureau d'avis" is identified as an organization (ORGANISATION) because it refers to a bureau or office that provides advice or opinions.
+########
+ <SENTENCE>7. ' <time>Far due permission</time> , vendredi 17 du courant , à 9 heures du matin , on exposera en montes dans l'<loc>antï - chambre de lé salle du Concert</loc> , divers meubles , la plupart en bon état , tels que ' <humanprod>buffets</humanprod> , <humanprod>lits</humanprod> , <humanprod>matelas</humanprod> , <humanprod>batterie de cuisine</humanprod> , <humanprod>vieux étain</humanprod> , etc . 8. </SENTENCE>
+########
+ OUTPUT: "<SENTENCE>Le lendemain de la <time>prestation des sermens</time> à <loc>Neuchatel</loc> i on a trouvé un <humanprod>chien d ' arrêt</humanprod> .</SENTENCE>"
+
+In this sentence, the named entities are identified and classified as follows:
+- "Le lendemain de la" is a time period (TIME) but it is not a named entity, so it is left as it is.
+- "prestation des sermens" is a time period (TIME) and it refers to a ceremony or event, so it is classified as a human production (HumanProd).
+- "Neuchatel" is a location (LOC) and it is a city in Switzerland.
+- "i" is a pronoun and it is not a named entity, so it is left as it is.
+- "on" is a pronoun and it is not a named entity, so it is left as it is.
+- "a trouvé" is a verb and it is not a named entity, so it is left as it is.
+- "un chien d ' arrêt" is a human production (HumanProd) and it refers to a type of dog used for hunting.
+########
+ OUTPUT: "<SENTENCE>La <pers>personne</pers> à qui il appartient peut le réclamer chez <pers>Jean - Frédéric Borel</pers> , <humanprod>maître charpentier</humanprod> à <loc>Couve t</loc> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>' <unk> , g .</unk></SENTENCE>"
+
+(Note: The input sentence does not contain any clear named entities to classify into the given types.)
+########
+ OUTPUT: "<SENTENCE>Dans une <loc>maison</loc> de cette <loc>ville</loc> on demande une <humanprod>jeune</humanprod> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>fille de bonne conduite et de bonnes mœurs , pour soigner un enfant.</SENTENCE>"
+OUTPUT: "<SENTENCE>fille de bonne conduite et de bonnes mœurs , pour soigner un enfant.</SENTENCE>"
+
+There are no named entities present in the given sentence that can be classified into the categories of person (PERSON), organization (ORGANIZATION), human production (HumanProd), time period (TIME), and location (LOC).
+########
+ OUTPUT: "<SENTENCE>S ' adr .</SENTENCE>"
+
+There are no named entities in the provided sentence.
+########
+ "<SENTENCE>au <org>bureau d ' avis</org> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>10 . <pers>M . Rougemont</pers> , commissaire général , demande à acheter des bosses à char et des bollers de diverses grandeurs .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>11 . <pers>M . Fa vre</pers> , négociant sur la place , a reçu e j .</SENTENCE>"
+
+In this sentence, "M. Fa vre" is identified as a person (PERSON) because it refers to an individual, a négociant (a merchant or broker) in this context.
+########
+ INPUT: "<SENTENCE>commission de la graine</SENTENCE>"
+OUTPUT: "<SENTENCE>commission de la graine</SENTENCE>"
+
+(Note: I couldn't find any specific named entities in the provided sentence. A "commission" is a general term and "graine" is a French word for "seed". Without more context, it's difficult to determine if they refer to specific entities that can be classified as person, organization, human production, time period, or location.)
+########
+ <SENTENCE>tre lie nouvelle, qu' il offre en gros et en détail - à un prix modique. </SENTENCE>
+
+In this sentence, there are no named entities that can be classified into the categories of person (PERSON), organization (ORGANIZATION), human production (HumanProd), time period (TIME), and location (LOC). Therefore, there are no modifications to be made to the input sentence.
+########
+ "<SENTENCE>£ 2. Le <pers>sieur Quartier</pers> _, <org>instituteur</org>, s'étant décidé d'aller passer tout au moins l'été prochain à la campagne, invite les <humanprod>personnes</humanprod> qui voudraient se pourvoir chez lui d'encre et .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>de plumes taillées , de s ' annoncer au plutôt .</SENTENCE>"
+OUTPUT: "<SENTENCE>de <humanprod>plumes taillées</humanprod> , de s ' annoncer au plutôt .</SENTENCE>"
+########
+ <SENTENCE>Il lui reste quelques papiers, tant de <humanprod>poste</humanprod> qu'<humanprod>autres</humanprod> de <humanprod>différents formats</humanprod>, dont il veut se débarrasser, et qu'il cédera pendant la foire au dessous du prix <humanprod>coûtant</humanprod>. </SENTENCE>
+########
+ OUTPUT: "<SENTENCE>Î 3 . On demande pour le <time>commencement de mars</time> , une <humanprod>servante</humanprod> qui sache coudre et travailler dans un <loc>jardin</loc> .</SENTENCE>"
+
+In this sentence, the named entities are identified as follows:
+- "mars" is classified as a time period (TIME)
+- "servante" is classified as a human production (HumanProd)
+- "jardin" is classified as a location (LOC)
+########
+ OUTPUT: "<SENTENCE>S ' adr .</SENTENCE>"
+
+There are no named entities in the provided sentence.
+########
+ <SENTENCE>au <org>bureau d ' avis</org> .</SENTENCE>
+
+In this sentence, "bureau d'avis" is identified as an organization (ORGANISATION) because it refers to a bureau or office that provides advice or opinions.
+########
+ OUTPUT: "<SENTENCE><time>14</time></SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Le « 5 <time>janvier</time> dernier , on a trouvé de <loc>Neuchatel</loc> à <loc>Chaumont</loc> , un petit chien noir .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>La <pers>personne</pers> à laquelle il appartient peut <humprod>ie réclamer</humprod> <per>chtz Jean Pierre Baxdet</per> .</SENTENCE>"
+
+(Note: I assumed "chtz" is a typo for "chez". Also, I couldn't find any specific named entities in "ie réclamer" and "chtz Jean Pierre Baxdet", so I classified them as general human production and location respectively.)
+########
+ INPUT: "<SENTENCE>Le même est toujours assorti de toutes sortes de boisselages, seilles à tau, boues à tonneaux et coupons pour mettre iapâteau four.</SENTENCE>"
+OUTPUT: "<SENTENCE>Le même est toujours assorti de toutes sortes de <HumanProd>boisselages, seilles à tau, boues à tonneaux et coupons</HumanProd> pour mettre iapâteau four.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>i 5 . <org>La noble Compagnie des Marchands de Neuchatel</org> offre à prête / une somme de L . 1400 d ' ici .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Les personnes à qui elle pourrait convenir, peuvent s' adresser à <pers>M . Henri Gigaud</pers> , membre du petit <org>Conseti</org> ; son <pers>procureur</pers> , soit à <pers>M . Ghatenay</pers> du grand <org>Conseil</org> , son <pers>receveur</pers> , ou à <pers>M . le greffier Péter</pers> , son <pers>secrétaire</pers> , en présentant leurs <humanprod>sûretés</humanprod> .</SENTENCE>"
+########
+ I'm glad you find me helpful as a named entity recognition system! However, I notice that the text you've provided doesn't contain many named entities that fit the categories you've given. Here's the output with the named entities identified:
+
+<SENTENCE>m <org>_ ' ¦ ' — </org> . . ' i - i ' i ' — ' i m <org>Nota</org> . Les Avis à insérer dans cette Feuille, qui ne seront pas remis au Bureau le Mardi matin, à neuf - heures au plus tard, seront renvoyés irrévocablement à l'<org>ordinaire</org> prochain _ . <TIME>ARTICLES OFFICIELS</TIME> . k . Le public est informé, qu'<org>au bénéfice d'un gracieux arrêt de la Seigneurie</org>, " et d'une sentence de direction de l'<org>honorable Justice de la Chaux - de - Fonds</org>, le tuteur et les parens des enfans ' de Henri Jean - Maire, se présenteront en cour de Justice de la dite Chaùx - de - Fonds, le Mardi <TIME>_ s _ </TIME></SENTENCE>
+
+In this text, I've identified the following named entities:
+
+* "_ ' ¦ ' — ": This is an organization, but it's not a named entity that I recognize.
+* "Nota": This is an organization, but it's not a named entity that I recognize.
+* "ordinaire": This is a human production, but it's not a named entity that I recognize.
+* "ARTICLES OFFICIELS": This is a time period, but it's not a named entity that I recognize.
+* "Seigneurie": This is an organization, but it's not a named entity that I recognize.
+* "Chaux - de - Fonds": This is a location.
+* "_ s _ ": This is a time period, but it's not a named entity that I recognize.
+########
+ OUTPUT: "<SENTENCE>o .</SENTENCE>"
+
+There are no named entities in the provided sentence.
+########
+ OUTPUT: "<SENTENCE>Septembre <time>courant</time> , au plaid ordinaire , aux lieu et heure accoutumés , pour postuler au nom des enfans nés et à naître du dit <pers>Henri Jean - Maire</pers> et de <pers>Reine née Robert - Nicoud</pers> , mari et femme , une renonciation formelle et juridique aux biens et dettes présens et futurs , de leurs dits père et mère .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>C ' est pourquoi tous les <humanprod>créanciers</humanprod> de ces derniers qui croiront .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>avoir des moyens d ' opposition à apporter à la dite demande eh renonciation , pourront s ' y présenter et Faire valoir leurs droits , ainsi et comme mieux leur conviendra , sous peine de forclusion .</SENTENCE>"
+OUTPUT: "<SENTENCE>avoir des moyens d ' opposition à apporter à la dite <loc>demande eh renonciation</loc> , pourront s ' y présenter et Faire valoir leurs droits , ainsi et comme mieux leur conviendra , sous peine de forclusion .</SENTENCE>"
+
+In this sentence, there are no clear named entities that can be classified into the provided categories (person, organization, human production, time period, and location). Therefore, the output remains unchanged, except for the addition of the location tags around the phrase "demande eh renonciation" to demonstrate the automatic entity recognition process. However, it is important to note that "demande eh renonciation" is not a named entity in the traditional sense, and the location tag is added only to show the NER system's output.
+########
+ OUTPUT: "<SENTENCE><loc>Greffe de la Chaux - de Fonds</loc>.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>jft.</SENTENCE>"
+
+Explanation:
+
+In the provided input, "jft.", there are no named entities that can be classified into the given types: person (PERSON), organization (ORGANIZATION), human production (HumanProd), time period (TIME), and location (LOC). Therefore, the output remains the same as the input.
+########
+ <SENTENCE>Le <org>Gouvernement</org> ayant concède à <pers>Henriette</pers> , fille de feu le <org>sieur cap itaine - lieutenant Jaques Henri Boûrquin</org> , veuve de <pers>Jacob</pers> fils de <pers>Jaques Guye</pers> , des <loc>Verrières</loc> _ , résidante et paroissienne de la <loc>Cote - aux - Fées</loc> , de mettre ses biens en <humanprod>décret</humanprod> ; tous , ses <org>sieurs créanciers</org> sont dès là requis de se rencontrer aux dites <loc>Verrières</loc> , au siège de <org>Justice</org> , par - devant <pers>M . Charles Cousandièr</pers> , " <org>maire</org> du dit lieu , et , les <org>sieurs Egaleurs</org> par lui nommés , le <time>Lundi Cinq Septembre</time> prochain , munis de leurs _ <humanprod>tiires</humanprod> et prétentions , afin d ' être inscrits et ensuite colloques selon leurs " <humanprod>rangs</humanprod> " et <humanprod>dafëS 7 </humanprod>" "<humanprod>" S 0 Trs - "</humanprod>" <humanprod>" peme ut </humanprod> ; <humanprod>forclusion</humanprod> .</SENTENCE>
+
+In this sentence, the named entities are classified as follows:
+- Henriette, Jaques Henri Boûrquin, Jacob, Jaques Guye, Charles Cousandièr: PERSON
+- Gouvernement, sieur cap itaine - lieutenant, sieurs créanciers, maire, sieurs Egaleurs: ORGANISATION
+- Verrières, Cote - aux - Fées: LOCATION
+- 1789, 5 Septembre: TIME
+- décret, tiires, prétentions, rangs, dafëS 7, peme ut, forclusion: HumanProd
+########
+ OUTPUT: "<SENTENCE>Donne par ordonnance au greffe des <loc>Verrières</loc> , le <time>15 Août 1 S 08</time> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>- <pers>H .</pers></SENTENCE>"
+
+(Note: I am assuming "H." is an abbreviated name of a person.)
+########
+ OUTPUT: "<SENTENCE><PERSON>F.</PERSON></SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><pers>JEAHJAQUET</pers> , greffier.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>_ £ .</SENTENCE>"
+
+(I'm sorry for the confusion, but the input sentence does not contain any named entities to identify and classify.)
+########
+ OUTPUT: "<SENTENCE>Le public est informé , que le <pers>sieur Charles - Henri vêpre</pers> , et la <pers>demoiselle Julie - Valérie Bonvêpre</pers> , fils et fille de feu M . <pers>Charles - Guillaume Bonvêpre</pers> , <org>membre du Grand - Conseil</org> et <loc>hôpitalier</loc> , et de la <pers>dame Susanne Petitpierre</pers> , sa veuve , <loc>bourgeoise de Neuchatel</loc> , ont ¦ été admis par arrêt du <org>Conseil d ' Etat</org> en date du <time>5 Juil -</time> .</SENTENCE>"
+########
+ <SENTENCE>let dernier, à postuler une renonciation formelle et ridique aux "<humanprod>biens et dettes présentes et futures</humanprod>" de leurs dits père et mère .</SENTENCE>
+########
+ <SENTENCE>En conséquence ils se présenteront par - devant la <loc>noble Cour - de - ' Justice de Neuchatel</loc> , qui sera assemblée dans l'<loc>hôtel - de cette ville</loc> , le <time>Vendredi S 3 Septembre courant</time> , à l'<time>heure ordinaire du plaid</time> , jour auquel tous ceux qui pourraient opposer à la dite demande en renonciation, sont spntjpereemptoiiemment assignés à se présenter en dite Justice , pour y soutenir leurs droits , à peine de forclusion . <loc>Greffe de Neuchatel</loc> . <loc>Engolon</loc> , ayant .</SENTENCE>
+########
+ INPUT: "<SENTENCE>été déclaré qjacente à la <loc>Seigneurie</loc> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>liquidation en a été ordonnée et fixée au <time>Vendredi 8 Septemb</time>.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>< e courant .</SENTENCE>"
+
+There are no named entities in the provided sentence.
+########
+ "<SENTENCE>Et <pers>Henri Favre</pers>, de <loc>Villard</loc>, et sa femme <pers>Jeanne - Marie née Morel</pers>, veuve de <pers>Jean - Daniel Favre</pers>, ayant ' obtenu la discussion de leurs biens, pour satisfaire à leurs dettes, qui a aussi été _ firfe au Mercredi 7 du dit mois : Tous créanciers quelcçtiqnes de ces deux masses, compris ceux de celle à la _ stfsdite veuve du chef de son premier mari, sont requis % è se présenter _ Jes jours sus - indiqués, devant M . le Maire de <loc>Valangin</loc>, et M . les égaleurs nommés, vers les huit heures du matin, afin de faire valoir leurs prétentions, et se colloqùer selon droit, _ BOOB peine de forclusion.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><loc>Greffe de Valangin</loc>. </SENTENCE>"
+########
+ <SENTENCE>5. <pers>Marianne Perrenoud</pers> , de la <loc>Sagne</loc> , fille de feu <pers>Jacob Perrenoud</pers> , et de <pers>Judith</pers> née <pers>Jaquet</pers> , morte le <time>27 Juillet</time> , c - t enterrée le 29 du même mois à _ .</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>Neuchatel, <time>ayant par son testament du 7 Août 1798</time>, appelé comme héritiers de ses biens, ses parens issus de germains, en disant : „Je crée et institue pour mes seuls et uniques „ héritiers.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>en tous mes biens, <humanprod>mes cousins et cousines</humanprod> „ remués de germains, sans exception, ne les connois - „ sant pas tous par leurs noms, à la charge dé liur part „ d ' acquitter, etc. etc. </SENTENCE>"
+########
+ "<SENTENCE>&lt;TIME&gt;Vendredi 9 Septembre courant&lt;/TIME&gt; , est le jour fatal sur lequel la mise en possession et investiture des biens de la &lt;humanprod&gt;&quot; défunte &quot;&lt;/humanprod&gt;, doivent être réclamées devant &lt;loc&gt;i noble Cour de Justice&lt;/loc&gt; , assemblée dans &lt;loc&gt;l' hôtel - dê ville&lt;/loc&gt; , par ceux des dits païens qui sont au pays , et qui estimeront avoir des droits à faire valoir .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>La présente <humprod>information</humprod> ainsi donnée sans conséquence , vu la clause extraordinaire ci - dessus , <humprod>_ exiraite du testament de la défunte</humprod> , qui est déposé en original au <loc>' grefle de Neuchatel </loc> , sera inséré trois fois dans la présente , et publié au prône de l ' é glise de la <loc>_ Sagoe</loc> , juridiction de la défunte .</SENTENCE>"
+
+In this sentence, the named entities are classified as follows:
+- "information" and "exiraite" are classified as human production (HumanProd) as they refer to documents or written records.
+- "testament de la défunte" is classified as a time period (TIME) as it refers to a document that was created at a specific point in time.
+- "grefle de Neuchatel" and "Sagoe" are classified as locations (LOC) as they refer to specific places.
+- The proper nouns "Neuchatel" and "Sagoe" are also classified as locations (LOC).
+
+Note that the named entities "exiraite" and "testament de la défunte" are related to each other, as "exiraite" is a clause or provision in the "testament de la défunte". However, they are classified separately as they refer to different concepts. Similarly, the named entities "grefle de Neuchatel" and "Neuchatel" are related, as the former is a specific location within the latter. However, they are also classified separately as they refer to different concepts.
+
+I hope this helps! Let me know if you have any questions or if you would like me to classify any other named entities in the sentence.
+########
+ <SENTENCE><LOC>MONTES</LOC>.<SENTENCE>
+########
+ OUTPUT: "<SENTENCE>6 . La <org>Commission du bénéfice d'inventaire</org> de la <humanprod>'succès » ' _ sion</humanprod> dû voitnrier <pers>Louis Floquet</pers> , donne avis par les présentes , que le <time>Mardi 6 Septembre prochain</time> , à neuf heures du matin , sur la place d'<loc>Yverdon</loc> , on <humanprod>_ exposera en vente par voie d'enchère publique et aux conditions qui seront lues</humanprod> , <humanprod>quaire voitures</humanprod> , deux chars-à-bancs , dont l'un est couvert , un grand et fort char de routier , harnois et autres objets de l'attirail de voiturier .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Donné à <loc>Yveidon</loc> , le <time>3 Août 3 * 08</time> . .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>AUBERJOSOIS, <PERSON>président</PERSON>. </SENTENCE>"
+########
+ <SENTENCE><time>25</time>.<SENTENCE>
+########
+ OUTPUT: "<SENTENCE><pers>F . COREVOïT</pers>, greffier.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>7. Par permission obtenue, <pers>M. "les ' Quaire - Ministraux</pers> feront exposer eu montes.</SENTENCE>"
+
+In this sentence, "M. les ' Quaire - Ministraux" is identified as a person (PERSON) because it refers to an individual or group of individuals, which is a named entity type that the system is programmed to recognize.
+########
+ OUTPUT: "<SENTENCE>le <unk>_ ?</unk></SENTENCE>"
+
+In this case, I was unable to identify any named entities in the input sentence. The "<unk>\_?" entity represents an unknown or unclassified entity.
+########
+ INPUT: "<SENTENCE>3 <time>Septembre</time> courant, a 1 issue du plaid, une vigne d'environ deux ouvriers et un quart, compris <loc>1 ancienne ruelle Honhomme</loc> atte - .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>nant , située au <loc>Plan de Serriere</loc> , entre l ' ancien chemin dû dit <loc>Serriere d ' ubère</loc> , le nouveau chemin aboutissant .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>1 au <loc>pont</loc> de .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><pers>Joran</pers>, <pers>la</pers>.</SENTENCE>"
+
+Note: I assume "la" is a person's name in this context, although it is typically a female determiner in French. If it is indeed a determiner, the output should be: "<SENTENCE><pers>Joran</pers>, la.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>vigne de <pers>M . le capitaine Jacobel</pers> de ' vent </SENTENCE>"
+########
+ INPUT: "<SENTENCE>Cette vigne est entourée en grande partie d'un mur, et elle sera exposée en montes, avec sa récolte, et aux conditions qui seront lues avant les dites montes.</SENTENCE>"
+OUTPUT: "<SENTENCE>Cette vigne est entourée en grande partie d'un <humanprod>mur</humanprod>, et elle sera exposée en <time>montes</time>, avec sa récolte, et aux conditions qui seront lues avant les dites <time>montes</time>.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>8 . Ensuite de permission obtenue , on exposera en mon - ' tes publiques, le <time>Vendredi 9 Septembre courant</time>, à dix heures du matin, devant la maison <loc>De Charriera</loc>, au bas du village de <loc>Colombier</loc>, deux caresses, des selles, des harnois, _ coliers de chevaux, et autres objets de ce genre. </SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>. .</SENTENCE>"
+
+There are no named entities in the given sentence, so I did not modify it.
+########
+ OUTPUT: "<SENTENCE>¦ .</SENTENCE>"
+
+There are no named entities in the provided sentence.
+########
+ <SENTENCE>' <org>M . ne Charrière</org> , dans la Juridiction de <loc>Colombier</loc> : i . " une possession dite la <loc>Mairesse</loc> , située entre <loc>Bôle</loc> et <loc>Colombier</loc> , contenant 8 poses 7 perches , garnie d ' arbres fruitiers , avec maison et , fontaine ; 2 .</SENTENCE>
+
+In this sentence, the named entities have been identified and classified as follows:
+- "M . ne Charriere" has been identified as an individual (PERSON), but since the input types do not include PERSON, I have classified it as an ORGANIZATION (ORG).
+- "Colombier" has been identified as a location (LOC) and appears twice in the sentence.
+- "Bôle" has been identified as a location (LOC).
+- The expression "la Mairesse" has been identified as a location (LOC) since it refers to a possession located between Bôle and Colombier.
+
+Note: Named Entity Recognition (NER) can be sensitive to context, and the classifications I provided may not be 100% accurate. In a real-world scenario, additional context and information might be necessary to make more informed decisions about the entities present in the text.
+########
+ OUTPUT: "<SENTENCE>un champ à <loc>Preyla</loc> , contenant environ <humanprod>a poses</humanprod> , <time>3. °</time> deux vignes à <loc>Chatenaya</loc> , plantées en <humanprod>rouge</humanprod> , contenant ensemble <humanprod>18</humanprod>.</SENTENCE>"
+
+In this sentence, the named entities are classified as follows:
+- "Preyla" is classified as a location (LOC).
+- "a poses" is classified as a human production (HumanProd), which refers to a unit of measurement for land area.
+- "3. °" is classified as a time period (TIME), indicating an ordinal number.
+- "Chatenaya" is classified as a location (LOC).
+- "rouge" is classified as a human production (HumanProd), which refers to a type of grape used for winemaking.
+- "18" is classified as a human production (HumanProd), which refers to the number of units of the previous human production (in this case, the number of vines).
+########
+ INPUT: "<SENTENCE>ouvriers.</SENTENCE>"
+OUTPUT: "<SENTENCE><humanprod>ouvriers</humanprod>.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><ENTITY/></SENTENCE>"
+
+Explanation:
+
+The input sentence "To ." does not contain any named entities that can be classified into the given types: person (PERSON), organization (ORGANIZATION), human production (HumanProd), time period (TIME), and location (LOC). Therefore, the output is "<SENTENCE><ENTITY/></SENTENCE>", where "<ENTITY/>" represents the absence of any named entity in the sentence.
+########
+ <SENTENCE>Les <pers>sieurs Jean - David Mauley</pers> , et <pers>Jean Confesse</pers> , <org>justiciers</org> , agissant en qualité de <org>curateurs conjoints</org> de l'<hir>hoirie</hir> de feu <pers>Félix Tinembart</pers> , et <org>dé syndics</org> de là masse de sa discussion , avisent le public , qu'ils exposeront en montes publiques , sous des conditions râbles , en Justice à <loc>Bevaix</loc> , le <time>16 Septembre</time> prochain , à dix heures du matin , une <hum>Superbe maison</hum> édifiée au bas du village de ' ce dernier lieu , sur la route de <loc>Neuchatel</loc> , consistant en trois<hum>Togemens</hum> distincts , une <hum>boulangerie</hum> a plain - pied , une <hum>grange</hum> , une <hum>cave</hum> , une <hum>huiliète</hum> avec les appartenances , verger et jardin y attenant , contenant une <hum>pose</hum> et quart , et où il existe une <hum>plantation</hum> de beaux arbres de plusieurs espèces ; plus .</SENTENCE>
+
+In this sentence, the named entities and their types are identified as follows:
+
+* "sieurs Jean - David Mauley" (PERSON)
+* "Jean Confesse" (PERSON)
+* "justiciers" (ORGANISATION)
+* "curateurs conjoints" (ORGANISATION)
+* "hoirie" (HumanProd)
+* "feu Félix Tinembart" (PERSON)
+* "dé syndics" (ORGANISATION)
+* "Bevaix" (LOCATION)
+* "Septembre" (TIME)
+* "Superbe maison" (HumanProd)
+* "Togemens" (HumanProd)
+* "boulangerie" (HumanProd)
+* "grange" (HumanProd)
+* "cave" (HumanProd)
+* "huiliète" (HumanProd)
+* "verger" (HumanProd)
+* "jardin" (HumanProd)
+* "pose" (HumanProd)
+* "plantation" (HumanProd)
+* "beaux arbres" (HumanProd)
+* "Neuchatel" (LOCATION)
+
+Note that some of the entities identified as "HumanProd" may not be conventional named entities, but they refer to specific objects or concepts that are mentioned in the text.
+########
+ INPUT: "<SENTENCE>et enfin, un superbe balancier avec <humanprod>lès pierres</humanprod> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Les amateurs pourront s ' adresser.</SENTENCE>"
+OUTPUT: "<SENTENCE>Les <humanprod>amateurs</humanprod> pourront s ' adresser.</SENTENCE>"
+########
+ INPUT: "<SENTENCE>avant les montes , pour prendre connaissance .</SENTENCE>"
+OUTPUT: "<SENTENCE>avant les <loc>montes</loc> , pour prendre connaissance .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>sance de tous ces objets , aux prédits sieurs syndics.</SENTENCE>"
+OUTPUT: "<SENTENCE>sance de tous ces objets , <loc>aux prédits sieurs syndics</loc>.</SENTENCE>"
+
+In this example, "prédits sieurs syndics" is identified as a location (LOC) because it refers to a group of people who are in charge of the administration of a French-speaking town or city. However, it is not a common named entity, and the classification may vary depending on the context.
+########
+ <SENTENCE>Donné au greffe de <loc>Bevaix</loc> , le <time>3 Août 1808</time> .</SENTENCE>
+########
+ INPUT: "<SENTENCE>Par ordonnance ' : ' J .</SENTENCE>"
+OUTPUT: "<SENTENCE>Par <ent>ordonnance ' : ' J .</ent></SENTENCE>"
+
+In this sentence, there are no clear named entities that can be classified into the given types: person (PERSON), organisation (ORGANISATION), human production (HumanProd), time period (TIME), and location (LOC). Therefore, I have classified the word "ordonnance" as a general entity (ent) for the sake of completeness.
+########
+ OUTPUT: "<SENTENCE><pers>J.</pers></SENTENCE>"
+
+The input sentence only contains the letter "J" followed by a period, which I have identified as an abbreviated form of a person's name.
+########
+ OUTPUT: "<SENTENCE><PER>PERNET</PER>, greffier.</SENTENCE>"
+
+In this sentence, "PERNET" is identified as a person (PER).
+########
+ INPUT: "<SENTENCE>ON OFFRE A VENDRE .</SENTENCE>"
+OUTPUT: "<SENTENCE>ON OFFRE A VENDRE.</SENTENCE>"
+
+There are no named entities present in the given sentence.
+########
+ OUTPUT: "<SENTENCE><time>IX.</time></SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>M.<pers> Roy </pers> s'étant décidé, à la demande de plusieurs personnes, de vendre par parcelles un <humanprod>laigre d'environ huit bosses vin blanc</humanprod> .</SENTENCE>"
+########
+ <SENTENCE>1802 <time>,( </time>T ' offre au prix de cinq bàiz le pot <prod>en .</prod><SENTENCE>)>
+
+In this sentence, the only named entity is the time period "1802". The rest of the text does not contain any recognizable entities of the specified types.
+########
+ INPUT: "<SENTENCE>en prenant au moins 100 pots ; il en délivrera des échantillons aux amateurs , et recevra leurs souscriptions .</SENTENCE>"
+OUTPUT: "<SENTENCE>en prenant au moins 100 <humanprod>pots</humanprod> ; il en délivrera des échantillons aux amateurs , et recevra leurs souscriptions .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Ce <humanprod>vin</humanprod> ne laisse rien à désirer pour la qualité , mais il laisse au vendeur dès regrets sur la dicité du prix </SENTENCE>"
+
+In this sentence, the named entity "vin" is classified as a human production (HumanProd).
+########
+ <SENTENCE>ARTICLES OFFICIELS.</SENTENCE>
+
+In this sentence, there are no named entities to identify and classify.
+########
+ OUTPUT: "<SENTENCE>Noble et vertueux <pers>César d ' Ivernois</pers> , <org>conseiller d ' Etat</org> et maire de <loc>Colombier</loc> , ayant fixé une nouvelle journée pour reprendre les erremens du décret de la masse de <pers>Samuel Huguenin</pers> , ci - devant boucher en ce lieu ; en conséquence , tous les créanciers de ce dernier sont péremptoirement assignés à se rencontrer dans la <loc>salle de Justice</loc> du dit <loc>Colombier</loc> , le <time>Vendredi ; oJuin courant</time> , dès les huit heures du matin , pour procéder aux collocations , sous peine de forclusion .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><NOMATCH>Parord</NOMATCH>.</SENTENCE>"
+
+The input sentence "Parord." does not contain any named entities that can be classified into the given types: person (PERSON), organization (ORGANIZATION), human production (HumanProd), time period (TIME), and location (LOC). Therefore, the output contains the input sentence with a tag of <NOMATCH> for the unmatched text.
+########
+ OUTPUT: "<SENTENCE><org>F . C ' LtRC</org>, £ ffier.</SENTENCE>"
+
+Explanation:
+
+* "F . C ' LtRC" is classified as an organization (ORGANIZATION) because it appears to be an abbreviation for a company or organization, possibly followed by a title or designation (e.g., "Ltd." or "Inc.").
+* "£ ffier" is not a named entity and is left as is.
+########
+ OUTPUT: "<SENTENCE>Dans le décret des biens de <org>AL Fiançois</org>.</SENTENCE>"
+
+In this example, "AL Fiançois" is classified as an organization (ORGANISATION) because it is a proper name and it is likely to refer to a specific entity, possibly a company or organization. The context does not provide enough information to determine if it is a person or a location, so it is safest to classify it as an organization.
+########
+ OUTPUT: "<SENTENCE>Racle , <pers>de Neuveville</pers> , ci - devant <humanprod>négociant</humanprod> à <loc>Berne</loc> , publié l ' année 1824 , et dont la liquidation <time>dique sur le droit et l ' avoir a eu lieu le 3 1 Août igî</time> _ </SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>, <pers>AlAL Millier</pers> , <org>Sivary père et Comp</org> , de <loc>Fribourg en Suisse</loc> , suivant une obligation avec nantissement , des 7 et 11 Juin 15 - 2 * 4 , ont à réclamer un solde de réclamation admise de L . 32,371 » 2 _ J r .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><org>_ ipes</org>.<SENTENCE>"
+
+INPUT: "<SENTENCE>The meeting will take place at the
+########
+ OUTPUT: "<SENTENCE>Conformément à la <loc>loi i page 30 c du code civil de la ville de Berne</loc> , Al Al . <pers>les notifians</pers> ont demandé d ' être premièrement assignes pour cette somme sur les objets qui leur ont été cédés en nantissement et effectivement livrés , et en oute <time>colloques</time> suivant leur rang , et conformément à la loi , sur des objets de valeur réelle .</SENTENCE>"
+
+Note: I am not completely sure about the entity type for "Al Al". I assumed it to be a person (PERSON), but it could also be an organization (ORGANIZATION) or a human production (HumanProd). The context does not provide enough information to make a definitive classification.
+########
+ OUTPUT: "<SENTENCE>Cependant , n'ayant point été assignés pour cette réclamation , suivant le prescrit de la <time>loi ci-dessus citée</time> , mais sur le restant de la masse des dettes actives en valeur et non-valeur de L . 12,481 , , 4 * ; râpes , pour L . 2947 , , < ; 2 ' / - râpes , et ensuite colloques à la patience pour la somme restante de L . 29,423 „ 72 ' / ; râpes , vu que les biens de la masse 5 e trouvaient absorbés , et leur étant arrivé par-là du tort et préjudice , <loc>MAL les notifians</loc> ont recours à la voie de revision , suivant ce qui est prescrit par la loi 1 ' _ < * , page 316 du susdit code civil .</SENTENCE>"
+
+Note: I made an assumption that "MAL" is a location, but it's not a common one, so it might be an error in the input text.
+########
+ "<SENTENCE>En conséquence, <pers>AlAL</pers> les notifians, ou un chargé de procuration, se présenteront, <time>le 2 Juillet 1828</time>,.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>à l'<org>audience</org> de <pers>Al.</pers> <pers>le juge civil Freudo</pers> ' <pers>nreich</pers> , <org>lieutenant</org> d'<org>Avoyer</org> de la <loc>Préfecture</loc> à <loc>Berne</loc> , à 9 <time>heures</time> du matin , pour demander que , dans le but mentionné , révision leur soit accordée du <org>décret</org> des <org>biens</org> de AI.</SENTENCE>"
+########
+ <SENTENCE>François <pers>Racle</pers>, <loc>de Neuveville</loc>, ci-devant négociant à <loc>Berne</loc>, et absent du pays; d'après cela tous les créanciers qui auraient l'intention de s'opposer à la dite demande en révision, sont formellement invités à se rencontrer à la dire audience, et en cas de non-comparution, tenus de s'en tenir à cet <HumanProd>ÉL</HumanProd>. </SENTENCE>
+########
+ INPUT: "<SENTENCE>Il est important de respecter ce qui est statué by the laws .</SENTENCE>"
+OUTPUT: "<SENTENCE>Il est important de respecter ce qui est statué par les <humanprod>lois</humanprod> .</SENTENCE>"
+########
+ <SENTENCE>Donné sous l'<org>autorisation juri</org> _.</SENTENCE>
+########
+ OUTPUT: "<SENTENCE><unk>tique de Al .</unk></SENTENCE>"
+
+I'm sorry for the confusion, but the provided sentence does not contain any clear named entities that can be classified into the given types: person (PERSON), organization (ORGANIZATION), human production (HumanProd), time period (TIME), and location (LOC). The string "<unk>" is used to represent an unknown or unidentified entity.
+########
+ "<SENTENCE>Freudenreich, <pers>lieutenant d'Avoyer</pers> de la <org>Préfecture de Berne</org>, à <loc>Berne</loc> le <time>30 Avril 1828</time> - Au nom rie a<pers>MM</pers>.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><org>Notifians</org>.<SENTENCE>"
+
+The input sentence "les Notifians." contains one named entity, "Notifians", which is classified as an organization (ORG).
+########
+ OUTPUT: "<SENTENCE>signé <pers>KocH</pers> , avocat.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>De la part de <pers>MM . les Quatre - Ministraux</pers> .</SENTENCE>"
+########
+ OUTPUT: <SENTENCE>, <org>Les bruits</org> alarmants et exagérés qui s'étaient répandus dans le public à l'occasion de divers cas de petite-vérole qui se sont manifestés en cette ville, ayant éveillé l'attention du <loc>Alagistrat</loc> et l'ayant engagé à charger la <org>Commission de santé</org> de faire un examen sérieux et de lui présenter un rapport détaillé des circonstances qui ont occasionné et accompagné l'éruption et la propagation de cette redoutable maladie, il se fait un devoir d'informer le public que le résultat de cet examen est de nature à calmer entièrement les inquiétudes et les craintes que ces bruits avaient fait naître, et à rassurer toutes les personnes qui, éclairées par l'expérience, ont eu jusque-là la prudence de recourir aux effets préservateurs de la <HumanProd>vaccine</HumanProd>, puisqu'il a confirmé et fortifié toujours davantage les preuves depuis longtemps existantes de l'efficacité de la <HumanProd>vaccination</HumanProd>, lorsqu'elle est opérée et suivie par des gens de l'art, contre les atteintes et les dangers de la petite-vérole, et a pleinement justifié qu'aucun de ceux à l'égard desquels il existait la certitude qu'ils avaient subi cette opération salutaire et avaient eu la véritable <HumanProd>vaccine</HumanProd>, ne s'étaient trouvés atteints de la petite-vérole proprement dite, et n'avaient éprouvé de suites fâcheuses de l'éruption varioloïdeque l'expérience a fait reconnaître comme pouvant se manifester dans les individus vaccinés et comme n'étant que légère et sans danger. </SENTENCE>
+
+Please note that I made some assumptions about the entities that were not explicitly mentioned in the provided list. I marked "Les bruits" as an organization, assuming it refers to some sort of group or entity. I also marked "Alagistrat" as a location, assuming it is a specific government office or position in that city. I marked "vaccine" and "vaccination" as human production, assuming they refer to medical products. Lastly, I marked "varioloïde" as a human production, assuming it is a medical term for a symptom or side effect.
+########
+ INPUT: "<SENTENCE>En conséquence, le Alagistrat invite de plus fort les parens à soumettre sans renvoi leurs enfans au seul procédé qui puisse les <humanprod>garantir d'un fléau redouté à si juste titre</humanprod>, et à s'épargner à eux-mêmes les regrets amers que leur négligence ou leur obstination pourraient leur causer dans la suite.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Donné à l'<loc>hôtel - de - ville</loc>, le <time>10 Juin 1828</time>.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><NOMATCH>Parord</NOMATCH>.</SENTENCE>"
+
+The input sentence "Parord." does not contain any named entities that can be classified into the given types: person (PERSON), organization (ORGANIZATION), human production (HumanProd), time period (TIME), and location (LOC). Therefore, the output contains the input sentence with a tag of <NOMATCH> for the unmatched text.
+########
+ INPUT: "<SENTENCE>le secrétaire général et président de la Commission de santé, G .</SENTENCE>"
+OUTPUT: "<SENTENCE>le <pers>secrétaire général</pers> et <pers>président de la Commission de santé</pers>, <pers>G .</pers></SENTENCE>"
+
+In this sentence, "secrétaire général" and "président de la Commission de santé" are classified as PERSON (PERSON) as they refer to positions/roles held by individuals. However, without more context, it is difficult to determine the exact name of the person holding these positions. Therefore, I have used the initial "G." as a placeholder.
+########
+ OUTPUT: "<SENTENCE><PERSON>F.</PERSON></SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><PERSON>GALLOT</PERSON>.<SENTENCE>"
+
+The input "GALLOT." contains a single named entity, "GALLOT", which is a person. Therefore, the output is "<SENTENCE><PERSON>GALLOT</PERSON>.<SENTENCE>".
+########
+ OUTPUT: "<SENTENCE>VENTES PAR <humanprod>VjOlE D ' ENCHÈRES</humanprod> .</SENTENCE>"
+########
+ <SENTENCE>4.</SENTENCE>
+
+In this sentence, there are no named entities to identify and classify.
+########
+ <SENTENCE>L' <org>hoirie</org> titulaire de M<pers> la grand baillive</pers> de <loc>Gingins - Chevilly</loc> née <pers>Pillichody</pers> , fera vendre à l' <time>enchère publique</time> , Le mercredi le 18 <time>Juin</time> prochain et les jours suivants , toutes sortes de meubles , bureaux , conimiodes , miroirs , glaces , lits , batterie de cuisine , beaucoup d' <humprod>autres sortes d' effets mobiliaires</humprod> , et de toutes espèces d' <humprod>ustensiles domestiques et champêtres</humprod> .</SENTENCE>
+########
+ INPUT: "<SENTENCE>Les amateurs sont invités Dmicalement à se trouver à <loc>St.</loc></SENTENCE>"
+
+In this sentence, "St." is identified as a location (LOC).
+########
+ OUTPUT: "<SENTENCE>Jean <time>les jours indiqués</time> , où les mises commenceront à huit heures du matin et dureront jusqu ' au soir .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Donné avec permission du <pers>Seigneur Fischer</pers> , _ giand baillif de <loc>Cerlier</loc> , le 6 <time>Juin igsg</time> - <pers>J - HARTMANN</pers> , notaire.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>î.</SENTENCE>"
+
+Explanation:
+
+The provided input string "<SENTENCE>î .</SENTENCE>" does not contain any named entities that can be classified into the given types: person (PERSON), organisation (ORGANISATION), human production (HumanProd), time period (TIME), and location (LOC). Therefore, the output remains the same as the input.
+########
+ OUTPUT: "<SENTENCE>Ensuite de permission obtenue , il se fera le 27 de ce mois , sur <loc>fa montagne de AL le Comte Louis de Pourtalès</loc> , aux <loc>Ponts</loc> , des mises publiques de plantes de bois .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>, sapins et pesscs , sur pied , la plupart propres pour bois de construction , bardeaux et .</SENTENCE>"
+OUTPUT: "<SENTENCE>, <humanprod>sapins et pesscs</humanprod> , sur pied , la plupart propres pour bois de construction , bardeaux et .</SENTENCE>"
+
+In this sentence, "sapins et pesscs" are being referred to as being suitable for production, so I have classified them as "human production" (HumanProd).
+########
+ OUTPUT: "<SENTENCE>échàlas.</SENTENCE>"
+
+There are no named entities in the provided sentence.
+########
+ OUTPUT: "<SENTENCE>Elles commenceront à <time>huit heures du matin</time> , et auront lieu aux conditions qui seront lues avant leur ouverture .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Les amateurs pourront se trouver rassemblés à l' <loc>auberge du Cerfaux Ponts</loc> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>6 . Ensuite des ordres du <org>Conseil d'Etat</org> , <pers>M. de Aleuron</pers> , <pers>conseiller d'Etat</pers>, faisant les fonctions de <org>Procureur-général</org>, fera <humanprod>exposera l'enchère</humanprod>, le <time>Samedi 14 Juin</time> _ prochain, au <loc>plaid de la Côte à Auvernier</loc>, les deux <humanprod>breuils</humanprod> appartenant à <pers>Sa Alajesté</pers>, situés près du village de <loc>Corcelles</loc> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>L ' <sys>enchère</sys> aura _ Iieû _ ' il ' _ abord par parcelles , puis en bloc : le tout aux conditions qui seront lues avant la dite <sys>enchère</sys> .</SENTENCE>"
+
+In this sentence, the only named entity is "enchère" which falls under the category of "HumanProd". Here's the output:
+
+OUTPUT: "<SENTENCE>L '<sys>enchère</sys>' aura _ Iieû _ ' il ' _ abord par parcelles , puis en bloc : le tout aux conditions qui seront lues avant la dite '<sys>enchère</sys>' .</SENTENCE>"
+########
+ "<SENTENCE>7 . Ensuite des ordres du <org>Gouvernement</org> , <pers>Aîons d ' Ivernois</pers> , <pers>conseiller d ' Etat</pers> et <pers>régisseur de la recette</pers><loc>deFontaine - André</loc> , exposera à l ' enchère , au plaid de <loc>St .</loc></SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Biaise , le <time>Vendredi 13 Juin courant</time> , les deux dîmes en grains de <loc>Voëns</loc> et <loc>Enges</loc> , qui dépendent de cette recette , et cela aux conditions qui seront lues avant l'<humanprod>enchère</humanprod> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>8 . Le public est informé , que le <time>Jeudi 19 Juin courant</time> , à 9 heures du matin , on exposera en vente , dans la maison ci - devant <loc>Liechtenhann</loc> , vis - à - vis du bureau des Postes , divers meubles et ustensiles de cave , entr ' autres un <HumanProd>laigre de 1 ; bosses</HumanProd> , un de 14 , un de 8 et un de 3 <HumanProd>bosses</HumanProd> environ ; deux <HumanProd>pressoirs en bois</HumanProd> , etc .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Les conditions seront favorables aux amateurs.</SENTENCE>"
+OUTPUT: "<SENTENCE>Les conditions seront favorables aux <humanprod>amateurs</humanprod>.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>9. <loc>L' auberge de la Croix - d' or</loc> à <loc>Valangin</loc> sera vendue par enchères publiques, qui auront lieu dans <loc>l' auberge même</loc>, le <time>Lundi 16 Juin courant</time>, à cinq heures précises du soir.</SENTENCE>"
+########
+ INPUT: "<SENTENCE>En attendant les amateurs pourront prendre communication des <humanprod>conditions favorables</humanprod> de cette vente , <org>kîger</org> , qui occupe cette auberge .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>10 . La vente des livres de la <org>Société de lecture</org> se fera le <time>17 Juin</time> , à 4 heures après midi , dans le logement de <loc>St .</loc></SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Jean, <humanprod>maison ci-devant Ostervald</humanprod>, où l'on pourra voir le catalogue, le <time>Lundi</time> et le <time>Jeudi</time> de chaque semaine, de dix heures à midi.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Outre un bon choix de nouveautés dans tous les genres, on y trouvera plusieurs collections de <humanprod>Journaux littéraires</humanprod>, entre autres <humanprod>le Globe</humanprod> et <humanprod>la Revue britannique</humanprod>.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Les <humanprod>livres</humanprod> seront vendus au plus offrant, à <quantity>très - bas prix</quantity>, la <org>Société</org> étant décidée à s'en défaire.</SENTENCE>"
+########
+ INPUT: "<SENTENCE>ON OFFRE A VENDRE .</SENTENCE>"
+OUTPUT: "<SENTENCE>ON OFFRE A VENDRE.</SENTENCE>"
+
+There are no named entities present in the given sentence.
+########
+ OUTPUT: "<SENTENCE>n .</SENTENCE>"
+
+There are no named entities in the provided sentence.
+########
+ OUTPUT: "<SENTENCE>Atlas universel en <humanprod>38 cartes</humanprod> , par <pers>Arrowsmith</pers>.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>L ' <humanprod>art de toucher du piano</humanprod> , par <pers>B . Viguerie</pers> , 2 <humanprod>cahiers</humanprod> .</SENTENCE>"
+########
+ <SENTENCE>Conversations - <humanprod>Lexicon de Brockhaus</humanprod> , 10 vol .</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>Histoire de <humanprod>Gilbas de Santillane</humanprod> , par <pers>LeSage</pers> , 4 vol .</SENTENCE>"
+########
+ <SENTENCE><HumanProd>Synonymes français</HumanProd>, 2 vol. <HumanProd>19 Almanachs helvétiques allemands</HumanProd>, avec fig.</SENTENCE>
+```diff
+- The entities 'Synonymes français' and '19 Almanachs helvétiques allemands' are classified as 'HumanProd' as they refer to published works, which is a type of human production.
+```
+########
+ <SENTENCE>Un <humanprod>livre blanc</humanprod> 4.</SENTENCE>
+########
+ OUTPUT: "<SENTENCE><humanprod>Bertuchs Bilderbuch</humanprod>, 8 vol. 4 °.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Tous <humanprod>ces livres</humanprod> sont très proprement reliés et comme neufs .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>S ' adr .</SENTENCE>"
+
+There are no named entities in the provided sentence.
+########
+ OUTPUT: "<SENTENCE>au <org>bur.</org></SENTENCE>"
+
+(Note: I assumed "bur." is an abbreviation for a bureau or organization, as no other clear entity type was present in the sentence.)
+########
+ <SENTENCE>d ' <org>avis</org> .</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>12 . Chez le <pers>Sieur Quinche</pers> , <humanprod>instituteur</humanprod> , <loc>maison Prince</loc> , <loc>place des Halles</loc> , une copie exacte et très soignée du beau <humanprod>Traire des causes civiles de la Principauté de Neuchâtel</humanprod> , par <pers>Al . le châtelain Alonvert</pers> ; <humanprod>ouvrage</humanprod> très utile aux personnes qui se vouent à la <humanprod>magistrature</humanprod> ou au <humanprod>barreau</humanprod> .</SENTENCE>"
+########
+ "<SENTENCE>13. <org>AL Jn.</org></SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><title>Dl</title>. </SENTENCE>"
+
+Explanation:
+
+In the given input, "Dl" is an abbreviation, but it does not correspond to any known named entity category. Therefore, I have classified it as a "title" entity, which is a neutral category for any title abbreviations.
+########
+ OUTPUT: "<SENTENCE><pers>Andrié</pers> , au faubourg , des jeunes pigeons.</SENTENCE>"
+
+In this sentence, "Andrié" is identified as a person (PERSON) because it refers to a specific individual. The rest of the sentence does not contain any other named entities that can be classified as organization (ORGANIZATION), human production (HumanProd), time period (TIME), or location (LOC).
+########
+ OUTPUT: "<SENTENCE>14 . <pers>J . Dorn</pers> , à la <loc>Croix - du - marché</loc> , vient de recevoir un nouvel envoi de mousseline imprimée de <org>Alulhouse</org> , et un beau choix de guingans français â des prix avantageux .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Il vient aussi de recevoir un assortiment de <humanprod>marcelines en cou</humanprod>.</SENTENCE>"
+########
+ INPUT: "<SENTENCE>leur , dites pour doublure à 1 batz l'aune; des grosde<loc>Naples</loc> nuances de mode, à 21 bz.</SENTENCE>"
+
+In this sentence, the only named entity is "Naples", which is a location (LOC).
+########
+ <SENTENCE>l' <humprod>aune</humprod> , <humprod>levantine</humprod> , <humprod>barège</humprod> , <humprod>côte - paly</humprod> , <humprod>dits en coton</humprod> , <humprod>séduisantes</humprod> .</SENTENCE>
+########
+ INPUT: "<SENTENCE>11 recevra scus peu des batistes brochés de diverses nuances pour robes.</SENTENCE>"
+OUTPUT: "<SENTENCE>11 recevra scus peu des <humprod>batistes brochés de diverses nuances pour robes</humprod>.</SENTENCE>"
+
+Note: The input sentence does not seem to contain any named entities that can be classified as person (PERSON), organization (ORGANIZATION), time period (TIME), or location (LOC). However, I was able to identify a named entity of type human production (HumanProd), which refers to a specific type of fabric used for making clothes.
+########
+ OUTPUT: "<SENTENCE>11 a en outre un beau choix d'<humanprod>indiennes de Mulhouse et du pays</humanprod> , <humanprod>nanzous</humanprod> , <humanprod>mousselines</humanprod> , <humanprod>percales</humanprod> , <humanprod>tulles - bobbin</humanprod> , <humanprod>toiles de coton</humanprod> de toutes largeurs et qualités , <humanprod>shirtings</humanprod> à des prix très avantageux , <humanprod>cottones p</humanprod>.</SENTENCE>"
+########
+ This sentence does not contain any named entities that can be classified into the given types: person (PERSON), organization (ORGANIZATION), human production (HumanProd), time period (TIME), and location (LOC). It is a list of different types of fabrics and their prices.
+########
+ INPUT: "<SENTENCE>gilets, piqué à 8 batz le gilet, triège p.</SENTENCE>"
+OUTPUT: "<SENTENCE>gilets, piqué à <humprod>8 batz</humprod> le gilet, triège p.</SENTENCE>"
+
+In this sentence, "8 batz" is identified as a human production (HumanProd) because it refers to a unit of currency used in the past in some French-speaking regions.
+########
+ INPUT: "<SENTENCE>pantalons à 3 3 et à 3 <humanprod>î batz</humanprod> la pièce , et autres objets trop longs à détailler .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>1 ç .</SENTENCE>"
+
+There are no named entities found in the given sentence as it only contains a punctuation mark.
+########
+ OUTPUT: "<SENTENCE>Al <pers>Julie Steiner</pers> vient de recevoir les guin ' - gans français qu ' elle attendait ; ils sont dans les goûts les plus nouveaux .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Elle cédera des <humanprod>guingans anglais</humanprod> de <time>l'année dernière</time> , à 10 / _ i e ' 12 batz .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>16. <humanprod>Des chapeaux de paille de Florence</humanprod> , d'une très belle qualité, que l'on peut voir chez <org>M veuve Benoit</org>, maison de Al. </SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Aleuron <HumanProd>- Perret</HumanProd> , au faubourg .</SENTENCE>"
+########
+ <SENTENCE><time>17 . Em.</time></SENTENCE>
+########
+ OUTPUT: "<SENTENCE>Alatthey, <humanprod>bottier du Roi</humanprod>, prévient les <pers>Dames</pers> qui l' <emph>honorent</emph> de leur confiance, qu'il vient de recevoir de <loc>Paris</loc> les maroquins qu'il attendait depuis long - tems.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>_ ig _</SENTENCE>"
+
+There are no named entities found in the provided sentence as it does not contain any recognizable entities of the types person (PERSON), organization (ORGANIZATION), human production (HumanProd), time period (TIME), and location (LOC).
+########
+ <SENTENCE>A bas prix , <humanprod>3 à 400 pots</humanprod> vins <prod>rouge et blanc</prod> , bons p .</SENTENCE>
+
+In this sentence, I have identified and classified two human production entities (3 to 400 pots) and (bons p), and one product entity (rouge and blanc).
+########
+ I'm sorry for any confusion, but the input sentence seems to be incomplete and contains invalid characters. Here's the input sentence with corrected formatting, although I'm still not sure about the entity to be identified in "< ; * * / ; batz":
+
+INPUT: "<SENTENCE>les travaux de la campagne; de plus, de très beau et bon café Havanne à < ; * * / ; batz, en prenant au moins 10 lb.</SENTENCE>"
+
+I cannot identify any clear named entities in this sentence that fit the categories you provided (person, organization, human production, time period, and location). Here's the sentence with the only potential named entity identified, although it's not a clear match:
+
+OUTPUT: "<SENTENCE>les travaux de la campagne; de plus, de très beau et bon café <loc>Havanne</loc> à < ; * * / ; batz>, en prenant au moins 10 lb.</SENTENCE>"
+
+Please provide a complete and correctly formatted sentence for me to identify the named entities accurately.
+########
+ INPUT: "<SENTENCE>; et enfin , une <humprod>grande</humprod> .</SENTENCE>"
+OUTPUT: "<SENTENCE>; et enfin , une <humprod>grande</humprod> .</SENTENCE>"
+
+Note: I'm assuming that "grande" is classified as a human production because the context provided does not contain any other entities that can be classified as person, organization, time period, or location. If "grande" is meant to be part of a different named entity, please provide more context.
+########
+ INPUT: "<SENTENCE>arche propre à y déposer des grains .</SENTENCE>"
+OUTPUT: "<SENTENCE>arche propre à y déposer des grains .</SENTENCE>"
+
+(No named entities were found in the provided sentence.)
+########
+ OUTPUT: "<SENTENCE>S ' adr .</SENTENCE>"
+
+There are no named entities in the provided sentence.
+########
+ OUTPUT: "<SENTENCE>à <loc>AI " - Jeanrenaud - Racle</loc> , au <loc>faubourg</loc> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>19. <humanprod>Un coq d'Inde noir</humanprod>, d'<time>un an</time>.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>S ' adr .</SENTENCE>"
+
+There are no named entities in the provided sentence.
+########
+ OUTPUT: "<SENTENCE>à <pers>Fanchette Philippin</pers> , au <loc>Neubourg</loc> .</SENTENCE>"
+########
+ <SENTENCE>20 . Une belle jument de <time>3 ' / i</time> ans, à tous crins, manteau noir, sans défaut, et très - douce quoique vive, allant très _ ^ bien au char - à - banc. </SENTENCE>
+
+In this sentence, the only named entity is a time period (3 ' / i years). The rest of the sentence describes a horse, which is a human production (HumanProd), but it is not explicitly named.
+########
+ OUTPUT: "<SENTENCE>S ' adr .</SENTENCE>"
+
+There are no named entities in the provided sentence.
+########
+ OUTPUT: "<SENTENCE>à <pers>Jean Schlatter</pers> , fermier de <pers>M . de Luze</pers> , aux <loc>Prés de Reuse</loc> .</SENTENCE>"
+########
+ <SENTENCE>21 . <humanprod>A bon marché</humanprod>i ffute d ' emploi , un banc couvert , en bon état , que l ' on peut placer sur toute espèce de char de campagne .</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>S ' adr .</SENTENCE>"
+
+There are no named entities in the provided sentence.
+########
+ OUTPUT: "<SENTENCE>à <pers>Marti</pers> , sellier , près de l ' hôtel - de - ville .</SENTENCE>"
+
+In this sentence, "Marti" is identified as a person (PERSON) because it refers to an individual and is not a common noun or a known organization, location, or time period.
+########
+ OUTPUT: "<SENTENCE>22. <HumanProd>A la lithographie Gagnebin</HumanProd>, au Sablon, de très beaux papiers de poste d'<LOC>Annonay</LOC>, de différens formats et qualités, et à des prix trèsmodérés.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>23. <humanprod>Un nouvel envoi d ' oranges</humanprod> de <loc>Palerme</loc> , <chea Al Wittnauer> , à la <loc>Grand ' rue</loc> .</SENTENCE>"
+
+Note: I have made an assumption that "chea Al Wittnauer" is a shop or a store name, and have classified it as a location (LOC). If it is actually a person's name, then it should be classified as a PERSON instead.
+########
+ <SENTENCE>24 . <humanprod>Chez AI Wavre - Wattel</humanprod> , des huiles d olives surfines , à 7 batz la livre ; vinaigre rouge et blanc de <loc>Dijon</loc> , à 4 / ; bz .</SENTENCE>
+########
+ INPUT: "<SENTENCE>le pot, et descïirons qu'il a en commission, à 6 et 8 batz la douz.</SENTENCE>"
+OUTPUT: "<SENTENCE>le pot, et descïirons qu'il a en commission, à 6 et 8 batz la douz.</SENTENCE>"
+
+In this sentence, there are no clear named entities that can be classified into the categories of person (PERSON), organization (ORGANIZATION), human production (HumanProd), time period (TIME), and location (LOC). Therefore, no tags are added to the sentence.
+########
+ <SENTENCE>2 $ .</SENTENCE>
+
+In this sentence, there are no named entities to identify and classify.
+########
+ OUTPUT: "<SENTENCE>Au prix courant , 2 douzaines tasses et 3 pots au lait <humanprod>en terre anglaise bleue</humanprod> , arrivés de la <org>fabrique</org> depuis peu de jours , mais qui se sont trouvés de surplus dans l ' envoi .</SENTENCE>"
+########
+ <SENTENCE>S ' adresser au <org>bureau d ' avis</org> .</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>26. Un bon et beau <humanprod>Fusil de cible</humanprod> , à poudre fulminante et à la <humanprod>garantie</humanprod> , chez <org>Samuel Dubois</org> , à <loc>Colombier</loc> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>27 . <humanprod>Une ànesse dressée à la charrette</humanprod> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>S ' adr .</SENTENCE>"
+
+There are no named entities in the provided sentence.
+########
+ OUTPUT: "<SENTENCE>au <loc>château de Vaumarcus</loc> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>2 g.</SENTENCE>"
+
+Explanation:
+
+The input sentence "2 g." does not contain any named entities that can be classified into the given types: person (PERSON), organization (ORGANIZATION), human production (HumanProd), time period (TIME), and location (LOC). Therefore, the output remains the same as the input.
+########
+ OUTPUT: "<SENTENCE>M . <pers>Preud ' homme - Favarger</pers> a l ' honneur d ' informer le public , qu ' outre les vins de choix du pays , blanc et rouge , qu ' il vend en bouteilles en quantité demandée , on peut aussi se pourvoir chez lui de vins étrangers à prix raisonnables et de toutes premières qualités , tels que <humanprod>Champagne blanc et rosé</humanprod> , <humanprod>Bourgogne mousseux</humanprod> , <humanprod>Pomard</humanprod> , <humanprod>Madère</humanprod> , etc .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>, ainsi que de liqueurs de différentes sortes .</SENTENCE>"
+OUTPUT: "<SENTENCE>, ainsi que de <humanprod>liqueurs de différentes sortes</humanprod> .</SENTENCE>"
+
+In this sentence, "liqueurs de différentes sortes" refers to a type of human production, which is why I classified it as such.
+########
+ OUTPUT: "<SENTENCE>Son <humanprod>magasin</humanprod> près du <loc>Temple</loc> - neuf , est toujours assorti des articles qui concernent le commerce d'<humanprod>épiceries</humanprod> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>29 . <humanprod>AlAL Pettavel frères</humanprod> viennent de recevoir de superbe colle de <loc>Cologne</loc> , des huiles d ' olive surfines de <loc>Nice</loc> et de <loc>Provence</loc> ; moutarde en pots de <org>Alaille</org> ; ciment de <loc>Paris</loc> dit mastic Dihl , etc .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Les prix de <humanprod>leurs divers articles</humanprod> sont très favorables.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>30 . Chez <org>C . Steiner</org> , maison de AI .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>DeLuzc &lt;LOC&gt; - De - Luze&lt;/LOC&gt; , près la Croix &lt;LOC&gt;- du - marché&lt;/LOC&gt; , six chaises &lt;HumanProd&gt;- , deux tabourets &lt;HumanProd&gt; , un lit et une table &lt;HumanProd&gt;.&lt;/HumanProd&gt;</SENTENCE>"
+
+Note: I have classified "chaises", "tabourets", "lit", and "table" as human production (HumanProd) as the sentence seems to be referring to the physical objects and not any specific organizations or named entities related to them.
+########
+ <SENTENCE>DE LA <TIME>FEUILLE OFFICIELLE</TIME> EXTRAIT du jeudi <TIME>6 mai 1858</TIME> .</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>NOMINATION</SENTENCE>"
+
+There are no named entities in the provided sentence, so the output is the same as the input.
+########
+ OUTPUT: "<SENTENCE>1 . Vu l ' état do santé du <pers>citoyen Aug.</pers></SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>L ' <org>Ecuyer - Pœllon</org> , le <org>conseil d ' état</org> , par arrêt du 50 <time>avril</time> dernier , a chargé le <pers>citoyen Jaques - Henri Favre</pers> de le remplacer provisoirement dans ses fonctions de <loc>substitut de l ' officier de l ' état civil de la conscription do Neuchâtel</loc> .</SENTENCE>"
+########
+ <SENTENCE>AVIS DIVERS.</SENTENCE>
+
+In this sentence, there are no named entities to identify and classify.
+########
+ OUTPUT: "<SENTENCE>2. Dans sa séance du <time>5 mai courant</time>, le conseil d'<org>état</org> a fixé l'ouverture de l'<humanprod>assemblée constituante</humanprod> au lundi <time>10 mai prochain</time>.</SENTENCE>"
+########
+ <SENTENCE>FAILLITES.</SENTENCE>
+
+In the provided input, there are no named entities to identify and classify. The sentence only contains the word "FAILLITES", which is a common noun and not a named entity.
+########
+ <SENTENCE>5. Par <time>jugement en date du 29 avril 185
+########
+ OUTPUT: "<SENTENCE>La liquidation s'ouvrira au <loc>Locle</loc>, le <time>vendredi 28 mai 1858</time>, à 9 heures du malin, au lieu ordinaire des audiences de la justice de paix.</SENTENCE>"
+########
+ <SENTENCE>4. Le <org>tribunal civil du district du Locle</org> , par sentence en date du <time>24 avril passé</time> , a prononcé le <humanprod>décret des biens et dettes</humanprod> du <pers>citoyen L ' - Edouard Uuguenin - Witillcmiii</pers> , du <loc>Locle</loc> , <humanprod>fabricant d ' horlogerie</humanprod> , <loc>domicilié au Locle</loc> , <pers>fils de feu Charles - Frédéric</pers> ; en conséquence , les inscriptions au passif de cette masse seront reçues avec les titres et pièces à l ' appui , au <org>greffe du tribunal civil du Locle</org> , dès le <time>jeudi 6 au vendredi 21 mai courant</time> , ce dernier jour jusqu ' à 6 heures du soir , moment où les dites inscriptions seront closes ct bouclées .</SENTENCE>
+########
+ <SENTENCE>Tous les <org>créanciers</org> du dit citoyen <pers>Louis - Edouard Hugiieiiii ' fî</pers> sont , par ce môme avis , péremptoirement assignés à comparaître par devant le tribunal de la faillite qui siégera à l'<loc>hôtel de ville du Locle</loc> , dès les 9 heures du matin , le mardi <time>22 juin 1858</time> , pour là faire liquider leurs inscriptions et procéder aux opérations ultérieures de cette faillite ; le tout sous peine de forclusion .</SENTENCE>
+########
+ <SENTENCE>5. Le <org>tribunal civil du district du Locle</org> , par sentence en date du <time>24 avril passé</time> , a prononcé le <humanprod>décret des biens et dettes</humanprod> du <pers>citoyen Jules relet - Courvoisicr</pers> , du <loc>Locle</loc> , fils de feu <pers>Philibert Pcrrelet</pers> , <humanprod>marchand de fournitures</humanprod> , domicilié au <loc>Locle</loc> ; en conséquence , les inscriptions au passif de cette masse seront reçues avec les titres et pièces à l'appui , au <org>greffe du tribunal civil du Locle</org> , dès le <time>jeudi 6</time> au <time>vendredi 21 mai courant</time> , ce dernier jour jusqu'à 6 heures du soir , moment où les dites inscriptions seront <humanprod>closes et bouclées</humanprod> .</SENTENCE>
+########
+I've process 244 phrases!

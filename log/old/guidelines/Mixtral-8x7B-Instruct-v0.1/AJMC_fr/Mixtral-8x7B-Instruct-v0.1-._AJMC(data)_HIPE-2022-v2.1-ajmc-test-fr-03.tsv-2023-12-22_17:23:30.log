@@ -1,0 +1,91 @@
+ INPUT: "<SENTENCE>Les trois éditeurs dont nous avons parlé jusqu ' ici ont fait de fréquents emprunts aux précédents commentateurs ; c ' est généralement d ' après eux que nous avons cité les travaux dont les leurs ont recueilli l ' héritage .</SENTENCE>"
+OUTPUT: "<SENTENCE>Les trois <ORG>éditeurs</ORG> dont nous avons parlé jusqu ' ici ont fait de fréquents emprunts aux précédents <ORG>commentateurs</ORG> ; c ' est généralement d ' après eux que nous avons cité les <WORK>travaux</WORK> dont les leurs ont recueilli l ' héritage .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Parmi ces éditions antérieures , il en est une dont la réputation est inférieure à son mérite , et qui conserve encore , nonobstant les récents progrès du texte , une très grande utilité .</SENTENCE>"
+OUTPUT: "<SENTENCE>Parmi <SCOPE>ces éditions antérieures</SCOPE> , il en est une dont la réputation est inférieure à son mérite , et qui conserve encore , nonobstant les récents progrès du texte , une très grande utilité .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Il s ' agit de l ' édition à l ’ usage des classes , due à Neue .</SENTENCE>"
+OUTPUT: "<SENTENCE>Il s ' agit de l ' <WORK>édition à l ’ usage des classes</WORK> , due à <PERS>Neue</PERS> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>On s ' en ferait une assez fausse idée , du moins en France , d ' après ce titre , qui a nui peut - être à sa renommée .</SENTENCE>"
+OUTPUT: "<SENTENCE>On s ' en ferait une assez fausse idée , du moins en <LOC>France</LOC> , d ' après ce titre , qui a nui peut - être à sa renommée .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Le livre de Neue est un excellent recueil de matériaux pour la critique et l ' interprétation du texte de Sophocle .</SENTENCE>"
+OUTPUT: "<SENTENCE>Le <WORK>livre de Neue</WORK> est un excellent recueil de matériaux pour la critique et l ' interprétation du texte de <PERS>Sophocle</PERS> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Ce qui le rend surtout précieux , c ' est une méthode d ’ explication qui consiste à renvoyer , en quelque sorte perpétuellement , pour l ' é - l'éclaircissement des passages difficiles , de Sophocle à Sophocle lui - même , qui devient par là son propre interprète .</SENTENCE>"
+OUTPUT: "<SENTENCE>Ce qui le rend surtout précieux , c ' est une méthode d ’ explication qui consiste à renvoyer , en quelque sorte perpétuellement , pour l ' é - l'éclaircissement des passages difficiles , de <PERS>Sophocle</PERS> à <PERS>Sophocle</PERS> lui - même , qui devient par là son propre interprète .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Cette méthode, assurément , n ' est point particulière à <PERS>Neue</PERS> ; tous les commentateurs la pratiquent aujourd ’ hui : mais aucun peut - être ne l ' a pratiquée avec une aussi constante application ,</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Ce com 4166 . "AvolGov . Ce mot et ses synunymes comportent la méme extension de sens que nos mots français malheureux , misérable .</SENTENCE>"
+OUTPUT: "<SENTENCE>Ce com 4166 . "AvolGov . Ce mot et ses synunymes comportent la méme extension de sens que <OBJECT>nos mots français</OBJECT> <WORK>malheureux</WORK> , <WORK>misérable</WORK> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>— Ilapwv . Cf . 1434 et la note sur le vers 57 .</SENTENCE>"
+OUTPUT: "<SENTENCE>— <SCOPE>1434</SCOPE> . Cf . <SCOPE>1434</SCOPE> et la note sur le vers <SCOPE>57</SCOPE> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>4168 . Οὐδείς ποτε .</SENTENCE>"
+OUTPUT: "<SENTENCE>4168 . <DATE>Οὐδείς ποτε</DATE> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Tci : Nemo, puto. Voy. Ellendt, tome I, page 616 et 616.</SENTENCE>"
+OUTPUT: "<SENTENCE>Tci : <PERS>Nemo</PERS>, puto. Voy. <WORK>Ellendt</WORK>, <WORK>tome I</WORK>, <SCOPE>page 616</SCOPE> et <SCOPE>616</SCOPE>.</SENTENCE>"
+########
+ INPUT: "<SENTENCE>— Môv DviEcuny ; Mäva la même signification que le latin nuin .</SENTENCE>"
+OUTPUT: "<SENTENCE>— <OBJECT>Môv DviEcuny</OBJECT> ; <OBJECT>Mäva</OBJECT> la même signification que le latin <OBJECT>nuin</OBJECT> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Le sens est donc : « Ai - je parlé trop peu clairement ? » Cf . Antigone , 405 : “ Ap ’ Eväênda xxi cœpñ XéYw ; Eschyle , Agamemnon , 269 : ” H xoρῶς λέγω ;</SENTENCE>"
+OUTPUT: "<SENTENCE>Le sens est donc : « <SCOPE>Ai - je parlé trop peu clairement</SCOPE> ? » Cf . <WORK>Antigone</WORK> , <SCOPE>405</SCOPE> : “ Ap ’ Eväênda xxi cœpñ XéYw ; <PERS>Eschyle</PERS> , <WORK>Agamemnon</WORK> , <SCOPE>269</SCOPE> : ” H xoρῶς λέγω ;</SENTENCE>"
+########
+ INPUT: "<SENTENCE>4160 . Παρῇ . Cf . 4081 .</SENTENCE>"
+OUTPUT: "<SENTENCE>4160 . <LOC>Παρῇ</LOC> . Cf . 4081 .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>4168 . "Εριδός τις &yov . « Genitivus « additur ad distinguenda varia certumi«num genera , ut uayns ἀγών apud Eurip .</SENTENCE>"
+OUTPUT: "<SENTENCE>4168 . <WORK>"Εριδός τις &yov . « Genitivus « additur ad distinguenda varia certumi«num genera , ut uayns ἀγών</WORK> apud <PERS>Eurip</PERS> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>D ' ailleurs Execpe qOvoy rappelle τρώσῃς Gôvov ( Furipide , Suppliantes , 4305 ) , οἱ πολύχερων φόνον N ’ est pas plas hardi 6 τετρατκελῆ χενταυροπληθὴ πό - λεμον ( Euripide , fercule ſurieuæ , 4272 ) , ni que ynyevh paynv ( le même , ſon , 987 , et Cyclope , b ) .</SENTENCE>"
+OUTPUT: "<SENTENCE>D ' ailleurs Execpe qOvoy rappelle τρώσῃς Gôvov ( <PERS>Furipide</PERS> , <WORK>Suppliantes</WORK> , <SCOPE>4305</SCOPE> ) , οἱ πολύχερων φόνον N ’ est pas plas hardi 6 τετρατκελῆ χενταυροπληθὴ πό - λεμον ( <PERS>Euripide</PERS> , <WORK>fercule ſurieuæ</WORK> , <SCOPE>4272</SCOPE> ) , ni que ynyevh paynv ( le même , <WORK>ſon</WORK> , <SCOPE>987</SCOPE> , et <WORK>Cyclope</WORK> , <SCOPE>b</SCOPE> ) .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>1464 - 1465 . Ταχύνας σπεῦσον . CÉ . OEd . Roi , 861 : Πέμψω ταχύνασα . Taχύνας σπεῦσον signifie la même chose que ancvëe tayéwoç ( <PERS>Aristophane</PERS> , <WORK>Chevaliers</WORK>, <SCOPE>495</SCOPE> ; <WORK>Thesmophoriazusæ</WORK>, <SCOPE>4177</SCOPE> ) .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>[ Wunder . ] Tayüvas et σπεῦσον ϑβϑοπὶ pris tous deux intransitivement .</SENTENCE>"
+OUTPUT: "<SENTENCE>[ Wunder . ] Tayüvas et <OBJECT>σπεῦσον ϑβϑοπὶ</OBJECT> pris tous deux intransitivement .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>— Ἰδεῖν , comme eûpeïv . Cf . Thévcrite , XV , Q : “ Ὅρη δίφρον , Eüvéa , aùré . [ Schneidewin . )</SENTENCE>"
+OUTPUT: "<SENTENCE>— Ἰδεῖν , comme <WORK>eûpeïv</WORK> . Cf . <PERS>Thévcrite</PERS> , XV , Q : “ Ὅρη δίφρον , Eüvéa , aùré . [ <PERS>Schneidewin</PERS> . )</SENTENCE>"
+########
+ INPUT: "<SENTENCE>4466 - 1167 . "EvOæ . . . nabéEer , où il aura son tombeau , qui sera à jamais célèbre parmi les hommes .</SENTENCE>"
+OUTPUT: "<SENTENCE>4466 - 1167 . <PERS>"EvOæ"</PERS> . . . nabéEer , où il aura son tombeau , qui sera à jamais célèbre parmi les hommes .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>— Evpæwoevra est une épithète de nature , que Pussow rend par » tenebricosum .</SENTENCE>"
+OUTPUT: "<SENTENCE>— <OBJECT>Evpæwoevra</OBJECT> est une épithète de nature , que <PERS>Pussow</PERS> rend par » tenebricosum .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>4168 . Καὶ uñv . Cf . <WORK>Électre</WORK> , 78 .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>— I ) nolor duit être juint à rapecouv . CÉ , <WORK>Électre</WORK> , 640 . [ <PERS>Schneidewin</PERS> . ]</SENTENCE>"
+########
+ INPUT: "<SENTENCE>64 . Füxepæv équivaut à peu près à xepassôpov. ( Cf . plus bas , vers 297 . )</SENTENCE>"
+OUTPUT: "<SENTENCE>64 . <WORK>Füxepæv</WORK> équivaut à peu près à <WORK>xepassôpov</WORK>. ( Cf . plus bas , <SCOPE>vers 297</SCOPE> . )</SENTENCE>"
+########
+ <SENTENCE>On trouve chez <PERS>Sophocle</PERS> beaucoup d ' <OBJECT>adjectifs</OBJECT> formés de même , où l ' élément <WORK>eÙ</WORK> parait n ' avoir qu ' une iunportance accessoire , quint δι 565 ; <WORK>μαγ</WORK> <SCOPE>εκ</SCOPE> . <WORK>εὐχρότητος</WORK> : <WORK>Éχ</WORK> <SCOPE>τ᾽</SCOPE> <WORK>εὑxporñtou</WORK> <SCOPE>yalxéas</SCOPE> <SCOPE>ἄρδην</SCOPE> <SCOPE>πρόχον</SCOPE> <WORK>Τὶ</WORK> <SCOPE>χοαῖσι</SCOPE> <SCOPE>τρισκόνδοισι</SCOPE> <WORK>τὸν</WORK> <WORK>νέχυν</WORK> <WORK>στέφει</WORK> ( <WORK>Antig</WORK> . <SCOPE>480</SCOPE> ) ; <WORK>εὔμνηστος</WORK> : <WORK>Εὔμναστον</WORK> <WORK>ἀνὸρὸς</WORK> <WORK>δεῖμα</WORK> <WORK>tpépoucav</WORK> ( <WORK>par</WORK> <WORK>correction</WORK> , <SCOPE>au lieu de</SCOPE> <WORK>pépoucay</WORK> ) <WORK>ôëoù</WORK> ( <WORK>Trachin</WORK> . <SCOPE>407</SCOPE> ) ; <WORK>ev)oφος</WORK> : <WORK>Ὃς</WORK> <WORK>εὐλόφον</WORK> <WORK>ἢ</WORK> <WORK>κυνῆ</WORK> : <WORK>ἔμελλε</WORK> <WORK>πρῶτος</WORK> <WORK>ἅλμα</WORK> <WORK>κουφιεῖν</WORK> ( <SCOPE>4</SCOPE> <SCOPE>αα</SCOPE> , <SCOPE>4387</SCOPE> ) ) ; <WORK>εὔχρυσος</WORK> : <WORK>ἸΠαχτωλὸν</WORK> <WORK>εὔχρυσον</WORK> ( <WORK>Πλιίοοιέέε</WORK> , <SCOPE>394</SCOPE> ) .</SENTENCE>
+########
+ INPUT: "<SENTENCE>Le fréquent usage qu'uvait fait l'épopée de ce genre d'épithètes laudätives avait dù leur ôter beaucoup de leur furce.</SENTENCE>"
+OUTPUT: "<SENTENCE>Le fréquent usage qu'<WORK>uvait</WORK> fait <WORK>l'épopée</WORK> de ce genre d'<WORK>épithètes</WORK> laudätives avait dù leur ôter beaucoup de leur furce.</SENTENCE>"
+########
+ INPUT: "<SENTENCE>65 . Euv3érous rappellecuvänñaas ( v . 62 ) .</SENTENCE>"
+OUTPUT: "<SENTENCE>65 . <OBJECT>Euv3érous</OBJECT> rappellecuvänñaas ( v . 62 ) .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>66 . Δείξω . . . νόσον . Joignez δείξω πεprçavñ ( Cf . la note sur le vers 14 d ’ Électre ) .</SENTENCE>"
+OUTPUT: "<SENTENCE>66 . <WORK>Δείξω</WORK> . . . νόσον . Joignez <WORK>δείξω</WORK> πεprçavñ ( Cf . la note sur le vers 14 d ’ <WORK>Électre</WORK> ) .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>68 - 69 , Μηδὲ συμφορὰν δέχον τὸν ἄνδρα . Neque infortunium tibi puta hunc virum fore . [ <PERS>Brunck</PERS> . ]</SENTENCE>"
+OUTPUT: "<SENTENCE>68 - 69 , Μηδὲ συμφορὰν δέχον τὸν ἄνδρα . Neque infortunium tibi puta hunc virum fore . [ <PERS>Brunck</PERS> . ]</SENTENCE>"
+########
+ INPUT: "<SENTENCE>69 - 70 . ’ Oyudtwev avyac . <PERS>Euripide</PERS> , <WORK>Hercule furieux</WORK> , 431 - 132 : Fopyänes duμάτων αὐγαί .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>- - - Ἀπείργω εἰσιδεῖν ἐχευΐνὰυϊ ἃ ἀπείργω τοῦ εἰσιδεῖν οὐ τοῦ μὴ εἰσιδεῖν . Οἵ .</SENTENCE>"
+OUTPUT: "<SENTENCE>- - - Ἀπείργω εἰσιδεῖν ἐχευΐνὰυϊ ἃ ἀπείργω τοῦ εἰσιδεῖν οὐ τοῦ μὴ εἰσιδεῖν . Οἵ .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Euripide , Alceste : “ Ov baνεῖν ἐρρυσάμην .</SENTENCE>"
+OUTPUT: "<SENTENCE><PERS>Euripide</PERS>, <WORK>Alceste</WORK> : “ Ov baνεῖν ἐρρυσάμην .</SENTENCE>"
+########
+I've process 32 phrases!

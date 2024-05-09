@@ -1,0 +1,644 @@
+ INPUT: "<SENTENCE>Mais il y a surtout dans l ' aventure une cause noble qu ' il faut défendre et éclairer de tous les feux de l ' information : celle de la liberté de l ' individu contre la tyrannie du totalitarisme , prenant ici la forme de la nonviolence courageuse contre la violence répressive de l ' Etat .</SENTENCE>"
+OUTPUT: "<SENTENCE>Mais il y a surtout dans l ' aventure une cause noble qu ' il faut défendre et éclairer de tous les feux de <HumanProd>l ' information</HumanProd> : celle de la liberté de <pers>l ' individu</pers> contre la tyrannie du <HumanProd>totalitarisme</HumanProd> , prenant ici la forme de la nonviolence courageuse contre la violence répressive de <org>l ' Etat</org> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Trois <humanProd>Prix Nobel</humanProd> pour un seul <org>éditeur</org> « <humanProd>Pays de Neige</humanProd> » , publié en traduction française par <org>Albin - Michel</org> en 1960 avait , il faut le dire , bien peu retenu l ' attention .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Armel Guerne .</SENTENCE>"
+OUTPUT: "<SENTENCE><pers>Armel Guerne</pers>.</SENTENCE>"
+########
+ INPUT: "<SENTENCE>son adaptateur, m ' en avait « téléphoné » les mérites : un frisson nouveau.</SENTENCE>"
+OUTPUT: "<SENTENCE>son <HumanProd>adaptateur</HumanProd>, m ' en avait « téléphoné » les mérites : un frisson nouveau.</SENTENCE>"
+########
+ INPUT: "<SENTENCE>C ' était vrai .</SENTENCE>"
+OUTPUT: "<SENTENCE>C ' était vrai .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Le roman m ' a laissé la trace d ' une blancheur , la rayure d ' un cristal .</SENTENCE>"
+OUTPUT: "<SENTENCE>Le roman m ' a laissé la trace d ' une <HumanProd>blancheur</HumanProd> , la rayure d ' un <HumanProd>cristal</HumanProd> .</SENTENCE>"
+
+In this example, "blancheur" and "cristal" are considered as Human Production as they are the product of human creativity and imagination.
+########
+ INPUT: "<SENTENCE>Mais ce frisson peu accordé à notre Occident , cette voix du silence et du lointain contraire à notre vie , le courant les a emportés .</SENTENCE>"
+OUTPUT: "<SENTENCE>Mais ce frisson peu accordé à notre <loc>Occident</loc> , cette voix du silence et du lointain contraire à notre vie , le courant les a emportés .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>II y a chez Kawabata .</SENTENCE>"
+OUTPUT: "<SENTENCE>II y a chez <pers>Kawabata</pers> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Guy Dunmr l' indique, une attention aux objets qui fait penser à notre « nouveau roman ».</SENTENCE>"
+OUTPUT: "<SENTENCE>Guy <pers>Dunmr</pers> l' indique, une attention aux objets qui fait penser à notre « nouveau roman ».</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Mais l ' approche en est bien différente .</SENTENCE>"
+OUTPUT: "<SENTENCE>Mais l ' <HumanProd>approche</HumanProd> en est bien différente .</SENTENCE>"
+
+In this example, "approche" is classified as a Human Production because it refers to a method or approach in a general sense, which is a type of human production.
+########
+ INPUT: "<SENTENCE>Les objets , chez Sarraute , chez Robbe - Grillet , sont saisis par des moyens que ne desavoueraient pas la géométrie ou la statistique .</SENTENCE>"
+OUTPUT: "<SENTENCE>Les objets , <pers>chez Sarraute</pers> , <pers>chez Robbe - Grillet</pers> , sont saisis par des moyens que ne desavoueraient pas la géométrie ou la statistique .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>En cela leur littérature est à la page .</SENTENCE>"
+OUTPUT: "<SENTENCE>En cela leur <HumanProd>littérature</HumanProd> est à la page .</SENTENCE>"
+########
+ <SENTENCE>Tandis que chez <pers>Kawabata</pers> les objets sont perçus selon l'angle d'une sensibilité toute subjective, hors du temps et de notre espace.</SENTENCE>
+########
+ INPUT: "<SENTENCE>Kawabata est un poète .</SENTENCE>"
+OUTPUT: "<SENTENCE><pers>Kawabata</pers> est un poète .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>L ' <HumanProd>attribution</HumanProd> qui lui a été faite du <HumanProd>Prix Nobel de littérature</HumanProd> rejaillit sur les <org>éditeurs</org> qui l ' ont servi , en <loc>France</loc> <org>Albin - Michel</org> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Celui - ci vient de réussir un triplé sans précédent et probablement sans avenir : trois <HumanProd>Prix Nobel</HumanProd> en trois <time>années successives</time> : l'<pers>Israélien Agnon</pers> en <time>1966</time> , le <pers>Guatémaltèque Asturias</pers> en <time>1967</time> et le <pers>Japonais Yanusari Kawabata</pers> en <time>1968</time> !</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Les maisons de la culture <HumanProd>en péril André Malraux</HumanProd> a des difficultés avec ses maisons de la culture .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Celle de Thonon n ' en est plus une , du moins au sens national et officiel du mot .</SENTENCE>"
+OUTPUT: "<SENTENCE>Celle de <loc>Thonon</loc> n ' en est plus une , du moins au sens national et officiel du mot .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Le ministère l ' a privée de cette qualification .</SENTENCE>"
+OUTPUT: "<SENTENCE>Le <org>ministère</org> l ' a privée de cette qualification .</SENTENCE>"
+########
+ <SENTENCE>Avec ses propres moyens , la <org>Municipalité de Thonon</org> reprend cette maison et entend maintenir son activité , forcément réduite malgré tout , sous l' <HumanProd>enseigne de Centre culturel</HumanProd> .</SENTENCE>
+########
+ INPUT: "<SENTENCE>Il ne semble pas que l'on ait souhaité à Thonon s'affranchir de cette officialité, ce qui était du même coup se couper des moyens financiers.</SENTENCE>"
+OUTPUT: "<SENTENCE>Il ne semble pas que l'on ait souhaité à <loc>Thonon</loc> s'affranchir de cette <org>officialité</org>, ce qui était du même coup se couper des moyens financiers.</SENTENCE>"
+########
+ INPUT: "<SENTENCE>.</SENTENCE>"
+OUTPUT: "<SENTENCE>.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>En revanche, la <org>Municipalité de Caen</org>, mécontente de l'activité de <pers>Jo Trehard</pers> à la tête de la <org>Maison de la culture de la ville</org> (<org>Théâtre national de Caen</org>), a souhaité rompre avec cette politique approuvée par Paris.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>On a donc municipalisé la <HumanProd>« maison » qui pourra offrir au public le répertoire qu ' il aime , et dont il était privé , dit - on , au profit des expériences d ' avant - garde de <pers>Trehard</pers> . Ce dernier garde sa compagnie , qui devient <org>Centre dramatique</org> et rayonnera comme tel à travers la <loc>Normandie</loc> . La danse aux <loc>Champs - Elysées</loc> Le <org>Ballet de l ' Opéra de Vienne</org> a ouvert le <time>Vie</time> Festival international de danse de <loc>Paris</loc> . On y verra notamment , dès le 5 novembre , <org>The Dancer Theater of Alwin Nikoldis</org> , troupe <loc>américaine</loc> dont il a été question dans notre dernier numéro de la <HumanProd>'Gazette littéraire'</HumanProd> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>D ' année en année , ce festival s ' affirme .</SENTENCE>"
+OUTPUT: "<SENTENCE>D ' <time>année en année</time> , ce <HumanProd>festival</HumanProd> s ' affirme .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Innovation : chaque compagnie se présente au cours de rences - démonstrations qui ont lieu en fin d ' après - midi , avant la représentation du soir .</SENTENCE>"
+OUTPUT: "<SENTENCE>Innovation : chaque <org>compagnie</org> se présente au cours de rences - démonstrations qui ont lieu en fin d ' après - midi , avant la représentation du soir .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Rétrospective pour un <pers>Américain Rauschenberg</pers> est l'artiste du mois à Paris.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Alors que la <org>Galerie Sonnabend</org> expose cinquante dessins de ce genre , le <org>Musée municipal d ' art moderne</org> lui consacre une importante exposition .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Rauschenberg est le premier <pers>peintre</pers> de la nouvelle génération <loc>américaine</loc> à bénéficier d'une <prod>rétrospective</prod> dans un <loc>musée parisien</loc>.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>En <HumanProd>sculpture</HumanProd> , <pers>Calder</pers> chez <org>Maeght</org> et <pers>Stahly</pers> à la <org>Galerie Speyers</org> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Le music - hall vaut ce que valent ses vedettes .</SENTENCE>"
+OUTPUT: "<SENTENCE>Le <HumanProd>music - hall</HumanProd> vaut ce que valent ses <pers>vedettes</pers> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Au <HumanProd>théâtre</HumanProd> , ce sont les œuvres qui font la ligne , c ' est plus sûr tout de même ; quand les <pers>Jouvet</pers> s ' en vont , les <HumanProd>Giraudoux</HumanProd> restent , tandis qu ' au <HumanProd>music-hall</HumanProd> , ce sont les têtes qui font la loi : et quand <pers>Piaf</pers> s ' en va , les <pers>Raymond Asso</pers> s ' en vont aussi .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Raymond Asso vient de mourir pour de bon.</SENTENCE>"
+OUTPUT: "<SENTENCE><pers>Raymond Asso</pers> vient de mourir pour de bon.</SENTENCE>"
+########
+ INPUT: "<SENTENCE>11 était déjà absent .</SENTENCE>"
+OUTPUT: "<SENTENCE>11 était déjà absent .</SENTENCE>"
+
+Explanation:
+There are no named entities in the given sentence that match the provided categories.
+########
+ INPUT: "<SENTENCE>Quant à l'actualité, après Montand sur une rive (Olympia) , et Gréco sur l'autre (Bobino) , nous redescendons vers les marécages.</SENTENCE>"
+OUTPUT: "<SENTENCE>Quant à l'<HumanProd>actualité</HumanProd>, après <pers>Montand</pers> sur une rive (<HumanProd>Olympia</HumanProd>) , et <pers>Gréco</pers> sur l'autre (<HumanProd>Bobino</HumanProd>) , nous redescendons vers les marécages.</SENTENCE>"
+########
+ <SENTENCE>Pierre <pers>Perret</pers> , ça vous amuse ?</SENTENCE>
+########
+ <SENTENCE>Georges <pers>Chelon</pers> , ça vous transporte ?</SENTENCE>
+########
+ INPUT: "<SENTENCE>Le Promeneur de la Seine.</SENTENCE>"
+OUTPUT: "<SENTENCE>Le <PRODUCTION>Promeneur de la Seine</PRODUCTION>.</SENTENCE>"
+########
+ "<SENTENCE>( 1 ) <org>Tchou</org> , éditeur .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Avant qu' <org>il</org> soit trop tard • Dans l'esprit des auteurs de cette <HumanProd>initiative américaine</HumanProd> le plan <org>égyptien</org> devrait provoquer une réaction <org>israélienne</org> et permettre au <org>Gouvernement américain</org> d'intervenir en vue d'un <HumanProd>compromis</HumanProd> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>D ' autre part le <org>Gouvernement américain</org> s ' efforce par la voie diplomatique d ' organiser une rencontre au <time>mois de juillet</time> à <loc>Londres</loc> entre <pers>M . Cyrus Vance</pers> et les ministres des Affaires étrangères d ' <org>Israël</org> et d ' <org>Egypte</org> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>A l'issue de <time>cette table ronde</time> le <pers>secrétaire d'Etat</pers> aurait l'intention de se rendre au <loc>Proche-Orient</loc> où il effectuerait une série de <loc>navettes</loc> entre <loc>Jérusalem</loc> et <loc>Le Caire</loc> mais où il visiterait également d'autres <org>pays arabes</org> pour tenter de les persuader de se joindre aux <loc>négociations israélo-égyptiennes</loc>. </SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>De <loc>New York</loc> : <pers>Louis Wiznitzer</pers> En revanche le <org>Gouvernement américain</org> a décidé de ne pas présenter , du moins dans l ' immédiat , son propre plan de paix « pour ne pas risquer de compromettre le prestige des <loc>Etats - Unis</loc> » , affirme en privé un <pers>officiel</pers> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Mais il va multiplier ses efforts pour sauver l'initiative de M. Sadate du naufrage.</SENTENCE>"
+OUTPUT: "<SENTENCE>Mais il va multiplier ses efforts pour sauver l'<humanprod>initiative de M. Sadate</humanprod> du naufrage.</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Les autorités américaines estiment que l'impasse actuelle, si elle se prolongeait, déboucherait rapidement sur une situation instable et peut-être même sur une nouvelle guerre.</SENTENCE>"
+OUTPUT: "<SENTENCE>Les <org>autorités américaines</org> estiment que l'<time>impasse actuelle</time>, si elle se prolongeait, déboucherait rapidement sur une situation instable et peut-être même sur une <time>nouvelle guerre</time>.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><TIME>Le temps</TIME> ne travaille pas en faveur de la paix</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Le <org>Gouvernement américain</org> a d ' ailleurs exprimé publiquement hier sa <time>déception</time> en raison de la déclaration faite <time>dimanche dernier</time> par le <org>Gouvernement israélien</org> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>M <pers>Holding Carter</pers> , <pers>porte - parole</pers> du <org>Département d ' Etat</org> , a déclaré : « Nous regrettons que les réponses <pers>israéliennes</pers> n ' aient pas complètement répondu à nos questions . » De son côté M <pers>Javits</pers> , <pers>sénateur</pers> de <loc>New York</loc> <pers>juif</pers> et <pers>pro - israèlien</pers> s ' il en est sur le <loc>Capitole</loc> , a avoué qu ' il était « déçu » et que « le <org>Gouver nement américain</org> était en droit de recevoir une réponse plus positive de la part d ' <pers>Israël</pers> » .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Dans l'<loc>entourage immédiat</loc> de <pers>M. Carter</pers> la réponse de <pers>M. Begin</pers> a déclenché - selon une source digne de foi - « des colères froides ». </SENTENCE>"
+########
+ INPUT: "<SENTENCE>Mais le président estime qu ' il ne servirait à rien en ce moment de récriminer en public .</SENTENCE>"
+OUTPUT: "<SENTENCE>Mais <pers>le président</pers> estime qu ' il ne servirait à rien en ce moment de récriminer en public .</SENTENCE>"
+########
+ <SENTENCE>Les <org>officiels</org> refusent de décrire les pressions que les <org>USA</org> seraient disposés à exercer sur <org>Israël</org> mais selon le nouveau <HumanProd>scénario américain</HumanProd> appelant un <HumanProd>plan égyptien</HumanProd> sur la <loc>Cisjordanie</loc> et <loc>Gaza</loc> permettrait à <org>Israël</org> de prendre connaissance des <HumanProd>dispositifs concernant sa sécurité</HumanProd> , tels que le propose <loc>l' Egypte</loc> , d'en tenir compte , et surtout de cesser de camper sur des <HumanProd>positions dilatoires</HumanProd> .</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>Des <org>contrepropositions israéliennes</org> permettraient aux <org>Etats - Unis</org> de remettre d ' une part en mouvement la négociation et ipso facto de donner du battement à <pers>M . Sadate</pers> ; d ' amener de l ' autre le <pers>roi Hussein</pers> à la table des négociations .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Le recours à cette stratégie exige une dose solide d ' optimisme mais , avoue la lité citée ci - dessus , « nous n ' avons pas le choix » .</SENTENCE>"
+OUTPUT: "<SENTENCE>Le recours à cette stratégie exige une dose solide d ' optimisme mais , avoue la lité citée ci - dessus , « nous n ' avons pas le choix » .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>J 3 ENÈVE Nastassia Kinski : Permis de travail refusé ( ATS ) .</SENTENCE>"
+OUTPUT: "<SENTENCE>J 3 ENÈVE <pers>Nastassia Kinski</pers> : Permis de travail refusé ( <org>ATS</org> ) .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>- L' <pers>actrice Nastassia Kinski</pers> ne pourra pas s' <loc>établir à Genève</loc> avec sa famille et y créer la <HumanProd>société Leila Film SA</HumanProd> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>destinée à coproduire et à promouvoir un film <HumanProd>çant la vie d ' Henri Dunant</HumanProd> , fondateur de la <org>Croix - Rouge</org> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Le Conseil d'<org>Etat genevois</org> a en effet décidé <time>mardi</time> de ne pas octroyer d'<prod>autorisation de séjour</prod> et de <prod>permis de travail</prod> à <pers>Nastassia Kinski</pers>, estimant que « l'<prod>intérêt économique</prod> de cette demande était limité ».</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>En octobre dernier, <pers>l'actrice</pers> dépose un dossier complet auprès du contrôle de l'habitant.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>A l'appui de sa demande , <pers>Nastassia Kinski</pers> fait valoir que lors de la naissance de son second enfant , elle a séjourné à <loc>Genève</loc> où elle a noué de nombreuses attaches .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Nastassia <pers>Kinski</pers> s ' intéresse également à l ' action humanitaire du <org>Comité International de la Croix - Rouge ( CICR )</org> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Le Conseil d ' Etat a rejeté mardi ce recours .</SENTENCE>"
+OUTPUT: "<SENTENCE>Le <org>Conseil d ' Etat</org> a rejeté <time>mardi</time> ce recours .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Il relève que le contingent des travailleurs à l'année est peu élevé et que les permis à disposition sont réservés aux projets offrant des possibilités de développements importants pour l'économie genevoise, soit par la création ou la sauvegarde d'emplois, soit par l'apport de nouvelles activités de pointe, soit enfin par la revitalisation d'entreprises en difficulté.</SENTENCE>"
+OUTPUT: "<SENTENCE>Il relève que le <HumanProd>contingent des travailleurs à l'année</HumanProd> est peu élevé et que les <HumanProd>permis à disposition</HumanProd> sont réservés aux projets offrant des possibilités de <HumanProd>développements importants</HumanProd> pour l'<loc>économie genevoise</loc>, soit par la création ou la sauvegarde d'<HumanProd>emplois</HumanProd>, soit par l'apport de <HumanProd>nouvelles activités de pointe</HumanProd>, soit enfin par la revitalisation d'<HumanProd>entreprises en difficulté</HumanProd>.</SENTENCE>"
+########
+ INPUT: "<SENTENCE>_ Nouvelles étrangères FRANCE Tué dans la rue .</SENTENCE>"
+OUTPUT: "<SENTENCE>_ Nouvelles étrangères <loc>FRANCE</loc> Tué dans la rue .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Mercredi , vers dix heures du soir , un Pa !</SENTENCE>"
+
+In this sentence, there are no named entities that match the provided categories (PERSON, ORGANIZATION, PRODUCTION, TIME, or LOCATION). The word "Mercredi" is a day of the week, which could be considered a time entity, but it is not explicitly marked as a relative date, so it is not annotated. The interjection "Pa!" is not a named entity.
+########
+ OUTPUT: "<SENTENCE>- <loc>irisien</loc> , à l'angle de la rue du <loc>Temple</loc> et de la rue <loc>Notre - Dame - de - Nazareth</loc> , fut pris à partie par plusieurs individus qui lui cherchèrent querelle .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>La , dispute s'envenima et bientôt le passant, un jeune homme de dix-huit à vingt ans, s'affaissait en poussant un cri de douleur.</SENTENCE>"
+OUTPUT: "<SENTENCE>La , dispute s'envenima et bientôt le <pers>passant, un jeune homme de dix-huit à vingt ans</pers>, s'affaissait en poussant un cri de douleur.</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Il avait reçu un coup de couteau dans le ventre.</SENTENCE>"
+OUTPUT: "<SENTENCE>Il avait reçu un coup de couteau dans le <HumanProd>ventre</HumanProd>.</SENTENCE>"
+
+The word "ventre" is not a named entity, but since it is part of the human production entity "coup de couteau dans le ventre" (stab in the belly), I included it in the output.
+########
+ OUTPUT: "<SENTENCE>Le blessé fut transporté à l' <loc>hôpital Saint - Louis</loc> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Des papiers trouvés sur lui laissent supposer qu ' il s ' agit d ' un nommé <pers>Guillard</pers> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Mais le malheureux est mort sans pouvoir donner aucune indication sur lui ni sur ses agresseurs , qui avaient pris immédiatement la fuite .</SENTENCE>"
+OUTPUT: "<SENTENCE>Mais le <pers>malheureux</pers> est mort sans pouvoir donner aucune indication sur lui ni sur ses <pers>agresseurs</pers> , qui avaient pris immédiatement la fuite .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>ALLEMAGNE Retiré des affaires .</SENTENCE>"
+OUTPUT: "<SENTENCE><loc>ALLEMAGNE</loc> Retiré des affaires .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>De <loc>Magdebourg</loc> , on signale la mort de <pers>Paul Reindel</pers> , ancien exécuteur des hautes œuvres pour la <org>Prusse occidentale</org> . Depuis cinq ans , il s ' était retiré des « affaires » et , dans le village de la banlieue où il jouissait de sa retraite , nul n ' a soupçonné jusqu ' au dernier jour que « <pers>M . Paul</pers> » , un homme à l ' aspect vénérable et fanatique pêcheur à la ligne , était un ancien bourreau .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Reindel, dans le coUris de son ' existence officielle, a expédié soixante - seize né.</SENTENCE>"
+OUTPUT: "<SENTENCE>Reindel, dans le coUris de son ' <TIME>existence officielle</TIME>, a expédié soixante - seize né.</SENTENCE>"
+########
+ The input sentence appears to be a random sequence of characters and does not contain any meaningful named entities to be identified. Therefore, the output would be the same as the input.
+
+<SENTENCE>dM _ l ' _ aufee _ mflftdft U • « . _ _ _ mit » fiflr ooffig âV » la _ blselie é .</SENTENCE>
+########
+ INPUT: "<SENTENCE>le billot, ufi mode d'exécution qui n'est plus guère employé en Allemagne que par les bourreaux de Bréslau.</SENTENCE>"
+OUTPUT: "<SENTENCE>le billot, <HumanProd>ufi</HumanProd> mode d'exécution qui n'est plus guère employé <loc>en Allemagne</loc> que par les <pers>bourreaux</pers> de <loc>Bréslau</loc>.</SENTENCE>"
+########
+ "<SENTENCE>_ Piappi les pliante <HumanProd>fameux de Reindel</HumanProd> _ figurjal la femme _ JVie & e , l ' horrible mégère de Hambour <loc>g</loc> , qui assassina une vingtaine d ' enfents confiés à <pers>jes ses soins mercenaires</pers> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>" <pers>Ce fut lui également</pers> qui exécuta <pers>Mailau</pers> , cet <org>employé de la ville d ' Altona</org> , qui avait assassiné un <org>facteur des postes</org> pour le dépouiller , et qui tua à coups de revolver deux <pers>agents</pers> venus pour _ , l ' arrêter .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>RUSSIE A l'assaut des roubles.</SENTENCE>"
+OUTPUT: "<SENTENCE><LOC>RUSSIE</LOC> A l'assaut des roubles.</SENTENCE>"
+
+Explanation:
+"RUSSIE" is identified as a LOCATION (loc) because it is a country name. The other words in the sentence do not correspond to any of the other named entity types, so they are not annotated.
+########
+ INPUT: "<SENTENCE>On donne les détails suivante sur l'aïfcajque' du train - poste de Bosdani : Quelques instants avant l'arrivée du train, ; une vingtaine, de jeunes gens firent irruption dans la gare.</SENTENCE>"
+OUTPUT: "<SENTENCE>On donne les détails suivante sur <HumanProd>l'aïfcajque'</HumanProd> du <org>train - poste</org> de <loc>Bosdani</loc> : Quelques instants avant l'arrivée du <HumanProd>train</HumanProd>, ; une vingtaine, de <pers>jeunes gens</pers> firent irruption dans la <loc>gare</loc>.</SENTENCE>"
+########
+ INPUT: "<SENTENCE>En quelques minutes , le gendarme d e garde dans la gare fut tué , tout le personnel | ait prisonnier , les communications télégraphiques coupées .</SENTENCE>"
+OUTPUT: "<SENTENCE>En quelques minutes , le <pers>gendarme d e garde</pers> dans la gare fut tué , tout le <pers>personnel</pers> | ait prisonnier , les communications télégraphiques coupées .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Lorsque le train parut , plusieurs bombes furent lancées sur ! les rails , ce qui le força à faire halte .</SENTENCE>"
+OUTPUT: "<SENTENCE>Lorsque le <HumanProd>train</HumanProd> parut , plusieurs bombes furent lancées sur ! les <loc>rails</loc> , ce qui le força à faire halte .</SENTENCE>"
+########
+ <SENTENCE>Quatre <pers>soldats</pers> et deux <pers>gardes - champêtres</pers> , qui accompagnaient le wagon - poste , sautèrent à bas du train .</SENTENCE>
+########
+ INPUT: "<SENTENCE>Quatre d'entre eux furent immédiatement tués à coups de feu, les deux autres se rendirent.</SENTENCE>"
+OUTPUT: "<SENTENCE>Quatre d'<pers>entre eux</pers> furent immédiatement tués à coups de feu, les deux autres se rendirent.</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Les brigands contraignirent les employés de la poste à leur livrer les paquets de valeur , au sujet desquels ils possédaient évidemment les renseignements les plus précis .</SENTENCE>"
+OUTPUT: "<SENTENCE>Les <pers>brigands</pers> contraignirent les <org>employés de la poste</org> à leur livrer les <HumanProd>paquets de valeur</HumanProd> , au sujet desquels ils possédaient évidemment les renseignements les plus précis .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Pendant ce temps le train était bombardé continuellement à l ' aide de pistolets Browning et de fusils Mauseï ; .</SENTENCE>"
+OUTPUT: "<SENTENCE>Pendant ce temps le train était bombardé continuellement à l ' aide de <prod>pistolets Browning</prod> et de <prod>fusils Mauseï</prod> ; .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Dans le wagon de première classe , toutes les vitres furent brisées ; les voyageurs n'osaient pas bouger ; plusieurs d'entre eux furent blessés , mais légèrement .</SENTENCE>"
+OUTPUT: "<SENTENCE>Dans le <loc>wagon de première classe</loc> , toutes les vitres furent brisées ; les <pers>voyageurs</pers> n'osaient pas bouger ; plusieurs d'entre eux furent blessés , mais <time>légèrement</time> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Pour augmenter l'effet de terreur, les bandits avaient semé de _ pétards les rails ; toute la gare était remplie de fumée.</SENTENCE>"
+OUTPUT: "<SENTENCE>Pour augmenter l'effet de terreur, les <pers>bandits</pers> avait semé de <HumanProd>pétards</HumanProd> les rails ; toute la <loc>gare</loc> était remplie de fumée.</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Toute l'affaire dura à peine ( trois quarts d'heure .</SENTENCE>"
+OUTPUT: "<SENTENCE>Toute <time>l'affaire</time> dura à peine ( trois quarts d'<time>heure</time> .</SENTENCE>"
+########
+ "<SENTENCE>Trente - neuf des .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>malfaiteurs ont été rêtés à Vilna .</SENTENCE>"
+OUTPUT: "<SENTENCE>malfaiteurs ont été <pers>rêtés</pers> à <loc>Vilna</loc> .</SENTENCE>"
+
+In this sentence, "malfaiteurs" are considered as persons, as they refer to individuals. "rêtés" is a past participle of the verb "arrêter" which means "to arrest" in English, so it is classified as a person. "Vilna" is a city in Lithuania, so it is classified as a location.
+########
+ <SENTENCE>La plupart d'entre eux portaient l'<org>uniforme des employés de chemins de fer</org>. </SENTENCE>
+########
+ INPUT: "<SENTENCE>JJn des chefs de la bande a essayé de tuer <pers>_</pers> , le gendarme qui l ' arrêtait , mais oe dernier parvint à lui arracher son revolver .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Parmi les objets qui se trouvaient dans le train , il y avait des billets lie crédit , au .</SENTENCE>"
+OUTPUT: "<SENTENCE>Parmi les objets qui se trouvaient dans le train , il y avait des <HumanProd>billets lie crédit</HumanProd> , au .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>montant de 1,800,000 roubles .</SENTENCE>"
+OUTPUT: "<SENTENCE>montant de 1,800,000 <cur>roubles</cur> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Les valeurs n ' ont pas été touchées , non plus que l ' argent monnayé .</SENTENCE>"
+OUTPUT: "<SENTENCE>Les <HumanProd>valeurs</HumanProd> n ' ont pas été touchées , non plus que l ' argent <HumanProd>monnayé</HumanProd> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Le montant total du vol est encore jnconnu.</SENTENCE>"
+OUTPUT: "<SENTENCE>Le montant total du <HumanProd>vol</HumanProd> est encore jnconnu.</SENTENCE>"
+########
+ INPUT: "<SENTENCE>On croit qu'il est de 250,000 francs.</SENTENCE>"
+OUTPUT: "<SENTENCE>On croit qu'il est de <HumanProd>250,000 francs</HumanProd>.</SENTENCE>"
+########
+ <SENTENCE>, <PER>Six Tcharkesses</PER>, qui s'étaient introduits dans le bureau de poste de <LOC>Soboline</LOC> pendant que leurs compagnons le cernaient et tiraient des coups de feu, ont volé de l'or qui avait été apporté par les employés des établissements où on lave ce métal et qui avait une valeur de plus de 23,000 roubles.</SENTENCE>
+########
+ INPUT: "<SENTENCE>Ils ont ( pris eu outre 50,000 roubles en espèces .</SENTENCE>"
+OUTPUT: "<SENTENCE>Ils ont ( pris eu outre <HumanProd>50,000 roubles</HumanProd> en espèces .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Quand on a le choléra.</SENTENCE>"
+OUTPUT: "<SENTENCE>Quand on a le choléra.</SENTENCE>"
+
+No named entities were found in this sentence as it only contains a disease name, which is not annotated according to the guidelines provided.
+########
+ INPUT: "<SENTENCE>Le premier symptôme du choléra consiste dans la diarrhée Elle ne s ' accompagne d ' aucune colique .</SENTENCE>"
+OUTPUT: "<SENTENCE>Le premier symptôme du <HumanProd>choléra</HumanProd> consiste dans la diarrhée Elle ne s ' accompagne d ' aucune colique .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Le malade se trouve seulement très abattu .</SENTENCE>"
+OUTPUT: "<SENTENCE>Le malade se trouve seulement très abattu .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Au bout de quelques heures , la diarrhée devient continuelle .</SENTENCE>"
+OUTPUT: "<SENTENCE>Au bout de quelques heures , <HumanProd>la diarrhée</HumanProd> devient continuelle .</SENTENCE>"
+
+The input sentence contains the term "diarrhée", which is a disease. According to the guidelines provided, names of diseases should not be annotated. However, the term "diarrhée" is used in a context that implies human production, specifically a symptom of a medical condition. Therefore, it should be annotated as HumanProd.
+########
+ INPUT: "<SENTENCE>Au milieu du liquide incolore se montrent des flocons blanchâtres ressemblant à du riz .</SENTENCE>"
+OUTPUT: "<SENTENCE>Au milieu du <HumanProd>liquide incolore</HumanProd> se montrent des flocons <HumanProd>blanchâtres</HumanProd> ressemblant à du riz .</SENTENCE>"
+
+In this sentence, there are no named entities that match the provided categories. The white, rice-like particles and the colorless liquid described could be considered as scientific terms, but they are not explicitly named entities. Therefore, they are classified as human production, which is a catch-all category for entities that don't fit into the other categories.
+########
+ INPUT: "<SENTENCE>Des vomissements apparaissent.</SENTENCE>"
+OUTPUT: "<SENTENCE>Des vomissements apparaissent.</SENTENCE>"
+########
+ INPUT: "<SENTENCE>La soif est intense , l ' abdomen se creuse ; l ' amaigrissement se produit presque à vue d ' œil .</SENTENCE>"
+OUTPUT: "<SENTENCE>La soif est intense , l ' abdomen se creuse ; l ' <HumanProd>amaigrissement</HumanProd> se produit presque à vue d ' œil .</SENTENCE>"
+
+In this sentence, "amaigrissement" is a human production because it is a term used in the medical field to describe a condition or a process related to human health.
+########
+ INPUT: "<SENTENCE>lies extrémités se refroidissent rapidement Le malade gouffre peu , si ce n ' est de crampes dans les membres .</SENTENCE>"
+OUTPUT: "<SENTENCE>lies extrémités se refroidissent rapidement Le malade gouffre peu , si ce n ' est de crampes dans les membres .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Le thermomètre accuse une très haute température à l'intérieur du corps, tandis que la peau, au contraire, est glacée.</SENTENCE>"
+OUTPUT: "<SENTENCE>Le thermomètre accuses une <time>très haute température</time> à l'intérieur du corps, tandis que la peau, au contraire, est glacée.</SENTENCE>"
+
+The sentence you provided does not contain any named entities that match the types you specified (PERSON, ORGANISATION, PRODUCTION, TIME, or LOCATION). However, I have identified a time entity in the sentence, which is the measurement of temperature. I have marked it as a time entity because temperature is a measurable quantity and can be considered as a value on a scale, which is one of the characteristics of time.
+########
+ <SENTENCE>La respiration devient pénible.</SENTENCE>
+########
+ INPUT: "<SENTENCE>Le malade tombe dans le coma.</SENTENCE>"
+OUTPUT: "<SENTENCE>Le malade tombe dans le <time>coma</time>.</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Enfin la mort survient après un délai variant de quatre à quarante - huit heures .</SENTENCE>"
+OUTPUT: "<SENTENCE>Enfin la <time>mort</time> survient après un délai variant de <time>quatre</time> à <time>quarante - huit heures</time> .</SENTENCE>"
+########
+ "<SENTENCE><loc>ANGLETERRE</loc> Bavardage et mariage.</SENTENCE>"
+########
+ "<SENTENCE><HumanProd>Un journal</HumanProd></SENTENCE>"
+########
+ INPUT: "<SENTENCE>anglais, le « Daily <HumanProd>Express</HumanProd> » , publie les résultats [ d' une enquête amusante sur , la question suivante.</SENTENCE>"
+OUTPUT: "<SENTENCE>anglais, le « <HumanProd>Daily Express</HumanProd> » , publie les résultats [ d' une enquête amusante sur , la question suivante.</SENTENCE>"
+########
+ INPUT: "<SENTENCE>: « Pourquoi y a - t - il tant de mariages qui tournent mal ?</SENTENCE>"
+OUTPUT: "<SENTENCE>: « Pourquoi y a - t - il tant de <HumanProd>mariages</HumanProd> qui tournent mal ?</SENTENCE>"
+########
+ INPUT: "<SENTENCE>The Beatles, an English rock band, released their album 'Sgt. Pepper's Lonely Hearts Club Band' in 1967.</SENTENCE>"
+OUTPUT: "<SENTENCE>The <pers>Beatles</pers>, <org>an English rock band</org>, released their album '<HumanProd>Sgt. Pepper's Lonely Hearts Club Band</HumanProd>' in <time>1967</time>.</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Et savez - vous une des raisons principales , ?</SENTENCE>"
+OUTPUT: "<SENTENCE>Et savez - vous une des <HumanProd>raisons principales</HumanProd> , ?</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Devinez , : le .</SENTENCE>"
+OUTPUT: "<SENTENCE>Devinez , : le .</SENTENCE>"
+########
+ <SENTENCE>bavardage de la <pers>conjointe</pers> .</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>Les <pers>femmes</pers> parlent trop — <loc>en Angleterre</loc> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Elles assomment leur mari en le tenant au courant des _ pulle et deux détails du ménage ; elles sont ibi , en ennuyeuses .</SENTENCE>"
+OUTPUT: "<SENTENCE>Elles assomment leur <pers>mari</pers> en le tenant au courant des _ pulle et deux détails du ménage ; elles sont ibi , en ennuyeuses .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Le mari, qui ne trouve pas chez lui le repos espéré s'en va au club.</SENTENCE>"
+OUTPUT: "<SENTENCE>Le <pers>mari</pers>, qui ne trouve pas chez lui le repos espéré s'en va au <loc>club</loc>.</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Et , de fil en aiguille , arrive l ' éloignement , l ' inimité , la désunion , le divorce .</SENTENCE>"
+OUTPUT: "<SENTENCE>Et , de fil en aiguille , arrive l ' <time>éloignement</time> , l ' <time>inimité</time> , la <time>désunion</time> , le <time>divorce</time> .</SENTENCE>"
+
+In this example, I have identified the entities related to time, as the input guidelines mention that time expressions should be annotated. The words "éloignement", "inimité", "désunion", and "divorce" are all related to time, as they refer to the progression of a relationship or situation over time. Therefore, I have annotated them as time entities.
+########
+ "<SENTENCE>\ Il semble qu ' il .</SENTENCE>"
+########
+ "<SENTENCE>y ait pas mal d ' ...</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Anglaises sur le continent , _ ^ et nous souhaiterions qu ' elles lussent ces dignes , pour qu ' elles _ apprissent à » sie .</SENTENCE>"
+OUTPUT: "<SENTENCE>Anglaises sur le continent , _ ^ et nous souhaiterions qu ' elles lussent ces dignes , pour qu ' elles _ apprissent à » sie .</SENTENCE>" (No named entities found)
+########
+ INPUT: "<SENTENCE>taire aux heures où il est séant de ne point parier . . .</SENTENCE>"
+OUTPUT: "<SENTENCE>taire aux heures où il est séant de ne point parier . . .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>En tout cas , les résultats de l'enquête du « Daily Express » sont parus dans leur édition d'hier .</SENTENCE>"
+OUTPUT: "<SENTENCE>En tout cas , les <HumanProd>résultats de l'enquête du « Daily Express »</HumanProd> sont parus dans leur édition d'<time>hier</time> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>formels ; ils peuvent ee résumer par _ jees mots : « Ta . . . bouche ! . . . » Miags il y a des femmes — et ça se voit fréquemment T - qui p _ é _ èrar .</SENTENCE>"
+OUTPUT: "<SENTENCE>formels ; ils peuvent ee résumer par _ jees mots : « Ta . . . bouche ! . . . » Miags il y a des femmes — et ça se voit fréquemment T - qui p _ é _ èrar .</SENTENCE>"
+
+In this sentence, there are no named entities that match the provided categories (PERSON, ORGANISATION, PRODUCTION, TIME, or LOCATION).
+########
+ INPUT: "<SENTENCE>ojit le divorce au _ « l .</SENTENCE>"
+OUTPUT: "<SENTENCE>ojit le divorce au _ « l .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>_ _ ac _ _ M La vengeance du milliardaire .</SENTENCE>"
+OUTPUT: "<SENTENCE>_ _ ac _ _ M <HumanProd>La vengeance du milliardaire</HumanProd> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Une <org>banque de New-York</org> a refusé S M !</SENTENCE>"
+########
+ INPUT: "<SENTENCE>.</SENTENCE>"
+OUTPUT: "<SENTENCE>.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Pierpont <pers>Morgan</pers> , le célèbre <pers>milliarc aire américain</pers> , un <HumanProd>chèque</HumanProd> signé de lui en paiement d ' une forte somme .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Cet incident en rappelle un semblable .</SENTENCE>"
+OUTPUT: "<SENTENCE>Cet <HumanProd>incident</HumanProd> en rappelle un semblable .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Eài <time>1870</time> , le <pers>baron James de Rothschild</pers> se présentait à la <org>Banque d ' Angleterre</org> pour se venger d ' un pareÛ refus , et exigea le remboursement en or d ' une grosse liasse de billets de 1000 .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>livres.</SENTENCE>"
+OUTPUT: "<SENTENCE>livres.</SENTENCE>"
+
+In this example, there are no named entities to be identified and classified. The word "livres" is a common noun, not a named entity.
+########
+ INPUT: "<SENTENCE>Le lendemain, il recommença.</SENTENCE>"
+OUTPUT: "<SENTENCE>Le lendemain, il recommença.</SENTENCE>"
+
+Explanation:
+There are no named entities in the provided sentence that match the given types (PERSON, ORGANISATION, PRODUCTION, TIME, or LOCATION).
+########
+ INPUT: "<SENTENCE>Il avait bientôt fait sortir de la Banque la somme rondelette de 400 millions .</SENTENCE>"
+OUTPUT: "<SENTENCE>Il avait bientôt fait sortir de la <org>Banque</org> la somme rondelette de 400 millions .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>La Banque constata avec terreur la chute de ses actions .</SENTENCE>"
+OUTPUT: "<SENTENCE>La <org>Banque</org> constata avec terreur la chute de ses actions .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>diminution de son encaisse métallique et elle fit au banquier de plates excuses , lui promettant d ' accepter tous ses chèques .</SENTENCE>"
+OUTPUT: "<SENTENCE>diminution de son encaisse métallique et elle fit au <pers>banquier</pers> de plates excuses , lui promettant d ' accepter tous ses chèques .</SENTENCE>"
+########
+ <SENTENCE>Cn rfei plaisante pas avec ces messieurs .</SENTENCE>
+########
+ INPUT: "<SENTENCE>REVUE PU JOUR _ Les Allemands vont - ils entrer en Tchécoslovaquie ?</SENTENCE>"
+OUTPUT: "<SENTENCE>REVUE PU JOUR <HumanProd>Les Allemands vont - ils entrer en Tchécoslovaquie</HumanProd> ?</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Le général tchèque Sirovy ( au centre ) , qui préside le nouveau Cabinet de Prague La Chaux - de - Fonds , le 23 septembre .</SENTENCE>"
+OUTPUT: "<SENTENCE>Le <pers>général tchèque Sirovy</pers> ( au centre ) , qui préside le nouveau <org>Cabinet de Prague La Chaux - de - Fonds</org> , le <time>23 septembre</time> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>On affirmait hier à <loc>Godesberg</loc> que l'<org>entrée des troupes allemandes</org> et l'<org>occupation du territoire sudète</org> sur une profondeur de 14 km .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>auraient certainement lieu <time>dans la journée de samedi</time> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>En même temps une <HumanProd>dépêche</HumanProd> de <loc>Berlin</loc> annonçait l' <HumanProd>entrée en action</HumanProd> imminente des <org>corps francs</org> .</SENTENCE>"
+########
+ "<SENTENCE>Ainsi se développerait en marge même des conversations une situation aui les dépasserait avant <time>Qu '</time> une décision soit prise ou <time>Qu '</time> un accord soit atteint .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>C'est sans doute pourquoi de son côté Prague a pris des mesures immédiates de précaution</SENTENCE>"
+OUTPUT: "<SENTENCE>C'est sans doute pourquoi de <loc>son côté Prague</loc> a pris des mesures immédiates de précaution</SENTENCE>"
+########
+ "<SENTENCE>: 1 . Constitution d'un <org>gouvernement militaire</org> présidé par le <pers>général Sirovy</pers></SENTENCE>"
+########
+ "<SENTENCE>; 2. <TIME>Réoccupation</TIME> par <org>l' armée</org> des territoires voisins de la frontière <loc>allemande</loc>. </SENTENCE>"
+########
+ <SENTENCE>La <HumanProd>radio</HumanProd> et la <HumanProd>presse du Reich</HumanProd> invoquent il est vrai ces mesures pour prétendre que <loc>Prague</loc> n'est plus maîtresse de la situation et qu'on marche à un complet <HumanProd>drement</HumanProd> de la monnaie et de la vie économique <loc>tchèQues</loc>. </SENTENCE>
+########
+ OUTPUT: "<SENTENCE>Hitler <pers>veut</pers> précipiter les événements .</SENTENCE>"
+
+In this case, "Hitler" is the only named entity that can be identified as a PERSON. The verb "veut" is not a named entity.
+########
+ "<SENTENCE>Il s ' agit de battre le fer pendant qu ' il est chaud .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Et peut - être aussi d'éviter un brusque retournement de la situation.</SENTENCE>"
+OUTPUT: "<SENTENCE>Et peut - être aussi d'<time>éviter un brusque retournement</time> de la situation.</SENTENCE>"
+
+In this example, "brusque retournement" is annotated as a TIME entity because it refers to a point in time (a sudden change in the situation) and can be considered an absolute date. The word "brusque" is included in the entity because it has a function equivalent to a preposition, indicating when the returnnement occurs.
+########
+ INPUT: "<SENTENCE>Les entrevues de Godesberg y En effet .</SENTENCE>"
+OUTPUT: "<SENTENCE>Les <org>entrevues de Godesberg</org> y En effet .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Tout ce qu'on sait des conversations de Godesberg est singulièrement embrouillé et contradictoire.</SENTENCE>"
+OUTPUT: "<SENTENCE>Tout ce qu'on sait des <time>conversations de Godesberg</time> est singulièrement embrouillé et contradictoire.</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Selon les uns l'optimisme régnerait et les Allemands auraient dit .</SENTENCE>"
+OUTPUT: "<SENTENCE>Selon <pers>les uns</pers> l'<HumanProd>optimisme</HumanProd><TIME>régnerait</TIME> et les <org>Allemands</org> auraient dit .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>— <pers>M . Chamberlain</pers> ne rentrera pas à <loc>Londres</loc> les mains vides .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Selon les autres, le <pers>chancelier Hitler</pers> aurait refusé de signer conjointement avec le <pers>Premier anglais</pers> un appel au calme pour les populations de <loc>Tchécoslovaquie</loc>. </SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>A en croire l' <HumanProd>« Oeuvre »</HumanProd> , le <pers>Fuhrer</pers> aurait réclamé le droit de faire entrer ses troupes dès aujourd'hui vendredi en territoire sudète , sur une profondeur de 14 km .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>D ' autre part , <pers>Hitler</pers> ne donnera aucune garantie pour ce qui concerne les frontières du nouvel <org>Etat tchécoslovaques</org> si elles ne sont également garanties par les <org>Etats limitrophes</org> , Qui ont aussi des revendications à faire valoir vis - à - vis de <loc>Prague</loc> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Cela signifie que les <loc>frontières tchécoslovaques</loc> ne seront garanties Que le jour où les <pers>minorités polonaises</pers> et <pers>magyares</pers> auront été rattachées , elles aussi , à <loc>Varsovie</loc> et à <loc>Budapest</loc> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Par ailleurs nombre de <HumanProd>journaux</HumanProd> soulignent qu ' en l ' absence de tout communiqué , on nage en pleine incertitude et que la question <loc>tchécoslovaque</loc> peut rebondir d ' un instant à l ' autre aussi bien sous son aspect intérieur qu ' <loc>International</loc> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>A <loc>Londres</loc> , en effet , on estime Que si la <org>IJgation britannique</org> à <loc>Prague</loc> a fai t évacuer les femmes et les enfants , cela veut dire qu ' il ne serait pas prudent d ' écarter l ' éventualité <time>mie les 25 divisions allemandes</time> massées autour de la frontière , reçoivent l ' ordre de passer en territoire <loc>tchécoslovaque</loc> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Dans ce cas un des plans de l'état-majор allemand prévoit l'occupation de Prague afin d'imposer un gouvernement tchèque composé de personnalités sympathiques au régime et à la nhilosonhie nationale-socialiste.</SENTENCE>"
+OUTPUT: "<SENTENCE>Dans ce cas un des <org>plans de l'état-majор allemand</org> prévoit l'occupation de <loc>Prague</loc> afin d'imposer un gouvernement <org>tchèque</org> composé de personnalités sympathiques au régime et à la <doctrine>nhilosonhie nationale-socialiste</doctrine>.</SENTENCE>"
+########
+ "<SENTENCE>De son côté .</SENTENCE>"
+########
+ <SENTENCE>l ' <TIME>"Epoque"</TIME> répliQue : « . Est - ce qu ' on abandonne un petit peuple allié que la nature avait placé à l ' un des points stratégiques de l ' Europe ? Est - ce que<TIME>on</TIME> livre sans combat une forteresse naturelle , défendue par 500,000 soldats <HumanProd>héroïques</HumanProd> et la seule plate - forme aérienne d ' où l ' on puisse répondre sur Berlin , sur Vienne , sur Breslau . sur Trieste aux coups que pourrait recevoir Paris ? Est - ce Que l ' on renie mille ans de notre histoire héroïque ? Est - ce qu ' on livre l ' Europe à l ' Allemagne quand le <pers>chef</pers> le plus haut placé de l ' armée française vient de dire au ministre des affaires étrangères sa confiance dans la victoire pour le cas où la guerre éclaterait ? » Enfin le <HumanProd>"Journal"</HumanProd> apporte l ' écho inattendu d ' une rivalité <HumanProd>talo - allemande</HumanProd> .</SENTENCE>
+########
+ "<SENTENCE>Les <pers>Polonais</pers> et les <pers>Hongrois</pers> seraient soutenus par <loc>Rome</loc> qui rêve de constituer avec eux une alliance pour contenir les <pers>Allemands</pers>. </SENTENCE>"
+########
+ INPUT: "<SENTENCE>Par contre , le Reich veut maintenir la Tchécoslovaquie entière sous son influence pour garder le contact avec la Roumanie , son blé .</SENTENCE>"
+OUTPUT: "<SENTENCE>Par contre , le <org>Reich</org> veut maintenir la <loc>Tchécoslovaquie</loc> entière sous son influence pour garder le contact avec la <loc>Roumanie</loc> , son <HumanProd>blé</HumanProd> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>ses pétroles . . .</SENTENCE>"
+OUTPUT: "<SENTENCE>ses <HumanProd>pétroles</HumanProd> . . .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Ainsi la politique d ' équilibre renaîtrait au moment où on la croit disparue . . .</SENTENCE>"
+OUTPUT: "<SENTENCE>Ainsi la <HumanProd>politique d ' équilibre</HumanProd> renaîtrait au moment où on la croit disparue . . .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Tels sont les aspects plutôt troubles et incertains qui se dégagent à la fois des négociations défendues par le huis - clos et des faits que chaque agence raconte à sa manière . . .</SENTENCE>"
+OUTPUT: "<SENTENCE>Tels sont les aspects plutôt troubles et incertains qui se dégagent à la fois des négociations défendues par <time>le huis - clos</time> et des faits que chaque agence raconte à sa manière . . .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>P .</SENTENCE>"
+OUTPUT: "<SENTENCE>P .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>.</SENTENCE>"
+OUTPUT: "<SENTENCE>.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Bienvenue à <pers>M . Paul CHAUDET</pers>, Conseiller fédéral. JTour célébrer, comme il en a la coutume, l'anniversaire de la <loc>blique neuchâteloise</loc>, c'est à un <pers>Vaudois de bonne souche</pers> que le "<loc>Cërcîè ~ </loc>" --- .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Sapin a fait , cette année , appel .</SENTENCE>"
+OUTPUT: "<SENTENCE><pers>Sapin</pers> a fait , cette année , appel .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>M <pers>Paul Chaudet</pers> sera en effet , ce soir , l ' orateur officiel du <org>Cercle</org> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Ce n ' est pas la première fois qu ' un conseiller fédéral est l ' hôte du Sapin .</SENTENCE>"
+OUTPUT: "<SENTENCE>Ce n ' est pas la première fois qu ' <pers>un conseiller fédéral</pers> est l ' hôte du <loc>Sapin</loc> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Qui parcourt son livre d ' or y trouve la signature de plusieurs de <pers>nos hommes d ' Etat</pers> , de <pers>Giuseppe Motta</pers> à <pers>Rodolphe Rubattel</pers> , d ' <pers>Edmond Schulthess</pers> à <pers>Max _ Petitnierre</pers> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Devant un <loc>auditoire</loc> qui se réjouit de l'<pers>entendre</pers> , <pers>M . Paul Chaudet</pers> abordera quelques - uns des nombreux problèmes qui se posent , à l'<time>heure actuelle</time> , au <org>Département militaire fédéral</org> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Il les traitera avec ce sens aigu des responsabilités qui est le sien , avec cette recherche dé ^ ' objectivité , aussi dont il fait montre dans chacune de ses interventions .</SENTENCE>"
+OUTPUT: "<SENTENCE>Il les traitera avec ce sens aigu des responsabilités qui est le sien , avec cette recherche dé ^ ' objectivité , aussi dont il fait montre dans chacune de ses <HumanProd>interventions</HumanProd> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Sans vouloir se dissimuler à lui - même , ni cacher à ceux qui l ' écoutent les difficultés qu ' il rencontre sur sa route , M . Chaudet dira , avec la conviction qui le caractérise , les raisons profondes que le peuple suisse a de poursuivre son effort — souvent mal compris — pour la défense nationale .</SENTENCE>"
+OUTPUT: "<SENTENCE>Sans vouloir se dissimuler à lui - même , ni cacher à ceux qui l ' écoutent les difficultés qu ' <pers>il</pers> rencontre sur sa route , <pers>M . Chaudet</pers> dira , avec la conviction qui le caractérise , les raisons profondes que le <loc>peuple suisse</loc> a de poursuivre son effort — souvent mal compris — pour la <org>défense nationale</org> .</SENTENCE>"
+########
+ "<SENTENCE>Nous nous permettons de souhaiter au <pers>Conseiller fédéral Chaudet</pers> une respectueuse mais cordiale bienvenue à <loc>La Chaux - de - Fonds</loc> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Nous osons espérer qu ' il passera quelques agréables instants dans notre <loc>ville</loc> , qu ' il connaît déjà pour y avoir prononcé — on s ' en souvient — une remarquable allocution , le <time>1 août 1956</time> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Nul doute que ce soir , ils seront nombreux ceux qui voudront entendre le <pers>chef du Département militaire fédéral</pers> — qu'<TIME>accompagneront</TIME> le <pers>Conseiller d'Etat et aux Etats Jean - Louis Barrelet</pers> et <pers>M . Jules Favre</pers> , <org>vice - président de l'ANEP</org> — et lui prouver , par leur présence , leur confiance dans notre <org>gouvernement fédéral</org> .</SENTENCE>"
+########
+ "<SENTENCE><HumanProd>« L' IMPARTIAL »</HumanProd></SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Marie - Laure et <pers>Virginie</pers> libérées <TIME>Plus d'un an après</TIME> avoir été enlevées en Méditerranée avec leur mère <pers>Jacqueline Valente</pers> et cinq Belges par le groupe palestinien dissident <org>Fatah - CR d'Abou Nidal</org> , deux petites <loc>Françaises</loc> , <pers>Marie - Laure</pers> et <pers>Virginie</pers> , âgées de 7 et 5 ans , ont retrouvé la liberté hier .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Les deux fillettes , après avoir été libérées par leurs ravisseurs hier à <loc>Benghazi</loc> ( <loc>Libye</loc> ) , ont été remises le jour même à leur père <pers>Pascal Bétille</pers> à <loc>Tripoli</loc> , où les attendait également l' <pers>ambassadeur français Léon Bouvier</pers> , avant d' être rapatriées .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Elles sont arrivées en <loc>France</loc> hier soir par avion spécial qui s' est posé sur la base militaire d' <loc>Istres</loc> .</SENTENCE>"
+########
+ <SENTENCE>Selon <org>l' agence de presse libyenne Jana</org> , les deux enfants sont « en bonne santé » .</SENTENCE>
+########
+ INPUT: "<SENTENCE>Leur libération intervient après un suspense de six jours au cours desquels les promesses contradictoires des ravisseurs s'étaient multipliées, portant l'angoisse de la famille au paroxysme.</SENTENCE>"
+OUTPUT: "<SENTENCE>Leur libération intervient après un <time>six jours</time> au cours desquels les promesses contradictoires des <org>ravisseurs</org> s'étaient multipliées, portant l'angoisse de la <pers>famille</pers> au <time>paroxysme</time>.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>M <pers>Bouvier</pers> et M <pers>Bétille</pers> ( exmari de <pers>Jacqueline Valente</pers> ) se trouvaient depuis mercredi à <loc>Tripoli</loc> , où avaient également atterri deux avions du gouvernement <org>français</org> avec à bord une infirmière et des responsables du <HumanProd>espionnage</HumanProd> <org>français</org> , dont <pers>Jean - Charles Marchiani</pers> , qui participa dans le passé aux tractations ayant abouti à la libération d ' autres otages <pers>français</pers> au Liban .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>APPEL DE <pers>KADHAFI</pers> Le groupe Abou Nidal avait annoncé samedi dernier à Beyrouth la libération imminente des deux fillettes , à l ' appel du dirigeant libyen <pers>Mouammar Kadhafi</pers> , pour ensuite laisser durer le suspense .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>La grand-mère de <pers>Marie-Laure</pers> et <pers>Virginie</pers> , <pers>Mme Brigitte Valente</pers> , ainsi que leur père , <pers>M . Pascal Bétille</pers> , s'étaient déplacés samedi à <loc>Beyrouth</loc> dans l'attente de la libération , mais avaient dû rentrer en France lundi sans qu'elle se soit produite , ( <source>ats</source> , <source>afp</source> )</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Proche - <loc>Orient</loc> Les pourparlers font chou blanc Le processus de paix au <loc>Proche - Orient</loc> reste dans l'impasse.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Le <pers>président palestinien</pers> , <pers>Yasser Arafat</pers> , a annoncé hier la fin des pourparlers entamés avec Israël.</SENTENCE>"
+########
+ "<SENTENCE>Autre obstacle à la paix : le <org>parlement israélien</org> a adopté une proposition de loi rejetant toute concession sur la question de la restitution du <loc>Golan</loc> à la <loc>Syrie</loc> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>« Les <time>rencontres bilatérales</time> sont terminées » , a lancé <pers>Yasser Arafat</pers> aux journalistes à <loc>Gaza</loc> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Israéliens et <org>Palestiniens</org> ont tenu depuis <time>dimanche</time> trois rencontres bilatérales , les premières depuis plus de deux mois .</SENTENCE>"
+########
+ <SENTENCE>Israël a affirmé que certains progrès ont été réalisés sur la question clé d' <loc>un retrait partiel de Cisjordanie</loc> .</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>Mais les <pers>Palestiniens</pers> ont aussitôt démenti : « La partie <pers>israélienne</pers> a réitéré ses positions précédentes et n ' a rien apporté de nouveau » , a ainsi déclaré le porte - parole de <pers>Yasser Arafat</pers> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Pour tenter une nouvelle fois de débloquer le processus de paix , dans <loc>l'impasse</loc> depuis seize mois , <org>Washington</org> a proposé une évacuation de 13,1 % de la <loc>Cisjordanie</loc> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Les Israéliens ont refusé.</SENTENCE>"
+OUTPUT: "<SENTENCE>Les <pers>Israéliens</pers> ont refusé.</SENTENCE>"
+########
+ <SENTENCE>Les <pers>Palestiniens</pers> l ' ont acceptée. </SENTENCE>
+########
+ INPUT: "<SENTENCE>La situation est également bloquée avec la Syrie , / afp - reuter</SENTENCE>"
+OUTPUT: "<SENTENCE>La situation est également bloquée avec la <org>Syrie</org> , / <HumanProd>afp - reuter</HumanProd></SENTENCE>"
+########
+ <SENTENCE>Stéphane <pers>Joly</pers> jette l'éponge <HumanProd>ATHLÉTISME</HumanProd> Reconverti sur la distance des 42,195 km, le triple champion de Suisse de cross <pers>Stéphane Joly</pers> a joué son va-tout au marathon de <loc>Hambourg</loc>. </SENTENCE>
+########
+ OUTPUT: "<SENTENCE>Tentant d ’ accrocher la limite pour les <loc>Jeux olympiques de Pékin</loc> ( 2 h 13 ’ 30 ) , le <loc>Jurassien</loc> du <org>Stade Genève</org> est parti très fort ( 1 h 06 ’ 03 au semi ) , avant de jeter l ’ éponge après le 35 e km .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Le citoyen des Breuleux était encore parfaitement dans les temps au 30 e ( 1 h 34 ’ 26 ) , puis il a baissé pavillon .</SENTENCE>"
+OUTPUT: "<SENTENCE>Le citoyen des <loc>Breuleux</loc> était encore parfaitement dans les temps au 30 e ( 1 h 34 ’ 26 ) , puis il a baissé pavillon .</SENTENCE>"
+########
+ <SENTENCE>S ’ il n’est pas arrivé à ses fins, reste que son temps de passage à mi - course est d’une minute et demie inférieur au <HumanProd>chrono</HumanProd> qui a permis récemment à <pers>Patrick Wieser</pers> de devenir <HumanProd>champion de Suisse</HumanProd> de semi - marathon !</SENTENCE>
+########
+ <SENTENCE>La course, qui a attiré 23 000 participants, a été gagnée par le <pers>Kényan Daid Mandago</pers> en <time>2 h 07 ’ 23</time>, devant son compatriote <pers>Wilfred Kigen</pers> à 25 ’ ’ .</SENTENCE>
+########
+ <SENTENCE>Chez les dames, la <pers>Russe Irina Timofeeva</pers> a établi un nouveau <HumanProd>record du parcours</HumanProd> en <time>2 h 24 ’ 14</time>, laissant la <pers>Kényane Pamela Chepchumba</pers> à plus d’un kilomètre.</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>Le <pers>Kényan Abel Kirui</pers> a pour sa part remporté le <HumanProd>marathon de Vienne</HumanProd> en <time>2 h 07 ’ 38</time> ( record de l’épreuve ) , devant ses compatriotes <pers>Duncan Kibet</pers> et <pers>Paul Biwott</pers> .</SENTENCE>"
+########
+ <SENTENCE>La <loc>Roumaine</loc> <pers>Luminata Talpos</pers> ( 2 h 26 ’ 43 ) s ’ est montrée la plus rapide chez les dames .</SENTENCE>
+########
+ "<SENTENCE>/ <pers>STÉPHANE JOLY</pers> Essayé pas pu .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>( ARCHIVES )</SENTENCE>"
+OUTPUT: "<SENTENCE>( <HumanProd>ARCHIVES</HumanProd> )</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Une solution pour tout le <loc>système bancaire suisse</loc> , selon la <org>Banque nationale suisse</org> ( <org>BNS</org> ) <SENTENCE>Le plan de soutien à l ’ <org>UBS</org> annoncé hier permet non seulement de renforcer la grande banque mais aussi de solidifier tout le <loc>système bancaire suisse</loc> , explique la <org>Banque nationale suisse</org> ( <org>BNS</org> ) .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>L '<org>UBS</org>' représente à elle seule un tiers des opérations interbancaires du pays .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>L <ORG>UBS</ORG> est , en tant que contrepartie , une pièce essentielle du système bancaire suisse .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>En tenant compte du <org>Credit Suisse (CS)</org> , la part des deux grandes banques aux opérations interbancaires suisses dépasse les 50% , a expliqué le vice - président de la <org>BNS</org> hier à Berne devant la presse .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>« Il était de ce fait aussi important que le CS annonce parallèlement un net renforcement de ses fonds propres » , a ajouté <pers>Philippe Hildebrand</pers> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Avec les mesures annoncées de part et d'autre, les deux grandes banques suisses sont aujourd'hui dans une situation « très confortable ».</SENTENCE>"
+OUTPUT: "<SENTENCE>Avec les mesures annoncées de <org>part et d'autre</org>, les deux <org>grandes banques suisses</org> sont aujourd'hui dans une situation « très confortable ».</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Si le système est solide , la confiance est rétablie .</SENTENCE>"
+OUTPUT: "<SENTENCE>Si le <HumanProd>système</HumanProd> est solide , la confiance est rétablie .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Cela permet aux <org>autres banques</org> , notamment celles qui ont un afflux de liquidités , comme les <org>banques cantonales</org> , de reprendre part au marché interbancaire , a expliqué le numéro 2 de la <org>BNS</org> .</SENTENCE>"
+########
+ "<SENTENCE>Autrement dit, l' <org>UBS</org> opération de soutien est moins « une solution pour une banque » qu' une « solution à un problème du système » bancaire dans son ensemble .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>A la question de savoir si la <loc>Suisse</loc> était en train de suivre l '<loc>Islande</loc>' , <pers>Jean - Pierre Roth</pers> , président de la <org>BNS</org> , a répondu avec un brin d '</span><HUMANProd>ironie</HUMANProd><span>' que la situation <loc>suisse</loc> n '</span><TIME>aucun</TIME><span> cas comparable , « si ce que la <loc>Suisse</loc> est aussi une île » à un certain degré .</SENTENCE>"
+########
+ <SENTENCE>Le <org>Credit Suisse</org> a renoncé à l'aide de l'Etat.</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>Mais la <org>BNS</org> serait a priori et si nécessaire prête à l ’ aider aussi , selon <pers>Jean - Pierre Roth</pers> .</SENTENCE>"
+########
+ "<SENTENCE><pers>Nous</pers> sommes là pour toute la famille », a-t-il ajouté, en relevant que les enfants sont « tous différents ».</SENTENCE>"
+########
+ <SENTENCE>De manière plus générale, la situation des <HumanProd>marchés financiers</HumanProd> a connu un changement dramatique ces deux dernières semaines, du fait des craintes de glissement de la conjoncture mondiale dans la <time>récession</time>.</SENTENCE>
+########
+ INPUT: "<SENTENCE>« C ’ est aussi pour contrer cette tendance que la BNS a participé la semaine dernière à la baisse coordonnée , par plusieurs banques centrales , de leurs taux directeurs . » Les mesures annoncées hier sont donc préventives .</SENTENCE>"
+OUTPUT: "<SENTENCE>« C ’ est aussi pour contrer cette tendance que la <org>BNS</org> a participé la semaine dernière à la baisse coordonnée , par plusieurs banques centrales , de leurs taux directeurs . » Les mesures annoncées <time>hier</time> sont donc préventives .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Elles sont d'autant plus efficaces, selon les responsables de la BNS, «qu'il ne s'agit pas de déclarations d'intention» mais de «mesures effectives ( . . . ) avec des contrats signés».</SENTENCE>"
+OUTPUT: "<SENTENCE>Elles sont d'autant plus efficaces, <org>selon les responsables de la BNS</org>, «qu'il ne s'agit pas de déclarations d'intention» mais de «mesures effectives ( . . . ) avec des contrats signés».</SENTENCE>"
+########
+ INPUT: "<SENTENCE>/ ats</SENTENCE>"
+OUTPUT: "<SENTENCE>/ ats</SENTENCE>"
+
+Explanation:
+In this case, "ats" is not identified as any of the provided named entity types (PERSON, ORGANISATION, PRODUCTION, TIME, or LOCATION). It does not match any named entities in the non-annotated entities list either. Therefore, it remains unchanged in the output.
+########
+ "<SENTENCE><pers>Donald Trump</pers>, le président américain, s’est défendu, dimanche, de <Non-annotated entities>être raciste</Non-annotated entities> malgré ses propos sur les migrants venant d’<loc>Haïti</loc> et d’<loc>Afrique</loc>.</SENTENCE>"
+########
+ "<SENTENCE>Il a été prêt à conclure un accord pour protéger les <HumanProd>migrants</HumanProd> arrivés aux <loc>Etats-Unis</loc> quand ils étaient mineurs.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Le <pers>président des Etats-Unis</pers> était interrogé par un <pers>journaliste</pers> en <loc>Floride</loc> , après le tollé suscité par ses propos tenus jeudi dernier , lors d ’ une réunion à huis clos avec des <org>parlementaires</org> .</SENTENCE>"
+########
+ <SENTENCE>Il avait qualifié les <loc>pays africains</loc> et <loc>Haïti</loc> , dont proviennent des immigrants , de <HumanProd>« pays de merde »</HumanProd> , selon un <pers>sénateur présent</pers> .</SENTENCE>
+########
+ <SENTENCE>"<pers>Donald Trump</pers>" a déclaré dimanche : « Non , je ne suis pas raciste . Je suis la personne la moins raciste que vous ayez jamais interviewée » .</SENTENCE>
+########
+ INPUT: "<SENTENCE>« Rétractation » exigée Les propos du 45 e président des Etats - Unis ont provoqué une vague d ’ indignation mondiale .</SENTENCE>"
+OUTPUT: "<SENTENCE><TIME>45 e</TIME> <PERSON>président</PERSON> des <ORGANISATION>Etats - Unis</ORGANISATION> a provoqué une vague d ’ indignation mondiale.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>D '<org>ONU</org>' une même voix , dans un langage d'une rare dureté , les <loc>54 ambassadeurs</loc> du <org>groupe africain</org> à l'<org>ONU</org> ont condamné des « remarques scandaleuses , racistes et xénophobes » et ont exigé une « rétractation » .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Le <loc>Sénégal</loc> et le <loc>Botswana</loc> ont convoqué chacun l’<org>ambassadeur américain</org>.</SENTENCE>"
+########
+ "<SENTENCE>Le <org>gouvernement haïtien</org> a lui dénoncé des propos « odieux et abjects » qui , s'ils étaient avérés , seraient à tous égards « inacceptables , car ils refléteraient une vision simpliste et raciste » .</SENTENCE>"
+########
+I've process 242 phrases!

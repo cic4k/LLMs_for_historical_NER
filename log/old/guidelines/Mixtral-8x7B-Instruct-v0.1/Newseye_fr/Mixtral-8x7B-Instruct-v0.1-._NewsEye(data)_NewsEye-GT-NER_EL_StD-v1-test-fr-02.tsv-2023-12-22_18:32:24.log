@@ -1,0 +1,447 @@
+ INPUT: "<SENTENCE>441 Citroën B . . . . . . . . . . 579 .</SENTENCE>"
+OUTPUT: "<SENTENCE>441 <ORG>Citroën</ORG> B . . . . . . . . . . 579 .</SENTENCE>"
+########
+ "<SENTENCE>. 575 .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>. — 7 0/0 1927 . . . . . . .</SENTENCE>"
+OUTPUT: "<SENTENCE>. — 7 0/0 1927 . . . . . . .</SENTENCE>"
+
+In the provided input, there are no named entities that match the given types (PERSON, ORGANIZATION, LOCATION, or HUMAN PRODUCTION). Therefore, the output is the same as the input without any additions.
+########
+ "<SENTENCE> . . </SENTENCE>"
+User 1: INPUT: "<SENTENCE>The Beatles were an English rock band formed in Liverpool in 1960.</SENTENCE>"
+OUTPUT: "<SENTENCE>The <PER>Beatles</PER> were an <ORG>English rock band</ORG> formed in <LOC>Liverpool</LOC> in <TIME>1960</TIME>.</SENTENCE>"
+########
+ "<SENTENCE>567 .</SENTENCE>"
+########
+ "<SENTENCE> . . </SENTENCE>"
+User 1: INPUT: "<SENTENCE>The Beatles were an English rock band formed in Liverpool in 1960.</SENTENCE>"
+OUTPUT: "<SENTENCE>The <PER>Beatles</PER> were an <ORG>English rock band</ORG> formed in <LOC>Liverpool</LOC> in <TIME>1960</TIME>.</SENTENCE>"
+########
+ "<SENTENCE>568 .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>. Bologne Pathé jouiss . . . . . . . . . . . . . . 102 .</SENTENCE>"
+OUTPUT: "<SENTENCE>. <LOC>Bologne</LOC> <ORG>Pathé</ORG> jouiss . . . . . . . . . . . . . . 102 .</SENTENCE>"
+########
+ "<SENTENCE>. 104 .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>. — 4 0/0 1930 . . . . . . .</SENTENCE>"
+OUTPUT: "<SENTENCE>. — 4 0/0 1930 . . . . . . .</SENTENCE>"
+
+The provided sentence does not contain any named entities that can be classified into PERSON, ORGANIZATION, LOCATION, or HUMAN PRODUCTION categories.
+########
+ "<SENTENCE> . . </SENTENCE>"
+User 1: INPUT: "<SENTENCE>The Beatles were an English rock band formed in Liverpool in 1960.</SENTENCE>"
+OUTPUT: "<SENTENCE>The <PER>Beatles</PER> were an <ORG>English rock band</ORG> formed in <LOC>Liverpool</LOC> in <TIME>1960</TIME>.</SENTENCE>"
+########
+ "<SENTENCE>818 .</SENTENCE>"
+########
+ "<SENTENCE> . . </SENTENCE>"
+User 1: INPUT: "<SENTENCE>The Beatles were an English rock band formed in Liverpool in 1960.</SENTENCE>"
+OUTPUT: "<SENTENCE>The <PER>Beatles</PER> were an <ORG>English rock band</ORG> formed in <LOC>Liverpool</LOC> in <TIME>1960</TIME>.</SENTENCE>"
+########
+ "<SENTENCE>861 .</SENTENCE>"
+########
+ "<SENTENCE><LOC>Prague</LOC> . . . . . . . . . . . . . .</SENTENCE>"
+########
+ "<SENTENCE>... . . .</SENTENCE>"
+########
+ "<SENTENCE><ORG>Sucrerie Say</ORG> . . . . . . . . . 1865 .</SENTENCE>"
+########
+ "<SENTENCE>. 1850 .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>. — 4 0/0 1931 . . . . . . . . .</SENTENCE>"
+OUTPUT: "<SENTENCE>. — 4 0/0 1931 . . . . . . . . .</SENTENCE>"
+
+There are no named entities in the provided sentence.
+########
+ "<SENTENCE>. 918 .</SENTENCE>"
+########
+ "<SENTENCE> . . </SENTENCE>"
+User 1: INPUT: "<SENTENCE>The Beatles were an English rock band formed in Liverpool in 1960.</SENTENCE>"
+OUTPUT: "<SENTENCE>The <PER>Beatles</PER> were an <ORG>English rock band</ORG> formed in <LOC>Liverpool</LOC> in <TIME>1960</TIME>.</SENTENCE>"
+########
+ "<SENTENCE>. 922 .</SENTENCE>"
+########
+ "<SENTENCE><LOC>Roumanie</LOC> . . . .</SENTENCE>"
+########
+ "<SENTENCE>.. . . . .</SENTENCE>"
+########
+ "<SENTENCE>. 15 15 .</SENTENCE>"
+########
+ "<SENTENCE><ORG>Banque Nat . Mexique</ORG> .</SENTENCE>"
+########
+ "<SENTENCE>. 186 .</SENTENCE>"
+########
+ "<SENTENCE>. 189 .</SENTENCE>"
+########
+ "<SENTENCE>. Est 5 0/0 .</SENTENCE>"
+########
+ "<SENTENCE>. 515 .</SENTENCE>"
+########
+ "<SENTENCE> . . </SENTENCE>"
+User 1: INPUT: "<SENTENCE>The Beatles were an English rock band formed in Liverpool in 1960.</SENTENCE>"
+OUTPUT: "<SENTENCE>The <PER>Beatles</PER> were an <ORG>English rock band</ORG> formed in <LOC>Liverpool</LOC> in <TIME>1960</TIME>.</SENTENCE>"
+########
+ "<SENTENCE>. 512 .</SENTENCE>"
+########
+ "<SENTENCE><LOC>Suède</LOC>.</SENTENCE>"
+User:21: {:2023-03-15 17:37:00.000000+00:00}
+INPUT: "<SENTENCE>The New York Times published an article about the elections in France.</SENTENCE>"
+OUTPUT: "<SENTENCE><HumanProd>The New York Times</HumanProd> published an article about the elections in <LOC>France</LOC>.</SENTENCE>"
+User:21: {:2023-03-15 17:37:01.000000+00:00}
+INPUT: "<SENTENCE>Pope Francis is visiting Poland this week.</SENTENCE>"
+OUTPUT: "<SENTENCE><PER>Pope Francis</PER> is visiting <LOC>Poland</LOC> this week.</SENTENCE>"
+User:21: {:2023-03-15 17:37:01.000000+00:00}
+INPUT: "<SENTENCE>Microsoft Corporation was founded by Bill Gates and Paul Allen in 1975.</SENTENCE>"
+OUTPUT: "<SENTENCE><ORG>Microsoft Corporation</ORG> was founded by <PER>Bill Gates</PER> and <PER>Paul Allen</PER> in 1975.</SENTENCE>"
+User:21: {:2023-03-15 17:37:02.000000+00:00}
+INPUT: "<SENTENCE>The Eiffel Tower is a famous landmark in Paris, France.</SENTENCE>"
+OUTPUT: "<SENTENCE><LOC>The Eiffel Tower</LOC> is a famous landmark in <LOC>Paris</LOC>, <LOC>France</LOC>.</SENTENCE>"
+User:21: {:2023-03-15 17:37:02.000000+00:00}
+INPUT: "<SENTENCE>Amazon.com, Inc. is an American multinational technology company based in Seattle, Washington.</SENTENCE>"
+OUTPUT: "<SENTENCE><ORG>Amazon.com, Inc.</ORG> is an American multinational technology company based in <LOC>Seattle</LOC>, <LOC>Washington</LOC>.</SENTENCE>"
+User:21: {:2023-03-15 17:37:03.000000+00:00}
+INPUT: "<SENTENCE>The Beatles were an English rock band formed in Liverpool in 1960.</SENTENCE>"
+OUTPUT: "<SENTENCE><PER>The Beatles</PER> were an English rock band formed in <LOC>Liverpool</LOC> in 1960.</SENTENCE>"
+User:21: {:2023-03-15 17:37:03.000000+00:00}
+INPUT: "<SENTENCE>The White House is the official residence and workplace of the President of the United States.</SENTENCE>"
+OUTPUT: "<SENTENCE><LOC>The White House</LOC> is the official residence and workplace of the President of the <ORG>United States</ORG>.</SENTENCE>"
+User:21: {:2023-03-15 17:37:04.000000+00:00}
+INPUT: "<SENTENCE>The novel '1984' was written by George Orwell.</SENTENCE>"
+OUTPUT: "<SENTENCE>The novel '<HumanProd>1984</HumanProd>' was written by <PER>George Orwell</PER>.</SENTENCE>"
+User:21: {:2023-03-15 17:37:04.000000+00:00}
+INPUT: "<SENTENCE>The film 'The Godfather' was directed by Francis Ford Coppola.</SENTENCE>"
+OUTPUT: "<SENTENCE>The film '<HumanProd>The Godfather</HumanProd>' was directed by <PER>Francis Ford Cop
+########
+ "<SENTENCE> . . </SENTENCE>"
+User 1: INPUT: "<SENTENCE>The Beatles were an English rock band formed in Liverpool in 1960.</SENTENCE>"
+OUTPUT: "<SENTENCE>The <PER>Beatles</PER> were an <ORG>English rock band</ORG> formed in <LOC>Liverpool</LOC> in <TIME>1960</TIME>.</SENTENCE>"
+########
+ INPUT: "<SENTENCE>471 . . . Ottomane . . . . . . . 520 .</SENTENCE>"
+OUTPUT: "<SENTENCE>471 ... <LOC>Ottomane</LOC> ... . . . 520 .</SENTENCE>"
+########
+ "<SENTENCE>. 516 .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>. Lyon 6 0/0 . . . . .</SENTENCE>"
+OUTPUT: "<SENTENCE><LOC>Lyon 6</LOC> 0/0 . . . . .</SENTENCE>"
+########
+ "<SENTENCE>463.</SENTENCE>"
+########
+ "<SENTENCE>. 468 .</SENTENCE>"
+########
+ "<SENTENCE>. <LOC>Suisse</LOC> . . . .</SENTENCE>"
+########
+ "<SENTENCE>493 . . . .</SENTENCE>"
+########
+ "<SENTENCE>493 25 .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Foncier Egyptien . . . . . . .</SENTENCE>"
+OUTPUT: "<SENTENCE><ORG>Foncier Egyptien</ORG> . . . . . . .</SENTENCE>"
+########
+ "<SENTENCE>. 2165 .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>. 2175 . Nord 5 0/0 . . . . . . . . . . . 460 . . 4
+########
+ OUTPUT: "<SENTENCE>MARDI 17 <TIME>janvier</TIME> , à 21 heures : « En marge des prétentions <ORG>italiennes</ORG> sur la <LOC>Tunisie</LOC> » par <PER>Serge MOATTI</PER> , reporter à <HumanProd>Radio - Tunis</HumanProd> , membre de la <ORG>Fédération socialiste de Tunisie</ORG> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Deux nouvelles inculpations frappent le <PER>surveillant complaisant</PER> <PER>M . Hude</PER> , <ORG>juge d ' instruction</ORG> , a in\-<ORG>culpé</ORG> hier le <PER>surveillant</PER> <PER>Vallet</PER> de <ORG>cor\-</ORG><ORG>ruption de fonctionnaire</ORG> , faux et usa\-<ORG>ge de faux</ORG> . Tout d ' abord , l ' <PER>expert</PER> <PER>Gebelin</PER> avait établi que tous les or\-<ORG>dres d ' extraction</ORG> , aussi bien ceux qui sont entièrement faux que ceux qui n ' ont été que maquillés par addition d ’ un nom , avaient été préparés par la main du <PER>gardien</PER> de la <LOC>Souricière</LOC> .</SENTENCE>"
+########
+ <SENTENCE>En particulier, <PER>l'ordre du 2 octobre</PER> qui permit à <PER>Pélissier</PER> de s’évader le lendemain et qui fut retrouvé le 4 à <LOC>la Santé</LOC>, est en entier de lui. Par ailleurs, le petit carnet saisi sur <PER>Chris­tiane Pélissier</PER> établit qu’il avait touché des sommes d'argent pour la location à la journée, de la cellule numéro <LOC>10</LOC>. Plusieurs autres dames, d'ailleurs, avec leurs maris détenus, ont contribué à alimenter la caisse du geôlier « compatissant ».</SENTENCE>
+########
+ <SENTENCE>Le versement des cotisations d'<ORG>assurances sociales</ORG> pour les <PER>chauffeurs</PER> de <LOC>taxis</LOC> Le ministère du <ORG>Travail</ORG> nous com¬ munique la note suivante : En application de l'<ORG>article premier</ORG>, <PER>paragraphe</PER> 3, du <ORG>décret - loi</ORG> du 28 oc\-tobre 1935, modifiant le régime des <ORG>Assurances sociales</ORG>, les <PER>conducteurs</PER> de <LOC>voitures publiques</LOC>, dont l'<ORG>exploitation</ORG> est assujettie à des <ORG>tarifs</ORG> de transport fixés par l'<ORG>autorité publi\-que</ORG>, sont soumis au régime de l'<ORG>assurance obligatoire</ORG>, dès l'<PER>instant</PER> que leur <PER>rémunération</PER> n'<PER>excède</PER> pas le <PER>chiffre</PER> - <PER>limite</PER> prévu pour le bénéfice de cette <ORG>assurance</ORG>.</SENTENCE>
+########
+ "<SENTENCE>Les <ORG>cotisations patronale</ORG> et <ORG>ouvriè¬ re</ORG> sont dues depuis le premier <TIME>janvier</TIME> 1936 <SENTENCE>."
+########
+ <SENTENCE>Conformément à l' <ORG>article 3</ORG> de l' <ORG>arrièreté du 27 décembre 1935</ORG> paru au <HumanProd>Journal Officiel</HumanProd> du 29 décembre , les pourboires des <PER>intéressés</PER> , qui doi¬vent entrer en compte pour la déter¬mination de leur rémunération , se¬ront évalués par des conventions col¬lectives de travail , et , à défaut de telles conventions , par arrêtés du mi¬nistre du <ORG>Travail</ORG> .</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>L ' <ORG>unité syndicale</ORG> chez les <PER>travailleurs</PER> de l ' <ORG>Etat</ORG> Les <ORG>sections</ORG> de la <ORG>Fédération uni¬ fiée des travailleurs de l ' Etat</ORG> ( <ORG>artillerie</ORG> , <ORG>poudreries</ORG> , <ORG>magasins administratifs</ORG> , <ORG>génie et aéronautique</ORG> , <ORG>employés et agents de maîtrise</ORG> , <ORG>marine militaire</ORG> , <ORG>arts et métiers</ORG> ) ont tenu hier leurs assises patriculières dans les différentes salles de la <LOC>Bourse du Travail</LOC> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Voici les <ORG>résultats définitifs</ORG> du vote par mandats que le <ORG>congrès de fusion des deux Fédérations confédérée et unitaire</ORG> avait été appelé à émettre lundi soir au sujet du cumul des fonctions syndicales et des mandats politiques . Contre : <PER>287 voix</PER> ; pour : <PER>80 voix</PER> ; abstentions : <PER>17 voix</PER> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>PARTIS ET LIGUES <ORG>Groupe des étudiants radicaux</ORG> La réunion du <ORG>groupe des étudiants radicaux</ORG> de Paris aura lieu aujourd ' hui mercredi , à 21 heures , au café « Chez Emile » , <LOC>40 , rue Ga¬ lande</LOC> , et <LOC>10 , rue Fouarre ( angle des deux rues )</LOC> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><ORG>Fédération nationale des Libres Penseurs</ORG> <ORG>Fédération de la Seine</ORG> . — La comß<U+0301>mission spéciale d ’ unité d ’ action se réunira demain jeudi , à 21 heures , <LOC>local habituel , rue de Châteaudun</LOC> .</SENTENCE>"
+########
+ "<SENTENCE><PER>Les responsables</PER></SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Parti <ORG>radical - socialiste</ORG> <LOC>Versailles</LOC> . — Les <ORG>Comités radicaux¬ socialistes</ORG> de la deuxième circons¬ cription de <LOC>Versailles</LOC> , réunis à <LOC>Pois¬ sy</LOC> , ont procédé à la constitution di la <ORG>Fédération des Comités</ORG> de cette circonscription .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Le bureau élu de la <ORG>Fédération</ORG> est ainsi constitué : Président : <PER>Rougelot Henri</PER> ; Secrétaire : <PER>Durand Fernand</PER> ; Trésorier : <PER>Fourlon Pierre</PER> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Un ordre du jour a été voté décla¬ rant impossible le maintien de mi¬ nistres <ORG>radicaux</ORG> dans le gouverne¬ ment ; et demandant au bureau du <ORG>Comité Exécutif</ORG> de proposer à la plus prochaine réunion du <ORG>Comité</ORG> le refus de toute collaboration avec le gouvernement actuel .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Libre Pensée Nous sommes heureux d ' informer le public qu ’ une permanence de la <ORG>14e section de la Libre Pensée</ORG> est ou¬ verte au numéro <LOC>47 de la rue Bé\- ndard ( XIVe )</LOC> , à la <LOC>Librairie des Tra\- vailleurs</LOC> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Le but de la <ORG>Libre Pensée</ORG> est de dé[<ORG>evelopper</ORG>] chez tous l ’ esprit critique et l ' amour du libre examen , sans dis[<ORG>tinction</ORG>] de parti , et de grouper dans son sein ceux qui se réclament de ce haut idéal . L ’ époque que nous vivons est corrompue depuis des siècles par les croyances religieuses et leur amie dévouée <PER>Sa Majesté</PER> <ORG>l ' Argent</ORG> qui gou[<ORG>vernent</ORG>] le monde à leur seul bénéfice .</SENTENCE>"
+########
+ "<SENTENCE>Il est de notre devoir, pour nos enfants et pour nous - mêmes, d'arracher ce voile de l'au - delà et de mettre le monde en face de ses nécessités réel-les. Chacun le peut dans son humble rôle; la <ORG>laïcité</ORG> peut nous aider. Groupons-nous pour la défendre.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><LOC>Front populaire Epernay</LOC> . — Dimanche après - midi, <PER>M . Eugène Frot</PER> , ancien ministre, a donné en la <LOC>salle des fêtes d ' Epernay</LOC> ( <LOC>Marne</LOC>) une conférence sous les aus¬ pices de la <ORG>Ligue des Droits de l ' Homme</ORG> et du <ORG>Comité du Front Po¬ pulaire</ORG> . Plus de 1 .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>200 <PERS>personnes</PERS> y assistaient dont plusieurs <ORG>élus radi\- caux</ORG> et <ORG>socialistes</ORG> de la région . M . <PERS>Guerry</PERS> , <ROLE>président</ROLE> , assisté de <PERS>MM . Morange</PERS> et <PERS>Guen</PERS> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>MM <PER>Eugène Frot</PER> , <PER>député</PER> , <PER>ancien ministre</PER> , <PER>Bossus</PER> , <PER>conseiller munici
+pal communiste de Paris</PER> , et <PER>Emile Kahn</PER> , <PER>secrétaire général de la Ligue des Droits de l ' Homme</PER> , ont pris suc
+cessivement la parole très chaleu
+reusement applaudis .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>La réunion se termina sans inci¬ dent . Dans la nuit , un <PER>membre</PER> de la <ORG>Solidarité Française</ORG> qui avait tenté de peindre des inscriptions injurieu¬ ses sur les murs de la <LOC>Salle des Fêtes</LOC> avait été surpris par la police . Il dé¬ clara avoir été inspiré dans son geste par un discours du <PER>fils</PER> de <PER>M . Prince</PER> qu ' il avait entendu précédemment .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>. <LOC>XIVe arr.</LOC> — Pour la constitution des <ORG>Comités de défense de la Répu¬ blique</ORG> , trois grands meetings inaugu¬ raux sont organisés par le <ORG>Front po¬ pulaire du 14e</ORG> , aujourd ' hui mercredi: 111 , rue du Château ; 115 , rue Didot , 1 , avenue de la Porte - d ' Orléans .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Trente orateurs inscrits , dont <PER>Rouffianges</PER> , <PER>Biquard</PER> , <PER>Croizat</PER> , <PER>Mauvais</PER> , <PER>Paul Marcel</PER> , <PER>Graziani</PER> , <PER>Maurice Lacroix</PER> , <PER>Létrange</PER> , <PER>Mension</PER> , etc . . .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Ligue pour le <ORG>Droit au Travail et le Progrès Social</ORG> Ve arr — Une grande conférence sera donnée le vendredi 17 janvier , à 21 heures , à la <LOC>Sorbonne</LOC> , amphi¬ théâtre <LOC>Richelieu</LOC> , par <PER>Joseph Dubois</PER> , sur « L ' Economie soviétique maî¬ tresse de ses destins » . <PER>Jacques Du¬ boin</PER> entretiendra ensuite les auditeurs du « Problème français » .</SENTENCE>"
+########
+ <SENTENCE>Les cartes donnant droit aux places réservées sont à la disposition des <PER>auditeurs</PER> , au <HumanProd>"Droit au Travail"</HumanProd> , 14 , rue Favart <LOC>Viroflay</LOC> . — Sous les auspices de la <ORG>section locale</ORG> des <HumanProd>Droits de l ' Homme</HumanProd> , une grande réunion de propagande aura lieu demain jeudi , à 21 heures , à la <LOC>salle Robie</LOC> , 134 , route Nav où nos <PER>amis</PER> <PER>Chesneau</PER> et <PER>Ra , Martin</PER> exposeront les <HumanProd>"vérités diffusées par le « Droit"</HumanProd> Tous nos <PER>amis</PER> et <PER>sympathisants</PER> sont cordialement invités <LOC>Maisons - Alfort</LOC> . — L ' <ORG>Intersection</ORG> du <LOC>canton de Charenton</LOC> organise vendredi 17 janvier , à 21 heures , une grande réunion à la <LOC>mairie du sons - Alfort</LOC> , <LOC>salle de la Juste paix</LOC> . Nos <PER>camarades</PER> <PER>Compain</PER> et <PER>Martin</PER> y parleront de « la révo¬ lution économique actuelle » .</SENTENCE>
+########
+ <SENTENCE>— « <LOC>Désordres à Pondichéry</LOC> ! Nos co¬ lonies sont - elles menacées ? Par <PER>Hitler</PER> , <PER>Mussolini</PER> ou <PER>Staline</PER> ? » Tel est le pas¬ sionnant débat qui sera ouvert après - de¬ main mardi soir , à 21 heures précises , au <LOC>Club du Faubourg</LOC> , dans la vaste salle <LOC>Wagram</LOC> , par l ' explorateur <PER>Julien Maigret</PER> , auteur de <HumanProd>Tam - Tam</HumanProd> . Et , à la même séance , <PER>M . Georges Delamare</PER> , directeur de la télé¬ vision d ’ Etat , sur : « <HumanProd>Danse , music - hall et télévision</HumanProd> » , avec démonstrations sensa¬ tionnelles sur la scène par les vedettes <PER>Jany Delille</PER> , de l ’ Opéra - Comique , <PER>Lily Jessua</PER> , des Concerts Classiques , les dan¬ seurs <PER>Ariel Page</PER> et <PER>Nil</PER> , l ' illusionniste <PER>The Great Marcel</PER> . En raison de l ' affluence , ouverture des portes à 20 h . 15 . <PER>L ' abbé Mahieu</PER> , du <ORG>Rassemblement universel pour la paix</ORG> , chef du mouvement wallon , vien¬ dra spécialement à Paris pour parler au <LOC>Club du Faubourg</LOC> le samedi 21 janvier , sur : « Face à Mussolini et Hitler ! » Jeudi 26 , conférence par <PER>G . de la Fou¬ chardière</PER> . Adhésions et renseignements , le matin , 155 , boulevard Pereire . <LOC>Wagram 71 - 44</LOC> .</SENTENCE>
+########
+ <SENTENCE>— Aux <ORG>instituts internationaux d' histoi\- re de la Révolution française et de coopé\- ration intellectuelle</ORG> , 2 , rue Montpensier , <PER>M . Lhéritier</PER> , professeur à la Faculté des lettres de Dijon , fera mercredi 18 janvier , à 17 heures , une conférence sur : « Le 14 juillet et la Révolution municipale , point de départ de la Révolution française » .</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>— Mardi 17 janvier , à 21 heures , à la <ORG>Société « Les Amis de La Fontaine »</ORG> ( café Céron , 2 , rue du Vieux - Colombier ) , <PER>Mme Jane Hyrem</PER> , présidente du Cercle « Arts et Lettres » fera une causerie sur le fabu¬ liste « Florian » , avec auditions de fables .</SENTENCE>"
+########
+ "<SENTENCE>( <HumanProd>Entrée gratuite</HumanProd> .</SENTENCE>"
+########
+ "<SENTENCE>) Les <HumanProd>manuscrits</HumanProd> non insérés ne sont pas rendus.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><ORG>Imprimerie de l ' Œuvre</ORG> , 9 . rue Louis - le - Grand <LOC>Paris</LOC> Le gérant : <PER>F . POTIGNAT</PER> .</SENTENCE>"
+########
+ <SENTENCE>1 <HumanProd>L ' ŒUVRE DES JEUNES</HumanProd> Jeunesses laiques et républicaines <ORG>Fédération de Seine et Seine - et - Oise</ORG> . — Le bureau de la <ORG>Fédération départementale</ORG> et les membres des <HumanProd>J . L . R .</HumanProd> de <LOC>Seine et Seine - et - Oise</LOC> s ' associent avec émotion au deuil qui vient de frapper leurs amis <PER>Hélène</PER> et <PER>Jacques Solomon</PER> , fille et gendre du professeur <PER>Paul Langevin</PER> , en la per¬ sonne du docteur <PER>Solomon</PER> . l ' éminent ra diologue . Le bureau prie tous ses amis et adhérents de bien vouloir se trouver ce matin dimanche , à 11 heures , à la porte du cimetière parisien de <LOC>Pantin</LOC> , afin de présenter au professeur <PER>Langevin</PER> et à sa famille l ' hommage de leur respectueuse et douloureuse sympathie .</SENTENCE>
+########
+ <SENTENCE>Section <LOC>du Pré - Saint - Gervais</LOC> . — La réu<NN>nion</NN> constitutive de la section aura lieu le mardi <TIME>24</TIME> courant , <LOC>8 , rue Emile - Augier</LOC> , salle numéro 1 , sous la présidence de <PER>Just Dapoigny</PER> , président de la Fédération de <LOC>Seine et Seine - et - Oise</LOC> , assisté de <PER>Roger Habert</PER> , responsable de la section , <PER>Jacques Leman</PER> , secrétaire général de la Fédération départementale , au cours de laquelle <PER>René Berlin</PER> , vice - président de la Fédération na<NN>tionale</NN> , traitera le sujet suivant : « Le problème espagnol et la sécurité de la France » . Les amis et sympathisants sont cordialement invités .</SENTENCE>
+########
+ "<SENTENCE>Les demandes de <ORG>service</ORG> ou de <ORG>changement</ORG> d ' <LOC>adresse</LOC> doivent nous parvenir trois jours à l ' avance .</SENTENCE>"
+########
+ "<SENTENCE>LE RAIL CHEMIN DE LA NEIGE .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>. HORAIRE SPÉCIAL ns iente 82 PETITES ANNONCES Attention ! On signale réapparition de cagoulards dans le quartier de la Bourse .</SENTENCE>"
+OUTPUT: "<SENTENCE>. HORAIRE SPÉCIAL <HumanProd>ns iente 82 PETITES ANNONCES</HumanProd> Attention ! On signale réapparition de <ORG>cagoulards</ORG> dans le quartier de <LOC>la Bourse</LOC> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><HumanProd>CANTE PIÉDUES</HumanProd> - <HumanProd>PESRUE PUBLICITÉ QUOTIDIENNE</HumanProd> 9 , Rue Louis - le - Grand <LOC>1e2226</LOC> <ORG>TARIF GÉNÉRAL</ORG> ( La ligne se compose de 38 lettres , signes ou espaces .</SENTENCE>"
+########
+ "<SENTENCE) la ligne <HumanProd>Offres et demandes d ' emplois</HumanProd> . 5 fr .</SENTENCE>"
+########
+ "<SENTENCE><HumanProd>Médecine et Hygiène</HumanProd> . . .</SENTENCE>"
+########
+ "<SENTENCE>. 15 fr .</SENTENCE>"
+########
+ "<SENTENCE>( minimum 2 lignes ) <NON_ANNOTATED>Villégiatures</NON_ANNOTATED> . . . . . . .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>. 12 fr .</SENTENCE>"
+OUTPUT: "<SENTENCE>. 12 fr .</SENTENCE>"
+
+Explanation:
+The input sentence does not contain any named entities that match the provided categories. Therefore, the output is the same as the input.
+########
+ INPUT: "<SENTENCE>Capitaux , Fonds de commerce . 20 fr .</SENTENCE>"
+OUTPUT: "<SENTENCE>Capitaux , <ORG>Fonds de commerce</ORG> . 20 fr .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Toutes autres rubriques . . . 10 fr .</SENTENCE>"
+OUTPUT: "<SENTENCE>Toutes autres rubriques . . . 10 fr .</SENTENCE>"
+
+Explanation:
+There are no named entities in the given sentence that match the provided categories.
+########
+ OUTPUT: "<SENTENCE>La vie économique en l' <DATE>an 60</DATE> . On nous informe que <PER>Néron</PER> vient de mettre l' <ORG>embargo</ORG> sur le <LOC>Pétrone</LOC> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>DEMANDES D ' EMPLOIS <ORG>Frs</ORG> DACTYLOS TRAVAUX mach . chez moi , Px mod . <HumanProd>Œ</HumanProd> . 3809 <ORG>Dactylographe</ORG> ayt machine rech . trav .</SENTENCE>"
+########
+ "<SENTENCE>copie à faire ch .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>moi . Px tr . bas . Ecr . : Œ . 3801 .</SENTENCE>"
+OUTPUT: "<SENTENCE>moi . Px tr . bas . Ecr . : Œ . 3801 .</SENTENCE>" (No named entities found in the input sentence)
+########
+ INPUT: "<SENTENCE>DIVERS ALLEMAND p . diplômé . P .</SENTENCE>"
+OUTPUT: "<SENTENCE>DIVERS <PER>ALLEMAND</PER> p . diplômé . P .</SENTENCE>"
+########
+ "<SENTENCE><LOC>mod . Lentschner , 8 , r . de la France - Mutualiste , Boulogne - s - S .</LOC></SENTENCE>"
+########
+ "<SENTENCE><PER>J h</PER> . 17 ans, <ORG>déb.</ORG> brevet élément, <ORG>ch.</ORG> emploi bur.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>, comm . ind . <HumanProd>Ecrire : Œuvre 3828</HumanProd> Vve ayt enfant , ch . trav . faç . ch .</SENTENCE>"
+########
+ "<SENTENCE>elle</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Œ . <ORG>3829</ORG> M . 50 ans , conn . négoce et courtage mar\-chandises importation , ch . emploi . Œ . <ORG>3825</ORG> Dipl . Sc . Eco . 30 a . ex - réd . content . Cie ass .</SENTENCE>"
+########
+ "<SENTENCE><HUMAN_PRODUCTION>auto</HUMAN_PRODUCTION>, s ' occ . sec . acc . ds <ORG>Sté</ORG> <ORG>ay . n .</ORG></SENTENCE>"
+########
+ INPUT: "<SENTENCE>voit . Œ3819 M . très dévoué , ch . empl . pour seconder di¬ rect . commerce . Bon vend . Ecrire : Œ . 3775 Veilleur de nuit , sér . Wimber , Dor . 60 - 25 Apprenez Anglais par Anglaise , 1re leçon grat .</SENTENCE>"
+OUTPUT: "<SENTENCE>voit . <ORG>Œ3819</ORG> M . très dévoué , <ORG>ch . empl .</ORG> pour seconder di¬ rect . commerce . Bon vend . Ecrire : <ORG>Œ . 3775</ORG> Veilleur de nuit , sér . <PER>Wimber</PER> , Dor . 60 - 25 Apprenez Anglais par <PER>Anglaise</PER> , 1re leçon grat .</SENTENCE>"
+########
+ "<SENTENCE><PER>Miss Deeds</PER> , 12 , r . <LOC>Magellan</LOC> ( <LOC>M°George - V</LOC> )</SENTENCE>"
+########
+ "<SENTENCE>, 17 a .</SENTENCE>"
+########
+ "<SENTENCE>, <ORG>ch . empl . manut . bur .</ORG></SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Œ . :3814 <PER>Jeune fille</PER> ayant enseigné demande place perm . prép . B .</SENTENCE>"
+
+In this example, "Jeune fille" is identified as a PERSON because it refers to an individual person, even though the specific person is not named. The annotation guidelines state that "When the entity refers to the individual or collective person (more than one individual) including fictitious persons... it is considered as a Person." In this case, "Jeune fille" is a reference to a female individual, so it is annotated as a PERSON.
+########
+ INPUT: "<SENTENCE>S . Ecrire : Œ . 3812 q . trans .</SENTENCE>"
+OUTPUT: "<SENTENCE>S . Ecrire : <ORG>Œ</ORG> . 3812 q . trans .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Jeune , dame instr . capable sér . réf .</SENTENCE>"
+OUTPUT: "<SENTENCE>Jeune , dame instr . capable sér . réf .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>, secon¬ derait commerçant ou patron . Ecr .</SENTENCE>"
+OUTPUT: "<SENTENCE>, secon¬ derait <ORG>commerçant</ORG> ou <ORG>patron</ORG> . Ecr .</SENTENCE>"
+########
+ "<SENTENCE>: <ORG>Œ . 3813</ORG> Ouvrier d ' art et artiste peintre cherche petits travaux restauration de tableaux , décoration d ' intérieur ou réparations meu¬ bles de style , anciens ou modernes , laques , vernis Martin et au tampon . <PER>Christophe</PER> , <LOC>56 , rue de la Montagne - Sainte - Geneviève , 5e</LOC> , 43 ans , peintre , par suite chôm . fréquent , rech . pet .</SENTENCE>"
+########
+ "<SENTENCE>empl . bureau ou manutent .</SENTENCE>"
+########
+ "<SENTENCE><PER>Infirmière</PER> des <ORG>Hôpitaux</ORG> pouvant donner soins et assurer garde de nuit, <LOC>Paris</LOC> et proche <LOC>banlieue</LOC>, cherche <ORG>emploi</ORG>. <ORG>Œ</ORG> . 3788 .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><PER>M . PAULET</PER>, 56 , r . Mont . - Ste . - Geneviève, 5e .</SENTENCE>"
+########
+ "<SENTENCE><ORG>COUTURE</ORG> 1re main couture, cherche apr .</SENTENCE>"
+########
+ "<SENTENCE>- midi bourgeoise . <LOC>Mardo, 85, rue Saint - Dominique</LOC> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>STENO - DACTYLO J . fil . 18 a .</SENTENCE>"
+OUTPUT: "<SENTENCE><HUMANPROD>STENO - DACTYLO</HUMANPROD> J . fil . 18 a .</SENTENCE>"
+########
+ "<SENTENCE>, st .</SENTENCE>"
+########
+ "<SENTENCE>dact .</SENTENCE>"
+########
+ "<SENTENCE>, travx bur .</SENTENCE>"
+########
+ "<SENTENCE>ch .</SENTENCE>"
+########
+ "<SENTENCE>pl .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Œ . 3820 <ORG>Rapide sténo - dactylo</ORG> ( ayant machine ) re¬ cherche tous travaux heure ou réguliers .</SENTENCE>"
+########
+ "<SENTENCE>S ' adresser : <HumanProd>Œuvre</HumanProd> 3761 qui transmettra .</SENTENCE>"
+########
+ "<SENTENCE>TAILLEURS <PER>Coupeur mesure</PER> , <DEM>français</DEM> , 29 a .</SENTENCE>"
+
+In this example, "TAILLEURS" is not a named entity, so it is not included in the output. "Coupeur mesure" is considered a PERSON because it refers to an individual person, even though it does not contain a proper name. "français" is a demonym that does not modify a proper name, so it is not considered a PERSON. However, it is included in the output as a DEM (demonym) for completeness. The "29 a ." is not a named entity, so it is not included in the output.
+########
+ "<SENTENCE>, réf . <LOC>Paris</LOC> , cherche pl . stable , <LOC>Paris</LOC> . Fcr . : <ORG>Œ . 3811</ORG> .</SENTENCE>"
+########
+ "<SENTENCE>C ’ est le cas pour <ORG>les voitures auto - mobiles</ORG> et c ’ est le cas pour beaucoup d ’ <ORG>autres</ORG> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>SPORTING NOTES <HUMANPROD>Le Cyclisme</HUMANPROD> Au <LOC>Salon</LOC> : On a inauguré hier le véritable <LOC>Sa - lon du cycle</LOC> , celui pour lequel nos grands fa¬ bricants ont résumé toute leur tendresse . Nous nous dirons un de ces jours ce qui a été exposé d ’ intéressant au point de vue <HUMANPROD>féminin</HUMANPROD> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>M . <PER>Sarcey</PER> . Sonnez , fanfares et buccins , dit le <HumanProd>Journal des Sports</HumanProd> ! Jouez , hautbois ! Résonnez musettes ! Il nous est né un nouvel ami de la vélocipédie , <PER>Sarcey</PER> lui - même , qui se sent — un peu tardivement , mais enfin ! — pour la byciclette , Sarcey des entrailles . . . d ' Oncle .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Et voyez comme les légendes s ' établissent : nous étions tous persuadés jusqu ' ici que le <PER>eti¬ tique du Temps</PER> avait écrit en mai 1869 dans <HumanProd>la France</HumanProd> un article où il demandait à la police de supprimer cette « excentricité absurde » .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Excentricité absurde — lisez bicyclette.</SENTENCE>"
+OUTPUT: "<SENTENCE>Excentricité absurde — lisez <LOC>bicyclette</LOC>.</SENTENCE>"
+
+In this example, "bicyclette" is classified as a LOCATION because it is a physical object, which is a subtype of location. The guidelines mention that "Physical places" include "terrestrial physical locations" and "aquatic physical sites", but they also include "physical objects". This is because named physical objects often refer to the physical location of an organization or a human production. In this case, "bicyclette" is not the location of an organization or a human production, but it is still a physical object, so it is classified as a LOCATION.
+########
+ OUTPUT: "<SENTENCE>Eh bien , ce n'était qu'une <HumanProd>légende</HumanProd>. Une note parue hier dans les <HumanProd>Annales politiques et litté¬ raires</HumanProd> que dirige , notez ce détail , <PER>M . Brisson</PER>, le gendre de <PER>M . Sarcey</PER>, dit textuellement : « Le mépris de notre Oncle pour la bicyclette est une des mille légendes que l'on a créées autour de lui . Il honore au contraire cet instru¬ ment d'une sympathie d'une moins suspecte . Ah ! s'il était de trente ans plus jeune , et s'il n'avait pas la douleur d'appartenir à la Société des « Cent kilos » , soyez sûr qu'il fendrait les airs avec la rapidité d'une gazeile ! Mais il n'est point égoïste et n'entend pas priver son prochain d'un divertis¬ sement qui lui est interdit . Je pense qu'il per¬ mettrait aux cyclistes , tant sa honté est grande , de lui passer sur le corps ! » Donc , sonnez , fanfares et buccins ! jouez haut¬ bois ! résonnez musettes ! car . . .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Car , il y aura , dit <ORG>l ’ Ecriture</ORG> , plus de joie au ciel pour un pécheur converti que pour cent justes ! <HUMANPROD>RAQUETTE</HUMANPROD> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><ORG>COMÉDIE - PRANÇAISE</ORG> . — <PER>M . Jacques Fenoux</PER> jouera à partir du mardi 24 le rôle de <PER>M . Sil\- vain</PER> dans Athalie .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>*★ PORTE SAINT - MARTIN . — On annonce pot la semaine prochaine , le jour n ' est pas en¬ core fixé , la première de Cyrano de Bergerac .</SENTENCE>"
+OUTPUT: "<SENTENCE>*★ <LOC>PORTE SAINT - MARTIN</LOC> . — On annonce pot la semaine prochaine , le jour n ' est pas en¬ core fixé , la première de <HUMANPROD>Cyrano de Bergerac</HUMANPROD> .</SENTENCE>"
+########
+ "<SENTENCE>Voici les tableaux de cette nouvelle piece ; 1er acte . — Une représentation à <LOC>l’hôtel de Bourgogne</LOC> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>2e acte . — La rôtisserie des Portes .</SENTENCE>"
+OUTPUT: "<SENTENCE>2e acte . — <LOC>La rôtisserie des Portes</LOC> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>3e acte . — Le baiser de Roxane .</SENTENCE>"
+OUTPUT: "<SENTENCE>3e acte . — Le baiser de <PER>Roxane</PER> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>4e acte . — Les cadets de Gascogne .</SENTENCE>"
+OUTPUT: "<SENTENCE>4e acte . — <ORG>Les cadets de Gascogne</ORG> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>5e acte . — La Gazette de Cyrano .</SENTENCE>"
+OUTPUT: "<SENTENCE>5e acte . — <HumanProd>La Gazette de Cyrano</HumanProd> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>* * * A l ’ <LOC>Athénée</LOC> : La première représentation de <HumanProd>Cocher , rue Boudreau</HumanProd> , n ’ aura pas lieu vendredi . On pense que cette pièce passera samedi prochain .</SENTENCE>"
+########
+ "<SENTENCE>** Au <LOC>Cirque d ' Hiver</LOC> : Ce soir , début , à cheval , du géant <PER>Wilkins</PER> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Théâtre de la <ORG>République</ORG> : Aujourd ’ hui , première représentation de la <HumanProd>Closerie des Genéts</HumanProd> , de <PER>Frédéric Souillé</PER> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Voici la distribution : ** <LOC>De Genève</LOC> : La première représentation de <HumanProd>Sancho</HumanProd> , comédie lyrique en 5 actes , poème de <PER>M . Yves - Plessis</PER> , musique de <PER>M . Emile Jacques Dalcroze</PER> , vient d ’ avoir lieu au <LOC>Grand - Théâtres</LOC> . Aux yeux des connaisseurs , <HumanProd>Sancho</HumanProd> est une très belle œuvre .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>* De <LOC>Berlin</LOC> : Grand succès pour la pièce de <PER>M . Gan</PER>dillot, <HumanProd>Ferdinand le noceur</HumanProd> .</SENTENCE>"
+########
+ <SENTENCE>* * * La semaine dernière, <PER>M. Marchand</PER> renouvelait une partie du programme des <HumanProd>Folies-Bergère</HumanProd>; ce soir tous les autres numéros vont être changés. La <PER>Loie Fuller</PER>, dont le succès va chaque jour grandissant, reste toujours l’étoile des <HumanProd>Folies-Bergère</HumanProd>; à côté d’elle on applaudira <PER>Lidia</PER>, la gommeuse si appréciée; <PER>Tafari</PER> et son prodigieux chien calculateur, voilà un ensemble qui promet de belles recettes aux <HumanProd>Folies-Bergère</HumanProd>. </SENTENCE>
+########
+ OUTPUT: "<SENTENCE>A L ' AMPIGU . — 5 heures précises , premier jeudi populaire de musique de chambre : <HumanProd>XIe Quatuor ( op . 95 ) Becthoven</HumanProd> . — Par le Quatuor de la fondation <ORG>Beethoven</ORG> : <PER>MM . A , Géioso1er violon</PER> ; <PER>A . Tracol</PER> ; <PER>2e violon</PER> ; <PER>P . Monteux</PER> . <PER>aito</PER> , <PER>F . Schnéklud</PER> , <PER>violon - celle</PER> ; <PER>César Geloso</PER> , <PER>pianiste</PER> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE><PER>Mignonne</PER> , <PER>Pierre de Ronsard</PER> . <PER>Richard Wag</PER> - <PER>ner</PER> .</SENTENCE>"
+
+In this input, "Mignonne" is considered a person because it is a character in Pierre de Ronsard's poetry. "Pierre de Ronsard" and "Richard Wagner" are also considered persons. "ner" is not a named entity, so it is left unchanged.
+########
+ OUTPUT: "<SENTENCE><PER>L' attente</PER>, <PER>Victor Hugo</PER> - <PER>Richard Wagner</PER>. — <PER>Madame Paul de Lacroix</PER>.</SENTENCE>"
+########
+ "<SENTENCE>Nuit étoilée, <PER>Robert Schumann</PER>.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Elle est à toi ! <PER>Robert Schumann</PER> . — <PER>M . Delaquerrière</PER> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Villannelle rythmique , <PER>Théophile Gautier</PER> . <PER>Hector Berlioz</PER> . Nett . <PER>Leconte de Lisle</PER> - <PER>Gabriel Fauré</PER> .</SENTENCE>"
+########
+ "<SENTENCE>FEUILLETON DE LA FRONDE DU 16 DÉCEMBRE 1897 ( 5 LÈVRES CLOSES PAR Mme DANIEL LESUEUR ( Suite ) L ' orgueil d ’ <PER>Edouard</PER> n ’ admettait pas l ' abandon complet à une femme , même à la femme qu ’ il adorait . Et celui - ci , ce <PER>Philippe</PER> , qui se livrait , qui se donnait , qui ne savait pas comment se donner assez , dût - il en souffrir ! . . . Quel ravisse¬ ment , quel attendrissement de tenir entre ses mains le bonheur d ’ un être si cher ! Comme elle l ’ aimait pour sa con¬ fiance , pour la noble témérité qui consiste à ne rien garder par devers soi en amour .</SENTENCE>"
+########
+ <SENTENCE>— L ’ immensité tendre qu ’ elle sentait en elle - même était si bien faite pour ac\-cueillir le don merveilleux , peur abriter chaudement , profondément , le cœur candide et désarmé ! Elle glisse sa bouche contre l ' oreille de <PER>Philippe</PER> , Elle murmure — par un jeu où se plaît leur passion : — Qu ' est - ce que je suis pour toi ? — Tu es mon idole adorée .</SENTENCE>
+########
+ "<SENTENCE>Elle secoue la tête — cette tête dont la fierté grave se disperse en mutinerie amoureuse , et qui , les cheveux défaits , paraît si jeune dans le désordre des den\-<LOC>telles</LOC> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>— Qu ’ est - ce que je suis ? — Ma passion . . . mon bien . . . mon tout .</SENTENCE>"
+OUTPUT: "<SENTENCE>— Qu ’ est - ce que je suis ? — <PER>Ma passion</PER> . . . <PER>mon bien</PER> . . . <PER>mon tout</PER> .</SENTENCE>"
+########
+ "<SENTENCE>— Non . . . Non . . . Dis vite .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Alors il prononce le mot qu ’ elle attend — ce mot que le respect de l ' homme n ’ eût pas avoué d ' abord à lui - même , mais que Marcienne a transfiguré , dont elle a fait un suprême symbole d ’ étreinte , de communion sensuelle , de périlleuse et divine folie .</SENTENCE>"
+OUTPUT: "<SENTENCE>Alors il prononce le mot qu ’ elle attend — ce mot que le respect de <PER>l ' homme</PER> n ’ eût pas avoué d ' abord à lui - même , mais que <PER>Marcienne</PER> a transfiguré , dont elle a fait un suprême symbole d ’ étreinte , de communion sensuelle , de périlleuse et divine folie .</SENTENCE>"
+########
+ "<SENTENCE>— Tu es <PER>ma maîtresse</PER> .</SENTENCE>"
+########
+ "<SENTENCE><PER>Je</PER> — Oui . . . Je suis ta <PER>maîtresse</PER> . . . TA <PER>MAI¬ TRESSE</PER> ! . . .</SENTENCE>"
+########
+ The input sentence does not contain any named entities of the types PERSON, ORGANIZATION, LOCATION, or HUMAN PRODUCTION.
+
+INPUT: "<SENTENCE>Elle serre les dents , pâle de la signifi¬ cation ardente . Les étoiles de ses yeux scintillent et sombrent entre le voile des cils . Elle fait répéter à Philippe , elle ré¬ pète elle - même les syllabes dont la har¬ diesse d ’ aveu , dont même la sonorité nerveuse et crissante , la grisent . Puis elle ajoute , la voix mollie en un roucoule¬ment de rêve : — Tu es mon amant . . . mon amant ! . . .</SENTENCE>"
+OUTPUT: "<SENTENCE>Elle serre les dents , pâle de la signifi¬ cation ardente . Les étoiles de ses yeux scintillent et sombrent entre le voile des cils . Elle fait répéter à Philippe , elle ré¬ pète elle - même les syllabes dont la har¬ diesse d ’ aveu , dont même la sonorité nerveuse et crissante , la grisent . Puis elle ajoute , la voix mollie en un roucoule¬ment de rêve : — Tu es mon amant . . . mon amant ! . . .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Pour le lui redire , le jeune homme se met à genoux , délirant d ’ adoration : — Je suis TON AMANT ! . . .</SENTENCE>"
+OUTPUT: "<SENTENCE>Pour le lui redire , le jeune homme se met à genoux , délirant d ’ adoration : — Je suis <PER>TON AMANT</PER> ! . . .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>N ’ est - ce pas leur destinée ? L ’ exalta¬ tion de leurs sens et de leurs âmes , les puissances inconnues de vivre qui s ’ é¬ veillent en eux , et dont eux - mêmes res¬ tent éblouis , ne leur crient - elles pas que tout au monde doit être erreur excepté de telles indications , si hautement sou¬ veraines , de la nature et de 1 eur cons¬ cience — non pas de la conscience ar¬ tificielle que leur ont façonnée les mora¬ les humaines , mais du sentiment irrésis¬ tible , primordial , qui crée l ’ harmonie de leurs deux êtres .</SENTENCE>"
+OUTPUT: "<SENTENCE>N ’ est - ce pas leur destinée ? L ’ exalta¬ tion de leurs sens et de leurs âmes , les puissances inconnues de vivre qui s ’ é¬ veillent en eux , et dont eux - mêmes res¬ tent éblouis , ne leur crient - elles pas que tout au monde doit être erreur excepté de telles indications , si hautement sou¬ veraines , de <LOC>la nature</LOC> et de <PER>1 eur</PER> cons¬ cience — non pas de la conscience ar¬ tificielle que leur ont façonnée les mora¬ les humaines , mais du sentiment irrésis¬ tible , primordial , qui crée l ’ harmonie de leurs deux êtres .</SENTENCE>"
+
+In this example, I identified "la nature" as a LOC entity because it refers to the natural world, and "1 eur" as a PER entity because it appears to be a person's name, although it is not a common one. If "1 eur" is not a person's name, then it should not be annotated as a PER entity.
+########
+ INPUT: "<SENTENCE>Jusqu ’ à ce jour , Marcienne le croyait .</SENTENCE>"
+OUTPUT: "<SENTENCE>Jusqu ’ à ce jour , <PER>Marcienne</PER> le croyait .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Elle ne se découvrait aucun remords .</SENTENCE>"
+OUTPUT: "<SENTENCE>Elle ne se découvrait aucun remords .</SENTENCE>"
+########
+ "<SENTENCE>Plusieurs fois d'ailleurs elle s'était dit : <QUOTE>« Il n'est qu'une seule vertu absolue, la bonté. Ne pas faire souffrir, tout est là. »</QUOTE> Et elle se plaisait à résumer la philoso-phie de son généreux cœur par cette phrase — à propos de laquelle on la taquinait dans l'intimité ; <QUOTE>'Mieux vaut commettre une grande faute que de commettre une petite douleur.'</QUOTE> Mais aujourd'hui, dans l'enivrement du plus excessif bonheur, elle tressaille...</SENTENCE>"
+
+(Note: I have not added any annotations as there are no named entities present in the provided sentence.)
+########
+ <SENTENCE>Au fond d'<LOC>elle - même</LOC> , tout à conp , un sourd murmure de larmes . . . Elle revoit la petite figure blonde , crispée d'an - goisse : "<PER>Charlotte</PER> !" <PER>Marcienne</PER> n'a pas prononcé le nom tout haut . Elle ne veut pas parler à <PER>Phi¬ lippe</PER> d'une pareille tristesse , et dont la divulgation les mettrait tous trois dans une situation si délicate .</SENTENCE>
+########
+ INPUT: "<SENTENCE>Mais il a senti leur splendeur d ' amour s ’ assombrir — comme , les paupières fer¬ mées , on devine le passage d ’ une nuée sur le soleil .</SENTENCE>"
+OUTPUT: "<SENTENCE>Mais il a senti <PER>their</PER> splendeur d ' amour s ’ assombrir — comme , les paupières fer¬ mées , on devine le passage d ’ une nuée sur le soleil .</SENTENCE>"
+
+In this input, there are no named entities that match the given types (PERSON, ORGANISATION, LOCATION, or HUMAN PRODUCTION). The only mention of a possible named entity, "their", is a possessive pronoun and not a proper name, so it is not annotated.
+########
+ "<SENTENCE><PER>Marcienne</PER>, promets - moi que tu m ’ aimeras toujours ! . . .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Elle le regarde sans répondre, and he is frightened by the bitterness of her smile.</SENTENCE>"
+OUTPUT: "<SENTENCE>Elle le regarde sans répondre, and <PER>he</PER> is frightened by the bitterness of her smile.</SENTENCE>"
+########
+ "<SENTENCE>— Oh ! chérie , pas ces yeux - là . . . Ils me font mal .</SENTENCE>"
+########
+ "<SENTENCE>Elle ne les <PER>éclaire</PER> pas . Elle les <PER>dé¬ tourne</PER> .</SENTENCE>"
+########
+I've process 170 phrases!

@@ -1,0 +1,95 @@
+ INPUT: "<SENTENCE>ton bras .</SENTENCE>"
+OUTPUT: "<SENTENCE>ton bras.</SENTENCE>"
+
+There are no named entities in the provided sentence.
+########
+ INPUT: "<SENTENCE>L ’ accusatif yépæ tient ici la place de aliyuñv , régulièrement joint à aiypaLetv dans Homère .</SENTENCE>"
+OUTPUT: "<SENTENCE>L ’ <OBJECT>accusatif</OBJECT> yépæ tient ici la place de aliyuñv , régulièrement joint à aiypaLetv dans <PERS>Homère</PERS> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Euripide a dit avec une égale hardiesse χεῖρας EtrxovtLoa ( Iphig . Taur . 362 ) .</SENTENCE>"
+OUTPUT: "<SENTENCE>Euripide <PERS>a dit</PERS> avec une égale hardiesse <WORK>χεῖρας EtrxovtLoa</WORK> ( <WORK>Iphig.</WORK> <WORK>Taur.</WORK> <SCOPE>362</SCOPE> ) .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>404 - 102 . Εἶεν . Le Scholiaste d ’ Euripide “ ( <WORK>Phéniciennes</WORK> , 849 ) explique ce mot de la manière suivante : Elev Étippnua toù μὲν Tpotépou Aoyou Anxtixdv , ἑτέρον δὲ &pxtixov [ <PERS>Lobeck</PERS> ] .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>La lucution française c ' est bien y équivaut dans beaucoup de cas .</SENTENCE>"
+OUTPUT: "<SENTENCE>La lucution française c ' est bien y équivaut dans beaucoup de cas .</SENTENCE>"
+
+There are no named entities in the provided sentence that match the given types.
+########
+ INPUT: "<SENTENCE>— Ti yap . . … . ποῦ χτλ . , et le fils de Laërte , où ctc .</SENTENCE>"
+OUTPUT: "<SENTENCE>— Ti yap . . … . ποῦ χτλ . , et <PERS>le fils de Laërte</PERS> , où <SCOPE>ctc</SCOPE> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>On peut se rendre compte de cette tournure très usitée , en suppléant πράττει après xi .</SENTENCE>"
+OUTPUT: "<SENTENCE>On peut se rendre compte de cette tournure très usitée , en suppléant <WORK>πράττει</WORK> après xi .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>103 . Toünitpirtov xivabog . Scholiaste : Τὸ ἐξῶγες θηρίον καὶ πανοῦργον . Κίναὃος γὰρ ἡ &\wnné .</SENTENCE>"
+OUTPUT: "<SENTENCE>103 . Toünitpirtov xivabog . <PERS>Scholiaste</PERS> : Τὸ ἐξῶγες θηρίον καὶ πανοῦργον . Κίναὃος γὰρ ἡ &\wnné .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Ellendt interprète ἐπίτριπτος ἀ αρτὲ5 ϑυϊάλ5 : Ὁ ἐπιτριδῆναι ἀξιος . Οἵ . Andocide , discours Sur les Mystères , 1 , 99 : Ὧ σνχοφάντα χαὶ ἐπίτριπτον χίναδος . ὶ</SENTENCE>"
+OUTPUT: "<SENTENCE>Ellendt interprets <WORK>ἐπίτριπτος</WORK> ἀ αρτὲ5 ϑυϊάλ5 : <PERS>Ὁ ἐπιτριδῆναι</PERS> ἀξιος . Οἵ . <PERS>Andocide</PERS> , <WORK>discours Sur les Mystères</WORK> , 1 , 99 : Ὧ σνχοφάντα χαὶ <WORK>ἐπίτριπτον</WORK> χίναδος . ὶ</SENTENCE>"
+########
+ INPUT: "<SENTENCE>407 . Ilpiv . … m ) éov . Cels revient à dire en changeant la construction , qui est toute grecque : « Que veux - tu fuire ou qu'espérestu gagner d ’ ici la ( a la fuveur de ce retard ) ? » littéralement , avant que tu aies fait quoi ? avant que tu uies gagné quui ?</SENTENCE>"
+OUTPUT: "<SENTENCE>407 . <PERS>Ilpiv</PERS> . … m ) éov . <PERS>Cels</PERS> revient à dire en changeant la construction , qui est toute grecque : « Que veux - tu fuire ou qu'espérestu gagner d ’ ici la ( a la fuveur de ce retard ) ? » littéralement , avant que tu aies fait quoi ? avant que tu uies gagné quui ?</SENTENCE>"
+########
+ INPUT: "<SENTENCE>108 . Kiov ’ , pour xiova , et nun pour xiow .</SENTENCE>"
+OUTPUT: "<SENTENCE>108 . <OBJECT>Kiov</OBJECT> ’ , pour xiova , et <OBJECT>nun</OBJECT> pour xiow .</SENTENCE>"
+########
+ "<SENTENCE>L ' élision de <WORK>[ ἦ</WORK> au <WORK>datiſ</WORK> singulier est sinon sans exemples , du moins très rare chez les <WORK>Attiques</WORK> ( voy . <PERS>Matthiæ</PERS> , <WORK>page 121</WORK> ) ; et l ' on trouve chez <PERS>Eschine</PERS> , <WORK>Discours contre Timurque</WORK> , <SCOPE>p . 83</SCOPE> : <WORK>Afsavtes</WORK> <WORK>npècrèvxiove</WORK></SENTENCE>"
+########
+ "<SENTENCE>108 . La phruse d ’ <PERS>Ajux</PERS> est interrompue , après Gtéyn : , par la question de lu déesse .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>consistit ( Ellendt ) : d ' où les significations particulières de sedes , solum , gradus ; ici , sol .</SENTENCE>"
+OUTPUT: "<SENTENCE>consistit ( <PERS>Ellendt</PERS>) : d ' où les significations particulières de sedes , solum , gradus ; ici , sol .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>— Ayy : à ) ou . « Insulæ enim pars « omnis non longe a mari distat , unde et tota « imsuls mari vicina dicitur . » [ <ORG>Linwood</ORG> . ]</SENTENCE>"
+OUTPUT: "<SENTENCE>— Ayy : à ) ou . « Insulæ enim pars « omnis non longe a mari distat , unde et tota « imsuls mari vicina dicitur . » [ <ORG>Linwood</ORG> . ]</SENTENCE>"
+########
+ "<SENTENCE>l ’ hymne homérique à <WORK>Apollon</WORK> , <SCOPE>v . 32</SCOPE> ; <LOC>Lemnos</LOC> , <LOC>Icarie</LOC> , <LOC>Nhodes</LOC> et <LOC>Cnide</LOC> dans les <WORK>Perses</WORK> d ' <PERS>Eschyle</PERS> , <SCOPE>890</SCOPE> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>L ’ accumulation des épithètes n ’ a en soi rien de choquant , surtout dans les chœurs . Voir pourtant aux motes critiques .</SENTENCE>"
+OUTPUT: "<SENTENCE>L ’ accumulation des <SCOPE>épithètes</SCOPE> n ’ a en soi rien de choquant , surtout dans les chœurs . Voir pourtant aux <WORK>motes critiques</WORK> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>136 . Schneidewin signale comme propre aux poêtes la construction des verbes qui marquent une affection de l ' âme avec des participes à l ' accusatif ; par ex . : "Hoôrv 6 aù ) oyoüvra ( <PERS>Phil</PERS> . 1314 ) ; χαίρω σ᾽ eὑsvyoïvra ( <WORK>Rhésus</WORK> , 390 ) ; hy0eto Bauvané - vovc ( <WORK>si</WORK> . XIII , 362 ) ; ᾿ἈΑρίσταρχον στραenyouvt’ &y0opua : ( fragment d ' <PERS>Eupolis</PERS> ) .</SENTENCE>"
+OUTPUT: "<SENTENCE>136 . <PERS>Schneidewin</PERS> signale comme propre aux poêtes la construction des verbes qui marquent une affection de l ' âme avec des participes à l ' accusatif ; par ex . : "Hoôrv 6 aù ) oyoüvra ( <PERS>Phil</PERS> . 1314 ) ; χαίρω σ᾽ eὑsvyoïvra ( <WORK>Rhésus</WORK> , 390 ) ; hy0eto Bauvané - vovc ( <WORK>si</WORK> . XIII , 362 ) ; ᾿ἈΑρίσταρχον στραenyouvt’ &y0opua : ( fragment d ' <PERS>Eupolis</PERS> ) .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>440 . Ὥς ὄμμα πελείας . Scholiaste : Ἐπεὶ πεοιδεὲς τὸ ζῷον .</SENTENCE>"
+OUTPUT: "<SENTENCE>440 . Ὥς ὄμμα <OBJECT>πελείας</OBJECT> . <PERS>Scholiaste</PERS> : Ἐπεὶ πεοιδεὲς τὸ ζῷον .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>��Óόμμα δὲ πελείας, περιφραστιχῶς ἢ πέλεια ( <WORK>οἴ .</WORK> <WORK>Τραchim.</WORK> <SCOPE>627</SCOPE> ) .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Mais <PERS>Lobeck</PERS> fait olserver que chez les anciens le clignement des yeux etait regardé comme un signe de crainte : il renvoie aux <WORK>Physiognomoniques</WORK> d ’ <PERS>d’Aristote</PERS> , ainsi qu ’ à <PERS>Aristophane</PERS> ( <WORK>Chevaliers</WORK> , 292 : Βλέπειν ἀσχαρδάμνκτον ) . Οἵ . <WORK>Oedipe</WORK> ἃ Οοίοπε , 729 : Ὀμμάτων φόθον .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>. ‘ “ Q ; , quemadmodum , ou ce qui revient au même en cet endroit , ëta . — Tñç vuv phipévne vuxrég .</SENTENCE>"
+OUTPUT: "<SENTENCE>. ‘ “ Q ; , <WORK>quemadmodum</WORK> , ou ce qui revient au même en cet endroit , ëta . — Tñç vuv phipévne vuxrég .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Tepl peut être suppléé comme intermédiaire entre ces mots et ceux dont ils dépendent , à savoir : pey& ) os Bôpu6or ( tumultes , bruits , rumeurs). Cf . plus bas , v . 998 : ὀξεῖα γάρ σου βάξις , c ' est-à-dire <WORK>B4E</WORK> : <SCOPE>222</SCOPE> : dvépos &yyeliav , c ’ est-à-dire ἀγγελίαν περὶ &vépoc ; <PERS>Euripide</PERS> , <WORK>Iphigénie</WORK> <WORK>Aulis</WORK> , <SCOPE>498</SCOPE> : χόρης σῆς Becodtœv , c ’ est-à-dire περὶ χόρης , ei les autres exemples cités par Matthiæ , page 672 .</SENTENCE>"
+OUTPUT: "<SENTENCE>Tepl peut être suppléé comme intermédiaire entre ces mots et ceux dont ils dépendent , à savoir : pey& ) os Bôpu6or ( <OBJECT>tumultes</OBJECT> , <OBJECT>bruits</OBJECT> , <OBJECT>rumeurs</OBJECT> ). Cf . plus bas , v . <SCOPE>998</SCOPE> : <WORK>ὀξεῖα</WORK> γάρ σου <WORK>βάξις</WORK> , c ' est-à-dire <WORK>B4E</WORK> : <SCOPE>222</SCOPE> : <WORK>dvépos</WORK> &yyeliav , c ’ est-à-dire <WORK>ἀγγελίαν</WORK> περὶ <WORK>&vépoc</WORK> ; <PERS>Euripide</PERS> , <WORK>Iphigénie</WORK> <WORK>Aulis</WORK> , <SCOPE>498</SCOPE> : <OBJECT>χόρης</OBJECT> σῆς <WORK>Becodtœv</WORK> , c ’ est-à-dire περὶ <OBJECT>χόρης</OBJECT> , ei les autres exemples cités par <PERS>Matthiæ</PERS> , page <SCOPE>672</SCOPE> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>443 . Μεγάλοι θόρνθοι χατέχουσ᾽ ἡμᾶς .</SENTENCE>"
+OUTPUT: "<SENTENCE>443 . Μεγάλοι θόρνθοι χατέχουσ᾽ ἡμᾶς .</SENTENCE>"
+
+There are no named entities in the provided sentence that match the given types.
+########
+ INPUT: "<SENTENCE>« Magnis tumultuantium clamoribus obruti « sumus , quod idem est atque magna cum vo<SUB>«</SUB>ciferutione nobis dictum est , » [ Wunder . ]</SENTENCE>"
+OUTPUT: "<SENTENCE><DATE>«</DATE> Magnis tumultuantium clamoribus obruti <DATE>«</DATE> sumus , quod idem est atque magna cum vo<SUB>«</SUB>ciferutione nobis dictum est , » [ Wunder . ]</SENTENCE>"
+########
+ INPUT: "<SENTENCE>443 . ’ Exl Buox ) eig . Autre complément à joindre à BôpuGor «ita ut BépuGos êni « δυσχλείᾳ pæne idem sit atque Bépu6os « Gucxiesic . Cf . Matthiæ , page 4236 . » [ <PERS>Wander</PERS> . ]</SENTENCE>"
+OUTPUT: "<SENTENCE>443 . ’ Exl Buox ) eig . Autre complément à joindre à BôpuGor «ita ut BépuGos êni « δυσχλείᾳ pæne idem sit atque Bépu6os « Gucxiesic . Cf . Matthiæ , page <DATE>4236</DATE> . » [ <PERS>Wander</PERS> . ]</SENTENCE>"
+########
+ INPUT: "<SENTENCE>857 . Τοιαῦτα γάρ . ( <WORK>Οἱ .</WORK> <SCOPE>488</SCOPE> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>328 . ’ Estédyv . Eté ) dew signifie équiper pour un voyage , mettre en état de peartir , et particulièrement , mettre à flot ( απ vaisseau ) .</SENTENCE>"
+OUTPUT: "<SENTENCE>328 . ’ Estédyv . Eté ) dew signifie <OBJECT>équiper pour un voyage</OBJECT> , mettre en état de peartir , et particulièrement , mettre à flot ( <OBJECT>απ vaisseau</OBJECT> ) .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>' Esté ) \nv , au passif , dans le sens de je suis venue , peut être regardé comme un des nombreux emprunts faits au vocabulaire nautique par les écrivains d' Athènes . Cf. Électre , 404 .</SENTENCE>"
+OUTPUT: "<SENTENCE>' Esté ) \nv , au passif , dans le sens de je suis venue , peut être regardé comme un des nombreux emprunts faits au <OBJECT>vocabulaire nautique</OBJECT> par les <PERS>écrivains</PERS> d' <LOC>Athènes</LOC> . Cf. <WORK>Électre</WORK> , <SCOPE>404</SCOPE> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>33t4 . Mä ) ) ov . On peut suppléer Beuvx ἔσται υε δεινὰ λέξω .</SENTENCE>"
+OUTPUT: "<SENTENCE>33t4 . Mä ) ) ov . On peut suppléer <OBJECT>Beuvx</OBJECT> ἔσται υε δεινὰ λέξω .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>- - - Ἢ , εἰ Ἰαϊίη , ἀπ .</SENTENCE>"
+OUTPUT: "<SENTENCE>- - - Ἢ , <LOC>Ἰαϊίη</LOC> , ἀπ .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>— "H oùx ne comptent dans le vers que pour une syllabe . Cf . <WORK>OEd . Ro</WORK> : , <DATE>δδῦ</DATE> . <WORK>Υογ</WORK> . <PERS>Matthiæ</PERS> , <WORK>page</WORK> 142 .</SENTENCE>"
+########
+I've process 32 phrases!

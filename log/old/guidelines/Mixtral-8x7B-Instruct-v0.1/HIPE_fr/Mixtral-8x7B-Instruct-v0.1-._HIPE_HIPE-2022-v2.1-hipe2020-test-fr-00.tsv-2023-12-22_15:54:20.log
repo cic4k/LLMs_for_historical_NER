@@ -1,0 +1,705 @@
+ INPUT: "<SENTENCE>G R E E F E . 1 .</SENTENCE>"
+OUTPUT: "<SENTENCE>G R E E F E . 1 .</SENTENCE>"
+
+In this sentence, there are no named entities that match the given types (PERSON, ORGANIZATION, PRODUCTION, TIME, or LOCATION).
+########
+ <SENTENCE>Le public est averti que <pers>Charlotte née Bourgoin</pers> , femme - de <pers>Joseph Digiez</pers> , et <pers>Maurice Bourgoin</pers> , enfant mineur représenté par le sieur <pers>Jaques Charles Gicot</pers> son curateur , ont été admis par arrêt du <org>Conseil d' Etat</org> du 5 <time>décembre 1797</time> , à solliciter une renonciation générale et absolue aux biens et aux dettes présentes et futures de <pers>Jean - Baptiste Bourgoin</pers> leur pe ' re , et qu ' en conséquence , les susdits enfans , duement assistés et autorisés , se présenteront par - devant <loc>la noble justice du Landeron</loc> _ , le mer - <time>17 janvier</time> courant , pour y porter la prédite renonciation ; assignant péremptoirement tous ceux qui estimeraient être ' fondés à s ' y opposer , à _ comparcutre ce jour - là en dite justice , pour hure va _ ^ pir leurs droits et alléguer leurs moyens d ' _ opposW _ | _ priS , sou 3 peine ' de forclusion .</SENTENCE>
+########
+ INPUT: "<SENTENCE>X . En vertu d'un gracieux arrêt du Gouvernement en date du 3 octobre, et ensuite de la direction donnée le 35 novembre dernier.</SENTENCE>"
+OUTPUT: "<SENTENCE>X . En vertu d'un gracieux arrêt du <org>Gouvernement</org> en date du <time>3 octobre</time>, et ensuite de la direction donnée le <time>35 novembre</time> dernier.</SENTENCE>"
+########
+ "<SENTENCE>par l' <org>honorable cour dé justice du Val - de - Travers</org> , : le <pers>sieur Daniel Meuron</pers> , <pers>maïUe charpentier</pers> , <loc>bourgeois de Neuchatel</loc> , en sa qualité de tuteur juridiquement établi aux .</SENTENCE>"
+########
+ <SENTENCE>quatre enfants en bas âge de <pers>Frédéric-Henri Lequin de Fleurier</pers> et de <pers>Marie-Louise Meuron</pers>, qui sont nommément, ' Jouas Frédéric, Auguste, Alexandre et Louise-Rosalio Lequin, fait savoir qu'il se présentera en dite justice le samedi 30 janvier courant, pour y solliciter en leur faveur une renonciation formelle et juridique aux biens et dettes présents et * futurs dudit Frédéric Henri Lequin leur père.</SENTENCE>
+########
+ INPUT: "<SENTENCE>En conséquence de quoi tous ceux qui pourraient opposer à ladite renonciation, sont cités péremptoirement à se présenter en justice dudit Val de - Travers 1 © dit 30 janvier cornant, _ poar y _ seuieuir leurs droits, ( « 14 s pain » « la forclusion.</SENTENCE>"
+OUTPUT: "<SENTENCE>En conséquence de quoi tous ceux qui pourraient opposer à ladite renonciation, sont cités péremptoirement à se présenter en justice dudit <loc>Val de - Travers 1 © dit 30 janvier</loc> cornant, _ poar y _ seuieuir leurs droits, ( « 14 s pain » « la forclusion.</SENTENCE>"
+########
+ <SENTENCE>AVIS DIVERS .</SENTENCE>
+########
+ "<SENTENCE>1 .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Les circonstances ttu moment on engage le Magistrat rie .</SENTENCE>"
+OUTPUT: "<SENTENCE>Les <time>circonstances ttu moment</time> on engage le Magistrat rie .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Neuchatel à <time>renvoyer le tirage de ia première classe dix ' neuvième Loterie</time> à une époque plus favorable , ce dont on aura soin d ' informer le public par des bulletins impri ' mes qui seront délivrés par les Collecteurs à tous les intéressés .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>g.</SENTENCE>"
+OUTPUT: "<SENTENCE>g.</SENTENCE>"
+########
+ "<SENTENCE>' Tous les créanciers à la masse des biens du nommé <pers>Jean ' Fréderic</pers> / <pers>Stnuffer</pers> , meunier aux moulins de la Prise, sont avisés . que M . le maire a fixé la journée pour procéder aux <HumanProd>collocatlons</HumanProd> au vendredi 16 <time>février courant</time> , en conséquence de quoi ils sont cités à se présenter ce jour là à neuf heures <time>dû matin</time> dans l ' hôtel - de - ville , , .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>, .</SENTENCE>"
+OUTPUT: "<SENTENCE>, .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>, 37 ' Les ' sœurs <pers>Gendre</pers> ayant entiepriE , l ' établissement en pâtisserie que tenoit feu Mlle .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Eckard à la rue des Moulins, avisent lé public qu'elles le tiendront sur le même pied que ladite demoiselle Eckard.</SENTENCE>"
+OUTPUT: "<SENTENCE>Eckard <loc>à la rue des Moulins</loc>, avisent lé public qu'elles le tiendront sur le même pied que ladite <pers>demoiselle Eckard</pers>.</SENTENCE>"
+########
+ "<SENTENCE>Elles osent se flatter que les <pers>p ersonnes</pers> qui voudront bien les honorer de leur confianceauront lieu d ' être satisfaites à tous égards .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>.</SENTENCE>"
+OUTPUT: "<SENTENCE>.</SENTENCE>"
+########
+ <SENTENCE>4 . , <pers>Un bourgeois</pers> de cette ville , connu avantageusement par ses bonnes i mœurs et conduite , desireroit nouver une petite auberge a louer , ou un emplacement propre à un vendage de vin ; ou encore ' un jardin avec logement , où ! l ' on pût tenir un quilier .</SENTENCE>
+########
+ INPUT: "<SENTENCE>S' adresser au bureau d'avis.</SENTENCE>"
+OUTPUT: "<SENTENCE>S' adresser au <org>bureau d'avis</org>.</SENTENCE>"
+########
+ INPUT: "<SENTENCE>' ;</SENTENCE>"
+OUTPUT: "<SENTENCE>' ;</SENTENCE>"
+########
+ INPUT: "<SENTENCE>5 . Mercredi 7 du courant , on a trouvé un paquet de toile sur lé Crêt .</SENTENCE>"
+OUTPUT: "<SENTENCE>5 . <time>Mercredi 7 du courant</time> , on a trouvé un paquet de toile sur <loc>lé Crêt</loc> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>La _ personne qui l ' a perdu apprendra au bureau d ' avis le nom de celle - qui l ' a trouvé .</SENTENCE>"
+OUTPUT: "<SENTENCE>La <pers>personne</pers> qui l ' a perdu apprendra au bureau d ' avis le nom de celle - qui l ' a trouvé .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>,</SENTENCE>"
+OUTPUT: "<SENTENCE>,</SENTENCE>"
+########
+ <SENTENCE>6. Oh demande une <pers>fille</pers> qui sache fane un bon <prod>ordinaire</prod> et soigner des <pers>enfants</pers> , qui aye bonne conduite .</SENTENCE>
+########
+ INPUT: "<SENTENCE>Elle pourrait ' entrer en place dés à présent .</SENTENCE>"
+OUTPUT: "<SENTENCE>Elle pourrait ' entrer en place <TIME>dés à présent</TIME> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>S ' adr .</SENTENCE>"
+OUTPUT: "<SENTENCE>S ' adr .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>au bureau d ' avis .</SENTENCE>"
+OUTPUT: "<SENTENCE>au <org>bureau d ' avis</org> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>7. ' Far due permission, vendredi <time>17 du courant</time>, à 9 heures du matin, on exposera en montes dans l' antï - chambre de lé salle du Concert, divers meubles, la plupart en bon état, tels que ' buffets, lits, matelas, batterie de cuisine, vieux étain, etc. 8. </SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Le lendemain de la prestation des sermens à <loc>Neuchatel</loc> on a trouvé un chien d ' arrêt .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>La personne à qui il appartient peut le réclamer chez <pers>Jean - Frédéric Borel</pers> , <prod>maître charpentier</prod> à Couve t .</SENTENCE>"
+########
+ "<SENTENCE>' - , g .</SENTENCE>"
+
+OUTPUT: "<SENTENCE>' - , g .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Dans une <loc>maison</loc> de cette ville on demande une <pers>jeune</pers> .</SENTENCE>"
+
+INPUT: "<SENTENCE>Le président américain Donald Trump a appelé lundi le Congrès à adopter rapidement un nouveau projet de loi sur le contrôle des armes à feu, deux semaines après la tuerie de Parkland en Floride.</SENTENCE>"
+
+OUTPUT: "<SENTENCE>Le <pers>président américain Donald Trump</pers> a appelé <time>lundi</time> le Congrès à adopter rapidement un <HumanProd>nouveau projet de loi sur le contrôle des armes à feu</HumanProd>, deux semaines après la <HumanProd>tuerie de Parkland</HumanProd> en <loc>Floride</loc>.</SENTENCE>"
+########
+ INPUT: "<SENTENCE>fille de bonne conduite et de bonnes mœurs , pour soigner un enfant .</SENTENCE>"
+OUTPUT: "<SENTENCE>fille de bonne conduite et de bonnes mœurs , pour soigner un enfant .</SENTENCE>"
+
+There are no named entities in this sentence that match the given types.
+########
+ INPUT: "<SENTENCE>S ' adr .</SENTENCE>"
+OUTPUT: "<SENTENCE>S ' adr .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>au " bureau d ' avis .</SENTENCE>"
+OUTPUT: "<SENTENCE>au <loc>bureau d ' avis</loc> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>10 . M . Rougemont , commissaire général , demande à acheter des bosses à char et des bollers de diverses grandeurs .</SENTENCE>"
+OUTPUT: "<SENTENCE>10 . <pers>M . Rougemont</pers> , commissaire général , demande à acheter des bosses à char et des bollers de diverses grandeurs .</SENTENCE>"
+########
+> Model overloaded, retrying 1s.
+ INPUT: "<SENTENCE>11 . M . Fa vre , négociant sur la place , a reçu e j .</SENTENCE>"
+OUTPUT: "<SENTENCE>11 . <pers>M . Fa vre</pers> , négociant sur la place , a reçu e j .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>commission de la graine de .</SENTENCE>"
+OUTPUT: "<SENTENCE>commission de la graine de .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>tre lie nouvelle , qu ' il offre en gros et en détail - à un prix modique .</SENTENCE>"
+OUTPUT: "<SENTENCE>tre lie nouvelle , qu ' il offre en gros et en détail - à un prix modique .</SENTENCE>"
+########
+ "<SENTENCE>£ 2 . Le <pers>sieur Quartier</pers> _, ^ <tit>instituteur</tit> , s'étant décidé d'aller passer tout au moins l'été prochain à la campagne, invite les ) personnes qui voudraient se pourvoir chez lui d'encre et .</SENTENCE>"
+########
+ "<SENTENCE>de plumes taillées , de s ' annoncer au <time>plutôt</time> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Il lui reste quelques papiers, tant de poste qu'autres de différens formats, dont il veut se débarrasser, et qu'il cédera pendant la foire au dessous du prix coûtant.</SENTENCE>"
+OUTPUT: "<SENTENCE>Il lui reste quelques <HumanProd>papiers, tant de poste qu'autres de différens formats</HumanProd>, dont il veut se <HumanProd>débarrasser</HumanProd>, et qu'il cédera pendant la <TIME>foire</TIME> au dessous du <HumanProd>prix coûtant</HumanProd>.</SENTENCE>"
+
+In this sentence, there are no named entities that match the provided types PERSON, ORGANISATION, LOCATION, or TIME. However, there are entities that can be classified as HUMAN PRODUCTION, such as "papiers", "poste", "débarrasser", and "prix coûtant". These entities refer to human-made products or actions related to them.
+########
+ OUTPUT: "<SENTENCE>Ï 3 . On demande pour le commencement de <time>mars</time> , une servante qui sache coudre et travailler dans un jardin .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>S ' adr .</SENTENCE>"
+OUTPUT: "<SENTENCE>S ' adr .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>au bureau d ' avis .</SENTENCE>"
+OUTPUT: "<SENTENCE>au <org>bureau d ' avis</org> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>' 14 .</SENTENCE>"
+OUTPUT: "<SENTENCE>' 14 .</SENTENCE>"
+
+The input sentence does not contain any named entities that can be classified into PERSON, ORGANIZATION, PRODUCTION, TIME, or LOCATION categories.
+########
+ OUTPUT: "<SENTENCE>Le « 5 <time>janvier</time> dernier , on a trouvé de <loc>Neuchatel</loc> à <loc>Chaumont</loc> , un petit chien noir .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>La personne à laquelle il appartient peut ie réclamer chtz Jean Pierre Baxdet .</SENTENCE>"
+OUTPUT: "<SENTENCE>La personne à laquelle il appartient peut ie réclamer chtz <pers>Jean Pierre Baxdet</pers> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Le même est toujours assorti de toutes sortes de boisselages , seilles à tau , boues à tonneaux et coupons pour mettre iapâteau four .</SENTENCE>"
+OUTPUT: "<SENTENCE>Le même est toujours assorti de toutes sortes de <HumanProd>boisselages</HumanProd> , seilles à tau , boues à tonneaux et coupons pour mettre iapâteau four .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>i 5 . La noble Compagnie des Marchands de Neuchatel offre à prête / une somme de L . 1400 d ' ici .</SENTENCE>"
+OUTPUT: "<SENTENCE>i 5 . <org>La noble Compagnie des Marchands de Neuchatel</org> offre à prête / une somme de L . 1400 d ' ici .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Les personnes à<pers>qui</pers> elle pourrait convenir , peuvent s ' adresser à <pers>M . Henri Gigaud</pers> , membre du petit <org>Conseti</org> ; son <pers>procureur</pers> , soit à <pers>M . Ghatenay</pers> du grand <org>Conseil</org> , son <pers>receveur</pers> , ou à <pers>M . le greffier Péter</pers> , son <pers>secrétaire</pers> , eu présentant leurs sûretés .</SENTENCE>"
+########
+ <SENTENCE>m <TIME>' ¦ ' — " . . ' i - i ' i ' — ' i m Nota . Les Avis à insérer dans cette Feuille , qui ne seront pas remis au Bureau le Mardi matin , à neuf - heures au plus tard , seront renvoyés irrévocablement à l ' ordinaire prochain _ . ARTICLES OFFICIELS . k . Le public est informé , qu ' au bénéfice d ' un gracieux arrêt de la Seigneurie , " et d ' une sentence de direction de l ' honorable Justice de la Chaux - de - Fonds , le tuteur et les parens des enfans ' de <PERSON>Henri Jean-Maire</PERSON> , se présenteront en cour de Justice de la dite Chaùx - de - Fonds , le Mardi _ s _ ?</SENTENCE>
+########
+ "<SENTENCE>o .</SENTENCE>"
+########
+ <SENTENCE>Septembre <time>courant</time> , au plaid ordinaire , aux lieu et heure accoutumés , pour postuler au nom des enfans nés et à naître du dit <pers>Henri Jean - Maire</pers> et de <pers>Reine née Robert - Nicoud</pers> , mari et femme , une renonciation formelle et juridique aux biens et dettes présens et futurs , de leurs dits père et mère .</SENTENCE>
+########
+ INPUT: "<SENTENCE>C ' est pourquoi tous les créanciers de ces derniers q ui croiront .</SENTENCE>"
+OUTPUT: "<SENTENCE>C ' est pourquoi tous les <pers>créanciers</pers> de ces derniers q qui croiront .</SENTENCE>"
+
+In this sentence, "créanciers" is identified as a PERSON entity because it refers to a group of individuals. The word "créanciers" in French is a noun that refers to people or organizations that are owed money. In this context, it is referring to individuals, so it is classified as a PERSON entity.
+########
+ INPUT: "<SENTENCE>avoir des moyens d ' opposition à apporter à la dite demande eh renonciation , pourront s ' y présenter et Faire valoir leurs droits , ainsi et comme mieux leur conviendra , sous peine de forclusion .</SENTENCE>"
+OUTPUT: "<SENTENCE>avoir des moyens d ' opposition à apporter à la dite demande <prod>eh renonciation</prod> , pourront s ' y présenter et Faire valoir leurs droits , ainsi et comme mieux leur conviendra , sous peine de forclusion .</SENTENCE>"
+########
+ "<SENTENCE>* <loc>Greffe de la Chaux - de Fonds</loc> .</SENTENCE>"
+########
+ <SENTENCE>jft .</SENTENCE>
+########
+ <SENTENCE>Le Gouvernement ayant concédé à <pers>Henriette</pers> , fille de feu le sieur cap itaine - lieutenant <pers>Jaques Henri Boûrquin</pers> , veuve de <pers>Jacob</pers> fils de <pers>Jaques Guye</pers> , des <loc>Verrières</loc> _ , résidante et paroissienne de la <loc>Cote - aux - Fées</loc> , de mettre ses biens en décret ; tous , ses sieurs créanciers sont dès là requis de se rencontrer aux dites <loc>Verrières</loc> , au siège de Justice , par - devant <pers>M . Charles Cousandièr</pers> , " maire du dit lieu , et , les sieurs Egaleurs par lui nommés , le <time>Lundi Cinq Septembre prochain</time> , munis de leurs _ tiires et prétentions , afin d ' être inscrits et ensuite colloques selon leurs " rangs " et dafëS 7 " " S 0 Trs - " peme ut ; forclusion .</SENTENCE>
+########
+ INPUT: "<SENTENCE>Donne par ordonnance au greffe des Verrières , le i 5 Août 1 S 08 .</SENTENCE>"
+OUTPUT: "<SENTENCE>Donne par ordonnance au <loc>greffe des Verrières</loc> , le <time>15 Août 1 S 08</time> .</SENTENCE>"
+########
+> Model overloaded, retrying 1s.
+ INPUT: "<SENTENCE>- , H .</SENTENCE>"
+OUTPUT: "<SENTENCE>- , <pers>H .</pers> </SENTENCE>"
+########
+ INPUT: "<SENTENCE>- F .</SENTENCE>"
+OUTPUT: "<SENTENCE>- F .</SENTENCE>"
+
+Explanation: The input sentence does not contain any named entities that match the given types.
+########
+ "<SENTENCE><pers>JEAHJAQUET</pers>, greffier.</SENTENCE>"
+########
+ INPUT: "<SENTENCE>_ £ .</SENTENCE>"
+OUTPUT: "<SENTENCE>_ £ .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Le public est informé , que le <pers>sieur Charles - Henri vêpre</pers> , et la <pers>demoiselle Julie - Valérie Bonvêpre</pers> , fils et fille de feu M . <pers>Charles - Guillaume Bonvêpre</pers> , <org>membre du Grand - Conseil</org> et <loc>hôpitalier</loc> , et de la <pers>dame Susanne Petitpierre</pers> , sa veuve , <loc>bourgeoise de Neuchatel</loc> , ont ¦ été admis par arrêt du <org>Conseil d ' Etat</org> en date du <time>5 Juil -</time> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>let dernier , à postuler une renonciation formelle et ridique aux " biens et dettes présentes et futures de leurs dits père et mère.</SENTENCE>"
+OUTPUT: "<SENTENCE>let dernier , à postuler une renonciation formelle et ridique aux <TIME>biens et dettes présentes et futures</TIME> de leurs dits <PERSON>père et mère</PERSON>.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>En conséquence ils se présenteront par - devant la <org>noble Cour - de - ' Justice de . Neuchatel</org> , qui sera assemblée dans l ' hôtel - de cette ville , le <time>Vendredi S 3 Septembre courant</time> , à l ' heure ordinaire du plaid , jour auquel tous ceux qui pourraient opposer à la dite demande en renonciation , spntjpereemptoiiement assignés à se présenter en dite Justice , pour y soutenir leurs droits , à peine de forclusion . <loc>Greffe de Neuchatel</loc> . _ £ . La succession de feu l ' ancien d ' é glise Jonas Bes 6 on , d ' Engolon , ayant .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>été déclaréqjacente à la Seigneurie .</SENTENCE>"
+OUTPUT: "<SENTENCE>été déclaré<unk>qjacente</unk> à la <loc>Seigneurie</loc> .</SENTENCE>"
+
+In this example, the input sentence does not contain any named entities that can be classified into the provided categories (PERSON, ORGANISATION, PRODUCTION, TIME, or LOCATION). The word "Seigneurie" is classified as a LOCATION, but the rest of the sentence does not contain any other named entities. The unknown entity (<unk>qjacente</unk>) is used for the misspelled word "qjacente" which does not correspond to any known named entity.
+########
+ OUTPUT: "<SENTENCE>liquidation en a été ordonnée et fixée au <time>Vendredi 8 Septemb</time>.</SENTENCE>"
+########
+ "<SENTENCE>< e courant .</SENTENCE>"
+########
+ <SENTENCE>Et <pers>Henri Favre</pers>, de <loc>Villard</loc>, et sa femme <pers>Jeanne - Marie née Morel</pers>, veuve de <pers>Jean - Daniel Favre</pers>, ayant ' obtenu la discussion de leurs biens, pour satisfaire à leurs dettes, qui a aussi été _ firfe au Mercredi 7 du dit mois : Tous créanciers quelcçtiqnes de ces deux masses, compris ceux de celle à la _ stfsdite veuve du chef de son premier mari, sont requis % è se présenter _ Jes jours sus - indiqués, devant M . le Maire de <loc>Valangin</loc>, et M . les égaleurs nommés, vers les huit heures du matin, afin de faire valoir leurs prétentions, et se colloqùer selon droit, _ BOOB peine de forclusion.</SENTENCE>
+########
+ INPUT: "<SENTENCE>Greffe de Valangin .</SENTENCE>"
+OUTPUT: "<SENTENCE><loc>Greffe de Valangin</loc>.</SENTENCE>"
+########
+ <SENTENCE>> 5 . <pers>Marianne Perrenoud</pers> , de <loc>la Sagne</loc> , fille de feu <pers>Jacob Perrenoud</pers> , et de <pers>Judith née Jaquet</pers> , morte le <time>27 Juillet</time> , c - t enterrée le 29 du même mois à _ .</SENTENCE>
+########
+ INPUT: "<SENTENCE>Neuchatel , ayant par son testament du 7 Août 1798 , appelle comme héritiers de ses biens , ses parens issus de germains , en disant : „ Je crée et institue pour mes seuls et uniques „ héritiers .</SENTENCE>"
+OUTPUT: "<SENTENCE>Neuchatel , ayant par son testament du <time>7 Août 1798</time> , appelle comme héritiers de ses biens , ses <pers>parens issus de germains</pers> , en disant : „ Je crée et institue pour mes seuls et uniques „ héritiers .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>en tous mes biens , mes cousins et cousines „ remués de germains , sans exception , ne les connois - „ sant pas tous par leurs noms , à la charge dé liur part „ d ' acquitter , etc . etc .</SENTENCE>"
+OUTPUT: "<SENTENCE>en tous mes biens , <pers>mes cousins et cousines</pers> „ remués de germains , sans exception , ne les connois - „ sant pas tous par leurs noms , à la charge dé liur part „ d ' acquitter , etc . etc .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>« Et les dits <pers>parens</pers> pouvant n ' être pas tous connus , on les avise par la présente , que le <time>Vendredi 9 Septembre courant</time> , est le jour fatal sur lequel la mise en possession et investiture des biens de la <pers>" défunte </pers>, doivent être réclamées devant \ i noble Cour de Justice , assemblée dans l ' hôtel - dê ville , par ceux des dits païens qui sont au pays , et qui estimeront avoir des droits à faire valoir .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>La présente <HumanProd>information</HumanProd> ainsi donnée sans conséquence , vu la clause extraordinaire ci - dessus , _ <HumanProd>exiraite</HumanProd> du testament de la <pers>défunte</pers> , qui est déposé en original au _ '<loc>Neuchatel</loc>', sera inséré trois fois dans la présente , et publié au prône de l' <loc>é glise de la _ Sagoe</loc></SENTENCE>"
+########
+ INPUT: "<SENTENCE>MONTES .</SENTENCE>"
+OUTPUT: "<SENTENCE>MONTES .</SENTENCE>"
+
+Explanation:
+The input sentence does not contain any named entities that match the given types (PERSON, ORGANISATION, PRODUCTION, TIME, or LOCATION). Therefore, the output is the same as the input.
+########
+ OUTPUT: "<SENTENCE>6 . La <org>Commission du bénéfice d'inventaire</org> de la <org>succès » ' _ sion</org> dû voitnrier <pers>Louis Floquet</pers> , donne avis par les présentes , que le <time>Mardi 6 Septembre prochain</time> , à neuf heures du matin , sur la place d'<loc>Yverdon</loc> , on _ exposera en vente par voie d'enchère publique et aux conditions qui seront lues , quaire voitures _ , deux chars - à - bancs , dont l'un est couvert , un grand et fort char de routier , harnois et autres objets de l'attirail de voiturier .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Donné à <pers>Yveidon</pers> , le <time>3 Août 3 * 08</time> . .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>AUBERJOSOIS , président .</SENTENCE>"
+OUTPUT: "<SENTENCE><pers>AUBERJOSOIS</pers>, président.</SENTENCE>"
+########
+ INPUT: "<SENTENCE>25 .</SENTENCE>"
+OUTPUT: "<SENTENCE>25.</SENTENCE>"
+########
+ INPUT: "<SENTENCE>F . COREVOïT , greffier .</SENTENCE>"
+OUTPUT: "<SENTENCE>F . <pers>COREVOïT</pers> , <org>greffier</org> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>7 . Par permission obtenue , M . " les ' Quaire - Ministraux feront exposer eu montes .</SENTENCE>"
+OUTPUT: "<SENTENCE>7 . Par permission obtenue , <pers>M . " les ' Quaire - Ministraux</pers> feront exposer eu montes .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>le _ ?</SENTENCE>"
+OUTPUT: "<SENTENCE>le _ ?</SENTENCE>"
+########
+ INPUT: "<SENTENCE>3 Septembre courant, a 1 issue du plaid, une vigne d'environ deux ouvriers et un quart, compris 1 ancienne ruelle Honhomme atte-.</SENTENCE>"
+OUTPUT: "<SENTENCE>3 <time>Septembre courant</time>, a 1 issue du plaid, une vigne d'environ deux ouvriers et un quart, compris 1 <loc>ancienne ruelle Honhomme</loc> atte-.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>nant , située au <loc>Plan de Serriere</loc> , entre l ' ancien chemin dû dit <loc>Serriere d ' ubère</loc> , le nouveau chemin aboutissant .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>1 au pont de .</SENTENCE>"
+OUTPUT: "<SENTENCE>1 au <loc>pont de</loc> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>joran , la .</SENTENCE>"
+OUTPUT: "<SENTENCE>joran , la .</SENTENCE>"
+
+Joran is a name of a person, but it is not mentioned clearly in the sentence whether it refers to an individual or more than one individual. Therefore, I cannot classify it as a PERSON named entity with certainty.
+########
+ OUTPUT: "<SENTENCE>vigne de <pers>M . le capitaine Jacobel</pers> de ' vent .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Cette vigne est entourée en grande partie d ' un mur , et elle sera exposée en montes , avec sa récolte , et aux conditions qui seront lues avant les dites montes .</SENTENCE>"
+OUTPUT: "<SENTENCE>Cette vigne est entourée en grande partie d ' un <loc>mur</loc> , et elle sera exposée en montes , avec sa récolte , et aux conditions qui seront lues avant les dites montes .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>8 . Ensuite de permission obtenue , on exposera en mon - ' tes publiques , le <time>Vendredi 9 Septembre courant</time> , à dix heures du matin , devant la maison <loc>De Charriera</loc> , au bas du village de <loc>Colombier</loc> , deux caresses , des selles , des harnois , _ coliers de chevaux , et autres objets de ce genre .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>. .</SENTENCE>"
+OUTPUT: "<SENTENCE>. .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>¦ .</SENTENCE>"
+OUTPUT: "<SENTENCE>¦ .</SENTENCE>"
+########
+ "<SENTENCE>' <TIME>"' . g . Ensuite d'une permission obtenue, on exposera en montes, en Justice de Colombier, le Mercredi 2 Novembre prochain, les pièces suivantes faisant partie du domaine appartenant à feu M. ne Charrière, dans la Juridiction de Colombier : i. " une possession dite la <LOC>Mairesse</LOC>, située entre Bôle et Colombier, contenant 8 poses 7 perches, garnie d'arbres fruitiers, avec maison et, fontaine ; 2 .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>un champ à Preyla, contenant environ 3 ares, 3 . ° deux vignes à Chatenaya, plantées en rouge, contenant ensemble 18</SENTENCE>"
+OUTPUT: "<SENTENCE>un champ à <loc>Preyla</loc>, contenant environ 3 <prod>ares</prod>, 3 . ° deux vignes à <loc>Chatenaya</loc>, plantées en rouge, contenant ensemble 18</SENTENCE>"
+########
+ "<SENTENCE>ouvriers.</SENTENCE>"
+########
+ INPUT: "<SENTENCE>To .</SENTENCE>"
+OUTPUT: "<SENTENCE>To .</SENTENCE>"
+
+In this example, there are no named entities in the sentence that match the provided categories.
+########
+ <SENTENCE>Les <pers>sieurs Jean - David Mauley</pers> , et <pers>Jean Confesse</pers> , <org>justiciers</org> , agissant en qualité de <org>curateurs conjoints</org> de l'<org>hoirie</org> de feu <pers>Félix Tinembart</pers> , et <org>dé syndics</org> de là <org>masse</org> de sa <org>discussion</org> , avisent le public , qu'ils exposeront en <loc>montes publiques</loc> , sous des conditions <org>râbles</org> , en <loc>Justice</loc> à <loc>Bevaix</loc> , le <time>16 Septembre prochain</time> , à <time>dix heures du matin</time> , une <HumanProd>Superbe maison</HumanProd> édifiée au bas du village de ' <loc>ce dernier lieu</loc> , sur la route de <loc>Neuchatel</loc> , consistant en trois<HumanProd>Togemens</HumanProd> distincts , une <HumanProd>boulangerie</HumanProd> a <HumanProd>plain - pied</HumanProd> , une <HumanProd>grange</HumanProd> , une <HumanProd>cave</HumanProd> , une <HumanProd>huiliète</HumanProd> avec les <HumanProd>appartenances</HumanProd> , <loc>verger</loc> et <loc>jardin</loc> y attenant , contenant une <HumanProd>pose</HumanProd> et quart , et où il existe une <HumanProd>plantation</HumanProd> de beaux arbres de plusieurs espèces ; plus .</SENTENCE>
+########
+ INPUT: "<SENTENCE>et enfin , un superbe balancier avec lès pierres .</SENTENCE>"
+OUTPUT: "<SENTENCE>et enfin , un superbe balancier avec lès <HumanProd>pierres</HumanProd> .</SENTENCE>"
+
+In this example, "pierres" (stones) is a type of human production because it is referring to a material used in construction.
+########
+ INPUT: "<SENTENCE>Les amateurs pourront s ' adresser .</SENTENCE>"
+OUTPUT: "<SENTENCE>Les amateurs pourront s ' adresser .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>avant les montes , pour prendre _ connois - .</SENTENCE>"
+OUTPUT: "<SENTENCE>avant les montes , pour prendre _ connois - .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>sance de tous ces objets , aux prédits sieurs syndics .</SENTENCE>"
+OUTPUT: "<SENTENCE>sance de tous ces objets , aux <org>prédits sieurs syndics</org> .</SENTENCE>"
+########
+ <SENTENCE>Donné au greffe de <loc>Bevaix</loc> , le <time>3 Août 1808</time> .</SENTENCE>
+########
+ INPUT: "<SENTENCE>Par ordonnance ' : ' J .</SENTENCE>"
+OUTPUT: "<SENTENCE>Par <time>ordonnance</time> ' : ' J .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>- J .</SENTENCE>"
+OUTPUT: "<SENTENCE>- J .</SENTENCE>"
+
+Explanation:
+The input sentence does not contain any named entities that match the given types (PERSON, ORGANIZATION, PRODUCTION, TIME, or LOCATION).
+########
+ INPUT: "<SENTENCE>PERNET , greffier .</SENTENCE>"
+OUTPUT: "<SENTENCE><pers>PERNET</pers> , greffier .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>ON OFFRE A VENDRE .</SENTENCE>"
+OUTPUT: "<SENTENCE>ON OFFRE A VENDRE.</SENTENCE>"
+########
+ INPUT: "<SENTENCE>IX .</SENTENCE>"
+OUTPUT: "<SENTENCE>IX.</SENTENCE>"
+
+In this example, there are no named entities to identify and classify in the given sentence.
+########
+ INPUT: "<SENTENCE>M . Roy s ' étant décidé , à la demande de plusieurs personnes , de vendre par parcelles un laigre d ' environ huit bosses vin blanc .</SENTENCE>"
+OUTPUT: "<SENTENCE>M . <pers>Roy</pers> s ' étant décidé , à la demande de plusieurs personnes , de vendre par parcelles un laigre d ' environ huit bosses <HumanProd>vin blanc</HumanProd> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>1802 , T ' offre au prix de cinq bàiz le pot , en .</SENTENCE>"
+OUTPUT: "<SENTENCE>1802 , T ' offre au prix de cinq bàiz le pot , en .</SENTENCE>"
+
+Explanation:
+There are no named entities present in the given sentence that match the provided categories.
+########
+ INPUT: "<SENTENCE>en prenant au moins 100 pots ; il en délivrera des échantillons aux amateurs , et recevra leurs souscriptions .</SENTENCE>"
+OUTPUT: "<SENTENCE>en prenant au moins 100 <HumanProd>pots</HumanProd> ; il en délivrera des échantillons aux amateurs , et recevra leurs souscriptions .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Ce * vin ne laisse rien à désirer pour la qualité , mais il laisse au vendeur dès regrets sur la dicité du prix</SENTENCE>"
+OUTPUT: "<SENTENCE>Ce * <HumanProd>vin</HumanProd> ne laisse rien à désirer pour la qualité , mais il laisse au vendeur dès regrets sur la dicité du prix</SENTENCE>"
+########
+ <SENTENCE>ARTICLES OFFICIELS.</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>Noble et vertueux <pers>César d ' Ivernois</pers> , <org>conseiller d ' Etat</org> et <loc>maire de Colombier</loc> , ayant fixé une nouvelle journée pour reprendre les erremens du <pers>décret de la masse de Samuel Huguenin</pers> , ci - devant boucher en ce lieu ; en conséquence , tous les <pers>créanciers de ce dernier</pers> sont péremptoirement assignés à se rencontrer dans la <loc>salle deJusticeduditColombier</loc> , le <time>Vendredi ; oJuin courant</time> , dès les huit heures du matin , pour procéder aux collocations , sous peine de forclusion .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Parord .</SENTENCE>"
+OUTPUT: "<SENTENCE>Parord.</SENTENCE>"
+########
+ INPUT: "<SENTENCE>F . C ' LtRC , £ ffier .</SENTENCE>"
+OUTPUT: "<SENTENCE>F . C ' LtRC , £ ffier .</SENTENCE>" (No named entities found in the input sentence)
+########
+ INPUT: "<SENTENCE>Dans le décret des biens de AL Fiançois .</SENTENCE>"
+OUTPUT: "<SENTENCE>Dans le décret des biens de <org>AL Fiançois</org> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Racle , de Neuveville , ci - devant _ négociant à Berne , publié l ' année 1824 , et dont la liquidation dique sur le droit et l ' avoir a eu lieu le 3 1 Août igî _ ?</SENTENCE>"
+OUTPUT: "<SENTENCE>Racle , <pers>de Neuveville</pers> , ci - devant <HumanProd>négociant</HumanProd> à <loc>Berne</loc> , publié l ' année 1824 , et dont la liquidation dique sur le droit et l ' avoir a eu lieu le 3 1 Août igî _ ?</SENTENCE>"
+########
+ <SENTENCE>, <pers>AlAL Millier</pers> , <org>Sivary père et Comp</org> , de <loc>Fribourg</loc> en <loc>Suisse</loc> , suivant une obligation avec nantissement , des 7 et 11 Juin 15 - 2 * 4 , ont à réclamer un solde de réclamation admise de L . 32,371 » 2 _ J r .</SENTENCE>
+########
+ <SENTENCE>_ ipes .</SENTENCE>
+
+In this sentence, there are no named entities that match the provided categories (PERSON, ORGANIZATION, PRODUCTION, TIME, or LOCATION). Therefore, the output remains the same as the input.
+########
+ INPUT: "<SENTENCE>Conformément à la loi i page 30 c du code civil de la ville de Berne , Al Al . les notifians ont demandé d ' être premièrement assignes pour cette somme sur les objets qui leur ont été cédés en nantissement et effectivement livrés , et en oute colloques suivant leur rang , et conformément à la loi , sur des objets de valeur réelle .</SENTENCE>"
+OUTPUT: "<SENTENCE>Conformément à la <loc>loi i page 30 c du code civil de la ville de Berne</loc> , Al Al . les <pers>notifians</pers> ont demandé d ' être premièrement assignes pour cette somme sur les objets qui leur ont été cédés en nantissement et effectivement livrés , et en oute colloques suivant leur rang , et conformément à la loi , sur des objets de valeur réelle .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Cependant , n'ayant point été assignés pour cette réclamation , suivant le prescrit de la <time>loi</time> ci-dessus citée , mais sur le restant de la masse des dettes actives en valeur et non-valeur de L. 12,481 , , 4 * ; râpes , pour L. 2947 , , < ; 2 ' / - râpes , et ensuite colloques à la patience pour la somme restante de L. 29,423 „ 72 ' / ; râpes , vu que les biens de la masse 5 e trouvaient absorbés , et leur étant arrivé par-là du tort et préjudice , MAL les notifians ont recours à la voie de revision , suivant ce qui est prescrit par la <time>loi</time> 1 ' _ < * , page 316 du susdit code civil .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>En conséquence , AlAL les notifians , ou un chargé de procuration , se présenteront , le 2 Juillet 1828 , </SENTENCE>"
+OUTPUT: "<SENTENCE>En conséquence , <org>AlAL</org> les notifians , ou un chargé de procuration , se présenteront , le <time>2 Juillet 1828</time> , </SENTENCE>"
+########
+ INPUT: "<SENTENCE>à l'audience de Al. le juge civil Freudo'nreich, lieutenant d'Avoyer de la Préfecture à Berne, à 9 heures du matin, pour demander que, dans le but mentionné, révision leur soit accordée du décret des biens de AI.</SENTENCE>"
+OUTPUT: "<SENTENCE>à l'<org>audience</org> de <pers>Al. le juge civil Freudo'nreich</pers>, <org>lieutenant d'Avoyer</org> de la <loc>Préfecture</loc> à <loc>Berne</loc>, à 9 heures du matin, pour demander que, dans le but mentionné, révision leur soit accordée du <HumanProd>décret</HumanProd> des biens de <HumanProd>AI</HumanProd>.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>François <pers>Racle</pers> , de <loc>Neuveville</loc> , ci - devant négociant à <loc>Berne</loc> , et absent du pays ; d ' après cela tous les créanciers qui auraient l ' intention de s ' opposer à la dite demande en révision , sont formellement invités à se rencontrer à la dire audience , et en cas de non - comparution , tenus de s ' en tenir à cet <HumanProd>éL</HumanProd> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>ard à ce qui est statué par les lois .</SENTENCE>"
+OUTPUT: "<SENTENCE>ard à ce qui est statué par les <org>lois</org> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Donné sous l' autorisation juri .</SENTENCE>"
+OUTPUT: "<SENTENCE>Donné sous l' autorisation juri.</SENTENCE>" (No named entities found in the input sentence)
+########
+ INPUT: "<SENTENCE>tique de Al .</SENTENCE>"
+OUTPUT: "<SENTENCE>tique de Al .</SENTENCE>"
+
+Explanation: There are no named entities present in the given sentence that match the provided categories.
+########
+ INPUT: "<SENTENCE>Freudenreich , lieutenant d ' Avoyer de la Préfecture de Berne , à Berne le 30 Avril 182
+########
+ INPUT: "<SENTENCE>les Notifians.</SENTENCE>"
+OUTPUT: "<SENTENCE>les Notifians.</SENTENCE>"
+
+Explanation: "Notifians" is not a named entity that matches any of the provided categories (PERSON, ORGANISATION, PRODUCTION, TIME, or LOCATION), so it should not be annotated.
+########
+ INPUT: "<SENTENCE>signéKocH, avocat.</SENTENCE>"
+OUTPUT: "<SENTENCE>signé<pers>KocH</pers>, <org>avocat</org>.</SENTENCE>"
+########
+ INPUT: "<SENTENCE>De la part de MM . les Quatre - Ministraux .</SENTENCE>"
+OUTPUT: "<SENTENCE>De la part de <org>MM . les Quatre - Ministraux</org> .</SENTENCE>"
+########
+ <SENTENCE>, Les <HumanProd>bruits allarmans et exagérés</HumanProd> qui s'étaient répandus dans le <loc>public</loc> à l'occasion de divers cas de <HumanProd>petite-vérole</HumanProd> qui se sont manifestés en cette ville, ayant éveillé l'attention du <org>Alagistrat</org> et l'ayant engagé à charger la <org>Commission de santé</org> de faire un examen sérieux et de lui présenter un rapport détaillé des circonstances qui ont occasionné et accompagné l'éruption et la propagation de cette redoutable maladie, il se fait un devoir d'informer le <loc>public</loc> que le résultat de cet examen est de nature à calmer entièrement les inquiétudes et les craintes que ces bruits avaient fait naître, et à rassurer toutes les personnes qui, éclairées par l'expérience, ont eu jusque-là la prudence de recourir aux effets préservateurs de la <HumanProd>vaccine</HumanProd>, puisqu'il a confirmé et fortifié toujours davantage les preuves depuis longtemps existantes de l'efficacité de la <HumanProd>vaccination</HumanProd>, lorsqu'elle est opérée et suivie par des gens de l'art, contre les atteintes et les dangers de la <HumanProd>petite-vérole</HumanProd>, et a pleinement justifié qu'aucun de ceux à l'égard desquels il existait la certitude qu'ils avaient subi cette opération salutaire et avaient eu la véritable <HumanProd>vaccine</HumanProd>, ne s'étaient trouvés atteints de la <HumanProd>petite-vérole</HumanProd> proprement dite, et n'avaient éprouvé de suites fâcheuses de l'éruption varioloïde, que l'expérience a fait reconnaître comme pouvant se manifester dans les individus vaccinés et comme n'étant que légère et sans danger.</SENTENCE>
+########
+ INPUT: "<SENTENCE>En conséquence, le Alagistrat invite de plus fort les parens à soumettre sans renvoi leurs enfans au seul procédé qui puisse les <HumanProd>garantir</HumanProd> d'un fléau redouté à si juste titre, et à s'épargner à eux-mêmes les regrets amers que leur négligence ou leur obstination pourraient leur causer dans la suite.</SENTENCE>"
+########
+ <SENTENCE>Donné à l'<loc>hôtel - de - ville</loc>, le <time>10 Juin 1828</time>.</SENTENCE>
+########
+ INPUT: "<SENTENCE>Parord .</SENTENCE>"
+OUTPUT: "<SENTENCE>Parord.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>lesecrétairc - de - viUe et <pers>président de la Commission de santé , G .</pers></SENTENCE>"
+########
+ INPUT: "<SENTENCE>- F .</SENTENCE>"
+OUTPUT: "<SENTENCE>- F .</SENTENCE>"
+
+Explanation: The input sentence does not contain any named entities that match the given types.
+########
+ INPUT: "<SENTENCE>GALLOT .</SENTENCE>"
+OUTPUT: "<SENTENCE><pers>GALLOT</pers>.</SENTENCE>"
+########
+ "<SENTENCE>VENTES PAR <HumanProd>VjOlE D ' ENCHÈRES</HumanProd> .</SENTENCE>"
+########
+ "<SENTENCE>4 .</SENTENCE>"
+########
+ <SENTENCE>L' <org>hoirie titulaire</org> dé <pers>M la grand baillive</pers> de <loc>Gingins - Chevilly</loc> née <pers>Pillichody</pers>, fera vendre à l' <time>enchère publique</time>, Alercredi le <time>18 Juin</time> prochain et les jours suivants, toutes sortes de meubles, bureaux, <prod>commodes</prod>, miroirs, glaces, lits, batterie de cuisine, beaucoup d' autres sortes d' effets mobiliaires, et de toutes espèces d' ustensiles domestiques et champêtres. </SENTENCE>
+########
+ INPUT: "<SENTENCE>Les amateurs sont invités Dmicalement à se trouver à St .</SENTENCE>"
+OUTPUT: "<SENTENCE>Les amateurs sont invités Dmicalement à se trouver à <loc>St .</loc></SENTENCE>"
+########
+ INPUT: "<SENTENCE>Jean les jours indiqués , où les mises commenceront à huit heures du matin et dureront jusqu ' au soir .</SENTENCE>"
+OUTPUT: "<SENTENCE>Jean <time>les jours indiqués</time> , où les mises commenceront à huit heures du matin et dureront jusqu ' au soir .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Donné avec permission du Seigneur Fischer , _ giand baillif de Cerlier , le 6 Juin igsg - J - HARTMANN , notaire .</SENTENCE>"
+OUTPUT: "<SENTENCE>Donné avec permission du <pers>Seigneur Fischer</pers> , _ <org>giand baillif</org> de <loc>Cerlier</loc> , le <time>6 Juin igsg</time> - J - <pers>HARTMANN</pers> , notaire .</SENTENCE>"
+########
+ "<SENTENCE>î .</SENTENCE>"
+########
+ <SENTENCE>Ensuite de permission obtenue , il se fera le 27 de ce mois , sur <loc>fa montagne de AL le Comte Louis de Pourtalès</loc> , aux <loc>Ponts</loc> , des mises publiques de plantes de bois .</SENTENCE>
+########
+ INPUT: "<SENTENCE>, sapins et pesscs , sur pied , la plupart propres pour bois de construction , bardeaux et .</SENTENCE>"
+OUTPUT: "<SENTENCE>, sapins et pesscs , sur pied , la plupart propres pour <HumanProd>bois de construction , bardeaux</HumanProd> et .</SENTENCE>"
+########
+ <SENTENCE>échàlas .</SENTENCE>
+########
+ INPUT: "<SENTENCE>Elles commenceront à huit heures du matin , et auront lieu aux conditions qui seront lues avant leur ouverture .</SENTENCE>"
+OUTPUT: "<SENTENCE>Elles commenceront à <time>huit heures du matin</time> , et auront lieu aux conditions qui seront lues avant leur ouverture .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Les amateurs pourront se trouver rassemblés à l' <loc>auberge du Cerf</loc> aux <loc>Ponts</loc> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>6 . Ensuite des ordres du <org>Conseil d ' Etat</org> , <pers>M . de Aleuron</pers> , <org>conseiller d ' Etat</org> , faisant les fonctions de <org>Procureur - général</org> , fera <HumanProd>exposera</HumanProd> l ' enchère , le <time>Samedi 14 Juin _ prochain</time> , au plaid de la <loc>Côte</loc> à <loc>Auvernier</loc> , les deux <HumanProd>breuils</HumanProd> appartenant à <pers>Sa Alajesté</pers> , situés près du village de <loc>Corcelles</loc> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>L ' enchère aura _ Iieû _ ' il ' _ abord par parcelles , puis en bloc : le tout aux conditions qui seront lues avant la dite enchère .</SENTENCE>"
+OUTPUT: "<SENTENCE>L ' <HumanProd>enchère</HumanProd> aura _ Iieû _ ' il ' _ abord par parcelles , puis en bloc : le tout aux conditions qui seront lues avant la dite enchère .</SENTENCE>"
+########
+ "<SENTENCE>7 . Ensuite des ordres du <org>Gouvernement</org> , <pers>Aîons d ' Ivernois</pers> , <org>conseiller d ' Etat</org> et <org>régisseur de la recette</org>de<loc>Fontaine</loc> - <pers>André</pers> , exposera à l ' enchère , au plaid de St .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Biaise , le <time>Vendredi 13 Juin courant</time> , les deux dîmes en grains de <loc>Voëns</loc> et <loc>Enges</loc> , qui dépendent de cette recette , et cela aux conditions qui seront lues avant l' <HumanProd>enchère</HumanProd> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>8 . Le public est informé , que le <time>Jeudi 19 Juin courant</time> , à 9 heures du m * ^ tin , on exposera en vente , dans la <loc>maison ci - devant Liechtenhann</loc> , vis - à - vis du bureau des <org>Postes</org> , divers <prod>meubles et ustensiles de cave</prod> , entr ' autres un <prod>laigre de 1 ; bosses</prod> , un de 14 , un de 8 et un de 3 bosses environ ; deux <prod>pressoirs en bois</prod> , etc .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Les conditions seront favorables aux amateurs .</SENTENCE>"
+OUTPUT: "<SENTENCE>Les conditions seront favorables aux amateurs .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>9. <loc>L' auberge de la Croix - d' or</loc> à <loc>Valangin</loc> sera vendue par enchères publiques, qui auront lieu dans <loc>l' auberge même</loc>, le <time>Lundi 16 Juin courant</time>, à cinq heures précises du soir.</SENTENCE>"
+########
+ INPUT: "<SENTENCE>En attendant les amateurs pourront prendre communication des conditions favorables de cette vente , kîger , qui occupe cette auberge .</SENTENCE>"
+OUTPUT: "<SENTENCE>En attendant <pers>les amateurs</pers> pourront prendre communication des conditions favorables de cette vente , <pers>kîger</pers> , qui occupe cette auberge .</SENTENCE>"
+
+In this sentence, "les amateurs" and "kîger" are considered as PERSON entities because they are referring to specific individuals, even though their names are not explicitly mentioned.
+########
+ INPUT: "<SENTENCE>10 . La vente des livres de la Société de lecture se fera le Alardi 17 Juin , à 4 heures après midi , dans le logement de St .</SENTENCE>"
+OUTPUT: "<SENTENCE>10 . La vente des livres de la <org>Société de lecture</org> se fera le <time>Alardi 17 Juin</time> , à 4 heures après midi , dans le logement de St .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Jean, <loc>maison ci-devant Ostervald</loc>, où l'on pourra voir le catalogue, le <time>Lundi</time> et le <time>Jeudi</time> de chaque semaine, de dix heures à midi.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Outre un bon choix de nouveautés dans tous les genres , on y trouvera plusieurs collections de <HumanProd>Journaux littéraires</HumanProd> , entre autres <HumanProd>le Globe</HumanProd> et <HumanProd>la Revue britannique</HumanProd> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Les livres seront vendus au plus offrant, à très - bas prix, la Société étant décidée à s'en défaire.</SENTENCE>"
+OUTPUT: "<SENTENCE>Les <HumanProd>livres</HumanProd> seront vendus au plus offrant, à très - bas prix, <org>la Société</org> étant décidée à s'en défaire.</SENTENCE>"
+########
+ INPUT: "<SENTENCE>ON OFFRE A VENDRE .</SENTENCE>"
+OUTPUT: "<SENTENCE>ON OFFRE A VENDRE.</SENTENCE>"
+########
+ "<SENTENCE>n .</SENTENCE>"
+########
+ <SENTENCE>Atlas universel en 38 <HumanProd>cartes</HumanProd> , par <pers>Arrowsmith</pers> .</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>L ' <HumanProd>art de toucher du piano</HumanProd> , par <pers>B . Viguerie</pers> , 2 cahiers .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Conversations - Lexicon de Brockhaus , 10 vol .</SENTENCE>"
+OUTPUT: "<SENTENCE>Conversations - Lexicon <prod>de Brockhaus</prod> , 10 vol .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Histoire de <pers>Gilbas de Santillane</pers> , par LeSage , 4 vol .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Synonymes français , 2 vol . 19 Almanachs helvétiques allemands , avec fig .</SENTENCE>"
+OUTPUT: "<SENTENCE>Synonymes <HumanProd>français</HumanProd> , 2 vol . 19 <HumanProd>Almanachs helvétiques allemands</HumanProd> , avec fig .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Un beau livre blanc 4.</SENTENCE>"
+OUTPUT: "<SENTENCE>Un beau livre blanc 4.</SENTENCE>"
+
+Explanation:
+There are no named entities of the types PERSON, ORGANIZATION, PRODUCTION, TIME, or LOCATION in the input sentence.
+########
+ INPUT: "<SENTENCE>Bertuchs Bilderbuch , 8 vol . 4 ° .</SENTENCE>"
+OUTPUT: "<SENTENCE>Bertuchs <HumanProd>Bilderbuch</HumanProd> , 8 vol . 4 ° .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Tous ces livres sont très proprement reliés et comme neufs .</SENTENCE>"
+OUTPUT: "<SENTENCE>Tous ces <HumanProd>livres</HumanProd> sont très proprement reliés et comme neufs .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>S ' adr .</SENTENCE>"
+OUTPUT: "<SENTENCE>S ' adr .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>au bur .</SENTENCE>"
+OUTPUT: "<SENTENCE>au bur .</SENTENCE>"
+
+Explanation:
+There are no named entities in the provided sentence that match the given types.
+########
+ "<SENTENCE>d ' <org>avis</org> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>12 . Chez le <pers>Sieur Quinche</pers> , <pers>instituteur</pers> , <loc>maison Prince</loc> , <loc>place des Halles</loc> , une copie exacte et très soignée du beau <HumanProd>Traire des causes civiles de la Principauté de Neuchâtel</HumanProd> , par <pers>Al . le châtelain Alonvert</pers> ; ouvrage très utile aux personnes qui se vouent à la magistrature ou au barreau .</SENTENCE>"
+########
+ "<SENTENCE>13 . <org>Chez AL Jn.</org></SENTENCE>"
+########
+ INPUT: "<SENTENCE>- Dl .</SENTENCE>"
+OUTPUT: "<SENTENCE>- Dl .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Andrié , au faubourg , de jeunes pigeons .</SENTENCE>"
+OUTPUT: "<SENTENCE>Andrié , au faubourg , de jeunes pigeons .</SENTENCE>"
+
+Explanation:
+There are no named entities of the types PERSON, ORGANISATION, PRODUCTION, TIME, or LOCATION in the provided sentence.
+########
+ INPUT: "<SENTENCE>14 . J . Dorn , à la Croix - du - marché , vient de recevoir un nouvel envoi de mousseline imprimée de Alulhouse , et un beau choix de guingans français â des prix avantageux .</SENTENCE>"
+OUTPUT: "<SENTENCE>14 . J . Dorn , à la <loc>Croix - du - marché</loc> , vient de recevoir un nouvel envoi de mousseline imprimée de <prod>Alulhouse</prod> , et un beau choix de guingans <loc>français</loc> â des prix avantageux .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Il vient aussi de recevoir un assortiment de marcelines en cou .</SENTENCE>"
+OUTPUT: "<SENTENCE>Il vient aussi de recevoir un assortiment de marcelines en cou .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>leur , dites pour doublure à 1 batz l ' aune ; des grosdeNaples nuances de mode , à 21 bz .</SENTENCE>"
+OUTPUT: "<SENTENCE>leur , dites pour doublure à 1 batz l ' aune ; des <loc>grosdeNaples</loc> nuances de mode , à 21 bz .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>l ' aune, levantine, barège, côte-paly, dits en coton, séduisantes.</SENTENCE>"
+OUTPUT: "<SENTENCE>l ' <HumanProd>aune</HumanProd>, levantine, barège, côte-paly, dits en coton, séduisantes.</SENTENCE>"
+########
+ INPUT: "<SENTENCE>11 recevra scus peu des batistes brochés de diverses nuances pour robes .</SENTENCE>"
+OUTPUT: "<SENTENCE>11 recevra scus peu des batistes brochés de diverses nuances pour robes .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>11 a en outre un beau choix d ' indiennes de Mulhouse et du pays , nanzous , mousselines , percales , tulles - bobbin , toiles de coton de toutes largeurs et qualités , shirtings à des prix très avantageux , cotonnes p .</SENTENCE>" 
+OUTPUT: "<SENTENCE>11 a en outre un beau choix d ' <HumanProd>indiennes de Mulhouse</HumanProd> et du pays , <HumanProd>nanzous</HumanProd> , <HumanProd>mousselines</HumanProd> , <HumanProd>percales</HumanProd> , <HumanProd>tulles - bobbin</HumanProd> , <HumanProd>toiles de coton</HumanProd> de toutes largeurs et qualités , <HumanProd>shirtings</HumanProd> à des prix très avantageux , <HumanProd>cotonnes p</HumanProd> .</SENTENCE>"
+########
+ This input sentence does not contain any named entities that can be classified into the given types: PERSON, ORGANIZATION, PRODUCTION, TIME, and LOCATION. Therefore, the output would be the same as the input without any additions.
+
+<SENTENCE>robes de < ; ' / 4 à 8 batz l ' aune , dites pour meuble , moiré , escot et mérinos vert 3 / 4 larges , futaine et limoge , toiles de ritre blanche et mi - blanches , dite rousse à 160 batz la pièce de 16 aunes ; un assortiment complet de schalls , fichus barège 3 / 4 et * / 4 1 dits en crêpe de Chine , bordures de schalls , draps , _ circassienne français et anglais , étoffes p .</SENTENCE>
+########
+ INPUT: "<SENTENCE>gilets, piqué à 8 batz le gilet, triège p.</SENTENCE>"
+OUTPUT: "<SENTENCE>gilets, piqué à 8 batz le gilet, triège p.</SENTENCE>"
+########
+ INPUT: "<SENTENCE>pantalons à 3 3 et à 3 _ î batz la pièce , et autres objets trop longs à détailler .</SENTENCE>"
+OUTPUT: "<SENTENCE>pantalons à 3 3 et à 3 _ î batz la pièce , et autres objets trop longs à détailler .</SENTENCE>"
+########
+ "<SENTENCE>1 ç .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Al Julie Steiner vient de recevoir les guin ' - gans français qu ' elle attendait ; ils sont dans les goûts les plus nouveaux .</SENTENCE>"
+OUTPUT: "<SENTENCE>Al <pers>Julie Steiner</pers> vient de recevoir les guin ' - gans français qu ' elle attendait ; ils sont dans les goûts les plus nouveaux .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Elle cédera des guingans anglais de l'année dernière, à 10 / _ i e ' 12 batz .</SENTENCE>"
+OUTPUT: "<SENTENCE>Elle cédera des guingans <HumanProd>anglais</HumanProd> de <time>l'année dernière</time>, à 10 / _ i e ' 12 batz .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>16 . Des chapeaux de paille de Florence, d'une très belle qualité, que l'on peut voir chez M veuve Benoit, maison de Al.</SENTENCE>"
+OUTPUT: "<SENTENCE>16 . Des chapeaux de <loc>paille de Florence</loc>, d'une très belle qualité, que l'on peut voir chez <pers>M veuve Benoit</pers>, <org>maison de Al</org>.</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Aleuron - Perret, au faubourg.</SENTENCE>"
+OUTPUT: "<SENTENCE><loc>Aleuron - Perret</loc>, au faubourg.</SENTENCE>"
+########
+ INPUT: "<SENTENCE>17 . Em .</SENTENCE>"
+OUTPUT: "<SENTENCE>17 . Em .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Alatthey , bottier du Roi , prévient les Dames qui l ' honorent de leur confiance , qu ' il vient de recevoir de Paris les maroquins qu ' il attendait depuis long - tems .</SENTENCE>"
+OUTPUT: "<SENTENCE>Alatthey , <org>bottier du Roi</org> , prévient les Dames qui l ' honorent de leur confiance , qu ' il vient de recevoir de <loc>Paris</loc> les maroquins qu ' il attendait depuis long - tems .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>_ ig _ .</SENTENCE>"
+OUTPUT: "<SENTENCE>_ ig _ .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>A bas prix , 3 à 400 pots vins rouge et blanc , bons p .</SENTENCE>"
+OUTPUT: "<SENTENCE>A bas prix , 3 à 400 pots <HumanProd>vins rouge et blanc</HumanProd> , bons p .</SENTENCE>"
+########
+ This input sentence seems to be incomplete and contains some unusual characters. I will assume that it is a mistake and provide the output for the corrected sentence:
+
+INPUT: "<SENTENCE>les travaux de la campagne; de plus, de très beau et bon café Havane à Batz, en en prenant au moins 10 lb.</SENTENCE>"
+OUTPUT: "<SENTENCE>les travaux de la <loc>campagne</loc>; de plus, de très beau et bon café <prod>Havane</prod> à <loc>Batz</loc>, en en prenant au moins 10 <prod>lb</prod>.</SENTENCE>"
+########
+ INPUT: "<SENTENCE>; et enfin , une grande .</SENTENCE>"
+OUTPUT: "<SENTENCE>; et enfin , une <Non-annotated entities>grande</Non-annotated entities> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>arche propre à y déposer des grains .</SENTENCE>"
+OUTPUT: "<SENTENCE>arche propre à y déposer des grains .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>S ' adr .</SENTENCE>"
+OUTPUT: "<SENTENCE>S ' adr .</SENTENCE>"
+########
+ "<SENTENCE>à <loc>AI " - Jeanrenaud - Racle</loc> , au faubourg</SENTENCE>"
+########
+ INPUT: "<SENTENCE>19 . Un coq d ' Inde noir , d ' un an .</SENTENCE>"
+OUTPUT: "<SENTENCE>19 . Un <animal>coq d ' Inde noir</animal> , d ' un an .</SENTENCE>"
+
+(Note: I have added a new entity type 'animal' for the output as the input does not contain any named entities of the given types.)
+########
+ INPUT: "<SENTENCE>S ' adr .</SENTENCE>"
+OUTPUT: "<SENTENCE>S ' adr .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>à Fanchette Philippin, au Neubourg.</SENTENCE>"
+OUTPUT: "<SENTENCE>à <pers>Fanchette Philippin</pers>, <loc>au Neubourg</loc>.</SENTENCE>"
+########
+ <SENTENCE>20 . Une belle jument de 3 ' / i ans, à tous crins, manteau noir, sans défaut, et très - douce quoique vive, allant très _ ^ bien au char - à - banc .</SENTENCE>
+########
+ INPUT: "<SENTENCE>S ' adr .</SENTENCE>"
+OUTPUT: "<SENTENCE>S ' adr .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>à <pers>Jean Schlatter</pers> , fermier de M . de Luze , aux <loc>Prés de Reuse</loc> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>21 . A bon marchéi ffute d ' emploi , un banc couvert , en bon état , que l ' on peut placer sur toute espèce de char de campagne .</SENTENCE>"
+OUTPUT: "<SENTENCE>21 . A bon marché<HumanProd>i ffute d ' emploi</HumanProd> , un banc couvert , en bon état , que l ' on peut placer sur toute espèce de char de campagne .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>S ' adr .</SENTENCE>"
+OUTPUT: "<SENTENCE>S ' adr .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>à <pers>Marti</pers> , sellier , près de l' <loc>hôtel - de - ville</loc> .</SENTENCE>"
+########
+ <SENTENCE>22. A la <loc>lithographie Gagnebin</loc>, au <loc>Sablon</loc>, de très beaux papiers de <prod>poste d' Annonay</prod>, de différens formats et qualités, et à des prix trèsmodérés.</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>23. Un nouvel envoi d'oranges de <loc>Palerme</loc>, <chea>Al Wittnauer</chea>, à la <loc>Grand ' rue</loc>. </SENTENCE>"
+
+In this example, "Palerme" is identified as a LOCATION (loc) entity, "Al Wittnauer" is identified as a PERSON (pers) entity with the subtype "impresso" as it is an author of a newspaper article, and "Grand ' rue" is identified as a LOCATION (loc) entity. The "chea" before "Al Wittnauer" is not a named entity, so it is left unchanged.
+########
+ INPUT: "<SENTENCE>24 . Chez AI Wavre - Wattel , des huiles d olives surfines , à 7 batz la livre ; vinaigre rouge et blanc de Dijon , à 4 / ; bz .</SENTENCE>"
+OUTPUT: "<SENTENCE>24 . <HumanProd>Chez AI Wavre - Wattel</HumanProd> , des huiles d olives surfines , à 7 batz la livre ; vinaigre rouge et blanc de <loc>Dijon</loc> , à 4 / ; bz .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>le pot , et descïirons qu ' il a en _ commission , à 6 et 8 batz la douz .</SENTENCE>"
+OUTPUT: "<SENTENCE>le pot , et descïirons qu ' il a en _ commission , à 6 et 8 batz la douz .</SENTENCE>"
+
+Explanation: There are no named entities of the types PERSON, ORGANISATION, PRODUCTION, TIME, or LOCATION in the input sentence.
+########
+ INPUT: "<SENTENCE>2 $ .</SENTENCE>"
+OUTPUT: "<SENTENCE>2 $ .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Au prix courant , 2 douzaines tasses et 3 pots au lait en <prod>terre anglaise bleue</prod> , arrivés de la <org>fabrique</org> depuis peu de jours , mais qui se sont trouvés de surplus dans l ' envoi .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>S' adresser au bureau d'avis.</SENTENCE>"
+OUTPUT: "<SENTENCE>S' adresser au <org>bureau d'avis</org>.</SENTENCE>"
+########
+ INPUT: "<SENTENCE>26 . Un bon et beau Fusil de cible , à poudre fulminante et à la garantie , chez Samuel Dubois , à Colombier .</SENTENCE>"
+OUTPUT: "<SENTENCE>26 . Un bon et beau <prod>Fusil de cible</prod> , à poudre fulminante et à la garantie , chez <pers>Samuel Dubois</pers> , à <loc>Colombier</loc> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>27 . Une ànesse dressée à la charrette .</SENTENCE>"
+OUTPUT: "<SENTENCE>27 . Une <animal>anesse dressée à la charrette</animal> .</SENTENCE>"
+
+The provided input does not contain any named entities of the types PERSON, ORGANISATION, PRODUCTION, TIME or LOCATION. However, it does contain the name of an animal, which I have classified as a new type <animal>.
+########
+ INPUT: "<SENTENCE>S ' adr .</SENTENCE>"
+OUTPUT: "<SENTENCE>S ' adr .</SENTENCE>"
+########
+ "<SENTENCE>au <loc>château de Vaumarcus</loc> .</SENTENCE>"
+########
+ "<SENTENCE>2 g.</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>M <pers>Preud ' homme - Favarger</pers> a l ' honneur d ' informer le public , qu ' outre les vins de choix du pays , blanc et rouge , qu ' il vend en bouteilles en quantité demandée , on peut aussi se pourvoir chez lui de vins étrangers à prix raisonnables et de toutes premières qualités , tels que <HumanProd>Champagne</HumanProd> blanc et rosé , <HumanProd>Bourgogne</HumanProd> mousseux , <HumanProd>Pomard</HumanProd> , <HumanProd>Madère</HumanProd> , etc .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>, ainsi que de liqueurs de différentes sortes .</SENTENCE>"
+OUTPUT: "<SENTENCE>, ainsi que de <HumanProd>liqueurs de différentes sortes</HumanProd> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>Son <HumanProd>magasin</HumanProd> près du<loc>Temple</loc> - neuf , est toujours assorti des articles qui concernent le commerce d ' <HumanProd>épiceries</HumanProd> .</SENTENCE>"
+########
+ <SENTENCE>29. <PRODUCTION>AlAL Pettavel frères</PRODUCTION> viennent de recevoir de superbe colle de <LOC>Cologne</LOC>, des huiles d'olive surfines de <LOC>Nice</LOC> et de <LOC>Provence</LOC>; moutarde en pots de <PRODUCTION>Alaille</PRODUCTION>; ciment de <LOC>Paris</LOC> dit mastic Dihl, etc.</SENTENCE>
+########
+ INPUT: "<SENTENCE>Les prix de leurs divers articles sont très favorables.</SENTENCE>"
+OUTPUT: "<SENTENCE>Les prix de <prod>leurs divers articles</prod> sont très favorables.</SENTENCE>"
+
+In this example, "leurs divers articles" is classified as a PRODUCTION named entity because it refers to the products or services provided by an organization. The word "their" indicates that the products or services belong to a specific organization, even though it is not explicitly mentioned in the sentence.
+########
+ INPUT: "<SENTENCE>30 . Chez C . Steiner , maison de AI .</SENTENCE>"
+OUTPUT: "<SENTENCE>30 . Chez <org>C . Steiner</org> , maison de AI .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>DeLuzc - De - Luze, <loc>près la Croix - du - marché</loc>, six chaises - , deux tabourets, un lit et une table.</SENTENCE>"
+########
+ "<SENTENCE>DE LA <PRODUCTION>FEUILLE OFFICIELLE</PRODUCTION> EXTRAIT du jeudi 6 <TIME>mai 1858</TIME> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>NOMINATION .</SENTENCE>"
+OUTPUT: "<SENTENCE>NOMINATION .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>1 . Vu l ' état do santé du citoyen Aug .</SENTENCE>"
+OUTPUT: "<SENTENCE>1 . Vu l ' état do santé du <pers>citoyen Aug</pers> .</SENTENCE>"
+########
+ OUTPUT: "<SENTENCE>L ' <org>Ecuyer - Pœllon</org> , le <org>conseil d ' état</org> , par arrêt du 50 <time>avril</time> dernier , a chargé le <pers>citoyen Jaques - Henri Favre</pers> de le remplacer provisoirement dans ses fonctions de <org>substitut de l ' officier de l ' état civil</org> de la conscription do <loc>Neuchâtel</loc> .</SENTENCE>"
+########
+ <SENTENCE>AVIS DIVERS .</SENTENCE>
+########
+ INPUT: "<SENTENCE>2 . Dans sa séance du 5 mai courant , le conseil d ' état a fixé l ' ouverture de l ' assemblée constituante au lundi 10 mai prochain .</SENTENCE>"
+OUTPUT: "<SENTENCE>2 . Dans sa séance du <time>5 mai courant</time> , le <org>conseil d ' état</org> a fixé l ' ouverture de l ' <org>assemblée constituante</org> au lundi <time>10 mai prochain</time> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>FAILLITES .</SENTENCE>"
+OUTPUT: "<SENTENCE>FAILLITES .</SENTENCE>"
+########
+ <SENTENCE>5 . Par jugement en date du <time>29 avril 1858</time> , le <org>tribunal civil du Locle</org> , ayant prononcé la faillite du <pers>citoyen Frédéric - Auguste Mathey</pers> , <loc>pierrisle</loc> , demeurant au <loc>Locle</loc> , ct ordonné que cette masse soit liquidée sommairement , le <org>juge de paix du Locle</org> fait , en conséquence , connaître au public que les inscriptions au passif de cette masse seront reçues au <loc>greffe de la justice de paix du Locle</loc> , depuis le <time>vendredi 7 mai courant</time> , jusqu ' au <time>lundi 24 du même mois</time> , à 5 heures du soir , heure à laquelle elles seront déclarées closes .</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>La liquidation s'ouvrira au <loc>Locle</loc>, le <time>vendredi 28 mai 1858</time>, à 9 heures du <time>malin</time>, au lieu ordinaire des audiences de la justice de paix.</SENTENCE>"
+########
+ <SENTENCE>4 . Le <org>tribunal civil du district du Locle</org> , par sentence en date du <time>24 avril passé</time> , a prononcé le <prod>décret des biens et dettes</prod> du <pers>citoyen L ' - Edouard Uuguenin - Witillcmiii</pers> , du Locle , fabricant d ' horlogerie , domicilié au Locle , lils de feu Charles - Frédéric ; en conséquence , les inscriptions au passif de cette masse seront reçues avec les titres et pièces à l ' appui , au greffe du <org>tribunal civil du Locle</org> , dès le <time>jeudi 6</time> au <time>vendredi 21 mai courant</time> , ce dernier jour jusqu ' à 6 heures du soir , moment où les dites inscriptions seront closes ct bouclées .</SENTENCE>
+########
+ OUTPUT: "<SENTENCE>Tous les <org>créanciers</org> du dit citoyen <pers>Louis - Edouard Hugiieiiii ' Wuilleiiii</pers> sont , par ce môme avis , péremptoirement assignés à comparaître par devant le tribunal de la faillite qui siégera à l ' hôtel de ville du <loc>Locle</loc> , dès les 9 heures du matin , le <time>mardi 22 juin 1858</time> , pour là faire liquider leurs inscriptions et procéder aux opérations ultérieures de cette faillite ; le tout sous peine de forclusion .</SENTENCE>"
+########
+ <SENTENCE>5 . Le <org>tribunal civil du district du Locle</org> , par sentence en date du <time>24 avril passé</time> , a prononcé le <prod>décret des biens et dettes</prod> du <pers>citoyen Jules relet - Courvoisicr</pers> , du <loc>Locle</loc> , fils de feu Philibert Pèrelet , <org>marchand de fournitures</org> , domicilié au <loc>Locle</loc> ; en conséquence , les inscriptions au passif de cette masse seront reçues avec les titres et pièces à l'appui , au <loc>greffe du tribunal civil du Locle</loc> , dès le <time>jeudi 6</time> au <time>vendredi 21 mai courant</time> , ce dernier jour jusqu'à 6 heures du soir , moment où les dites inscriptions seront closes et bouclées .</SENTENCE>
+########
+I've process 244 phrases!

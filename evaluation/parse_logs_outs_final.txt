@@ -1,0 +1,256 @@
+Creating ../iob/Llama-2-70b-chat-hf/guidelines/no_role/AJMC_de
+{'scope', 'work', 'org', 'pers', 'object', 'location', 'inf'}
+Creating ../iob/Llama-2-70b-chat-hf/guidelines/no_role/AJMC_en
+{'work', 'scope', 'object', 'pers', 'location'}
+Creating ../iob/Llama-2-70b-chat-hf/guidelines/no_role/AJMC_fr
+{'scope', 'pers', 'work', 'adm', 'object'}
+Creating ../iob/Llama-2-70b-chat-hf/guidelines/no_role/HIPE_de
+{'time', 'pers', 'religion', 'production', 'rel', 'value', 'currency', 'prod', 'number', 'anim', 'law', 'location', 'person', 'organisation', 'reader', 'loc', 'doc', 'class', 'org', 'humanprod', 'unit'}
+Creating ../iob/Llama-2-70b-chat-hf/guidelines/no_role/HIPE_en
+{'currency', 'chr', 'material', 'lang', 'contract', 'time', 'loc', 'amount', 'prod', 'production', 'pers', 'person', 'humanprod', 'org'}
+Creating ../iob/Llama-2-70b-chat-hf/guidelines/no_role/HIPE_fr
+{'animal', 'disease', 'ideology', 'law', 'humanprod', 'rel', 'building', 'organisation', 'production', 'class', 'person', 'amount', 'attr', 'org', 'time', 'prod', 'currency', 'ethnicity', 'loc', 'pers'}
+Creating ../iob/Llama-2-70b-chat-hf/guidelines/no_role/NewsEye_de
+{'sgr', 'thlr', 'time', 'day', 'ethnicity', 'adj', 'emotion', 'org', 'specific_date', 'weapon', 'number', 'product', 'humanprod', 'currency', 'warning', 'curr', 'date', 'art', 'animal', 'loc', 'rel', 'truth', 'history', 'per', 'object', 'num'}
+Creating ../iob/Llama-2-70b-chat-hf/guidelines/no_role/NewsEye_fr
+{'humanprod', 'currency', 'object', 'org', 'loc', 'person', 'per', 'num', 'animal', 'event'}
+Creating ../iob/Llama-2-70b-chat-hf/guidelines/role/AJMC_de
+{'organisation', 'scope', 'deity', 'work', 'pers', 'verb'}
+Creating ../iob/Llama-2-70b-chat-hf/guidelines/role/AJMC_en
+{'object', 'deity', 'pers', 'work', 'gender', 'scope', 'animal'}
+Creating ../iob/Llama-2-70b-chat-hf/guidelines/role/AJMC_fr
+{'object', 'language', 'work', 'pers', 'scope', 'adj'}
+Creating ../iob/Llama-2-70b-chat-hf/guidelines/role/HIPE_de
+{'organisation', 'org', 'time', 'pers', 'material', 'currency', 'location', 'number', 'rel', 'num', 'class', 'prod', 'art', 'planet', 'loc', 'person', 'event', 'anim', 'adjective', 'transp', 'emotion', 'lang', 'work', 'race', 'concept', 'doc', 'attr'}
+Creating ../iob/Llama-2-70b-chat-hf/guidelines/role/HIPE_en
+{'unit', 'color', 'law', 'year', 'weapon', 'material', 'chr', 'prod', 'lang', 'num', 'dead', 'org', 'work', 'loc', 'event', 'pers', 'adjective', 'virtue', 'money', 'dose', 'profession', 'race', 'currency', 'criminal', 'time', 'verb', 'crop', 'gender'}
+Creating ../iob/Llama-2-70b-chat-hf/guidelines/role/HIPE_fr
+{'pers', 'prog', 'gender', 'org', 'commodity', 'fire', 'crime', 'prop', 'work', 'animals', 'organisation', 'building', 'number', 'person', 'obj', 'prod', 'law', 'loc', 'event', 'emotion', 'anim', 'time', 'tool', 'year', 'weapon', 'amount', 'leg', 'num', 'disease', 'genre', 'measure', 'war', 'body_parts', 'class', 'military', 'animal', 'ethnicity', 'symptom', 'attr', 'currency', 'rel'}
+Creating ../iob/Llama-2-70b-chat-hf/guidelines/role/Newseye_de
+{'noun', 'obj', 'fl', 'government', 'temp', 'action', 'ill', 'monat', 'u', 'money', 'bez', 'sp', 'berb', 'religion', 'concept', 'uebersiedlungen', 'product', 'quantity', 'day', 'sport', 'pers', 'tel', 'thlr', 'discount', 'jahr', 'production', 's', 'unit', 'adj', 'time', 'political_ideology', 'addr', 'adjective', 'humanprod', 'j', 'rel', 'sgr', 'building', 'verb', 'entity', 'mat', 'curr', 'question', 'feature', 'month', 'gov', 'year', 'commodity', 'anm', 'history', 'weather', 'org', 'tarif', 'city', 'nom', 'per', 'season', 'revolt', 'number', 'phone', 'weight', 'ethnicity', 'bericht', 'price', 'currency', 'loc', 'weapon', 'adv', 'g', 'gloss', 'goal', 'deity', 'k', 'object', 'advertisment', 'event', 'emotion', 'symbol', 'v', 'date', 'facility', 'w', 'num', 'kr', 'animal'}
+Creating ../iob/Llama-2-70b-chat-hf/guidelines/role/Newseye_fr
+{'org', 'humanprod', 'time', 'per', 'obj', 'number', 'currency', 'object', 'product', 'person', 'substance', 'animal', 'date', 'loc', 'num', 'unit', 'item'}
+Creating ../iob/Llama-2-70b-chat-hf/no_guidelines/no_role/AJMC_de
+{'pers', 'work', 'scope', 'loc'}
+Creating ../iob/Llama-2-70b-chat-hf/no_guidelines/no_role/AJMC_en
+{'object', 'scope', 'org', 'loc', 'date', 'pers', 'work'}
+Creating ../iob/Llama-2-70b-chat-hf/no_guidelines/no_role/AJMC_fr
+{'language', 'scope', 'pers', 'work', 'object'}
+Creating ../iob/Llama-2-70b-chat-hf/no_guidelines/no_role/HIPE_de
+{'class', 'lang', 'nation', 'race', 'time', 'num', 'location', 'pers', 'number', 'material', 'org', 'product', 'rel', 'loc', 'gov', 'money', 'currency', 'event', 'humanprod'}
+Creating ../iob/Llama-2-70b-chat-hf/no_guidelines/no_role/HIPE_en
+{'org', 'loc', 'year', 'color', 'lang', 'subst', 'event', 'humanprod', 'time', 'pers', 'chr', 'humprod', 'prod', 'person'}
+Creating ../iob/Llama-2-70b-chat-hf/no_guidelines/no_role/HIPE_fr
+{'class', 'pers', 'animal', 'currency', 'amount', 'money', 'loc', 'crime', 'num', 'rel', 'curr', 'org', 'anim', 'humanprod', 'commodity', 'time', 'law', 'ethnicity', 'organisation'}
+Creating ../iob/Llama-2-70b-chat-hf/no_guidelines/no_role/NewsEye_de
+{'warning', 'quantity', 'year', 'humanprod', 'per', 'ethnicity', 'num', 'time', 'unit', 'animal', 'prod', 'org', 'object', 'currency', 'dem', 'product', 'date', 'truth', 'loc', 'berb', 'adj'}
+Creating ../iob/Llama-2-70b-chat-hf/no_guidelines/no_role/NewsEye_fr
+{'org', 'per', 'loc', 'adj', 'date', 'num', 'humanprod'}
+Creating ../iob/Llama-2-70b-chat-hf/no_guidelines/role/AJMC_de
+{'pers', 'verb', 'scope', 'inf', 'deity', 'adj', 'loc', 'work'}
+Creating ../iob/Llama-2-70b-chat-hf/no_guidelines/role/AJMC_en
+{'action', 'work', 'date', 'org', 'scope', 'object', 'gender', 'animal', 'pers', 'emph'}
+Creating ../iob/Llama-2-70b-chat-hf/no_guidelines/role/AJMC_fr
+{'work', 'org', 'language', 'pers', 'adj', 'object', 'scope'}
+Creating ../iob/Llama-2-70b-chat-hf/no_guidelines/role/HIPE_de
+{'class', 'month', 'organisation', 'gov', 'race', 'idealism', 'obj', 'currency', 'event', 'loc', 'rel', 'org', 'num', 'doc', 'anim', 'religious_obligations', 'pers', 'number', 'law', 'location', 'planet', 'prod', 'material', 'time'}
+Creating ../iob/Llama-2-70b-chat-hf/no_guidelines/role/HIPE_en
+{'adjective', 'qual', 'lang', 'event', 'currency', 'verb', 'org', 'pers', 'time', 'chr', 'noun', 'prod', 'subst', 'color', 'loc', 'gender', 'crop', 'year', 'material'}
+Creating ../iob/Llama-2-70b-chat-hf/no_guidelines/role/HIPE_fr
+{'org', 'rel', 'pers', 'ethnicity', 'subst', 'prod', 'time', 'amount', 'genre', 'organisation', 'book', 'emotion', 'attr', 'weapon', 'commodity', 'anim', 'loc', 'class', 'crime', 'gender', 'currency', 'num', 'animal'}
+Creating ../iob/Llama-2-70b-chat-hf/no_guidelines/role/Newseye_de
+{'quantity', 'commodity', 'anm', 'adj', 'currency', 'animal', 'prod', 'humanprod', 'loc', 'wound', 'num', 'berb', 'noun', 'substance', 'emotion', 'date', 'money', 'per', 'ethnicity', 'weather', 'gov', 'time', 'snumber', 'org', 'social_class', 'object', 'concept', 'truth', 'event', 'weapon', 'unit', 'sport', 'product', 'ideology', 'temp'}
+Creating ../iob/Llama-2-70b-chat-hf/no_guidelines/role/Newseye_fr
+{'subst', 'num', 'prod', 'org', 'animal', 'humanprod', 'adj', 'object', 'loc', 'time', 'product', 'obj', 'unit', 'item', 'date', 'per'}
+Creating ../iob/Meta-Llama-3-70B-Instruct/guidelines/no_role/AJMC_de
+{'date', 'org', 'scope', 'location', 'pers', 'work', 'object'}
+Creating ../iob/Meta-Llama-3-70B-Instruct/guidelines/no_role/AJMC_en
+{'date', 'pers', 'work', 'object', 'location', 'scope'}
+Creating ../iob/Meta-Llama-3-70B-Instruct/guidelines/no_role/AJMC_fr
+{'scope', 'work', 'date', 'object', 'location', 'pers'}
+Creating ../iob/Meta-Llama-3-70B-Instruct/guidelines/no_role/HIPE_de
+{'org', 'nat', 'humanprod', 'pers', 'prod', 'loc', 'time', 'production'}
+Creating ../iob/Meta-Llama-3-70B-Instruct/guidelines/no_role/HIPE_en
+{'time', 'org', 'loc', 'humanprod', 'prod', 'pers', 'production'}
+Creating ../iob/Meta-Llama-3-70B-Instruct/guidelines/no_role/HIPE_fr
+{'time', 'nat', 'pers', 'persoyer', 'prod', 'org', 'loc', 'time&apos;', 'org!', 'production', 'humanprod', 'non-annotated'}
+Creating ../iob/Meta-Llama-3-70B-Instruct/guidelines/no_role/Newseye_de
+{'/per', 'org', 'loc', 'title', 'humanprod', 'per', 'time', 'location', 'pers'}
+Creating ../iob/Meta-Llama-3-70B-Instruct/guidelines/no_role/Newseye_fr
+{'humanprod', 'pers', 'loc', 'per', 'org'}
+Creating ../iob/Meta-Llama-3-70B-Instruct/guidelines/role/AJMC_de
+{'location', 'pers', 'scope', 'date', 'work', 'object', 'org'}
+Creating ../iob/Meta-Llama-3-70B-Instruct/guidelines/role/AJMC_en
+{'date', 'work', 'location', 'pers', 'scope', 'object'}
+Creating ../iob/Meta-Llama-3-70B-Instruct/guidelines/role/AJMC_fr
+{'work', 'scope', 'pers', 'object', 'location', 'date'}
+Creating ../iob/Meta-Llama-3-70B-Instruct/guidelines/role/HIPE_de
+{'loc', 'pers', 'human_production', 'event', 'time', 'prod', 'org', 'humanprod'}
+Creating ../iob/Meta-Llama-3-70B-Instruct/guidelines/role/HIPE_en
+{'prod', 'sentence', 'pers', 'org', 'loc', 'time'}
+Creating ../iob/Meta-Llama-3-70B-Instruct/guidelines/role/HIPE_fr
+{'time', 'pers', 'loc', 'prod', 'org', 'human_production'}
+Creating ../iob/Meta-Llama-3-70B-Instruct/guidelines/role/Newseye_de
+{'time', 'humanprod', 'org', 'per', 'loc'}
+Creating ../iob/Meta-Llama-3-70B-Instruct/guidelines/role/Newseye_fr
+{'loc', 'org', 'per', 'humanprod'}
+Creating ../iob/Meta-Llama-3-70B-Instruct/no_guidelines/no_role/AJMC_de
+{'scope', 'date', 'work', 'object', 'org', 'pers', 'loc'}
+Creating ../iob/Meta-Llama-3-70B-Instruct/no_guidelines/no_role/AJMC_en
+{'date', 'work', 'object', 'org', 'scope', 'pers', 'loc'}
+Creating ../iob/Meta-Llama-3-70B-Instruct/no_guidelines/no_role/AJMC_fr
+{'scope', 'loc', 'pers', 'work', 'date', 'object'}
+Creating ../iob/Meta-Llama-3-70B-Instruct/no_guidelines/no_role/HIPE_de
+{'time', 'organisation', 'loc', 'event', 'pers', 'org', 'humanprod', 'nat'}
+Creating ../iob/Meta-Llama-3-70B-Instruct/no_guidelines/no_role/HIPE_en
+{'pers', 'org', 'humanprod', 'time', 'loc'}
+Creating ../iob/Meta-Llama-3-70B-Instruct/no_guidelines/no_role/HIPE_fr
+{'nat', 'humanprod', 'pers', 'org', 'loc', 'time'}
+Creating ../iob/Meta-Llama-3-70B-Instruct/no_guidelines/no_role/Newseye_de
+{'event', 'per', 'org', 'loc', 'humanprod'}
+Creating ../iob/Meta-Llama-3-70B-Instruct/no_guidelines/no_role/Newseye_fr
+{'date', 'humanprod', 'loc', 'org', 'per'}
+Creating ../iob/Meta-Llama-3-70B-Instruct/no_guidelines/role/AJMC_de
+{'sentence', 'date', 'object', 'org', 'pers', 'scope', 'work', 'loc'}
+Creating ../iob/Meta-Llama-3-70B-Instruct/no_guidelines/role/AJMC_en
+{'loc', 'org', 'work', 'scope', 'object', 'date', 'sentence', 'pers'}
+Creating ../iob/Meta-Llama-3-70B-Instruct/no_guidelines/role/AJMC_fr
+{'loc', 'date', 'scope', 'work', 'pers', 'object'}
+Creating ../iob/Meta-Llama-3-70B-Instruct/no_guidelines/role/HIPE_de
+{'pers', 'time', 'loc', 'org', 'prod'}
+Creating ../iob/Meta-Llama-3-70B-Instruct/no_guidelines/role/HIPE_en
+{'loc', 'pers', 'prod', 'org', 'time'}
+Creating ../iob/Meta-Llama-3-70B-Instruct/no_guidelines/role/HIPE_fr
+{'loc', 'org', 'prod', 'pers', 'time'}
+Creating ../iob/Meta-Llama-3-70B-Instruct/no_guidelines/role/Newseye_de
+{'date', 'sentence', 'per', 'org', 'loc', 'humanprod'}
+Creating ../iob/Meta-Llama-3-70B-Instruct/no_guidelines/role/Newseye_fr
+{'date', 'humanprod', 'per', 'org', 'loc'}
+Creating ../iob/Mixtral-8x7B-Instruct-v0.1/guidelines/no_role/AJMC_de
+{'scope', 'date', 'loc', 'object', 'pers', 'person', 'work', 'org', 'phrase'}
+Creating ../iob/Mixtral-8x7B-Instruct-v0.1/guidelines/no_role/AJMC_en
+{'date', 'quote', 'scope', 'work', 'person', 'object', 'pers', 'loc'}
+Creating ../iob/Mixtral-8x7B-Instruct-v0.1/guidelines/no_role/AJMC_fr
+{'object', 'demonstratif', 'loc', 'scope', 'date', 'pers', 'organisation', 'work', 'interrogatif', 'quote', 'org', 'lang'}
+Creating ../iob/Mixtral-8x7B-Instruct-v0.1/guidelines/no_role/HIPE_de
+{'lang', 'loc', 'terrestrial-physical-location', 'astr', 'non-annotated', 'prod', 'religion', 'time', 'pers', 'doc', 'num', 'money', 'work', 'media', 'curren', 'ben', 'org', 'handstreich', 'it', 'date', 'planet', 'moral', 'sup', 'anim', 'school', 'day', 'nation', 'currency', 'country', 'person', 'humanprod'}
+Creating ../iob/Mixtral-8x7B-Instruct-v0.1/guidelines/no_role/HIPE_en
+{'humanprod', 'length', 'doctrine', 'num', 'money', 'quantity', 'person', 'color', 'org', 'weapon', 'lang', 'direction', 'terrain', 'pers', 'orb', 'loc', 'prod', 'time', 'date'}
+Creating ../iob/Mixtral-8x7B-Instruct-v0.1/guidelines/no_role/HIPE_fr
+{'num', 'currency', 'each', 'person', 'title', 'anim', 'date', 'them', 'masse', 'disease', 'city', 'production', 'product', 'prod', 'time', 'vehicle', 'org', 'religion', 'pers', 'weather', 'type', 'media', 'goods', 'national', 'event', 'loc', 'humanprod', 'country', 'occup', 'animals', 'journals', 'genre', 'him', 'they', 'occupation', 'quantity', 'misc', 'em', 'crime', 'tool'}
+Creating ../iob/Mixtral-8x7B-Instruct-v0.1/guidelines/no_role/Newseye_de
+{'adj', 'type', 'product', 'doctrine', 'per', 'title', 'measure', 'num', 'prod', 'misc', 'ship', 'dem', 'punct', 'quote', 'warning', 'sci', 'it', 'field', 'humanprod', 'movie', 'event', 'year', 'ne', '/pers', 'day', 'quantity', 'loc', 'date', 'pers', 'time', 'org', 'person', 'country', 'newspaper', 'theaters', 'film', 'occupation', 'work', 'currency', 'organisation'}
+Creating ../iob/Mixtral-8x7B-Instruct-v0.1/guidelines/no_role/Newseye_fr
+{'time', 'loc', 'non-annotated', 'occupation', 'person', 'teaching_program', 'teachingprogram', 'product', 'humanprod', 'play', 'date', 'per', 'type', 'num', 'pers', 'entity', 'org'}
+Creating ../iob/Mixtral-8x7B-Instruct-v0.1/guidelines/role/AJMC_de
+{'animal', 'adjec', 'quantity', 'pers', 'org', 'scope', 'date', 'form', 'quote', 'gloss', 'word', 'loc', 'work', 'object', 'ref'}
+Creating ../iob/Mixtral-8x7B-Instruct-v0.1/guidelines/role/AJMC_en
+{'person', 'phrase', 'date', 'obj', 'object', 'word', 'quote', 'work', 'entity', 'pers', 'loc', 'punct', 'org', 'scope'}
+Creating ../iob/Mixtral-8x7B-Instruct-v0.1/guidelines/role/AJMC_fr
+{'quote', 'entity', 'works', 'scope', 'date', 'time', 'loc', 'ref', 'pers', 'person', 'work', 'int', 'language', 'dem', 'org', 'object'}
+Creating ../iob/Mixtral-8x7B-Instruct-v0.1/guidelines/role/HIPE_de
+{'nation', 'religion', 'issue', 'tool', 'country', 'currency', 'ne', 'loc', 'planet', 'title', 'num', 'event', 'time', 'quantity', 'pers', 'direction', 'she', 'risk', 'change', 'org', 'humans-production', 'pro', 'astronomical', 'lang', 'national', 'prod', 'date', 'prof', 'but'}
+Creating ../iob/Mixtral-8x7B-Instruct-v0.1/guidelines/role/HIPE_en
+{'length', 'lang', 'event', 'color', 'date', 'unannotated', 'loc', 'disease', 'word', 'direction', 'weapon', 'num', 'pers', 'system', 'org', 'prod', 'he', 'doctrine', 'ne', 'time', 'we', 'person'}
+Creating ../iob/Mixtral-8x7B-Instruct-v0.1/guidelines/role/HIPE_fr
+{'publisher', 'media', 'org', 'loc', 'journals', 'num', 'they', 'weather', 'date', 'ent', 'sentence', 'act', 'non-annotated', 'prod', 'empereur', 'pers', 'time', 'lang', 'rel', 'disease', 'animals', 'unk', 'humprod', 'occupation', 'quantity', 'event', 'ship'}
+Creating ../iob/Mixtral-8x7B-Instruct-v0.1/guidelines/role/Newseye_de
+{'per', '.', 'species', 'entity', 'money', 'bot', 'quantity', 'personal_qualifier', 'function', 'domain', 'theaters', 'phone', 'sport', 'sentence', 'cls', 'son', 'science', 'type', 'num', 'year', 'measure', 'emotion', 'prof', 'it', 'last', 'date', 'exclamation', 'loc', 'film', 'country', 'currency', 'verb', 'quality', 'time', 'doctrine', 'quote', 'prod', 'humanprod', 'title', 'name', 'mineral', 'ship', 'event', 'meter', 'document', '/pers', 'person', 'org', 'ter', 'product', 'number', 'occupation', 'bold', 's', 'disease', 'music', 'day'}
+Creating ../iob/Mixtral-8x7B-Instruct-v0.1/guidelines/role/Newseye_fr
+{'play', 'humanprod', 'event', 'country', 'day', 'age', 'teachingprogram', 'year', 'person', 'time', 'org', 'per', 'article', 'sentence', 'loc', 'date', 'num', 'material', '/loc', 'pers', 'tech', 'course', 'job', 'quantity', 'chemical'}
+Creating ../iob/Mixtral-8x7B-Instruct-v0.1/no_guidelines/no_role/AJMC_de
+{'object', 'scope', 'loc', 'org', 'pers', 'work', 'date'}
+Creating ../iob/Mixtral-8x7B-Instruct-v0.1/no_guidelines/no_role/AJMC_en
+{'human\\_work', 'word', 'others', 'quote', 'humanwork', 'date', 'work', 'adj', 'ref', 'object', 'loc', 'person', 'pers', 'org', 'scope', 'human-work', 'entity'}
+Creating ../iob/Mixtral-8x7B-Instruct-v0.1/no_guidelines/no_role/AJMC_fr
+{'title', 'loc', 'humanwork', 'obj', 'person', 'date', 'demonstratif', 'pers', 'human_work', 'number', 'interrogatif', 'org', 'nationality', 'scope', 'object', 'work', 'language', 'quote', 'human\\_work'}
+Creating ../iob/Mixtral-8x7B-Instruct-v0.1/no_guidelines/no_role/HIPE_de
+{'race', 'blood', 'quantity', 'location', 'rel', 'pers', 'dt', 'event', 'title', 'sorpö', 'plm', 'currency', 'how', 'product', 'work', 'animal', 'loc', 'motive', 'country', 'money', '?', 'amount', 'planet', 'westeuropean_nations', 'num', 'street', 'absolut', 'org', 'direction', 'on', 'it', 'plur', 'profession', 'in', 'age', 'gerüchte', 'verhandlungen', 'topic', 'organisation', 'pub', 'chem', 'time', 'humanprod', 'person'}
+Creating ../iob/Mixtral-8x7B-Instruct-v0.1/no_guidelines/no_role/HIPE_en
+{'height', 'weapon', 'interest', 'lang', 'location', 'humanprodud', 'humanprod', 'date', 'time', 'it', 'num', 'money', 'letter', 'entity', 'commodity', 'treasure-box', 'you', 'other', 'title', 'material', 'vehicle', 'loc', 'weakness', 'organisation', 'hardyperennials', 'quantity', 'sig', 'feeling', 'direction', 'misc', 'disease', 'error', 'doc', 'summerflowers', 'person', 'org', 'hardyannuals', 'length', 'missingrobber', 'abs', 'product', 'pers', 'dep', 'day-of-week', 'color'}
+Creating ../iob/Mixtral-8x7B-Instruct-v0.1/no_guidelines/no_role/HIPE_fr
+{'weapon', 'publisher', 'blank', 'quantity', 'nation', 'domain', 'num', 'humanprod', 'pronoun', 'emotion', 'weather', 'flocons', 'this', 'noun', 'symptom', 'audience', 'sentence', 'occupation', 'his', 'money', 'commodity', 'vehicle', 'nationality', 'animal', 'book', 'currency', 'anim', 'number', 'camp', 'per', 'loc', 'speech', 'military', 'date', 'organisation', 'pub', 'title', 'org', 'specialitiesofcomptoir', 'event', 'religion', 'producttype', 'him', 'country', 'disorder', 'sound', 'time', 'pers', 'person', 'pistol', 'product'}
+Creating ../iob/Mixtral-8x7B-Instruct-v0.1/no_guidelines/no_role/Newseye_de
+{'day', 'org', 'humanprod', 'zorg', 'event', 'sprintf', 'money', 'occupation', 'in', 'quote', 'misc', 'person', 'verb', 'sport', 'forg', 'prod', 'animal', 'per', 'quantity', 'ocg', 'num', 'measure', 'time', 'date', 'currency', 'loc', 'sentence', 'product', 'film', 'topic', 'schema'}
+Creating ../iob/Mixtral-8x7B-Instruct-v0.1/no_guidelines/no_role/Newseye_fr
+{'time', 'product', 'event', 'misc', 'crime', 'prod', 'he', 'per', 'humanprod', 'org', 'dayofweek', 'ne', 'loc', 'sprintf', 'play', 'date', 'year', '/per', 'num', 'temp'}
+Creating ../iob/Mixtral-8x7B-Instruct-v0.1/no_guidelines/role/AJMC_de
+{'work', 'date', 'scope', 'org', 'object', 'pers', 'lang', 'loc', 'korg'}
+Creating ../iob/Mixtral-8x7B-Instruct-v0.1/no_guidelines/role/AJMC_en
+{'pers', 'work', 'scope', 'org', 'object', 'date', 'question', 'det', 'loc'}
+Creating ../iob/Mixtral-8x7B-Instruct-v0.1/no_guidelines/role/AJMC_fr
+{'scope', 'object', '/pers', 'lang', 'loc', 'work', 'pers', 'quotation', 'org', 'date'}
+Creating ../iob/Mixtral-8x7B-Instruct-v0.1/no_guidelines/role/HIPE_de
+{'sup', 'money', 'noun', 'it', 'quantity', 'organisation', 'people', 'year', 'direction', 'issue', 'de', 'loc', 'religion', 'planet', 'ansicht', 'pers', 'he', 'pos', 'title', 'nation', 'anim', 'type', 'about', 'country', 'produit', 'animals', 'become', 'liste', 'person', 'num', 'time', 'new', 'news', 'person.integrity', 'org', 'lang', 'prod', 'currency', 'sittlichkeit', 'event', 'date', 'rank', 'occupation', 'four'}
+Creating ../iob/Mixtral-8x7B-Instruct-v0.1/no_guidelines/role/HIPE_en
+{'direction', 'num', 'ruel', 'locations', 'disease', 'one-e', 'title', 'length', 'lang', 'loc', 'companion', 'time', 'letters', 'organisation', 'orb', 'person', 'money', 'date', 'words', 'word', 'he', 'ami', 'weakness', 'pers', 'sig', 'event', 'we', 'ne', 'org', 'prod'}
+Creating ../iob/Mixtral-8x7B-Instruct-v0.1/no_guidelines/role/HIPE_fr
+{'delit', 'location', 'emotion', 'lang', 'prison', 'occupation', 'their', 'ironie', 'issue', 'camp', 'wine', 'event', 'episodes', 'amount', 'org', 'publication', 'with', 'prodd', 'locations', 'chars', 'type', 'these', 'guingans', 'quantity', 'animals', 'year', 'date', 'commission', 'percent', 'day', 'monetary', 'person', 'organisation', 'loc', 'concept', 'disease', 'anim', 'symptom', 'nation', 'city', 'newspaper', 'marriage', 'num', 'flocons', 'sentence', 'money', 'plurals', 'fact', 'country', 'weather', 'class', 'blank', 'prod', 'time', 'him', 'organization', 'war', 'they', 'currency', 'difficile', 'crime', 'employment', 'month', 'this', 'pers'}
+Creating ../iob/Mixtral-8x7B-Instruct-v0.1/no_guidelines/role/Newseye_de
+{'building', 'datetime', 'expedition', 'temp', 'day', 'animal', 'country', 'opinion', 'quantity', 'jj', 'loc', 'measure', 'event', 'title', 'date', 'to', 'ne', 'phone', 'versammlungsaktionen', 'serie', 'prod', 'per', 'currency', 'org', 'num', 'str', 'dt', 'prof', 'misc', 'newspaper', 'ocg', 'time', 'music_group', 'money', 'product', 'section', 'person', 'humanprod'}
+Creating ../iob/Mixtral-8x7B-Instruct-v0.1/no_guidelines/role/Newseye_fr
+{'.,', 'date', 'day', 'crime', 'humanprod', 'dem', 'product', 'event', 'he', 'benefit', 'org', 'time', 'year', 'quantity', 'beneficiary', 'country', 'material', 'loc', 'play', 'num', 'article_num', 'per', 'dayofweek', 'money'}
+Creating ../iob/zephyr-7b-beta/guidelines/no_role/AJMC_de
+{'org', 'scope', 'neg', 'organisation', 'work', 'pers', 'loc'}
+Creating ../iob/zephyr-7b-beta/guidelines/no_role/AJMC_en
+{'org', 'ms', 'work', 'pers', 'date', 'scope'}
+Creating ../iob/zephyr-7b-beta/guidelines/no_role/AJMC_fr
+{'iti', 'deity', 'lang', 'scope', 'work', 'org', 'pers'}
+Creating ../iob/zephyr-7b-beta/guidelines/no_role/HIPE_de
+{'loc', 'humanprod', 'insurance', 'org', 'time', 'num', 'prof', 'animal', 'state', 'rel', 'pers', 'prod', 'sentance', 'date'}
+Creating ../iob/zephyr-7b-beta/guidelines/no_role/HIPE_en
+{'humanprod', 'pers', 'date', 'num', 'time', 'aud', 'loc', 'org', 'person', 'prod', 'chem'}
+Creating ../iob/zephyr-7b-beta/guidelines/no_role/HIPE_fr
+{'loc', 'date', 'condemned', 'sym', 'time', 'prod', 'org', 'prize', 'bns', 'num', 'humanprod', 'anim', 'religion', 'quote', 'pers'}
+Creating ../iob/zephyr-7b-beta/guidelines/no_role/Newseye_de
+{'person', 'org', 'humanprod', 'day', 'radio', 'num', 'date', 'cur', 'event', 'loc', 'per', 'time', 'addr', 'location', 'country'}
+Creating ../iob/zephyr-7b-beta/guidelines/no_role/Newseye_fr
+{'id', 'loc', 'num', 'article', 'org', 'per', 'humanprod'}
+Creating ../iob/zephyr-7b-beta/guidelines/role/AJMC_de
+{'work', 'loc', 'org', 'scope', 'obj', 'pers'}
+Creating ../iob/zephyr-7b-beta/guidelines/role/AJMC_en
+{'org', 'scope', 'work', 'pers', 'loc', 'ms', 'date'}
+Creating ../iob/zephyr-7b-beta/guidelines/role/AJMC_fr
+{'loc', 'lang', 'deity', 'pers', 'reference', 'sentence', 'iti', 'org', 'work', 'scope'}
+Creating ../iob/zephyr-7b-beta/guidelines/role/HIPE_de
+{'loc', 'time', 'prod', 'org', 'pers', 'date', 'num'}
+Creating ../iob/zephyr-7b-beta/guidelines/role/HIPE_en
+{'loc', 'pers', 'num', 'date', 'org', 'prod', 'time'}
+Creating ../iob/zephyr-7b-beta/guidelines/role/HIPE_fr
+{'time', 'money', 'nation', 'lit', 'pers', 'date', 'animal', 'loc', 'mag', 'pri', 'acronym', 'amb', 'debt', 'org', 'cons', 'prod', 'num'}
+Creating ../iob/zephyr-7b-beta/guidelines/role/Newseye_de
+{'quantity', 'money', 'per', 'addr', 'loc', 'humanprod', 'cur', 'date', 'day', 'curr', 'mat', 'title', 'ne', 'num', 'org'}
+Creating ../iob/zephyr-7b-beta/guidelines/role/Newseye_fr
+{'humanprod', 'location', 'loc', 'per', 'org', 'num'}
+Creating ../iob/zephyr-7b-beta/no_guidelines/no_role/AJMC_de
+{'pers', 'scope', 'org', 'loc', 'work', 'chor'}
+Creating ../iob/zephyr-7b-beta/no_guidelines/no_role/AJMC_en
+{'loc', 'work', 'org', 'pers', 'date', 'scope'}
+Creating ../iob/zephyr-7b-beta/no_guidelines/no_role/AJMC_fr
+{'org', 'object', 'loc', 'work', 'page', 'pers', 'scope'}
+Creating ../iob/zephyr-7b-beta/no_guidelines/no_role/HIPE_de
+{'loc', 'org', 'rumor', 'humanprod', 'rel', 'oc', 'time', 'lang', 'pers'}
+Creating ../iob/zephyr-7b-beta/no_guidelines/no_role/HIPE_en
+{'chemical', 'date', 'num', 'org', 'pers', 'neg', 'time', 'humanprod', 'distance', 'loc'}
+Creating ../iob/zephyr-7b-beta/no_guidelines/no_role/HIPE_fr
+{'loc', 'money', 'num', 'prize', 'val', 'org', 'health', 'neg', 'orgprod', 'sentence', 'disease', 'animal', 'humanprod', 'pers', 'date', 'nation', 'time', 'measure', 'prod', 'rel', 'resource'}
+Creating ../iob/zephyr-7b-beta/no_guidelines/no_role/Newseye_de
+{'product', 'num', 'temp', 'humanprod', 'loc', 'prod', 'ctry', 'redner', 'addr', 'phone', 'org', 'per', 'event', 'sentorg'}
+Creating ../iob/zephyr-7b-beta/no_guidelines/no_role/Newseye_fr
+{'aristidegromer', 'agor', 'per', 'sentance', 'humanprod', 'loc', 'org', 'num'}
+Creating ../iob/zephyr-7b-beta/no_guidelines/role/AJMC_de
+{'org', 'pers', 'scope', 'work', 'loc'}
+Creating ../iob/zephyr-7b-beta/no_guidelines/role/AJMC_en
+{'scope', 'pers', 'date', 'loc', 'object', 'page', 'org', 'work'}
+Creating ../iob/zephyr-7b-beta/no_guidelines/role/AJMC_fr
+{'date', 'deity', 'neg', 'page', 'pers', 'scope', 'object', 'loc', 'work'}
+Creating ../iob/zephyr-7b-beta/no_guidelines/role/HIPE_de
+{'rumor', 'org', 'prod', 'lang', 'outcome', 'humprod', 'budget', 'date', 'num', 'abbr', 'dep', 'percent', 'year', 'location', 'time', 'title', 'prof', 'pers', 'occ', 'loc', 'planet'}
+Creating ../iob/zephyr-7b-beta/no_guidelines/role/HIPE_en
+{'pers', 'time', 'rel', 'location', 'num', 'prod', 'q', 'org', 'loc', 'date'}
+Creating ../iob/zephyr-7b-beta/no_guidelines/role/HIPE_fr
+{'situation', 'prof', 'loc', 'prod', 'disease', 'exp', 'ide', 'date', 'pers', 'pop', 'humprod', 'fin', 'animal', 'time', 'num', 'lang', 'gov', 'debt', 'mem', 'anim', 'org', 'event', 'prize', 'occup', 'sym', 'nation', 'weather', 'rel'}
+Creating ../iob/zephyr-7b-beta/no_guidelines/role/Newseye_de
+{'/loc', 'pos', 'title', 'num', 'temp', 'product', 'loc', 'cnt', 'ocg', 'animal', 'org', 'forg', 'per', 'humanprod', 'abbre', 'addr', 'conntagsnumber', 'time'}
+Creating ../iob/zephyr-7b-beta/no_guidelines/role/Newseye_fr
+{'ere', 'num', 'loc', 'org', 'phi', 'humanprod', 'per', 'location', 'res'}

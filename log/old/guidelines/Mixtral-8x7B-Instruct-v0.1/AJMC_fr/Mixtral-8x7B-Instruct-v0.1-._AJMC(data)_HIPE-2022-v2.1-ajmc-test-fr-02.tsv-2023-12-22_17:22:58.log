@@ -1,0 +1,98 @@
+ INPUT: "<SENTENCE>568 . Koügoic nvevpacwv . Scholiaste : Koïey xai éxadÿ Loÿ .</SENTENCE>"
+OUTPUT: "<SENTENCE>568 . <OBJECT>Koügoic nvevpacwv</OBJECT> . Scholiaste : Koïey xai éxadÿ <LOC>Loÿ</LOC> .</SENTENCE>"
+########
+ The input sentence is: "<SENTENCE>TP 8ù peragocd 4</SENTENCE>"
+
+The output sentence with the identified named entities is: "<SENTENCE>TP <OBJECT>8ù</OBJECT> peragocd <SCOPE>4</SCOPE></SENTENCE>"
+########
+ "<SENTENCE>πόνως κλανηθέντα μὴ εὐθυδρομῆσαι εἷς «<WORK>τὸ τῆς ζητήσεως τέλος</WORK>» , καθὸ ὁ <PERS>Αἴας</PERS> ἐποιήσατο τὴν <SCOPE>ἔφοδον</SCOPE> » τοῦτο γὰρ ἂν εἴη οὖριον. Mais les mots <OBJECT>tàv μαχρῶν ἀλάτον xéveæy</OBJECT> font bien plutbt allusion à la profession même des <PERS>marins</PERS> qui composent le <WORK>chæur</WORK> , à leers nombreux voyages , à leur vieille expérience que cette réeente expédition d ’ an autre genre vient de mettre eu défaut .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>89υ . Ἀμενηνὸν ἄνδρα , virum morbo debilitatum . [ <ORG>Hermann et Ellendt</ORG> . ]</SENTENCE>"
+OUTPUT: "<SENTENCE>89υ . Ἀμενηνὸν ἄνδρα , virum morbo debilitatum . [ <ORG>Hermann et Ellendt</ORG> . ]</SENTENCE>"
+########
+ INPUT: "<SENTENCE>892 , Πάρανλος équivaut à dyyvz . Cf , OEd . à Colone , 785 . [ Wunder et Schneidewin.] 898 . “ O3 ’ annonce au chœur que Tecmesse vient enfin de trouver Ajax .</SENTENCE>"
+OUTPUT: "<SENTENCE>892 , <WORK>Πάρανλος</WORK> équivaut à <WORK>dyyvz</WORK> . Cf , <WORK>OEd.</WORK> à <WORK>Colone</WORK> , <SCOPE>785</SCOPE> . [ <PERS>Wunder</PERS> et <PERS>Schneidewin</PERS> ] 898 . “ <PERS>O3</PERS> ’ annonce au chœur que <PERS>Tecmesse</PERS> vient enfin de trouver <PERS>Ajax</PERS> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>899 . Kpuqaiæ comme xpueÿ . Baueoop d ’ adjectifs en œos ne sont , pour ainsi dire , que des adverbes déclinables : par exemple τριταῖος , ἑδδομαῖος , εἴα . souvent aussi λαθραῖος . Οἵ . la note . sur le vers 247 .</SENTENCE>"
+OUTPUT: "<SENTENCE>899 . Kpuqaiæ comme xpueÿ . <WORK>Baueoop</WORK> d ’ adjectifs en œos ne sont , pour ainsi dire , que des adverbes déclinables : par exemple τριταῖος , ἑδδομαῖος , εἴα . souvent aussi λαθραῖος . Οἵ . <SCOPE>la note</SCOPE> . sur le vers 247 .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>— Περιπτυχής . Υογ . la note sar le vers 828 .</SENTENCE>"
+OUTPUT: "<SENTENCE>— <PERS>Περιπτυχής</PERS> . <WORK>Υογ</WORK> . la note sar le vers <SCOPE>828</SCOPE> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>900 . Ὥμοι ἐμῶν νόστων . Αὐ pluriel , comme dans Élecrrc , vers 193 .</SENTENCE>"
+OUTPUT: "<SENTENCE>900 . <WORK>Ὥμοι ἐμῶν νόστων</WORK> . Αὐ pluriel , comme dans <WORK>Élecrrc</WORK> , <SCOPE>vers 193</SCOPE> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Le chœur désespère de revoir jamais son pays , maintepant qu ' il est privé de son chef ; ou il s ’ afflige à la peusée d ’ y retourner sans lui .</SENTENCE>"
+OUTPUT: "<SENTENCE>Le chœur désespère de revoir jamais <LOC>son pays</LOC> , maintepant qu ' il est privé de <PERS>son chef</PERS> ; ou il s ’ afflige à la peusée d ’ y retourner sans lui .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>L ' objet de la présente édition nous prescrivait de nous guider par d ' autres règles .</SENTENCE>"
+OUTPUT: "<SENTENCE>L ' <OBJECT>objet</OBJECT> de la <WORK>présente édition</WORK> nous prescrivait de nous guider par d ' autres <OBJECT>règles</OBJECT> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>À la fois éditeur et commentateur , nous avons cru devoir interprêéter tous les passages vraiment difficiles du texte que nous publions , sauf à contester plus d ' une fois , dans la partie critique , l ' authenticité de ces mêmes passages .</SENTENCE>"
+OUTPUT: "<SENTENCE>À la fois <ORG>éditeur</ORG> et <ORG>commentateur</ORG> , nous avons cru devoir interprêéter tous les passages vraiment difficiles du texte que nous publions , sauf à contester plus d ' une fois , dans la partie <WORK>critique</WORK> , l ' authenticité de ces mêmes passages .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Par là , nous croyons avoir satisfait , dans la mesure de nos forces, à notre double täche .</SENTENCE>"
+OUTPUT: "<SENTENCE>Par là , nous croyons avoir satisfait , dans la mesure de nos forces, à notre double täche .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Il faut parler maintenant des secours, de nature diverse , qui nous l ' ont rendue plus facile .</SENTENCE>"
+OUTPUT: "<SENTENCE>Il faut parler maintenant des <OBJECT>secours</OBJECT>, de <SCOPE>nature diverse</SCOPE> , qui nous <PERS>l</PERS> ' ont rendue plus facile .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>L ' édition des scholies publiée par Elmsley et Gaisford , en 1825 , est encore , à l ' heure qu ' il est , la plus récente .</SENTENCE>"
+OUTPUT: "<SENTENCE>L ' <WORK>édition des scholies</WORK> publiée par <PERS>Elmsley</PERS> et <PERS>Gaisford</PERS> , en <DATE>1825</DATE> , est encore , à l ' heure qu ' il est , la plus récente .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Nous avons pu profiter d ' ailleurs , pour beaucoup de nos citations , de celles qu ' a insérées dans son édition d ' Oxford M . Guillaume Dindorf , qui , dans un second volume faisant suite à la publication d ' Elmsley et Gaisford , a rectifié sur beaucoup de points le travail de ses devanciers .</SENTENCE>"
+OUTPUT: "<SENTENCE>Nous avons pu profiter d ' ailleurs , pour beaucoup de nos citations , de celles qu ' a insérées dans son édition d ' <ORG>Oxford</ORG> <PERS>M . Guillaume Dindorf</PERS> , qui , dans un second volume faisant suite à la publication d ' <PERS>Elmsley</PERS> et <PERS>Gaisford</PERS> , a rectifié sur beaucoup de points le travail de ses devanciers .</SENTENCE>"
+########
+ <SENTENCE>Ce second volume contient en outre les <WORK>scholies</WORK> d'<PERS>origine</PERS> plus récente, les <WORK>arguments</WORK>, et le <WORK>commentaire</WORK> de <PERS>Démétrius Triclinius</PERS>, <PERS>grammairien</PERS> grec qui vivait au <DATE>quatorzième</DATE> ou <DATE>quinzième</DATE> <TIME>siècle</TIME> .</SENTENCE>
+########
+ INPUT: "<SENTENCE>Parmi les travaux modernes que nous avons consultés , nous devons mettre au premier rang , à côté de l ' édition de M. <PERS>Bollack</PERS> , l ' étude de <PERS>Jean-Louis Ferrary</PERS> sur la deuxième partie du livre V de l ' Histoire Auguste.</SENTENCE>"
+OUTPUT: "<SENTENCE>Parmi les travaux modernes que nous avons consultés , nous devons mettre au premier rang , à côté de l ' édition de M. <PERS>Bollack</PERS> , l ' étude de <PERS>Jean-Louis Ferrary</PERS> sur la deuxième partie du livre V de l ' <WORK>Histoire Auguste</WORK>.</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Dindorf, celle de Schneidewin, revue par M. Nauck. Le commentaire de Schneidewin se recommandait par plus d'un titre à notre attention.</SENTENCE>"
+OUTPUT: "<SENTENCE>Dindorf, <WORK>celle de Schneidewin</WORK>, revue par <PERS>M. Nauck</PERS>. Le commentaire de <PERS>Schneidewin</PERS> se recommandait par plus d'un titre à notre attention.</SENTENCE>"
+########
+ INPUT: "<SENTENCE>D ' abord , il est rédigé en allemand , ce qui le rend inaccessible à un assez bon nombre de lecteurs français .</SENTENCE>"
+OUTPUT: "<SENTENCE>D ' abord , il est rédigé en <LANG>allemand</LANG> , ce qui le rend inaccessible à un assez bon nombre de lecteurs <PERS>français</PERS> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Il est , comme le nôtre , destiné à l ' enseignement .</SENTENCE>"
+OUTPUT: "<SENTENCE>Il est , comme le <WORK>nôtre</WORK> , destiné à l ' enseignement .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Enfin , pour ce qui regarde spécialement l ' interprétation , 1l a le rare avantage d ' être presque complet .</SENTENCE>"
+OUTPUT: "<SENTENCE>Enfin , pour ce qui regarde spécialement l ' <WORK>interprétation</WORK> , 1l a le rare avantage d ' être presque complet .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Beaucoup de difficultés dont aucune autre édition ne parle, y sont résolues d'une manière satisfaisante. Les questions archéologiques y sont traitées non seulement avec une science consommée, mais encore avec ce sentiment exquis de l'histoire, qui n'accompagne point nécessairement l'érudition.</SENTENCE>"
+OUTPUT: "<SENTENCE>Beaucoup de <SCOPE>difficultés</SCOPE> dont aucune autre édition ne parle, y sont résolues d'une manière satisfaisante. Les <SCOPE>questions archéologiques</SCOPE> y sont traitées non seulement avec une science consommée, mais encore avec ce sentiment exquis de <WORK>l'histoire</WORK>, qui n'accompagne point nécessairement l'érudition.</SENTENCE>"
+########
+ INPUT: "<SENTENCE>En même temps , des remarques très fines y découvrent les plus secrètes intentions du poëte , sans trahir jamais le dessein de le faire admirer .</SENTENCE>"
+OUTPUT: "<SENTENCE>En même temps , des remarques très fines y découvrent les plus secrètes intentions du <PERS>poëte</PERS> , sans trahir jamais le dessein de le faire admirer .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Tel était déjà l ' ouvrage de Schneidewin , quand M . Nauck a été chargé de le revoir .</SENTENCE>"
+OUTPUT: "<SENTENCE>Tel était déjà l ' <WORK>ouvrage</WORK> de <PERS>Schneidewin</PERS> , quand <PERS>M . Nauck</PERS> a été chargé de le revoir .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Nous</SENTENCE>"
+OUTPUT: "<SENTENCE>Nous</SENTENCE>"
+
+(The input sentence does not contain any named entities of the specified types.)
+########
+ INPUT: "<SENTENCE>n ’ étonnerons pas ceux qui connaissent les travaux de cet habile et hardi philologue , en disant qu ' il a su ajouter à tant de mérites celui de la critique la plus pénétrante et la plus ingénieuse .</SENTENCE>"
+OUTPUT: "<SENTENCE>n ’ étonnerons pas <PERS>ceux qui connaissent les travaux</PERS> de <PERS>cet habile et hardi philologue</PERS> , en disant qu ' il a su ajouter à tant de mérites celui de la critique la plus pénétrante et la plus ingénieuse .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>En un mot , si nous pouvons mériter un reproche , relativement à l ' usage que nous avons fait de cet excellent livre , ce n ' est pas pour lui avoir trop emprunté , ce serait plutôt pour n ’ ' y avoir pas puisé encore plus largement .</SENTENCE>"
+OUTPUT: "<SENTENCE>En un mot , si <PERS>nous</PERS> pouvons mériter un reproche , relativement à l ' usage que <PERS>nous</PERS> avons fait de <WORK>cet excellent livre</WORK> , ce n ' est pas pour lui avoir trop emprunté , ce serait plutôt pour n ’ ' y avoir pas puisé encore plus largement .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Wunder est regardé , à bon droit , comme un des guides les plus sûrs pour l ' intelligence de Sophocle .</SENTENCE>"
+OUTPUT: "<SENTENCE>Wunder est regardé , à bon droit , comme un des guides les plus sûrs pour l ' intelligence de <PERS>Sophocle</PERS> .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Il a d ' abord sur la plupart des autres interprètes un avantage considérable .</SENTENCE>"
+OUTPUT: "<SENTENCE>Il a d ' abord sur la plupart des autres <PERS>interprètes</PERS> un avantage considérable .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>C ' est d ' avoir fait de son auteur une étude toute spéciale , attestée par plusieurs éditions , et par divers travaux qui en sont autant de compléments .</SENTENCE>"
+OUTPUT: "<SENTENCE>C ' est d ' avoir fait de <PERS>son auteur</PERS> une étude toute spéciale , attestée par plusieurs éditions , et par divers travaux qui en sont autant de compléments .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Une critique prudente , une bonne méthode et une grande solidité dans l ' interprétation paraissent être ses qualités distinctives .</SENTENCE>"
+OUTPUT: "<SENTENCE>Une critique prudente , une bonne méthode et une grande solidité dans l ' interprétation paraissent être <PERS>ses</PERS> qualités distinctives .</SENTENCE>"
+########
+ INPUT: "<SENTENCE>Son commentaire , si instructif et si sensé , pèche malheureusement par une certaine prolixité , qui nuira toujours à son succès de ce côté du Rhin .</SENTENCE>"
+OUTPUT: "<SENTENCE>Son <WORK>commentaire</WORK> , si instructif et si sensé , pèche malheureusement par une certaine prolixité , qui nuira toujours à son succès de ce côté du Rhin .</SENTENCE>"
+########
+I've process 32 phrases!
